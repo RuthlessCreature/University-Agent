@@ -1,0 +1,7 @@
+name = "university-research-agent"
+main = "src/index.js"
+compatibility_date = "2026-10-14"
+[vars]
+MINIMAX_MODEL = "MiniMax-M3"
+MINIMAX_API_BASE = "https://api.minimax.io/v1"
+# Secret values must be configured by wrangler secret put.
