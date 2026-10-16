@@ -3,3 +3,15 @@
 node_modules/
 .wrangler/
 dist/
+!training/deck-zh/dist/
+training/deck-zh/dist/*
+training/deck-zh/.build/
+training/deck-zh/sources/*.html
+training/deck-zh/renders/full/
+training/deck-zh/renders/lo-full/
+training/deck-zh/renders/lo-sample/
+training/deck-zh/renders/sample/
+__pycache__/
+*.pyc
+!training/deck-zh/dist/*_v7.pptx
+training/deck-zh/.chart-data-*/

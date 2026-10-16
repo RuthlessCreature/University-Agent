@@ -1,0 +1,5 @@
+{
+  "repository": "https://github.com/RuthlessCreature/University-Skills",
+  "commit": "7987aaca32e23d1e041d8d530a386f2bc03c177f",
+  "integration": "bounded local JSON/DOCX workflow and selected instruction files; upstream provider scripts not integrated"
+}

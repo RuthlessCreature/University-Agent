@@ -1,0 +1,7 @@
+training/demos/** -text
+training/deck-zh/sources/** -text
+*.pptx binary
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary

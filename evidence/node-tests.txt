@@ -1,0 +1,18 @@
+✔ workflow catalog (43.0031ms)
+✔ input check (0.4899ms)
+✔ token required (1.2535ms)
+✔ model response mock (2.1779ms)
+✔ copies valid Skills to Codex directory (33.2857ms)
+✔ state contract requires input hash (59.4366ms)
+✔ state contract rejects skipped stage and stale revision (5.0836ms)
+✔ state contract binds review and artifact hashes (4.3967ms)
+✔ cloud route fails honestly without binding (1.6962ms)
+✔ cloud create handles malformed JSON before dispatch (2.1464ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 391.7966

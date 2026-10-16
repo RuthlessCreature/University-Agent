@@ -1,0 +1,76 @@
+﻿page,id,title,base_review,v7_visual_recheck,final_file_render,instructor_accepted
+1,O01,今天要完成哪些科研任务,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+2,O02,科研责任与 AI 使用披露,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+3,O03,课前问题用于决定案例深度,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+4,M101,提示词五步落实为可验收任务,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+5,M102,工具选型从材料和产物出发,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+6,M103,Agent、Workflow、Skill 与 MCP 的关系,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+7,M104,同一任务的聊天产物与文件产物,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+8,M105,Skill 文件与可运行能力之间的距离,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+9,M106,可恢复工作流需要保存阶段证据,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+10,M107,本地与云端共用契约，执行边界不同,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+11,M108,提示注入与材料权限的课堂检查,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+12,M201,选题四维评估需要具体依据,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+13,M202,趋势扫描与研究空白需要反证检索,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+14,M203,检索式必须能被另一位研究者重跑,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+15,M204,文献核验从出版记录走到正文证据,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+16,M205,文献矩阵保存方法差异和证据位置,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+17,M206,真实论文图要连同变量和图注一起读,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+18,M207,研究设计需要明确比较对象和分析单位,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+19,M208,参数优化前先确定不可变的对照,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+20,M209,缺失值与异常值保留处理依据,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+21,M210,公开观测数据支持描述，不直接证明因果,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+22,M211,统计报告要同时说明估计量和不确定性,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+23,M212,统计方法由问题和设计决定,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+24,M213,复算交付需要数据、代码和环境同时存在,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+25,M213B,同一计算在 Python、R 与 SPSS 中核对,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+26,M301,论文论证先确定主张与证据,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+27,M302,IMRAD 各部分回答不同的问题,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+28,M303,Review 需要检索协议和综合方法,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+29,M304,Humanizer 修订必须锁住数字和限定条件,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+30,M305,Paper Agent：从材料到 Word 草稿,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+31,M306,论文草稿验收先追踪一条结论,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+32,M307,期刊适配要改论证和格式,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+33,M311,申报书首先服从具体指南和模板,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+34,M312,目标与指标需要双向对应,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+35,M313,科学问题、目标和内容承担不同角色,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+36,M314,技术路线包含数据、方法与失败出口,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+37,M315,Grant Agent 本地演示的验收文件,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+38,M316,审核失败应该定位到具体约束,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+39,M317,团队介绍中的每个亮点都应有出处,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+40,M318,经费预算按任务和测算依据编制,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+41,M321,交底书先收集可实施的技术事实,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+42,M322,区别特征需要与最接近现有技术比较,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+43,M323,实施例中的参数必须由事实支撑,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+44,M324,审稿意见按证据与修改位置回应,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+45,M325,Patent 演示输出必须保留缺口,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+46,M326,返修和交底都需要逐项关闭问题,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+47,M331,科研图分流取决于它表达的对象,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+48,M332,数据图的坐标和误差决定读者看到什么,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+49,M333,机制示意图先写事实规格,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+50,M334,技术路线图保留可编辑源与状态,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+51,M335,Figure 演示从同一 CSV 生成可核对图表,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+52,M336,图表交付要能回答三个具体追问,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+53,M401,结题材料围绕任务书逐项归档,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+54,M402,中期检查以偏差和纠正措施为主,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+55,M403,成果传播需要版本和身份可追溯,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+56,M404,Closeout 的输出是一份可补交清单,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+57,M405,一项成果如何改成报告、PPT 与科普,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+58,Z01,一项科研任务的完整证据路径,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+59,Z02,答疑围绕当前可验证的产物,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+60,REF01,主要学术材料与数据来源,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+61,REF02,工具文档与工作流方法来源,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+62,E01,检索的召回与精度如何权衡,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False
+63,E02,多篇论文结论冲突的拆解,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+64,E03,缺失机制影响推断的练习,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+65,E04,训练集与评价集的隔离,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+66,E05,预算约束下的设计取舍,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+67,E06,论文摘要与结果的逐句对应,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+68,E07,引文真实存在仍可能引用错误,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+69,E08,申报创新点的可检验表达,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+70,E09,指南更新后的版本迁移,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+71,E10,专利附图与正文的一致性,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+72,E11,评审分歧需要可定位的回应,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+73,E12,灰度和投影条件下的科研图,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+74,E13,云端状态与失败恢复的演练,individual visual review v4/v5,False,LibreOffice PPTX->PDF->PNG,False
+75,E14,把课程方法迁移到自己的学科,individual visual review v4/v5,True,LibreOffice PPTX->PDF->PNG,False

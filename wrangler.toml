@@ -5,3 +5,11 @@ compatibility_date = "2026-10-14"
 MINIMAX_MODEL = "MiniMax-M3"
 MINIMAX_API_BASE = "https://api.minimax.io/v1"
 # Secret values must be configured by wrangler secret put.
+
+[[durable_objects.bindings]]
+name = "RUNS"
+class_name = "ResearchRun"
+
+[[migrations]]
+tag = "v1-run-state"
+new_sqlite_classes = ["ResearchRun"]

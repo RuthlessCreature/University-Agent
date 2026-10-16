@@ -1,0 +1,38 @@
+{
+  "kind": "grant",
+  "status": "draft_review_required",
+  "input_sha256": "92831149d18a85f1e05c1083751c0ca03e96572b730e8d12df84100c08e5e738",
+  "template_sha256": "ecfe2a21d747a214e94cbb61c9e4b746ec4a1d6f3057c5b168fed9a612a354b7",
+  "guide_sha256": "5dbed041b003c020b2453954057edf0a6202608762c1d080c219f61c02dad0f2",
+  "artifact": "grant-draft.docx",
+  "artifact_sha256": "0b7a9cdf6aafec9b1266627f2f9d2bd2058e1e774ec192bf703b4671693a6c4e",
+  "human_approved": false,
+  "external_model_called": false,
+  "scientific_validation": "not_performed",
+  "events": [
+    {
+      "stage": "intake",
+      "state": "running",
+      "detail": "",
+      "utc": "2026-10-16T16:04:33.963215+00:00"
+    },
+    {
+      "stage": "constraints",
+      "state": "passed",
+      "detail": "",
+      "utc": "2026-10-16T16:04:34.005223+00:00"
+    },
+    {
+      "stage": "outline",
+      "state": "human_review_required",
+      "detail": "",
+      "utc": "2026-10-16T16:04:34.026224+00:00"
+    },
+    {
+      "stage": "docx",
+      "state": "written",
+      "detail": "grant-draft.docx",
+      "utc": "2026-10-16T16:04:34.089502+00:00"
+    }
+  ]
+}

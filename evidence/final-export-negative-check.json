@@ -1,0 +1,7 @@
+{
+  "exit_code": 2,
+  "stdout": {
+    "error": "final_export_blocked"
+  },
+  "final_docx_exists": false
+}
