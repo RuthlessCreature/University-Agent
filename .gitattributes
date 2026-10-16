@@ -5,3 +5,4 @@ training/deck-zh/sources/** -text
 *.pdf binary
 *.png binary
 *.jpg binary
+.agents/** text eol=lf

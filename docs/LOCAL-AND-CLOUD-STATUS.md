@@ -1,11 +1,13 @@
-# 本地与云端分别验收
+# 本地、Worker与模型分别验收
 
-2026-10-16，本地127.0.0.1:8788已实测接收HTTP请求，调用Python读取教学材料和Word模板，生成并下载Grant、Paper、Patent三份DOCX。记录在training/demos/http-smoke.json。模型调用次数为0，不是自主研究或在线检索演示。
+2026-10-17更新。Python教学服务在127.0.0.1:8788实际接收HTTP请求，处理教学材料和Word模板，生成并下载Grant、Paper、Patent三份DOCX。记录在training/demos/http-smoke.json；模型调用为0。
 
-Cloudflare新增ResearchRun Durable Object及配置，保存阶段、输入哈希、版本和审核记录。契约测试使用内存fixture，只检验状态转移、冲突和缺少绑定时的错误响应。未运行真实Cloudflare对象，未部署，不声称有可公开访问网址。前端的旧/api/run仍为文本模型示例；新/api/runs负责状态，不自动调用Office工具服务。
+Worker预览在127.0.0.1:8789，通过Wrangler真实本地运行时使用ResearchProject Durable Object。已实际创建三个任务，检查缺少订阅Key与提前导出被拒绝，并验证进程重启后输入与版本保持。记录在evidence/wrangler-local-smoke.json。这是本地运行证据，尚不是Cloudflare云实例。
 
-MiniMax官方兼容文档本次查到MiniMax-M3及https://api.minimax.io/v1。模型标识存在不代表账户有权限；本次没有MINIMAX_API_KEY，真实请求未执行。没有Cloudflare Secrets或Nano Banana/Gemini接口配置。不能用其他供应商的Key冒充这些接口联调。
+Worker模型阶段读取与本地Codex相同的24份完整Skill。技能提交、文件哈希和包指纹在skills-lock.json；测试逐字核对本地安装文件与实际云端提示内容。Python、搜索、PDF/OCR与图像工具仍需分别接入，不能因Skill相同而假称能力相同。
 
-下一项真实联调：由用户在运行环境注入MiniMax及Cloudflare Secrets，执行小额模型请求，部署Worker，检查Durable Object重启后状态和真实文件服务契约。账号机密不写入仓库或聊天。科研文档最终提交、专利查新与讲师全程彩排各需独立验收。
+模型配置固定MiniMax-M3、token-plan和国内官方兼容地址api.minimax.cn/v1。使用独立的MINIMAX_TOKEN_PLAN_KEY Secret，普通按量Key不自动代入。Key尚未配置，未作真实模型调用。按用户要求，本轮只交付可部署版本，执行dry-run而不发布。
 
-本地命令：node tools/serve-local.mjs。默认只绑定127.0.0.1，仅执行本仓库三个固定教学输入。不要直接暴露到公网；它不是多用户科研服务。
+Worker的受约束DOCX填充工具已在Node中真实处理三份模板，产物位于各案例worker-tool目录。阶段模型响应与完整状态链测试使用明确的夹具，不能当作MiniMax联调。Figure的16张真实数据图已在本地PPT构建中生成；Nano Banana未接入，Closeout云端文件适配也尚未完成。
+
+部署命令、Secret、输入格式、恢复与真实联调步骤见DEPLOYMENT.md。讲师完整授课彩排、科学结论审查与正式科研提交继续独立验收。

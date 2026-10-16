@@ -1,0 +1,31 @@
+
+> test
+> node --test tests/*.test.mjs
+
+✔ workflow catalog (73.4233ms)
+✔ input check (0.5994ms)
+✔ token required (1.9545ms)
+✔ model response mock (3.7019ms)
+✔ copies valid Skills to Codex directory (49.4527ms)
+✔ 24 installed Skill files match the exact Worker prompt bytes (48.6843ms)
+✔ Token Plan never silently falls back to an ordinary API key (1.8811ms)
+✔ model transport fixture uses the requested M3 and subscription key (51.9457ms)
+✔ input rejects changed guidelines and unknown source references (3.1489ms)
+✔ candidate rejects omitted template chapters and invented source IDs (1.106ms)
+✔ stage prompt contains full canonical Skill content (0.6275ms)
+✔ actual DOCX template export preserves paragraphs and escapes text (105.4666ms)
+✔ project blocks export and skipped approval before any model call (89.099ms)
+✔ provider fixture drives actual state writes and Word bytes, without claiming a live model (196.0837ms)
+✔ state contract requires input hash (68.9722ms)
+✔ state contract rejects skipped stage and stale revision (4.6187ms)
+✔ state contract binds review and artifact hashes (6.2686ms)
+✔ cloud route fails honestly without binding (2.0157ms)
+✔ cloud create handles malformed JSON before dispatch (2.6389ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 821.4871

@@ -1,6 +1,6 @@
 {
   "review_date": "2026-10-17",
-  "slide_count": 75,
+  "slide_count": 200,
   "sample_count": 12,
   "main_minutes": 370,
   "extension_minutes": 110,
@@ -9,22 +9,22 @@
   "cloud_deployed": false,
   "packages": [
     {
-      "file": "training\\deck-zh\\dist\\University_AI_Research_Training_12_Sample_v7.pptx",
-      "sha256": "83e062f495ca12a861ecee1f7ecb202564c6d1ce8747e2244c2825cbba69c694",
-      "bytes": 1824235,
+      "file": "training\\deck-zh\\dist\\University_AI_Research_Training_12_Sample_v11.pptx",
+      "sha256": "c8fe28a7267bd1fb65703bac620ab49f0a27d7ad55fb6ae16fb475a3a972822c",
+      "bytes": 1827537,
       "slides": 12,
       "notes": 12,
-      "charts": 1,
-      "embedded_workbooks": 1
+      "charts": 2,
+      "embedded_workbooks": 2
     },
     {
-      "file": "training\\deck-zh\\dist\\University_AI_Research_Training_ZH_v7.pptx",
-      "sha256": "fa33b4cf749be2c93b04e7e57e561009faf76112daa8a107cdf054d04295547c",
-      "bytes": 2067225,
-      "slides": 75,
-      "notes": 75,
-      "charts": 1,
-      "embedded_workbooks": 1
+      "file": "training\\deck-zh\\dist\\University_AI_Research_Training_ZH_v11.pptx",
+      "sha256": "11c22b03fcebdd745db15f575376cdf71bc715df6dd9346cc9f9b49e60f39122",
+      "bytes": 2642604,
+      "slides": 200,
+      "notes": 200,
+      "charts": 16,
+      "embedded_workbooks": 16
     }
   ],
   "local_outputs": [
@@ -44,5 +44,6 @@
       "status": "draft_review_required"
     }
   ],
-  "statistics_recomputed": true
+  "statistics_recomputed": true,
+  "expanded_chart_values_verified": 15
 }

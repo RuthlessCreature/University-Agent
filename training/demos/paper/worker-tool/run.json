@@ -1,0 +1,12 @@
+{
+  "kind": "paper",
+  "environment": "Node: actual Worker word-export.js function",
+  "model_called": false,
+  "cloud_called": false,
+  "scientific_signoff": false,
+  "input_sha256": "dec593f0153aa4a53aa73378971e1eba4998ebb0a899e76f381e47c6f9e4679d",
+  "template_sha256": "518f3f2d632b0be532dd9653313b42c0d3e30a13ccbfab481e194e677cdc2b93",
+  "artifact": "paper-template-tool-check.docx",
+  "artifact_sha256": "08277c944f075fe9830ec6514618af625453a35baf6041685bf7d83e99b1da26",
+  "bytes": 38022
+}

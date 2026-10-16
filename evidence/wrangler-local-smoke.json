@@ -1,0 +1,50 @@
+{
+  "environment": "Wrangler local runtime / actual Durable Object storage",
+  "external_model_called": false,
+  "cloud_deployed": false,
+  "health": {
+    "ok": true,
+    "service": "university-agent",
+    "model": "MiniMax-M3",
+    "billing_mode": "token-plan",
+    "model_configured": false,
+    "persistence_bound": true,
+    "skill_commit": "7987aaca32e23d1e041d8d530a386f2bc03c177f",
+    "skill_fingerprint": "7b0f394edabf03e0acf62924a063b5728cdf9a7fa1e4104f4c230a1bf0ab0512"
+  },
+  "projects": [
+    {
+      "kind": "grant",
+      "id": "eb583674-d0bc-4f24-94c8-ac1e02d6ff22",
+      "input_sha256": "7a387c0a4705053b7e658af40f364affe5375cd1e2f31441d963f7e7c1aa2685",
+      "template_sha256": "ecfe2a21d747a214e94cbb61c9e4b746ec4a1d6f3057c5b168fed9a612a354b7",
+      "created_http_status": 201,
+      "unconfigured_model_blocked": true,
+      "premature_export_blocked": true,
+      "restored_input_matches": true,
+      "persisted_after_process_restart": true
+    },
+    {
+      "kind": "paper",
+      "id": "29116344-7af1-47c7-9f9b-37d73259c01f",
+      "input_sha256": "27ff521522c470259b059c3a9d0e3a2cc59d4104d8f3f0d42080a795de8fe451",
+      "template_sha256": "518f3f2d632b0be532dd9653313b42c0d3e30a13ccbfab481e194e677cdc2b93",
+      "created_http_status": 201,
+      "unconfigured_model_blocked": true,
+      "premature_export_blocked": true,
+      "restored_input_matches": true,
+      "persisted_after_process_restart": true
+    },
+    {
+      "kind": "patent",
+      "id": "58a24afb-97d6-4788-aff7-861493daeee0",
+      "input_sha256": "9f98baf16242d97bbc380ae6f86f115c358360d1c72a28633123d2d63d5c0085",
+      "template_sha256": "371963251fe4dbc29171f9fe1119e406b22e5b2c84aa3379e021d61c68fd9989",
+      "created_http_status": 201,
+      "unconfigured_model_blocked": true,
+      "premature_export_blocked": true,
+      "restored_input_matches": true,
+      "persisted_after_process_restart": true
+    }
+  ]
+}

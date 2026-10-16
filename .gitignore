@@ -13,5 +13,6 @@ training/deck-zh/renders/lo-sample/
 training/deck-zh/renders/sample/
 __pycache__/
 *.pyc
-!training/deck-zh/dist/*_v7.pptx
+.build-worker/
+!training/deck-zh/dist/*_v11.pptx
 training/deck-zh/.chart-data-*/

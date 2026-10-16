@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
@@ -8,12 +9,13 @@ const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/depend
 const all=JSON.parse(await fs.readFile(path.join(ROOT,'slides_manifest.json'),'utf8'));
 const isSample=process.argv.includes('--sample');
 const data=isSample?all.filter(s=>s.sample):all;
-const tableKinds=['table','mapping','schedule','policy','statistics'];
+const tableKinds=['table','mapping','schedule','policy','statistics','evidence'];
 const tableOwners=data.flatMap((d,i)=>tableKinds.includes(d.visual_type)?[i+1]:[]);
 const suffix=isSample?'12_Sample':'ZH';
-const out=path.join(ROOT,'dist',`University_AI_Research_Training_${suffix}_v7.pptx`);
+const revision=process.env.DECK_REVISION||'v11';
+const out=path.join(ROOT,'dist',`University_AI_Research_Training_${suffix}_${revision}.pptx`);
 const renderDir=path.join(ROOT,'renders',isSample?'sample':'full');
-const stage=path.join(ROOT,'.build',suffix+'-v7');await fs.mkdir(stage,{recursive:true});await fs.mkdir(renderDir,{recursive:true});
+const stage=path.join(ROOT,'.build',suffix+'-'+revision);await fs.mkdir(stage,{recursive:true});await fs.mkdir(renderDir,{recursive:true});
 const p=Presentation.create({slideSize:{width:1600,height:900}});
 const F='Microsoft YaHei';p.theme.defaultFont=F;const C={navy:'#17324D',ink:'#243442',muted:'#596A76',blue:'#235F85',pale:'#EDF3F6',rule:'#CED9E0',red:'#91412E'};
 const provenance=JSON.parse(await fs.readFile(path.join(ROOT,'sources/manifest.json'),'utf8'));
@@ -23,10 +25,10 @@ function text(s,str,x,y,w,h,size=32,bold=false,color=C.ink){
 }
 function rect(s,x,y,w,h,fill=C.pale){return s.shapes.add({geometry:'rect',position:{left:x,top:y,width:w,height:h},fill,line:{fill:'none',width:0}});}
 function rule(s,x,y,w){rect(s,x,y,w,1,C.rule);}
-function table(s,rows,{x=80,y=205,w=1440,h=540,widths=null,font=28,header=true}={}){
+function table(s,rows,{x=80,y=205,w=1440,h=540,widths=null,font=28,header=true,compact=false}={}){
  const cols=rows[0].length;const t=s.tables.add({rows:rows.length,columns:cols,left:x,top:y,width:w,height:h,values:rows,columnWidths:widths||(cols===2?[300,w-300]:Array(cols).fill(w/cols))});
  const range=t.cells.block({row:0,column:0,rowCount:rows.length,columnCount:cols});
- range.assign({fill:'#FFFFFF',textStyle:{typeface:F,fontSize:font,color:C.ink},margins:{top:17,bottom:12,left:18,right:16},anchor:'top'});
+ range.assign({fill:'#FFFFFF',textStyle:{typeface:F,fontSize:font,color:C.ink},margins:{top:compact?8:17,bottom:compact?6:12,left:18,right:16},anchor:'top'});
  t.borders.assign({fill:C.rule,width:1,style:'solid'});
  if(header)t.cells.block({row:0,column:0,rowCount:1,columnCount:cols}).assign({fill:C.pale,textStyle:{typeface:F,fontSize:font,bold:true,color:C.navy}});
  return t;
@@ -39,10 +41,21 @@ for(let index=0;index<data.length;index++){
  text(s,d.optional?'延伸备课':d.module,80,42,1370,38,23,true,C.blue);
  text(s,d.title,80,100,1440,90,50,true,C.navy);
  const simulation=['M101','M207','M208','M304','M312','M313','M314','M321','M322','M323','M401','M318'].includes(d.id);
- const source=d.id.startsWith('REF')?'完整链接见本页备注与来源台账':d.source==='teaching'?(simulation?'教学模拟案例':'课程方法讲义'):d.source.split(';').map(k=>provenance.find(x=>x.id===k)?.title||k).join('；');
+ const source=d.material_label|| (d.id.startsWith('REF')?'完整链接见本页备注与来源台账':d.source==='teaching'?(simulation?'教学模拟案例':'课程方法讲义'):d.source.split(';').map(k=>provenance.find(x=>x.id===k)?.title||k).join('；'));
  text(s,`${source}  ·  ${d.id}`,80,830,1350,45,19,false,C.muted);text(s,String(index+1).padStart(2,'0'),1450,830,70,38,22,false,C.muted);
  s.speakerNotes.text=`教学目标：${d.learning_point}\n讲解预算：${d.estimated_time_sec}秒\n${d.speaker_notes}\n来源：\n${d.source.split(';').map(k=>provenance.find(x=>x.id===k)?.url||'本课程原创教学模拟 / 分析框架').join('\n')}\n材料属性：${d.example_or_data}`;
- if(['table','mapping','schedule','policy'].includes(d.visual_type)){
+ if(d.visual_type==='worked'){
+  const positions=[[215,160],[390,205],[615,175]],labels=['给定材料','推理与处理','判断依据'];
+  for(let j=0;j<3;j++){const [y,h]=positions[j];text(s,labels[j],80,y,170,50,24,true,C.blue);text(s,d.body[j],270,y,1245,h,29);if(j<2)rule(s,270,y+h,1245);}
+ }else if(d.visual_type==='evidence'){
+  rect(s,80,205,1440,52,C.pale);[98,363,988].forEach((x,j)=>text(s,d.evidence_rows[0][j],x,216,j===0?230:j===1?580:510,35,24,true,C.navy));
+  table(s,d.evidence_rows.slice(1),{y:257,h:423,widths:[265,625,550],font:24,compact:true,header:false});
+  text(s,d.body[1]+' '+d.body[2],85,705,1420,90,26);text(s,d.evidence_path,80,800,1420,28,18,false,C.muted);
+ }else if(d.visual_type==='datachart'){
+  const spec=d.chart;s.charts.add('bar',{position:{left:80,top:210,width:900,height:540},categories:spec.categories,series:[{name:spec.unit,values:spec.values,fill:C.blue}],barOptions:{direction:'column',grouping:'clustered',gapWidth:spec.gap??65},hasLegend:false,xAxis:{...(spec.x_unit?{title:{text:spec.x_unit,textStyle:{fontSize:22}}}:{}),textStyle:{typeface:F,fontSize:20}},yAxis:{min:0,title:{text:spec.unit,textStyle:{fontSize:24}},textStyle:{typeface:F,fontSize:22},majorGridlines:{fill:'#E4EAEE',width:1}},dataLabels:{showValue:true,position:'outEnd',numberFormatCode:spec.values.some(v=>v%1!==0)?'0.0':'0',textStyle:{fontSize:20}},chartFill:'#FFFFFF'});
+  text(s,d.body[0],1020,220,495,285,28);text(s,d.body[1],1020,540,495,220,27);
+  text(s,'来源：palmerpenguins CSV（CC0）；本地描述性复算，未做显著性或因果检验',85,780,1420,35,21,false,C.muted);
+ }else if(['table','mapping','schedule','policy'].includes(d.visual_type)){
   const rows=d.visual_type==='schedule'?[['时间','模块','主要材料'],...d.body]:d.visual_type==='policy'?[['使用情境','具体任务','研究者责任'],...d.body]:d.body;
   table(s,rows,{h:d.visual_type==='schedule'?510:550,font:28,widths:rows[0].length===3?[330,560,550]:null});
   if(d.visual_type==='schedule')text(s,'正式授课 370 分钟  /  短休 20 分钟  /  延伸备课 110 分钟',96,746,1380,55,29,true,C.blue);
@@ -85,6 +98,8 @@ for(let i=0;i<p.slides.items.length;i++){
  const png=await p.export({slide:p.slides.items[i],format:'png',scale:1});await fs.writeFile(path.join(renderDir,`slide-${String(i+1).padStart(2,'0')}.png`),new Uint8Array(await png.arrayBuffer()));console.log('render',i+1);
 }
 const {finalizePresentation}=await import(pathToFileURL(path.join(SKILL,'container_tools/artifact_tool_utils.mjs')).href);
-await finalizePresentation({workspaceDir:ROOT,candidatePath:path.join(stage,'candidate.pptx'),finalPath:out,pythonExecutable:PY,integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-heading-fit',...tableOwners.flatMap(n=>['--require-native-table-slide',String(n)])],fontPolicy:{basis:'design',families:[F]},verifyArtifactToolImport:true,explicitTotalSlideCount:data.length,requiredNativeChartOwnerSlides:data.flatMap((d,i)=>d.visual_type==='scatter'?[i+1]:[]),nativeChartTargetApplication:'portable',materializeLiteralChartWorkbooks:true,requiredNativeTableOwnerSlides:tableOwners,receiptPath:path.join(stage,'validation.json')});
+await finalizePresentation({workspaceDir:ROOT,candidatePath:path.join(stage,'candidate.pptx'),finalPath:out,pythonExecutable:PY,integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-heading-fit',...tableOwners.slice(0,45).flatMap(n=>['--require-native-table-slide',String(n)])],fontPolicy:{basis:'design',families:[F]},verifyArtifactToolImport:true,explicitTotalSlideCount:data.length,requiredNativeChartOwnerSlides:data.flatMap((d,i)=>['scatter','datachart'].includes(d.visual_type)?[i+1]:[]),nativeChartTargetApplication:'portable',materializeLiteralChartWorkbooks:true,requiredNativeTableOwnerSlides:tableOwners.slice(0,45),receiptPath:path.join(stage,'validation.json')});
 await fs.writeFile(path.join(stage,'authored.json'),JSON.stringify(p.toProto()));
+const completeLayout=execFileSync(PY,[path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),out,'--fail-on-findings','--expected-slide-size-emu','15240000,8572500','--validate-heading-fit',...tableOwners.flatMap(n=>['--require-native-table-slide',String(n)])],{windowsHide:true,maxBuffer:4000000});
+await fs.writeFile(path.join(stage,'all-tables-validation.json'),completeLayout);
 console.log('FINAL',out);

@@ -151,5 +151,35 @@
     "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
     "kind": "public-real-asset",
     "usage": "palmerpenguins CSV; CC0; see public project documentation"
+  },
+  {
+    "id": "prisma",
+    "url": "https://www.prisma-statement.org/prisma-2020-statement",
+    "title": "PRISMA 2020 statement",
+    "kind": "public-real-source",
+    "retrieved": "2026-10-17",
+    "usage": "official documentation; paraphrase only",
+    "sha256": "62dcb0a62027592266fc7306cdd18d034f60e6084f8b131fa37760971ec613bb",
+    "download": "ok"
+  },
+  {
+    "id": "minimax-cn",
+    "url": "https://platform.minimax.cn/docs/api-reference/text-openai-api",
+    "title": "MiniMax国内OpenAI兼容文档",
+    "kind": "public-real-source",
+    "retrieved": "2026-10-17",
+    "usage": "official documentation; paraphrase only",
+    "sha256": "7729468328d2df70cec7a3dfc6e614da8a1a764f6aa02a81e17c4ddf61b71f89",
+    "download": "ok"
+  },
+  {
+    "id": "minimax-plan",
+    "url": "https://platform.minimax.cn/docs/m-plan/quickstart",
+    "title": "MiniMax订阅Key配置说明",
+    "kind": "public-real-source",
+    "retrieved": "2026-10-17",
+    "usage": "official documentation; paraphrase only",
+    "sha256": "5f96b59b3c1d40bbeac61cd526c83b6c4a88fe37394f07268cb509ed51e464e7",
+    "download": "ok"
   }
 ]
