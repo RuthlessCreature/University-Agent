@@ -1,0 +1,27 @@
+[
+  {
+    "id": "nature-ai",
+    "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+    "bytes": 116033,
+    "retrieved": "2026-10-17"
+  },
+  {
+    "id": "science-policy",
+    "url": "https://www.science.org/content/page/science-journals-editorial-policies",
+    "error": "HTTPError"
+  },
+  {
+    "id": "plos-policy",
+    "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
+    "bytes": 98921,
+    "retrieved": "2026-10-17"
+  },
+  {
+    "id": "citation-study",
+    "url": "https://www.nature.com/articles/s41598-023-41032-5.pdf",
+    "doi": "10.1038/s41598-023-41032-5",
+    "pages": 8,
+    "sha256": "2a911abde0ab94ad322871af9c259cefe25254324815507157071da1e5e66b83",
+    "verified_location": "PDF第1页摘要、第4页表3与表4"
+  }
+]
