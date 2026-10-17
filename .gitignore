@@ -14,6 +14,7 @@ training/deck-zh/renders/sample/
 __pycache__/
 *.pyc
 .build-worker/
+.course-runtime/
 !training/deck-zh/dist/*_v11.pptx
 training/deck-zh/.chart-data-*/
 training/teaching-redesign/.build/
@@ -24,3 +25,10 @@ training/teaching-redesign/renders/r1/
 training/teaching-redesign/output/*_r2.pptx
 training/teaching-redesign/renders/r2/
 training/teaching-redesign/assets/nsfc-page16.png
+training/beginner-lesson/.build/
+training/beginner-lesson/.chart-data-*/
+training/beginner-lesson/assets/*.html
+training/beginner-lesson/assets/page1.png
+training/beginner-lesson/*.log
+training/beginner-lesson/output/*_b1.pptx
+training/beginner-lesson/renders/b1/

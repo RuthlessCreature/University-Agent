@@ -1,0 +1,12 @@
+[
+  {
+    "phrase": "does not directly assess",
+    "pdf_page": 2,
+    "context": "arger classes without prohibitive profes- sional opportunity costs. This study demonstrates the potential of LLMs to mimic instructor grading, but it does not directly assess student learning outcomes and critical thinking skills. Our notion of high- quality and detailed feedback rests on the idea that grading a smaller set of answers with more attention leads to better feedback, and if done more often, helps students develop their critical think"
+  },
+  {
+    "phrase": "prompt template for grading",
+    "pdf_page": 3,
+    "context": "luding the prompt template, using an SAQ on an article by Kim and Pelc on the domestic politics of U.S. trade [ 11] from one class as an example. The prompt template for grading SAQs contains five parts: 1. Preamble – brief instructions telling the LLM that its task is to grade the answer. 2. Question text – the full wording of the SAQ. 3. Grading principles – the rubric that distinguishes strong from weak answers, with short explanations. 4. Gol"
+  }
+]

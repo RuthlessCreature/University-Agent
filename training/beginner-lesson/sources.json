@@ -1,0 +1,18 @@
+[
+  {
+    "file": "assets/paper.html",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328041",
+    "sha256": "d5776243972ec9c3a976bbd7022bcee1671f4cb2d8cefa6b38031aca83fd834f",
+    "retrieved": "2026-10-17",
+    "license": "CC BY 4.0",
+    "attribution": "Heinrich et al. PLOS ONE 20(8): e0328041 (2025)"
+  },
+  {
+    "file": "assets/paper.pdf",
+    "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0328041&type=printable",
+    "sha256": "693b361d0d010ae8d7e8d99fa3af523ab6dfe25e85136fb8a87e4f300276fd3a",
+    "retrieved": "2026-10-17",
+    "license": "CC BY 4.0",
+    "attribution": "Heinrich et al. PLOS ONE 20(8): e0328041 (2025)"
+  }
+]
