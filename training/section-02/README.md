@@ -1,6 +1,6 @@
 # Section 2：Agentic AI、AI Agent 与科研工作流
 
-18 页中文学术讲授课件，无课堂练习。按具体任务解释模型、Agent、工作流、产品、Skill、工具、MCP 与 Harness；第 13—16 页为 Harness 专题。
+18 页中文学术讲授课件，无课堂练习。当前交付为 s2-r7；16 页以可编辑流程图、系统框图、分工关系或状态示意为主体，2 页保留比较表。详细解释保存在讲师稿和备注。按具体任务解释模型、Agent、工作流、产品、Skill、工具、MCP 与 Harness；第 13—16 页为 Harness 专题。
 
 可编辑 PPT 位于 `output/`，由最终 PPT 经 LibreOffice 导出的 PDF 和 18 张 PNG 位于 `renders/`。原理图、表格和文字均为原生可编辑对象。本节以概念关系为主题，没有为了配图加入研究数据或假造的执行截图。
 

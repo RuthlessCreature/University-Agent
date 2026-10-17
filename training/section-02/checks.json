@@ -1,21 +1,30 @@
 {
-  "revision": "s2-r2",
+  "revision": "s2-r7",
   "pptx_pages": 18,
   "pdf_pages": 18,
   "notes": 18,
   "preview_images": 18,
   "native_table_pages": [
-    3,
-    5,
     6,
-    9,
     17
   ],
   "native_diagram_pages": [
+    1,
+    2,
+    3,
     4,
+    5,
+    7,
+    8,
+    9,
     10,
+    11,
+    12,
     13,
-    16
+    14,
+    15,
+    16,
+    18
   ],
   "harness_pages": [
     13,
@@ -24,6 +33,6 @@
     16
   ],
   "raster_images": 0,
-  "pptx_sha256": "2d5eddd379820c9f106e9569698f2efb5caa0f76ffcf5926e69c8649bbdecef1",
+  "pptx_sha256": "3bdf8539ed315ac1a46aedb6bff6dcac1c9bd007efd055b1d78e818ec9202e4c",
   "scope": "文件、页数、原生对象和备注来源核验；不代表科研Agent全系统运行或用户教学验收。"
 }

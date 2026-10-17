@@ -2,7 +2,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s2-r2';
+import {drawVisual} from './visuals.mjs';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s2-r7';
 const SKILL='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation}=await import(pathToFileURL(path.join(SKILL,'container_tools/artifact_tool_utils.mjs')).href);
@@ -16,7 +17,8 @@ function node(s,v,x,y,w,h){const t=s.shapes.add({geometry:'rect',position:{left:
 function arrow(s,a,b,fromSide='right',toSide='left',kind='straight'){s.shapes.connect(a,b,{kind,fromSide,toSide,line:{fill:C.blue,width:2},tail:{type:'arrow',width:'med',length:'med'}});}
 function table(s,rows){const widths=[260,590,590];const t=s.tables.add({rows:rows.length,columns:3,left:80,top:320,width:1440,height:450,values:rows,columnWidths:widths});t.cells.block({row:0,column:0,rowCount:rows.length,columnCount:3}).assign({fill:'#FFFFFF',textStyle:{typeface:F,fontSize:27,color:C.ink},margins:{top:16,left:16,right:16,bottom:12},anchor:'top'});t.borders.assign({fill:C.rule,width:1});t.cells.block({row:0,column:0,rowCount:1,columnCount:3}).assign({fill:C.navy,textStyle:{typeface:F,fontSize:28,bold:true,color:'#FFFFFF'}});}
 for(const d of data){const s=p.slides.add();s.background.fill='#FFFFFF';text(s,'02  Agentic AI、AI Agent 与科研工作流',80,28,1400,32,20,false,C.muted);text(s,d.title,80,84,1440,82,47,true,C.navy);rule(s,80,184,1440,C.navy,2);text(s,d.thesis,80,213,1440,85,31,false,C.blue);
- if(d.kind==='compare')table(s,d.rows);
+ if(drawVisual(s,d,{text,node,arrow,rule,C})){}
+ else if(d.kind==='compare')table(s,d.rows);
  else if(d.kind==='rows'){
   const xs=[80,430,1010],ws=[305,530,510];d.heads.forEach((v,i)=>text(s,v,xs[i],322,ws[i],43,28,true,C.blue));
   d.rows.forEach((r,i)=>{const y=390+i*96;r.forEach((v,j)=>text(s,v,xs[j],y,ws[j],80,j===0?30:28,j===0));if(i<3)rule(s,80,y+83,1440);});
@@ -41,9 +43,9 @@ for(const d of data){const s=p.slides.add();s.background.fill='#FFFFFF';text(s,'
   const start=d.kind==='loop'?598:555;d.rows.forEach((r,i)=>{const y=start+i*66;text(s,r[0],80,y,300,55,29,true,C.blue);text(s,r[1],430,y,1090,61,28);});
  }
  text(s,d.bottom,80,812,1440,52,23,false,C.green);text(s,'来源：'+d.refs.map(k=>refs[k].short).join('；'),80,872,1340,24,16,false,C.muted);text(s,String(d.n).padStart(2,'0'),1455,861,65,34,23,false,C.muted);
- s.speakerNotes.text=d.notes+'\n\n'+d.refs.map(k=>`${refs[k].title}\n${refs[k].url}\n定位：${refs[k].location}`).join('\n\n');
+ s.speakerNotes.text=d.notes+'\n\n详细讲授内容：\n'+(d.rows??d.nodes).map(r=>Array.isArray(r)?r.join('：'):r).join('\n\n')+'\n\n'+d.refs.map(k=>`${refs[k].title}\n${refs[k].url}\n定位：${refs[k].location}`).join('\n\n');
 }
 const candidate=path.join(stage,'candidate.pptx');await(await PresentationFile.exportPptx(p)).save(candidate);
-const tables=data.filter(d=>d.kind==='compare').map(d=>d.n);
+const tables=[6,17];
 await finalizePresentation({workspaceDir:R,candidatePath:candidate,finalPath:path.join(R,'output',`高校科研AI课程_Section2_Agent与工作流_${rev}.pptx`),pythonExecutable:PY,integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-heading-fit',...tables.flatMap(n=>['--require-native-table-slide',String(n)])],fontPolicy:{basis:'design',families:[F]},explicitTotalSlideCount:18,requiredNativeTableOwnerSlides:tables,verifyArtifactToolImport:true,receiptPath:path.join(stage,'validation.json')});
 console.log('FINAL',rev,'18 slides');
