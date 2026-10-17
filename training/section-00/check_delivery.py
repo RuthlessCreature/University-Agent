@@ -5,7 +5,7 @@ from xml.etree import ElementTree as ET
 from pypdf import PdfReader
 
 root = Path(__file__).resolve().parent
-revision = sys.argv[1] if len(sys.argv) > 1 else 's0-r2'
+revision = sys.argv[1] if len(sys.argv) > 1 else 's0-r3'
 plan = json.loads((root.parent / 'curriculum/course_structure_240.json').read_text('utf-8'))
 assert sum(s['pages'] for s in plan['sections']) == 240
 assert [s['id'] for s in plan['sections'] if 'harness' in s] == [2, 14]
@@ -21,8 +21,11 @@ with zipfile.ZipFile(pptx) as archive:
     notes = [n for n in archive.namelist() if re.fullmatch(r'ppt/notesSlides/notesSlide\d+\.xml', n)]
     assert len(slides) == len(notes) == 4
     content = '\n'.join(' '.join(ET.fromstring(archive.read(n)).itertext()) for n in slides)
-    for text in ['Harness', 'Humanizer', '370', '110', '教学模拟']:
+    for text in ['Harness', 'Humanizer', '370', '110', '今天会跟着做哪些事']:
         assert text in content, text
+    page4 = ' '.join(ET.fromstring(archive.read('ppt/slides/slide4.xml')).itertext())
+    for filename in ['paper.pdf', 'penguins.csv', 'guide.json', 'template.docx']:
+        assert filename not in page4, filename
     assert not any(n.startswith('ppt/media/') for n in archive.namelist()), 'Section 0 uses editable text only'
 render = root / 'renders' / revision
 assert len(PdfReader(render / (pptx.stem + '.pdf')).pages) == 4

@@ -36,3 +36,5 @@ training/section-00/.build/
 training/section-00/*.log
 training/section-00/output/*_s0-r1.pptx
 training/section-00/renders/s0-r1/
+training/section-00/output/*_s0-r2.pptx
+training/section-00/renders/s0-r2/

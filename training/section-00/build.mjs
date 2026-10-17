@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s0-r2';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s0-r3';
 const SKILL='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const plan=JSON.parse(await fs.readFile(path.join(R,'../curriculum/course_structure_240.json'),'utf8'));
@@ -43,11 +43,11 @@ function page(title,n){const s=p.slides.add();s.background.fill='#FFFFFF';text(s
  s.speakerNotes.text='正式时段上午180分钟，下午210分钟，合计390分钟；扣除两次10分钟短休，授课370分钟。另备110分钟延伸材料，备课总量480分钟。约240页包含备用案例、演示和练习，不把所有页面都算作现场必讲。具体章节边界和演示时长随彩排调整，此页不构成已完成彩排的承诺。';
 }
 {
- const s=page('课前打开这三组材料',4);
- const rows=[['01','公开论文','paper.pdf · PLOS ONE（2025）','打开原文，核对 AI 回答中的说法。\n再把有依据的内容存成阅读笔记。'],['02','公开数据','penguins.csv · palmerpenguins','用企鹅观测记录练习检查缺失值，\n运行统计，再画出有数据依据的图。'],['03','教学任务与 Word 模板','guide.json、template.docx','对照任务要求，认识 Word 中的章节。\n两份材料均为教学模拟，\n不能用作正式申报指南与模板。']];
+ const s=page('今天会跟着做哪些事',4);
+ const rows=[['01','读论文，查证一句结论','从论文原文开始','请 AI 找出支持结论的段落，\n自己回到原文核对，\n记下这句话在什么条件下成立。'],['02','处理数据，做一张图','从一份原始数据表开始','先检查缺失值和异常记录，\n再做统计、画图，\n说明图中的差异能支持什么判断。'],['03','对照申报要求，整理材料','从指南与研究者已有材料开始','逐项找出要求，匹配已有内容；\n缺证据的地方明确标出，\n最后整理成可以继续修改的 Word。']];
  for(let i=0;i<3;i++){const r=rows[i],y=224+i*178;text(s,r[0],80,y,80,65,45,false,C.red);text(s,r[1],195,y,575,52,37,true);text(s,r[2],195,y+73,575,43,28,false,C.muted);text(s,r[3],850,y+6,665,130,32);if(i<2)rule(s,195,y+147,1325);}
- text(s,'先解压课程材料，用 PDF 阅读器、表格软件和 Word 分别打开。练习可从提供的示例开始。',80,781,1440,53,28,false,C.green);
- s.speakerNotes.text='本节材料包实际包含：公开PLOS ONE论文Heinrich等2025，DOI 10.1371/journal.pone.0328041，CC BY4.0；palmerpenguins公开CSV，CC0；项目已有TEACH-GRANT-01教学指南JSON与DOCX练习模板。JSON是任务说明文件，本节先认识用途，Grant章节提供读得懂的呈现，不要求学员手写代码。模板六个章节仅属教学模拟，不是2026面上或青C正式申请模板。涉及真实未发表材料时另按所在单位要求选择工具，不把个人材料上传到本节公开示例中。来源及文件哈希随materials-manifest.json保存。';
+ text(s,'讲到对应章节时，再介绍案例背景、材料来源，并带着大家操作。',80,781,1440,53,28,false,C.green);
+ s.speakerNotes.text='开场用三件具体工作说明课堂怎样学，不要求学员现在打开文件。读论文：核对AI摘出的原文是否支持结论，保留成立条件；处理数据：先检查，再统计和画图，解释差异；整理申报材料：按要求对应研究者已有内容，标出缺口，不凭空补写成果。三件事是全课中的代表任务，不是全部课程。具体案例和材料来源到相应章节再介绍。本项目现有公开论文、公开企鹅数据及TEACH-GRANT-01教学任务可供后续选用，它们彼此不是同一项研究；现有指南与Word模板属于教学模拟，不可称作正式申报材料。Humanizer用于表达修订时必须保留事实、证据和限定。';
 }
 await (await PresentationFile.exportPptx(p)).save(path.join(stage,'candidate.pptx'));
 const {finalizePresentation}=await import(pathToFileURL(path.join(SKILL,'container_tools/artifact_tool_utils.mjs')).href);
