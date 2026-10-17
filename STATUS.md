@@ -1,5 +1,7 @@
 # 接手基线与当前状态（2026-10-17）
 
+教学修订：用户否定200页v11的教学表达，当前仅保留为资料底稿。重新编写连续12页研究设计样课，记录见training/teaching-redesign/。本轮不新增云部署或模型调用，也不把软件测试作为教学质量验收。
+
 基线 Agent 9ea539b84b7ce50dbd666d220b43fc7b8b9dc259；Skills 16449ab74f1e55e99943d25c31cc1914f3fcb293。
 
 Git HTTPS 连续失败。通过 GitHub API 下载源文件并逐个校验 blob、tree、commit SHA，恢复同一提交的浅检出，非重新初始化的替代历史。当前分支 feature/teaching-evidence-20261016。

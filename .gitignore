@@ -16,3 +16,11 @@ __pycache__/
 .build-worker/
 !training/deck-zh/dist/*_v11.pptx
 training/deck-zh/.chart-data-*/
+training/teaching-redesign/.build/
+training/teaching-redesign/.chart-data-*/
+training/teaching-redesign/assets/*.html
+training/teaching-redesign/output/*_r1.pptx
+training/teaching-redesign/renders/r1/
+training/teaching-redesign/output/*_r2.pptx
+training/teaching-redesign/renders/r2/
+training/teaching-redesign/assets/nsfc-page16.png
