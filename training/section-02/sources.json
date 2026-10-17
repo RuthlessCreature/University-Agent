@@ -1,0 +1,9 @@
+{
+  "stanford": {"title":"Stanford CS224N, Winter 2026, Lecture 10: RAG and Agents","url":"https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf","location":"PDF第29—30页：定义与组成；第61页：执行环境；第68页：评估；第70页：工具循环","short":"Stanford CS224N（2026），Lecture 10"},
+  "patterns": {"title":"Anthropic, Building effective agents, 2024-12-19","url":"https://www.anthropic.com/engineering/building-effective-agents","location":"What are agents; Workflows; Agents。用于解释架构模式，不据此比较当前产品。","short":"Anthropic：Building effective agents"},
+  "chat": {"title":"OpenAI Docs, Use ChatGPT","url":"https://learn.chatgpt.com/docs/use-chatgpt","location":"Go from idea to useful result; Compare ChatGPT Work and Codex on desktop；核对2026-10-17","short":"OpenAI Docs：Use ChatGPT"},
+  "skills": {"title":"OpenAI Docs, Build skills","url":"https://learn.chatgpt.com/docs/build-skills","location":"技能包含指令、资源及可选脚本；How ChatGPT and Codex use skills；核对2026-10-17","short":"OpenAI Docs：Build skills"},
+  "architecture": {"title":"OpenAI Docs, Agents API Architecture","url":"https://developers.openai.com/api/docs/guides/agents-api/architecture","location":"The pieces; Add an environment; Receive progress and results。平台实现示例，不作为所有Agent的统一定义。","short":"OpenAI Docs：Architecture"},
+  "mcp": {"title":"Model Context Protocol: What is MCP?","url":"https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro","location":"开放标准，用于连接AI应用与外部系统；核对2026-10-17","short":"MCP 官方：What is MCP?"},
+  "harness": {"title":"Anthropic, Effective harnesses for long-running agents, 2025-11-26","url":"https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents","location":"Feature list; Incremental progress; Testing and environment；迁移到科研情境的建议由本课程编写。","short":"Anthropic：Effective harnesses（2025）"}
+}

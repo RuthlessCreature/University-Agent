@@ -1,0 +1,2 @@
+# Preserve source-material bytes so SHA-256 checks also pass after checkout.
+materials/* -text

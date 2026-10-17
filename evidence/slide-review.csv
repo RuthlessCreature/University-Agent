@@ -1,0 +1,201 @@
+﻿page,id,title,content_and_visual_review,final_v11_full_size_recheck,final_file_render,instructor_accepted
+1,O01,今天要完成哪些科研任务,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+2,O02,科研责任与 AI 使用披露,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+3,O03,课前问题用于决定案例深度,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+4,M101,提示词五步落实为可验收任务,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+5,X062,把“帮我写申报书”改成第一轮任务,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+6,X063,长材料先分清文件的效力,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+7,X064,给同一任务设两种验收标准,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+8,X079,把输出格式约定写成小型契约,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+9,M102,工具选型从材料和产物出发,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+10,X065,工具比较使用同一份基准材料,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+11,M103,Agent、Workflow、Skill 与 MCP 的关系,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+12,X066,一次工具调用包含哪些信息,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+13,X067,固定流程中的模型可以承担哪部分工作,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+14,X080,自主程度越高越要限定退出条件,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+15,M104,同一任务的聊天产物与文件产物,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+16,X076,一条任务的上下文不应越积越多,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+17,M105,Skill 文件与可运行能力之间的距离,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+18,X068,Skill 名称相同还要核对内容,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+19,X069,读取 Skill 后还要检查引用的资源,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+20,X078,安装数量不能说明课堂可演示性,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+21,RUN10,本地与 Worker 共用 Skill 指纹,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+22,M106,可恢复工作流需要保存阶段证据,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+23,X070,输入变了为什么要重新审核,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+24,X071,失败恢复先问哪一步已经写入,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+25,X077,把错误提示写成能处理的问题,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+26,M107,本地与云端共用契约，执行边界不同,individual base page review v4-v7,True,LibreOffice final v11 PPTX->PDF->PNG,False
+27,X072,Worker、模型与文档工具的分工,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+28,X073,Token Plan 配置需要核对哪几项,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+29,X081,云端复现需要保存部署版本,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+30,M108,提示注入与材料权限的课堂检查,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+31,X074,文献正文里的命令按材料处理,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+32,X075,脱敏需要覆盖正文以外的位置,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+33,M201,选题四维评估需要具体依据,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+34,X082,把研究兴趣压缩成可回答的问题,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+35,X083,创新性比较要找到最接近的研究,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+36,X084,可行性可以先用最小实验判断,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+37,X085,竞争热度和选题价值分开判断,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+38,M202,趋势扫描与研究空白需要反证检索,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+39,X086,“没有搜到”先检查检索失败,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+40,M203,检索式必须能被另一位研究者重跑,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+41,X087,布尔检索先画清概念组,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+42,X088,去重先决定什么算同一研究,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+43,M204,文献核验从出版记录走到正文证据,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+44,X090,DOI 核对只完成文章身份检查,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+45,M205,文献矩阵保存方法差异和证据位置,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+46,X089,文献矩阵的一行应对应什么,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+47,M206,真实论文图要连同变量和图注一起读,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+48,X091,误差线重叠不能代替正文检验,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+49,M207,研究设计需要明确比较对象和分析单位,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+50,X092,分析单位错误会夸大样本量,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+51,X093,交叉设计要控制学习与顺序,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+52,M208,参数优化前先确定不可变的对照,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+53,X094,调参时把评价数据留到最后,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+54,M209,缺失值与异常值保留处理依据,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+55,X095,缺失率先按字段和分组看,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+56,X096,把 NA 填成零会改变研究对象,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+57,D01,物种样本数决定分组比较的起点,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+58,D02,岛屿记录数反映本数据的采样构成,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+59,D03,年份计数不是个体追踪记录,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+60,D04,性别字段的缺失单独计数,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+61,D05,不同字段的缺失数量不能混用,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+62,M210,公开观测数据支持描述，不直接证明因果,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+63,D06,体重直方图保留分布与分箱依据,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+64,D07,鳍肢长度的分布需要结合物种读,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+65,D08,喙长分布与体重回答不同问题,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+66,D09,喙深的分箱结果可以从原值重算,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+67,M211,统计报告要同时说明估计量和不确定性,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+68,X097,均值与标准差从同一组观测复算,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+69,X098,SE 和置信区间依赖什么假设,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+70,D10,物种体重均值先报数值与有效 n,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+71,D11,中位数提供另一种位置概括,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+72,D12,标准差描述组内个体离散,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+73,D13,鳍肢长度均值需保留毫米单位,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+74,D14,喙长均值反映另一项形态测量,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+75,D15,喙深均值不应被误读成总体定律,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+76,M212,统计方法由问题和设计决定,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+77,X099,p 值的语句要保留条件,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+78,X100,多次尝试需要留下完整记录,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+79,M213,复算交付需要数据、代码和环境同时存在,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+80,M213B,同一计算在 Python、R 与 SPSS 中核对,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+81,X001,跨软件复算先固定统计口径,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+82,M301,论文论证先确定主张与证据,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+83,X042,把一段结果拆成可核对的主张,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+84,M302,IMRAD 各部分回答不同的问题,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+85,X043,引言用问题推动到研究目标,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+86,X044,方法写到别人可以复跑,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+87,X045,结果段先把比较对象说完整,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+88,X046,讨论保留解释的竞争关系,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+89,M303,Review 需要检索协议和综合方法,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+90,X047,叙述综述和系统综述先选清楚,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+91,X048,自动筛选要检查漏掉的文献,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+92,M304,Humanizer 修订必须锁住数字和限定条件,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+93,X049,修订前先锁定哪些内容,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+94,X050,空泛评价换成可观察事实,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+95,M305,Paper Agent：从材料到 Word 草稿,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+96,RUN06,Paper 来源账本保留原论文与数据,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+97,M306,论文草稿验收先追踪一条结论,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+98,M307,期刊适配要改论证和格式,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+99,X051,期刊适配先看研究是否合适,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+100,M311,申报书首先服从具体指南和模板,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+101,X052,指南要求拆成四类约束,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+102,RUN01,教学指南的真实章节约束,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+103,M312,目标与指标需要双向对应,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+104,X053,双向映射查覆盖，也查多余承诺,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+105,RUN02,本地映射表如何连接 R 与 G,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+106,M313,科学问题、目标和内容承担不同角色,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+107,X054,科学问题与开发任务分开表达,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+108,M314,技术路线包含数据、方法与失败出口,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+109,X055,技术路线从输入走到判断,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+110,X056,参照答案不能由同一错误来源包办,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+111,M315,Grant Agent 本地演示的验收文件,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+112,X059,Word 输出前检查模板而非猜格式,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+113,RUN03,运行记录明确写了没有调用模型,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+114,RUN08,HTTP 下载核对的是文件字节,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+115,M316,审核失败应该定位到具体约束,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+116,X060,一次失败分支如何形成演示证据,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+117,X061,审核意见要能回到具体版本,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+118,RUN04,未决问题没有因 Word 写出而消失,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+119,RUN05,最终导出失败是实际执行结果,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+120,M317,团队介绍中的每个亮点都应有出处,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+121,X057,团队基础按承担任务匹配证据,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+122,M318,经费预算按任务和测算依据编制,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+123,X058,预算测算要能追到研究任务,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+124,M321,交底书先收集可实施的技术事实,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+125,X022,技术交底先把部件和关系说清,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+126,X023,把技术问题与效果连在一起,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+127,M322,区别特征需要与最接近现有技术比较,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+128,X024,区别特征逐项对照现有技术,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+129,M323,实施例中的参数必须由事实支撑,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+130,X025,参数缺失会影响实施方式,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+131,X026,附图编号应贯穿正文和实施例,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+132,M324,审稿意见按证据与修改位置回应,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+133,X028,审稿回复按问题建立证据链,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+134,M325,Patent 演示输出必须保留缺口,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+135,X027,交底草稿把追问带回发明人,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+136,RUN07,发明人追问是实际产物之一,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+137,M326,返修和交底都需要逐项关闭问题,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+138,X029,问题关闭应由新证据触发,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+139,M331,科研图分流取决于它表达的对象,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+140,X030,先决定图在回答什么问题,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+141,M332,数据图的坐标和误差决定读者看到什么,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+142,X031,柱图的零点与点图的范围,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+143,X032,误差定义必须写进图注,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+144,M333,机制示意图先写事实规格,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+145,X033,机制示意把事实与假说画开,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+146,X035,图像生成前先冻结科学规格,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+147,M334,技术路线图保留可编辑源与状态,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+148,X034,技术路线和机制图不能共用含义,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+149,RUN09,技术路线保留可编辑源码,v9 four-page sheet + authored content review,True,LibreOffice final v11 PPTX->PDF->PNG,False
+150,M335,Figure 演示从同一 CSV 生成可核对图表,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+151,M336,图表交付要能回答三个具体追问,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+152,X036,PPT 数据图交付要保留数据层,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+153,M401,结题材料围绕任务书逐项归档,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+154,X037,结题先冻结任务书版本,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+155,M402,中期检查以偏差和纠正措施为主,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+156,X038,进度偏差先说明事实与影响,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+157,M403,成果传播需要版本和身份可追溯,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+158,X039,成果传播保留研究适用范围,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+159,M404,Closeout 的输出是一份可补交清单,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+160,X041,归档材料要能被别人接手,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+161,M405,一项成果如何改成报告、PPT 与科普,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+162,X040,同一结果制作三种材料,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+163,Z01,一项科研任务的完整证据路径,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+164,Z02,答疑围绕当前可验证的产物,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+165,REF01,主要学术材料与数据来源,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+166,REF02,工具文档与工作流方法来源,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+167,E01,检索的召回与精度如何权衡,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+168,X002,练习：一次筛选的分母分别是什么,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+169,X003,练习：检索结果翻倍能说明什么,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+170,E02,多篇论文结论冲突的拆解,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+171,X004,练习：两篇论文方向相反如何比较,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+172,E03,缺失机制影响推断的练习,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+173,X005,练习：三行数据里为什么有两个 n,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+174,X006,练习：异常值该删除还是保留,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+175,E04,训练集与评价集的隔离,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+176,X007,练习：均值差不等于因果效应,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+177,E05,预算约束下的设计取舍,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+178,X008,练习：预算减半如何缩小研究,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+179,E06,论文摘要与结果的逐句对应,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+180,X009,练习：一段摘要里哪些话需要退回,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+181,X010,练习：压缩段落后检查限定条件,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+182,E07,引文真实存在仍可能引用错误,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+183,X011,练习：真实引用为什么仍然不合格,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+184,E08,申报创新点的可检验表达,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+185,X012,练习：指南多出一个指标怎么办,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+186,X013,练习：只验收文件数量会漏什么,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+187,E09,指南更新后的版本迁移,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+188,X014,练习：两个技术方案如何做对照,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+189,E10,专利附图与正文的一致性,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+190,X015,练习：图注缺什么信息,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+191,X016,练习：散点图适合回答哪些问题,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+192,E11,评审分歧需要可定位的回应,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+193,X017,练习：审稿人要求补实验如何回应,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+194,E12,灰度和投影条件下的科研图,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+195,X018,练习：传播标题能否超出论文,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+196,E13,云端状态与失败恢复的演练,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+197,X019,练习：任务正在运行时能否再次点击,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+198,X020,练习：模型成功返回但正文为空,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False
+199,E14,把课程方法迁移到自己的学科,individual base page review v4-v7,False,LibreOffice final v11 PPTX->PDF->PNG,False
+200,X021,练习：给自己的课题写一份交接单,v9 four-page sheet + authored content review,False,LibreOffice final v11 PPTX->PDF->PNG,False

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-17",
+  "reference_pdf": {
+    "url": "https://eppi.ioe.ac.uk/CMS/Portals/0/AI%20in%20evidence%20synthesis%20v_3_1.pdf",
+    "sha256": "00e90533e15d8e9a449e118060512b78d6ebf6366a6901d10f1b14e6f86428c7",
+    "viewed_pages": [
+      14,
+      17,
+      43,
+      56
+    ]
+  },
+  "fulltexts": [
+    {
+      "id": "PMC12179260",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12179260/fullTextXML",
+      "sha256": "db98d8223d150c7330e87d6ac7b5ccefcc6df63c5448ed85f2e00a787a5f7d34",
+      "read": true
+    },
+    {
+      "id": "PMC12232635",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12232635/fullTextXML",
+      "sha256": "d3b61ee92873f2ac2eb2b7b82b28f95583c0d12a00b5cd385104dc6d21d60d92",
+      "read": true
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "assets/pubmed.png",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22generative+AI%22+learning",
+      "kind": "公开网页真实实录",
+      "detail_path": "assets/pubmed-detail.png",
+      "capture_method": "bundled Playwright；细节图为真实浏览器clip截图，未重画界面"
+    },
+    {
+      "path": "assets/elicit.png",
+      "url": "https://support.elicit.com/en/articles/17220397-where-did-find-papers-extract-data-and-chat-with-papers-go",
+      "kind": "官方帮助页真实实录",
+      "detail_path": "assets/elicit-detail.png",
+      "capture_method": "bundled Playwright；细节图为真实浏览器clip截图，未重画界面"
+    }
+  ],
+  "failed_alternatives": [
+    "Sevilla 2026 PDF因证书错误未取得，未作为已读来源",
+    "SMU 2025下载未取得，不作为已查看课件",
+    "in-app CUA初始化失败，网页实录改用bundled Playwright访问公开页面"
+  ],
+  "reference_images_not_redistributed": true
+}

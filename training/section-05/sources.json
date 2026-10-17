@@ -1,0 +1,68 @@
+{
+  "ucl": {
+    "title": "James Thomas. Using AI tools for searching, classifying, extracting and synthesizing research. UCL, 2025-06-13",
+    "short": "UCL Thomas，2025，原始工作坊课件",
+    "url": "https://eppi.ioe.ac.uk/CMS/Portals/0/AI%20in%20evidence%20synthesis%20v_3_1.pdf",
+    "location": "PDF第14、17、43、56页已渲染查看；借鉴检索、关联发现与核对流程"
+  },
+  "pubmed": {
+    "title": "NLM. PubMed User Guide",
+    "short": "NLM PubMed用户指南及实际检索页",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/help/",
+    "location": "Search、Boolean operators、History；assets/pubmed.png为实际检索网页"
+  },
+  "elicit": {
+    "title": "Elicit. Where did Find Papers, Extract Data, and Chat with Papers go?",
+    "short": "Elicit官方说明，2026-09-30入口变更",
+    "url": "https://support.elicit.com/en/articles/17220397-where-did-find-papers-extract-data-and-chat-with-papers-go",
+    "location": "官方变更说明及How to do the same work now；页面截图2026-10-17"
+  },
+  "consensus": {
+    "title": "Consensus. How Consensus Works",
+    "short": "Consensus官方说明，2026-09-10",
+    "url": "https://help.consensus.app/en/articles/9922673-how-consensus-works",
+    "location": "How does a Consensus search work?、How does Consensus analyze the research?"
+  },
+  "connected": {
+    "title": "Connected Papers. About",
+    "short": "Connected Papers官方About",
+    "url": "https://www.connectedpapers.com/about",
+    "location": "官方检索片段说明not a citation tree；本次未取得完整JS页面，功能仅保留关联发现的有限说明"
+  },
+  "semantic": {
+    "title": "Semantic Scholar. Frequently Asked Questions",
+    "short": "Semantic Scholar官方FAQ",
+    "url": "https://webflow.semanticscholar.org/faq",
+    "location": "AI-Features、Citations、Search、Semantic Reader"
+  },
+  "zotero": {
+    "title": "Zotero. The Basics",
+    "short": "Zotero官方使用说明",
+    "url": "https://www.zotero.org/support/quick_start_guide",
+    "location": "Collections、Attachments、Add Item by Identifier、Word Processor Integration"
+  },
+  "prisma": {
+    "title": "PRISMA 2020 Statement",
+    "short": "PRISMA 2020官方说明",
+    "url": "https://www.prisma-statement.org/prisma-2020",
+    "location": "报告清单与流程图说明；不将报告指南称为质量评分工具"
+  },
+  "A": {
+    "title": "Bastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 2025. DOI:10.1073/pnas.2422633122",
+    "short": "Bastani等，PNAS 2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+    "location": "Abstract、Experimental Design、Table 1；原文XML经Europe PMC实际读取"
+  },
+  "B": {
+    "title": "Kestin et al. AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports 2025. DOI:10.1038/s41598-025-97652-6",
+    "short": "Kestin等，Scientific Reports 2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/",
+    "location": "Abstract、Methods: Study population/Course setting；原文XML经Europe PMC实际读取"
+  },
+  "course": {
+    "title": "课程编写：检索与文献综合教学示例",
+    "short": "课程方法说明／教学示例",
+    "url": "local:材料状态与核验范围.md",
+    "location": "检索式、判断示例与综述段落均为课程编写；两篇研究构成比较案例，不构成系统综述"
+  }
+}

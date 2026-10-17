@@ -1,0 +1,41 @@
+[
+  {
+    "file": "assets/nsfc-2026-application-rules.pdf",
+    "url": "https://www.nsfc.gov.cn/u/cms/www/202601/190844586k0w.pdf",
+    "retrieved": "2026-10-17",
+    "bytes": 1009614,
+    "sha256": "1c6dcd3250e2dacf86f4aadeced4a455ec870d499e24d632f07ac00220741273"
+  },
+  {
+    "file": "assets/nsfc-structure.html",
+    "url": "https://www.nsfc.gov.cn/p1/3381/2821/99242.html",
+    "retrieved": "2026-10-17",
+    "bytes": 4724,
+    "sha256": "897602a4e67e3d77b41dd10d23556830d4127685fb63ecf1c8a63917f7d19795"
+  },
+  {
+    "file": "assets/nsfc-faq.html",
+    "url": "https://www.nsfc.gov.cn/p1/2961/2962/3642/sqs.html",
+    "retrieved": "2026-10-17",
+    "bytes": 96446,
+    "sha256": "ddc71750bc6fbae1e304f6528a41cb28b572458c20af43a151f2708b2a35b500"
+  },
+  {
+    "file": "assets/asreview-2021.html",
+    "url": "https://www.nature.com/articles/s42256-020-00287-7",
+    "retrieved": "2026-10-17",
+    "bytes": 423212,
+    "sha256": "b34296739b4351925880193818468962d2dfbca845c5659aa838a2f7ae5159c9"
+  },
+  {
+    "file": "assets/asreview-fig1.png",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-020-00287-7/MediaObjects/42256_2020_287_Fig1_HTML.png",
+    "retrieved": "2026-10-17",
+    "bytes": 95580,
+    "sha256": "b58d318f25292e811aa26b795c7bdb1f55c31e22ddaa80be582bb2cb6a50a8c8",
+    "attribution": "van de Schoot et al. Nature Machine Intelligence 3, 125–133 (2021), Fig.1",
+    "doi": "10.1038/s42256-020-00287-7",
+    "license": "CC BY 4.0",
+    "transformation": "none; image kept in original proportions"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "utah": {
+    "title": "Stefan Nagy. Research 101: Ideas. University of Utah, 2026-01-07",
+    "short": "Utah CS5493/6493，2026，pp.35、41、52",
+    "url": "https://www-old.cs.utah.edu/~snagy/courses/cs5493/slides/Week1b_ResearchIdeas.pdf",
+    "location": "PDF第35、41、52页，另读第37、47、53页文字"
+  },
+  "nber": {
+    "title": "Sebastian Tello-Trillo. Choosing and Crafting a Research Question. NBER workshop, 2026，作者公布的逐页文字版",
+    "short": "Tello-Trillo，2026，作者课件文字版",
+    "url": "https://sebastiantellotrillo.com/resources/choosing-and-crafting-a-research-question-markdown-version",
+    "location": "Slide 21、23、26；仅借鉴收窄问题和评价路径，不复制原文"
+  },
+  "paper": {
+    "title": "Bastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS, 2025. DOI:10.1073/pnas.2422633122",
+    "short": "Bastani等，PNAS 2025，摘要、Table 1",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+    "location": "摘要、Experimental Design、Table 1；48%与127%为原文四舍五入的练习成绩相对提升"
+  },
+  "course": {
+    "title": "课程编写：选题判断与教学模拟",
+    "short": "课程教学模拟／方法说明",
+    "url": "local:教学模拟与选题示例.md",
+    "location": "设定的对象、时间、限制和候选题均非实测资料，不代表已通过伦理或数据授权"
+  }
+}

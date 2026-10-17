@@ -1,0 +1,12 @@
+{
+  "kind": "patent",
+  "environment": "Node: actual Worker word-export.js function",
+  "model_called": false,
+  "cloud_called": false,
+  "scientific_signoff": false,
+  "input_sha256": "e705f6c87516339ce1e95704bcc7ea6f6ee5ceff26b595f6a9e2d47714a88539",
+  "template_sha256": "371963251fe4dbc29171f9fe1119e406b22e5b2c84aa3379e021d61c68fd9989",
+  "artifact": "patent-template-tool-check.docx",
+  "artifact_sha256": "1707863676444ff78bd92ca4ee9e8a32e5bea6bc8139190ed89580ebdb74d8bf",
+  "bytes": 37916
+}

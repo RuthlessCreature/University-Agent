@@ -1,0 +1,27 @@
+{
+  "scope": "一次PubMed公开网页试查和两篇预选论文的比较案例；非完整多数据库系统检索",
+  "actual_search": {
+    "date": "2026-10-17",
+    "platform": "PubMed",
+    "query": "\"generative AI\" learning",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22generative+AI%22+learning",
+    "sorting": "Best match",
+    "screenshot": "assets/pubmed.png",
+    "saved_page_text": true,
+    "counts_used_as_trend": false
+  },
+  "teaching_query": {
+    "query": "(\"generative AI\" OR \"large language model\" OR ChatGPT) AND (learning OR education OR tutor*)",
+    "status": "PENDING：未作为完整检索方案执行"
+  },
+  "preselected_case_papers": [
+    "A",
+    "B"
+  ],
+  "not_claimed": [
+    "全面检索",
+    "完成系统筛选",
+    "完成撤稿监测",
+    "Elicit或Consensus付费任务运行"
+  ]
+}

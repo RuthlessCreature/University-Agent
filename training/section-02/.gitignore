@@ -1,0 +1,16 @@
+.build/
+.reference-cache/
+node_modules/
+*.log
+output/*_s2-r1.pptx
+renders/s2-r1/
+output/*_s2-r2.pptx
+renders/s2-r2/
+output/*_s2-r3.pptx
+renders/s2-r3/
+output/*_s2-r4.pptx
+renders/s2-r4/
+output/*_s2-r5.pptx
+renders/s2-r5/
+output/*_s2-r6.pptx
+renders/s2-r6/

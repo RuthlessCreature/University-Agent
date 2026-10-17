@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-17",
+  "revision": "b2",
+  "slides": 12,
+  "notes": 12,
+  "pdf_pages": 12,
+  "word_pages": 1,
+  "doi_hyperlink": true,
+  "source_pdf_locations_checked": [
+    2,
+    3
+  ],
+  "native_table_page": 9,
+  "instructor_accepted": false,
+  "beginner_user_test_completed": false,
+  "native_powerpoint_open_checked": false,
+  "external_model_called": false,
+  "pptx_sha256": "0f79142b41201aad8e0f04d843f8445ed8d97885e8650948a9e75e1a89d4e62b"
+}

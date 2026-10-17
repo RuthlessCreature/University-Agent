@@ -1,0 +1,38 @@
+[
+  {
+    "file": "paper.pdf",
+    "type": "公开发表材料",
+    "license": "CC BY 4.0",
+    "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328041",
+    "attribution": "Heinrich et al. (2025). AI-assisted grading and personalized feedback in large political science classes: Results from randomized controlled trials. PLOS ONE 20(8): e0328041.",
+    "copied_from": "training/beginner-lesson/assets/paper.pdf",
+    "sha256": "693b361d0d010ae8d7e8d99fa3af523ab6dfe25e85136fb8a87e4f300276fd3a"
+  },
+  {
+    "file": "penguins.csv",
+    "type": "公开观测数据",
+    "license": "CC0",
+    "source": "https://github.com/allisonhorst/palmerpenguins/blob/main/inst/extdata/penguins.csv",
+    "attribution": "palmerpenguins; Horst, Hill and Gorman. Palmer Station penguin observations.",
+    "copied_from": "training/deck-zh/sources/penguins.csv",
+    "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+  },
+  {
+    "file": "guide.json",
+    "type": "教学模拟",
+    "license": "项目内教学材料",
+    "source": "training/demos/grant/guide.json",
+    "attribution": "TEACH-GRANT-01；课程编写的练习要求，不能用于正式申报。",
+    "copied_from": "training/demos/grant/guide.json",
+    "sha256": "5dbed041b003c020b2453954057edf0a6202608762c1d080c219f61c02dad0f2"
+  },
+  {
+    "file": "template.docx",
+    "type": "教学模拟",
+    "license": "项目内教学材料",
+    "source": "training/demos/grant/template.docx",
+    "attribution": "课程练习模板；不是主管部门的正式模板。",
+    "copied_from": "training/demos/grant/template.docx",
+    "sha256": "ecfe2a21d747a214e94cbb61c9e4b746ec4a1d6f3057c5b168fed9a612a354b7"
+  }
+]

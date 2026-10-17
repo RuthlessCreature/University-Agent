@@ -1,0 +1,38 @@
+{
+  "kind": "paper",
+  "status": "draft_review_required",
+  "input_sha256": "5694f639103e8553c6c2184ca5b775ad823a0a86863550219db03e645ec9c8b9",
+  "template_sha256": "518f3f2d632b0be532dd9653313b42c0d3e30a13ccbfab481e194e677cdc2b93",
+  "guide_sha256": null,
+  "artifact": "paper-draft.docx",
+  "artifact_sha256": "aa20e707866690578eac872ef4253876b17e004be2c207bca3d98e2fd8f06f22",
+  "human_approved": false,
+  "external_model_called": false,
+  "scientific_validation": "not_performed",
+  "events": [
+    {
+      "stage": "intake",
+      "state": "running",
+      "detail": "",
+      "utc": "2026-10-16T16:04:34.605905+00:00"
+    },
+    {
+      "stage": "constraints",
+      "state": "passed",
+      "detail": "",
+      "utc": "2026-10-16T16:04:34.642905+00:00"
+    },
+    {
+      "stage": "outline",
+      "state": "human_review_required",
+      "detail": "",
+      "utc": "2026-10-16T16:04:34.666737+00:00"
+    },
+    {
+      "stage": "docx",
+      "state": "written",
+      "detail": "paper-draft.docx",
+      "utc": "2026-10-16T16:04:34.702719+00:00"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {validate,handle} from "../src/index.js";
-const env={MINIMAX_API_KEY:"mock",WORKSHOP_ACCESS_TOKEN:"classroom",MINIMAX_MODEL:"MiniMax-M3"};
+const env={MINIMAX_TOKEN_PLAN_KEY:"mock",WORKSHOP_ACCESS_TOKEN:"classroom",MINIMAX_MODEL:"MiniMax-M3"};
 test("workflow catalog",async()=>{const r=await handle(new Request("https://example.test/api/workflows"),env);assert.equal(r.status,200);assert.equal(Object.keys((await r.json()).workflows).length,5)});
 test("input check",()=>{assert.ok(validate({workflow:"grant",step:"intake",material:"short"}));assert.equal(validate({workflow:"grant",step:"intake",material:"合法脱敏的科研材料".repeat(12)}),null)});
 test("token required",async()=>{const r=await handle(new Request("https://example.test/api/run",{method:"POST",body:"{}"}),env);assert.equal(r.status,401)});

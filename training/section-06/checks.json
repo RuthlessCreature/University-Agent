@@ -1,0 +1,48 @@
+{
+  "revision": "s6-r3",
+  "pages": 16,
+  "pdf_pages": 16,
+  "notes": 16,
+  "preview_images": 16,
+  "editable_diagram_pages": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    11,
+    12,
+    14,
+    15,
+    16
+  ],
+  "native_table_pages": [
+    5,
+    9,
+    13
+  ],
+  "native_chart_pages": [
+    10
+  ],
+  "chart_series_values": [
+    [
+      60.0,
+      72.0
+    ],
+    [
+      52.0,
+      83.0
+    ]
+  ],
+  "embedded_workbooks": 1,
+  "source_data_rows": 8,
+  "recalculated_increments": [
+    12,
+    31,
+    19
+  ],
+  "pptx_sha256": "2e1fc3f29a81ee8ad7df3a745a3ef567481c749cd9a4fea6f804d8b85164a43a",
+  "scope": "文件结构、可编辑对象、图表缓存与工作簿、公开数据一致性及条件增量复算。另有逐页人工视觉检查；不表示已开展研究、统计推断完成或科研Agent全系统运行。"
+}
