@@ -32,3 +32,7 @@ training/beginner-lesson/assets/page1.png
 training/beginner-lesson/*.log
 training/beginner-lesson/output/*_b1.pptx
 training/beginner-lesson/renders/b1/
+training/section-00/.build/
+training/section-00/*.log
+training/section-00/output/*_s0-r1.pptx
+training/section-00/renders/s0-r1/
