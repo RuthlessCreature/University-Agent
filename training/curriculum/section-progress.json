@@ -2,8 +2,8 @@
   "checked_date": "2026-10-17",
   "goal_status": "active",
   "target_pages": 240,
-  "produced_pages": 52,
-  "next_section": 4,
+  "produced_pages": 66,
+  "next_section": 5,
   "scope": "登记实际产物，不表示全部章节或教学验收已完成。Section 0一致性复核列为后续审查项。",
   "sections": [
     {
@@ -58,8 +58,12 @@
       "id": 4,
       "title": "选题与研究问题",
       "page_budget": 14,
-      "status": "not_started",
-      "user_accepted": false
+      "status": "produced_for_review",
+      "user_accepted": false,
+      "revision": "s4-r3",
+      "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r3.pptx",
+      "sha256": "18cec35914203f49a1d19da3cd5484879fb24051b07edd58e3b8711ef06cc457",
+      "checks": "training/section-04/checks.json"
     },
     {
       "id": 5,

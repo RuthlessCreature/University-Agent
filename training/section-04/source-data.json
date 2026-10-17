@@ -1,0 +1,19 @@
+{
+  "practice_relative_improvement": {
+    "categories": [
+      "GPT Base",
+      "GPT Tutor"
+    ],
+    "values": [
+      0.48,
+      1.27
+    ],
+    "unit": "相对对照组的练习成绩增幅",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+    "location": "Abstract; Table 1 provides underlying effect estimates",
+    "rounding": "原文百分比摘要，48%与127%；未根据四舍五入后的表格再计算",
+    "no_confidence_intervals_drawn": true
+  },
+  "unassisted_base_relative_change": -0.17,
+  "unassisted_tutor": "与对照组差异未显著，不等于证明等效"
+}

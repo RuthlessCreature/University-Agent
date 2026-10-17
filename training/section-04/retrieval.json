@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-10-17",
+  "utah_pdf_sha256": "b4fb6e06926e05853bbd62bc444831e55292ce49dae7439d61ad68ad4bf10632",
+  "visually_viewed_pdf_pages": [
+    35,
+    41,
+    52
+  ],
+  "nber_source_kind": "作者逐页文字版，未取得视觉PDF",
+  "paper_checked_sections": [
+    "Abstract",
+    "Experimental Design",
+    "Table 1"
+  ],
+  "local_reference_files_ignored": true
+}
