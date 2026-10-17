@@ -4,7 +4,7 @@ from xml.etree import ElementTree as ET
 from pypdf import PdfReader
 
 root=Path(__file__).resolve().parent
-rev=sys.argv[1] if len(sys.argv)>1 else 'a3'
+rev=sys.argv[1] if len(sys.argv)>1 else 'a4'
 lesson=json.loads((root/'lesson.json').read_text('utf-8'))
 sources=json.loads((root/'sources.json').read_text('utf-8'))
 assert len(lesson)==12

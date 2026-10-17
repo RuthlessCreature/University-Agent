@@ -1,0 +1,42 @@
+{
+  "revision": "s3-r3",
+  "pages": 18,
+  "pdf_pages": 18,
+  "notes": 18,
+  "preview_images": 18,
+  "editable_diagram_pages": [
+    1,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18
+  ],
+  "native_table_pages": [
+    16
+  ],
+  "native_chart_pages": [
+    6,
+    12
+  ],
+  "chart_values_verified": [
+    [
+      0.6122,
+      0.0519
+    ],
+    [
+      0.55,
+      0.18
+    ]
+  ],
+  "embedded_workbooks": 2,
+  "pptx_sha256": "489467f6d8e3b41948c7b76d8fb015c1e226fe5b5a7b4f42c19a5d4aed3bd765",
+  "scope": "课件结构、原生对象、报告数值与明确限定词的检查；不证明全部语义不变，不是外部模型或科研Agent运行测试。"
+}

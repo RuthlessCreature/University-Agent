@@ -1,0 +1,30 @@
+{
+  "detector": {
+    "values": [
+      0.6122,
+      0.0519
+    ],
+    "sample_sizes": [
+      91,
+      88
+    ],
+    "detectors": 7,
+    "source": "https://arxiv.org/html/2304.02819v3",
+    "location": "Results / Fig.1a",
+    "meaning": "人类作文被判为AI文本的平均比例",
+    "scope": "2023年英文样本；不用于描述当前中文检测器"
+  },
+  "citation": {
+    "values": [
+      0.55,
+      0.18
+    ],
+    "sample_sizes": [
+      222,
+      414
+    ],
+    "source": "https://doi.org/10.1038/s41598-023-41032-5",
+    "location": "表3",
+    "scope": "2023年历史模型与任务"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "checked_date": "2026-10-17",
+  "goal_status": "active",
+  "target_pages": 240,
+  "produced_pages": 52,
+  "next_section": 4,
+  "scope": "登记实际产物，不表示全部章节或教学验收已完成。Section 0一致性复核列为后续审查项。",
+  "sections": [
+    {
+      "id": 0,
+      "title": "封面与课程导入",
+      "page_budget": 4,
+      "status": "produced_for_review",
+      "user_accepted": false,
+      "revision": "s0-r3",
+      "pptx": "training/section-00/output/高校科研AI课程_Section0_s0-r3.pptx",
+      "sha256": "789fec801898ade67d175363a2a588336219d558288066da5b87acc19fabf21d",
+      "checks": "training/section-00/checks.json",
+      "pending_consistency_review": [
+        "核对并去除旧的延伸练习表述",
+        "按当前要求补查课程导入的前沿课件参考"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "科研AI的能力、原理与学术边界",
+      "page_budget": 12,
+      "status": "produced_for_review",
+      "user_accepted": false,
+      "revision": "a4",
+      "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a4.pptx",
+      "sha256": "3e6acc96c479734447513346c17f349d9794f94fcfa605f350fcf9ce3b4de57f",
+      "checks": "training/section-01-academic/checks.json"
+    },
+    {
+      "id": 2,
+      "title": "Agentic AI、AI Agent与科研工作流",
+      "page_budget": 18,
+      "status": "produced_for_review",
+      "user_accepted": false,
+      "revision": "s2-r7",
+      "pptx": "training/section-02/output/高校科研AI课程_Section2_Agent与工作流_s2-r7.pptx",
+      "sha256": "3bdf8539ed315ac1a46aedb6bff6dcac1c9bd007efd055b1d78e818ec9202e4c",
+      "checks": "training/section-02/checks.json"
+    },
+    {
+      "id": 3,
+      "title": "Humanizer与各类产物的表达",
+      "page_budget": 18,
+      "status": "produced_for_review",
+      "user_accepted": false,
+      "revision": "s3-r3",
+      "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r3.pptx",
+      "sha256": "489467f6d8e3b41948c7b76d8fb015c1e226fe5b5a7b4f42c19a5d4aed3bd765",
+      "checks": "training/section-03/checks.json"
+    },
+    {
+      "id": 4,
+      "title": "选题与研究问题",
+      "page_budget": 14,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 5,
+      "title": "文献检索、阅读与综述",
+      "page_budget": 24,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 6,
+      "title": "研究与实验方案",
+      "page_budget": 16,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 7,
+      "title": "数据处理与统计分析",
+      "page_budget": 22,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 8,
+      "title": "科研图表与技术路线",
+      "page_budget": 16,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 9,
+      "title": "论文写作、投稿与返修",
+      "page_budget": 22,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 10,
+      "title": "基金申报与Grant Agent",
+      "page_budget": 26,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 11,
+      "title": "专利挖掘与技术交底",
+      "page_budget": 12,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 12,
+      "title": "项目执行与结题",
+      "page_budget": 10,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 13,
+      "title": "科研汇报与成果传播",
+      "page_budget": 10,
+      "status": "not_started",
+      "user_accepted": false
+    },
+    {
+      "id": 14,
+      "title": "本地与云端Agent实际演示",
+      "page_budget": 16,
+      "status": "not_started",
+      "user_accepted": false
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "ucl": {
+    "title": "Jim McKinley, Beyond Polishing: AI in academic writing, UCL, 2026-04-09",
+    "url": "https://mediacentral.ucl.ac.uk/assoc_files/gD20GGDG.pdf",
+    "location": "第4页作者声音；第8页润色删除may；第10页起草与润色叠加；第13—14页作者判断",
+    "short": "McKinley，UCL（2026），第4、8、10、13—14页"
+  },
+  "ucl-index": {
+    "title": "UCL Academic Writing Seminar Series 2025–26",
+    "url": "https://www.ucl.ac.uk/ioe/departments-and-centres/academic-writing-centre/academic-writing-seminar-series",
+    "location": "2026年4月9日场次及Slides链接",
+    "short": "UCL Academic Writing Seminar Series（2026）"
+  },
+  "humanizer": {
+    "title": "Humanizer 3.1.0，本机已安装技能",
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "location": "实际使用C:/Users/Georgij Xe/.codex/skills/humanizer/SKILL.md；§1—5套话，§6—21语言习惯，How to work事实保留。Wikipedia链接为技能注明的公开背景，不替代本机规则。",
+    "short": "Humanizer 3.1.0：本机技能规则"
+  },
+  "mit": {
+    "title": "MIT Communication Lab, Slideshow",
+    "url": "https://mitcommlab.mit.edu/broad/commkit/slideshow/",
+    "location": "Each slide should convey a single point; Emphasize visuals over text",
+    "short": "MIT Communication Lab：Slideshow"
+  },
+  "liang": {
+    "title": "Liang et al., GPT detectors are biased against non-native English writers, arXiv:2304.02819v3, 2023",
+    "url": "https://arxiv.org/html/2304.02819v3",
+    "location": "Results首节与Figure 1a：7个检测器，91篇TOEFL作文、88篇美国八年级作文；报告平均误判率61.22%和5.19%；历史英文样本，不能外推当前中文检测。期刊版本DOI:10.1016/j.patter.2023.100779。",
+    "short": "Liang等（2023），arXiv v3，Results / Fig.1a"
+  },
+  "plos": {
+    "title": "PLOS, Ethical Publishing Practice",
+    "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
+    "location": "AI use by authors / AI use disclosures，以及FAQ中语言改进与翻译例外、代码与制图要求；核对2026-10-17",
+    "short": "PLOS：Ethical Publishing Practice（核对2026-10-17）"
+  },
+  "course": {
+    "title": "本课程编写的中文修订示例",
+    "url": "",
+    "location": "lesson.json中的教学模拟，不是已发表论文、申报成果或外部模型运行结果；数字如有出现仅用于说明如何保留信息。",
+    "short": "课程编写：教学模拟，非真实研究结果"
+  },
+  "walters": {
+    "title": "Walters & Wilder, Scientific Reports 13:14045, 2023",
+    "url": "https://doi.org/10.1038/s41598-023-41032-5",
+    "location": "PDF第1页摘要、第4页表3和表4",
+    "use": "图表按原文报告比例重绘；不是2026年模型评测",
+    "short": "Walters与Wilder（2023），表3"
+  }
+}

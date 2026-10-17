@@ -1,5 +1,5 @@
 {
-  "revision": "a3",
+  "revision": "a4",
   "pptx_pages": 12,
   "notes": 12,
   "pdf_pages": 12,
@@ -23,6 +23,6 @@
   "classroom_exercise_pages": 0,
   "research_pdf_pages": 8,
   "source_pdf_sha256": "2a911abde0ab94ad322871af9c259cefe25254324815507157071da1e5e66b83",
-  "pptx_sha256": "fc7e1bfdbb675e498b2a03de991d95164a0115809c1f8c380042eced8eb1d366",
+  "pptx_sha256": "3e6acc96c479734447513346c17f349d9794f94fcfa605f350fcf9ce3b4de57f",
   "scope": "文件结构、源数据、可编辑对象和页数核验；不替代科学审查、用户教学验收或PowerPoint实测。"
 }

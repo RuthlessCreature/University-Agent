@@ -16,3 +16,5 @@
 文献幻觉图使用 Walters 与 Wilder（2023）的报告值，不是当前模型评测，也没有重新运行该研究。原理图是课程的概念框架，不能当作某 Agent 的实际运行截图。
 
 制作使用 Artifact Tool。最终文件尚未在 Microsoft PowerPoint 中实测；预览来自 LibreOffice。后续 Section 2 展开 Agentic AI、Agent 与 Harness，Section 3 展开 Humanizer，Section 9 单独核对 Science 等目标期刊的具体要求。
+
+当前修订为 a4：第11页补充PLOS FAQ中单纯语言改进的披露例外，避免将正文总则作一概而论的解释。

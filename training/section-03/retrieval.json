@@ -1,0 +1,22 @@
+{
+  "checked_date": "2026-10-17",
+  "ucl": {
+    "url": "https://mediacentral.ucl.ac.uk/assoc_files/gD20GGDG.pdf",
+    "pages": 15,
+    "viewed_pages": [
+      4,
+      8,
+      10
+    ],
+    "sha256": "4d328c245dd306e6639397220f7daad8ebd150e966633f1746697b354ccccd29"
+  },
+  "liang": {
+    "url": "https://arxiv.org/html/2304.02819v3",
+    "read_via": "web tool HTML: Results / Fig.1a",
+    "local_snapshot": "not saved; certificate validation failed"
+  },
+  "plos": {
+    "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
+    "read_via": "web tool; AI use by authors and disclosures"
+  }
+}

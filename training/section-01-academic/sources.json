@@ -1,16 +1,86 @@
 {
- "ijs":{"title":"Džeroski, AI for Science, SLAIF/Jožef Stefan Institute, 2026","url":"https://ai4science.ijs.si/2026course/","location":"Introduction及Foundation Models课件","use":"讲授范围与原理图组织参考，中文图文另行编写"},
- "gwu":{"title":"Barba, MAE-6291, George Washington University, Spring 2026","url":"https://barbagroup.github.io/mae6291-genai/2026/","location":"Class 1、2、10","use":"研究能力、知识局限与上下文的讲授组织参考；CC BY 4.0"},
- "nist":{"title":"NIST AI 600-1, 2024","url":"https://doi.org/10.6028/NIST.AI.600-1","location":"第1节定义；第2.2节Confabulation；MEASURE 2.5","use":"生成式AI范围、幻觉与来源核对"},
- "concepts":{"title":"OpenAI Docs, Key concepts","url":"https://developers.openai.com/api/docs/concepts","location":"Text generation models; Tokens","checked":"2026-10-17"},
- "context":{"title":"OpenAI Docs, Conversation state","url":"https://developers.openai.com/api/docs/guides/conversation-state","location":"Managing the context window","checked":"2026-10-17"},
- "prompt":{"title":"OpenAI Docs, Prompt engineering","url":"https://developers.openai.com/api/docs/guides/prompt-engineering","location":"Prompt structure; Include relevant context information","checked":"2026-10-17"},
- "optimization":{"title":"OpenAI Docs, Model optimization","url":"https://developers.openai.com/api/docs/guides/model-optimization","location":"Evaluation, prompt engineering and fine-tuning","checked":"2026-10-17"},
- "tools":{"title":"OpenAI Docs, Using tools","url":"https://developers.openai.com/api/docs/guides/tools","location":"网页搜索、文件检索与工具调用","checked":"2026-10-17"},
- "walters":{"title":"Walters & Wilder, Scientific Reports 13:14045, 2023","url":"https://doi.org/10.1038/s41598-023-41032-5","location":"PDF第1页摘要、第4页表3和表4","use":"图表按原文报告比例重绘；不是2026年模型评测"},
- "nature":{"title":"Nature Portfolio, Artificial Intelligence policy","url":"https://www.nature.com/nature-portfolio/editorial-policies/ai","location":"Risk assessment framework; Role-specific responsibilities","checked":"2026-10-17"},
- "plos":{"title":"PLOS, Ethical Publishing Practice","url":"https://journals.plos.org/plosone/s/ethical-publishing-practice","location":"Artificial Intelligence Tools and Technologies: AI use by authors","checked":"2026-10-17"},
- "elicit":{"title":"Elicit","url":"https://elicit.com/","location":"官方产品首页","checked":"2026-10-17"},
- "consensus":{"title":"Consensus","url":"https://consensus.app/","location":"官方产品首页","checked":"2026-10-17"},
- "connected":{"title":"Connected Papers","url":"https://www.connectedpapers.com/","location":"官方产品首页","checked":"2026-10-17"}
+  "ijs": {
+    "title": "Džeroski, AI for Science, SLAIF/Jožef Stefan Institute, 2026",
+    "url": "https://ai4science.ijs.si/2026course/",
+    "location": "Introduction及Foundation Models课件",
+    "use": "讲授范围与原理图组织参考，中文图文另行编写"
+  },
+  "gwu": {
+    "title": "Barba, MAE-6291, George Washington University, Spring 2026",
+    "url": "https://barbagroup.github.io/mae6291-genai/2026/",
+    "location": "Class 1、2、10",
+    "use": "研究能力、知识局限与上下文的讲授组织参考；CC BY 4.0"
+  },
+  "nist": {
+    "title": "NIST AI 600-1, 2024",
+    "url": "https://doi.org/10.6028/NIST.AI.600-1",
+    "location": "第1节定义；第2.2节Confabulation；MEASURE 2.5",
+    "use": "生成式AI范围、幻觉与来源核对"
+  },
+  "concepts": {
+    "title": "OpenAI Docs, Key concepts",
+    "url": "https://developers.openai.com/api/docs/concepts",
+    "location": "Text generation models; Tokens",
+    "checked": "2026-10-17"
+  },
+  "context": {
+    "title": "OpenAI Docs, Conversation state",
+    "url": "https://developers.openai.com/api/docs/guides/conversation-state",
+    "location": "Managing the context window",
+    "checked": "2026-10-17"
+  },
+  "prompt": {
+    "title": "OpenAI Docs, Prompt engineering",
+    "url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+    "location": "Prompt structure; Include relevant context information",
+    "checked": "2026-10-17"
+  },
+  "optimization": {
+    "title": "OpenAI Docs, Model optimization",
+    "url": "https://developers.openai.com/api/docs/guides/model-optimization",
+    "location": "Evaluation, prompt engineering and fine-tuning",
+    "checked": "2026-10-17"
+  },
+  "tools": {
+    "title": "OpenAI Docs, Using tools",
+    "url": "https://developers.openai.com/api/docs/guides/tools",
+    "location": "网页搜索、文件检索与工具调用",
+    "checked": "2026-10-17"
+  },
+  "walters": {
+    "title": "Walters & Wilder, Scientific Reports 13:14045, 2023",
+    "url": "https://doi.org/10.1038/s41598-023-41032-5",
+    "location": "PDF第1页摘要、第4页表3和表4",
+    "use": "图表按原文报告比例重绘；不是2026年模型评测"
+  },
+  "nature": {
+    "title": "Nature Portfolio, Artificial Intelligence policy",
+    "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+    "location": "Risk assessment framework; Role-specific responsibilities",
+    "checked": "2026-10-17"
+  },
+  "plos": {
+    "title": "PLOS, Ethical Publishing Practice",
+    "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
+    "location": "AI use by authors；AI use disclosures；FAQ语言改进与翻译例外、代码与制图要求",
+    "checked": "2026-10-17"
+  },
+  "elicit": {
+    "title": "Elicit",
+    "url": "https://elicit.com/",
+    "location": "官方产品首页",
+    "checked": "2026-10-17"
+  },
+  "consensus": {
+    "title": "Consensus",
+    "url": "https://consensus.app/",
+    "location": "官方产品首页",
+    "checked": "2026-10-17"
+  },
+  "connected": {
+    "title": "Connected Papers",
+    "url": "https://www.connectedpapers.com/",
+    "location": "官方产品首页",
+    "checked": "2026-10-17"
+  }
 }
