@@ -1,0 +1,29 @@
+{
+  "revision": "s2-r2",
+  "pptx_pages": 18,
+  "pdf_pages": 18,
+  "notes": 18,
+  "preview_images": 18,
+  "native_table_pages": [
+    3,
+    5,
+    6,
+    9,
+    17
+  ],
+  "native_diagram_pages": [
+    4,
+    10,
+    13,
+    16
+  ],
+  "harness_pages": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "raster_images": 0,
+  "pptx_sha256": "2d5eddd379820c9f106e9569698f2efb5caa0f76ffcf5926e69c8649bbdecef1",
+  "scope": "文件、页数、原生对象和备注来源核验；不代表科研Agent全系统运行或用户教学验收。"
+}

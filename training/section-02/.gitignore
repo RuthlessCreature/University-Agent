@@ -1,0 +1,6 @@
+.build/
+.reference-cache/
+node_modules/
+*.log
+output/*_s2-r1.pptx
+renders/s2-r1/
