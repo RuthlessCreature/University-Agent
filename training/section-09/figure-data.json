@@ -1,0 +1,137 @@
+{
+  "raw_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "raw_rows": 344,
+  "adelie_rows": 152,
+  "analysis_rows": 146,
+  "excluded_rows": [
+    5,
+    10,
+    11,
+    12,
+    13,
+    49
+  ],
+  "female": {
+    "n": 73,
+    "mean": 187.7945205479452,
+    "sd": 5.595034763345456,
+    "se_iid": 0.6548492873041831,
+    "median": 188.0
+  },
+  "male": {
+    "n": 73,
+    "mean": 192.41095890410958,
+    "sd": 6.599317339354874,
+    "se_iid": 0.7723916721094106,
+    "median": 193.0
+  },
+  "mean_difference_mm": 4.616438356164366,
+  "bootstrap": {
+    "seed": 20261018,
+    "replicates": 10000,
+    "sampling_unit": "row; groups separately; iid assumption, not a verified nest/year model",
+    "quantile_method": "linear",
+    "percentile_95": [
+      2.6849315068492956,
+      6.575342465753437
+    ],
+    "se": 0.9981899305176021,
+    "histogram_edges": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0,
+      8.5,
+      9.0,
+      9.5,
+      10.0
+    ],
+    "histogram_counts": [
+      0,
+      1,
+      8,
+      32,
+      121,
+      366,
+      829,
+      1308,
+      1849,
+      1987,
+      1617,
+      1037,
+      555,
+      214,
+      57,
+      16,
+      3,
+      0,
+      0,
+      0
+    ],
+    "outside_histogram": 0
+  },
+  "claim_limits": [
+    "observational secondary teaching analysis",
+    "row independence assumed, not established",
+    "sex and flipper complete cases only; no imputation",
+    "no population causal conclusion",
+    "bootstrap CI does not include selection, missingness, nest dependence or model bias"
+  ],
+  "histogram": {
+    "edges": [
+      170,
+      175,
+      180,
+      185,
+      190,
+      195,
+      200,
+      205,
+      210,
+      215
+    ],
+    "series": [
+      {
+        "name": "female",
+        "values": [
+          2,
+          3,
+          11,
+          27,
+          21,
+          8,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "male",
+        "values": [
+          0,
+          1,
+          10,
+          8,
+          24,
+          22,
+          5,
+          2,
+          1
+        ]
+      }
+    ]
+  }
+}

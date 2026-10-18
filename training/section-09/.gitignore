@@ -1,0 +1,10 @@
+.build/
+.reference-cache/
+.chart-data-*/
+node_modules/
+*.log
+
+output/*s9-r1*
+output/*s9-r2*
+renders/s9-r1/
+renders/s9-r2/

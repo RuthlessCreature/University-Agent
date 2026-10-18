@@ -1,0 +1,74 @@
+{
+  "lecture": {
+    "title": "University of Göttingen，Lorenz Glißmann，Scientific Writing and Structure Your Work，2026-01-08",
+    "short": "哥廷根大学2026原始写作课件",
+    "url": "https://hps.vi4io.org/_media/teaching/autumn_term_2025/bam/06-scientific-writing-and-structure-your-work.pdf",
+    "location": "PDF第4、8、9、16、19、21页已逐页渲染查看；印刷页码可能不同"
+  },
+  "intro": {
+    "title": "MIT Broad Communication Lab，Journal Article: Introduction",
+    "short": "MIT CommLab，引言写作",
+    "url": "https://mitcommlab.mit.edu/broad/commkit/journal-article-introduction/",
+    "location": "Structure/Background/Question等指导"
+  },
+  "results": {
+    "title": "MIT Broad Communication Lab，Journal Article: Results",
+    "short": "MIT CommLab，结果写作",
+    "url": "https://mitcommlab.mit.edu/broad/commkit/journal-article-results/",
+    "location": "Decide on figures、organized results、claims and evidence"
+  },
+  "discuss": {
+    "title": "MIT Broad Communication Lab，Journal Article: Discussion",
+    "short": "MIT CommLab，讨论写作",
+    "url": "https://mitcommlab.mit.edu/broad/commkit/journal-article-discussion/",
+    "location": "interpretation、context、limitations"
+  },
+  "criteria": {
+    "title": "PLOS One，Criteria for Publication",
+    "short": "PLOS One，发表标准",
+    "url": "https://journals.plos.org/plosone/s/criteria-for-publication",
+    "location": "2026-10-18核查：original research、supported conclusions、reporting"
+  },
+  "submit": {
+    "title": "PLOS One，Submission Guidelines",
+    "short": "PLOS One，投稿指南",
+    "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+    "location": "2026-10-18核查Manuscript Organization、Cover letter、Abstract；具体期刊示例"
+  },
+  "review": {
+    "title": "PLOS One，Editorial and Peer Review Process",
+    "short": "PLOS One，编辑与同行评审流程",
+    "url": "https://journals.plos.org/plosone/s/editorial-and-peer-review-process",
+    "location": "Initial Checks、Editorial Review、Decisions、Revisions、Appeals，2026-10-18核查"
+  },
+  "revise": {
+    "title": "PLOS One，Revising Your Manuscript",
+    "short": "PLOS One，返修提交说明",
+    "url": "https://journals.plos.org/plosone/s/revising-your-manuscript",
+    "location": "Submission Instructions：逐条回复、标记稿与清稿，2026-10-18核查"
+  },
+  "ai": {
+    "title": "ICMJE，Use of AI by Authors",
+    "short": "ICMJE，作者使用AI的说明",
+    "url": "https://icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html",
+    "location": "2026-10-18核查；医学期刊建议，具体采用以目标刊规定为准"
+  },
+  "penguins": {
+    "title": "Horst, Hill & Gorman，palmerpenguins公开数据",
+    "short": "palmerpenguins公开数据及课程二次计算",
+    "url": "https://allisonhorst.github.io/palmerpenguins/",
+    "location": "公开CSV、CC0及原始资料；数据哈希与实算结果见writing-packet"
+  },
+  "paper": {
+    "title": "Gorman KB, Williams TD, Fraser WR. Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis). PLOS ONE. 2014;9(3):e90081.",
+    "short": "Gorman等，2014，原始研究",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081",
+    "location": "标题、作者、摘要、方法；本例二次计算不冒充原文结果"
+  },
+  "course": {
+    "title": "课程自编教学稿与模拟审稿回复",
+    "short": "课程教学示例 / 模拟审稿",
+    "url": "local:training/section-09/writing-packet/manuscript-r1.md",
+    "location": "实际可编辑教学稿、revision.diff与response-matrix.csv；未投稿"
+  }
+}
