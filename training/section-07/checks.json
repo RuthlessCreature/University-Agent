@@ -1,0 +1,44 @@
+{
+  "revision": "s7-r3",
+  "pages": 22,
+  "pdf_pages": 22,
+  "notes": 22,
+  "preview_images": 22,
+  "editable_connector_diagram_pages": [
+    1,
+    2,
+    6,
+    7,
+    9,
+    11,
+    15,
+    16,
+    21,
+    22
+  ],
+  "native_table_pages": [
+    3,
+    4,
+    12
+  ],
+  "native_chart_pages": [
+    5,
+    8,
+    14,
+    17,
+    18,
+    19
+  ],
+  "embedded_workbooks": 6,
+  "source_records": 344,
+  "analysis_records": 146,
+  "mean_difference_mm": 4.616438356164366,
+  "bootstrap_95_percentile": [
+    2.6849315068492956,
+    6.575342465753437
+  ],
+  "exact_coin_teaching_p": 0.04138946533203125,
+  "normal_simulation_coverage_count": 941,
+  "pptx_sha256": "8edae2fe6f40fb2e412838202bd19a4998acf1b343178aee1829f8618c136ba9",
+  "scope": "文件结构、源CSV独立复算、样本与缺失、图表缓存及最终器工作簿检查。科学假设、独立性和外推未获证明，不代表科研Agent全系统已运行。"
+}

@@ -1,0 +1,11 @@
+{
+  "reexecuted": true,
+  "same_sha256_after_rerun": {
+    "training\\section-07\\results.json": "1f099a2211341eb7be2997b78503404905f854a9ab2f9cf5fd8366946c7bddd9",
+    "training\\section-07\\analysis-packet\\adelie-analysis.csv": "9724a47c4ba017ac04b5bc6134a088710611cd781d4017ea58b25b16731b9b40",
+    "training\\section-07\\analysis-packet\\bootstrap-differences.csv": "a3876bfab91129879fac60f523253dc24dab3cc8e27a12b3ccaac96f2e8243e0",
+    "training\\section-07\\analysis-packet\\normal-ci-simulation.csv": "9a0bca6c0c7bef10b560fae45687cd9cbacc1f05d85f067830c3de39fc326e95",
+    "training\\section-07\\analysis-packet\\penguins.csv": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+  },
+  "scope": "固定输入、种子及当前NumPy/pandas版本下复算字节一致，不证明抽样假设"
+}

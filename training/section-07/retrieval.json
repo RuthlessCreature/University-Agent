@@ -1,0 +1,37 @@
+{
+  "eda": {
+    "url": "https://docs.google.com/presentation/d/1_i5kgBSmCoYQF2bB1jfGpZkL3pRWku54BDd5xxLqZVE/export/pdf",
+    "sha256": "e8d32f9686613f8801256d7e8054875f6598ee939e795be964e74d5fb698fb1c",
+    "pages": 30
+  },
+  "ci": {
+    "url": "https://docs.google.com/presentation/d/1as5Nr_mx7eZk1Wz4mZJdOcHGjycFxf5FqhZyfXqjLbk/export/pdf",
+    "sha256": "d69465522990f4ab24d3014d71394b24a59c6c7caba82c469bee9c72c9254336",
+    "pages": 37
+  },
+  "test": {
+    "url": "https://docs.google.com/presentation/d/1kVlWvs05VWO8afAteE92p85yHMnPlo1WEuktsL6AeHE/export/pdf",
+    "sha256": "767c94d8d11efa8c70d3f9a9ca2e8ee7d702af5a1098126d8affc0b2d3173c32",
+    "pages": 34
+  },
+  "retrieved_date": "2026-10-17",
+  "reviewed_date": "2026-10-18",
+  "viewed_pages": {
+    "eda": [
+      9,
+      20,
+      24
+    ],
+    "ci": [
+      4,
+      7,
+      8
+    ],
+    "test": [
+      6,
+      17,
+      29
+    ]
+  },
+  "original_pages_redistributed": false
+}
