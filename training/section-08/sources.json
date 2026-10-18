@@ -1,0 +1,50 @@
+{
+  "marks": {
+    "title": "UBC CPSC447 2026课程：Marks & Channels I，2026-01-19修订",
+    "short": "UBC 2026，图形编码，pp.4/6/17",
+    "url": "https://www.cs.ubc.ca/~tmm/talks/vad/2601-marks.pdf",
+    "location": "实际渲染查看第4、6、17页"
+  },
+  "color": {
+    "title": "UBC 2026课程所列Color (Ch10)共享课件",
+    "short": "UBC课程颜色课件，pp.7/21",
+    "url": "https://www.cs.ubc.ca/~tmm/talks/vad/VAD-color.pdf",
+    "location": "实际查看第7、21页；共享文件未将全套标为2026新制作"
+  },
+  "network": {
+    "title": "UBC 2026课程所列Network Data (Ch9 revised)，2501版本",
+    "short": "UBC课程节点关系，p.2",
+    "url": "https://www.cs.ubc.ca/~tmm/talks/vad/2501-networks.pdf",
+    "location": "第2页节点与连接，已渲染查看"
+  },
+  "rules": {
+    "title": "UBC 2026课程所列Rules of Thumb (Ch6)",
+    "short": "UBC课程可视化原则，p.4",
+    "url": "https://www.cs.ubc.ca/~tmm/talks/vad/VAD-rules.pdf",
+    "location": "第4页共同尺度位置与平面表达，已渲染查看"
+  },
+  "penguins": {
+    "title": "Horst, Hill & Gorman，palmerpenguins公开观测数据",
+    "short": "palmerpenguins公开数据，本课程重绘",
+    "url": "https://allisonhorst.github.io/palmerpenguins/",
+    "location": "About the data与CC0；源CSV哈希见figure-packet/source.json"
+  },
+  "nist": {
+    "title": "NIST：Confidence Limits for the Mean",
+    "short": "NIST统计手册 §1.3.5.2",
+    "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+    "location": "标准误和均值区间的解释"
+  },
+  "plos": {
+    "title": "PLOS One Figures官方要求",
+    "short": "PLOS One，图注与图像要求",
+    "url": "https://journals.plos.org/plosone/s/figures",
+    "location": "2026-10-18核查Captions、Multi-panel Figures、Preparing Figures from Image Files；各刊要求不同"
+  },
+  "course": {
+    "title": "课程自编绘图与研究方案示意",
+    "short": "课程自编教学示例",
+    "url": "local:training/section-08/lesson.json",
+    "location": "方案未实施，假说未验证；未伪装为科研实证或Agent截图"
+  }
+}

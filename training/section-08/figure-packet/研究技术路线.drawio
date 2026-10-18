@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="research-route" name="拟议技术路线">
+    <mxGraphModel page="1" pageWidth="1600" pageHeight="1000">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="materials" value="题目与评分规则" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=28;fillColor=#F0F5F8;strokeColor=#245B77;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="340" width="350" height="85" />
+        </mxCell>
+        <mxCell id="pilot" value="预试与材料核对" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=28;fillColor=#F0F5F8;strokeColor=#245B77;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="500" width="350" height="85" />
+        </mxCell>
+        <mxCell id="step" value="分步提示条件" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=28;fillColor=#F0F5F8;strokeColor=#245B77;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="610" y="350" width="400" height="85" />
+        </mxCell>
+        <mxCell id="answer" value="完整解答条件" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=28;fillColor=#F0F5F8;strokeColor=#245B77;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="610" y="620" width="400" height="85" />
+        </mxCell>
+        <mxCell id="process1" value="记录作答过程" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=28;fillColor=#F0F5F8;strokeColor=#245B77;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="610" y="465" width="400" height="85" />
+        </mxCell>
+        <mxCell id="process2" value="记录作答过程" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=28;fillColor=#F0F5F8;strokeColor=#245B77;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="610" y="735" width="400" height="70" />
+        </mxCell>
+        <mxCell id="test" value="统一无AI新题测验" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=28;fillColor=#F0F5F8;strokeColor=#245B77;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="490" width="340" height="110" />
+        </mxCell>
+        <mxCell id="compare" value="按预定方案比较" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=28;fillColor=#F0F5F8;strokeColor=#245B77;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="710" width="340" height="85" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#245B77;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="materials" target="pilot">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#245B77;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="pilot" target="step">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#245B77;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="pilot" target="answer">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#245B77;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="step" target="process1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#245B77;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="answer" target="process2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#245B77;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="process1" target="test">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#245B77;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="process2" target="test">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#245B77;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="test" target="compare">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="title" value="分步提示与独立解题：拟议技术路线（教学模拟，未实施）" style="text;html=1;fontFamily=Microsoft YaHei;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="220" width="1440" height="70" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

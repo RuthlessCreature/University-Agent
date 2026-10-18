@@ -1,0 +1,33 @@
+{
+  "revision": "s8-r2",
+  "pages": 16,
+  "notes": 16,
+  "pdf_pages": 16,
+  "preview_images": 16,
+  "editable_connector_diagram_pages": [
+    1,
+    2,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "native_chart_pages": [
+    3,
+    4,
+    6,
+    8
+  ],
+  "native_charts": 7,
+  "embedded_workbooks": 7,
+  "source_records": 344,
+  "scatter_records": 146,
+  "route_nodes": 8,
+  "route_edges": 8,
+  "mechanism_dashed_connectors": 2,
+  "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+  "scope": "源CSV复算、原生图缓存、编辑源节点连接、虚线符号和导出文件检查。并有逐页视觉审查；不证明研究实施、机制或科研Agent全系统运行。"
+}
