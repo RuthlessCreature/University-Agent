@@ -1,0 +1,10 @@
+.build/
+.chart-data-*/
+.reference-cache/
+node_modules/
+__pycache__/
+*.log
+output/*s12-r1.pptx
+output/*s12-r2.pptx
+renders/s12-r1/
+renders/s12-r2/

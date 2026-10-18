@@ -1,0 +1,7 @@
+{
+ "lecture":{"title":"HaDEA，REPA Reporting and Payment Webinar，26 March 2025","short":"HaDEA 2025原始课件 pp.97–98/102/104","url":"https://hadea.ec.europa.eu/document/download/1e773e0c-f2ab-44db-9f80-c7a02cc75bb4_en?filename=REPA+-+Webinar+-+March+2025.pdf","location":"已逐页查看PDF物理页75、97、98、102、104；采用持续记录、材料分工与报告汇总讲法，不照搬CEF制度或截图作为中国系统"},
+ "nsfc":{"title":"国家自然科学基金委员会，关于2026年度项目申请与结题等有关事项的通告，2026-01-14","short":"NSFC 2026通告，二、五部分","url":"https://www.nsfc.gov.cn/p1/3381/2824/99667.html","location":"二（一）1至6与二（二）：报告、附件、成果范围、决算和依托单位；五（二）：生成式AI直接生成报告限制。通告的2026集中期日期不作为下一年度时间要求"},
+ "data":{"title":"Horst、Hill与Gorman，palmerpenguins公开数据","short":"palmerpenguins公开数据，课程二次计算","url":"https://allisonhorst.github.io/palmerpenguins/","location":"About the data、License、References；简化CSV344条。input/source.json保留原始下载URL、CC0许可和哈希"},
+ "task":{"title":"本节自编材料核对任务书","short":"自编教学任务书，非基金任务书","url":"local:training/section-12/closeout-packet/input/taskbook.json","location":"M1来源与筛选，M2分组均值，M3个体与抽样资料；借现成数据演示，不是预注册研究目标"},
+ "run":{"title":"本节实际数据复算和材料执行记录","short":"实际本地复算与文件记录，无模型调用","url":"local:training/section-12/execution-evidence.json","location":"run_closeout.py；output/calculation.json、evidence-matrix.json、issues.json、run.json；非科研验收或Cloudflare功能验证"}
+}

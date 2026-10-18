@@ -1,0 +1,40 @@
+{
+  "status": "materials_review_required",
+  "material_type": "teaching-simulation",
+  "external_model_called": false,
+  "human_approved": false,
+  "scientific_validation": "not_performed",
+  "official_submission": false,
+  "input_hashes": {
+    "taskbook.json": "3bb3f6c946a394894514124ce38d5983375668271a638178c034ae78de61aabd",
+    "source.json": "fb692fd31480568fd3aa640fde40127c8aa0f65e1b30b24a06c0c8fe19021e6a",
+    "penguins.csv": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+  },
+  "executor_sha256": "a9bf507fbde2d049ded9dfe08d4aad21d3d17e6554c0c026aca5e99d183345d7",
+  "artifact": "materials-review.docx",
+  "artifact_sha256": "67e6a1856de93337bc79c776ccd4814a2b4988a0abea7e5061dc55bb08141f08",
+  "verified_material_items": 2,
+  "pending_items": 1,
+  "events": [
+    {
+      "stage": "intake",
+      "state": "running",
+      "utc": "2026-10-18T13:02:27.922377+00:00"
+    },
+    {
+      "stage": "source_and_calculation",
+      "state": "passed",
+      "utc": "2026-10-18T13:02:27.931529+00:00"
+    },
+    {
+      "stage": "evidence_mapping",
+      "state": "pending_sampling_evidence",
+      "utc": "2026-10-18T13:02:27.931529+00:00"
+    },
+    {
+      "stage": "docx",
+      "state": "written",
+      "utc": "2026-10-18T13:02:28.067789+00:00"
+    }
+  ]
+}

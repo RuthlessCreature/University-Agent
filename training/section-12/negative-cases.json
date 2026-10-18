@@ -1,0 +1,34 @@
+[
+  {
+    "case": "missing_csv",
+    "expected": "FileNotFoundError",
+    "actual_error_type": "FileNotFoundError",
+    "actual_error": "FileNotFoundError",
+    "status": "failed",
+    "word_written": false
+  },
+  {
+    "case": "tampered_source",
+    "expected": "source_hash_mismatch",
+    "actual_error_type": "ReviewError",
+    "actual_error": "source_hash_mismatch",
+    "status": "failed",
+    "word_written": false
+  },
+  {
+    "case": "duplicate_requirement",
+    "expected": "duplicate_requirement",
+    "actual_error_type": "ReviewError",
+    "actual_error": "duplicate_requirement",
+    "status": "failed",
+    "word_written": false
+  },
+  {
+    "case": "overstated_completion",
+    "expected": "unresolved_completion_claim",
+    "actual_error_type": "ReviewError",
+    "actual_error": "unresolved_completion_claim",
+    "status": "failed",
+    "word_written": false
+  }
+]

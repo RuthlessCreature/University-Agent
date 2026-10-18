@@ -1,0 +1,32 @@
+[
+  {
+    "id": "M1",
+    "criterion": "登记数据来源和筛选过程",
+    "status": "VERIFIED",
+    "status_zh": "材料已核",
+    "evidence": "input/source.json、input/penguins.csv",
+    "locator": "CSV列名及全部344条记录",
+    "result": "344条原记录，Adelie 152条，筛选后146条",
+    "limit": "核对公开来源与筛选，不确认原始采集质量"
+  },
+  {
+    "id": "M2",
+    "criterion": "复算雌雄鳍长均值及差值",
+    "status": "VERIFIED",
+    "status_zh": "材料已核",
+    "evidence": "output/calculation.json、input/penguins.csv",
+    "locator": "sex、flipper_length_mm列；Adelie记录",
+    "result": "雌雄各73条，均值差4.62 mm",
+    "limit": "描述统计，未证明独立性、因果或总体外推"
+  },
+  {
+    "id": "M3",
+    "criterion": "核对个体重复记录与抽样依据",
+    "status": "PENDING",
+    "status_zh": "待补资料",
+    "evidence": "input/penguins.csv",
+    "locator": "完整列名列表",
+    "result": "简化CSV缺个体标识及抽样设计资料",
+    "limit": "需回到原始数据与采样记录核对，当前不判断已完成"
+  }
+]
