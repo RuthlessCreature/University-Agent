@@ -1,0 +1,42 @@
+{
+  "scope": "source identity and supplied locator only; scientific truth not auto-verified",
+  "sources": [
+    {
+      "id": "P1",
+      "type": "public-source",
+      "locator": "https://doi.org/10.1371/journal.pone.0090081；Fig1、Field methods；公开原论文"
+    },
+    {
+      "id": "D1",
+      "type": "public-source",
+      "locator": "../deck-zh/sources/penguins.csv；CC0；统计输出 penguins-statistics.json"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "source_ids": [
+        "P1"
+      ]
+    },
+    {
+      "title": "Methods",
+      "source_ids": [
+        "D1"
+      ]
+    },
+    {
+      "title": "Results",
+      "source_ids": [
+        "D1"
+      ]
+    },
+    {
+      "title": "Discussion",
+      "source_ids": [
+        "P1",
+        "D1"
+      ]
+    }
+  ]
+}

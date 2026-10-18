@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-18T14:21:37.122953+00:00",
+  "cases": [
+    {
+      "case": "unknown-source",
+      "actual_error": "unknown_source:NOT-A-SOURCE",
+      "rejected": true,
+      "external_model_called": false
+    },
+    {
+      "case": "guide-mismatch",
+      "actual_error": "guide_requirement_mismatch",
+      "rejected": true,
+      "external_model_called": false
+    },
+    {
+      "case": "final-without-signoff",
+      "actual_error": "final_export_blocked",
+      "rejected": true,
+      "external_model_called": false
+    }
+  ],
+  "scope": "Real file executor validation errors; deliberate teaching input mutations, not network/model failure tests."
+}

@@ -1,0 +1,34 @@
+{
+  "revision": "s14-r2",
+  "pages": 16,
+  "notes": 16,
+  "pdf_pages": 16,
+  "preview_images": 16,
+  "editable_connector_diagram_pages": [
+    1,
+    3,
+    5,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    16
+  ],
+  "native_table_pages": [
+    6,
+    11,
+    15
+  ],
+  "actual_local_http_documents": 3,
+  "actual_invalid_file_inputs_rejected": 3,
+  "matching_instruction_files": 24,
+  "targeted_fixture_tests_passed": 12,
+  "actual_grant_word_preview_pages": 2,
+  "this_turn_cloud_health_checked": true,
+  "this_turn_live_cloud_model_task": false,
+  "researcher_approved": false,
+  "pptx_sha256": "d77a1a31c952d6916ed8243d96034a75be03a9858bade90f684c94fb5085de14",
+  "scope": "Package, actual local files, copied input/output hashes, source bytes and declared test scope. Geometry/import checks do not prove teaching acceptance; fixture tests do not prove live cloud model operation."
+}

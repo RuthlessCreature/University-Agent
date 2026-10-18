@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-10-18T14:21:37.122953+00:00",
+  "agent_head": "7fc72fe9ca5b4e04fc59c0c9e5cbbe123ae45095",
+  "working_tree_snapshot": true,
+  "reference_pdf": {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423-f25/slides/lecture23-code.pdf",
+    "sha256": "48d3e461a6fe296ac142b2588d749c1361678d18d4aa3987c7abfeba9ceb1e1a",
+    "physical_pages_viewed": [
+      29,
+      30,
+      31,
+      32,
+      34,
+      37
+    ],
+    "adopted_page": 30,
+    "printed_number": 35
+  },
+  "source_files": [
+    {
+      "path": "evidence/source-snapshot/local_workflow.py",
+      "sha256": "83e6d87c359f8b93cee21f038a42b7214b973e188c063b3e762ae0ecdf4ce348"
+    },
+    {
+      "path": "evidence/source-snapshot/skills-lock.json",
+      "sha256": "b0963ddbefa3fcae4d73b489eb9bc022aab2d345ae55abe81d4891d99ca0fd06"
+    },
+    {
+      "path": "evidence/source-snapshot/src/automatic.js",
+      "sha256": "e8dd35d951ddbb0a9b70c31d1d54e9d121cbd7272e52c1093348dcef968ec25d"
+    },
+    {
+      "path": "evidence/source-snapshot/src/grant.js",
+      "sha256": "6d68a48ee40fd41d79a794d7d0162129e2f0052360a941bb810c7aae826ea8d0"
+    },
+    {
+      "path": "evidence/source-snapshot/src/model.js",
+      "sha256": "e34bbd704d82ee34b34bf9b8b50b1f44d8b694cfbef04253882c8617355fd7bf"
+    },
+    {
+      "path": "evidence/source-snapshot/src/projects.js",
+      "sha256": "0540d2b52966769af07c6449cf68e6088bf3d0fcd69ba77dbcc095934a8db0ae"
+    },
+    {
+      "path": "evidence/source-snapshot/src/word-export.js",
+      "sha256": "53037091102d656666b7a344a9b3e368bd92e635f4796487a25dd5c54d8b96d2"
+    },
+    {
+      "path": "evidence/source-snapshot/src/workflows.js",
+      "sha256": "3e7cccb7f22d73b8dcbef5a951e43aa9abfb0db98ced88a003c75adf7f7e86cf"
+    },
+    {
+      "path": "evidence/source-snapshot/src/writing.js",
+      "sha256": "ba0c08c59abbf83b862a55b7fcb653724f15fdc0056d7c3d1044b9225078c40c"
+    }
+  ]
+}

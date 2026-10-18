@@ -1,0 +1,20 @@
+✔ grant runs all nodes and writes a real artifact without approval requests (335.6863ms)
+✔ paper runs all nodes and writes a real artifact without approval requests (135.451ms)
+✔ patent runs all nodes and writes a real artifact without approval requests (111.0162ms)
+✔ figures runs all nodes and writes a real artifact without approval requests (16.1058ms)
+✔ closeout runs all nodes and writes a real artifact without approval requests (13.3158ms)
+✔ automatic failure retries once then stops, preserving node state (56.0979ms)
+✔ an interrupted background node is recovered and completed automatically (102.591ms)
+✔ previous manual output can resume automatically without inventing a reviewer (97.784ms)
+✔ active provider requires DeepSeek and cannot fall back to retained MiniMax secrets (3.6512ms)
+✔ DeepSeek requests official Flash with reasoning and JSON, without MiniMax parameters (79.7661ms)
+✔ editing preserves numeric facts, template chapters, and citations (1.4933ms)
+✔ relevance selection can only reorder and select supplied records (9.8568ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1501.7971

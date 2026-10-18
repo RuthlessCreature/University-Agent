@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "error": "guide_requirement_mismatch",
+  "input_sha256": "6800f6b40115ac6b4fdd9c44a8ce28aa0e2342255cef91027993661bf08bf7ec",
+  "template_sha256": "ecfe2a21d747a214e94cbb61c9e4b746ec4a1d6f3057c5b168fed9a612a354b7",
+  "events": [
+    {
+      "stage": "intake",
+      "state": "running",
+      "detail": "",
+      "utc": "2026-10-18T14:21:40.553302+00:00"
+    },
+    {
+      "stage": "workflow",
+      "state": "failed",
+      "detail": "guide_requirement_mismatch",
+      "utc": "2026-10-18T14:21:40.558300+00:00"
+    }
+  ]
+}

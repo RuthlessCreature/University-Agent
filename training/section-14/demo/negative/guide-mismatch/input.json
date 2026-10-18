@@ -1,0 +1,125 @@
+{
+  "kind": "grant",
+  "title": "公开文献筛选与核验流程",
+  "material_type": "teaching-simulation",
+  "sources": [
+    {
+      "id": "GUIDE-01",
+      "type": "teaching-simulation",
+      "locator": "本目录 guide.json；TEACH-GRANT-01，非官方基金指南"
+    },
+    {
+      "id": "INPUT-01",
+      "type": "teaching-simulation",
+      "locator": "本目录 grant.json，研究设计教学材料"
+    }
+  ],
+  "goals": [
+    {
+      "id": "G1",
+      "text": "建立可复算筛选流程"
+    },
+    {
+      "id": "G2",
+      "text": "独立评价召回与耗时"
+    },
+    {
+      "id": "G3",
+      "text": "保留人工审核"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "R1",
+      "text": "与指南不同的教学变更",
+      "goal_ids": [
+        "G1"
+      ],
+      "artifact": "代码、依赖、输入和日志",
+      "verification": "由另一位研究者根据说明复跑"
+    },
+    {
+      "id": "R2",
+      "text": "评价召回与耗时",
+      "goal_ids": [
+        "G2"
+      ],
+      "artifact": "逐条筛选记录及统计报告",
+      "verification": "参考答案和任务固定，报告漏检"
+    },
+    {
+      "id": "R3",
+      "text": "产物可复用且保留人工判断",
+      "goal_ids": [
+        "G3"
+      ],
+      "artifact": "Word草稿、来源账本、审核记录",
+      "verification": "每项批准对应输入和模板哈希"
+    }
+  ],
+  "sections": [
+    {
+      "title": "立项依据",
+      "content": "教学问题是AI辅助文献筛选在不同文献特征上的漏检及其适用边界。该问题的新颖性尚需真实文献检索核对，不声称已有立项资格。",
+      "source_ids": [
+        "INPUT-01"
+      ]
+    },
+    {
+      "title": "研究目标",
+      "content": "建立可复核的筛选流程，独立评价召回与耗时，并保留人工复核关口。",
+      "source_ids": [
+        "GUIDE-01",
+        "INPUT-01"
+      ]
+    },
+    {
+      "title": "研究内容",
+      "content": "固定公开候选文献集与参考答案。比较人工和AI辅助筛选，按预先确定的类别记录错误，并检查人工复核能否弥补漏检。",
+      "source_ids": [
+        "INPUT-01"
+      ]
+    },
+    {
+      "title": "技术路线",
+      "content": "公开材料准入、独立参考答案、固定任务比较、错误分析、人工复核、可复算报告。API失败时使用预先缓存材料并标示离线回放。",
+      "source_ids": [
+        "INPUT-01"
+      ]
+    },
+    {
+      "title": "考核指标",
+      "content": "代码与环境可独立复跑。保存逐条筛选记录、耗时和漏检，不预先承诺未经证实的提升百分比。文档及来源可编辑可追溯。",
+      "source_ids": [
+        "GUIDE-01"
+      ]
+    },
+    {
+      "title": "研究基础与风险",
+      "content": "当前没有提供申请人的团队成果、前期数据或设备证明。该缺口需要申请人补充，不用公开数据可下载性替代团队研究基础。",
+      "source_ids": [
+        "INPUT-01"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "FOUNDATION",
+      "severity": "blocking",
+      "issue": "未提供申请人真实研究基础；不得正式提交"
+    },
+    {
+      "id": "NOVELTY",
+      "severity": "blocking",
+      "issue": "尚未完成真实文献查新与科学可行性审查"
+    }
+  ],
+  "route": [
+    "材料准入",
+    "独立参考答案",
+    "固定任务比较",
+    "错误分析",
+    "人工复核",
+    "报告与文档"
+  ]
+}

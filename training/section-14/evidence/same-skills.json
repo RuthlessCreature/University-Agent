@@ -1,0 +1,155 @@
+{
+  "checked_at": "2026-10-18T14:21:37.122953+00:00",
+  "count": 24,
+  "canonical_commit": "7987aaca32e23d1e041d8d530a386f2bc03c177f",
+  "fingerprint": "7b0f394edabf03e0acf62924a063b5728cdf9a7fa1e4104f4c230a1bf0ab0512",
+  "cloud_health_fingerprint_matches": true,
+  "normalization": "CRLF converted to LF",
+  "skills": [
+    {
+      "id": "research-intake",
+      "sha256_lf": "b71c665872ef97ca1444963f27bcd36037c0cab360cbcee340c2ce813e20a1c9",
+      "local_and_worker_equal": true,
+      "integration_scope": "Structured JSON classification and source locator checks, no permission inference"
+    },
+    {
+      "id": "document-parsing",
+      "sha256_lf": "31434ab88b153cabaa9b132109898607263ef983754b348897a178f6c89fc3c9",
+      "local_and_worker_equal": true,
+      "integration_scope": "JSON + DOCX template only; PDF/OCR not supported"
+    },
+    {
+      "id": "literature-discovery",
+      "sha256_lf": "af070deb2538c37fdcfa6b84eefd79452b4dda097c45c40523f5616e57c280f3",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "literature-synthesis",
+      "sha256_lf": "bf8f1fc3c7aad94a0670283d4f7563d9f57435675ee0c281720b52dd11219ccd",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "citation-verification",
+      "sha256_lf": "6d7b11e56bd00c4969333841d4abc194f628836aa2432be02131cd1675dc3e00",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "claim-audit",
+      "sha256_lf": "99cc7231d96a6bb005ce742445a3bb86b2e1b73d140d0731f33868c0b34c8f15",
+      "local_and_worker_equal": true,
+      "integration_scope": "Structural evidence gate only; does not establish scientific truth"
+    },
+    {
+      "id": "topic-evaluation",
+      "sha256_lf": "99391df16d80f14181669719ad73e587d1ce6814add3659f3c1d96f465093e09",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "experiment-design",
+      "sha256_lf": "3c5e440fb6a73837132b15d5a72f44628f3fa3c37313f922b4521ac8031a3ee4",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "data-analysis",
+      "sha256_lf": "ecc5d92e2ce642cb5d06360957897abfb23627368ec8bf2598bf19daaf13139d",
+      "local_and_worker_equal": true,
+      "integration_scope": "Real palmerpenguins descriptive n/mean/sample SD"
+    },
+    {
+      "id": "grant-template",
+      "sha256_lf": "58f1eadea9d5adeb1122a9e23a6252843ac5538489b7cdde05c77cf91af10eb7",
+      "local_and_worker_equal": true,
+      "integration_scope": "Separate JSON teaching guide and DOCX template constraints"
+    },
+    {
+      "id": "grant-research-content",
+      "sha256_lf": "49d238af0a8c9edb9de3f30476d0448a62ceae1a9fd17719e483e28cce264025",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "grant-technical-route",
+      "sha256_lf": "793804ce2de963b044817d2c05776a886a562ce895ffd1ce2f442a91fcf88f75",
+      "local_and_worker_equal": true,
+      "integration_scope": "Supplied stage sequence to editable Mermaid; no autonomous method design"
+    },
+    {
+      "id": "grant-background",
+      "sha256_lf": "de77f97264cffea3e19704e0287b17d231c5ccf80a4142ef9f31dd551ca75d13",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "grant-review",
+      "sha256_lf": "c1cbb25fea4e1a1a568ae288e54927576834d51483b2afe18e0ed13737cce6e8",
+      "local_and_worker_equal": true,
+      "integration_scope": "Guide/sections/mapping/source/approval checks, no scientific quality rating"
+    },
+    {
+      "id": "paper-drafting",
+      "sha256_lf": "7ed82cd00f7d408bf3889beacb6c71c0ce12662887544f731c85eb30261a919d",
+      "local_and_worker_equal": true,
+      "integration_scope": "Supplied IMRAD text to editable DOCX; no literature search"
+    },
+    {
+      "id": "paper-review",
+      "sha256_lf": "71fec1af3bcedc350148755f6ac79868119fe7a39b23cb53c9f7bc51b8dd0517",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "rebuttal",
+      "sha256_lf": "0e7a114c8f6d3ed89b4e8dad826e27382b016d32c1c607b167a403e47cc6161f",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "patent-disclosure",
+      "sha256_lf": "bcb608395107cf1e862bda67d8dea53e5ee7806d260eba1469844175ac1fee65",
+      "local_and_worker_equal": true,
+      "integration_scope": "Supplied technical facts to DOCX and questions; no legal novelty search"
+    },
+    {
+      "id": "patent-search",
+      "sha256_lf": "af6d087cdfc721923d1d3bb21dfb644954825a6d964e768ee9470a66cf45973c",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "data-figure",
+      "sha256_lf": "9c041ed1c76553b71e79fe1305d3e60988bda5f5e75f856b22380b571b84834c",
+      "local_and_worker_equal": true,
+      "integration_scope": "Native editable scatter chart with source data and embedded workbook"
+    },
+    {
+      "id": "diagram",
+      "sha256_lf": "66ffee7180f76bea070049e8aa9cc6dad01cced8f27ae1a71e483441cebb8039",
+      "local_and_worker_equal": true,
+      "integration_scope": "Editable Mermaid and PPT native relationships; no Draw.io integration"
+    },
+    {
+      "id": "nano-banana-figure",
+      "sha256_lf": "2050c99352a9ea315cc1009790b6f14d2797d83ee0a2e02c52d8f8d18c7bd221",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "academic-humanizer",
+      "sha256_lf": "9fc8f6e6529f2cd40254a20dfff09d0e536ea52d480fe3b5741404c18d1b70a0",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    },
+    {
+      "id": "research-closeout",
+      "sha256_lf": "2c9323e68162e14d6d353946d0da6586caf47b2f8528235ff5e6f052176d9c42",
+      "local_and_worker_equal": true,
+      "integration_scope": "Not declared in manifest"
+    }
+  ],
+  "scope": "Instruction bytes on disk and bundle verified; live health reports same fingerprint. Does not prove equal tools or correct model execution."
+}

@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-18T14:18:46.916Z",
+  "url": "https://ikun.homes/health",
+  "method": "browser navigation and visible JSON",
+  "health": {
+    "ok": true,
+    "service": "university-agent",
+    "provider": "deepseek",
+    "model": "deepseek-flash",
+    "billing_mode": "deepseek-api",
+    "inactive_providers": [
+      "minimax"
+    ],
+    "model_configured": true,
+    "persistence_bound": true,
+    "skill_commit": "7987aaca32e23d1e041d8d530a386f2bc03c177f",
+    "skill_fingerprint": "7b0f394edabf03e0acf62924a063b5728cdf9a7fa1e4104f4c230a1bf0ab0512"
+  },
+  "scope": "Health/configuration only; no authenticated workflow or live model requested this turn."
+}
