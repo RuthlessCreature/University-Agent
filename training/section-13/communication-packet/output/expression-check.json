@@ -1,0 +1,25 @@
+{
+  "scope": "锁定字段和数字匹配；语义、来源归属与限定另经逐句阅读，不是自动科学审查",
+  "fact_contract": {
+    "analysis_n": 146,
+    "female_n": 73,
+    "male_n": 73,
+    "difference_mm": 4.62
+  },
+  "versions": [
+    {
+      "audience": "同行汇报",
+      "numeric_tokens_preserved": true
+    },
+    {
+      "audience": "项目评审",
+      "numeric_tokens_preserved": true
+    },
+    {
+      "audience": "普通读者",
+      "numeric_tokens_preserved": true
+    }
+  ],
+  "release_state": "not_published",
+  "researcher_approved": false
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+  "downloaded": "2026-10-18",
+  "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "license": "CC0",
+  "description": "palmerpenguins简化公开数据；原始科研采集与本课程二次计算分别说明"
+}

@@ -2,8 +2,8 @@
   "checked_date": "2026-10-18",
   "goal_status": "active",
   "target_pages": 240,
-  "produced_pages": 214,
-  "next_section": 13,
+  "produced_pages": 224,
+  "next_section": 14,
   "scope": "登记实际产物，不表示全部章节或教学验收已完成。Section 0一致性复核列为后续审查项。",
   "sections": [
     {
@@ -157,8 +157,12 @@
       "id": 13,
       "title": "科研汇报与成果传播",
       "page_budget": 10,
-      "status": "not_started",
-      "user_accepted": false
+      "status": "produced_for_review",
+      "user_accepted": false,
+      "revision": "s13-r6",
+      "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
+      "sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+      "checks": "training/section-13/checks.json"
     },
     {
       "id": 14,

@@ -1,0 +1,16 @@
+.build/
+.reference-cache/
+.chart-data-*/
+node_modules/
+__pycache__/
+*.log
+output/*s13-r1.pptx
+output/*s13-r2.pptx
+renders/s13-r1/
+renders/s13-r2/
+output/*s13-r3.pptx
+renders/s13-r3/
+output/*s13-r4.pptx
+renders/s13-r4/
+output/*s13-r5.pptx
+renders/s13-r5/

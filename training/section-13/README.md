@@ -1,0 +1,13 @@
+# Section 13 科研汇报与成果传播
+
+10页，最终版本s13-r6。output含可编辑PPT，renders/s13-r6含PDF及逐页PNG。页面围绕同一项公开数据复算，比较同行、评审及普通读者的表达，讲解图示、分布、Humanizer修订、研究者身份与传播入口。无课堂练习。
+
+国外参考为佛罗里达大学Desika Narayanan的Giving Scientific Presentations，SURF/UF REUs 2025。已查看物理页3、14、20、23、27、29、31。第23页原图用于讲解条件、过程与来源，没有重绘或冒充本课程科研成果。未采用第20页拼合宣传图或第31页反例中的统计结果。检索到的CERN2025材料实际为1页海报，本节未采用，未将其称为PPT。
+
+ORCID、DOI与ResearchGate用途另查官方说明。个人主页的内容组织为课程建议。课件没有伪造平台账号、ORCID号、研究者身份、成果归属、浏览量、引用或采纳数据，也没有登录平台或执行账号操作。
+
+communication-packet含公开CSV、来源、自编教学文字、实际复算结果和Word。make_packet.py重新读取344条记录，按条件筛到146条Adelie记录，复算雌雄分布与均值。脚本匹配固定数字字段，组装现成的三个读者版本和修订示例，不调用外部模型。文字的语义和来源归属另作逐句审阅，不能把数字匹配称为科学判断或去AI痕迹保证。
+
+原始采集属于公开数据项目，本课程只作二次计算。三个段落为AI编写的教学表达，未代表原作者、研究者或项目负责人对外发布，也不是新论文、正式项目报告或ORCID/ResearchGate平台内容。Word和Markdown可编辑，仍需按真实使用场景核对。
+
+build.mjs使用Artifact Tool；第4页为原生分组频数图，附嵌入工作簿，第5页为原生表格。check_delivery.py独立核对CSV、分箱、段落、图表缓存、工作簿、图像字节、哈希与导出。通过LibreOffice渲染审查，未在Microsoft PowerPoint或Word中作原生应用测试。

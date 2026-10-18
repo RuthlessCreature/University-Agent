@@ -1,0 +1,35 @@
+{
+  "revision": "s13-r6",
+  "pages": 10,
+  "notes": 10,
+  "pdf_pages": 10,
+  "preview_images": 10,
+  "editable_connector_diagram_pages": [
+    1,
+    2,
+    7,
+    8,
+    9,
+    10
+  ],
+  "native_table_pages": [
+    5
+  ],
+  "native_chart_pages": [
+    4
+  ],
+  "embedded_workbooks": 1,
+  "sourced_figure_page": 3,
+  "actual_word_preview_page": 9,
+  "word_pages": 2,
+  "reader_versions": 3,
+  "source_records": 344,
+  "analysis_records": 146,
+  "histogram_records_per_group": 73,
+  "actual_file_execution": true,
+  "external_model_called": false,
+  "platform_account_accessed": false,
+  "researcher_approved": false,
+  "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+  "scope": "原CSV分组与分箱独立复算、三个完整段落及比较对象、Word与源图字节、原生图表表格及导出检查；数字匹配不等于语义审查、科学验收或实际平台发布。"
+}
