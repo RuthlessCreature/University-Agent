@@ -1,0 +1,42 @@
+{
+  "scope": "实际结构核对与材料填充，不调用模型，不作专利性判断",
+  "run": {
+    "kind": "patent",
+    "status": "draft_review_required",
+    "input_sha256": "35d21f63a011cdecd6c012d69b406b2d3a58762f0d06852f6418c13284e4c117",
+    "template_sha256": "b45636e9dc7ee2b235bef60ae4f1a1a7469a436aa9d32842ab9e224ea97915b7",
+    "guide_sha256": null,
+    "artifact": "patent-draft.docx",
+    "artifact_sha256": "593a0579bafb593c52e2aac1ad6dc030d33566ccac2199d8db6229854a60b1bc",
+    "human_approved": false,
+    "external_model_called": false,
+    "scientific_validation": "not_performed",
+    "events": [
+      {
+        "stage": "intake",
+        "state": "running",
+        "detail": "",
+        "utc": "2026-10-18T12:35:30.179924+00:00"
+      },
+      {
+        "stage": "constraints",
+        "state": "passed",
+        "detail": "",
+        "utc": "2026-10-18T12:35:30.192924+00:00"
+      },
+      {
+        "stage": "outline",
+        "state": "human_review_required",
+        "detail": "",
+        "utc": "2026-10-18T12:35:30.211924+00:00"
+      },
+      {
+        "stage": "docx",
+        "state": "written",
+        "detail": "patent-draft.docx",
+        "utc": "2026-10-18T12:35:30.280988+00:00"
+      }
+    ]
+  },
+  "executor_sha256": "83e6d87c359f8b93cee21f038a42b7214b973e188c063b3e762ae0ecdf4ce348"
+}

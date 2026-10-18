@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-18",
+  "scope": "本节教学检索，非全面查新或法律意见",
+  "actual_query": "centrifuge imbalance sensor controller stop",
+  "database": "公开网页搜索；命中后读取Google Patents文献文本与EPO公开PDF",
+  "hits": [
+    {
+      "id": "US7255669B2",
+      "document_publication_date": "2007-08-14",
+      "read": "说明书FIG.7相关步骤、权利要求15",
+      "url": "https://patents.google.com/patent/US7255669B2/en"
+    },
+    {
+      "id": "EP4636367A1",
+      "document_publication_date": "2025-10-22",
+      "read": "首页、说明书[0035]、PDF14至15页权利要求、17页图2",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/publication-dates/2025-10-22/patents/EP4636367NWA1/document.pdf"
+    }
+  ],
+  "not_completed": [
+    "全部数据库覆盖",
+    "全面同族与引证扩展",
+    "全部权利要求与实施方式评估",
+    "当前法律状态与权属核对",
+    "新颖性创造性和实施自由分析"
+  ]
+}
