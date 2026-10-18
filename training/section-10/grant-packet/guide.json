@@ -1,0 +1,40 @@
+{
+  "id": "TEACH-SECTION10-01",
+  "type": "teaching-simulation",
+  "description": "课程自编材料整理规则，不是国家或省部级资助指南，也不是官方申请书模板",
+  "duration_months": 12,
+  "required_sections": [
+    "立项依据",
+    "研究内容",
+    "研究基础"
+  ],
+  "requirements": [
+    {
+      "id": "T1",
+      "text": "说明科学问题与待检验假说",
+      "goal_ids": [
+        "G1"
+      ],
+      "artifact": "问题说明与过程记录",
+      "verification": "问题、变量和观测对应；不预设研究结论"
+    },
+    {
+      "id": "T2",
+      "text": "建立比较与可复核测量安排",
+      "goal_ids": [
+        "G2"
+      ],
+      "artifact": "分组、测验、评分与分析方案",
+      "verification": "研究者另行核定样本量、伦理、授权与分析细节"
+    },
+    {
+      "id": "T3",
+      "text": "保留来源与未决问题",
+      "goal_ids": [
+        "G3"
+      ],
+      "artifact": "来源账本、技术路线和Word教学稿",
+      "verification": "核对文件对应与缺口，未获批准不作正式提交"
+    }
+  ]
+}

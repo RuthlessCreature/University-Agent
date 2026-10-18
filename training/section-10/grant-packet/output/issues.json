@@ -1,0 +1,27 @@
+[
+  {
+    "id": "FOUNDATION",
+    "severity": "blocking",
+    "issue": "缺申请人真实前期工作与条件证明"
+  },
+  {
+    "id": "NOVELTY",
+    "severity": "blocking",
+    "issue": "相关研究检索和创新性审查未完成"
+  },
+  {
+    "id": "DESIGN",
+    "severity": "blocking",
+    "issue": "伦理、授权、样本量和分配方案尚未核定"
+  },
+  {
+    "id": "USE",
+    "severity": "blocking",
+    "issue": "AI协助编写的教学模拟，不用于正式基金申报；国自然使用边界须遵守2026年官方要求"
+  },
+  {
+    "id": "HUMAN-SIGNOFF",
+    "severity": "blocking",
+    "issue": "需要研究者对输入和模板的当前版本签核"
+  }
+]

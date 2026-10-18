@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "error": "unknown_source:NOT-EXISTS",
+  "input_sha256": "1252581f231d8fae5dfb0616a3f8166c17a6458b2353885af1a03f6501980df3",
+  "template_sha256": "063b1307d0b5d345228ca0f1b84047c64101bb5711d63f4c3b8f8d95fba7a256",
+  "events": [
+    {
+      "stage": "intake",
+      "state": "running",
+      "detail": "",
+      "utc": "2026-10-18T05:03:46.890520+00:00"
+    },
+    {
+      "stage": "workflow",
+      "state": "failed",
+      "detail": "unknown_source:NOT-EXISTS",
+      "utc": "2026-10-18T05:03:46.900522+00:00"
+    }
+  ]
+}

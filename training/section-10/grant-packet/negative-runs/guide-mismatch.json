@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "error": "guide_section_mismatch",
+  "input_sha256": "0417cd76476a9569a214637cbdb1861ac80569b1ccdae8f7d36b9ef6136aaf12",
+  "template_sha256": "063b1307d0b5d345228ca0f1b84047c64101bb5711d63f4c3b8f8d95fba7a256",
+  "events": [
+    {
+      "stage": "intake",
+      "state": "running",
+      "detail": "",
+      "utc": "2026-10-18T05:03:46.878524+00:00"
+    },
+    {
+      "stage": "workflow",
+      "state": "failed",
+      "detail": "guide_section_mismatch",
+      "utc": "2026-10-18T05:03:46.889521+00:00"
+    }
+  ]
+}

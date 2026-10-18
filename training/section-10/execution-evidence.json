@@ -1,0 +1,69 @@
+{
+  "scope": "实际本地JSON与DOCX模板核对、原文填充、映射与来源登记；未调用模型，未核验科研真实性，未完成正式提交",
+  "python": "3.12.14",
+  "executor_sha256": "83e6d87c359f8b93cee21f038a42b7214b973e188c063b3e762ae0ecdf4ce348",
+  "positive": {
+    "kind": "grant",
+    "status": "draft_review_required",
+    "input_sha256": "c8f4eb5e4ebff2716b82a3b052b21b715a70383cd67daf87977f6bc6f3ef2a70",
+    "template_sha256": "063b1307d0b5d345228ca0f1b84047c64101bb5711d63f4c3b8f8d95fba7a256",
+    "guide_sha256": "52c49fbddfb5dc984c2df69447f5879e59775815571faf1bbfe4dcc50bc7c0be",
+    "artifact": "grant-draft.docx",
+    "artifact_sha256": "546f7e51853a8d77124e6c9746fc8d354ee063e8008a46e76e1e2dcf54b44c53",
+    "human_approved": false,
+    "external_model_called": false,
+    "scientific_validation": "not_performed",
+    "events": [
+      {
+        "stage": "intake",
+        "state": "running",
+        "detail": "",
+        "utc": "2026-10-18T05:03:46.769248+00:00"
+      },
+      {
+        "stage": "constraints",
+        "state": "passed",
+        "detail": "",
+        "utc": "2026-10-18T05:03:46.807358+00:00"
+      },
+      {
+        "stage": "outline",
+        "state": "human_review_required",
+        "detail": "",
+        "utc": "2026-10-18T05:03:46.823086+00:00"
+      },
+      {
+        "stage": "docx",
+        "state": "written",
+        "detail": "grant-draft.docx",
+        "utc": "2026-10-18T05:03:46.857085+00:00"
+      }
+    ]
+  },
+  "negative_cases": [
+    {
+      "case": "guide-mismatch",
+      "expected": "guide_section_mismatch",
+      "actual": "guide_section_mismatch",
+      "blocked": true
+    },
+    {
+      "case": "unknown-source",
+      "expected": "unknown_source",
+      "actual": "unknown_source:NOT-EXISTS",
+      "blocked": true
+    },
+    {
+      "case": "missing-template",
+      "expected": "template_missing_section",
+      "actual": "template_missing_section:研究内容",
+      "blocked": true
+    },
+    {
+      "case": "final-unapproved",
+      "expected": "final_export_blocked",
+      "actual": "final_export_blocked",
+      "blocked": true
+    }
+  ]
+}
