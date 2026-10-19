@@ -33,5 +33,16 @@
       29
     ]
   },
-  "original_pages_redistributed": false
+  "original_pages_redistributed": false,
+  "statistical_visual_review_20261019": {
+    "reference_pages_reopened": {
+      "ci": [
+        7,
+        8
+      ]
+    },
+    "method_checked": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+    "source_metadata": "analysis-packet/teaching-comparisons.json",
+    "raw_penguin_and_full_simulation_changed": false
+  }
 }

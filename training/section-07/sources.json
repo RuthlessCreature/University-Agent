@@ -94,5 +94,11 @@
     "short": "本地Python改动与实算",
     "url": "local:training/section-07/cursor-packet/run-evidence.json",
     "location": "baseline.py、modified.py、code-change.diff、两个输出目录及check_results.py；公开数据二次描述统计"
+  },
+  "comparison": {
+    "title": "本课程异常标记敏感性比较与正态模拟连续前20次",
+    "short": "本地比较与模拟，2026-10-19",
+    "url": "local:analysis-packet/teaching-comparisons.json",
+    "location": "prepare-teaching-comparisons.py、outlier-sensitivity.csv、normal-ci-first20.csv；原始数据与全部1000次模拟未改"
   }
 }

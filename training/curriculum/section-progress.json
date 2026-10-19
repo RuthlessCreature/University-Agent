@@ -94,11 +94,11 @@
       "page_budget": 22,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s7-r7",
-      "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-      "sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+      "revision": "s7-r9",
+      "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+      "sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
       "checks": "training/section-07/checks.json",
-      "consistency_review": "2026-10-19：第21页补Cursor编辑与Python执行衔接示例；两脚本本地实算，Cursor未操作。"
+      "consistency_review": "2026-10-19：补异常标记敏感性比较、连续前20次区间与双侧概率着色；原始数据未改。"
     },
     {
       "id": 8,

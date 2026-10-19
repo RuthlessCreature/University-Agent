@@ -1,5 +1,5 @@
 {
-  "revision": "s7-r7",
+  "revision": "s7-r9",
   "pages": 22,
   "pdf_pages": 22,
   "notes": 22,
@@ -18,6 +18,7 @@
   "native_table_pages": [
     3,
     4,
+    7,
     12,
     22
   ],
@@ -39,7 +40,7 @@
   ],
   "exact_coin_teaching_p": 0.04138946533203125,
   "normal_simulation_coverage_count": 941,
-  "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+  "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
   "cross_tool": {
     "input_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
     "python_actual_execution": true,
@@ -56,21 +57,18 @@
     "actual_python_and_R_agree": true,
     "scope": "Descriptive numerical agreement only. Does not validate data independence, scientific interpretation, IBM SPSS syntax execution or all program failures."
   },
-  "unchanged_slide_text_vs_s7_r3": [
+  "unchanged_slide_text_vs_s7_r7": [
     1,
     2,
     3,
     4,
     5,
     6,
-    7,
     8,
     9,
     10,
     11,
     12,
-    13,
-    14,
     15,
     16,
     17,
@@ -78,27 +76,17 @@
     19,
     20
   ],
-  "identical_preview_bytes_vs_s7_r3": [
+  "identical_preview_bytes_vs_s7_r7": [
     1,
     2,
     3,
     4,
     5,
     6,
-    7,
-    8,
-    9,
-    10,
     11,
-    12,
-    13,
-    14,
-    15,
     16,
     17,
-    18,
-    19,
-    20
+    18
   ],
   "scope": "文件结构、源CSV独立复算、样本与缺失、图表缓存及最终器工作簿检查；Python和本地WebR实际描述统计一致，SPSS未执行。科学假设、独立性和外推未获证明，不代表科研Agent全系统已运行。",
   "cursor_case": {
@@ -118,5 +106,16 @@
     "independently_recomputed_from_csv": true,
     "input_and_script_hashes_verified": true,
     "scope": "Two local Python scripts, source-row inclusion and descriptive values; not Cursor execution, scientific acceptance or model evaluation."
+  },
+  "teaching_comparisons": {
+    "ci_displayed_consecutive_repetitions": 20,
+    "ci_first20_misses": [
+      18
+    ],
+    "source_records_deleted": 0,
+    "outlier_sensitivity_difference_mm": [
+      4.616438356164366,
+      4.1527777777777715
+    ]
   }
 }

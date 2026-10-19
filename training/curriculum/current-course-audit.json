@@ -194,8 +194,8 @@
           "page": 21,
           "global_page": 127,
           "title": "Cursor改代码以后，怎样确认结果",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\nCursor改代码以后，怎样确认结果\n同一份企鹅数据：把鳍长均值差由“雄减雌”改为“雌减雄”，再核对两次输出。\nCursor：编辑代码\nPython：运行脚本\n文件：两次输出\n复核：回到原数据\n改差值公式和字段名；\n查看修改前后的差异。\n使用同一个解释器，\n分别执行两个脚本。\n分开保存CSV和记录；\n差值应为相反数。\n纳入行、两组人数、\n均值和SD应不变。\n实际Python输出：同一数据、同一146条记录\n原"
         },
         {
@@ -203,8 +203,8 @@
           "page": 22,
           "global_page": 128,
           "title": "Python与R的实际结果核对",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\nPython与R的实际结果核对\n软件输出需要对照纳入行、分组、单位和计算定义，界面不同不应改变分析对象。\n核对项目\nPython实际输出\nR实际输出\n纳入数 / 雌雄各n\n146 / 各73\n146 / 各73\n均值 mm：雌 / 雄\n187.79 / 192.41\n187.79 / 192.41\n样本SD mm：雌 / 雄\n5.60 / 6.60\n5.60 / 6.60\n雄减雌均值差 mm\n4.62\n4.6"
         }
       ]
@@ -754,8 +754,8 @@
           "page": 21,
           "global_page": 127,
           "title": "Cursor改代码以后，怎样确认结果",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\nCursor改代码以后，怎样确认结果\n同一份企鹅数据：把鳍长均值差由“雄减雌”改为“雌减雄”，再核对两次输出。\nCursor：编辑代码\nPython：运行脚本\n文件：两次输出\n复核：回到原数据\n改差值公式和字段名；\n查看修改前后的差异。\n使用同一个解释器，\n分别执行两个脚本。\n分开保存CSV和记录；\n差值应为相反数。\n纳入行、两组人数、\n均值和SD应不变。\n实际Python输出：同一数据、同一146条记录\n原"
         },
         {
@@ -763,8 +763,8 @@
           "page": 22,
           "global_page": 128,
           "title": "Python与R的实际结果核对",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\nPython与R的实际结果核对\n软件输出需要对照纳入行、分组、单位和计算定义，界面不同不应改变分析对象。\n核对项目\nPython实际输出\nR实际输出\n纳入数 / 雌雄各n\n146 / 各73\n146 / 各73\n均值 mm：雌 / 雄\n187.79 / 192.41\n187.79 / 192.41\n样本SD mm：雌 / 雄\n5.60 / 6.60\n5.60 / 6.60\n雄减雌均值差 mm\n4.62\n4.6"
         }
       ]
@@ -786,8 +786,8 @@
           "page": 3,
           "global_page": 109,
           "title": "原始表格中的数值与缺失",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n原始表格中的数值与缺失\n预览前6条记录，就能看见鳍长的单位、性别分类，以及整组测量缺失。\nCSV行\n物种\n鳍长 mm\n性别\n年份\n2\nAdelie\n181\nmale\n2007\n3\nAdelie\n186\nfemale\n2007\n4\nAdelie\n195\nfemale\n2007\n5\nAdelie\nNA\nNA\n2007\n6\nAdelie\n193\nfemale\n2007\n7\nAdelie\n190\nmale\n2007\n"
         },
         {
@@ -795,8 +795,8 @@
           "page": 5,
           "global_page": 111,
           "title": "缺失检查与分析分母",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n缺失检查与分析分母\n344条记录中，性别缺失11条，四个体型测量字段各缺失2条。\n分析分母随问题改变\n物种、岛屿、年份\n均无缺失。\n同一条记录可能\n缺少多个字段。\n每个字段的缺失数有重叠，须回到行记录确定排除范围。\n来源：palmerpenguins公开数据，本课程二次计算\n05"
         },
         {
@@ -804,18 +804,18 @@
           "page": 6,
           "global_page": 112,
           "title": "本次计算的纳入流程",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n本次计算的纳入流程\n152条Adelie记录中，6条缺少性别或鳍长，最终纳入146条。\n全部记录\n344条\nAdelie\n152条\n所需字段完整\n146条\n限定物种\n排除6条\nmale：73条\nfemale：73条\n排除依据：性别或鳍长缺失\n未进行插补，完整记录分析仍可能受缺失机制影响。\n仅检查本次所需列；缺失处理的影响仍须结合采样记录判断。\n来源：palmerpenguins公开数据，本课程二次计算\n06"
         },
         {
           "section": 7,
           "page": 7,
           "global_page": 113,
-          "title": "异常值的复核流程",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
-          "excerpt": "07  数据处理与统计分析\n异常值的复核流程\n远离多数观测的值需要查原因，删除和修正都要保留依据。\n图形或规则标记\n回查原始记录\n确认原因\n保留处理记录\n辨认需要核查的观测\n核对单位与测量过程\n错误修正或合理保留\n必要时做敏感性分析\n筛查只产生待核查记录。确认错误、修正及排除，都需说明依据。\n按分布范围筛查标记2条，移除0条；异常原因仍需原记录复核。\n来源：NIST统计手册 §1.3.5.17\n07"
+          "title": "异常标记后，结果怎样变化",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n异常标记后，结果怎样变化\n同一份Adelie数据：比较保留全部记录与暂排两个标记值的均值差，原始记录保持不动。\n按分布规则标记2条\n回原数据查原因\n原始记录继续保留\n比较口径\n雌／雄条数\n雄减雌mm\n保留全部完整记录\n73 / 73\n4.616\n比较时排除2条\n72 / 72\n4.153\n标记行30与131：鳍长172、210毫米。\n暂排只是一次敏感性比较；未查明错误，\n不能将它写成清洗后的“正确答案”。\n真"
         }
       ]
     },
@@ -836,8 +836,8 @@
           "page": 10,
           "global_page": 116,
           "title": "独立组与配对数据",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n独立组与配对数据\n不同个体组成的两组，与同一个体在两个时点的记录，具有不同的数据结构。\n独立组示意\n配对示意\n个体A、B、C\n组1\n个体D、E、F\n组2\n同一个体X\n时点1\n同一个体X\n时点2\n比较两组的分布或均值\n先计算每个个体的前后差\n教学结构示意。组内行数相等不能证明一一配对。\n来源：NIST统计手册 §1.3.5.3；课程方法示意 / 教学模拟\n10"
         },
         {
@@ -845,8 +845,8 @@
           "page": 11,
           "global_page": 117,
           "title": "分析方法与数据结构",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n分析方法与数据结构\n方法选择需要同时考虑结果类型、研究问题、分配或采样单位及模型假设。\n结果与数据结构\n连续结果 / 独立组\n均值差：如Welch方法\n连续结果 / 配对\n对应差值：如配对分析\n分类结果 / 计数\n比例比较：检查稀疏计数\n重复测量、聚类或多组比较，需进一步匹配研究设计。\n本节实际运行描述统计与分组重抽样（bootstrap），未运行所有分支。\n来源：NIST统计手册 §1.3.5.3；课程方法"
         },
         {
@@ -854,8 +854,8 @@
           "page": 12,
           "global_page": 118,
           "title": "雌雄均值差与条件区间",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n雌雄均值差与条件区间\nAdelie完整记录中，雄性均值比雌性高4.62毫米。\n完整记录\nn\n均值 mm\nSD mm\nfemale（雌）\n73\n187.79\n5.60\nmale（雄）\n73\n192.41\n6.60\n雄减雌：4.62 mm\n重抽样区间：2.68—6.58 mm\n每组按行抽样，10000次，取2.5%与97.5%分位点。\n区间依赖行独立假设，不是原研究的已发表推断结论。\n来源：palmerpengu"
         },
         {
@@ -863,8 +863,8 @@
           "page": 15,
           "global_page": 121,
           "title": "效应大小、统计证据与科研解释",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n效应大小、统计证据与科研解释\n结果报告需要同时交代差异大小、估计不确定性和研究设计允许的解释范围。\n差异与单位\n估计不确定性\n研究范围\n对象和比较方向\n抽样与模型条件\n选择、混杂与适用对象\n企鹅的毫米差异和硬币的尾概率，分别对应不同问题与模型。\n显著性阈值无法单独回答差异是否重要、研究是否可靠。\n来源：ASA，2016，P值声明；UC Berkeley 2026，假设检验，pp.6/17/29\n15"
         }
       ]
@@ -884,8 +884,8 @@
           "page": 21,
           "global_page": 127,
           "title": "Cursor改代码以后，怎样确认结果",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\nCursor改代码以后，怎样确认结果\n同一份企鹅数据：把鳍长均值差由“雄减雌”改为“雌减雄”，再核对两次输出。\nCursor：编辑代码\nPython：运行脚本\n文件：两次输出\n复核：回到原数据\n改差值公式和字段名；\n查看修改前后的差异。\n使用同一个解释器，\n分别执行两个脚本。\n分开保存CSV和记录；\n差值应为相反数。\n纳入行、两组人数、\n均值和SD应不变。\n实际Python输出：同一数据、同一146条记录\n原"
         },
         {
@@ -893,8 +893,8 @@
           "page": 22,
           "global_page": 128,
           "title": "Python与R的实际结果核对",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\nPython与R的实际结果核对\n软件输出需要对照纳入行、分组、单位和计算定义，界面不同不应改变分析对象。\n核对项目\nPython实际输出\nR实际输出\n纳入数 / 雌雄各n\n146 / 各73\n146 / 各73\n均值 mm：雌 / 雄\n187.79 / 192.41\n187.79 / 192.41\n样本SD mm：雌 / 雄\n5.60 / 6.60\n5.60 / 6.60\n雄减雌均值差 mm\n4.62\n4.6"
         }
       ]
@@ -976,8 +976,8 @@
           "page": 12,
           "global_page": 118,
           "title": "雌雄均值差与条件区间",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n雌雄均值差与条件区间\nAdelie完整记录中，雄性均值比雌性高4.62毫米。\n完整记录\nn\n均值 mm\nSD mm\nfemale（雌）\n73\n187.79\n5.60\nmale（雄）\n73\n192.41\n6.60\n雄减雌：4.62 mm\n重抽样区间：2.68—6.58 mm\n每组按行抽样，10000次，取2.5%与97.5%分位点。\n区间依赖行独立假设，不是原研究的已发表推断结论。\n来源：palmerpengu"
         },
         {
@@ -985,8 +985,8 @@
           "page": 15,
           "global_page": 121,
           "title": "效应大小、统计证据与科研解释",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n效应大小、统计证据与科研解释\n结果报告需要同时交代差异大小、估计不确定性和研究设计允许的解释范围。\n差异与单位\n估计不确定性\n研究范围\n对象和比较方向\n抽样与模型条件\n选择、混杂与适用对象\n企鹅的毫米差异和硬币的尾概率，分别对应不同问题与模型。\n显著性阈值无法单独回答差异是否重要、研究是否可靠。\n来源：ASA，2016，P值声明；UC Berkeley 2026，假设检验，pp.6/17/29\n15"
         },
         {
@@ -994,8 +994,8 @@
           "page": 18,
           "global_page": 124,
           "title": "混合物种与组内相关",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n混合物种与组内相关\n把物种混在一起，喙长与鳍长的总体相关可能包含物种间差异。\nPearson相关\n总体 r = 0.656\nAdelie内 r = 0.326\n总体关系包含\n物种间的差异。\n横轴喙长mm，纵轴鳍长mm。点来自公开观测，未画未经计算的拟合线。\n来源：palmerpenguins公开数据，本课程二次计算\n18"
         },
         {
@@ -1003,8 +1003,8 @@
           "page": 20,
           "global_page": 126,
           "title": "结果段落中的对象、数字与限制",
-          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r7.pptx",
-          "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
           "excerpt": "07  数据处理与统计分析\n结果段落中的对象、数字与限制\n一段可检查的结果文字，需要把纳入范围、差异方向、方法和限定条件写在一起。\n二次分析结果示例\n在性别与鳍长均完整的146条Adelie记录中，雌雄各73条。雄性平均鳍长为192.41毫米，雌性为187.79毫米，均值差为4.62毫米。按两组分别进行10000次有放回重抽样，百分位区间为2.68—6.58毫米。\n该区间依赖行独立的抽样假设。简化数据未提供可核验的巢与个体对应关系，也未"
         }
       ]
@@ -3245,11 +3245,11 @@
       "section": 7,
       "page": 7,
       "global_page": 113,
-      "title": "异常值的复核流程",
+      "title": "异常标记后，结果怎样变化",
       "images": 0,
       "charts": 0,
-      "connectors": 3,
-      "native_tables": 0
+      "connectors": 2,
+      "native_tables": 1
     },
     {
       "section": 7,
