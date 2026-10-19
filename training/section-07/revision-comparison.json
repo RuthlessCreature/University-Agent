@@ -1,0 +1,46 @@
+{
+  "previous_revision": "s7-r5",
+  "current_revision": "s7-r7",
+  "changed_slide_text_pages": [
+    21
+  ],
+  "changed_png_pages": [
+    21,
+    22
+  ],
+  "png_byte_identical_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "additional_review": {
+    "page": 22,
+    "text_changed": false,
+    "changed_rgb_pixels": 1240,
+    "pixel_difference_bbox": [
+      322,
+      90,
+      551,
+      137
+    ],
+    "description": "标题中局部字形渲染差异；已查看前后两页，数值、表格和文字完整。"
+  },
+  "scope": "Actual final PPTX text and rendered PNG comparison; changed pages visually viewed."
+}

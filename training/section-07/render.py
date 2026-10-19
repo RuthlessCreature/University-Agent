@@ -2,7 +2,7 @@ from pathlib import Path
 import subprocess,sys
 from pdf2image import convert_from_path
 root=Path(__file__).resolve().parent
-rev=sys.argv[1] if len(sys.argv)>1 else 's7-r5'
+rev=sys.argv[1] if len(sys.argv)>1 else 's7-r7'
 src=root/'output'/f'高校科研AI课程_Section7_数据处理与统计分析_{rev}.pptx'
 out=root/'renders'/rev;out.mkdir(parents=True,exist_ok=True)
 profile=(root/'.build'/('lo-'+rev)).resolve().as_uri()

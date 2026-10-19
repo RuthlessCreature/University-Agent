@@ -1,0 +1,14 @@
+{
+  "source_url": "https://www.cs.cmu.edu/~mgormley/courses/10423-f25/slides/lecture23-code.pdf",
+  "cached_pdf_sha256": "48d3e461a6fe296ac142b2588d749c1361678d18d4aa3987c7abfeba9ceb1e1a",
+  "visually_viewed_pdf_pages": [
+    26,
+    29,
+    30
+  ],
+  "adopted_page": 26,
+  "network_text_read": true,
+  "network_screenshot": "timeout",
+  "viewing_method": "将既有缓存原PDF第26页本地渲染后查看",
+  "adopted_scope": "代码执行器、检验结果与修改反馈的关系；中文示例、数值与图另行编写。"
+}

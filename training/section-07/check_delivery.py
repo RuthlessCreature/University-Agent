@@ -4,7 +4,7 @@ from xml.etree import ElementTree as ET
 import csv,hashlib,json,math,re,statistics,subprocess,sys,zipfile
 import numpy as np
 from pypdf import PdfReader
-r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 's7-r5'
+r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 's7-r7'
 p=r/'output'/f'高校科研AI课程_Section7_数据处理与统计分析_{rev}.pptx'
 a=json.loads((r/'results.json').read_text('utf-8'));d=json.loads((r/'lesson.json').read_text('utf-8'));refs=json.loads((r/'sources.json').read_text('utf-8'))
 raw=r/'analysis-packet/penguins.csv';src=json.loads((r/'analysis-packet/source.json').read_text('utf-8'));assert hashlib.sha256(raw.read_bytes()).hexdigest()==src['sha256']==a['raw_sha256']
@@ -55,6 +55,11 @@ assert cross['actual_python_and_R_agree'] and not cross['SPSS_actual_execution']
 for value in ['146','73','187.79','192.41','5.60','6.60','4.62']:
  assert value in texts[21],f'Missing actual result in slide 22: {value}'
 assert '未执行' in texts[20] and '尚未运行' in texts[21]
+subprocess.run([sys.executable,str(r/'cursor-packet/check_results.py')],check=True,capture_output=True)
+cursor_case=json.loads((r/'cursor-packet/checks.json').read_text('utf-8'))
+assert cursor_case['actual_local_python_runs']==2 and cursor_case['cursor_operated'] is False
+assert cursor_case['included_rows_identical'] and cursor_case['group_statistics_identical']
+assert all(s in texts[20] for s in ['Cursor','Python','+4.616438','−4.616438','146','73'])
 prior=r/'output/高校科研AI课程_Section7_数据处理与统计分析_s7-r3.pptx'
 unchanged=[];same_previews=[]
 with zipfile.ZipFile(prior) as old,zipfile.ZipFile(p) as new:
@@ -69,4 +74,5 @@ with zipfile.ZipFile(prior) as old,zipfile.ZipFile(p) as new:
 v=json.loads((r/'.build'/rev/'validation.json').read_text('utf-8'));sha=hashlib.sha256(p.read_bytes()).hexdigest();assert v['finalSha256']==sha and v['packageIntegrity']['findingCount']==v['presentationLayout']['findingCount']==0
 (r/'validation.json').write_text(json.dumps(v,ensure_ascii=False,indent=2),'utf-8')
 report={'revision':rev,'pages':22,'pdf_pages':22,'notes':22,'preview_images':22,'editable_connector_diagram_pages':diagrams,'native_table_pages':tables,'native_chart_pages':chartpages,'embedded_workbooks':len(books),'source_records':len(rows),'analysis_records':len(clean),'mean_difference_mm':a['mean_difference_mm'],'bootstrap_95_percentile':a['bootstrap']['percentile_95'],'exact_coin_teaching_p':prob,'normal_simulation_coverage_count':a['ci_simulation']['covered'],'pptx_sha256':sha,'cross_tool':cross,'unchanged_slide_text_vs_s7_r3':unchanged,'identical_preview_bytes_vs_s7_r3':same_previews,'scope':'文件结构、源CSV独立复算、样本与缺失、图表缓存及最终器工作簿检查；Python和本地WebR实际描述统计一致，SPSS未执行。科学假设、独立性和外推未获证明，不代表科研Agent全系统已运行。'}
+report['cursor_case']=cursor_case
 (r/'checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),'utf-8');print(json.dumps(report,ensure_ascii=False,indent=2))

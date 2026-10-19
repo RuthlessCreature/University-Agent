@@ -78,9 +78,21 @@
     "location": "官方搜索索引可读取语法；完整页面和31版PDF在本轮访问403。语法文件未通过SPSS执行验证，不作为已运行证据。"
   },
   "cursor": {
-    "title": "Cursor官方工具与编辑说明",
-    "short": "Cursor官方说明，未操作",
-    "url": "https://cursor.com/docs",
-    "location": "概览中的代码编辑与Agent用途；本轮未使用Cursor，不引入模型排名或套餐描述"
+    "title": "Cursor Agent mode与Terminal integration官方说明",
+    "short": "Cursor Agent与终端文档",
+    "url": "https://prod.cursor.com/help/ai-features/agent",
+    "location": "2026-10-19实际读取What can Agent mode do、How do I review Agent changes；终端说明另见cursor-packet/参考资料.md；未在Cursor操作"
+  },
+  "cmu_code": {
+    "title": "Nayebi & Gormley, CMU Generative AI, Lecture23, Nov19 2025",
+    "short": "CMU 2025 Lecture23，第26页",
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423-f25/slides/lecture23-code.pdf",
+    "location": "物理第26页（印刷页30），Iterative Self-Refinement；采用执行器和检验反馈的讲授关系，不采用原图与结论承诺"
+  },
+  "cursor_case": {
+    "title": "代码差值方向修改的本地Python实际运行",
+    "short": "本地Python改动与实算",
+    "url": "local:training/section-07/cursor-packet/run-evidence.json",
+    "location": "baseline.py、modified.py、code-change.diff、两个输出目录及check_results.py；公开数据二次描述统计"
   }
 }

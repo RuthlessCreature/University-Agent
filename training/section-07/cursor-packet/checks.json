@@ -1,0 +1,18 @@
+{
+  "actual_local_python_runs": 2,
+  "cursor_operated": false,
+  "cursor_model_calls": 0,
+  "source_records": 344,
+  "analysis_records": 146,
+  "per_group_n": [
+    73,
+    73
+  ],
+  "included_rows_identical": true,
+  "group_statistics_identical": true,
+  "baseline_male_minus_female_mm": 4.616438356164366,
+  "modified_female_minus_male_mm": -4.616438356164366,
+  "independently_recomputed_from_csv": true,
+  "input_and_script_hashes_verified": true,
+  "scope": "Two local Python scripts, source-row inclusion and descriptive values; not Cursor execution, scientific acceptance or model evaluation."
+}

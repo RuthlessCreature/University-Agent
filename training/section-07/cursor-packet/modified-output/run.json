@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-19T07:48:30.411364+00:00",
+  "runtime": "3.12.14",
+  "input_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "script_sha256": "09609460253eb73796b0741d2e587ade7a38cfb2e8b4d993c805fe1b860c16f3",
+  "actual_execution": true,
+  "source_rows": 344,
+  "analysis_rows": 146,
+  "group_code": {
+    "0": "female",
+    "1": "male"
+  },
+  "groups": [
+    {
+      "sex_code": 0,
+      "n": 73,
+      "mean_mm": 187.7945205479452,
+      "sd_mm": 5.595034763345455
+    },
+    {
+      "sex_code": 1,
+      "n": 73,
+      "mean_mm": 192.41095890410958,
+      "sd_mm": 6.599317339354874
+    }
+  ],
+  "comparison": {
+    "female_n": 73,
+    "male_n": 73,
+    "female_mean_mm": 187.7945205479452,
+    "male_mean_mm": 192.41095890410958,
+    "female_minus_male_mm": -4.616438356164366
+  },
+  "standard_deviation": "sample, denominator n-1",
+  "scope": "公开数据二次描述统计；未证明观测独立、抽样代表性或因果关系。"
+}

@@ -1,5 +1,5 @@
 {
-  "revision": "s7-r5",
+  "revision": "s7-r7",
   "pages": 22,
   "pdf_pages": 22,
   "notes": 22,
@@ -39,7 +39,7 @@
   ],
   "exact_coin_teaching_p": 0.04138946533203125,
   "normal_simulation_coverage_count": 941,
-  "pptx_sha256": "4f33d3c4830b56785e0414d04dba27e634b1b45b859cffde09a4f452eebf3980",
+  "pptx_sha256": "a1314d4793a11837a424cefeb76cb7151299d00ef9971a4eefb0cc0d457ee8b2",
   "cross_tool": {
     "input_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
     "python_actual_execution": true,
@@ -100,5 +100,23 @@
     19,
     20
   ],
-  "scope": "文件结构、源CSV独立复算、样本与缺失、图表缓存及最终器工作簿检查；Python和本地WebR实际描述统计一致，SPSS未执行。科学假设、独立性和外推未获证明，不代表科研Agent全系统已运行。"
+  "scope": "文件结构、源CSV独立复算、样本与缺失、图表缓存及最终器工作簿检查；Python和本地WebR实际描述统计一致，SPSS未执行。科学假设、独立性和外推未获证明，不代表科研Agent全系统已运行。",
+  "cursor_case": {
+    "actual_local_python_runs": 2,
+    "cursor_operated": false,
+    "cursor_model_calls": 0,
+    "source_records": 344,
+    "analysis_records": 146,
+    "per_group_n": [
+      73,
+      73
+    ],
+    "included_rows_identical": true,
+    "group_statistics_identical": true,
+    "baseline_male_minus_female_mm": 4.616438356164366,
+    "modified_female_minus_male_mm": -4.616438356164366,
+    "independently_recomputed_from_csv": true,
+    "input_and_script_hashes_verified": true,
+    "scope": "Two local Python scripts, source-row inclusion and descriptive values; not Cursor execution, scientific acceptance or model evaluation."
+  }
 }
