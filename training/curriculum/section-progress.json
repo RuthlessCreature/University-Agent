@@ -154,11 +154,11 @@
       "page_budget": 10,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s12-r5",
-      "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r5.pptx",
-      "sha256": "38ed54141713a1b7eb4001acc69b1ab5688db4bae6fb62c6d124839077e6ec9b",
+      "revision": "s12-r7",
+      "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
+      "sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
       "checks": "training/section-12/checks.json",
-      "consistency_review": "2026-10-19：补软件实际运行快照、台账和登记材料例子；第8页重新查看，其余9页预览相同。权属与贡献未确认，未申请登记。"
+      "consistency_review": "2026-10-20：补9项实际附件目录与146条纳入记录回查；重跑本地Word和4项异常，第7页核对连接端点。采样依据、科学解释和正式验收仍待核。"
     },
     {
       "id": 13,

@@ -1,0 +1,19 @@
+{
+  "from": "s12-r6",
+  "to": "s12-r7",
+  "identical_preview_bytes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "changed_preview_pages": [
+    7
+  ],
+  "visual_review": "r6全部10页查看；最终r7第7页重新查看，其余9页预览字节相同。Word最终3页已查看。"
+}

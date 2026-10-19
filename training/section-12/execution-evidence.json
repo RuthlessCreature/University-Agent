@@ -10,31 +10,38 @@
     "source.json": "fb692fd31480568fd3aa640fde40127c8aa0f65e1b30b24a06c0c8fe19021e6a",
     "penguins.csv": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
   },
-  "executor_sha256": "a9bf507fbde2d049ded9dfe08d4aad21d3d17e6554c0c026aca5e99d183345d7",
+  "executor_sha256": "cd6a32427f1942871de0ab75c0cb26a7ead9a12f315eb4a8e5cc8fe727a12ef5",
   "artifact": "materials-review.docx",
-  "artifact_sha256": "67e6a1856de93337bc79c776ccd4814a2b4988a0abea7e5061dc55bb08141f08",
+  "artifact_sha256": "6399b20d534c6684ab64148e5808850d8cf8f3cc79e197733e7647bbba4bdaf7",
+  "attachment_count": 9,
+  "attachment_catalog_sha256": "34787378aaa6bdee57af6708ba92480e3ab5ec3c0ac5a114b28f772e29fd14ef",
   "verified_material_items": 2,
   "pending_items": 1,
   "events": [
     {
       "stage": "intake",
       "state": "running",
-      "utc": "2026-10-18T13:02:27.922377+00:00"
+      "utc": "2026-10-19T16:20:13.373128+00:00"
     },
     {
       "stage": "source_and_calculation",
       "state": "passed",
-      "utc": "2026-10-18T13:02:27.931529+00:00"
+      "utc": "2026-10-19T16:20:13.381133+00:00"
     },
     {
       "stage": "evidence_mapping",
       "state": "pending_sampling_evidence",
-      "utc": "2026-10-18T13:02:27.931529+00:00"
+      "utc": "2026-10-19T16:20:13.381133+00:00"
+    },
+    {
+      "stage": "attachment_catalog",
+      "state": "9_actual_files_indexed",
+      "utc": "2026-10-19T16:20:13.403214+00:00"
     },
     {
       "stage": "docx",
       "state": "written",
-      "utc": "2026-10-18T13:02:28.067789+00:00"
+      "utc": "2026-10-19T16:20:13.621592+00:00"
     }
   ]
 }

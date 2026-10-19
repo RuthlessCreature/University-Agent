@@ -1,0 +1,10 @@
+﻿id,title,path,requirements,locator,bytes,sha256
+A01,自编核对要求,input/taskbook.json,M1/M2/M3,requirements中的id、rule及expected,1200,3bb3f6c946a394894514124ce38d5983375668271a638178c034ae78de61aabd
+A02,公开数据来源,input/source.json,M1,原始URL、许可及CSV哈希,353,fb692fd31480568fd3aa640fde40127c8aa0f65e1b30b24a06c0c8fe19021e6a
+A03,原始简化数据,input/penguins.csv,M1/M2/M3,species、sex、flipper_length_mm列；不含所需个体及抽样字段,15241,f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93
+A04,本地复算程序,../run_closeout.py,M1/M2,run函数中的筛选、计算及状态判断,12722,cd6a32427f1942871de0ab75c0cb26a7ead9a12f315eb4a8e5cc8fe727a12ef5
+A05,实际纳入记录,output/retained-rows.csv,M1/M2,146行；csv_physical_line回查原CSV，首行为表头,1988,3fa1b685ef3d0e212c64a2cafcda811edf913e9b5440ad05f991fda016b1bd83
+A06,统计计算结果,output/calculation.json,M1/M2,analysis_rows、female_n、male_n、mean_difference_mm,403,d04ea999b423a2e02613882215b60021b77768986c6b721b61df132e12ef8bfe
+A07,任务证据对应,output/evidence-matrix.csv,M1/M2/M3,M1/M2为材料已核，M3为待补资料,760,02c22efcb1cbb566f8274a24bf61ba528fcece850370fcea678c58d4b1117f55
+A08,待补与待核事项,output/issues.json,M3/科学解释核对,SAMPLING、SIGNOFF均待核,255,0e025c7357120c9e6417610f64d57d85743f713b9678a0d46d58a666eeb38378
+A09,排除的主张,output/excluded-claims.json,成果表述,自采数据与已证因果两项说法均无支持,337,75d2d57c2a0318c5e89e3a9eddde25bb0b06ecbe3fc3876cea4b49d765c43354

@@ -46,10 +46,29 @@ def run(packet,out):
    w=csv.DictWriter(f,fieldnames=list(matrix[0]));w.writeheader();w.writerows(matrix)
   issues=[dict(id='SAMPLING',status='PENDING',issue='缺个体标识与抽样设计核对资料'),dict(id='SIGNOFF',status='PENDING',issue='未取得研究者对科学解释与当前版本的核对')]
   dump(out/'issues.json',issues);dump(out/'excluded-claims.json',task['excluded_claims'])
+  # The attachment catalog identifies actual bytes; it does not approve science.
+  with (out/'retained-rows.csv').open('w',encoding='utf-8-sig',newline='') as f:
+   w=csv.writer(f,lineterminator='\n');w.writerow(['csv_physical_line','sex','flipper_length_mm'])
+   w.writerows((i,q['sex'],q['flipper_length_mm']) for i,q in kept)
+  specs=[
+   ('A01','自编核对要求',packet/'input/taskbook.json','M1/M2/M3','requirements中的id、rule及expected'),
+   ('A02','公开数据来源',packet/'input/source.json','M1','原始URL、许可及CSV哈希'),
+   ('A03','原始简化数据',data,'M1/M2/M3','species、sex、flipper_length_mm列；不含所需个体及抽样字段'),
+   ('A04','本地复算程序',Path(__file__).resolve(),'M1/M2','run函数中的筛选、计算及状态判断'),
+   ('A05','实际纳入记录',out/'retained-rows.csv','M1/M2','146行；csv_physical_line回查原CSV，首行为表头'),
+   ('A06','统计计算结果',out/'calculation.json','M1/M2','analysis_rows、female_n、male_n、mean_difference_mm'),
+   ('A07','任务证据对应',out/'evidence-matrix.csv','M1/M2/M3','M1/M2为材料已核，M3为待补资料'),
+   ('A08','待补与待核事项',out/'issues.json','M3/科学解释核对','SAMPLING、SIGNOFF均待核'),
+   ('A09','排除的主张',out/'excluded-claims.json','成果表述','自采数据与已证因果两项说法均无支持')]
+  attachments=[dict(id=i,title=t,path=p.relative_to(packet).as_posix() if p.is_relative_to(packet) else '../'+p.name,requirements=req,locator=loc,bytes=p.stat().st_size,sha256=sha(p)) for i,t,p,req,loc in specs]
+  dump(out/'attachment-catalog.json',dict(scope='教学材料附件定位；文件哈希不证明科学有效性',attachments=attachments))
+  with (out/'attachment-catalog.csv').open('w',encoding='utf-8-sig',newline='') as f:
+   w=csv.DictWriter(f,fieldnames=list(attachments[0]),lineterminator='\n');w.writeheader();w.writerows(attachments)
+  event('attachment_catalog','9_actual_files_indexed')
   d=Document();normal=d.styles['Normal'];normal.font.name='Microsoft YaHei';normal.font.size=Pt(10.5);normal.paragraph_format.space_after=Pt(7);normal._element.get_or_add_rPr().rFonts.set(qn('w:eastAsia'),'Microsoft YaHei')
   for name in ['Title','Heading 1','Heading 2']:
    st=d.styles[name];st.font.name='Microsoft YaHei';st.font.color.rgb=RGBColor(0,0,0);st._element.get_or_add_rPr().rFonts.set(qn('w:eastAsia'),'Microsoft YaHei')
-  d.styles['Title'].font.size=Pt(21);d.styles['Heading 1'].font.size=Pt(14)
+  d.styles['Title'].font.size=Pt(18);d.styles['Heading 1'].font.size=Pt(14)
   sec=d.sections[0];sec.top_margin=sec.bottom_margin=Cm(1.8);sec.left_margin=sec.right_margin=Cm(2)
   d.add_paragraph('企鹅公开数据结题材料核对示例',style='Title')
   d.add_paragraph('教学材料 供讲师演示证据整理')
@@ -59,7 +78,7 @@ def run(packet,out):
   for c,t in zip(table.rows[0].cells,['条目与核对要求','当前依据与结果','材料状态']):c.text=t
   for q in matrix:
    cells=table.add_row().cells
-   loc={'M1':'来源表与原始CSV','M2':'计算结果与原始CSV','M3':'简化CSV的列名'}[q['id']]
+   loc={'M1':'附件A02、A03、A05','M2':'附件A03、A04、A06','M3':'附件A03列名与A08待补项'}[q['id']]
    for c,t in zip(cells,[q['id']+' '+q['criterion'],q['result']+'\n依据：'+loc,q['status_zh']]):c.text=t
   d.add_paragraph('实际复算结果',style='Heading 1')
   d.add_paragraph(f"公开简化数据共{calc['raw_rows']}条，Adelie共{calc['adelie_rows']}条。保留性别与鳍长均有记录的{calc['analysis_rows']}条，其中雌雄各73条。雌性平均鳍长{calc['female_mean_mm']:.2f} mm，雄性{calc['male_mean_mm']:.2f} mm，雄性均值高{calc['mean_difference_mm']:.2f} mm。上述结果描述本次所选记录，不能直接解释因果机制。")
@@ -75,11 +94,28 @@ def run(packet,out):
   d.add_paragraph('来源与附件定位',style='Heading 1')
   for t in ['公开数据说明 https://allisonhorst.github.io/palmerpenguins/','数据与来源 input/penguins.csv 和 input/source.json','自编核对要求 input/taskbook.json 的M1至M3','实际计算 output/calculation.json；证据表 output/evidence-matrix.csv','执行器 run_closeout.py；文件版本 output/run.json'] :d.add_paragraph(t)
   d.add_paragraph('本文件为AI编写的教学材料核对示例。国家自然科学基金委2026年通告第五部分第（二）项对生成式人工智能直接生成的项目进展和结题报告作出限制。本文件不能作为该类正式报告提交。')
+  d.add_page_break()
+  d.add_paragraph('教学材料附件目录',style='Heading 1')
+  d.add_paragraph('附件编号供查找实际文件。输入、纳入记录与复算结果均保留；缺失的采样资料不列为已收附件。路径以closeout-packet目录为起点，完整SHA-256及文件大小见output/attachment-catalog.json。')
+  table=d.add_table(rows=1,cols=3);table.style='Table Grid'
+  for c,t in zip(table.rows[0].cells,['编号','材料与实际路径','用于核对什么']):c.text=t
+  table.autofit=False
+  for col,w in zip(table.columns,[1.2,7.2,9.19]):col.width=Cm(w)
+  for a in attachments:
+   cells=table.add_row().cells
+   for c,t in zip(cells,[a['id'],a['title']+'\n'+a['path'],a['requirements']+'\n'+a['locator']]):c.text=t
+  for row in table.rows:
+   for cell,w in zip(row.cells,[1.2,7.2,9.19]):cell.width=Cm(w)
+   for c in row.cells:
+    for para in c.paragraphs:
+     para.paragraph_format.space_after=Pt(4)
+     for run in para.runs:run.font.size=Pt(9)
+  d.add_paragraph('科学判断仍待核对：个体重复、采样依赖及外推范围尚未确认。当前材料没有经费凭证、成果登记证书或正式签核记录，不能据此确认项目已验收。')
   for tree in [d._element,d.styles.element]:
    for el in list(tree.iter(qn('w:pBdr'))):el.getparent().remove(el)
   artifact=out/'materials-review.docx';d.save(artifact);event('docx','written')
   files=[packet/'input/taskbook.json',packet/'input/source.json',data]
-  result=dict(status='materials_review_required',material_type='teaching-simulation',external_model_called=False,human_approved=False,scientific_validation='not_performed',official_submission=False,input_hashes={p.name:sha(p) for p in files},executor_sha256=sha(__file__),artifact=artifact.name,artifact_sha256=sha(artifact),verified_material_items=2,pending_items=1,events=events)
+  result=dict(status='materials_review_required',material_type='teaching-simulation',external_model_called=False,human_approved=False,scientific_validation='not_performed',official_submission=False,input_hashes={p.name:sha(p) for p in files},executor_sha256=sha(__file__),artifact=artifact.name,artifact_sha256=sha(artifact),attachment_count=len(attachments),attachment_catalog_sha256=sha(out/'attachment-catalog.json'),verified_material_items=2,pending_items=1,events=events)
   dump(out/'run.json',result);return result
  except Exception as e:
   dump(out/'run.json',dict(status='failed',error=str(e),events=events));raise
