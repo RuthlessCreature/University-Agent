@@ -1,5 +1,11 @@
 {
-  "material_type": "课程选用案例；未作三方实测",
+  "material_type": "AI编写的课程选用案例；未作三方实测",
+  "draft_provenance": {
+    "authoring": "AI",
+    "source_values_checked": true,
+    "teacher_approved": false,
+    "model_comparison_executed": false
+  },
   "slide": 9,
   "common_facts": {
     "study": "Walters & Wilder (2023), Scientific Reports 13:14045",
