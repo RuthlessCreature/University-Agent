@@ -1,0 +1,20 @@
+{
+  "english_word_count": 119,
+  "word_count_method": "Regex: number incl. comma/decimal, or English word incl. internal hyphen/apostrophe; journal counter may differ",
+  "english_word_limit": 300,
+  "source_abstract_matches_A1": true,
+  "numerical_comparison_to_public_CSV": true,
+  "source_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "draft_sha256": "2c6dd917a3f1d2564b7c658c6fdea4c024e65ae5d68f2078f908f208367c5b6a",
+  "citations_detected_by_pattern_scan": false,
+  "common_abbreviations_detected_by_pattern_scan": false,
+  "actual_text_revision_diff_verified": true,
+  "journal_submission": false,
+  "scope": "Selected abstract formatting, source identity and numerical consistency. Sentence meaning and expression manually reviewed; no journal acceptance, research novelty, independence or full manuscript compliance claim.",
+  "source_based_prompt_templates": 2,
+  "checked_ceilings": {
+    "PLOS One": 300,
+    "Scientific Reports": 200
+  },
+  "single_paragraph_without_subheadings": true
+}

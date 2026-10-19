@@ -1,14 +1,14 @@
 {
   "schemaVersion": "presentation-finalization.v1",
-  "finalSha256": "55d30fdfcb00a5b80bce94373bc1c1e9b62312fe3ae8ee00381a9861901e06ec",
-  "byteCount": 130318,
+  "finalSha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+  "byteCount": 135062,
   "packageIntegrity": {
-    "chart_count": 1,
+    "chart_count": 2,
     "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
     "finding_count": 0,
     "findings": [],
     "notes_parts_skipped": 22,
-    "relationship_part_count": 55,
+    "relationship_part_count": 56,
     "slide_count": 22,
     "status": "pass",
     "exitCode": 0,
@@ -19,13 +19,13 @@
     "finding_count": 0,
     "findings": [],
     "font_policy": {
-      "checked_text_script_count": 392,
+      "checked_text_script_count": 399,
       "native_font_rendering_verified": false,
       "observed_font_families": [
         "Microsoft YaHei"
       ],
       "observed_font_use_counts": {
-        "Microsoft YaHei": 392
+        "Microsoft YaHei": 399
       },
       "passed": true,
       "performed": true
@@ -40,13 +40,13 @@
     "exitCode": 0,
     "findingCount": 0,
     "fontPolicy": {
-      "checked_text_script_count": 392,
+      "checked_text_script_count": 399,
       "native_font_rendering_verified": false,
       "observed_font_families": [
         "Microsoft YaHei"
       ],
       "observed_font_use_counts": {
-        "Microsoft YaHei": 392
+        "Microsoft YaHei": 399
       },
       "passed": true,
       "performed": true
@@ -60,13 +60,13 @@
     "scriptFonts": {},
     "referenceSha256": null,
     "referenceFontsVerifiedInEncodedText": false,
-    "checked_text_script_count": 392,
+    "checked_text_script_count": 399,
     "native_font_rendering_verified": false,
     "observed_font_families": [
       "Microsoft YaHei"
     ],
     "observed_font_use_counts": {
-      "Microsoft YaHei": 392
+      "Microsoft YaHei": 399
     },
     "passed": true,
     "performed": true
@@ -75,7 +75,7 @@
     "performed": true,
     "passed": true,
     "slideCount": 22,
-    "sha256": "55d30fdfcb00a5b80bce94373bc1c1e9b62312fe3ae8ee00381a9861901e06ec",
+    "sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
     "runtimeNodeModules": "C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
     "nodeExecutable": "C:\\Users\\Georgij Xe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
   },
@@ -100,16 +100,21 @@
     "checks": [
       {
         "chart": 1,
+        "slide": 5,
+        "status": "present"
+      },
+      {
+        "chart": 1,
         "slide": 8,
         "status": "present"
       }
     ],
     "finding_count": 0,
     "findings": [],
-    "native_chart_count": 1,
+    "native_chart_count": 2,
     "native_powerpoint_verified": false,
     "passed": true,
-    "presentation_sha256": "55d30fdfcb00a5b80bce94373bc1c1e9b62312fe3ae8ee00381a9861901e06ec",
+    "presentation_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
     "schema_version": "presentation-native-chart-titles.v1",
     "slide_count": 22,
     "source_text_emitted": false,
@@ -128,9 +133,10 @@
   ],
   "nativeChartValidation": {
     "detectedOwnerSlides": [
+      5,
       8
     ],
-    "detectedChartCount": 1,
+    "detectedChartCount": 2,
     "targetApplication": "portable",
     "sourceChartOwnersExplicitlyDeclared": true,
     "validatorRan": true,
@@ -140,15 +146,38 @@
     "report": {
       "claim_boundary": "OOXML/workbook structural validation only; source provenance and native PowerPoint opening remain separate checks.",
       "expected_quantitative_chart_slides": [
+        5,
         8
       ],
       "failed_slide_count": 0,
       "failed_slides": [],
       "formal_human_reviewed": false,
       "native_application_open_verified": false,
-      "package_sha256": "55d30fdfcb00a5b80bce94373bc1c1e9b62312fe3ae8ee00381a9861901e06ec",
+      "package_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
       "passed": true,
       "results": [
+        {
+          "approved_source_figure_exception": false,
+          "charts": [
+            {
+              "cache_reference_ranges_verified": true,
+              "embedded_workbook_count": 1,
+              "embedded_workbook_sheet_count": 1,
+              "native_chart_types": [
+                "barChart"
+              ],
+              "numeric_cache_point_count": 2,
+              "series_formula_count": 2,
+              "workbook_numeric_cell_count": 2
+            }
+          ],
+          "failure_codes": [],
+          "native_chart_count": 1,
+          "raster_picture_count": 0,
+          "required_native_chart_count": 1,
+          "slide_number": 5,
+          "status": "passed"
+        },
         {
           "approved_source_figure_exception": false,
           "charts": [
@@ -175,37 +204,47 @@
       "schema_version": "owner-private.quantitative-chart-native-gate.v1",
       "slide_count": 22,
       "source_attachments_accessed": false,
-      "validated_slide_count": 1
+      "validated_slide_count": 2
     },
     "exitCode": 0,
-    "validatedSlideCount": 1,
+    "validatedSlideCount": 2,
     "requiredOwnerSlides": [
+      5,
       8
     ],
     "approvedSourceFigureExceptionSlides": []
   },
   "chartDataPackaging": {
     "conversion": "chart_data_snapshot",
-    "converted_chart_count": 1,
+    "converted_chart_count": 2,
     "converted_charts": [
       {
         "chart_part": "ppt/slides/charts/chart1.xml",
+        "owner_slide": 5,
+        "point_count": 2,
+        "series_count": 1,
+        "workbook_part": "ppt/embeddings/chart-data-snapshot-001.xlsx"
+      },
+      {
+        "chart_part": "ppt/slides/charts/chart2.xml",
         "owner_slide": 8,
         "point_count": 18,
         "series_count": 2,
-        "workbook_part": "ppt/embeddings/chart-data-snapshot-001.xlsx"
+        "workbook_part": "ppt/embeddings/chart-data-snapshot-002.xlsx"
       }
     ],
     "detected_chart_owner_slides": [
+      5,
       8
     ],
     "experimental": true,
-    "input_sha256": "6ab5a86887595b78bc7584b28ebceb38cabc47fbd6ecc8fbaed65c11e4a55dbc",
+    "input_sha256": "ecad6cf85faf3ffb6d34f3e3c969d0e444357ea9259d803927f0d1561b54d2e8",
     "new_formulas_describe_snapshot_only": true,
-    "output_bytes": 130318,
-    "output_sha256": "55d30fdfcb00a5b80bce94373bc1c1e9b62312fe3ae8ee00381a9861901e06ec",
+    "output_bytes": 135062,
+    "output_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
     "portable_chart_validation_passed": true,
     "portable_validated_owner_slides": [
+      5,
       8
     ],
     "preserved_existing_workbook_chart_count": 0,

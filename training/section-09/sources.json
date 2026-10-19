@@ -70,5 +70,11 @@
     "short": "课程教学示例 / 模拟审稿",
     "url": "local:training/section-09/writing-packet/manuscript-r1.md",
     "location": "实际可编辑教学稿、revision.diff与response-matrix.csv；未投稿"
+  },
+  "abstract_rules": {
+    "title": "PLOS One Submission Guidelines：Language与Abstract",
+    "short": "PLOS One，Language与Abstract条目",
+    "url": "https://journals.plos.org/plosone/s/submission-guidelines#loc-abstract",
+    "location": "2026-10-19读官方Language与Abstract：英文，摘要不超过300词，不放引文，尽量避免缩写，说明目的、做法、主要结果与意义。只核对示例涉及条目。"
   }
 }
