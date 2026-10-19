@@ -26,5 +26,20 @@
     "whole_page": true,
     "method": "Poppler PDF rasterization, 100 dpi; no content redrawn"
   },
-  "not_adopted": "第14页天文数值，第20页拼合宣传图，第31页反例中的统计值；CERN检索附件为1页海报，未作为PPT采用"
+  "not_adopted": "第14页天文数值，第20页拼合宣传图，第31页反例中的统计值；CERN检索附件为1页海报，未作为PPT采用",
+  "latest_review": {
+    "date": "2026-10-20",
+    "viewed_cached_physical_pages": [
+      3,
+      14,
+      23
+    ],
+    "cached_pdf_sha256_rechecked": "662b52b31f9c97467f28962f85d82fb727a8f294353870acaaee8c6d9451552b",
+    "online_original_pdf_result": "timeout",
+    "official_pages_opened": [
+      "https://info.orcid.org/researchers/",
+      "https://www.doi.org/the-identifier/what-is-a-doi/"
+    ],
+    "scope": "报告与讲图组织，未采用天文学统计值；身份和成果标识用途核对，未访问账号。"
+  }
 }

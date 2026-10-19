@@ -4,7 +4,7 @@ import csv,json,hashlib,zipfile,re,statistics,io,subprocess,sys
 from docx import Document
 from pypdf import PdfReader
 from openpyxl import load_workbook
-r=Path(__file__).resolve().parent;rev='s13-r8';packet=r/'communication-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
+r=Path(__file__).resolve().parent;rev='s13-r10';packet=r/'communication-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
 def load(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 run=load(packet/'output/run.json');assert run==load(r/'execution-evidence.json')
@@ -22,7 +22,17 @@ assert '平均比雌性长4.62 mm' in brief['versions'][2]['text']
 doc=Document(packet/'output/汇报与传播文字示例.docx');body=''.join(q.text.replace('\n','') for q in doc.paragraphs).replace('\u00a0',' ')
 for q in brief['versions']:assert q['audience'] in body and q['text'] in body and all(s in q['text'] for s in ['146','73','4.62 mm'])
 assert brief['humanizer_example']['after'] in body and 'AI编写' in body and '{{' not in body
-assert len(PdfReader(packet/'word-preview/汇报与传播文字示例.pdf').pages)==2 and len(list((packet/'word-preview').glob('page-*.png')))==2
+assert len(PdfReader(packet/'word-preview/汇报与传播文字示例.pdf').pages)==3 and len(list((packet/'word-preview').glob('page-*.png')))==3
+narration=load(packet/'input/figure-narration.json');readout=load(packet/'output/figure-readout-check.json')
+assert readout['numeric_readout']==narration['numeric_readout'] and not readout['timed_rehearsal_performed'] and not readout['published']
+nr=narration['numeric_readout'];i=edges.index(nr['bin_left_mm'])
+assert edges[i+1]==nr['bin_right_mm']==195 and nr['right_open']
+assert h['female'][i]==nr['female_records']==21 and h['male'][i]==nr['male_records']==24
+assert abs(readout['computed_difference_cm']-(means[1]-means[0])/10)<1e-10 and round(readout['computed_difference_cm'],2)==0.46
+assert len(narration['steps'])==4 and len(narration['questions'])==3
+md=(packet/'output/图表讲述稿.md').read_text('utf-8')
+for q in narration['steps']:assert q['text'] in body and q['text'] in md and q['locator'] in md
+assert all(q['answer'] in md for q in narration['questions'])
 lesson=load(r/'lesson.json');ns={'a':'http://schemas.openxmlformats.org/drawingml/2006/main','p':'http://schemas.openxmlformats.org/presentationml/2006/main','c':'http://schemas.openxmlformats.org/drawingml/2006/chart'};diagrams=[];tables=[];charts=[];images=[];texts=[]
 with zipfile.ZipFile(p) as z:
  slides=[n for n in z.namelist() if re.fullmatch(r'ppt/slides/slide\d+\.xml',n)];notes=[n for n in z.namelist() if re.fullmatch(r'ppt/notesSlides/notesSlide\d+\.xml',n)];assert len(slides)==len(notes)==len(lesson)==10
@@ -49,12 +59,14 @@ subprocess.run([sys.executable,str(r/'outreach-packet/check_outreach.py')],check
 outreach=load(r/'outreach-packet/checks.json')
 assert all(t in texts[9] for t in ['第1周','第1月末','第2月末','第3月末','4.62','未测量','尚未发布'])
 unchanged=[];same_previews=[]
-prior=next((r/'output').glob('*s13-r6.pptx'))
-with zipfile.ZipFile(prior) as old,zipfile.ZipFile(p) as new:
- for i in range(1,10):
-  name=f'ppt/slides/slide{i}.xml';ot=[t.text for t in E.fromstring(old.read(name)).findall('.//a:t',ns)];nt=[t.text for t in E.fromstring(new.read(name)).findall('.//a:t',ns)];assert ot==nt;unchanged.append(i)
-  if (r/'renders/s13-r6'/f'slide-{i:02d}.png').read_bytes()==(r/'renders'/rev/f'slide-{i:02d}.png').read_bytes():same_previews.append(i)
-v=load(r/'.build'/rev/'validation.json');digest=sha(p);assert v['finalSha256']==digest and v['packageIntegrity']['findingCount']==v['presentationLayout']['findingCount']==0
+prior=next((r/'output').glob('*s13-r8.pptx'),None)
+if prior:
+ with zipfile.ZipFile(prior) as old,zipfile.ZipFile(p) as new:
+  for i in [1,3,5,6,7,8,10]:
+   name=f'ppt/slides/slide{i}.xml';ot=[t.text for t in E.fromstring(old.read(name)).findall('.//a:t',ns)];nt=[t.text for t in E.fromstring(new.read(name)).findall('.//a:t',ns)];assert ot==nt;unchanged.append(i)
+   oldpng=r/'renders/s13-r8'/f'slide-{i:02d}.png'
+   if oldpng.exists() and oldpng.read_bytes()==(r/'renders'/rev/f'slide-{i:02d}.png').read_bytes():same_previews.append(i)
+vpath=r/'.build'/rev/'validation.json';v=load(vpath if vpath.exists() else r/'validation.json');digest=sha(p);assert v['finalSha256']==digest and v['packageIntegrity']['findingCount']==v['presentationLayout']['findingCount']==0
 (r/'validation.json').write_text(json.dumps(v,ensure_ascii=False,indent=2),'utf-8')
-q=dict(revision=rev,pages=10,notes=10,pdf_pages=10,preview_images=10,editable_connector_diagram_pages=diagrams,native_table_pages=tables,native_chart_pages=charts,embedded_workbooks=1,sourced_figure_page=3,actual_word_preview_page=9,word_pages=2,reader_versions=3,source_records=344,analysis_records=146,histogram_records_per_group=73,actual_file_execution=True,external_model_called=False,platform_account_accessed=False,researcher_approved=False,pptx_sha256=digest,outreach_case=outreach,unchanged_slide_text_vs_s13_r6=unchanged,identical_preview_bytes_vs_s13_r6=same_previews,scope='原CSV分组与分箱独立复算、三个完整段落及比较对象、Word与源图字节、原生图表表格及导出检查；新增四份传播草稿、相对时点和未发布状态核对，不表示传播计划已执行、科研验收或实际平台发布。')
+q=dict(revision=rev,pages=10,notes=10,pdf_pages=10,preview_images=10,editable_connector_diagram_pages=diagrams,native_table_pages=tables,native_chart_pages=charts,embedded_workbooks=1,sourced_figure_page=3,actual_word_preview_page=9,word_pages=3,figure_narration_steps=4,prepared_questions=3,selected_bin_counts=[21,24],reader_versions=3,source_records=344,analysis_records=146,histogram_records_per_group=73,actual_file_execution=True,external_model_called=False,platform_account_accessed=False,researcher_approved=False,pptx_sha256=digest,outreach_case=outreach,unchanged_slide_text_vs_s13_r8=unchanged,identical_preview_bytes_vs_s13_r8=same_previews,scope='原CSV分组与分箱独立复算、三个完整段落及比较对象、Word与源图字节、原生图表表格及导出检查；本轮讲图稿、区间频数及单位换算；既有四份传播草稿、相对时点和未发布状态核对，不表示传播计划已执行、科研验收或实际平台发布。')
 (r/'checks.json').write_text(json.dumps(q,ensure_ascii=False,indent=2),'utf-8');print(json.dumps(q,ensure_ascii=False,indent=2))

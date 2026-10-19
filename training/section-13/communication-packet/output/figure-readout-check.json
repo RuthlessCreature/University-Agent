@@ -1,0 +1,15 @@
+{
+  "scope": "本地数字及定位核对，不能评价口头效果或科学有效性",
+  "numeric_readout": {
+    "bin_left_mm": 190,
+    "bin_right_mm": 195,
+    "right_open": true,
+    "female_records": 21,
+    "male_records": 24,
+    "mean_difference_mm_display": 4.62,
+    "mean_difference_cm_display": 0.46
+  },
+  "computed_difference_cm": 0.4616438356164366,
+  "timed_rehearsal_performed": false,
+  "published": false
+}

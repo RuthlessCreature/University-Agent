@@ -1,0 +1,55 @@
+{
+  "type": "AI编写的教学讲图稿，未计时彩排，未对外发布",
+  "figure": "课件第4页；公开CSV二次计算的分组频数图",
+  "steps": [
+    {
+      "id": "S1",
+      "purpose": "先说明比较对象和坐标",
+      "text": "这张图比较的是公开数据中Adelie企鹅的鳍状翼长度。我们保留了性别和鳍长都有记录的146条资料，雌雄各73条。横轴每一格表示5毫米的长度区间，纵轴表示落入这一格的记录数。这里的73是记录数，是否对应73个独立个体还要核对原始采样资料。",
+      "locator": "facts.json：analysis_n、female_n、male_n、histogram.edges"
+    },
+    {
+      "id": "S2",
+      "purpose": "选一档读给听众看",
+      "text": "看190到195毫米这一档，蓝色柱是雌性21条，绿色柱是雄性24条。这个区间包括190毫米，不包括195毫米；195毫米的记录放进下一档。同一个长度区间里两组都有记录，说明两组分布存在重叠。",
+      "locator": "facts.json：histogram.edges[4:6]、counts.female[4]、counts.male[4]"
+    },
+    {
+      "id": "S3",
+      "purpose": "把均值差说完整",
+      "text": "雌性的平均鳍长为187.79毫米，雄性为192.41毫米，雄性平均高4.62毫米，约等于0.46厘米。这里比较的是两组平均值，不能据此判断任意一只雄性的鳍长都高于任意一只雌性。图中的分布重叠能帮助听众理解这句话。",
+      "locator": "facts.json：female_mean_mm、male_mean_mm、difference_mm；毫米换厘米除以10"
+    },
+    {
+      "id": "S4",
+      "purpose": "解释结果能回答到哪里",
+      "text": "这些数字描述本次筛选后的记录。这次比较没有测量游泳速度，也没有检验性别影响鳍长的因果机制。个体重复和采样依赖尚待核对，因此我们先保留描述，不据此说明所有Adelie企鹅都存在同样大小的差异。原始采集来自公开研究项目，本课程完成的是二次计算。",
+      "locator": "input/source.json；input/penguins.csv字段；当前未完成的采样依据核对"
+    }
+  ],
+  "questions": [
+    {
+      "question": "雄性在这一档多3条，是否说明雄性更容易落在这里？",
+      "answer": "这里只描述已选记录的频数。推断总体概率需要确认采样方式、记录独立性和分析模型，当前没有完成这些核对。"
+    },
+    {
+      "question": "能否把4.62毫米改成“游得更快”？",
+      "answer": "不能这样改写。本次比较没有测量游泳速度，现有图表不能支持这个结论。"
+    },
+    {
+      "question": "记录数为何不直接称为样本人数？",
+      "answer": "原表记录的是企鹅观测资料，简化CSV未提供本例需要的个体核对资料。当前只能确认纳入146条记录。"
+    }
+  ],
+  "release_state": "not_published",
+  "timed_rehearsal_performed": false,
+  "numeric_readout": {
+    "bin_left_mm": 190,
+    "bin_right_mm": 195,
+    "right_open": true,
+    "female_records": 21,
+    "male_records": 24,
+    "mean_difference_mm_display": 4.62,
+    "mean_difference_cm_display": 0.46
+  }
+}

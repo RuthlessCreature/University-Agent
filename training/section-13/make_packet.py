@@ -9,7 +9,7 @@ r=Path(__file__).resolve().parent;p=r/'communication-packet';out=p/'output';out.
 def sha(f):return hashlib.sha256(f.read_bytes()).hexdigest()
 def load(f):return json.loads(f.read_text('utf-8-sig'))
 def dump(f,v):f.write_text(json.dumps(v,ensure_ascii=False,indent=2),'utf-8')
-src=load(p/'input/source.json');brief=load(p/'input/brief.json');assert sha(p/'input/penguins.csv')==src['sha256']
+src=load(p/'input/source.json');brief=load(p/'input/brief.json');narration=load(p/'input/figure-narration.json');assert sha(p/'input/penguins.csv')==src['sha256']
 with (p/'input/penguins.csv').open(encoding='utf-8-sig',newline='') as f:raw=list(csv.DictReader(f))
 clean=[q for q in raw if q['species']=='Adelie' and q['sex'] in ['female','male'] and q['flipper_length_mm'] not in ['','NA']]
 groups={s:[float(q['flipper_length_mm']) for q in clean if q['sex']==s] for s in ['female','male']}
@@ -20,7 +20,18 @@ for k,v in brief['fact_contract'].items():assert (round(facts[k],2) if k=='diffe
 for version in brief['versions']:
  assert all(token in version['text'] for token in ['146','73','4.62 mm'])
 assert brief['release_state']=='not_published' and brief['researcher_approved']==False
+readout=narration['numeric_readout'];i=edges.index(readout['bin_left_mm'])
+assert edges[i+1]==readout['bin_right_mm'] and readout['right_open']
+assert hist['female'][i]==readout['female_records']==21 and hist['male'][i]==readout['male_records']==24
+assert round(facts['difference_mm']/10,2)==readout['mean_difference_cm_display']==0.46
+assert narration['release_state']=='not_published' and not narration['timed_rehearsal_performed']
 dump(out/'facts.json',facts)
+dump(out/'figure-readout-check.json',dict(scope='本地数字及定位核对，不能评价口头效果或科学有效性',numeric_readout=readout,computed_difference_cm=facts['difference_mm']/10,timed_rehearsal_performed=False,published=False))
+narration_md='# 企鹅分布图讲述稿\n\n'+narration['type']+'\n\n'
+for q in narration['steps']:narration_md+='## '+q['purpose']+'\n\n'+q['text']+'\n\n依据：'+q['locator']+'\n\n'
+narration_md+='## 预设问答\n\n'
+for q in narration['questions']:narration_md+=q['question']+'\n\n'+q['answer']+'\n\n'
+(out/'图表讲述稿.md').write_text(narration_md,'utf-8')
 audit=dict(scope='锁定字段和数字匹配；语义、来源归属与限定另经逐句阅读，不是自动科学审查',fact_contract=brief['fact_contract'],versions=[dict(audience=q['audience'],numeric_tokens_preserved=True) for q in brief['versions']],release_state='not_published',researcher_approved=False)
 dump(out/'expression-check.json',audit)
 md='# 企鹅公开数据复算的汇报与传播示例\n\nAI编写的教学表达，未发布，未取得研究者确认。原始采集属于公开项目，本课程只作二次计算。\n\n'
@@ -31,7 +42,7 @@ md+='## 范围与出处\n\n'+'\n\n'.join(brief['limits'])+'\n\n公开数据：ht
 d=Document();normal=d.styles['Normal'];normal.font.name='Microsoft YaHei';normal.font.size=Pt(10.5);normal.paragraph_format.space_after=Pt(8);normal._element.get_or_add_rPr().rFonts.set(qn('w:eastAsia'),'Microsoft YaHei')
 for sn in ['Title','Heading 1','Heading 2']:
  st=d.styles[sn];st.font.name='Microsoft YaHei';st.font.color.rgb=RGBColor(0,0,0);st._element.get_or_add_rPr().rFonts.set(qn('w:eastAsia'),'Microsoft YaHei')
-d.styles['Title'].font.size=Pt(21);d.styles['Heading 1'].font.size=Pt(14)
+d.styles['Title'].font.size=Pt(18);d.styles['Heading 1'].font.size=Pt(14)
 s=d.sections[0];s.top_margin=s.bottom_margin=Cm(1.8);s.left_margin=s.right_margin=Cm(2)
 d.add_paragraph('企鹅公开数据复算的汇报与传播示例',style='Title')
 d.add_paragraph('教学稿 供表达比较')
@@ -51,6 +62,13 @@ d.add_paragraph('发布前需要核对的内容',style='Heading 1')
 d.add_paragraph('核对署名与成果归属、文件版本和公开权限，确认能否分享全文、数据或图片。引用他人的成果应回到原始来源，并按许可及平台规则选择可公开版本。本例未登录科研平台，也未代签或发布内容。')
 d.add_paragraph('来源与文件定位',style='Heading 1')
 for v in ['公开数据 https://allisonhorst.github.io/palmerpenguins/','来源及原始CSV input/source.json 和 input/penguins.csv','复算结果 output/facts.json；各版本文字 input/brief.json','ORCID https://info.orcid.org/researchers/','ResearchGate版权说明 https://help.researchgate.net/copyright/copyright-and-researchgate']:d.add_paragraph(v)
+d.add_page_break()
+d.add_paragraph('企鹅鳍长分布图的讲述示例',style='Heading 1')
+d.add_paragraph('对应课件第4页，按坐标、具体区间、均值和解释范围依次讲解。以下为教学讲稿，尚未计时彩排。预设问答与字段定位另见图表讲述稿.md。')
+for q in narration['steps']:
+ d.add_paragraph(q['purpose'],style='Heading 2');d.add_paragraph(q['text'])
+d.add_paragraph('数字定位',style='Heading 2')
+d.add_paragraph('190至195毫米对应facts.json中histogram.edges第5、第6个值，雌雄频数分别对应counts.female与counts.male第5项（从1计数）。均值差由difference_mm保存，毫米换厘米除以10，显示两位小数。')
 for paragraph in list(d.paragraphs)+[p for t in d.tables for row in t.rows for c in row.cells for p in c.paragraphs]:
  wrap=OxmlElement('w:wordWrap');wrap.set(qn('w:val'),'0');paragraph._p.get_or_add_pPr().append(wrap)
  for run in paragraph.runs:
@@ -58,5 +76,5 @@ for paragraph in list(d.paragraphs)+[p for t in d.tables for row in t.rows for c
 for tree in [d._element,d.styles.element]:
  for el in list(tree.iter(qn('w:pBdr'))):el.getparent().remove(el)
 artifact=out/'汇报与传播文字示例.docx';d.save(artifact)
-record=dict(status='teaching_draft_for_review',utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),input_hashes={f.name:sha(f) for f in [p/'input/penguins.csv',p/'input/source.json',p/'input/brief.json']},executor_sha256=sha(Path(__file__)),artifact_sha256=sha(artifact),external_model_called=False,researcher_approved=False,published=False,platform_account_accessed=False,scope='公开CSV复算、锁定数字匹配与现成教学文字整理，不是自主传播Agent运行或正式发表')
+record=dict(status='teaching_draft_for_review',utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),input_hashes={f.name:sha(f) for f in [p/'input/penguins.csv',p/'input/source.json',p/'input/brief.json',p/'input/figure-narration.json']},executor_sha256=sha(Path(__file__)),artifact_sha256=sha(artifact),external_model_called=False,researcher_approved=False,published=False,platform_account_accessed=False,scope='公开CSV复算、锁定数字匹配与现成教学文字整理，不是自主传播Agent运行或正式发表')
 dump(out/'run.json',record);dump(r/'execution-evidence.json',record);print(record['status'])

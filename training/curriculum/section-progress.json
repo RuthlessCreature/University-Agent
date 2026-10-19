@@ -166,11 +166,11 @@
       "page_budget": 10,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s13-r8",
-      "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
-      "sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
+      "revision": "s13-r10",
+      "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+      "sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
       "checks": "training/section-13/checks.json",
-      "consistency_review": "2026-10-19：补三个月安排、四份完整教学草稿及材料分类；第10页查看，其余9页预览相同。未按计划正式发布，无传播指标实测。"
+      "consistency_review": "2026-10-20：补具体分箱读图、四段讲稿与三条预设问答，真实重跑3页Word；统计与讲稿定位核对。未计时彩排、未发布或测量传播效果。"
     },
     {
       "id": 14,
