@@ -34,5 +34,23 @@
     "short": "US20240274025A1，首页及说明书",
     "url": "https://patents.google.com/patent/US20240274025A1/en",
     "location": "原始PDF首页(43)、(22)、(60)、摘要；网页说明书互动辅导段与Claims1"
+  },
+  "scholar_help": {
+    "title": "Google Scholar Search Help",
+    "short": "Google Scholar官方检索帮助",
+    "url": "https://scholar.google.com/intl/en/scholar/help.html",
+    "location": "2026-10-19；Finding recent papers、Locating full text、Citation Export、Content Coverage"
+  },
+  "scholar_actual": {
+    "title": "Google Scholar真实浏览器检索与前10条记录",
+    "short": "Google Scholar实际页面，2026-10-19",
+    "url": "https://scholar.google.com/scholar?q=%22generative+AI%22+%22tutoring%22&as_ylo=2024&as_yhi=2025",
+    "location": "trend-packet/google-scholar-actual.png、google-scholar-actual-state.txt、google-scholar-records.json；只取结果前10条"
+  },
+  "gptutor": {
+    "title": "Promoting student engagement with GPTutor: An intelligent tutoring system powered by generative AI",
+    "short": "Bai等，GPTutor原文与更正",
+    "url": "https://link.springer.com/article/10.1186/s41239-025-00571-9",
+    "location": "Abstract、Sampling procedures、Limitations；更正DOI10.1186/s41239-026-00581-1，补作者贡献声明"
   }
 }

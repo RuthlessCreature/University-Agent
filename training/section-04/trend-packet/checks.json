@@ -1,4 +1,14 @@
 {
+  "google_scholar_actual_result_rows": 10,
+  "primary_reading_positions": [
+    1,
+    2,
+    4
+  ],
+  "scholar_snapshot_hashes_verified": true,
+  "scholar_csv_matches_snapshot_records": true,
+  "bulk_export_performed": false,
+  "full_systematic_review": false,
   "selected_records": 3,
   "material_categories": 3,
   "public_event_window": [

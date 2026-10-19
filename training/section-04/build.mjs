@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s4-r5';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s4-r7';
 const S='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation,applyPresentationChartFont}=await import(pathToFileURL(path.join(S,'container_tools/artifact_tool_utils.mjs')).href);
@@ -23,6 +23,9 @@ case 'map':case 'scan':case 'competition':case 'agent':case 'hypothesis':{
  const {step,w}=chain(s,d.nodes,405);d.details.forEach((v,i)=>T(s,v,80+i*step,535,w,140,29));
  const msgs={map:'例：同样讨论AI学习，可以分别研究使用现状、预测风险或帮助方式的效果。',scan:'保留检索记录，才能区分公开证据、模型建议和仍待核查的判断。',competition:'题目变化要写出理由：发现相近工作、获得新数据，或原条件已经不成立。',agent:'研究者复核：来源是否存在？是否遗漏相反结果？当前条件能否取得关键证据？',hypothesis:'主要结果、测量时点和判断规则需要事先说明，结果出来后再按证据解释。'};
  rule(s,80,704,1440);T(s,msgs[d.kind],80,735,1440,65,29);break;}
+case 'scholar-search':{
+ const b=await fs.readFile(path.join(R,'trend-packet/google-scholar-actual.png'));s.images.add({blob:b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),contentType:'image/png',fit:'cover',crop:{left:0,top:0,right:0,bottom:0.49},alt:'2026-10-19真实Google Scholar检索截图的顶部局部，保留检索式、2024至2025年与前两条结果；引用量为204和65。完整原图另附。',position:{left:80,top:321,width:800,height:479}});
+ let prev;[['看材料类型','首条报告被引204次；\n用引用量寻找线索。'],['回到原文','GPTutor研究参与度，\n独立作答需另看测验。'],['记日期与版本','前10条保存为CSV；\n版本关系逐项核对。']].forEach(([label,desc],i)=>{const y=342+i*151,n=N(s,label,960,y,230,86);if(prev)A(s,prev,n,'bottom','top');prev=n;T(s,desc,1240,y+4,280,115,26);});break;}
 case 'evidence-dates':{
  T(s,'材料类型与公开日',80,324,310,45,28,true);T(s,'已读记录',450,324,580,45,28,true);T(s,'怎样用于选题',1130,324,390,45,28,true);
  d.entries.forEach((r,i)=>{const y=399+i*131;const a=T(s,r[0]+'\n'+r[1],80,y,290,96,29,true,C.blue),b=T(s,r[2],450,y,590,100,29),c=T(s,r[3],1130,y,390,105,27,false,C.green);A(s,a,b);A(s,b,c);if(i<2)rule(s,80,y+106,1440);});break;}

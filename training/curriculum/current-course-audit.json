@@ -5,8 +5,8 @@
   "coverage_scope": "Editorial location review of current slide text and selected sections; preliminary topic mapping, not execution completeness or scientific acceptance. Excerpts identify location, not proof of semantic coverage by themselves.",
   "counts": {
     "已有对应内容": 46,
-    "调整讲法": 4,
-    "部分覆盖": 2
+    "调整讲法": 5,
+    "部分覆盖": 1
   },
   "rows": [
     {
@@ -263,18 +263,18 @@
           "section": 4,
           "page": 2,
           "global_page": 54,
-          "title": "论文、预印本、专利放在一起怎么看",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
-          "excerpt": "04  选题与研究问题\n论文、预印本、专利放在一起怎么看\n例：生成式AI怎样辅助教学？固定2024—2025年，登记各条材料的公开日期与证据作用。\n材料类型与公开日\n已读记录\n怎样用于选题\n预印本版本\n2024-05-23\n辅导界面设计\narXiv:2405.14713v1\n看设计方法和初步比较；\n注意文内的会议版本关联。\n专利申请公开\n2024-08-15\n自适应辅导与评价\nUS20240274025A1\n看技术披露与权利要求；\n申请"
+          "title": "Google Scholar怎样找出值得读的论文",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\nGoogle Scholar怎样找出值得读的论文\n真实检索：“generative AI” “tutoring”；限定2024—2025年，先看前10条结果。\n看材料类型\n首条报告被引204次；\n用引用量寻找线索。\n回到原文\nGPTutor研究参与度，\n独立作答需另看测验。\n记日期与版本\n前10条保存为CSV；\n版本关系逐项核对。\n引用量为2026-10-19页面快照；前10条不是全库，也不等于Web of Sc"
         },
         {
           "section": 4,
           "page": 10,
           "global_page": 62,
           "title": "三份材料怎样帮助收窄研究问题",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
           "excerpt": "04  选题与研究问题\n三份材料怎样帮助收窄研究问题\n界面能生成、方案已公开、学生学会了，分别需要不同证据。\n原文Figure1：A提出要求，B生成初稿，C继续修改。\n预印本：怎样制作辅导界面\n有方法和初步效率比较；\n不直接证明学生学得更好。\n专利：怎样生成内容和反馈\n有技术披露；\n不等于授权或效果验证。\n期刊：撤去AI后能否独立作答\n有学习结果比较；\n不能直接外推到高校课程。\n拟议问题：高校课程中，分步提示相对直接答案，能否改善撤去A"
         }
       ]
@@ -282,29 +282,29 @@
     {
       "id": 9,
       "original_topic": "AI技术趋势预判方法：Web of Science高被引文献 + arXiv预印本 + 专利数据交叉分析",
-      "status": "部分覆盖",
+      "status": "调整讲法",
       "locations": [
         "4/2",
         "4/10"
       ],
-      "assessment": "已补三类公开材料在2024—2025年范围内的比较、原始方法图、可编辑表与版本去重。原稿要求的Web of Science高被引数据库尚未访问，未取得其记录和全量导出，未完成定量交叉趋势分析。",
+      "assessment": "用户2026-10-19允许Google Scholar等入口替代Web of Science。已保存2024—2025年实际查询、相关性排序前10条、3条原文有限核对与版本判断，并比较预印本、专利和期刊材料。引用量用于发现线索，未冒用WoS高被引认定；有限样本不作领域增长率或未来热点预测。",
       "evidence": [
         {
           "section": 4,
           "page": 2,
           "global_page": 54,
-          "title": "论文、预印本、专利放在一起怎么看",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
-          "excerpt": "04  选题与研究问题\n论文、预印本、专利放在一起怎么看\n例：生成式AI怎样辅助教学？固定2024—2025年，登记各条材料的公开日期与证据作用。\n材料类型与公开日\n已读记录\n怎样用于选题\n预印本版本\n2024-05-23\n辅导界面设计\narXiv:2405.14713v1\n看设计方法和初步比较；\n注意文内的会议版本关联。\n专利申请公开\n2024-08-15\n自适应辅导与评价\nUS20240274025A1\n看技术披露与权利要求；\n申请"
+          "title": "Google Scholar怎样找出值得读的论文",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\nGoogle Scholar怎样找出值得读的论文\n真实检索：“generative AI” “tutoring”；限定2024—2025年，先看前10条结果。\n看材料类型\n首条报告被引204次；\n用引用量寻找线索。\n回到原文\nGPTutor研究参与度，\n独立作答需另看测验。\n记日期与版本\n前10条保存为CSV；\n版本关系逐项核对。\n引用量为2026-10-19页面快照；前10条不是全库，也不等于Web of Sc"
         },
         {
           "section": 4,
           "page": 10,
           "global_page": 62,
           "title": "三份材料怎样帮助收窄研究问题",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
           "excerpt": "04  选题与研究问题\n三份材料怎样帮助收窄研究问题\n界面能生成、方案已公开、学生学会了，分别需要不同证据。\n原文Figure1：A提出要求，B生成初稿，C继续修改。\n预印本：怎样制作辅导界面\n有方法和初步效率比较；\n不直接证明学生学得更好。\n专利：怎样生成内容和反馈\n有技术披露；\n不等于授权或效果验证。\n期刊：撤去AI后能否独立作答\n有学习结果比较；\n不能直接外推到高校课程。\n拟议问题：高校课程中，分步提示相对直接答案，能否改善撤去A"
         }
       ]
@@ -324,8 +324,8 @@
           "page": 9,
           "global_page": 61,
           "title": "选题的四个判断维度",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
           "excerpt": "04  选题与研究问题\n选题的四个判断维度\n每个判断都应附依据和缺口。四项可以并列比较，不必合成一个看似精确的总分。\n候选研究问题\n创新性\n相对最接近研究增加什么\n最接近论文与差异说明\n可行性\n现有条件能否提供关键证据\n授权、样本、设备与时间\n影响力\n答案会改变什么认识或决定\n受影响者与具体决策\n竞争热度\n谁在研究，进展到了哪里\n近期研究、预印本与更新日期\n每项判断都记录依据、缺口和更新日期，便于随新证据修订。\n来源：Utah CS54"
         },
         {
@@ -333,8 +333,8 @@
           "page": 12,
           "global_page": 64,
           "title": "候选问题的比较",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
           "excerpt": "04  选题与研究问题\n候选问题的比较\n下面比较研究问题及其关键条件，所有项目均为拟议情境。\n候选问题\n新增信息\n关键条件／风险\n当前处理\nAI使用场景分布\n了解任务与用途\n抽样范围、记录质量\n可先核查调查可行性\n提示方式与延后表现\n比较不同帮助方式\n分配安排、测验、授权\n优先核查关键条件\n全校AI使用的长期影响\n范围更广\n长期追踪与数据关联\n暂缓，收窄对象和时点\n教学模拟：处理意见基于设定条件；新增信息仍需文献核查。\n来源：课程教学模"
         }
       ]
@@ -355,8 +355,8 @@
           "page": 4,
           "global_page": 56,
           "title": "研究问题的收窄过程",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
           "excerpt": "04  选题与研究问题\n研究问题的收窄过程\n“AI能否提升学习”需要进一步指定人群、帮助方式、比较条件和测量时点。\nAI能否提升学习\n方向太宽，无法选数据\n本科生使用AI提示\n限定对象与干预方式\n与完整解答相比\n明确在比较什么\n撤去工具后的新题表现\n规定可测量的结果\n教学模拟：本科课程、提示方式与延后测验均为拟议设定。\n来源：Tello-Trillo，2026，作者课件文字版；课程教学模拟／方法说明\n04"
         },
         {
@@ -364,8 +364,8 @@
           "page": 8,
           "global_page": 60,
           "title": "假说与可能推翻它的结果",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
           "excerpt": "04  选题与研究问题\n假说与可能推翻它的结果\n假说需要同时写出预期方向、测量办法和对不支持结果的处理。\n假说：提示改善\n延后表现\n无AI新题测验\n差异与不确定性\n支持、不支持\n或证据不足\n说明比较条件\n和适用人群\n题目质量与评分一致性\n报告估计值及区间\n区分反向结果\n与证据不足\n主要结果、测量时点和判断规则需要事先说明，结果出来后再按证据解释。\n未显著不等于两种方式等效；等效性需要另行设定界值和分析。\n来源：课程教学模拟／方法说明\n0"
         },
         {
@@ -544,8 +544,8 @@
           "page": 7,
           "global_page": 59,
           "title": "研究空白的核对",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
           "excerpt": "04  选题与研究问题\n研究空白的核对\n“没有搜到”需要追查检索范围。可以研究的空白还要说明已有结果在哪个条件下不足。\n已有证据\n特定高中数学情境\n能说明什么／不能说明什么\n拟议对象\n某本科课程\n对象变化是否有理论理由？\n拟议测量\n延后、无AI、新题\n与即时成绩的区别是什么？\n当前判断\n值得核查的候选问题\n尚不能宣称首次或无人研究\n课程模拟对照，非系统综述；尚未完成高校场景的完整检索。\n来源：Bastani等，PNAS 2025，摘要、"
         },
         {
@@ -575,8 +575,8 @@
           "page": 11,
           "global_page": 63,
           "title": "资源缺口会改变研究问题",
-          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
-          "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
           "excerpt": "04  选题与研究问题\n资源缺口会改变研究问题\n关键数据或条件拿不到时，应收窄问题、换证据路径，或暂缓研究。\n能获得关键数据与必要授权？\n能够取得\n先做可行性核查\n无法取得\n改题或暂缓\n例：有问卷但缺少成绩和使用记录时，能回答的问题会改变。\n课程模拟：公开数据不自动包含所需变量；公开可访问也不等于可任意使用。\n来源：课程教学模拟／方法说明\n11"
         },
         {
@@ -2655,10 +2655,10 @@
       "section": 4,
       "page": 2,
       "global_page": 54,
-      "title": "论文、预印本、专利放在一起怎么看",
-      "images": 0,
+      "title": "Google Scholar怎样找出值得读的论文",
+      "images": 1,
       "charts": 0,
-      "connectors": 6,
+      "connectors": 2,
       "native_tables": 0
     },
     {

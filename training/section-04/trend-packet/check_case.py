@@ -29,7 +29,32 @@ assert hashlib.sha256(raw).hexdigest()==asset['sha256']
 with Image.open(R/asset['file']) as im:assert im.size==(3970,1570)
 assert case['quantitative_field_trend_estimated'] is False
 assert case['model_search_pipeline_executed'] is False
-report={'selected_records':3,'material_categories':3,'public_event_window':[str(start),str(end)],
+capture=json.loads((R/'google-scholar-capture.json').read_text('utf-8'))
+scholar=json.loads((R/'google-scholar-records.json').read_text('utf-8'))
+state=(R/'google-scholar-actual-state.txt').read_text('utf-8')
+assert len(scholar)==10
+assert [v['result_position'] for v in scholar]==list(range(1,11))
+assert [v['cited_by_count'] for v in scholar]==[204,65,47,31,17,32,17,17,16,12]
+assert [v['result_position'] for v in scholar if v['primary_checked']]==[1,2,4]
+for v in scholar:
+    assert v['title'] in state and v['result_url'].removeprefix('https://') in state
+    assert v['citation_source']=='Google Scholar' and v['captured_date']=='2026-10-19'
+for name,sha in capture['files'].items():
+    assert hashlib.sha256((R/name).read_bytes()).hexdigest()==sha
+assert capture['years']==[2024,2025]
+assert capture['bulk_export_performed'] is False and capture['full_systematic_review'] is False
+with (R/'GoogleScholar前10条.csv').open(encoding='utf-8-sig',newline='') as f:
+    exported=list(csv.DictReader(f))
+assert len(exported)==10
+for row,rec in zip(exported,scholar):
+    assert row['title']==rec['title'] and int(row['cited_by_count'])==rec['cited_by_count']
+checks=json.loads((R/'原文回查.json').read_text('utf-8'))
+assert [v['result_position'] for v in checks]==[1,2,4]
+with Image.open(R/'google-scholar-actual.png') as im:assert im.size==(737,874)
+report={'google_scholar_actual_result_rows':10,'primary_reading_positions':[1,2,4],
+        'scholar_snapshot_hashes_verified':True,'scholar_csv_matches_snapshot_records':True,
+        'bulk_export_performed':False,'full_systematic_review':False,
+        'selected_records':3,'material_categories':3,'public_event_window':[str(start),str(end)],
         'patent_application_and_publication_separated':True,'preprint_published_version_link_retained':True,
         'journal_online_and_issue_dates_separated':True,'figure_source_sha256':asset['sha256'],
         'quantitative_field_trend_estimated':False,'model_search_pipeline_executed':False,

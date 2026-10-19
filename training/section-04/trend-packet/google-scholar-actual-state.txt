@@ -1,0 +1,255 @@
+Browser tab: 4, Title: "\"generative AI\" \"tutoring\" - Google 学术搜索", URL: "https://scholar.google.com/scholar?q=%22generative+AI%22+%22tutoring%22&as_ylo=2024&as_yhi=2025".
+0 AXWebArea "generative AI" "tutoring" - Google 学术搜索, URL: scholar.google.com/scholar
+	1 container gs_top
+		2 container gs_hdr
+			3 button gs_hdr_mnu
+			4 container gs_hdr_frm
+				5 text field (settable) Description: 搜索, Value: "generative AI" "tutoring", ID: gs_hdr_tsi
+				6 button Description: 搜索, ID: gs_hdr_tsb
+		7 container gs_ab
+			8 container gs_ab_ttl
+				9 text 学术搜索
+			10 container gs_ab_md
+				11 container
+					12 text 找到约 21,000 条结果 （用时 0.16 秒）
+			13 container gs_ab_btns
+				14 pop up button 年份, ID: gs_res_ab_yy-b
+					15 text 年份
+				16 pop up button Description: 更多, ID: gs_res_ab_ad-b
+		17 container gs_res_ccl
+			18 button  2024 - 2025, ID: gs_rt_hdr_ychip
+				19 text 2024 - 2025
+			20 container gs_res_ccl_mid
+				21 container
+					22 container
+						23 link Description: [PDF] arxiv.org, Value: arxiv.org/pdf/2410.10650
+						24 link Description: 速读重点, Value: scholar.google.com/scholar
+					25 heading Generative AI and its impact on personalized intelligent tutoring systems, Value: 3
+						26 link Description: Generative AI and its impact on personalized intelligent tutoring systems, Value: arxiv.org/abs/2410.10650, ID: FY2vDIa7AbEJ
+					27 link Description: S Maity, Value: scholar.google.com/citations
+					28 text , 
+					29 link Description: A Deroy, Value: scholar.google.com/citations
+					30 text  - arXiv preprint arXiv:2410.10650, 2024 - arxiv.org … This report explores the multifaceted applications of  Generative AI  within ITS, examining  its … of how  Generative AI  can transform the landscape of Intelligent  Tutoring  Systems and …
+					31 button 保存
+						32 image
+						33 text 保存
+					34 pop up button 引用
+						35 image
+						36 text 引用
+					37 link Description: 被引用次数：204, Value: scholar.google.com/scholar
+					38 link Description: 相关文章, Value: scholar.google.com/scholar
+					39 link Description: 所有 9 个版本, Value: scholar.google.com/scholar
+					40 button 更多
+						41 image
+				42 container
+					43 container
+						44 link Description: [HTML] pubpub.org, Value: stel.pubpub.org/pub/04-01-batsaikhan-correia
+						45 link Description: 速读重点, Value: scholar.google.com/scholar
+					46 heading Value: 3, [HTML] The effects of Generative Artificial Intelligence on Intelligent Tutoring Systems in higher education: A systematic review
+						47 text [HTML]
+						48 link Value: stel.pubpub.org/pub/04-01-batsaikhan-correia, ID: 2Cy4SV_fr88J, Description: The effects of Generative Artificial Intelligence on Intelligent Tutoring Systems in higher education: A systematic review
+					49 link Description: BZ Batsaikhan, Value: scholar.google.com/citations
+					50 text , 
+					51 link Description: AP Correia, Value: scholar.google.com/citations
+					52 text  - Studies in Technology Enhanced …, 2024 - stel.pubpub.org …  generative AI  can effectively advance intelligent  tutoring  and …  tutoring  systems, formerly known  as intelligent  tutoring  systems … harness the potential of  generative AI  and ITSs responsibly. …
+					53 button 保存
+						54 image
+						55 text 保存
+					56 pop up button 引用
+						57 image
+						58 text 引用
+					59 link Description: 被引用次数：65, Value: scholar.google.com/scholar
+					60 link Description: 相关文章, Value: scholar.google.com/scholar
+					61 link Description: 所有 3 个版本, Value: scholar.google.com/scholar
+					62 button 更多
+						63 image
+				64 container
+					65 container
+						66 link Description: [PDF] yorksj.ac.uk, Value: ray.yorksj.ac.uk/id/eprint/10583/1/03.pdf
+						67 link Description: 速读重点, Value: scholar.google.com/scholar
+					68 heading Value: 3, Empowering education by developing and evaluating generative AI-powered tutoring system for enhanced student learning
+						69 link Value: ray.yorksj.ac.uk/id/eprint/10583/, ID: bmIPi3ZuhG0J, Description: Empowering education by developing and evaluating generative AI-powered tutoring system for enhanced student learning
+					70 link Description: S Banjade, Value: scholar.google.com/citations
+					71 text , 
+					72 link Description: H Patel, Value: scholar.google.com/citations
+					73 text , 
+					74 link Description: S Pokhrel, Value: scholar.google.com/citations
+					75 text  - Journal of Artificial Intelligence …, 2024 - ray.yorksj.ac.uk … With the advancements in AI,  Generative AI  can automate many of a teacher’s core tasks, …  This study details the development and evaluation of an AI-powered  tutoring  system designed …
+					76 button 保存
+						77 image
+						78 text 保存
+					79 pop up button 引用
+						80 image
+						81 text 引用
+					82 link Description: 被引用次数：47, Value: scholar.google.com/scholar
+					83 link Description: 相关文章, Value: scholar.google.com/scholar
+					84 link Description: 所有 3 个版本, Value: scholar.google.com/scholar
+					85 button 更多
+						86 image
+				87 container
+					88 link Description: [PDF] springer.com, Value: link.springer.com/content/pdf/10.1186/s41239-025-00571-9.pdf
+					89 heading Promoting student engagement with GPTutor: An intelligent tutoring system powered by generative AI, Value: 3
+						90 link Description: Promoting student engagement with GPTutor: An intelligent tutoring system powered by generative AI, Value: link.springer.com/article/10.1186/s41239-025-00571-9, ID: 4HoabmcFJPAJ
+					91 link Description: H Bai, Value: scholar.google.com/citations
+					92 text , WC Lui, 
+					93 link Description: PV Khiatani, Value: scholar.google.com/citations
+					94 text  - … Journal of Educational Technology in Higher …, 2025 - Springer … GPTutor: A  generative AI -powered intelligent  tutoring  system to …  Generative AI  tools and  assessment: Guidelines of the worlds top…  Generative AI -enhanced intelligent  tutoring  system for …
+					95 button 保存
+						96 image
+						97 text 保存
+					98 pop up button 引用
+						99 image
+						100 text 引用
+					101 link Description: 被引用次数：31, Value: scholar.google.com/scholar
+					102 link Description: 相关文章, Value: scholar.google.com/scholar
+					103 link Description: 所有 9 个版本, Value: scholar.google.com/scholar
+				104 container
+					105 container
+						106 link Description: [PDF] arxiv.org, Value: arxiv.org/pdf/2402.01746
+						107 link Description: 速读重点, Value: scholar.google.com/scholar
+					108 heading Value: 3, 3DG: a framework for using generative AI for handling sparse learner performance data from intelligent tutoring systems
+						109 link Value: arxiv.org/abs/2402.01746, ID: WKL76o6Vo44J, Description: 3DG: a framework for using generative AI for handling sparse learner performance data from intelligent tutoring systems
+					110 link Description: L Zhang, Value: scholar.google.com/citations
+					111 text , 
+					112 link Description: J Lin, Value: scholar.google.com/citations
+					113 text , 
+					114 link Description: C Borchers, Value: scholar.google.com/citations
+					115 text , 
+					116 link Description: M Cao, Value: scholar.google.com/citations
+					117 text , 
+					118 link Description: X Hu, Value: scholar.google.com/citations
+					119 text  - arXiv preprint arXiv:2402.01746, 2024 - arxiv.org … However, the learning performance data collected from Intelligent  Tutoring  Systems (ITSs) …  It then densifies the data through tensor factorization and augments it using  Generative AI  …
+					120 button 保存
+						121 image
+						122 text 保存
+					123 pop up button 引用
+						124 image
+						125 text 引用
+					126 link Description: 被引用次数：17, Value: scholar.google.com/scholar
+					127 link Description: 相关文章, Value: scholar.google.com/scholar
+					128 link Description: 所有 5 个版本, Value: scholar.google.com/scholar
+					129 button 更多
+						130 image
+				131 container
+					132 container
+						133 link Description: [PDF] acm.org, Value: dl.acm.org/doi/pdf/10.1145/3610978.3640559
+						134 link Description: 速读重点 - researchgate.net, Value: scholar.google.com/scholar
+					135 heading Adaptive second language tutoring using generative ai and a social robot, Value: 3
+						136 link Description: Adaptive second language tutoring using generative ai and a social robot, Value: dl.acm.org/doi/abs/10.1145/3610978.3640559, ID: aVdZnjC412wJ
+					137 link Description: E Verhelst, Value: scholar.google.com/citations
+					138 text , 
+					139 link Description: R Janssens, Value: scholar.google.com/citations
+					140 text , 
+					141 link Description: T Demeester, Value: scholar.google.com/citations
+					142 text … - Companion of the 2024 …, 2024 - dl.acm.org … through extensive interpersonal interaction and  tutoring . However, limited funding and a lack  … the potential for  generative AI  to deliver personalized language  tutoring  and circumvent the …
+					143 button 保存
+						144 image
+						145 text 保存
+					146 pop up button 引用
+						147 image
+						148 text 引用
+					149 link Description: 被引用次数：32, Value: scholar.google.com/scholar
+					150 link Description: 相关文章, Value: scholar.google.com/scholar
+					151 link Description: 所有 6 个版本, Value: scholar.google.com/scholar
+				152 container
+					153 container
+						154 link Description: [PDF] informit.org, Value: search.informit.org/doi/pdf/10.3316/informit.T2025072100009290720335183
+						155 link Description: 速读重点 - openpraxis.org, Value: scholar.google.com/scholar
+					156 heading Generative AI-based tutoring for enhancing learning engagement and achievement, Value: 3
+						157 link Description: Generative AI-based tutoring for enhancing learning engagement and achievement, Value: search.informit.org/doi/abs/10.3316/informit.T2025072100009290720335183, ID: d-cpSGdaYUAJ
+					158 link Description: T Belawati, Value: scholar.google.com/citations
+					159 text , 
+					160 link Description: D Prasetyo, Value: scholar.google.com/citations
+					161 text  - Open Praxis, 2025 - search.informit.org … Based on the above background, this study aims to examine the effects of  Generative AI  (GAI)based  tutoring  on student engagement and achievement in a large-scale distance …
+					162 button 保存
+						163 image
+						164 text 保存
+					165 pop up button 引用
+						166 image
+						167 text 引用
+					168 link Description: 被引用次数：17, Value: scholar.google.com/scholar
+					169 link Description: 相关文章, Value: scholar.google.com/scholar
+					170 link Description: 所有 9 个版本, Value: scholar.google.com/scholar
+				171 container
+					172 container
+						173 link Description: [PDF] researchgate.net, Value: researchgate.net/profile/Haoran-Bai-9/publication/389584019_GPTutor_A_Generative_AI-powered_Intelligent_Tutoring_System_to_Support_Interactive_Learning_with_Knowledge-Grounded_Question_Answering/links/67f389789b1c6c4877805269/GPTutor-A-Generative-AI-powered-Intelligent-Tutoring-System-to-Support-Interactive-Learning-with-Knowledge-Grounded-Question-Answering.pdf
+						174 link Description: 速读重点, Value: scholar.google.com/scholar
+					175 heading Value: 3, GPTutor: A generative AI-powered intelligent tutoring system to support interactive learning with knowledge-grounded question answering
+						176 link Value: ieeexplore.ieee.org/abstract/document/10898626/, ID: fTj3b4u7VQQJ, Description: GPTutor: A generative AI-powered intelligent tutoring system to support interactive learning with knowledge-grounded question answering
+					177 text RWC Lui, 
+					178 link Description: H Bai, Value: scholar.google.com/citations
+					179 text , AWY Zhang… - … conference on advances …, 2024 - ieeexplore.ieee.org With increasing popularity of artificial intelligence (AI) in the education industry, intelligent  tutoring  system (ITS) powered by AI have been widely adopted to optimize the learning …
+					180 button 保存
+						181 image
+						182 text 保存
+					183 pop up button 引用
+						184 image
+						185 text 引用
+					186 link Description: 被引用次数：17, Value: scholar.google.com/scholar
+					187 link Description: 相关文章, Value: scholar.google.com/scholar
+					188 link Description: 所有 3 个版本, Value: scholar.google.com/scholar
+				189 container
+					190 heading An adaptive intelligent tutoring system powered by generative AI, Value: 3
+						191 link Description: An adaptive intelligent tutoring system powered by generative AI, Value: ieeexplore.ieee.org/abstract/document/11016362/, ID: iDgIBsRv_NsJ
+					192 link Description: H Almetnawy, Value: scholar.google.com/citations
+					193 text , A Orabi, AR Alneyadi… - 2025 IEEE global …, 2025 - ieeexplore.ieee.org … Abstract—The emerging technology of  Generative AI  (GenAI) … development of advanced  Intelligent  Tutoring  Systems (ITSs) … ) to deliver contextually relevant  tutoring  sessions tailored to …
+					194 button 保存
+						195 image
+						196 text 保存
+					197 pop up button 引用
+						198 image
+						199 text 引用
+					200 link Description: 被引用次数：16, Value: scholar.google.com/scholar
+					201 link Description: 相关文章, Value: scholar.google.com/scholar
+					202 link Description: 所有 3 个版本, Value: scholar.google.com/scholar
+				203 container
+					204 container
+						205 link Description: [PDF] arxiv.org, Value: arxiv.org/pdf/2510.22581
+						206 link Description: 速读重点, Value: scholar.google.com/scholar
+					207 heading Pedagogy-driven evaluation of generative AI-Powered intelligent tutoring systems, Value: 3
+						208 link Description: Pedagogy-driven evaluation of generative AI-Powered intelligent tutoring systems, Value: link.springer.com/chapter/10.1007/978-3-031-99261-2_3, ID: bISvm4k2ABkJ
+					209 link Description: KK Maurya, Value: scholar.google.com/citations
+					210 text , 
+					211 link Description: E Kochmar, Value: scholar.google.com/citations
+					212 text  - … Conference on Artificial Intelligence in Education, 2025 - Springer …  generative AI -powered  tutoring  systems raises significant concerns [ 30]. Unlike their predecessors,  generative AI  … the dynamic and adaptive nature of  generative AI  tutors [ 34]. This gap …
+					213 button 保存
+						214 image
+						215 text 保存
+					216 pop up button 引用
+						217 image
+						218 text 引用
+					219 link Description: 被引用次数：12, Value: scholar.google.com/scholar
+					220 link Description: 相关文章, Value: scholar.google.com/scholar
+					221 link Description: 所有 5 个版本, Value: scholar.google.com/scholar
+			222 container gs_res_ccl_bot
+				223 link Description: 创建快讯, Value: scholar.google.com/scholar_alerts
+				224 heading 相关搜索, Value: 2
+					225 text 相关搜索
+				226 content list
+					227 link Description: generative ai in education, Value: scholar.google.com/scholar
+					228 link Description: generative ai technologies, Value: scholar.google.com/scholar
+					229 link Description: generative artificial intelligence intelligent tutoring systems, Value: scholar.google.com/scholar
+					230 link Description: generative tools tutoring systems, Value: scholar.google.com/scholar
+				231 container gs_nm
+					232 button (disabled) 上一页
+					233 button 下一页
+					234 container gs_nml
+						235 text 1
+						236 link Description: 2, Value: scholar.google.com/scholar
+						237 link Description: 3, Value: scholar.google.com/scholar
+						238 link Description: 4, Value: scholar.google.com/scholar
+						239 link Description: 5, Value: scholar.google.com/scholar
+						240 link Description: 6, Value: scholar.google.com/scholar
+						241 link Description: 7, Value: scholar.google.com/scholar
+						242 link Description: 8, Value: scholar.google.com/scholar
+						243 link Description: 9, Value: scholar.google.com/scholar
+						244 link Description: 10, Value: scholar.google.com/scholar
+		245 container gs_ftr_rt
+			246 link Description: 隐私权, Value: google.com/intl/zh-CN/policies/privacy/
+			247 link Description: 条款, Value: google.com/intl/zh-CN/policies/terms/
+			248 pop up button 帮助
+	249 AXWebArea scholar.google.com/scholar_gsb_promo_ping
+		250 text 0
+		251 text 0
+
+The focused UI element is 0 AXWebArea "generative AI" "tutoring" - Google 学术搜索, URL: scholar.google.com/scholar

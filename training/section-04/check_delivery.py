@@ -3,7 +3,7 @@ from xml.etree import ElementTree as ET
 import hashlib,json,re,sys,zipfile,subprocess
 from pypdf import PdfReader
 r=Path(__file__).resolve().parent
-rev=sys.argv[1] if len(sys.argv)>1 else 's4-r5'
+rev=sys.argv[1] if len(sys.argv)>1 else 's4-r7'
 p=r/'output'/f'高校科研AI课程_Section4_选题与研究问题_{rev}.pptx'
 d=json.loads((r/'lesson.json').read_text('utf-8'));refs=json.loads((r/'sources.json').read_text('utf-8'))
 assert len(d)==14 and [x['n'] for x in d]==list(range(1,15))
@@ -31,7 +31,8 @@ with zipfile.ZipFile(p) as z:
  assert all('来源' in z.read(x).decode() or 'http' in z.read(x).decode() or 'local:' in z.read(x).decode() for x in notes)
  case=json.loads((r/'trend-packet/case.json').read_text('utf-8'))
  assert any(hashlib.sha256(z.read(n)).hexdigest()==case['asset']['sha256'] for n in z.namelist() if n.startswith('ppt/media/'))
- assert all(s in alltext[1] for s in ['2024-05-23','2024-08-15','2025-06-25','US20240274025A1'])
+ assert all(s in alltext[1] for s in ['Google Scholar','前10条','204','2024','2025'])
+ assert any(hashlib.sha256(z.read(n)).hexdigest()==hashlib.sha256((r/'trend-packet/google-scholar-actual.png').read_bytes()).hexdigest() for n in z.namelist() if n.startswith('ppt/media/'))
  assert ET.fromstring(z.read('ppt/slides/slide10.xml')).findall('.//p:pic',ns)
 pdf=r/'renders'/rev/(p.stem+'.pdf');assert len(PdfReader(pdf).pages)==14
 assert len(list((r/'renders'/rev).glob('slide-*.png')))==14

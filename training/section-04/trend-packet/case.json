@@ -24,5 +24,13 @@
     "source_location": "Calo & MacLellan, Figure1",
     "license": "CC BY 4.0，arXiv全文页标注",
     "modification": "整图按比例缩放，未改原图或生成界面截图"
+  },
+  "accessible_search_alternative": {
+    "database": "Google Scholar",
+    "actual_query_executed": true,
+    "snapshot_records": 10,
+    "full_database_export": false,
+    "Web_of_Science_accessed": false,
+    "permission": "用户明确允许学术入口替代；不再把WoS授权作为教学案例的完成条件"
   }
 }

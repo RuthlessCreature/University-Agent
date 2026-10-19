@@ -1,0 +1,25 @@
+[
+  {
+    "result_position": 1,
+    "source_url": "https://arxiv.org/abs/2410.10650",
+    "source_location": "arXiv Abstract、Comments、Submission history",
+    "reading_result": "作者标为Scientific Report (Under Review)，摘要综述应用与挑战；本轮只核对题录与摘要。",
+    "claim_boundary": "204次引用不证明辅导有效，不给Web of Science高被引标签。"
+  },
+  {
+    "result_position": 2,
+    "source_url": "https://stel.pubpub.org/pub/04-01-batsaikhan-correia",
+    "source_location": "2024-10-28题录、DOI10.21428/8c225f6e.33570bb1、Abstract",
+    "reading_result": "系统综述，讨论高等教育STEM中辅导系统的应用与挑战。",
+    "claim_boundary": "综述中的主题不能改写为本课程已经验证的效果。"
+  },
+  {
+    "result_position": 4,
+    "source_url": "https://link.springer.com/article/10.1186/s41239-025-00571-9",
+    "source_location": "Abstract；Quantitative research / Sampling procedures；Limitations；2026-01-23更正",
+    "reading_result": "调查880份回复，经资格筛选为741，最终分析727；研究参与度与使用记录，含访谈。",
+    "claim_boundary": "样本筛选数字分别登记，不把880写成最终分析样本；参与度关系不等于独立学习能力的因果改善。",
+    "correction_doi": "10.1186/s41239-026-00581-1",
+    "correction_scope": "补充作者贡献声明；不另计为新研究。"
+  }
+]
