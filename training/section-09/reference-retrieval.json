@@ -10,5 +10,13 @@
     19,
     21
   ],
-  "date": "2026-10-18"
+  "date": "2026-10-18",
+  "review_2026_10_19": {
+    "viewed_pages": [
+      19,
+      21
+    ],
+    "pdf_access": "Official URL timed out this turn; previously retrieved original PDF cache verified by SHA256 and viewed again",
+    "adoption": "Avoid overreaching conclusions; simple language. No exercise, fixed citation count or decorative figure copied."
+  }
 }

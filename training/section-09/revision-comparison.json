@@ -1,0 +1,37 @@
+{
+  "prior_revision": "s9-r5",
+  "current_revision": "s9-r7",
+  "changed_text_pages": [
+    14,
+    17,
+    20,
+    22
+  ],
+  "identical_png_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "changed_png_pages": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "review_scope": "Changed PNGs opened individually; unchanged PNG bytes retain the prior page review. LibreOffice/Poppler export, no Microsoft PowerPoint application check."
+}

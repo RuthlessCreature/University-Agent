@@ -1,0 +1,16 @@
+{
+  "docx_files": 3,
+  "actual_clean_text_equals_markdown": true,
+  "actual_marked_accept_projection_equals_r1": true,
+  "actual_marked_reject_projection_equals_r0": true,
+  "marked_deleted_runs": 6,
+  "marked_inserted_runs": 18,
+  "review_ids": [
+    "R1.1",
+    "R1.2",
+    "R2.1"
+  ],
+  "uncompleted_research_explicit": true,
+  "native_track_changes": false,
+  "scope": "Actual DOCX text, run formatting, source hashes and reply anchors; no scientific acceptance or journal submission."
+}

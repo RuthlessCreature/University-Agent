@@ -1026,8 +1026,8 @@
           "page": 2,
           "global_page": 146,
           "title": "主张与证据的对应",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n主张与证据的对应\n同一份数据，可以支持完整记录中的均值差异，却不足以证明因果机制。\n样本范围\n344条原始记录 → Adelie 152条 → 完整记录146条，雌雄各73条。\n可报告的结果\n在这些完整记录中，雄性平均鳍长比雌性高4.62 mm。\n需要更多证据\n“性别决定鳍长”“适用于所有企鹅”涉及因果或总体外推，当前分析不能支持。\n公开数据二次教学分析，不作为新科研成果。\n来源：palmerpenguin"
         },
         {
@@ -1035,8 +1035,8 @@
           "page": 3,
           "global_page": 147,
           "title": "常见论文结构与读者问题",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n常见论文结构与读者问题\n引言解释问题，方法交代做法，结果报告发现，讨论说明解释和限制。\n引言 Introduction\n为什么研究这个问题？已有研究留下什么具体问题？\n方法 Methods\n数据从哪里来？怎样筛选、测量和分析？\n结果 Results\n比较得到什么？图表、数字和不确定性怎样对应？\n讨论 Discussion\n结果如何解释？哪些条件限制解释和推广？\n结构服务于研究问题，目标期刊和学科惯例决定具体"
         },
         {
@@ -1044,8 +1044,8 @@
           "page": 4,
           "global_page": 148,
           "title": "一段结果文字的内部结构",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n一段结果文字的内部结构\n先说明比较对象，再给出数字与单位，最后补足读者需要的条件。\n课程结果段落：对象 → 数字 → 范围\n纳入146条Adelie完整记录，雌雄各73条。雄性平均鳍长为192.41 mm，雌性为187.79 mm，均值差为4.62 mm。该差异描述本次纳入记录中的组间比较，未作因果推断。\n146条 / 每组73条：与方法中的纳入条件对应\n192.41 / 187.79 / 4.62：与计算"
         },
         {
@@ -1053,8 +1053,8 @@
           "page": 8,
           "global_page": 152,
           "title": "图与结果段落的对应",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n图与结果段落的对应\n正文概括图中能支持的发现，并给出对象、方向、单位和必要数字。\n结果段落 [R1]\n雄性平均鳍长比雌性高4.62 mm。两组的分布有重叠。\n均值差与个体差异是两个层面：不能仅凭性别推断某个体的鳍长。\n图与文字来自相同146条记录，组间重叠不影响均值差的如实报告。\n来源：MIT CommLab，结果写作；palmerpenguins公开数据及课程二次计算\n08"
         }
       ]
@@ -1074,8 +1074,8 @@
           "page": 9,
           "global_page": 153,
           "title": "讨论中的解释与替代解释",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n讨论中的解释与替代解释\n讨论把结果放回研究问题，同时交代数据和设计尚不能排除的解释。\n完整记录中的均值差\n雄性 − 雌性 = 4.62 mm\n数据组成\n年份、岛屿与缺失，是否影响所见差异？\n观测依赖\n巢内或年份相关性是否影响不确定性？\n解释范围\n没有实验设计，当前不能确认因果机制。\n区分当前观察、条件解释与尚待验证的工作。\n来源：MIT CommLab，讨论写作；课程教学示例 / 模拟审稿\n09"
         },
         {
@@ -1105,8 +1105,8 @@
           "page": 11,
           "global_page": 155,
           "title": "引文存在与主张得到支持",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n引文存在与主张得到支持\n核对参考文献时，既要确认文献真实存在，也要读原文判断它支持哪一句。\n确认文献身份\n阅读相关原文\n判断支持范围\n作者、题名、年份、DOI互相核对\n回到方法、结果与讨论，找到具体依据\n给相应句子引用；不把自己的计算归给原文\n真实原文：Gorman、Williams与Fraser，2014，PLOS ONE 9(3): e90081。\n本课4.62 mm为二次计算。它不应写成“原研究报告了"
         },
         {
@@ -1114,8 +1114,8 @@
           "page": 15,
           "global_page": 159,
           "title": "编辑初筛与外部评审",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n编辑初筛与外部评审\n期刊先检查材料和适配，再决定是否邀请外部评审，最后由编辑形成决定。\n材料初检\n编辑评估\n外部评审\n编辑决定\n文件与声明完整性\n范围、标准与适配\n方法、证据与解释\n作者修订与逐条回复\n编辑可决定接受、修订或拒稿。\n修订后重新提交，编辑继续评估；\n具体环节按目标期刊规定。\n本页为官方流程转述，没有实际稿件状态或执行截图。\n来源：PLOS One，编辑与同行评审流程\n15"
         },
         {
@@ -1123,9 +1123,9 @@
           "page": 22,
           "global_page": 166,
           "title": "可复核的写作与返修材料",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
-          "excerpt": "09  论文写作、投稿与返修\n可复核的写作与返修材料\n研究材料、当前稿、修改记录和逐条回复，应能指向同一组事实。\n来源与计算证据\n当前稿与段落锚点\n修改与回复记录\n提交前版本复核\n核对数字与单位\n明确每句支持范围\n逐项保留完成状态\n作者核查材料一致\n材料里的数字、段落里的判断和文件里的修改，应逐项对应。\n下一节：基金申报与Grant Agent。当前写作示例未投稿。\n来源：课程教学示例 / 模拟审稿\n22"
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n可复核的写作与返修材料\n研究材料、当前稿、修改记录和逐条回复，应能指向同一组事实。\n来源与计算证据\n当前稿与段落锚点\n修改与回复记录\n提交前版本复核\n核对数字与单位\n正文、图表对应材料\nWord清稿与增删标记\n回复定位并保留缺口\n材料里的数字、段落里的判断和文件里的修改，应逐项对应。\n下一节：基金申报与Grant Agent。当前写作示例未投稿。\n来源：课程教学示例 / 模拟审稿\n22"
         }
       ]
     },
@@ -1147,8 +1147,8 @@
           "page": 3,
           "global_page": 147,
           "title": "常见论文结构与读者问题",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n常见论文结构与读者问题\n引言解释问题，方法交代做法，结果报告发现，讨论说明解释和限制。\n引言 Introduction\n为什么研究这个问题？已有研究留下什么具体问题？\n方法 Methods\n数据从哪里来？怎样筛选、测量和分析？\n结果 Results\n比较得到什么？图表、数字和不确定性怎样对应？\n讨论 Discussion\n结果如何解释？哪些条件限制解释和推广？\n结构服务于研究问题，目标期刊和学科惯例决定具体"
         },
         {
@@ -1156,8 +1156,8 @@
           "page": 5,
           "global_page": 149,
           "title": "摘要中的结果与解释范围",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n摘要中的结果与解释范围\n摘要交代目的、做法和主要结果，材料中的限制随改写保留。\n中文讲解稿\n本例用公开企鹅数据演示组间比较的报告。筛选Adelie并保留性别和鳍长完整的146条记录，雌雄各73条。雄性平均鳍长192.41毫米，雌性187.79毫米，差值4.62毫米。组内有放回重抽样10000次，差值百分位区间为2.68至6.58毫米。该区间依赖记录独立等条件。缺失机制、巢内依赖和目标总体未核实，结果限于纳入"
         },
         {
@@ -1165,8 +1165,8 @@
           "page": 6,
           "global_page": 150,
           "title": "引言中的已有研究与具体问题",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n引言中的已有研究与具体问题\n引言需要说明研究背景和当前问题，并用已读文献限定自己真正要回答的内容。\n领域背景\n性别与形态差异是企鹅生态研究的一个问题。\n已有研究\nGorman等（2014）研究南极企鹅群落的性别形态差异。\n当前问题\n这份公开数据中的Adelie完整记录，雌雄鳍长相差多少？\n本例目标\n演示描述性比较及论文表达，不据此主张研究空白。\n本例演示引言组织，不把重复计算包装成研究空白。\n来源：MIT "
         },
         {
@@ -1174,8 +1174,8 @@
           "page": 7,
           "global_page": 151,
           "title": "方法段落中的可复核信息",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n方法段落中的可复核信息\n数据来源、纳入条件、处理规则和分析参数，需要与实际执行一致。\n原始公开表 344条\nAdelie 152条\n完整记录 146条\n限定研究对象\n排除6条缺失，不插补\n方法段落节选 [M1]\n数据来自palmerpenguins公开简化表。筛选Adelie记录后，保留性别和鳍长均完整的观测，共146条；雌雄各73条。排除6条记录，未对缺失值作插补。\n完整分析参数另见[M2]：雄减雌、分组"
         },
         {
@@ -1183,8 +1183,8 @@
           "page": 12,
           "global_page": 156,
           "title": "AI分段协作的输入与输出",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\nAI分段协作的输入与输出\n向AI提供事实材料和写作任务，并要求把缺失信息、使用依据和修改理由一并返回。\n研究事实与资料\n分段写作任务\n草稿与依据位置\n复核与修订\n方法、结果及限制\n明确段落要回答什么\n未知内容单独列出\n逐句比对原始材料\n写作任务示例：只依据附带计算记录写方法与结果。保留数字、单位和条件；\n未知事项列出；每段注明材料位置，返回修改理由。\n保留工具用途与核查记录；AI使用的披露要求按目标期刊核对"
         }
       ]
@@ -1214,8 +1214,8 @@
           "page": 5,
           "global_page": 149,
           "title": "摘要中的结果与解释范围",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n摘要中的结果与解释范围\n摘要交代目的、做法和主要结果，材料中的限制随改写保留。\n中文讲解稿\n本例用公开企鹅数据演示组间比较的报告。筛选Adelie并保留性别和鳍长完整的146条记录，雌雄各73条。雄性平均鳍长192.41毫米，雌性187.79毫米，差值4.62毫米。组内有放回重抽样10000次，差值百分位区间为2.68至6.58毫米。该区间依赖记录独立等条件。缺失机制、巢内依赖和目标总体未核实，结果限于纳入"
         },
         {
@@ -1223,8 +1223,8 @@
           "page": 13,
           "global_page": 157,
           "title": "按期刊要求改写摘要的任务示例",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n按期刊要求改写摘要的任务示例\n把官方条款写入具体任务，改稿后分别核对格式、数字与结论。\n完整改写任务\n请按所附PLOS One作者要求，将[A1]改写为不超过300个英文词的摘要，不放引文，尽量避免缩写。说明本教学例子的目的、公开数据和筛选方法、主要结果及其解释范围。保留146条、每组73条、两组均值、4.62毫米差值、10000次重抽样及2.68至6.58毫米区间。明确区间的独立性假设和未核实条件，不添加"
         }
       ]
@@ -1245,8 +1245,8 @@
           "page": 2,
           "global_page": 146,
           "title": "主张与证据的对应",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n主张与证据的对应\n同一份数据，可以支持完整记录中的均值差异，却不足以证明因果机制。\n样本范围\n344条原始记录 → Adelie 152条 → 完整记录146条，雌雄各73条。\n可报告的结果\n在这些完整记录中，雄性平均鳍长比雌性高4.62 mm。\n需要更多证据\n“性别决定鳍长”“适用于所有企鹅”涉及因果或总体外推，当前分析不能支持。\n公开数据二次教学分析，不作为新科研成果。\n来源：palmerpenguin"
         },
         {
@@ -1254,8 +1254,8 @@
           "page": 11,
           "global_page": 155,
           "title": "引文存在与主张得到支持",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n引文存在与主张得到支持\n核对参考文献时，既要确认文献真实存在，也要读原文判断它支持哪一句。\n确认文献身份\n阅读相关原文\n判断支持范围\n作者、题名、年份、DOI互相核对\n回到方法、结果与讨论，找到具体依据\n给相应句子引用；不把自己的计算归给原文\n真实原文：Gorman、Williams与Fraser，2014，PLOS ONE 9(3): e90081。\n本课4.62 mm为二次计算。它不应写成“原研究报告了"
         },
         {
@@ -1263,9 +1263,9 @@
           "page": 22,
           "global_page": 166,
           "title": "可复核的写作与返修材料",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
-          "excerpt": "09  论文写作、投稿与返修\n可复核的写作与返修材料\n研究材料、当前稿、修改记录和逐条回复，应能指向同一组事实。\n来源与计算证据\n当前稿与段落锚点\n修改与回复记录\n提交前版本复核\n核对数字与单位\n明确每句支持范围\n逐项保留完成状态\n作者核查材料一致\n材料里的数字、段落里的判断和文件里的修改，应逐项对应。\n下一节：基金申报与Grant Agent。当前写作示例未投稿。\n来源：课程教学示例 / 模拟审稿\n22"
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n可复核的写作与返修材料\n研究材料、当前稿、修改记录和逐条回复，应能指向同一组事实。\n来源与计算证据\n当前稿与段落锚点\n修改与回复记录\n提交前版本复核\n核对数字与单位\n正文、图表对应材料\nWord清稿与增删标记\n回复定位并保留缺口\n材料里的数字、段落里的判断和文件里的修改，应逐项对应。\n下一节：基金申报与Grant Agent。当前写作示例未投稿。\n来源：课程教学示例 / 模拟审稿\n22"
         }
       ]
     },
@@ -1354,9 +1354,9 @@
           "page": 14,
           "global_page": 158,
           "title": "投稿文件中的信息一致性",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
-          "excerpt": "09  论文写作、投稿与返修\n投稿文件中的信息一致性\n主稿、图表、数据说明和投稿信应对应同一研究与版本。\n主稿与图表\n正文和图注的数字一致\n数据与方法说明\n出处与实际处理相符\n投稿信与系统字段\n作者核对贡献与声明\n同一题目、作者、样本数、图号与版本\n官方要求作为案例；具体文件清单按目标期刊核对。\n来源：PLOS One，投稿指南；课程教学示例 / 模拟审稿\n14"
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n投稿文件中的信息一致性\n提交前逐项核对相同数字与研究范围，作者信息和声明由作者确认。\n主稿与图表\n146条；雄减雌4.62毫米\n限定Adelie 152条\n排除6条缺失，未插补\n投稿信与系统字段\n作者、贡献和声明待确认\n相同数字逐项比对，未知声明留待作者确认\n官方要求作为案例；具体文件清单按目标期刊核对。\n来源：PLOS One，投稿指南；课程教学示例 / 模拟审稿\n14"
         },
         {
           "section": 10,
@@ -1383,8 +1383,8 @@
           "page": 16,
           "global_page": 160,
           "title": "审稿意见的分类与修改动作",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n审稿意见的分类与修改动作\n先判断意见需要补说明、重分析、新研究还是讨论范围，再安排回应。\nR1.1：缺少方法细节\n补数据来源、筛选和缺失处理 → 已修改[M1]。\nR1.2：因果结论过强\n收回因果与机制表述，说明范围 → 已修改[R1][D1]。\nR2.1：要求独立采样\n需要新增研究 → 本轮未完成，在[L1]说明限制。\n教学模拟审稿意见，实际文件改动可查，新增研究没有发生。\n来源：课程教学示例 / 模拟审"
         }
       ]
@@ -1406,17 +1406,17 @@
           "page": 17,
           "global_page": 161,
           "title": "回复示例：补充方法说明",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
-          "excerpt": "09  论文写作、投稿与返修\n回复示例：补充方法说明\n回复要说清具体补了什么，并指向修订稿中的实际位置。\n模拟意见 R1.1\n请说明数据来源、缺失记录的处理，以及样本量如何确定。\n实际改动 [M1]\n补入原始344条、Adelie 152条、完整146条，以及排除6条、未插补。\n回复节选\n已在[M1]补充来源、纳入条件与缺失处理；样本量与过滤记录一致。\n模拟意见R1.1；正文[M1]与回复矩阵有实际对应。\n来源：PLOS One，返修提"
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n回复示例：补充方法说明\n把意见中缺少的信息写入方法，读者便能核对样本量怎样确定。\n模拟意见 R1.1：来源、缺失与样本量如何交代？\n公开原始表\n344条记录\n限定Adelie\n152条记录\n性别与鳍长完整\n146条，雌雄各73条\n筛选研究对象\n排除6条缺失，未插补\n正文 [M1]\n写明来源、纳入条件、排除记录及物理行号。\n回复 R1.1\n指向[M1]和计算记录，让读者核对146条从何而来。\n模拟意见R1.1"
         },
         {
           "section": 9,
           "page": 18,
           "global_page": 162,
           "title": "回复示例：收回因果结论",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n回复示例：收回因果结论\n当现有设计不支持因果解释时，修改结果与讨论的范围，并如实说明没有新增验证。\n模拟意见 R1.2\n观察性比较无法支持“性别决定鳍长”，请修改因果结论。\n实际改动 [R1][D1]\n删除“证明决定”等表述；保留4.62 mm描述，说明组成、缺失和独立性限制。\n回复节选\n已收回因果与机制结论，并限定为纳入记录中的描述性比较；未增加机制验证。\n模拟意见R1.2；实际修订在[R1]与[D1]，"
         },
         {
@@ -1424,8 +1424,8 @@
           "page": 19,
           "global_page": 163,
           "title": "回复示例：尚未完成的补充研究",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n回复示例：尚未完成的补充研究\n无法完成建议中的独立采样时，说明缺口及其对结论的影响，不能用未来计划充当结果。\n模拟意见 R2.1\n请增加独立样本，并检验巢内相关性后再讨论推广。\n实际状态 [L1]\n本轮未新增采样，也未完成巢内相关性检验。该缺口保留在限制部分。\n回复节选\n这项补充研究尚未完成。当前结果限于本次纳入记录，不能用其支持更广范围的结论。\n模拟意见R2.1；[L1]保留未完成状态，不虚构实验或分析。"
         },
         {
@@ -1433,9 +1433,9 @@
           "page": 20,
           "global_page": 164,
           "title": "回复、标记稿与清稿的版本对应",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
-          "excerpt": "09  论文写作、投稿与返修\n回复、标记稿与清稿的版本对应\n每条回复要能定位到实际改动，未完成事项继续保留在问题清单中。\n逐条回复\nresponse-matrix.csv\n有改动标记的版本\nrevision.diff\n修订后正文\nmanuscript-r1.md\n核对意见ID、段落锚点与完成状态\n本节提供实际文本差异。\n正式投稿所需的标记稿与\n清稿格式，按目标刊制作。\n实际材料为可编辑Markdown与差异文件，未冒充Word修订模式。"
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n回复、标记稿与清稿的版本对应\n同一条意见在回复、标记稿和清稿中使用相同编号，方便逐项查找。\n逐条审稿回复.docx\nR1.2：已收回因果结论\n修订稿_改动标记.docx\n红色删除；绿色新增\n原稿 [R1] 证明性别决定鳍长。\n修订 [R1] 在完整记录中，雄性平均鳍长比雌性高4.62毫米。\n修订稿_清稿.docx 保留修订后文字。[D1]说明限制，[L1]保留未完成研究。\n三份Word可编辑；标记稿使用彩色"
         }
       ]
     },
@@ -1455,8 +1455,8 @@
           "page": 11,
           "global_page": 155,
           "title": "引文存在与主张得到支持",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n引文存在与主张得到支持\n核对参考文献时，既要确认文献真实存在，也要读原文判断它支持哪一句。\n确认文献身份\n阅读相关原文\n判断支持范围\n作者、题名、年份、DOI互相核对\n回到方法、结果与讨论，找到具体依据\n给相应句子引用；不把自己的计算归给原文\n真实原文：Gorman、Williams与Fraser，2014，PLOS ONE 9(3): e90081。\n本课4.62 mm为二次计算。它不应写成“原研究报告了"
         },
         {
@@ -1464,8 +1464,8 @@
           "page": 15,
           "global_page": 159,
           "title": "编辑初筛与外部评审",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n编辑初筛与外部评审\n期刊先检查材料和适配，再决定是否邀请外部评审，最后由编辑形成决定。\n材料初检\n编辑评估\n外部评审\n编辑决定\n文件与声明完整性\n范围、标准与适配\n方法、证据与解释\n作者修订与逐条回复\n编辑可决定接受、修订或拒稿。\n修订后重新提交，编辑继续评估；\n具体环节按目标期刊规定。\n本页为官方流程转述，没有实际稿件状态或执行截图。\n来源：PLOS One，编辑与同行评审流程\n15"
         },
         {
@@ -1473,9 +1473,9 @@
           "page": 22,
           "global_page": 166,
           "title": "可复核的写作与返修材料",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
-          "excerpt": "09  论文写作、投稿与返修\n可复核的写作与返修材料\n研究材料、当前稿、修改记录和逐条回复，应能指向同一组事实。\n来源与计算证据\n当前稿与段落锚点\n修改与回复记录\n提交前版本复核\n核对数字与单位\n明确每句支持范围\n逐项保留完成状态\n作者核查材料一致\n材料里的数字、段落里的判断和文件里的修改，应逐项对应。\n下一节：基金申报与Grant Agent。当前写作示例未投稿。\n来源：课程教学示例 / 模拟审稿\n22"
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n可复核的写作与返修材料\n研究材料、当前稿、修改记录和逐条回复，应能指向同一组事实。\n来源与计算证据\n当前稿与段落锚点\n修改与回复记录\n提交前版本复核\n核对数字与单位\n正文、图表对应材料\nWord清稿与增删标记\n回复定位并保留缺口\n材料里的数字、段落里的判断和文件里的修改，应逐项对应。\n下一节：基金申报与Grant Agent。当前写作示例未投稿。\n来源：课程教学示例 / 模拟审稿\n22"
         }
       ]
     },
@@ -1493,8 +1493,8 @@
           "page": 21,
           "global_page": 165,
           "title": "拒稿后的修改与重投",
-          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-          "pptx_sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
           "excerpt": "09  论文写作、投稿与返修\n拒稿后的修改与重投\n根据决定理由判断是内容适配、证据不足还是重大事实分歧，再决定修改方向。\n阅读编辑决定和理由\n范围不符\n重新判断目标期刊和文章类型。\n证据或方法不足\n补研究或收窄结论，再评估稿件。\n重大事实争议\n按期刊程序，用材料说明申诉依据。\n重投前核对上一流程已结束，并重新检查目标刊要求。\n来源：PLOS One，编辑与同行评审流程；课程教学示例 / 模拟审稿\n21"
         }
       ]
@@ -3728,7 +3728,7 @@
       "title": "回复示例：补充方法说明",
       "images": 0,
       "charts": 0,
-      "connectors": 0,
+      "connectors": 2,
       "native_tables": 0
     },
     {
@@ -3758,7 +3758,7 @@
       "title": "回复、标记稿与清稿的版本对应",
       "images": 0,
       "charts": 0,
-      "connectors": 2,
+      "connectors": 1,
       "native_tables": 0
     },
     {

@@ -4,7 +4,7 @@
   "target_pages": 240,
   "produced_pages": 240,
   "next_section": null,
-  "scope": "240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4真实Google Scholar检索、Section 5原文与作者数据复算、Section 6设计与样本条件计算、Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要任务、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。",
+  "scope": "240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4真实Google Scholar检索、Section 5原文与作者数据复算、Section 6设计与样本条件计算、Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要与Word返修材料、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。",
   "sections": [
     {
       "id": 0,
@@ -118,11 +118,11 @@
       "page_budget": 22,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s9-r5",
-      "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r5.pptx",
-      "sha256": "fc9e08c516aadb28e4dcfe0655c47df89b0352e25629b5dde9a1e90e996de190",
+      "revision": "s9-r7",
+      "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+      "sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
       "checks": "training/section-09/checks.json",
-      "consistency_review": "2026-10-19：补两刊摘要任务模板、实际119词英文教学改稿及事实核对；更新第5、13页并核对22页渲染，未投稿。"
+      "consistency_review": "2026-10-19：补三份实际Word、真实增删标记还原及三条模拟回复定位；新增研究未完成，未投稿。"
     },
     {
       "id": 10,
