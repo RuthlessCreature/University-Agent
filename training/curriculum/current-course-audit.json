@@ -4,9 +4,9 @@
   "sections": 15,
   "coverage_scope": "Editorial location review of current slide text and selected sections; preliminary topic mapping, not execution completeness or scientific acceptance. Excerpts identify location, not proof of semantic coverage by themselves.",
   "counts": {
-    "已有对应内容": 43,
+    "已有对应内容": 44,
     "调整讲法": 4,
-    "部分覆盖": 5
+    "部分覆盖": 4
   },
   "rows": [
     {
@@ -1893,8 +1893,8 @@
           "page": 5,
           "global_page": 219,
           "title": "同一结果的三种读者版本",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
           "excerpt": "13  科研汇报与成果传播\n同一结果的三种读者版本\n改变的是解释重点，分析对象、数字、单位和证据范围应保持一致。\n读者\n同一事实的不同表达\n同行汇报\n对palmerpenguins公开数据的146条Adelie记录作描述统计，雌雄各73条。雄性平均鳍长比雌性高4.62 mm。筛选条件、分组结果和程序随材料保存，个体重复与采样依赖尚待核对。该差值描述所选记录，不作因果解释。\n项目评审\n已完成公开数据筛选和均值复算，保留146条Adelie"
         }
       ]
@@ -1985,8 +1985,8 @@
           "page": 5,
           "global_page": 219,
           "title": "同一结果的三种读者版本",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
           "excerpt": "13  科研汇报与成果传播\n同一结果的三种读者版本\n改变的是解释重点，分析对象、数字、单位和证据范围应保持一致。\n读者\n同一事实的不同表达\n同行汇报\n对palmerpenguins公开数据的146条Adelie记录作描述统计，雌雄各73条。雄性平均鳍长比雌性高4.62 mm。筛选条件、分组结果和程序随材料保存，个体重复与采样依赖尚待核对。该差值描述所选记录，不作因果解释。\n项目评审\n已完成公开数据筛选和均值复算，保留146条Adelie"
         },
         {
@@ -1994,8 +1994,8 @@
           "page": 7,
           "global_page": 221,
           "title": "研究者身份与成果入口",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
           "excerpt": "13  科研汇报与成果传播\n研究者身份与成果入口\nORCID用于持续标识研究者，成果条目和个人主页则帮助读者找到具体工作。\nORCID：持续的研究者标识\nDOI或稳定链接：具体成果\n单位或个人主页\nResearchGate研究条目\n核对本人贡献与作者关联\n研究方向、贡献与联系方式\n链接到可公开的具体成果\n核对条目归属、分享版本\n和内容可见范围\n关系图用于说明用途，不是实际账号界面；本轮未登录、认领成果或修改平台资料。\n来源：ORCID官"
         },
         {
@@ -2003,8 +2003,8 @@
           "page": 8,
           "global_page": 222,
           "title": "公开版本与传播渠道",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
           "excerpt": "13  科研汇报与成果传播\n公开版本与传播渠道\n先核对可以公开的内容和版本，再让介绍文字指向论文、数据或报告的稳定入口。\n公开内容与版本\n成果的稳定入口\n面向读者的介绍\n反馈与更正记录\n核对署名、许可\n及未公开信息\n论文、数据或报告\n链接到对应版本\n按读者补充背景\n同时保留来源\n保存具体问题\n与实际更正\n预印本、接受稿与出版版本的分享规则可能不同，上传前核对许可。\n论文、专利、报告、学术PPT与科普稿分别核对公开权限，本节未执行任何对外"
         }
       ]
@@ -2035,8 +2035,8 @@
           "page": 2,
           "global_page": 216,
           "title": "科研报告中的问题与证据",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
           "excerpt": "13  科研汇报与成果传播\n科研报告中的问题与证据\n从明确问题进入数据和方法，再解释主要结果、适用范围与仍待回答的问题。\n研究问题\n数据与方法\n主要结果\n解释范围与后续\n所选记录的雌雄鳍长\n怎样分布？\n公开CSV、物种筛选\n与描述统计\n分布、分组均值\n及比较方向\n尚缺个体与抽样资料\n不作因果解释\n背景服务于听懂问题；细节、完整统计和补充图留在可查阅的材料中。\n本例只比较所选记录的分组差异，尚未核对采样依赖，不作因果解释。\n来源：佛罗里达"
         },
         {
@@ -2044,8 +2044,8 @@
           "page": 3,
           "global_page": 217,
           "title": "科学图中的条件、过程与来源",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
           "excerpt": "13  科研汇报与成果传播\n科学图中的条件、过程与来源\n图中的分支和连接应帮助读者理解过程，关键条件与图源需要随图保留。\n条件\n分支写明条件，说明何时适用。\n过程\n连接与颜色帮助读者追踪变化。\n来源\n作者和年份随图保留，便于回查。\n左图为UF2025课件第23页原图，用于讲图示范，不是本课程的观测或模拟结果。\n来源：佛罗里达大学2025原始课件\n03"
         },
         {
@@ -2053,8 +2053,8 @@
           "page": 4,
           "global_page": 218,
           "title": "结果图怎样支持现场解释",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
           "excerpt": "13  科研汇报与成果传播\n结果图怎样支持现场解释\n比较均值时同时展示分布，让听众看到组内变化与两组重叠。\n怎样解释这张图\n纵轴：记录数。\n均值差为4.62 mm，\n两组分布有重叠。\n均值有差别，不表示\n每只雄性都更长。\n分箱宽5 mm，两组各73条记录；图由公开CSV实算，无游泳性能或因果结论。\n来源：palmerpenguins公开数据，课程二次计算；实际本地复算与文件记录\n04"
         }
       ]
@@ -2062,21 +2062,21 @@
     {
       "id": 51,
       "original_topic": "个人品牌建设：AI辅助构建个人学术品牌内容矩阵（长期运营策略与选题规划）",
-      "status": "部分覆盖",
+      "status": "已有对应内容",
       "locations": [
         "13/7",
         "13/8",
         "13/10"
       ],
-      "assessment": "身份、入口和传播反馈已有，缺少长期内容安排的具体示例。",
+      "assessment": "补三个月相对时点、四份完整传播教学稿及后续季度复核规则，分别登记公开原始资料、课程计算与待确认材料。未实际发布或测量传播指标，不把预设答疑记为真实反馈。",
       "evidence": [
         {
           "section": 13,
           "page": 7,
           "global_page": 221,
           "title": "研究者身份与成果入口",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
           "excerpt": "13  科研汇报与成果传播\n研究者身份与成果入口\nORCID用于持续标识研究者，成果条目和个人主页则帮助读者找到具体工作。\nORCID：持续的研究者标识\nDOI或稳定链接：具体成果\n单位或个人主页\nResearchGate研究条目\n核对本人贡献与作者关联\n研究方向、贡献与联系方式\n链接到可公开的具体成果\n核对条目归属、分享版本\n和内容可见范围\n关系图用于说明用途，不是实际账号界面；本轮未登录、认领成果或修改平台资料。\n来源：ORCID官"
         },
         {
@@ -2084,18 +2084,18 @@
           "page": 8,
           "global_page": 222,
           "title": "公开版本与传播渠道",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
           "excerpt": "13  科研汇报与成果传播\n公开版本与传播渠道\n先核对可以公开的内容和版本，再让介绍文字指向论文、数据或报告的稳定入口。\n公开内容与版本\n成果的稳定入口\n面向读者的介绍\n反馈与更正记录\n核对署名、许可\n及未公开信息\n论文、数据或报告\n链接到对应版本\n按读者补充背景\n同时保留来源\n保存具体问题\n与实际更正\n预印本、接受稿与出版版本的分享规则可能不同，上传前核对许可。\n论文、专利、报告、学术PPT与科普稿分别核对公开权限，本节未执行任何对外"
         },
         {
           "section": 13,
           "page": 10,
           "global_page": 224,
-          "title": "汇报问答与传播反馈",
-          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r6.pptx",
-          "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
-          "excerpt": "13  科研汇报与成果传播\n汇报问答与传播反馈\n回答问题时回到已测量的内容，传播反馈也应注明它实际反映了什么。\n现场问题回到实际测量\n“均值差能说明什么？”\n说明所选记录的平均差别。\n“能说明雄性游得更快吗？”\n本次没有测量游泳性能。\n传播反馈分开记录\n访问与下载\n具体提问与复核\n可追溯的后续使用\n没有本案例的浏览、引用或采纳数据；访问数量本身不能证明科学质量或实际影响。\n来源：佛罗里达大学2025原始课件；AI编写教学示例，未发布\n1"
+          "title": "围绕公开材料的三个月传播安排",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r8.pptx",
+          "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
+          "excerpt": "13  科研汇报与成果传播\n围绕公开材料的三个月传播安排\n每次增加一项读者需要的信息，同时保留来源、版本和解释范围。\n第1周\n结果说明\n第1月末\n方法说明\n第2月末\n限制答疑\n第3月末\n复核更新\n解释4.62毫米差异\n附公开数据与教学标识\n344 / 152 / 146条\n记录筛选与排除\n代码、单位与版本\n说明未测游泳性能\n区分预设与实际问题\n复核链接与复算\n保留旧版及原因\n再排下一季度\n每次介绍对应可追查的材料，新增发现需要新的研究依"
         }
       ]
     },
@@ -4375,10 +4375,10 @@
       "section": 13,
       "page": 10,
       "global_page": 224,
-      "title": "汇报问答与传播反馈",
+      "title": "围绕公开材料的三个月传播安排",
       "images": 0,
       "charts": 0,
-      "connectors": 2,
+      "connectors": 3,
       "native_tables": 0
     },
     {

@@ -1,10 +1,10 @@
 from pathlib import Path
 from xml.etree import ElementTree as E
-import csv,json,hashlib,zipfile,re,statistics,io
+import csv,json,hashlib,zipfile,re,statistics,io,subprocess,sys
 from docx import Document
 from pypdf import PdfReader
 from openpyxl import load_workbook
-r=Path(__file__).resolve().parent;rev='s13-r6';packet=r/'communication-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
+r=Path(__file__).resolve().parent;rev='s13-r8';packet=r/'communication-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
 def load(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 run=load(packet/'output/run.json');assert run==load(r/'execution-evidence.json')
@@ -45,7 +45,16 @@ with zipfile.ZipFile(p) as z:
  for file in [packet/'word-preview/page-1.png',r/'assets/uf-2025-page-23.png']:
   assert any(z.read(n)==file.read_bytes() for n in z.namelist() if n.startswith('ppt/media/') and n.endswith('.png'))
 pdf=r/'renders'/rev/(p.stem+'.pdf');assert len(PdfReader(pdf).pages)==10 and len(list(pdf.parent.glob('slide-*.png')))==10
+subprocess.run([sys.executable,str(r/'outreach-packet/check_outreach.py')],check=True,capture_output=True)
+outreach=load(r/'outreach-packet/checks.json')
+assert all(t in texts[9] for t in ['第1周','第1月末','第2月末','第3月末','4.62','未测量','尚未发布'])
+unchanged=[];same_previews=[]
+prior=next((r/'output').glob('*s13-r6.pptx'))
+with zipfile.ZipFile(prior) as old,zipfile.ZipFile(p) as new:
+ for i in range(1,10):
+  name=f'ppt/slides/slide{i}.xml';ot=[t.text for t in E.fromstring(old.read(name)).findall('.//a:t',ns)];nt=[t.text for t in E.fromstring(new.read(name)).findall('.//a:t',ns)];assert ot==nt;unchanged.append(i)
+  if (r/'renders/s13-r6'/f'slide-{i:02d}.png').read_bytes()==(r/'renders'/rev/f'slide-{i:02d}.png').read_bytes():same_previews.append(i)
 v=load(r/'.build'/rev/'validation.json');digest=sha(p);assert v['finalSha256']==digest and v['packageIntegrity']['findingCount']==v['presentationLayout']['findingCount']==0
 (r/'validation.json').write_text(json.dumps(v,ensure_ascii=False,indent=2),'utf-8')
-q=dict(revision=rev,pages=10,notes=10,pdf_pages=10,preview_images=10,editable_connector_diagram_pages=diagrams,native_table_pages=tables,native_chart_pages=charts,embedded_workbooks=1,sourced_figure_page=3,actual_word_preview_page=9,word_pages=2,reader_versions=3,source_records=344,analysis_records=146,histogram_records_per_group=73,actual_file_execution=True,external_model_called=False,platform_account_accessed=False,researcher_approved=False,pptx_sha256=digest,scope='原CSV分组与分箱独立复算、三个完整段落及比较对象、Word与源图字节、原生图表表格及导出检查；数字匹配不等于语义审查、科学验收或实际平台发布。')
+q=dict(revision=rev,pages=10,notes=10,pdf_pages=10,preview_images=10,editable_connector_diagram_pages=diagrams,native_table_pages=tables,native_chart_pages=charts,embedded_workbooks=1,sourced_figure_page=3,actual_word_preview_page=9,word_pages=2,reader_versions=3,source_records=344,analysis_records=146,histogram_records_per_group=73,actual_file_execution=True,external_model_called=False,platform_account_accessed=False,researcher_approved=False,pptx_sha256=digest,outreach_case=outreach,unchanged_slide_text_vs_s13_r6=unchanged,identical_preview_bytes_vs_s13_r6=same_previews,scope='原CSV分组与分箱独立复算、三个完整段落及比较对象、Word与源图字节、原生图表表格及导出检查；新增四份传播草稿、相对时点和未发布状态核对，不表示传播计划已执行、科研验收或实际平台发布。')
 (r/'checks.json').write_text(json.dumps(q,ensure_ascii=False,indent=2),'utf-8');print(json.dumps(q,ensure_ascii=False,indent=2))

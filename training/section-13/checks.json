@@ -1,5 +1,5 @@
 {
-  "revision": "s13-r6",
+  "revision": "s13-r8",
   "pages": 10,
   "notes": 10,
   "pdf_pages": 10,
@@ -30,6 +30,49 @@
   "external_model_called": false,
   "platform_account_accessed": false,
   "researcher_approved": false,
-  "pptx_sha256": "bce069e19db733f79b2f70bf631c6eda052d42e96008525cdaff5aba6e2753d8",
-  "scope": "原CSV分组与分箱独立复算、三个完整段落及比较对象、Word与源图字节、原生图表表格及导出检查；数字匹配不等于语义审查、科学验收或实际平台发布。"
+  "pptx_sha256": "85a2639f165fcb1c6ba855798c25f831e9fb94247304a4ef51065dbdc90ce209",
+  "outreach_case": {
+    "draft_files_verified": 4,
+    "plan_rows": 4,
+    "relative_phases": [
+      "第1周",
+      "第1月末",
+      "第2月末",
+      "第3月末"
+    ],
+    "public_source_rows": 344,
+    "analysis_rows": 146,
+    "records_per_group": 73,
+    "CSV_means_difference_and_histograms_independently_checked": true,
+    "draft_hashes_verified": 4,
+    "source_snapshot_hashes_verified": 2,
+    "actual_outreach_posts": 0,
+    "platform_account_accessed": false,
+    "actual_feedback_records": 0,
+    "metrics_measured": false,
+    "scope": "Numerical consistency, exact draft/source files, editable plan, material classification and unpublished outreach status. Does not establish author approval, permission for every use, communication effectiveness or scientific validity."
+  },
+  "unchanged_slide_text_vs_s13_r6": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "identical_preview_bytes_vs_s13_r6": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "scope": "原CSV分组与分箱独立复算、三个完整段落及比较对象、Word与源图字节、原生图表表格及导出检查；新增四份传播草稿、相对时点和未发布状态核对，不表示传播计划已执行、科研验收或实际平台发布。"
 }

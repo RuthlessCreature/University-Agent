@@ -1,0 +1,32 @@
+[
+  {
+    "id": "A01",
+    "name": "palmerpenguins原始简化CSV",
+    "material_state": "公开原始资料",
+    "source": "https://allisonhorst.github.io/palmerpenguins/",
+    "local_file": "penguins.csv",
+    "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+    "public_basis": "维护者说明及CC0记录见data-source.json",
+    "usage": "提供原始入口，保留采集者归属；不说成课程采集"
+  },
+  {
+    "id": "A02",
+    "name": "本课程二次计算与分布图材料",
+    "material_state": "已有实际计算；表达与图为课程编写",
+    "source": "training/section-13/communication-packet/output/facts.json",
+    "local_file": "facts.json",
+    "sha256": "0531a97e5eb096bb878c18c70f3a7ecfa794a354e54b5a533a8e9906a5a04bf6",
+    "public_basis": "用于教学；实际对外使用仍核对作者、版本和材料许可",
+    "usage": "只说明146条完整记录，保留无因果解释及依赖未核实范围"
+  },
+  {
+    "id": "H01",
+    "name": "第三方课件图、外部全文或尚未公开的研究材料",
+    "material_state": "未纳入传播附件",
+    "source": "本例材料边界",
+    "local_file": null,
+    "sha256": null,
+    "public_basis": "不能从本课程课堂使用推定可对外转载",
+    "usage": "本计划只使用原始链接和允许的自编材料，不复制整篇论文、第三方课件图或未公开内容"
+  }
+]

@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s13-r6';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s13-r8';
 const S='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation,applyPresentationChartFont}=await import(pathToFileURL(path.join(S,'container_tools/artifact_tool_utils.mjs')).href);
@@ -27,6 +27,7 @@ case 'humanizer':{const a=N(s,'待改表达（教学反例）',80,335,610,85,'#F
 case 'profiles':{const a=N(s,'ORCID：持续的研究者标识',80,345,520,95),b=N(s,'DOI或稳定链接：具体成果',1000,345,520,95),c=N(s,'单位或个人主页',80,650,520,95,'#E7F2EF'),d=N(s,'ResearchGate研究条目',1000,650,520,95,'#E7F2EF');A(s,a,b);A(s,a,c,'bottom','top');A(s,b,d,'bottom','top');T(s,'核对本人贡献与作者关联',630,475,340,90,27);T(s,'研究方向、贡献与联系方式\n链接到可公开的具体成果',80,755,520,60,24);T(s,'核对条目归属、分享版本\n和内容可见范围',1000,755,520,60,24);break;}
 case 'release':steps(s,['公开内容与版本','成果的稳定入口','面向读者的介绍','反馈与更正记录'],['核对署名、许可\n及未公开信息','论文、数据或报告\n链接到对应版本','按读者补充背景\n同时保留来源','保存具体问题\n与实际更正'],355);T(s,'预印本、接受稿与出版版本的分享规则可能不同，上传前核对许可。',80,730,1440,80,30,true,C.blue);break;
 case 'execution':await pic(s,'communication-packet/word-preview/page-1.png',80,310,440,460,'本次实际生成的汇报与传播示例Word第一页，由LibreOffice渲染');T(s,'本次实际Word第1页',80,780,550,45,25,false,C.muted);{const a=N(s,'公开CSV与原始来源',660,335,740,80),b=N(s,'实际复算与锁定字段核对',660,485,740,80),c=N(s,'三个读者版本及表达修订',660,635,740,80,'#E7F2EF');A(s,a,b,'bottom','top');A(s,b,c,'bottom','top');T(s,'Word与Markdown可编辑，事实、来源和文件版本随包保留。',660,755,860,65,29);}break;
+case 'outreach-plan':steps(s,['第1周\n结果说明','第1月末\n方法说明','第2月末\n限制答疑','第3月末\n复核更新'],['解释4.62毫米差异\n附公开数据与教学标识','344 / 152 / 146条\n记录筛选与排除\n代码、单位与版本','说明未测游泳性能\n区分预设与实际问题','复核链接与复算\n保留旧版及原因\n再排下一季度'],355);T(s,'每次介绍对应可追查的材料，新增发现需要新的研究依据。',80,700,1440,65,29,true,C.blue);T(s,'反馈分别留证：访问统计、具体问题、后续使用。没有测量时写“未测量”。',80,770,1440,45,26);break;
 case 'feedback':T(s,'现场问题回到实际测量',80,330,800,65,32,true,C.blue);T(s,'“均值差能说明什么？”\n说明所选记录的平均差别。\n\n“能说明雄性游得更快吗？”\n本次没有测量游泳性能。',80,435,800,300,31);T(s,'传播反馈分开记录',1030,330,490,65,32,true,C.blue);{const a=N(s,'访问与下载',1030,435,490,75),b=N(s,'具体提问与复核',1030,575,490,75),c=N(s,'可追溯的后续使用',1030,715,490,75,'#E7F2EF');A(s,a,b,'bottom','top');A(s,b,c,'bottom','top');}break;
 }
 T(s,d.bottom,80,824,1440,43,22,false,C.green);T(s,'来源：'+d.refs.map(k=>refs[k].short).join('；'),80,875,1340,22,15,false,C.muted);T(s,String(d.n).padStart(2,'0'),1450,864,70,34,23,false,C.muted);s.speakerNotes.text=d.notes+'\n\n'+d.refs.map(k=>refs[k].title+'\n'+refs[k].url+'\n定位：'+refs[k].location).join('\n\n');}

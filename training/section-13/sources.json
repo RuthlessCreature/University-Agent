@@ -52,5 +52,17 @@
     "short": "DOI基金会官方说明",
     "url": "https://www.doi.org/the-identifier/what-is-a-doi/",
     "location": "What is a DOI与persistent identifiers：标识对象并提供可解析的持续引用；本节没有注册或赋予任何新DOI"
+  },
+  "engagement": {
+    "title": "UKRI Guidance on engaging the public with your research",
+    "short": "UKRI，读者、倾听与评价指导",
+    "url": "https://www.ukri.org/manage-your-award/good-research-resource-hub/guidance-on-engaging-the-public-with-your-research/",
+    "location": "2026-10-19读Identify your target group、Listen to the public、Measure success；具体月度安排由课程编写"
+  },
+  "outreach": {
+    "title": "本节三个月传播安排与四份教学草稿",
+    "short": "自编三个月教学安排，未发布",
+    "url": "local:training/section-13/outreach-packet/plan.json",
+    "location": "四份Markdown、材料状态、CSV与核对；没有实际平台发布、用户反馈或传播指标"
   }
 }
