@@ -1,5 +1,5 @@
 from pathlib import Path
-import sys,json,copy,hashlib,platform
+import sys,json,copy,hashlib,platform,shutil
 r=Path(__file__).resolve().parent;sys.path.insert(0,str(r/'runtime-snapshot'))
 from local_workflow import run,make_template,WorkflowError
 p=r/'grant-packet';template=p/'教学材料模板.docx'
@@ -16,5 +16,6 @@ for name,expected in [('guide-mismatch','guide_section_mismatch'),('unknown-sour
  try:run(f,t,bad/name,final=name=='final-unapproved',guide_path=guide);raise AssertionError('Failure expected')
  except WorkflowError as e:
   assert expected in str(e);cases.append(dict(case=name,expected=expected,actual=str(e),blocked=True))
+  (p/'negative-runs').mkdir(exist_ok=True);shutil.copyfile(bad/name/'run.json',p/'negative-runs'/(name+'.json'))
 report=dict(scope='实际本地JSON与DOCX模板核对、原文填充、映射与来源登记；未调用模型，未核验科研真实性，未完成正式提交',python=platform.python_version(),executor_sha256=hashlib.sha256((r/'runtime-snapshot/local_workflow.py').read_bytes()).hexdigest(),positive=result,negative_cases=cases)
 (r/'execution-evidence.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),'utf-8');print(result['status']);print('4 real negative executions blocked')

@@ -4,7 +4,7 @@
   "target_pages": 240,
   "produced_pages": 240,
   "next_section": null,
-  "scope": "240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4真实Google Scholar检索、Section 5原文与作者数据复算、Section 6设计与样本条件计算、Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要与Word返修材料、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。",
+  "scope": "240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4真实Google Scholar检索、Section 5原文与作者数据复算、Section 6设计与样本条件计算、Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要与Word返修材料、Section 10指南与研究路线及Word文件、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。",
   "sections": [
     {
       "id": 0,
@@ -130,10 +130,11 @@
       "page_budget": 26,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s10-r2",
-      "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-      "sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
-      "checks": "training/section-10/checks.json"
+      "revision": "s10-r4",
+      "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+      "sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+      "checks": "training/section-10/checks.json",
+      "consistency_review": "2026-10-19：两组条件及一周后测量与前节对齐；真实重跑Word并附路线与返工图、核对原生端点和Word媒体；无模型调用、科学核验或正式申报。"
     },
     {
       "id": 11,

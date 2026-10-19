@@ -1,20 +1,20 @@
 {
   "status": "failed",
   "error": "guide_section_mismatch",
-  "input_sha256": "0417cd76476a9569a214637cbdb1861ac80569b1ccdae8f7d36b9ef6136aaf12",
-  "template_sha256": "063b1307d0b5d345228ca0f1b84047c64101bb5711d63f4c3b8f8d95fba7a256",
+  "input_sha256": "2a0c41a9b64a5791fe02923889ee4fa6d7df90357e73c9da8ffd5e32b9c33759",
+  "template_sha256": "328561859b7035bf6fa8c6322594b339deb472efd3e339d6dac4d8ff369f9c0a",
   "events": [
     {
       "stage": "intake",
       "state": "running",
       "detail": "",
-      "utc": "2026-10-18T05:03:46.878524+00:00"
+      "utc": "2026-10-19T13:43:30.598296+00:00"
     },
     {
       "stage": "workflow",
       "state": "failed",
       "detail": "guide_section_mismatch",
-      "utc": "2026-10-18T05:03:46.889521+00:00"
+      "utc": "2026-10-19T13:43:30.600298+00:00"
     }
   ]
 }

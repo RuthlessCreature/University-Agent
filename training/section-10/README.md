@@ -1,6 +1,6 @@
 # Section 10 基金申报与Grant Agent
 
-26页，最终版本s10-r2。PPTX在output，PDF与26张预览在renders/s10-r2。讲师稿与逐页备注对应。可编辑流程图讲清科学问题、研究内容、技术路线、材料对应与文件执行，第22页为原生表格，第25页嵌入本次实际Word第一页的渲染。
+26页，最终版本s10-r4。PPTX在output，PDF与26张预览在renders/s10-r4。讲师稿与逐页备注对应。可编辑流程图讲清科学问题、研究内容、技术路线、材料对应与文件执行，第22页为原生表格，第25页嵌入本轮实际Word第一页的渲染。
 
 1至6页讲当年要求与材料；7至18页围绕分步提示和大学生独立解题的教学设想，讲问题、方案、创新依据、基础、风险、进度和资源；19至20页讲摘要与Humanizer修订；21至26页讲Harness、要求映射、本地运行、异常拦截、Word和提交前判断。
 
@@ -12,6 +12,10 @@ run_demo.py使用runtime-snapshot中的执行器副本，读取grant-packet/guid
 
 另实际执行4个异常：指南章节不符、未知来源、模板缺章、未签核请求最终导出。结果和失败日志均保留。最终导出控制属于此旧文件接口，不表示网页任务需要逐节点审批。本次未更改网页或云端模型配置。
 
-使用已配置python-docx的Python运行run_demo.py可复现，输入模板会重建，运行时间与Word哈希会更新；已有交付快照供对照。运行check_delivery.py检查已交付PPT、Word、映射及异常记录。构建PPT使用Artifact Tool与build.mjs，render.py s10-r2从最终PPTX导出PDF和PNG。运行需要已配置依赖，源码和文件可编辑。
+使用已配置python-docx的Python运行run_demo.py可复现，输入模板会重建，运行时间与Word哈希会更新；已有交付快照供对照。运行check_delivery.py检查已交付PPT、Word、映射及异常记录。构建PPT使用Artifact Tool与build.mjs，render.py s10-r4从最终PPTX导出PDF和PNG。运行需要已配置依赖，源码和文件可编辑。
 
 Word正文与来源问题页已按文档技能渲染查看。检查记录不代表研究者批准或用户教学验收。下一节为专利挖掘与技术交底。
+
+s10-r4将对照条件统一为完整解答、主要测量统一为练习后一周无AI新题，与Section 6和8的教学方案衔接。每组50人仍只是前节的假设容量，不是申报样本依据。Word现为3页，末页附技术路线和材料核对图；draw.io、SVG和共享JSON在grant-packet/diagrams。PPT第13页为同一节点连接的原生图，Word中的两幅图为嵌入PNG。check_route.py实际核对PPT连接端点、draw.io与SVG连接，以及Word媒体字节。
+
+独立交付包在已有依赖环境可运行check_delivery.py，核对当前文件和随包导出记录；重新生成Word运行run_demo.py，随后重新渲染并检查。运行不会调用模型或完成正式申报。

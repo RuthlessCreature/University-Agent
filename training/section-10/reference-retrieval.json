@@ -10,5 +10,14 @@
     40,
     51
   ],
-  "retrieved": "2026-10-18"
+  "retrieved": "2026-10-18",
+  "rechecked_2026_10_19": {
+    "physical_pages_viewed": [
+      29,
+      36,
+      40
+    ],
+    "access": "Official PDF unavailable via web tool; cached original PDF hash verified and page images viewed again",
+    "adoption": "Testable aims, design choices and limits on innovation claims; not NIH funding or formatting rules"
+  }
 }

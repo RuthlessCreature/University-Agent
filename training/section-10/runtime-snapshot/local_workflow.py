@@ -38,6 +38,7 @@ def make_template(p,sections):
     style._element.rPr.rFonts.set(qn('w:eastAsia'),'Microsoft YaHei');style.paragraph_format.space_after=Pt(8)
     for sn in ['Title','Heading 1','Heading 2']:
         d.styles[sn].font.name='Microsoft YaHei';d.styles[sn].font.color.rgb=RGBColor(0,0,0);d.styles[sn]._element.get_or_add_rPr().rFonts.set(qn('w:eastAsia'),'Microsoft YaHei')
+    d.styles['Title'].font.size=Pt(18)
     sec=d.sections[0];sec.top_margin=sec.bottom_margin=Cm(2);sec.left_margin=sec.right_margin=Cm(2.2)
     d.add_paragraph('科研教学文档模板',style='Title')
     for title in sections:d.add_paragraph(title,style='Heading 1');d.add_paragraph('{{'+title+'}}')
@@ -73,13 +74,28 @@ def run(input_path,template_path,out,approval_path=None,final=False,guide_path=N
         for p in d.paragraphs:
             if p.style.name=='Title':p.text=m['title']+' 教学草稿'
             for sec in m['sections']:
-                if p.text=='{{'+sec['title']+'}}':p.text=sec['content']+'\n依据：'+', '.join(sec.get('source_ids',[]))
+                if p.text=='{{'+sec['title']+'}}':
+                    p.text=sec['content']+'\n依据：'+', '.join(sec.get('source_ids',[]))
+                    if sec['title']=='研究基础':p.paragraph_format.keep_together=True
         d.add_paragraph('来源与未决问题',style='Heading 1')
         d.add_paragraph('材料属性：'+m['material_type']+'。本文件是受约束的材料组织草稿。科研事实与正式提交仍需研究者核对。')
         for sid,s in sources.items():d.add_paragraph(sid+'  '+s['locator'])
         for i in issues:d.add_paragraph(i['id']+'  '+i['issue'])
         for tree in [d._element,d.styles.element]:
             for el in list(tree.iter(qn('w:pBdr'))):el.getparent().remove(el)
+        diagram_records=[]
+        if m.get('diagram_assets'):
+            d.add_page_break()
+            d.add_paragraph('研究技术路线与材料核对',style='Heading 1')
+            d.add_paragraph('以下为拟议研究的教学示意。研究尚未实施，图中的启动条件也尚未核定。图示编辑源随包保留，箭头表示工作次序，不表示因果效应。')
+            input_root=pathlib.Path(input_path).resolve().parent
+            for item in m['diagram_assets']:
+                image=(input_root/item['file']).resolve()
+                if not image.is_relative_to(input_root) or image.suffix.lower()!='.png':raise WorkflowError('invalid_diagram_path')
+                d.add_paragraph(item['caption'])
+                d.add_picture(str(image),width=Cm(16))
+                diagram_records.append(dict(file=item['file'],caption=item['caption'],sha256=digest(image)))
+            event('research_diagrams','embedded','; '.join(x['file'] for x in diagram_records))
         artifact=out/(m['kind']+'-draft.docx');d.save(artifact);event('docx','written',artifact.name)
         mapping=m.get('requirements',[]);dump(out/'requirements.json',mapping);dump(out/'mapping.json',dict(goals=m.get('goals',[]),requirements=mapping))
         dump(out/'evidence-ledger.json',{'scope':'source identity and supplied locator only; scientific truth not auto-verified','sources':list(sources.values()),'sections':[{'title':s['title'],'source_ids':s.get('source_ids',[])} for s in m['sections']]})
@@ -88,7 +104,7 @@ def run(input_path,template_path,out,approval_path=None,final=False,guide_path=N
         for i,x in enumerate(steps):route+=f'  S{i}["{x.replace(chr(34),chr(39))}"]\n'
         for i in range(len(steps)-1):route+=f'  S{i} --> S{i+1}\n'
         (out/'route.mmd').write_text(route,'utf-8')
-        result=dict(kind=m['kind'],status='final_ready' if final else 'draft_review_required',input_sha256=input_hash,template_sha256=template_hash,guide_sha256=guide_hash,artifact=artifact.name,artifact_sha256=digest(artifact),human_approved=approved,external_model_called=False,scientific_validation='not_performed',events=events)
+        result=dict(kind=m['kind'],status='final_ready' if final else 'draft_review_required',input_sha256=input_hash,template_sha256=template_hash,guide_sha256=guide_hash,artifact=artifact.name,artifact_sha256=digest(artifact),human_approved=approved,external_model_called=False,scientific_validation='not_performed',diagram_assets=diagram_records,events=events)
         dump(out/'run.json',result);return result
     except Exception as e:
         event('workflow','failed',str(e));dump(out/'run.json',dict(status='failed',error=str(e),input_sha256=input_hash,template_sha256=template_hash,events=events));raise

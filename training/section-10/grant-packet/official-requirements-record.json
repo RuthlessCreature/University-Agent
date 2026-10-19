@@ -1,6 +1,6 @@
 {
   "scope": "人工读取原文后整理的要求与材料状态，非官方模板或自动资格审查",
-  "checked": "2026-10-18",
+  "checked": "2026-10-19",
   "urls": [
     "https://www.nsfc.gov.cn/p1/3381/2821/99242.html",
     "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
@@ -48,5 +48,6 @@
       "status": "VERIFIED",
       "application": "未为示例编造预算额度"
     }
-  ]
+  ],
+  "recheck_scope": "Re-read official 2026 application notice sections 一（二）2、4、5、6、8、10、11 and reform notice; no claim about 2027 rules"
 }

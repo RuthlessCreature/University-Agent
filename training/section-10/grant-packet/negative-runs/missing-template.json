@@ -1,26 +1,26 @@
 {
   "status": "failed",
   "error": "template_missing_section:研究内容",
-  "input_sha256": "4ca06d2e9caf771309da0aa60c12b7275c80dc473510cbb262f20b0cc524e823",
-  "template_sha256": "efe1ace6a3c5e9ca424db04b2a6342decb17cc19a799b74533b6bffa6a1080de",
+  "input_sha256": "23f9b60ac270b0a1e7471609756124edb626499b54c34dfdba7a9d809c542444",
+  "template_sha256": "471704490c73ee83bc37cf985d6f9b97beaaba457f2d5fbaf51c91d74416f726",
   "events": [
     {
       "stage": "intake",
       "state": "running",
       "detail": "",
-      "utc": "2026-10-18T05:03:46.956297+00:00"
+      "utc": "2026-10-19T13:43:30.660616+00:00"
     },
     {
       "stage": "constraints",
       "state": "passed",
       "detail": "",
-      "utc": "2026-10-18T05:03:46.977297+00:00"
+      "utc": "2026-10-19T13:43:30.672118+00:00"
     },
     {
       "stage": "workflow",
       "state": "failed",
       "detail": "template_missing_section:研究内容",
-      "utc": "2026-10-18T05:03:46.992047+00:00"
+      "utc": "2026-10-19T13:43:30.687039+00:00"
     }
   ]
 }

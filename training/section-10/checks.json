@@ -1,5 +1,5 @@
 {
-  "revision": "s10-r2",
+  "revision": "s10-r4",
   "pages": 26,
   "notes": 26,
   "pdf_pages": 26,
@@ -28,11 +28,13 @@
   "actual_word_preview_pages": [
     25
   ],
-  "word_pages": 2,
+  "word_pages": 3,
+  "word_embedded_route_figures": 2,
+  "native_route_endpoint_checks": true,
   "negative_cases_blocked": 4,
   "actual_file_execution": true,
   "external_model_called": false,
   "scientific_validation": "not_performed",
-  "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+  "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
   "scope": "指南、输入、模板及Word哈希，内容填充、映射和来源，4项真实异常与导出文件核对；不代表科研有效性或云端模型全系统运行。"
 }

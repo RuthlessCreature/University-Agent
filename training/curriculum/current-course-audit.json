@@ -733,8 +733,8 @@
           "page": 16,
           "global_page": 182,
           "title": "风险与替代方案",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n风险与替代方案\n替代路径应说明触发条件、调整动作，以及调整后还能支持什么结论。\n提示规则不稳定\n触发：预试未达到预定要求。动作：修订提示和材料，再做预试核对。\n退出或记录缺失\n记录发生原因，按预先方案处理，报告缺失及其对解释的影响。\n无法按计划分组\n先评估调整目标与设计的可行性。改为观察性研究时，重新限定因果解释。\n备用方案改变设计时，结论的适用范围也随之调整。\n来源：NIH StrokeNet"
         }
       ]
@@ -1363,8 +1363,8 @@
           "page": 4,
           "global_page": 170,
           "title": "国自然申请中的AI使用要求",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n国自然申请中的AI使用要求\nAI参与资料整理时，申请人仍须核实信息、声明使用情况并按规定标识。\n资料与引用\nAI辅助跟踪动态、整理文献时，申请人逐项核实信息与文献真实性、准确性。\n使用情况\n全面如实声明AI使用情况，并按规定对相关内容作出标识。\n申请书正文\n不得使用生成式AI直接生成的申请书，也不得使用未经核实的生成内容。\n本节AI协助编写的研究设计和Word仅作教学演示，不作国自然申请书使用。"
         }
       ]
@@ -1514,8 +1514,8 @@
           "page": 8,
           "global_page": 174,
           "title": "立项依据中的文献与本例问题",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n立项依据中的文献与本例问题\n已有研究的对象、干预和测量，可以帮助限定本例准备追问的内容。\n公开研究：高中数学\nBastani等（PNAS，2025）比较不同AI辅导条件，并另设无辅助测验。研究设计把工具使用阶段与独立作答阶段分别观察。\n本例拟追问：大学统计课程\n在相同模型和任务下，先写思路再获得分步提示，是否改变独立解题表现？需继续检索同类研究，判断具体差异。\n高中研究的设计启发可以借鉴；大学场"
         },
         {
@@ -1523,8 +1523,8 @@
           "page": 11,
           "global_page": 177,
           "title": "研究假说与其他可能解释",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n研究假说与其他可能解释\n提示方式、独立尝试与后续测验之间的关系，需要通过设计和数据检验。\n分步提示方式\n独立尝试与修正\n无AI新题表现\n记录实际提供的提示\n保留步骤和修改过程\n采用统一测验与评分\n其他可能解释：既有水平、学习投入、题目难度、教师实施及组间交流。\n虚线为待检验关系；既有水平和实施差异等因素需另行考虑。\n来源：课程教学模拟，未实施\n11"
         }
       ]
@@ -1546,8 +1546,8 @@
           "page": 9,
           "global_page": 175,
           "title": "科学问题、目标与研究内容",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n科学问题、目标与研究内容\n问题说明未知关系，目标说明准备弄清什么，研究内容安排取得证据的工作。\n科学问题\n研究目标\n研究内容\n提示方式与离开AI后的独立解题，有怎样的关系？\n比较两种条件下的独立测验表现，检查作答过程。\n预试题目和评分，实施比较，记录过程，联合解释。\n概念用于组织思路，正文按研究自身逻辑展开。\n来源：国自然2026申请书改版说明；课程教学模拟，未实施\n09"
         },
         {
@@ -1555,8 +1555,8 @@
           "page": 10,
           "global_page": 176,
           "title": "研究内容与可检验结果",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n研究内容与可检验结果\n每项研究内容需要说明观察什么、怎样判断，以及得不到预期结果时仍能回答什么。\n题目与评分预试\n检查题目难度与评分规则，形成可复查的材料和修订记录。\n辅导条件比较\n统一测量，记录两组过程及无AI新题成绩，报告差异与不确定性。\n过程与结果解释\n比较尝试、求助和修正记录。未出现预期差异时，也如实分析设计与适用范围。\n研究计划中的产物是预期安排，不能写成已经取得的结果。\n来源：NIH"
         },
         {
@@ -1564,18 +1564,18 @@
           "page": 12,
           "global_page": 178,
           "title": "比较设计与测量安排",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
-          "excerpt": "10  基金申报与Grant Agent\n比较设计与测量安排\n两种条件尽量只改变辅导方式，并用统一的无AI新题测验比较。\n核对准入与分配方案\n常规问答条件\n分步提示条件\n统一无AI新题测验\n保留实际求助与作答记录\n评分规则与分析方案预先确定\n研究设计教学示意。样本量、分配方式、伦理与授权仍待核定。\n来源：NIH StrokeNet 2026原始课件；课程教学模拟，未实施\n12"
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "excerpt": "10  基金申报与Grant Agent\n比较设计与测量安排\n两组使用同一模型、题目和练习时长，一周后按统一规则评价无AI新题作答。\n核对准入与分配方案\n完整解答条件\n分步提示条件\n一周后无AI新题\n按统一规则评分\n保留实际求助与作答记录\n评分规则与分析方案预先确定\n研究设计教学示意。样本量、分配方式、伦理与授权仍待核定。\n来源：NIH StrokeNet 2026原始课件；课程教学模拟，未实施\n12"
         },
         {
           "section": 10,
           "page": 13,
           "global_page": 179,
-          "title": "技术路线中的步骤与判断",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
-          "excerpt": "10  基金申报与Grant Agent\n技术路线中的步骤与判断\n预试核对通过后再进入正式实施，未达到标准时回到材料修订。\n题目与评分预试\n达到预定标准？\n核对准入及分配\n修订后重新预试\n实施辅导与测量\n解释差异并归档\n达到\n未达到\n预先明确具体标准；\n当前未判断通过。\n路线描述拟开展的研究，没有实验执行结果。\n来源：课程教学模拟，未实施\n13"
+          "title": "比较实施与一周后测量的技术路线",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "excerpt": "10  基金申报与Grant Agent\n比较实施与一周后测量的技术路线\n两种条件分别保留过程记录，再用同一测量时点和评分规则比较。\n题目与评分规则\n材料预试与分配安排\n分步提示条件\n完整解答条件\n提示组过程记录\n解答组过程记录\n一周后无AI新题\n按统一规则评分\n按预定方案比较\n用同一编号对应组别、过程与测验；\n测量缺失和执行偏离单独登记。\n教学拟议，未实施。预试、分配、测量质量及启动条件仍待核定。\n来源：课程教学模拟，未实施\n13"
         }
       ]
     },
@@ -1593,8 +1593,8 @@
           "page": 14,
           "global_page": 180,
           "title": "创新点的比较依据",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n创新点的比较依据\n创新论证需要明确：与哪些已有工作比较，增加了哪项可检验认识。\n已有工作覆盖什么\n不同AI辅导设计、练习阶段与无辅助测验，已有公开研究涉及。\n本例准备比较什么\n大学统计课程中的具体提示方式，以及过程记录与独立表现的对应。\n创新论证仍需什么\n检索相关大学研究，说明具体未解问题及其价值，再判断是否形成新认识。\n当前只给出创新论证的比较方式，创新性仍待文献与专家核对。\n来源：NIH S"
         }
       ]
@@ -1614,8 +1614,8 @@
           "page": 6,
           "global_page": 172,
           "title": "申报前的材料盘点",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n申报前的材料盘点\n已有文献、研究者工作和拟开展的研究，需要分别登记。\n材料登记与用途核对\n公开文献\n支持研究现状与方法选择，注明阅读范围。\n申请人已有工作\n核对论文贡献、数据记录与相关工作积累。\n拟开展研究\n写明研究设想、待办条件和未验证关系。\n缺少材料时，保留问题及其影响，不用通用措辞补成团队成果。\n来源：国自然2026申请通告；课程教学模拟，未实施\n06"
         },
         {
@@ -1623,8 +1623,8 @@
           "page": 15,
           "global_page": 181,
           "title": "研究基础与实施条件",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n研究基础与实施条件\n申请人的已有工作，需要与本项目的关键任务逐项对应。\n关键研究任务\n已有工作与贡献\n条件证明与缺口\n例如题目设计、实施和分析\n提供相关论文、数据、工具及本人贡献\n核对准入、设备、合作和时间安排\n本例实际状态：没有申请人前期成果、课程准入证明或合作承诺。\n公开文献支持研究背景，申请人研究基础仍需真实材料。\n本例未提供申请人真实研究基础，不能据此判断具备申报条件。\n来源：国自然20"
         }
       ]
@@ -1654,8 +1654,8 @@
           "page": 18,
           "global_page": 184,
           "title": "研究任务与经费依据",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n研究任务与经费依据\n先识别研究需要的资源，再按对应类别和单位要求说明成本。\n研究任务\n资源用量\n费用依据\n需要哪些人员、材料与计算条件\n按实施次数、工作量与使用时长估算\n核对报价、费用归属和当期规定\n2026国自然案例：青年A、B、C类等实行包干制，申请时无需编制预算；\n其余项目按规定实行预算制，结合实际研究需要编报。\n预算方式按所申报类别核对，不把示例测算当作官方额度。\n来源：国自然2026申"
         },
         {
@@ -1685,17 +1685,17 @@
           "page": 21,
           "global_page": 187,
           "title": "Grant Agent的工作流与Harness",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
-          "excerpt": "10  基金申报与Grant Agent\nGrant Agent的工作流与Harness\nHarness记录材料版本、步骤状态和文件对应，使过程可以回查。\n指南与模板\n研究者材料\n内容与路线\n核对与Word\n保留原件，提取具体要求\n登记事实、来源与缺口\n按研究逻辑组织段落和步骤\n逐项检查并保留版本\nHarness：保存输入版本、步骤状态、来源定位与失败原因的运行规则。\n框架图说明整体工作。本次本地执行范围在后页单独列出。\n来源：Sect"
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "excerpt": "10  基金申报与Grant Agent\nGrant Agent的工作流与Harness\n运行记录把输入版本、核对动作、输出文件和未解决问题连在一起。\n指南与模板\n研究者材料\n内容与路线\n核对与Word\n保留原件，提取具体要求\n登记事实、来源与缺口\n按研究逻辑组织段落和步骤\n逐项检查并保留版本\nHarness：保存输入版本、步骤状态、来源定位与失败原因的运行规则。\n框架图说明整体工作。本次本地执行范围在后页单独列出。\n来源：Sectio"
         },
         {
           "section": 10,
           "page": 24,
           "global_page": 190,
           "title": "异常材料的实际拦截",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n异常材料的实际拦截\n指南章节不一致、未知来源、模板缺章和未经签核的最终导出，均有真实失败记录。\n指南与章节不一致\n检出章节名与指南不一致，停止写出Word\n引用未登记来源\n来源标识未登记，停止写出Word\n模板缺少必需章节\n未找到研究内容的填充位置\n未经签核请求最终导出\n最终导出被拒绝，未生成正式稿\n4项异常已实际触发拦截；覆盖范围以具体检查规则为限。\n来源：Section10实际本地文件记录\n"
         },
         {
@@ -1703,8 +1703,8 @@
           "page": 26,
           "global_page": 192,
           "title": "提交前的完整性与研究者判断",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r2.pptx",
-          "pptx_sha256": "3636ef0839f38f76f6ad5df08fee590014aeb3ad03fe591a6364314bd3d345be",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
+          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
           "excerpt": "10  基金申报与Grant Agent\n提交前的完整性与研究者判断\n正式申报要核对当年要求、真实研究材料和最终排版，再由申请人与单位履行职责。\n当年官方要求与模板\n真实材料与研究者论证\n核对事实、引用、贡献、伦理与使用声明\n申请人与单位按职责核对最终版本，按正式系统流程提交。\n下一节：专利挖掘与技术交底。本节产物仍为教学材料。\n来源：国自然2026申请通告；课程教学模拟，未实施\n26"
         }
       ]
@@ -3905,10 +3905,10 @@
       "section": 10,
       "page": 13,
       "global_page": 179,
-      "title": "技术路线中的步骤与判断",
+      "title": "比较实施与一周后测量的技术路线",
       "images": 0,
       "charts": 0,
-      "connectors": 6,
+      "connectors": 8,
       "native_tables": 0
     },
     {
