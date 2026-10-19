@@ -3,7 +3,7 @@ import subprocess, sys
 from pdf2image import convert_from_path
 
 root = Path(__file__).resolve().parent
-revision = sys.argv[1] if len(sys.argv) > 1 else 's0-r3'
+revision = sys.argv[1] if len(sys.argv) > 1 else 's0-r4'
 source = root / 'output' / f'高校科研AI课程_Section0_{revision}.pptx'
 out = root / 'renders' / revision
 out.mkdir(parents=True, exist_ok=True)

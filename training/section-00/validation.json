@@ -1,7 +1,7 @@
 {
   "schemaVersion": "presentation-finalization.v1",
-  "finalSha256": "789fec801898ade67d175363a2a588336219d558288066da5b87acc19fabf21d",
-  "byteCount": 38068,
+  "finalSha256": "7299abf6adc69d8b32a6f5b27f239d025c101f651a9d6420225fbcf240fa1fb2",
+  "byteCount": 36102,
   "packageIntegrity": {
     "chart_count": 0,
     "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
@@ -19,13 +19,13 @@
     "finding_count": 0,
     "findings": [],
     "font_policy": {
-      "checked_text_script_count": 105,
+      "checked_text_script_count": 76,
       "native_font_rendering_verified": false,
       "observed_font_families": [
         "Microsoft YaHei"
       ],
       "observed_font_use_counts": {
-        "Microsoft YaHei": 105
+        "Microsoft YaHei": 76
       },
       "passed": true,
       "performed": true
@@ -40,13 +40,13 @@
     "exitCode": 0,
     "findingCount": 0,
     "fontPolicy": {
-      "checked_text_script_count": 105,
+      "checked_text_script_count": 76,
       "native_font_rendering_verified": false,
       "observed_font_families": [
         "Microsoft YaHei"
       ],
       "observed_font_use_counts": {
-        "Microsoft YaHei": 105
+        "Microsoft YaHei": 76
       },
       "passed": true,
       "performed": true
@@ -60,13 +60,13 @@
     "scriptFonts": {},
     "referenceSha256": null,
     "referenceFontsVerifiedInEncodedText": false,
-    "checked_text_script_count": 105,
+    "checked_text_script_count": 76,
     "native_font_rendering_verified": false,
     "observed_font_families": [
       "Microsoft YaHei"
     ],
     "observed_font_use_counts": {
-      "Microsoft YaHei": 105
+      "Microsoft YaHei": 76
     },
     "passed": true,
     "performed": true
@@ -75,7 +75,7 @@
     "performed": true,
     "passed": true,
     "slideCount": 4,
-    "sha256": "789fec801898ade67d175363a2a588336219d558288066da5b87acc19fabf21d",
+    "sha256": "7299abf6adc69d8b32a6f5b27f239d025c101f651a9d6420225fbcf240fa1fb2",
     "runtimeNodeModules": "C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
     "nodeExecutable": "C:\\Users\\Georgij Xe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
   },
@@ -103,7 +103,7 @@
     "native_chart_count": 0,
     "native_powerpoint_verified": false,
     "passed": true,
-    "presentation_sha256": "789fec801898ade67d175363a2a588336219d558288066da5b87acc19fabf21d",
+    "presentation_sha256": "7299abf6adc69d8b32a6f5b27f239d025c101f651a9d6420225fbcf240fa1fb2",
     "schema_version": "presentation-native-chart-titles.v1",
     "slide_count": 4,
     "source_text_emitted": false,

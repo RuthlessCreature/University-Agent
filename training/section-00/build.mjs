@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s0-r3';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s0-r4';
 const SKILL='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const plan=JSON.parse(await fs.readFile(path.join(R,'../curriculum/course_structure_240.json'),'utf8'));
@@ -20,34 +20,35 @@ function page(title,n){const s=p.slides.add();s.background.fill='#FFFFFF';text(s
  text(s,'文献、数据、论文与项目材料',90,565,1420,80,44,false,'#DDE8ED');
  text(s,'面向高校教师与科研人员',90,745,1350,55,30,false,'#DDE8ED');
  text(s,'SECTION 0',1250,750,270,40,24,false,'#DDE8ED');
- s.speakerNotes.text='先请学员带入一件自己的科研任务，例如读论文、处理数据或准备项目材料。课程既讲操作，也解释为什么这样做。原理以帮助选择工具、组织任务和检查结果为限。约240页含延伸材料，不能按页数承诺授课效果。培训单位、讲师姓名和日期未获确认，不虚构这些信息。';
+ s.speakerNotes.text='以高校教师常见的文献、数据和项目材料介绍课程。全程讲授和讲师演示，不安排学员操作或提交。课程既讲操作，也解释为什么这样做。原理以帮助选择工具、组织任务和检查结果为限。约240页含延伸材料，不能按页数承诺授课效果。培训单位、讲师姓名和日期未获确认，不虚构这些信息。';
+}
+function node(s,v,x,y,w,h=90,z=30){const n=s.shapes.add({geometry:'rect',position:{left:x,top:y,width:w,height:h},fill:'#F0F5F8',line:{fill:'#245B77',width:1.5}});n.text=v;n.text.style={typeface:F,fontSize:z,bold:true,color:C.navy,autoFit:'none',wrap:'word',insets:12,verticalAlignment:'middle'};return n;}
+function arrow(s,a,b){s.shapes.connect(a,b,{kind:'straight',fromSide:'right',toSide:'left',line:{fill:'#245B77',width:2},tail:{type:'arrow',width:'med',length:'med'}});}
+const ref='参考：Dawn Song，UC Berkeley CS294/194-196 Agentic AI，Fall 2025，Introduction，物理页6、10、19。\nhttps://rdi.berkeley.edu/agentic-ai/slides/introduction_25.pdf\n借鉴主题分组、动作反馈与可复查过程的组织；未采用旧产品状态、排名、预测、作业或考核。中文安排为本课程编写。';
+{
+ const s=page('课程顺序与四个模块',2);
+ text(s,'先理解用法与限制，再沿科研过程展开，最后查看完整文件流程。',80,215,1440,90,32,false,'#245B77');
+ const labels=['一  AI科研基本功','二  科研全流程','三  论文与项目产出','四  结题与影响力'];const ns=labels.map((v,i)=>node(s,v,80+i*380,345,300,95,28));for(let i=0;i<3;i++)arrow(s,ns[i],ns[i+1]);
+ const groups=[['01  能力、原理与边界','02  Agent与工作流','03  Humanizer'],['04  选题与研究问题','05  文献检索与综述','06  研究与实验方案','07  数据处理与统计','08  科研图表与路线'],['09  论文、投稿与返修','10  基金申报','11  专利与技术交底'],['12  项目执行与结题','13  科研汇报与传播','14  本地与云端演示']];groups.forEach((ls,i)=>text(s,ls.join('\n'),80+i*380,485,320,260,28));
+ text(s,'Harness在第2节解释执行管理，在第14节结合输入、运行记录和文件演示。',80,775,1440,55,27,false,C.green);
+ s.speakerNotes.text='四个模块对应客户原课程。第一模块解释AI能力、常见失误、Agent概念和Humanizer。第二模块沿选题、文献、方案、数据和图表展开。第三模块将证据组织成论文、申报材料和技术交底。第四模块讲项目执行、结题、汇报和传播，再用本地与云端流程贯通前面的内容。这里只介绍课程位置，不逐项念标题。Humanizer单独成章，也用于其他章节的文字；Harness指任务执行管理，第2节讲框架，第14节看实际记录。箭头表示本课程讲授顺序，不表示科学研究不能返回修订。\n\n'+ref;
 }
 {
- const s=page('这门课按什么顺序学',2);
- text(s,'基础与研究准备',80,211,690,48,30,true,C.green);text(s,'成果制作与完整流程',850,211,670,48,30,true,C.green);
- const subtitles=['提问、提供材料，理解常见失误','ChatGPT、Codex、Agent 与 Harness','论文、PPT、报告怎样写得自然','比较候选方向，提出具体问题','找到论文，读原文，比较结论','确定对象、比较办法与测量','检查数据，运行代码，解释结果','数据图、示意图与可编辑路线','组织证据，修改段落，回应意见','指南、研究者材料与 Word 文件','已有技术、实施办法与附图','进展、成果与证明材料','组会、答辩、项目汇报与介绍','同一套 Skill，连续执行与恢复'];
- const titles=['科研 AI 上手与基本原理','认识会做事的 AI','Humanizer：把话写清楚','选题与研究问题','文献检索、阅读与综述','研究与实验方案','数据处理与统计分析','科研图表与技术路线','论文写作、投稿与返修','基金申报与 Grant Agent','专利挖掘与技术交底','项目执行与结题','科研汇报与成果传播','本地与云端 Agent 实操'];
- for(let i=0;i<14;i++){const x=i<7?80:850,y=280+(i%7)*73; text(s,String(i+1).padStart(2,'0'),x,y,65,42,29,false,C.red);text(s,titles[i],x+85,y,585,43,31,true);text(s,subtitles[i],x+85,y+43,585,36,24,false,C.muted);}
- text(s,'Agent：能调用工具、分步执行任务的 AI 助手。相关概念会用同一个例子逐步解释。',80,810,1440,33,24,false,C.green);
- s.speakerNotes.text='共14个内容章节，另有本节课程导入。新增的概念与Humanizer分别占独立章节。概念章先用同一任务比较“给建议”和“执行工具得到文件”，再解释Agentic AI、Agent、Workflow、Skill、MCP与Harness。不能把ChatGPT和Codex直接当作两种互斥概念。Harness在第2章解释框架，在第14章结合真实流程讲运行、记录与恢复。此页是全课规划，不表示后续章节已制作或验收。';
+ const s=page('当天时段与八小时备课素材',3);
+ text(s,'现场时段按09:00–12:00、13:30–17:00安排；延伸内容供讲师按进度选讲。',80,215,1440,90,31,false,'#245B77');
+ node(s,'09:00–12:00',80,340,360,90,37);node(s,'13:30–17:00',80,540,360,90,37);
+ text(s,'科研基本功与研究准备',545,340,975,58,38,true);text(s,'原理与常见概念、Humanizer；选题、文献与研究方案。',545,425,975,90,30);
+ text(s,'数据分析与科研成果制作',545,540,975,58,38,true);text(s,'数据与图表、论文、申报、专利、结题、传播与完整流程。',545,625,975,90,30);
+ text(s,'短休：10:20–10:30、15:00–15:10；午间：12:00–13:30。',80,735,1440,50,28,false,C.muted);
+ text(s,'正式授课370分钟 ＋ 延伸讲授110分钟 ＝ 480分钟备课素材',80,790,1440,45,30,true,C.green);
+ s.speakerNotes.text='上午180分钟，下午210分钟，合计390分钟。扣除两次10分钟短休，正式授课370分钟；午间90分钟不计入授课。另备110分钟延伸讲授，包括补充案例解释、图表读解和讲师演示，合计480分钟素材。不安排课堂练习、分组任务、账户操作或学员提交。240页包括正式讲授和延伸材料，现场按讲师节奏选择深度。分钟分配是备课安排，不能当作真人彩排记录。\n\n依据：客户指定时段和8小时备课要求；本课程安排两次10分钟短休，分钟按时段计算。';
 }
 {
- const s=page('当天怎样安排',3);
- text(s,'09:00–12:00',80,242,445,80,49,true,C.navy);text(s,'科研基本功与研究准备',610,242,905,67,42,true);
- text(s,'AI 的用法与原理、常见概念与 Humanizer；\n选题、文献阅读和研究方案。',610,332,905,110,33);
- rule(s,80,472,1440);
- text(s,'13:30–17:00',80,520,445,80,49,true,C.navy);text(s,'数据分析与科研成果制作',610,520,905,67,42,true);
- text(s,'数据分析、科研图表、论文、申报与专利；\n项目结题、科研汇报和完整 Agent 流程。',610,610,905,110,33);
- text(s,'10:20–10:30、15:00–15:10 休息。12:00–13:30 午间休息。',80,744,1440,45,29,false,C.muted);
- text(s,'正式授课 370 分钟，另备 110 分钟延伸案例与练习，共 8 小时素材。',80,801,1440,38,28,false,C.green);
- s.speakerNotes.text='正式时段上午180分钟，下午210分钟，合计390分钟；扣除两次10分钟短休，授课370分钟。另备110分钟延伸材料，备课总量480分钟。约240页包含备用案例、演示和练习，不把所有页面都算作现场必讲。具体章节边界和演示时长随彩排调整，此页不构成已完成彩排的承诺。';
-}
-{
- const s=page('今天会跟着做哪些事',4);
- const rows=[['01','读论文，查证一句结论','从论文原文开始','请 AI 找出支持结论的段落，\n自己回到原文核对，\n记下这句话在什么条件下成立。'],['02','处理数据，做一张图','从一份原始数据表开始','先检查缺失值和异常记录，\n再做统计、画图，\n说明图中的差异能支持什么判断。'],['03','对照申报要求，整理材料','从指南与研究者已有材料开始','逐项找出要求，匹配已有内容；\n缺证据的地方明确标出，\n最后整理成可以继续修改的 Word。']];
- for(let i=0;i<3;i++){const r=rows[i],y=224+i*178;text(s,r[0],80,y,80,65,45,false,C.red);text(s,r[1],195,y,575,52,37,true);text(s,r[2],195,y+73,575,43,28,false,C.muted);text(s,r[3],850,y+6,665,130,32);if(i<2)rule(s,195,y+147,1325);}
- text(s,'讲到对应章节时，再介绍案例背景、材料来源，并带着大家操作。',80,781,1440,53,28,false,C.green);
- s.speakerNotes.text='开场用三件具体工作说明课堂怎样学，不要求学员现在打开文件。读论文：核对AI摘出的原文是否支持结论，保留成立条件；处理数据：先检查，再统计和画图，解释差异；整理申报材料：按要求对应研究者已有内容，标出缺口，不凭空补写成果。三件事是全课中的代表任务，不是全部课程。具体案例和材料来源到相应章节再介绍。本项目现有公开论文、公开企鹅数据及TEACH-GRANT-01教学任务可供后续选用，它们彼此不是同一项研究；现有指南与Word模板属于教学模拟，不可称作正式申报材料。Humanizer用于表达修订时必须保留事实、证据和限定。';
+ const s=page('讲师演示中的材料、动作与结果',4);
+ text(s,'每个演示都说明材料来自哪里、工具实际做了什么，以及结果怎样检查。',80,215,1440,80,31,false,'#245B77');
+ const rows=[['论文原文','定位支持结论的段落','摘录、原文位置与适用条件'],['公开数据表','检查数据、计算与绘图','可复算结果与可编辑数据图'],['指南、材料与模板','逐项对应并整理章节','Word草稿、来源与缺口']];rows.forEach((row,i)=>{const y=350+i*150,a=node(s,row[0],80,y,360,85),b=node(s,row[1],550,y,420,85),c=node(s,row[2],1080,y,440,85,28);arrow(s,a,b);arrow(s,b,c);});
+ text(s,'公开原件、教学模拟和AI草稿分别注明；生成文件后，仍需核对科学内容。',80,795,1440,45,27,false,C.green);
+ s.speakerNotes.text='用三条材料到结果的路径说明讲师会展示什么。文献演示回到原文，判断摘录能否支持结论。数据演示从公开CSV开始，检查缺失、比较对象和方法，再算结果、做图。申报演示从适用指南、已有研究材料和模板开始，将要求对应到内容，保留缺口。三条路径不是同一项研究，也不要求学员现场打开材料。案例到对应章节再介绍背景和来源。公开论文、公开企鹅数据和自编指南分别登记；TEACH-GRANT-01不是官方基金指南。AI编写与修订的文字另注明属性。图表示演示组织，不冒充执行截图；实际运行情况看对应章节记录和文件。\n\n'+ref;
 }
 await (await PresentationFile.exportPptx(p)).save(path.join(stage,'candidate.pptx'));
 const {finalizePresentation}=await import(pathToFileURL(path.join(SKILL,'container_tools/artifact_tool_utils.mjs')).href);

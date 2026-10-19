@@ -1,16 +1,11 @@
-# Section 0：封面与课程导入
+# Section 0 封面与课程导入
 
-当前版本 `s0-r3`，4 页，供逐节审阅。第 4 页改为“今天会跟着做哪些事”，材料背景与打开文件的操作移到对应章节。后续章节尚未据此完成，约 240 页是课程页数预算。
+当前版本s0-r4，共4页。封面、四模块课程图、当天时段与备课量、讲师演示中的材料到结果路径。课程形式为讲授与讲师演示，不安排课堂练习、账户操作、分组或学员提交。第2、4页保留原生可编辑节点与连接。
 
-文件位置：
+国外参考为UC Berkeley Agentic AI 2025 Introduction，已查看物理页6、10、19。借鉴课程主题组织及动作、反馈和可复查结果的解释，不复制图片、产品结论或作业。原链接与采用范围见国外课件参考.md；哈希与查看范围见reference-retrieval.json。
 
-- `output/`：可编辑 PPTX。
-- `renders/s0-r3/`：从最终 PPTX 经 LibreOffice 导出的 PDF 与 4 张逐页预览。
-- `materials/`：供后续章节选用的公开论文、公开数据、教学任务与 Word 模板，以及来源清单；不是本节课前必备材料。
-- `讲师稿.md`：每页讲法、材料说明及需要保留的限定。
-- `审查记录.md`、`checks.json`：人工检查记录和自动文件检查结果。
-- `../curriculum/course_structure_240.json`：Section 0 加 14 个内容章节的页数安排，共 240 页；Harness 安排在第 2、14 节，Humanizer 在第 3 节单独讲，同时贯穿全课文字修订。
+output中的s0-r4为当前PPT，renders/s0-r4为实际导出的PDF和逐页PNG。s0-r3为历史版本，不应按它的旧讲授安排授课。materials保留公开及模拟材料的来源和哈希，本节不要求学员打开这些文件；案例在相应章节再解释。
 
-运行环境需要 Artifact Tool、Python、LibreOffice 与 Poppler。`build.mjs` 从本节源文件生成原生可编辑文字和线条；`render.py` 渲染实际最终 PPTX；`check_delivery.py` 检查文件与来源哈希。检查通过不能替代教学审阅。
+build.mjs使用Artifact Tool，render.py用LibreOffice渲染最终文件，check_delivery.py检查页数、材料哈希、可编辑连线和旧表述清理。检查通过不代表用户已接受教学内容，也不代替真人授课彩排。全课时长分配、52条原稿定位和剩余覆盖缺口见curriculum目录。
 
-本节没有数据图、科研示意图或 Agent 执行截图，不添加与课程导入无关的装饰性科研图片。
+没有虚构单位、讲师、日期、科研图片、Agent执行截图或研究者签核。中文说明和讲师稿为课程编写，并经Humanizer规则修订；来源类别与事实限定保留。
