@@ -1,0 +1,54 @@
+{
+  "published_version_comparison": {
+    "previous_revision": "s4-r3",
+    "current_revision": "s4-r5",
+    "changed_slide_text_pages": [
+      2,
+      8,
+      10
+    ],
+    "changed_png_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "png_byte_identical_pages": []
+  },
+  "visually_reviewed_intermediate_comparison": {
+    "previous_revision": "s4-r4",
+    "current_revision": "s4-r5",
+    "changed_slide_text_pages": [
+      8
+    ],
+    "changed_png_pages": [
+      8
+    ],
+    "png_byte_identical_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "review_scope": "s4-r4全部14页已查看，最终s4-r5第8页另查看；其余13页PNG与已查看版本一致。"
+}

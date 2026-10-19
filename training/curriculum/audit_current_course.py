@@ -9,7 +9,7 @@ def write(p,s):p.write_text(s.rstrip()+'\n','utf-8')
 def dump(p,d):write(p,json.dumps(d,ensure_ascii=False,indent=2))
 d=json.loads((R/'section-progress.json').read_text('utf-8'));s=d['sections'][0];f=A/'training/section-00/output/高校科研AI课程_Section0_s0-r4.pptx'
 s.update(revision='s0-r4',pptx=str(f.relative_to(A)).replace('\\','/'),sha256=sha(f));s.pop('pending_consistency_review',None);s['consistency_review']='2026-10-19：已去除旧课堂练习安排，补查Berkeley 2025具体页面，修订课程导图。'
-d['checked_date']='2026-10-19';d['scope']='240页实际文件已登记；Section 0一致性、Section 1助手选择及Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要任务、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。';dump(R/'section-progress.json',d)
+d['checked_date']='2026-10-19';d['scope']='240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4三类材料比较及Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要任务、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。';dump(R/'section-progress.json',d)
 ns={'a':'http://schemas.openxmlformats.org/drawingml/2006/main','p':'http://schemas.openxmlformats.org/presentationml/2006/main'};pages={};inventory=[];offset=0
 for s in d['sections']:
  p=A/s['pptx'];assert sha(p)==s['sha256']
@@ -29,7 +29,7 @@ rows=[
 ('7/21 7/22','已有对应内容','补同一CSV的差值方向修改、完整代码差异、两次本地Python运行及原数据独立复算；按官方说明解释Cursor编辑和终端执行。Cursor任务未在产品提交，不作Cursor界面或模型实测。'),
 ('1/9 2/6 2/18','调整讲法','按任务、材料、工具与权限选择；不把原稿品牌偏好当作永久能力结论。'),
 ('4/2 4/10','已有对应内容','区分证据层次、覆盖与热度，不把预测当作确定结论。'),
-('4/2 5/3 5/6 11/4','部分覆盖','论文、检索记录与专利检索分别讲授，尚缺将三类材料放在一起的趋势比较示例。'),
+('4/2 4/10','已有对应内容','补生成式AI辅导问题的论文、arXiv版本和专利申请公开同窗比较，附真实方法图、可编辑材料表、日期类型与版本去重说明。限三条定向材料，未作全库趋势计数、创新性或专利法律判断。'),
 ('4/9 4/12','已有对应内容','四维比较保留；判断依据需明确，未伪造客观分数。'),
 ('4/4 4/8 6/3','已有对应内容','问题收窄、假说和反证条件均有具体说明。'),
 ('5/7 5/8 5/9 5/10 5/11','已有对应内容','按关键词、语义、引文追踪和原文回查解释工具组合。'),

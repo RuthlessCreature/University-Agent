@@ -1,0 +1,48 @@
+[
+  {
+    "id": "preprint",
+    "material_type": "预印本版本",
+    "public_date": "2024-05-23",
+    "date_kind": "arXiv v1提交公开日",
+    "work_id": "calo-tutor-interface",
+    "title": "Towards Educator-Driven Tutor Authoring: Generative AI Approaches for Creating Intelligent Tutor Interfaces",
+    "identifier": "arXiv:2405.14713v1",
+    "url": "https://arxiv.org/html/2405.14713v1",
+    "source_location": "arXiv摘要页Submission history；全文第2、3节与Figure1",
+    "contribution": "用生成式AI辅助制作辅导界面，并做初步设计效率比较。",
+    "limit": "比较对象包括研究团队成员，未直接验证学生学习成效。",
+    "related_published_doi": "10.1145/3657604.3664694",
+    "version_note": "原文列出L@S2024会议及相关DOI；本例读取arXiv版本，不能据此称该工作从未正式发表。"
+  },
+  {
+    "id": "patent",
+    "material_type": "专利申请公开",
+    "public_date": "2024-08-15",
+    "date_kind": "公开日，不是申请日",
+    "work_id": "US18/441304",
+    "title": "Method and apparatus for automated content database creation and real-time, adaptive tutoring and grading",
+    "identifier": "US20240274025A1",
+    "url": "https://patents.google.com/patent/US20240274025A1/en",
+    "source_location": "原始PDF首页(43)、(22)、(60)、摘要；网页说明书互动辅导段与Claims1",
+    "contribution": "披露AI生成内容、互动辅导与评价的技术方案。",
+    "limit": "公开文本不等于已获授权或教学效果已经验证；本例未作法律状态核验。",
+    "application_date": "2024-02-14",
+    "earlier_provisional_date": "2023-02-14",
+    "related_published_doi": null
+  },
+  {
+    "id": "journal",
+    "material_type": "期刊论文",
+    "public_date": "2025-06-25",
+    "date_kind": "在线发表日，不是卷期日",
+    "work_id": "bastani-guardrails",
+    "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+    "identifier": "10.1073/pnas.2422633122",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+    "source_location": "论文题录、Abstract、Experimental Design及Results",
+    "contribution": "区分有AI时的练习表现和撤去AI后的独立测验。",
+    "limit": "土耳其高中数学研究，不能直接推出高校课程效果。",
+    "issue_date": "2025-07-01",
+    "related_published_doi": null
+  }
+]

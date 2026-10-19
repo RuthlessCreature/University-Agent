@@ -1,5 +1,5 @@
 {
-  "revision": "s4-r3",
+  "revision": "s4-r5",
   "pages": 14,
   "pdf_pages": 14,
   "notes": 14,
@@ -13,7 +13,6 @@
     7,
     8,
     9,
-    10,
     11,
     13,
     14
@@ -29,6 +28,21 @@
     1.27
   ],
   "embedded_workbooks": 1,
-  "pptx_sha256": "18cec35914203f49a1d19da3cd5484879fb24051b07edd58e3b8711ef06cc457",
-  "scope": "文件结构、页数、原生对象、指定数据与限定词检查。逐页视觉审阅另记，不代表选题已通过科学审核或Agent全系统已运行。"
+  "pptx_sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
+  "scope": "文件结构、页数、原生对象、指定数据与限定词检查。逐页视觉审阅另记，不代表选题已通过科学审核或Agent全系统已运行。",
+  "source_comparison": {
+    "selected_records": 3,
+    "material_categories": 3,
+    "public_event_window": [
+      "2024-01-01",
+      "2025-12-31"
+    ],
+    "patent_application_and_publication_separated": true,
+    "preprint_published_version_link_retained": true,
+    "journal_online_and_issue_dates_separated": true,
+    "figure_source_sha256": "073a74dfa2b251c86713dc4fcc63d185f1a8991aa30ec4a53cf503b2fa2192dd",
+    "quantitative_field_trend_estimated": false,
+    "model_search_pipeline_executed": false,
+    "scope": "所选材料登记、日期语义、CSV对应和原图哈希；不验证领域覆盖、科研结论、专利法律状态或创新性。"
+  }
 }

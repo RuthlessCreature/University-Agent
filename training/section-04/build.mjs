@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s4-r3';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s4-r5';
 const S='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation,applyPresentationChartFont}=await import(pathToFileURL(path.join(S,'container_tools/artifact_tool_utils.mjs')).href);
@@ -23,6 +23,14 @@ case 'map':case 'scan':case 'competition':case 'agent':case 'hypothesis':{
  const {step,w}=chain(s,d.nodes,405);d.details.forEach((v,i)=>T(s,v,80+i*step,535,w,140,29));
  const msgs={map:'例：同样讨论AI学习，可以分别研究使用现状、预测风险或帮助方式的效果。',scan:'保留检索记录，才能区分公开证据、模型建议和仍待核查的判断。',competition:'题目变化要写出理由：发现相近工作、获得新数据，或原条件已经不成立。',agent:'研究者复核：来源是否存在？是否遗漏相反结果？当前条件能否取得关键证据？',hypothesis:'主要结果、测量时点和判断规则需要事先说明，结果出来后再按证据解释。'};
  rule(s,80,704,1440);T(s,msgs[d.kind],80,735,1440,65,29);break;}
+case 'evidence-dates':{
+ T(s,'材料类型与公开日',80,324,310,45,28,true);T(s,'已读记录',450,324,580,45,28,true);T(s,'怎样用于选题',1130,324,390,45,28,true);
+ d.entries.forEach((r,i)=>{const y=399+i*131;const a=T(s,r[0]+'\n'+r[1],80,y,290,96,29,true,C.blue),b=T(s,r[2],450,y,590,100,29),c=T(s,r[3],1130,y,390,105,27,false,C.green);A(s,a,b);A(s,b,c);if(i<2)rule(s,80,y+106,1440);});break;}
+case 'evidence-meaning':{
+ const b=await fs.readFile(path.join(R,'trend-packet/tutor-builder-original.png'));s.images.add({blob:b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),contentType:'image/png',fit:'contain',alt:'Calo与MacLellan论文Figure1原图：教师输入要求、系统生成辅导界面、教师修改。不是本项目运行截图。',position:{left:80,top:339,width:720,height:285}});
+ T(s,'原文Figure1：A提出要求，B生成初稿，C继续修改。',80,649,720,87,27,true,C.blue);
+ d.comparison.forEach((r,i)=>{const y=333+i*125;T(s,r[0],880,y,640,43,28,true,C.blue);T(s,r[1],880,y+47,640,78,27);});
+ rule(s,80,731,1440);T(s,'拟议问题：高校课程中，分步提示相对直接答案，能否改善撤去AI后的独立作答？',80,754,1440,65,29);break;}
 case 'chart':{
  chart(s,{categories:['GPT Base','GPT Tutor'],values:[.48,1.27],n:3},80,335,820,410,'有AI帮助时，练习成绩相对对照组的提升');
  // Both bars share one outcome and one reference group. Extend axis beyond 100%.

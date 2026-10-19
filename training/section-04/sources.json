@@ -22,5 +22,17 @@
     "short": "课程教学模拟／方法说明",
     "url": "local:教学模拟与选题示例.md",
     "location": "设定的对象、时间、限制和候选题均非实测资料，不代表已通过伦理或数据授权"
+  },
+  "trend_preprint": {
+    "title": "Towards Educator-Driven Tutor Authoring: Generative AI Approaches for Creating Intelligent Tutor Interfaces",
+    "short": "Calo & MacLellan，arXiv2024，Fig.1",
+    "url": "https://arxiv.org/html/2405.14713v1",
+    "location": "arXiv摘要页Submission history；全文第2、3节与Figure1；CC BY4.0，图按比例缩放"
+  },
+  "trend_patent": {
+    "title": "Method and apparatus for automated content database creation and real-time, adaptive tutoring and grading",
+    "short": "US20240274025A1，首页及说明书",
+    "url": "https://patents.google.com/patent/US20240274025A1/en",
+    "location": "原始PDF首页(43)、(22)、(60)、摘要；网页说明书互动辅导段与Claims1"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "window_start": "2024-01-01",
+  "window_end": "2025-12-31",
+  "retrieval_date": "2026-10-19",
+  "question": "生成式AI怎样辅助教学？界面制作、内容生成与独立学习效果分别有哪些证据？",
+  "selection": "从本课AI教学问题出发的定向来源比较，不是全数据库检索结果。",
+  "included_record_ids": [
+    "preprint",
+    "patent",
+    "journal"
+  ],
+  "quantitative_field_trend_estimated": false,
+  "sample_counts_not_population_counts": true,
+  "related_versions_rule": "按题名、作者、DOI及版本关系归并同一研究；预印本与会议或期刊版本不算两次独立研究。专利按申请/族关系另行归并。",
+  "patent_dates_rule": "公开事件比较使用公开日；申请日与更早临时申请日另列，不混进公开计数。",
+  "authoring": "课程解读和拟议问题由AI编写，尚待教师审定；原始图来自真实论文Figure1。",
+  "proposed_question": "高校课程中，分步提示相对直接答案，能否改善撤去AI后的独立作答？",
+  "proposed_question_status": "教学拟议问题，尚未完成新颖性检索、方案审定或实证研究。",
+  "model_search_pipeline_executed": false,
+  "asset": {
+    "file": "tutor-builder-original.png",
+    "sha256": "073a74dfa2b251c86713dc4fcc63d185f1a8991aa30ec4a53cf503b2fa2192dd",
+    "url": "https://arxiv.org/html/2405.14713v1/images/builder.png",
+    "source_location": "Calo & MacLellan, Figure1",
+    "license": "CC BY 4.0，arXiv全文页标注",
+    "modification": "整图按比例缩放，未改原图或生成界面截图"
+  }
+}
