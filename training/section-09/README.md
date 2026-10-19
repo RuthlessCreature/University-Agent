@@ -14,3 +14,5 @@
 style-packet补PLOS One与Scientific Reports两份摘要任务模板、原[A1]、119词英文教学改稿、中文讲解稿、逐句事实对应和差异文件。它们用于核对官方部分格式要求与原材料，不等于全文合规或投稿适格性。PPT第5页展示中文稿与均值，第13页展示完整任务和核对流程。两份模板使用同一实际草稿作比较，不声称两次独立模型执行。
 
 本轮第14页明确Adelie 152条中排除6条缺失；第17页补样本筛选流程；第20页用R1.2串起实际回复、标记稿和清稿。writing-packet/word-r1包含三份可编辑Word、来源与导出哈希及5页实际渲染预览。独立检查从DOCX实际增删格式还原两个Markdown版本，并核对回复和段落编号。运行export_revision_packet.py生成文件，check_revision_packet.py检查对应关系。三条意见为教学模拟，新增研究仍未完成。
+
+独立交付包可在配有本课程Python依赖的环境运行check_delivery.py和check_revision_packet.py。若没有历史s9-r5文件，只跳过版本比较；仍核对当前数据、图表、Word和已保存的导出检查记录。validation.json是该PPT导出时的检查记录，不代表在新机器重新运行了PowerPoint。重建PPT需另配Artifact Tool运行环境。

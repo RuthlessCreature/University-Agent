@@ -66,6 +66,7 @@
     "native_track_changes": false,
     "scope": "Actual DOCX text, run formatting, source hashes and reply anchors; no scientific acceptance or journal submission."
   },
+  "prior_comparison_available": true,
   "unchanged_slide_text_vs_s9_r5": [
     1,
     2,

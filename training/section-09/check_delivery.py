@@ -35,12 +35,15 @@ subprocess.run([sys.executable,str(r/'style-packet/check_style.py')],check=True,
 style=json.loads((r/'style-packet/checks.json').read_text('utf-8'));case=json.loads((r/'style-packet/case.json').read_text('utf-8'))
 assert case['slide_abstract_zh'] in texts[4] and case['prompt'] in texts[12]
 unchanged=[];same_previews=[]
-prior=next((r/'output').glob('*s9-r5.pptx'))
-with zipfile.ZipFile(prior) as old,zipfile.ZipFile(p) as new:
- for i in [n for n in range(1,23) if n not in [14,17,20,22]]:
-  name=f'ppt/slides/slide{i}.xml';old_text=[t.text for t in E.fromstring(old.read(name)).findall('.//a:t',ns)];new_text=[t.text for t in E.fromstring(new.read(name)).findall('.//a:t',ns)];assert old_text==new_text;unchanged.append(i)
-  if (r/'renders/s9-r5'/f'slide-{i:02d}.png').read_bytes()==(r/'renders'/rev/f'slide-{i:02d}.png').read_bytes():same_previews.append(i)
+prior=next((r/'output').glob('*s9-r5.pptx'),None)
+if prior is not None:
+ with zipfile.ZipFile(prior) as old,zipfile.ZipFile(p) as new:
+  for i in [n for n in range(1,23) if n not in [14,17,20,22]]:
+   name=f'ppt/slides/slide{i}.xml';old_text=[t.text for t in E.fromstring(old.read(name)).findall('.//a:t',ns)];new_text=[t.text for t in E.fromstring(new.read(name)).findall('.//a:t',ns)];assert old_text==new_text;unchanged.append(i)
+   if (r/'renders/s9-r5'/f'slide-{i:02d}.png').read_bytes()==(r/'renders'/rev/f'slide-{i:02d}.png').read_bytes():same_previews.append(i)
 subprocess.run([sys.executable,str(r/'check_revision_packet.py')],check=True,capture_output=True)
 word_check=json.loads((r/'writing-packet/word-r1/checks.json').read_text('utf-8'))
-v=json.loads((r/'.build'/rev/'validation.json').read_text('utf-8'));sha=hashlib.sha256(p.read_bytes()).hexdigest();assert v['finalSha256']==sha;assert v['packageIntegrity']['findingCount']==v['presentationLayout']['findingCount']==0
-(r/'validation.json').write_text(json.dumps(v,ensure_ascii=False,indent=2),'utf-8');q=dict(revision=rev,pages=22,notes=22,pdf_pages=22,preview_images=22,editable_connector_diagram_pages=diagrams,native_chart_pages=chartpages,native_charts=2,embedded_workbooks=2,public_source_rows=344,analysis_rows=146,review_comments=3,actual_revision_diff_verified=True,pptx_sha256=sha,abstract_case=style,word_revision_packet=word_check,unchanged_slide_text_vs_s9_r5=unchanged,identical_preview_bytes_vs_s9_r5=same_previews,scope='核对源数据、图表缓存、实际文本差异、回复锚点和导出文件；另核对摘要事实、三份实际Word、增删标记还原与回复定位，不代表全文符合期刊要求、投稿完成或Agent全系统运行。');(r/'checks.json').write_text(json.dumps(q,ensure_ascii=False,indent=2),'utf-8');print(json.dumps(q,ensure_ascii=False,indent=2))
+receipt=r/'.build'/rev/'validation.json'
+if not receipt.exists():receipt=r/'validation.json'
+v=json.loads(receipt.read_text('utf-8'));sha=hashlib.sha256(p.read_bytes()).hexdigest();assert v['finalSha256']==sha;assert v['packageIntegrity']['findingCount']==v['presentationLayout']['findingCount']==0
+(r/'validation.json').write_text(json.dumps(v,ensure_ascii=False,indent=2),'utf-8');q=dict(revision=rev,pages=22,notes=22,pdf_pages=22,preview_images=22,editable_connector_diagram_pages=diagrams,native_chart_pages=chartpages,native_charts=2,embedded_workbooks=2,public_source_rows=344,analysis_rows=146,review_comments=3,actual_revision_diff_verified=True,pptx_sha256=sha,abstract_case=style,word_revision_packet=word_check,prior_comparison_available=prior is not None,unchanged_slide_text_vs_s9_r5=unchanged,identical_preview_bytes_vs_s9_r5=same_previews,scope='核对源数据、图表缓存、实际文本差异、回复锚点和导出文件；另核对摘要事实、三份实际Word、增删标记还原与回复定位，不代表全文符合期刊要求、投稿完成或Agent全系统运行。');(r/'checks.json').write_text(json.dumps(q,ensure_ascii=False,indent=2),'utf-8');print(json.dumps(q,ensure_ascii=False,indent=2))
