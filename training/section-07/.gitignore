@@ -7,3 +7,6 @@ output/*s7-r1.pptx
 output/*s7-r2.pptx
 renders/s7-r1/
 renders/s7-r2/
+output/*s7-r4.pptx
+renders/s7-r4/
+cross-tool/__pycache__/

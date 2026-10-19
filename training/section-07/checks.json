@@ -1,5 +1,5 @@
 {
-  "revision": "s7-r3",
+  "revision": "s7-r5",
   "pages": 22,
   "pdf_pages": 22,
   "notes": 22,
@@ -13,13 +13,13 @@
     11,
     15,
     16,
-    21,
-    22
+    21
   ],
   "native_table_pages": [
     3,
     4,
-    12
+    12,
+    22
   ],
   "native_chart_pages": [
     5,
@@ -39,6 +39,66 @@
   ],
   "exact_coin_teaching_p": 0.04138946533203125,
   "normal_simulation_coverage_count": 941,
-  "pptx_sha256": "8edae2fe6f40fb2e412838202bd19a4998acf1b343178aee1829f8618c136ba9",
-  "scope": "文件结构、源CSV独立复算、样本与缺失、图表缓存及最终器工作簿检查。科学假设、独立性和外推未获证明，不代表科研Agent全系统已运行。"
+  "pptx_sha256": "4f33d3c4830b56785e0414d04dba27e634b1b45b859cffde09a4f452eebf3980",
+  "cross_tool": {
+    "input_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+    "python_actual_execution": true,
+    "R_actual_execution": true,
+    "R_engine": "WebR 0.6.0 local Node.js / R 4.6.0",
+    "R_desktop_application_tested": false,
+    "SPSS_actual_execution": false,
+    "SPSS_status": "Source supplied only; no executable found in PATH or Program Files scan; IBM full documentation requests returned 403, indexed official syntax reviewed.",
+    "matched_included_row_ids": 146,
+    "matched_groups": 2,
+    "comparison_direction": "male minus female",
+    "sample_sd_denominator": "n-1",
+    "absolute_tolerance": 1e-09,
+    "actual_python_and_R_agree": true,
+    "scope": "Descriptive numerical agreement only. Does not validate data independence, scientific interpretation, IBM SPSS syntax execution or all program failures."
+  },
+  "unchanged_slide_text_vs_s7_r3": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "identical_preview_bytes_vs_s7_r3": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "scope": "文件结构、源CSV独立复算、样本与缺失、图表缓存及最终器工作簿检查；Python和本地WebR实际描述统计一致，SPSS未执行。科学假设、独立性和外推未获证明，不代表科研Agent全系统已运行。"
 }

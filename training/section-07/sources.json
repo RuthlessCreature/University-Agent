@@ -58,5 +58,29 @@
     "short": "课程方法示意 / 教学模拟",
     "url": "local:training/section-07/lesson.json",
     "location": "模拟内容不代表科研观测或模型执行截图"
+  },
+  "cross": {
+    "title": "本轮Python与本地WebR描述统计、纳入行及输出比较",
+    "short": "本地Python/R实算与代码",
+    "url": "local:training/section-07/cross-tool/checks.json",
+    "location": "analysis.py、analysis.R、analysis.sps；R真实执行在本地WebR，SPSS未运行；run.json与runtime-provenance分别记录"
+  },
+  "rmanual": {
+    "title": "R官方read.csv与样本sd说明",
+    "short": "R官方数据输入与SD说明",
+    "url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/sd.html",
+    "location": "sd使用n-1分母；read.csv的na.strings与stringsAsFactors参数另见cross-tool/参考资料.md"
+  },
+  "ibm": {
+    "title": "IBM SPSS Statistics GET DATA / MEANS / AGGREGATE / SAVE TRANSLATE索引",
+    "short": "IBM官方语法索引，未执行",
+    "url": "https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=reference-means",
+    "location": "官方搜索索引可读取语法；完整页面和31版PDF在本轮访问403。语法文件未通过SPSS执行验证，不作为已运行证据。"
+  },
+  "cursor": {
+    "title": "Cursor官方工具与编辑说明",
+    "short": "Cursor官方说明，未操作",
+    "url": "https://cursor.com/docs",
+    "location": "概览中的代码编辑与Agent用途；本轮未使用Cursor，不引入模型排名或套餐描述"
   }
 }

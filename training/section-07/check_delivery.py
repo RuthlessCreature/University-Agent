@@ -1,10 +1,10 @@
 """Check source calculations and delivery scope; not scientific acceptance."""
 from pathlib import Path
 from xml.etree import ElementTree as ET
-import csv,hashlib,json,math,re,statistics,sys,zipfile
+import csv,hashlib,json,math,re,statistics,subprocess,sys,zipfile
 import numpy as np
 from pypdf import PdfReader
-r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 's7-r3'
+r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 's7-r5'
 p=r/'output'/f'高校科研AI课程_Section7_数据处理与统计分析_{rev}.pptx'
 a=json.loads((r/'results.json').read_text('utf-8'));d=json.loads((r/'lesson.json').read_text('utf-8'));refs=json.loads((r/'sources.json').read_text('utf-8'))
 raw=r/'analysis-packet/penguins.csv';src=json.loads((r/'analysis-packet/source.json').read_text('utf-8'));assert hashlib.sha256(raw.read_bytes()).hexdigest()==src['sha256']==a['raw_sha256']
@@ -28,7 +28,7 @@ with zipfile.ZipFile(p) as z:
   if len(x.findall('.//p:cxnSp',ns))>=2:diagrams.append(i)
   if x.findall('.//a:tbl',ns):tables.append(i)
   if x.findall('.//c:chart',ns):chartpages.append(i)
- assert tables==[3,4,12] and chartpages==[5,8,14,17,18,19]
+ assert tables==[3,4,12,22] and chartpages==[5,8,14,17,18,19]
  charts=sorted([n for n in z.namelist() if re.fullmatch(r'ppt/(?:slides/)?charts/chart\d+\.xml',n)],key=lambda s:int(re.search(r'chart(\d+)\.xml',s).group(1)))
  assert len(charts)==6
  for name in charts:
@@ -49,7 +49,24 @@ with zipfile.ZipFile(p) as z:
  assert all('http' in z.read(n).decode() or 'local:' in z.read(n).decode() for n in notes)
  assert not any(t in ' '.join(texts) for t in ['课堂练习','请提交','TODO','占位'])
 pdf=r/'renders'/rev/(p.stem+'.pdf');assert len(PdfReader(pdf).pages)==22 and len(list((r/'renders'/rev).glob('slide-*.png')))==22
+subprocess.run([sys.executable,str(r/'cross-tool/check_results.py')],check=True,capture_output=True)
+cross=json.loads((r/'cross-tool/checks.json').read_text('utf-8'))
+assert cross['actual_python_and_R_agree'] and not cross['SPSS_actual_execution']
+for value in ['146','73','187.79','192.41','5.60','6.60','4.62']:
+ assert value in texts[21],f'Missing actual result in slide 22: {value}'
+assert '未执行' in texts[20] and '尚未运行' in texts[21]
+prior=r/'output/高校科研AI课程_Section7_数据处理与统计分析_s7-r3.pptx'
+unchanged=[];same_previews=[]
+with zipfile.ZipFile(prior) as old,zipfile.ZipFile(p) as new:
+ for i in range(1,21):
+  name=f'ppt/slides/slide{i}.xml'
+  old_text=[t.text for t in ET.fromstring(old.read(name)).findall('.//a:t',ns)]
+  new_text=[t.text for t in ET.fromstring(new.read(name)).findall('.//a:t',ns)]
+  assert old_text==new_text,f'Unexpected content change on slide {i}'
+  unchanged.append(i)
+  before=r/'renders/s7-r3'/f'slide-{i:02d}.png';after=r/'renders'/rev/f'slide-{i:02d}.png'
+  if before.read_bytes()==after.read_bytes():same_previews.append(i)
 v=json.loads((r/'.build'/rev/'validation.json').read_text('utf-8'));sha=hashlib.sha256(p.read_bytes()).hexdigest();assert v['finalSha256']==sha and v['packageIntegrity']['findingCount']==v['presentationLayout']['findingCount']==0
 (r/'validation.json').write_text(json.dumps(v,ensure_ascii=False,indent=2),'utf-8')
-report={'revision':rev,'pages':22,'pdf_pages':22,'notes':22,'preview_images':22,'editable_connector_diagram_pages':diagrams,'native_table_pages':tables,'native_chart_pages':chartpages,'embedded_workbooks':len(books),'source_records':len(rows),'analysis_records':len(clean),'mean_difference_mm':a['mean_difference_mm'],'bootstrap_95_percentile':a['bootstrap']['percentile_95'],'exact_coin_teaching_p':prob,'normal_simulation_coverage_count':a['ci_simulation']['covered'],'pptx_sha256':sha,'scope':'文件结构、源CSV独立复算、样本与缺失、图表缓存及最终器工作簿检查。科学假设、独立性和外推未获证明，不代表科研Agent全系统已运行。'}
+report={'revision':rev,'pages':22,'pdf_pages':22,'notes':22,'preview_images':22,'editable_connector_diagram_pages':diagrams,'native_table_pages':tables,'native_chart_pages':chartpages,'embedded_workbooks':len(books),'source_records':len(rows),'analysis_records':len(clean),'mean_difference_mm':a['mean_difference_mm'],'bootstrap_95_percentile':a['bootstrap']['percentile_95'],'exact_coin_teaching_p':prob,'normal_simulation_coverage_count':a['ci_simulation']['covered'],'pptx_sha256':sha,'cross_tool':cross,'unchanged_slide_text_vs_s7_r3':unchanged,'identical_preview_bytes_vs_s7_r3':same_previews,'scope':'文件结构、源CSV独立复算、样本与缺失、图表缓存及最终器工作簿检查；Python和本地WebR实际描述统计一致，SPSS未执行。科学假设、独立性和外推未获证明，不代表科研Agent全系统已运行。'}
 (r/'checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),'utf-8');print(json.dumps(report,ensure_ascii=False,indent=2))

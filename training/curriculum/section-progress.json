@@ -90,10 +90,11 @@
       "page_budget": 22,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s7-r3",
-      "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r3.pptx",
-      "sha256": "8edae2fe6f40fb2e412838202bd19a4998acf1b343178aee1829f8618c136ba9",
-      "checks": "training/section-07/checks.json"
+      "revision": "s7-r5",
+      "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r5.pptx",
+      "sha256": "4f33d3c4830b56785e0414d04dba27e634b1b45b859cffde09a4f452eebf3980",
+      "checks": "training/section-07/checks.json",
+      "consistency_review": "2026-10-19：补同一分析三种代码；Python与本地WebR实际运行并逐行核对，SPSS未执行；更新21、22页。"
     },
     {
       "id": 8,
