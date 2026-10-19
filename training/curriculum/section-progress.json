@@ -62,7 +62,7 @@
       "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r5.pptx",
       "sha256": "f2acf63a0c43ae683856dcdd6cb63c877b900b35ca545f6322e62dcb64bfe751",
       "checks": "training/section-04/checks.json",
-      "consistency_review": "2026-10-19：补三类真实材料同窗比较、日期与版本关系及原始方法图；未作全库趋势统计。"
+      "consistency_review": "2026-10-19：补三类真实材料在同一时间范围内的比较、日期与版本关系及原图；Web of Science高被引库与全量趋势分析尚未完成。"
     },
     {
       "id": 5,

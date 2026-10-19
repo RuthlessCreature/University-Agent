@@ -4,9 +4,9 @@
   "sections": 15,
   "coverage_scope": "Editorial location review of current slide text and selected sections; preliminary topic mapping, not execution completeness or scientific acceptance. Excerpts identify location, not proof of semantic coverage by themselves.",
   "counts": {
-    "已有对应内容": 47,
+    "已有对应内容": 46,
     "调整讲法": 4,
-    "部分覆盖": 1
+    "部分覆盖": 2
   },
   "rows": [
     {
@@ -282,12 +282,12 @@
     {
       "id": 9,
       "original_topic": "AI技术趋势预判方法：Web of Science高被引文献 + arXiv预印本 + 专利数据交叉分析",
-      "status": "已有对应内容",
+      "status": "部分覆盖",
       "locations": [
         "4/2",
         "4/10"
       ],
-      "assessment": "补生成式AI辅导问题的论文、arXiv版本和专利申请公开同窗比较，附真实方法图、可编辑材料表、日期类型与版本去重说明。限三条定向材料，未作全库趋势计数、创新性或专利法律判断。",
+      "assessment": "已补三类公开材料在2024—2025年范围内的比较、原始方法图、可编辑表与版本去重。原稿要求的Web of Science高被引数据库尚未访问，未取得其记录和全量导出，未完成定量交叉趋势分析。",
       "evidence": [
         {
           "section": 4,
