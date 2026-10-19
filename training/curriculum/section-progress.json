@@ -106,11 +106,11 @@
       "page_budget": 16,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s8-r4",
-      "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
-      "sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
+      "revision": "s8-r6",
+      "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+      "sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
       "checks": "training/section-08/checks.json",
-      "consistency_review": "2026-10-19：补GPT Image与Midjourney提示、修改要求和机制draw.io；16页重新渲染并分别查看。无图像模型调用，Nano Banana未接入。"
+      "consistency_review": "2026-10-19：路线衔接一周后测量，补材料核对返工连接；PPT、draw.io、SVG端点一致，独立PNG已渲染查看。"
     },
     {
       "id": 9,

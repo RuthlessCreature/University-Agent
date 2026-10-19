@@ -38,5 +38,18 @@
     ]
   },
   "course_url": "https://www.cs.ubc.ca/~tmm/courses/447-26/",
-  "original_pages_redistributed": false
+  "original_pages_redistributed": false,
+  "diagram_review_20261019": {
+    "reference_pages_reopened": {
+      "network": [
+        2
+      ],
+      "marks": [
+        17
+      ]
+    },
+    "course_page_checked": "https://www.cs.ubc.ca/~tmm/courses/447-26/",
+    "exports": "figure-packet/diagram-exports.json",
+    "workflow_executed": false
+  }
 }
