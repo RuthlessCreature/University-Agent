@@ -125,8 +125,8 @@
           "page": 8,
           "global_page": 74,
           "title": "Connected Papers与引文图",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\nConnected Papers与引文图\n关联图帮助寻找相近论文，图上的邻近关系需要回论文确认。\n种子论文\n论文甲\n论文乙\n论文丙\n相似关系\n邻近表示关联线索，\n不能据此判定互相引用。\n实际引用另核\n参考文献和被引记录\n用于查明引用方向。\n可编辑关系示意，非Connected Papers执行截图；节点不代表真实文献。\n来源：Connected Papers官方About；课程方法说明／教学示例\n08"
         },
         {
@@ -134,8 +134,8 @@
           "page": 9,
           "global_page": 75,
           "title": "Elicit入口的现行变化",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\nElicit入口的现行变化\n独立的Find Papers、Extract Data和Chat with Papers已并入Research Agent工作流。\n01\n官方变更日期\n2026-09-30\n02\n新任务在\nResearch Agent中开始\n03\n检索、提取和提问仍要核对来源\nElicit官方帮助页实录，2026-10-17；不是本项目Agent执行记录。\n来源：Elicit官方说明，2026-"
         },
         {
@@ -143,8 +143,8 @@
           "page": 10,
           "global_page": 76,
           "title": "带引文的答案怎样核对",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\n带引文的答案怎样核对\nConsensus等工具可把检索与答案组织放在一起。引文链接只是核对的入口。\n自然语言问题\n检索到的研究\n带引文的综合\n回原文检查\n说明对象与条件\n核对相关性和覆盖\n定位每个主要判断\n看设计、结果与限制\n核对顺序：先看引用了哪篇，再看原文是否包含该判断，最后检查条件有没有被省略。\n模型给出的“多数支持”仍需检查分母、筛选范围和研究是否可比较。\n来源：Consensus官方说明，2026"
         }
       ]
@@ -397,8 +397,8 @@
           "page": 7,
           "global_page": 73,
           "title": "关键词、语义与引文追踪",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\n关键词、语义与引文追踪\n关键词匹配可控制表达，语义检索发现近义内容，引文追踪补充前后关联研究。\n类别\n主要内容\n需要检查\n关键词\n术语、字段、短语与逻辑组合\n检索式便于记录和修订\n语义\n用自然语言描述问题\n相关性仍取决于问题解释和收录范围\n引文追踪\n参考文献与后续引用\n补查基础研究及后续检验\n不同路径可能找到不同材料，合并后还要去重和筛选。\n来源：UCL Thomas，2025，原始工作坊课件；Semant"
         },
         {
@@ -406,8 +406,8 @@
           "page": 8,
           "global_page": 74,
           "title": "Connected Papers与引文图",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\nConnected Papers与引文图\n关联图帮助寻找相近论文，图上的邻近关系需要回论文确认。\n种子论文\n论文甲\n论文乙\n论文丙\n相似关系\n邻近表示关联线索，\n不能据此判定互相引用。\n实际引用另核\n参考文献和被引记录\n用于查明引用方向。\n可编辑关系示意，非Connected Papers执行截图；节点不代表真实文献。\n来源：Connected Papers官方About；课程方法说明／教学示例\n08"
         },
         {
@@ -415,8 +415,8 @@
           "page": 9,
           "global_page": 75,
           "title": "Elicit入口的现行变化",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\nElicit入口的现行变化\n独立的Find Papers、Extract Data和Chat with Papers已并入Research Agent工作流。\n01\n官方变更日期\n2026-09-30\n02\n新任务在\nResearch Agent中开始\n03\n检索、提取和提问仍要核对来源\nElicit官方帮助页实录，2026-10-17；不是本项目Agent执行记录。\n来源：Elicit官方说明，2026-"
         },
         {
@@ -424,8 +424,8 @@
           "page": 10,
           "global_page": 76,
           "title": "带引文的答案怎样核对",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\n带引文的答案怎样核对\nConsensus等工具可把检索与答案组织放在一起。引文链接只是核对的入口。\n自然语言问题\n检索到的研究\n带引文的综合\n回原文检查\n说明对象与条件\n核对相关性和覆盖\n定位每个主要判断\n看设计、结果与限制\n核对顺序：先看引用了哪篇，再看原文是否包含该判断，最后检查条件有没有被省略。\n模型给出的“多数支持”仍需检查分母、筛选范围和研究是否可比较。\n来源：Consensus官方说明，2026"
         },
         {
@@ -433,8 +433,8 @@
           "page": 11,
           "global_page": 77,
           "title": "Semantic Scholar中的发现与阅读",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\nSemantic Scholar中的发现与阅读\n论文条目、引用关系和辅助阅读信息可帮助定位材料，短摘要只适合初筛。\n论文条目\n引用与被引\n寻找前后研究\n原文链接\n检查可获取版本\n辅助摘要\n回正文补足条件\n核对题名与作者\n辅助阅读信息可节省定位时间，关键主张仍需原文位置。\n来源：Semantic Scholar官方FAQ；课程方法说明／教学示例\n11"
         }
       ]
@@ -456,8 +456,8 @@
           "page": 15,
           "global_page": 81,
           "title": "一篇论文的阅读顺序",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\n一篇论文的阅读顺序\n先判断论文在回答什么，再查设计和结果，最后解释作者结论适用到哪里。\n问题与研究对象\n方法与比较条件\n主要结果与图表\n限制与适用范围\n记录作者真正\n研究的内容\n看分组、测量与排除\n核对数值、单位和分母\n区分结果、解释与推测\n阅读笔记中把原文事实和自己的解释分开，避免写综述时找不到依据。\n笔记至少保留：原文位置、自己的转述和仍不确定的地方。\n来源：课程方法说明／教学示例\n15"
         },
         {
@@ -465,8 +465,8 @@
           "page": 16,
           "global_page": 82,
           "title": "证据提取中的定位信息",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\n证据提取中的定位信息\n同一句“提高学习表现”，需要补出对象、比较条件、测量时点和结论范围。\n对象\n土耳其一所高中的数学教学\nExperimental Design\n比较\nBase、Tutor与无生成式AI资源组\nExperimental Design\n测量\n有帮助的练习与撤去资源的测验\nAbstract、Table 1\n限定\n特定工具、学校和教学任务\n课程解读：\n外推需证据\n公开真实研究的中文提取示例；定位"
         },
         {
@@ -474,8 +474,8 @@
           "page": 17,
           "global_page": 83,
           "title": "两篇研究的设计比较",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\n两篇研究的设计比较\n两项研究都讨论AI学习，但人群、对照条件和测量安排不同。\n比较项\nBastani等，2025\nKestin等，2025\n对象／学科\n土耳其高中数学\nHarvard本科入门物理\n比较条件\n两种AI辅导与无AI资源组\n定制AI辅导与课堂主动学习\n结果测量\n有帮助练习／无资源测验\n课程内容的前测与后测\n解释范围\n工具设计与独立表现\n定制辅导的特定课堂比较\n两篇为比较教学案例，未覆盖全部相关文献"
         },
         {
@@ -483,9 +483,9 @@
           "page": 24,
           "global_page": 90,
           "title": "一份可检查的文献工作包",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
-          "excerpt": "05  文献检索、阅读与综述\n一份可检查的文献工作包\n交付时应能追查材料来源、比较依据，以及仍然没有解决的问题。\n检索记录\n检索式、日期、筛选条件\n文献与版本清单\nDOI、来源与全文状态\n证据矩阵\n设计、结果、限定与位置\n综述与问题清单\n支持的结论和待补材料\n下一节：依据已有研究与资源条件，安排研究对象、比较和测量。\n来源：课程方法说明／教学示例\n24"
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n一份可检查的文献工作包\n交付时应能追查材料来源、比较依据，以及仍然没有解决的问题。\n检索记录\n检索式、日期、筛选条件\n文献与版本清单\nDOI、来源与全文状态\n证据矩阵\n设计、结果、原文位置与复算\n综述与问题清单\n支持的结论和待补材料\n下一节：依据已有研究与资源条件，安排研究对象、比较和测量。\n来源：课程方法说明／教学示例\n24"
         }
       ]
     },
@@ -505,27 +505,27 @@
           "page": 17,
           "global_page": 83,
           "title": "两篇研究的设计比较",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\n两篇研究的设计比较\n两项研究都讨论AI学习，但人群、对照条件和测量安排不同。\n比较项\nBastani等，2025\nKestin等，2025\n对象／学科\n土耳其高中数学\nHarvard本科入门物理\n比较条件\n两种AI辅导与无AI资源组\n定制AI辅导与课堂主动学习\n结果测量\n有帮助练习／无资源测验\n课程内容的前测与后测\n解释范围\n工具设计与独立表现\n定制辅导的特定课堂比较\n两篇为比较教学案例，未覆盖全部相关文献"
         },
         {
           "section": 5,
           "page": 18,
           "global_page": 84,
-          "title": "表面不同的结果怎样解释",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
-          "excerpt": "05  文献检索、阅读与综述\n表面不同的结果怎样解释\n先检查比较对象和测量是否相同，再讨论结果能否并列或合并。\nAI帮助时的表现\n当场完成任务可能更顺利\n撤去AI后的表现\n需要独立测量掌握程度\n对照教学方式\n普通资源与主动学习不同\n工具中的教学安排\n提示、内容与反馈会改变情境\n原文条件不同，不能把两篇标题合成“AI总体有效／无效”的结论。\n来源：Bastani等，PNAS 2025；Kestin等，Scientific Reports "
+          "title": "真实数据：一张后测成绩图怎样读",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n真实数据：一张后测成绩图怎样读\nHarvard本科物理研究：比较定制AI辅导与课堂主动学习，先核对统计量与记录单位。\n174条记录\n142条记录\n先看统计量\n中位数是排列后居中的分数。\n3.5与4.5是分值，不是百分比。\n再看记录单位\n316条记录来自194个编号。\n合并前测中位数为2.75。\n并非每个编号都有两条记录。\n作者公开数据的描述统计复算；未复现全部回归，未重新实施实验。\n来源：Kestin等，S"
         },
         {
           "section": 5,
           "page": 19,
           "global_page": 85,
-          "title": "证据表中的事实与判断",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
-          "excerpt": "05  文献检索、阅读与综述\n证据表中的事实与判断\n把原文报告、研究者解释和待核查问题分开，后续写作才有依据。\n类别\n主要内容\n需要检查\n原文报告\n论文使用什么对象、方法和结果\n附DOI及页段／表号\n比较解释\n哪些条件可能解释研究差别\n注明这是分析判断\n未决问题\n材料缺失、定义不清或尚未验证\n写明需要补查什么\n结构完整不等于结论可靠；重要字段要逐项回原文核对。\n来源：课程方法说明／教学示例\n19"
+          "title": "一条研究结论的证据登记",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n一条研究结论的证据登记\n以“定制AI辅导的后测中位数较高”为例，分开记录已核事实、解释与待查问题。\n类别\n主要内容\n需要检查\n原文与数据\n后测中位数3.5与4.5；\n记录数174与142\nResults对应段；\n公开文件post_score\n课程解释\n特定课程中的两种\n教学条件比较\n保留对象、对照\n及后测时点\n仍待核对\n194个编号、316行；\n72个编号只出现一次\n核查纳入与行记录关系；\n不补造缺失原因\n"
         }
       ]
     },
@@ -553,8 +553,8 @@
           "page": 22,
           "global_page": 88,
           "title": "研究空白与反证检索",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
           "excerpt": "05  文献检索、阅读与综述\n研究空白与反证检索\n一句“尚无研究”需要主动寻找反例，并回到原始研究核对。\n待核查的空白断言\n查找反例与原文\n修订研究问题\n高校没有AI辅导\n实证研究\nKestin等已报告本科物理\n随机对照研究\n继续核查特定课程、工具\n及延后测量的未回答问题\n反证检索：同义表达、前后引文、近期论文和预印本都要考虑。\n反例能推翻过宽的空白表述；收窄问题后还需继续检索。\n来源：Bastani等，PNAS 2025；Kestin"
         }
       ]
@@ -1083,9 +1083,9 @@
           "page": 20,
           "global_page": 86,
           "title": "综述段落的组织",
-          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r3.pptx",
-          "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
-          "excerpt": "05  文献检索、阅读与综述\n综述段落的组织\n按研究问题组织证据，说明差异发生在哪个条件下。\n逐篇列举，信息停留在主题\n研究甲讨论了AI教育。研究乙也讨论了AI教育。两项研究都很有意义，未来值得深入研究。\n围绕比较条件组织证据\n评价AI辅导需要区分工具使用时的表现与独立掌握。高中数学研究将练习与无资源测验分开（Bastani等，2025）；本科物理研究比较定制AI辅导与课堂主动学习（Kestin等，2025）。两者的对象和对照不同，需要"
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n综述段落的组织\n按研究问题组织证据，说明差异发生在哪个条件下。\n逐篇列举，信息停留在主题\n研究甲讨论了AI教育。研究乙也讨论了AI教育。两项研究都很有意义，未来值得深入研究。\n围绕比较条件组织证据\n评价AI辅导，需要先说明比较条件与测量时点。高中数学研究区分有帮助的练习和撤去资源的测验（Bastani等，2025）；本科物理研究中，定制AI辅导与课堂主动学习的后测中位数为4.5和3.5（Kestin等，20"
         }
       ]
     },
@@ -2955,17 +2955,17 @@
       "section": 5,
       "page": 18,
       "global_page": 84,
-      "title": "表面不同的结果怎样解释",
+      "title": "真实数据：一张后测成绩图怎样读",
       "images": 0,
-      "charts": 0,
-      "connectors": 4,
+      "charts": 1,
+      "connectors": 0,
       "native_tables": 0
     },
     {
       "section": 5,
       "page": 19,
       "global_page": 85,
-      "title": "证据表中的事实与判断",
+      "title": "一条研究结论的证据登记",
       "images": 0,
       "charts": 0,
       "connectors": 0,

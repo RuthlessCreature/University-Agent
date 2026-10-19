@@ -1,0 +1,40 @@
+{
+  "source_url": "https://raw.githubusercontent.com/HarvardAItutor/Study-Data-v4/main/Harvard_AI_Tutor_Study_Data.dta",
+  "source_repository": "https://github.com/HarvardAItutor/Study-Data-v4",
+  "source_blob_sha1": "2ad104a44b64acd98f4951ab92955ba85d2400cf",
+  "source_file_sha256": "362b26d84d01024e3c77e172d929e2bf8cbb3c7b09a9acd64757b9c0c1bd117e",
+  "checked_date": "2026-10-19",
+  "doi": "10.1038/s41598-025-97652-6",
+  "rows": 316,
+  "unique_student_ids": 194,
+  "students_with_two_records": 122,
+  "students_with_one_record": 72,
+  "combined_pre_score_median": 2.75,
+  "groups": [
+    {
+      "condition_code": 0,
+      "condition": "课堂主动学习",
+      "record_count": 174,
+      "unique_student_ids": 174,
+      "post_score_median": 3.5,
+      "post_score_mean": 3.5656130238511095,
+      "post_score_min_observed": 0.0,
+      "post_score_max_observed": 6.0
+    },
+    {
+      "condition_code": 1,
+      "condition": "定制AI辅导",
+      "record_count": 142,
+      "unique_student_ids": 142,
+      "post_score_median": 4.5,
+      "post_score_mean": 4.310446000434983,
+      "post_score_min_observed": 0.0,
+      "post_score_max_observed": 6.0
+    }
+  ],
+  "chart_metric": "post_score median; original score units",
+  "verification_scope": "本地Python读取作者公开dta，复算记录数、唯一编号数及描述统计；不代表重新实施实验或复现全部回归。",
+  "unresolved": "正文资格段提到参与两种教学且完成全部测验；公开文件有72个编号仅一条记录。未取得逐步筛选日志，不推断缺行或排除原因。",
+  "not_independent_participants": true,
+  "raw_records_redistributed": false
+}

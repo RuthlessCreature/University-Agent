@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s5-r3';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s5-r4';
 const S='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation,applyPresentationChartFont}=await import(pathToFileURL(path.join(S,'container_tools/artifact_tool_utils.mjs')).href);
@@ -39,6 +39,13 @@ case 'screen':{
 case 'extract':{
  d.rows.forEach((r,i)=>{let y=330+i*115;T(s,r[0],80,y,200,55,30,true,C.blue);const a=N(s,r[1],300,y,730,78),b=N(s,r[2],1180,y,340,78);A(s,a,b);});break;}
 case 'matrix':{table(s,d.rows,330,450,[300,570,570]);break;}
+case 'median-chart':{
+ const raw=JSON.parse(await fs.readFile(path.join(R,'literature-packet/kestin-reproduction.json'),'utf8'));
+ const c=s.charts.add('bar',{position:{left:80,top:335,width:850,height:410},title:'后测中位数（原文分值）',titleTextStyle:{fontSize:27,typeface:F},categories:raw.groups.map(v=>v.condition),series:[{name:'中位数',values:raw.groups.map(v=>v.post_score_median),fill:C.blue,valuesFormatCode:'0.0',points:[{idx:0,fill:C.blue},{idx:1,fill:C.green}]}],hasLegend:false,barOptions:{direction:'column',grouping:'clustered',gapWidth:180},xAxis:{textStyle:{fontSize:24,typeface:F}},yAxis:{min:0,max:6,majorUnit:1,numberFormatCode:'0',textStyle:{fontSize:21,typeface:F},majorGridlines:{fill:C.rule,width:1}},dataLabels:{showValue:true,position:'outEnd',numberFormatCode:'0.0',textStyle:{fontSize:30,typeface:F}},chartFill:'#FFFFFF',plotAreaFill:'#FFFFFF'});applyPresentationChartFont(c,{fontFamily:F});
+ T(s,'174条记录',225,760,260,43,25,false,C.blue);T(s,'142条记录',610,760,260,43,25,false,C.green);
+ T(s,'先看统计量',1020,335,500,50,30,true,C.blue);T(s,'中位数是排列后居中的分数。\n3.5与4.5是分值，不是百分比。',1020,397,500,100,28);
+ rule(s,1020,518,500);T(s,'再看记录单位',1020,548,500,50,30,true,C.blue);T(s,'316条记录来自194个编号。\n合并前测中位数为2.75。\n并非每个编号都有两条记录。',1020,610,500,135,28);
+ break;}
 case 'compare':{
  d.nodes.forEach((v,i)=>{let y=330+i*114,a=N(s,v,80,y,560,78),b=N(s,d.details[i],860,y,660,78,i===1?'#E7F2EF':'#F0F5F8');A(s,a,b);});break;}
 case 'prose':{
@@ -50,4 +57,4 @@ case 'agent':case 'finish':{
 }
 T(s,d.bottom,80,824,1440,43,22,false,C.green);T(s,'来源：'+d.refs.map(k=>refs[k].short).join('；'),80,875,1340,22,15,false,C.muted);T(s,String(d.n).padStart(2,'0'),1450,864,70,34,23,false,C.muted);s.speakerNotes.text=d.notes+'\n\n'+d.refs.map(k=>refs[k].title+'\n'+refs[k].url+'\n定位：'+refs[k].location).join('\n\n');}
 const candidate=path.join(stage,'candidate.pptx');await(await PresentationFile.exportPptx(p)).save(candidate);
-await finalizePresentation({workspaceDir:R,candidatePath:candidate,finalPath:path.join(R,'output',`高校科研AI课程_Section5_文献检索阅读与综述_${rev}.pptx`),pythonExecutable:PY,integrityValidatorPath:path.join(S,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(S,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-heading-fit',...['2','7','17','19'].flatMap(x=>['--require-native-table-slide',x])],fontPolicy:{basis:'design',families:[F]},explicitTotalSlideCount:24,requiredNativeTableOwnerSlides:[2,7,17,19],requiredNativeChartOwnerSlides:[],verifyArtifactToolImport:true,receiptPath:path.join(stage,'validation.json')});console.log('FINAL',rev,'24 slides');
+await finalizePresentation({workspaceDir:R,candidatePath:candidate,finalPath:path.join(R,'output',`高校科研AI课程_Section5_文献检索阅读与综述_${rev}.pptx`),pythonExecutable:PY,integrityValidatorPath:path.join(S,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(S,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-heading-fit',...['2','7','17','19'].flatMap(x=>['--require-native-table-slide',x])],fontPolicy:{basis:'design',families:[F]},explicitTotalSlideCount:24,requiredNativeTableOwnerSlides:[2,7,17,19],requiredNativeChartOwnerSlides:[18],materializeLiteralChartWorkbooks:true,verifyArtifactToolImport:true,receiptPath:path.join(stage,'validation.json')});console.log('FINAL',rev,'24 slides');

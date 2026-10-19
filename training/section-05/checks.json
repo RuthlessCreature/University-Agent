@@ -1,5 +1,5 @@
 {
-  "revision": "s5-r3",
+  "revision": "s5-r4",
   "pages": 24,
   "pdf_pages": 24,
   "notes": 24,
@@ -17,7 +17,6 @@
     14,
     15,
     16,
-    18,
     21,
     22,
     23,
@@ -35,6 +34,16 @@
   ],
   "embedded_screenshot_bytes_match": true,
   "evidence_matrix_records": 2,
-  "pptx_sha256": "13b557dcd4c45d85c756c1a66b521fecb54310e34bc65bd40ebe93592fcd290a",
+  "native_chart_pages": [
+    18
+  ],
+  "chart_medians": [
+    3.5,
+    4.5
+  ],
+  "descriptive_reproduction_records": 316,
+  "unique_student_ids": 194,
+  "all_regressions_reproduced": false,
+  "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
   "scope": "文件结构、原生连接图与表格、截图字节一致性、指定范围表述及材料表检查。不代表系统检索已完成、论文全面核验或科研Agent全系统已运行。"
 }
