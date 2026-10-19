@@ -9,7 +9,7 @@ def write(p,s):p.write_text(s.rstrip()+'\n','utf-8')
 def dump(p,d):write(p,json.dumps(d,ensure_ascii=False,indent=2))
 d=json.loads((R/'section-progress.json').read_text('utf-8'));s=d['sections'][0];f=A/'training/section-00/output/高校科研AI课程_Section0_s0-r4.pptx'
 s.update(revision='s0-r4',pptx=str(f.relative_to(A)).replace('\\','/'),sha256=sha(f));s.pop('pending_consistency_review',None);s['consistency_review']='2026-10-19：已去除旧课堂练习安排，补查Berkeley 2025具体页面，修订课程导图。'
-d['checked_date']='2026-10-19';d['scope']='240页实际文件已登记；Section 0一致性及Section 7代码、Section 8图像任务、Section 9摘要任务已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。';dump(R/'section-progress.json',d)
+d['checked_date']='2026-10-19';d['scope']='240页实际文件已登记；Section 0一致性及Section 7代码、Section 8图像任务、Section 9摘要任务、Section 12软件台账已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。';dump(R/'section-progress.json',d)
 ns={'a':'http://schemas.openxmlformats.org/drawingml/2006/main','p':'http://schemas.openxmlformats.org/presentationml/2006/main'};pages={};inventory=[];offset=0
 for s in d['sections']:
  p=A/s['pptx'];assert sha(p)==s['sha256']
@@ -67,7 +67,7 @@ rows=[
 ('12/3 12/5 12/7','已有对应内容','任务、进展、证据、缺口与后续安排有对应。'),
 ('12/5 12/6 12/7','已有对应内容','进度、结果段落及未完成部分据证据表整理。'),
 ('12/5 12/8 12/9 12/10','已有对应内容','材料对应、归档、Word实际产物与正式报送边界分别说明。'),
-('12/5 12/8 13/5','部分覆盖','论文、报告和专利类材料有对应；软件著作权成果登记示例尚不足。'),
+('12/5 12/8 13/5','已有对应内容','新增软件实际运行快照、CSV/JSON台账、功能说明和登记材料核对；外部论文与教学交底另列状态及贡献缺口。未确认权属与本人贡献，未申请登记，不计为本人已取得成果。'),
 ('11/2 11/6 11/7 11/8 11/10 11/11','已有对应内容','交底、参数、附图和权利要求对应；不据此作法律授权判断。'),
 ('13/5 13/7 13/8','已有对应内容','普通读者版本、平台用途与分享版本已讲；不安排账户发布。'),
 ('3/11 13/2 13/3 13/4','已有对应内容','实际科研数据在课件中组织为可编辑图和讲述；不声称云端一键PPT接口已接入。'),

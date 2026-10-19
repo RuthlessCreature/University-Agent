@@ -1,0 +1,4 @@
+﻿id,category,name,state,evidence,contribution,ownership,count_as_own_achievement
+SW01,软件教学条目,企鹅描述统计脚本（教学代码）,已运行；贡献与权属待确认；未申请登记,snapshot.json; source/analysis.py; source/python-output/run.json,课程代码由Codex协助编写；实际人员、职责与权利归属尚未确认,PENDING,否
+REF01,外部论文参考,Gorman等2014，10.1371/journal.pone.0090081,已发表原研究；不是本课程论文成果,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081,原文作者Gorman、Williams、Fraser；本课程只作公开数据二次计算，不认领原研究贡献,外部原研究,否
+PAT-DEMO01,技术交底教学草稿,Section 11技术交底稿,教学草稿；未作为专利申请或授权登记,https://github.com/RuthlessCreature/University-Agent/blob/4b115b081d65b1ac793a0937e8cc665d9e033be8/training/section-11/patent-packet/output/patent-draft.docx,AI协助编写的课程草稿；实际发明人、贡献及权属未确认,PENDING,否

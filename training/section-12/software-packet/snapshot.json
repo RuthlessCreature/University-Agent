@@ -1,0 +1,55 @@
+{
+  "snapshot": "SW-DEMO-20261019",
+  "display_name": "企鹅描述统计脚本（教学代码）",
+  "source_origin": "training/section-07/cross-tool/analysis.py",
+  "source_origin_repository_commit": "4b115b081d65b1ac793a0937e8cc665d9e033be8",
+  "source_origin_sha256": "6decd43ec6997b35de2c5fd5f91a833248bf1a2b123cc86623142089da2f6777",
+  "program_sha256": "6decd43ec6997b35de2c5fd5f91a833248bf1a2b123cc86623142089da2f6777",
+  "data_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "scope": "课程教学快照，不是已登记软件版本或权属证明",
+  "actual_execution": true,
+  "external_model_called": false,
+  "identified_human_contributors": false,
+  "ownership_confirmed": false,
+  "registration_submitted": false,
+  "registration_number": null,
+  "certificate_file": null,
+  "count_as_registered_software_achievement": false,
+  "files": [
+    {
+      "path": "source/analysis.py",
+      "sha256": "6decd43ec6997b35de2c5fd5f91a833248bf1a2b123cc86623142089da2f6777",
+      "bytes": 2285
+    },
+    {
+      "path": "source/data-source.json",
+      "sha256": "fb692fd31480568fd3aa640fde40127c8aa0f65e1b30b24a06c0c8fe19021e6a",
+      "bytes": 353
+    },
+    {
+      "path": "source/penguins.csv",
+      "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+      "bytes": 15241
+    },
+    {
+      "path": "source/python-output/comparison.csv",
+      "sha256": "8ba3f015ee3e8bcdc8b0066fc0a3d142223c05fddee0b12213fd4995ce267cec",
+      "bytes": 128
+    },
+    {
+      "path": "source/python-output/included_rows.csv",
+      "sha256": "7b23c69083fabc1f5b9879c06f151ce9370c4b7eb546cc7f9fdfd34dd9845b8f",
+      "bytes": 1829
+    },
+    {
+      "path": "source/python-output/run.json",
+      "sha256": "6cd2238733aea30f852c88999b4e020c52ca9c3df7f4403869eec35e6fac7336",
+      "bytes": 1019
+    },
+    {
+      "path": "source/python-output/summary.csv",
+      "sha256": "4124a359eb72c30ec37f6d1b921a914e08c7986dad100c47150d9422b6f0436a",
+      "bytes": 111
+    }
+  ]
+}

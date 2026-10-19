@@ -1,0 +1,18 @@
+{
+  "snapshot": "SW-DEMO-20261019",
+  "actual_program_execution": true,
+  "input_records": 344,
+  "included_records": 146,
+  "groups": 2,
+  "records_per_group": 73,
+  "included_row_ids_checked": 146,
+  "descriptive_statistics_independently_recomputed": true,
+  "snapshot_file_hashes_verified": 7,
+  "ledger_rows": 3,
+  "counted_as_own_achievements": 0,
+  "ownership_confirmed": false,
+  "human_contributors_confirmed": false,
+  "registration_submitted": false,
+  "registration_certificate_exists": false,
+  "scope": "Local program execution, exact files, numerical outputs, editable ledger and explicit gaps. Does not establish ownership, personal contribution, eligibility, project acceptance or official registration."
+}

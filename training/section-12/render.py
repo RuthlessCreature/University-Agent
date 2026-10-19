@@ -1,7 +1,7 @@
 from pathlib import Path
 import subprocess,sys
 from pdf2image import convert_from_path
-r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 's12-r3'
+r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 's12-r5'
 src=r/'output'/f'高校科研AI课程_Section12_项目执行与结题_{rev}.pptx';out=r/'renders'/rev;out.mkdir(parents=True,exist_ok=True)
 profile=(r/'.build'/('lo-'+rev)).resolve().as_uri()
 q=subprocess.run(['C:/Program Files/LibreOffice/program/soffice.exe','-env:UserInstallation='+profile,'--headless','--convert-to','pdf','--outdir',str(out),str(src)],capture_output=True,text=True,timeout=180)
