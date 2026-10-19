@@ -9,7 +9,7 @@ def write(p,s):p.write_text(s.rstrip()+'\n','utf-8')
 def dump(p,d):write(p,json.dumps(d,ensure_ascii=False,indent=2))
 d=json.loads((R/'section-progress.json').read_text('utf-8'));s=d['sections'][0];f=A/'training/section-00/output/高校科研AI课程_Section0_s0-r4.pptx'
 s.update(revision='s0-r4',pptx=str(f.relative_to(A)).replace('\\','/'),sha256=sha(f));s.pop('pending_consistency_review',None);s['consistency_review']='2026-10-19：已去除旧课堂练习安排，补查Berkeley 2025具体页面，修订课程导图。'
-d['checked_date']='2026-10-19';d['scope']='240页实际文件已登记；Section 0一致性修订已完成。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。';dump(R/'section-progress.json',d)
+d['checked_date']='2026-10-19';d['scope']='240页实际文件已登记；Section 0一致性、Section 7代码与Section 8图像任务已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。';dump(R/'section-progress.json',d)
 ns={'a':'http://schemas.openxmlformats.org/drawingml/2006/main','p':'http://schemas.openxmlformats.org/presentationml/2006/main'};pages={};inventory=[];offset=0
 for s in d['sections']:
  p=A/s['pptx'];assert sha(p)==s['sha256']
@@ -52,7 +52,7 @@ rows=[
 ('9/3 9/5 9/6 9/7 9/12','已有对应内容','按论文各段的任务与已有证据分工。'),
 ('3/15 9/13','部分覆盖','期刊要求与写作边界已讲，缺少对应官方作者要求的完整风格适配提示示例。'),
 ('9/2 9/11 9/22','已有对应内容','逐句主张、引文支持和完整返修包用于检查逻辑。'),
-('8/10 8/14 8/16','部分覆盖','数据图和机制草案边界已讲；未提供Midjourney/DALL-E专用提示示例，也未调用Nano Banana。'),
+('8/10 8/14 8/16','调整讲法','已补GPT Image完整任务、Midjourney提示、明确修改要求和可编辑关系图。原稿DALL·E 2/3 API名称按2026-05-12官方下线记录修正；两份提示未执行，Nano Banana未接入。'),
 ('1/11 3/4 3/16 9/14 10/4','已有对应内容','表达、事实、披露与投稿要求分别说明；目标期刊逐次核对。'),
 ('9/16','已有对应内容','方法、补研究与文字意见按修改动作分类。'),
 ('9/17 9/18 9/19 9/20','已有对应内容','回复、修改位置与未完成研究分别给出示例。'),

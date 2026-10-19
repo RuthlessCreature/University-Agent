@@ -1,0 +1,56 @@
+{
+  "material_status": "课程自编教学假说；不是已验证的机制",
+  "question": "分步提示是否可能经由作答中的尝试与修正影响无AI新题表现？",
+  "nodes": [
+    {
+      "id": "hint",
+      "label": "分步提示",
+      "measure": "记录提示内容与使用情况"
+    },
+    {
+      "id": "process",
+      "label": "尝试与修正",
+      "measure": "编码作答过程"
+    },
+    {
+      "id": "test",
+      "label": "无AI新题测验",
+      "measure": "统一评分规则"
+    }
+  ],
+  "edges": [
+    {
+      "source": "hint",
+      "target": "process",
+      "status": "PENDING",
+      "line": "dashed"
+    },
+    {
+      "source": "process",
+      "target": "test",
+      "status": "PENDING",
+      "line": "dashed"
+    }
+  ],
+  "alternative_explanations": [
+    "既有水平",
+    "练习时间",
+    "题目难度",
+    "实施差异"
+  ],
+  "execution": {
+    "GPT_Image": false,
+    "Midjourney": false,
+    "Nano_Banana": false
+  },
+  "openai_prompt": "请绘制一张供高校教师讲解的概念示意图，主题是“分步提示可能怎样影响独立解题”。白底，蓝绿配色，三个区域依次表示分步提示、作答中的尝试与修正、无AI的新题测验。区域间只用两条虚线箭头，图例写明“待验证关系”。不要添加成绩、提升百分比、实验照片或文献。图注写“教学假说示意，尚未取得机制证据”。中文标签须清楚可读，保留足够空间供后期编辑。",
+  "midjourney_prompt": "Flat academic concept illustration, three simple panels left to right: a worksheet with stepped hints, a student's solution revisions, a fresh problem sheet. Thin dashed arrows between adjacent panels, white background, muted blue and green, ample empty space for labels, landscape composition --ar 16:9",
+  "revision_prompt": "保留三个区域及其顺序。将区域间连接统一为虚线，图例明确写“待验证关系”。删除全部成绩、提升比例和代表已证实效果的符号。中文标签分别改为“分步提示”“尝试与修正”“无AI新题测验”。不增加新对象或文献。图注保留“教学假说示意，尚未取得机制证据”。",
+  "review_requirements": [
+    "恰有三个区域且顺序正确",
+    "两条相邻连接，均为待验证虚线",
+    "无分数、提升比例、实验照片或虚构文献",
+    "中文标签和图注可读且与任务一致",
+    "保存提示、原始输出、修改记录和可编辑源"
+  ]
+}

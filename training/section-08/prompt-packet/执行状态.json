@@ -1,0 +1,13 @@
+{
+  "checked_date": "2026-10-19",
+  "source": "mechanism-brief.json",
+  "prompt_examples_provided": [
+    "GPT Image",
+    "Midjourney"
+  ],
+  "image_models_called": [],
+  "Nano_Banana_connected": false,
+  "slide14_right": "Native editable hypothesis diagram, manually authored",
+  "slide16_right": "Native editable review workflow, manually authored",
+  "scientific_mechanism_verified": false
+}

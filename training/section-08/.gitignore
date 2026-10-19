@@ -5,3 +5,5 @@ node_modules/
 *.log
 output/*s8-r1.pptx
 renders/s8-r1/
+output/*s8-r3.pptx
+renders/s8-r3/

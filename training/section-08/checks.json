@@ -1,5 +1,5 @@
 {
-  "revision": "s8-r2",
+  "revision": "s8-r4",
   "pages": 16,
   "notes": 16,
   "pdf_pages": 16,
@@ -28,6 +28,31 @@
   "route_nodes": 8,
   "route_edges": 8,
   "mechanism_dashed_connectors": 2,
-  "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+  "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
+  "unchanged_slide_text_vs_s8_r2": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "identical_preview_bytes_vs_s8_r2": [],
+  "prompt_examples": [
+    "GPT Image",
+    "Midjourney"
+  ],
+  "image_models_called": [],
+  "Nano_Banana_connected": false,
+  "hypothesis_editable_nodes": 3,
+  "hypothesis_dashed_edges": 2,
   "scope": "源CSV复算、原生图缓存、编辑源节点连接、虚线符号和导出文件检查。并有逐页视觉审查；不证明研究实施、机制或科研Agent全系统运行。"
 }

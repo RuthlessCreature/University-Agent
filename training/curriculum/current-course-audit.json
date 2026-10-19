@@ -5,8 +5,8 @@
   "coverage_scope": "Editorial location review of current slide text and selected sections; preliminary topic mapping, not execution completeness or scientific acceptance. Excerpts identify location, not proof of semantic coverage by themselves.",
   "counts": {
     "已有对应内容": 41,
-    "调整讲法": 3,
-    "部分覆盖": 8
+    "调整讲法": 4,
+    "部分覆盖": 7
   },
   "rows": [
     {
@@ -696,8 +696,8 @@
           "page": 11,
           "global_page": 139,
           "title": "拟议研究的技术路线",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\n拟议研究的技术路线\n以“分步提示能否改善独立解题”为例，把材料准备、过程记录与结果测量分开安排。\n题目与评分规则\n预试与材料核对\n分步提示条件\n完整解答条件\n记录作答过程\n记录作答过程\n统一无AI新题测验\n按预定方案比较\n材料通过预试核对后，\n再按预定分配规则实施。\n教学方案，尚未实施。分配单位、样本依据、授权与评分规则均需另行确认。\n来源：UBC课程节点关系，p.2；课程自编教学示例\n11"
         },
         {
@@ -705,8 +705,8 @@
           "page": 12,
           "global_page": 140,
           "title": "节点、箭头与判断条件",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\n节点、箭头与判断条件\n每个节点写清处理或产物，箭头写明传递什么，判断分支给出可检查的条件。\n预试与评分核对\n达到预定标准？\n进入正式实施\n修订后重新核对\n达到\n未达到\n标准需在方案中预先写明，\n修订保留版本和原因。\n判断标准待方案明确；图示不表示已经通过预试或研究审核。\n来源：UBC课程节点关系，p.2；课程自编教学示例\n12"
         },
         {
@@ -714,8 +714,8 @@
           "page": 13,
           "global_page": 141,
           "title": "并行研究任务与汇合依据",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\n并行研究任务与汇合依据\n并行分支要有各自输入和输出，汇合时说明要对照哪些证据。\n研究问题与假说\n作答过程记录\n统一新题测验\n对照证据并解释\n形成可核查的编码记录\n形成可复核的评分结果\n教学示意。两条证据路径可能一致，也可能相互矛盾，需如实解释。\n来源：UBC课程节点关系，p.2；课程自编教学示例\n13"
         },
         {
@@ -723,8 +723,8 @@
           "page": 15,
           "global_page": 143,
           "title": "数据图与路线图的编辑源",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\n数据图与路线图的编辑源\n保留数据、脚本和原生图表，路线另存节点与连接，后续改稿才能追溯修改。\n原始数据与计算\nCSV、脚本、计算结果\n原生图表与图注\nPPT对象与嵌入工作簿\n路线节点与连接\ndraw.io与route.json\nPDF / SVG / PNG\n预览、排版与矢量导出\n配套文件是可编辑教学成果；未声称已经通过特定期刊的投稿验收。\n来源：PLOS One，图注与图像要求；课程自编教学示例\n15"
         }
       ]
@@ -937,8 +937,8 @@
           "page": 2,
           "global_page": 130,
           "title": "研究问题与图型选择",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\n研究问题与图型选择\n比较分布、观察变量关系、展示时序和说明工作步骤，各有适合的表达方式。\n读者需要比较什么\n分布或变量关系\n频数图、散点图\n年份或条件变化\n有明确尺度的趋势图\n研究步骤与依赖\n节点、连接与分支\n选择依据是要比较什么、数据怎样组织，以及读者需要看清的关系。\n来源：UBC 2026，图形编码，pp.4/6/17\n02"
         },
         {
@@ -946,8 +946,8 @@
           "page": 3,
           "global_page": 131,
           "title": "均值图与分布图",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\n均值图与分布图\n相同的两组记录，均值图给出中心位置，分布图补充重叠、跨度和频数。\n均值：187.79 / 192.41 mm\n同一批数据，补充组间重叠与跨度\n公开观测二次分析。两图使用相同146条记录，图型改变不改变数据。\n来源：palmerpenguins公开数据，本课程重绘；UBC 2026，图形编码，pp.4/6/17\n03"
         },
         {
@@ -955,8 +955,8 @@
           "page": 6,
           "global_page": 134,
           "title": "可独立阅读的数据图",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\n可独立阅读的数据图\n图题、坐标与单位、分组图例、样本范围和来源，共同限定读者能怎样解释图。\n喙长（mm）\n鳍长（mm）\nAdelie完整记录146条。每点一条观测；未作因果解释或绘制拟合线。\n来源：palmerpenguins公开数据，本课程重绘；UBC 2026，图形编码，pp.4/6/17\n06"
         },
         {
@@ -964,8 +964,8 @@
           "page": 7,
           "global_page": 135,
           "title": "图注中的对象、符号与方法",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\n图注中的对象、符号与方法\n图注应让读者脱离正文，仍能认出研究对象、样本范围、符号含义和计算方式。\n图1　Adelie企鹅喙长与鳍长的观测关系\n2007—2009年公开记录中，保留性别、喙长与鳍长均完整的146条Adelie观测，雌雄各73条。每点表示一条观测，蓝色圆点表示雌性，绿色方点表示雄性。两轴单位均为毫米，图中未绘制拟合线。数据来自palmerpenguins公开简化表。\n对象与样本范围\n点、颜色与单位"
         },
         {
@@ -973,8 +973,8 @@
           "page": 15,
           "global_page": 143,
           "title": "数据图与路线图的编辑源",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\n数据图与路线图的编辑源\n保留数据、脚本和原生图表，路线另存节点与连接，后续改稿才能追溯修改。\n原始数据与计算\nCSV、脚本、计算结果\n原生图表与图注\nPPT对象与嵌入工作簿\n路线节点与连接\ndraw.io与route.json\nPDF / SVG / PNG\n预览、排版与矢量导出\n配套文件是可编辑教学成果；未声称已经通过特定期刊的投稿验收。\n来源：PLOS One，图注与图像要求；课程自编教学示例\n15"
         }
       ]
@@ -1282,40 +1282,40 @@
     {
       "id": 32,
       "original_topic": "科研图表生成：Midjourney/DALL-E专用提示词模板，生成技术路线图、机制示意图、流程图等",
-      "status": "部分覆盖",
+      "status": "调整讲法",
       "locations": [
         "8/10",
         "8/14",
         "8/16"
       ],
-      "assessment": "数据图和机制草案边界已讲；未提供Midjourney/DALL-E专用提示示例，也未调用Nano Banana。",
+      "assessment": "已补GPT Image完整任务、Midjourney提示、明确修改要求和可编辑关系图。原稿DALL·E 2/3 API名称按2026-05-12官方下线记录修正；两份提示未执行，Nano Banana未接入。",
       "evidence": [
         {
           "section": 8,
           "page": 10,
           "global_page": 138,
           "title": "AI协助绘图的具体输入",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
           "excerpt": "08  科研图表与技术路线\nAI协助绘图的具体输入\n提供数据、字段含义、问题和限制后，要求AI给出可运行脚本、图和图注。\nCSV与字段说明\n绘图要求与代码\n实际图与图注\n源数据复核\n对象、单位与缺失\n图型、尺度和限制\n保留可编辑版本\n点数、数值和标签\n提示示例：保留全部观测，不连线、不加拟合，输出图注和数据来源。\n本地原生图已生成；AI写出绘图建议与实际运行结果分别核对。\n来源：课程自编教学示例\n10"
         },
         {
           "section": 8,
           "page": 14,
           "global_page": 142,
-          "title": "机制示意中的假说与证据",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
-          "excerpt": "08  科研图表与技术路线\n机制示意中的假说与证据\n“提示方式改变作答过程，进而影响独立解题”是一条需要验证的解释路径。\n分步提示方式\n作答过程改变\n独立解题表现\n记录具体提示与使用情况\n编码错误、尝试与修正\n使用统一无AI新题测量\n待排除的其他解释：既有水平、练习时间、题目难度和实施差异。\n课程假说示意。虚线表示待验证关系，未取得机制证据。\n来源：课程自编教学示例\n14"
+          "title": "机制示意的完整任务与假说范围",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
+          "excerpt": "08  科研图表与技术路线\n机制示意的完整任务与假说范围\n对象、布局和箭头含义写入任务，图中保留“待验证”的状态。\n关系核对图（可编辑）\nGPT Image任务示例（未执行）\n请绘制一张供高校教师讲解的概念示意图，主题是“分步提示可能怎样影响独立解题”。白底，蓝绿配色，三个区域依次表示分步提示、作答中的尝试与修正、无AI的新题测验。区域间只用两条虚线箭头，图例写明“待验证关系”。不要添加成绩、提升百分比、实验照片或文献。图注写“教学假说"
         },
         {
           "section": 8,
           "page": 16,
           "global_page": 144,
-          "title": "科研图的交付核对",
-          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r2.pptx",
-          "pptx_sha256": "3d0ca034469d14247ffc97eb1b7ec1bd123488c930156be8954664fb7dbc5993",
-          "excerpt": "08  科研图表与技术路线\n科研图的交付核对\n一张图交付前，需要核对数值、符号、来源和表达范围，并在实际尺寸下检查可读性。\n数据与单位\n关系与符号\n来源与图注\n尺寸与编辑源\n复算点、柱和区间\n检查箭头与图例\n说明材料性质\n保留清楚可改的版本\n数据图查数值与口径，路线图查连接与判断，机制图查证据状态。\n下一节：论文写作、投稿与返修，将图、表和证据组织进正文。\n来源：PLOS One，图注与图像要求；课程自编教学示例\n16"
+          "title": "Midjourney提示与示意图复核",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r4.pptx",
+          "pptx_sha256": "ad15853c6f5dc5613de820f39a7c4cc7e536b389bc1f023e7e6e38b07e04dcbc",
+          "excerpt": "08  科研图表与技术路线\nMidjourney提示与示意图复核\n图像工具先接收清楚的画面描述，教师再逐项检查对象、标签和关系。\n可复制的画面描述（未执行）\nFlat academic concept illustration, three simple panels left to right: a worksheet with stepped hints, a student's solution revisions, a fres"
         }
       ]
     },
@@ -3545,7 +3545,7 @@
       "section": 8,
       "page": 14,
       "global_page": 142,
-      "title": "机制示意中的假说与证据",
+      "title": "机制示意的完整任务与假说范围",
       "images": 0,
       "charts": 0,
       "connectors": 2,
@@ -3565,10 +3565,10 @@
       "section": 8,
       "page": 16,
       "global_page": 144,
-      "title": "科研图的交付核对",
+      "title": "Midjourney提示与示意图复核",
       "images": 0,
       "charts": 0,
-      "connectors": 3,
+      "connectors": 2,
       "native_tables": 0
     },
     {

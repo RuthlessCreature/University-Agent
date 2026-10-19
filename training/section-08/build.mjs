@@ -2,12 +2,13 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s8-r2';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s8-r4';
 const S='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation,applyPresentationChartFont}=await import(pathToFileURL(path.join(S,'container_tools/artifact_tool_utils.mjs')).href);
 const data=JSON.parse(await fs.readFile(path.join(R,'lesson.json'),'utf8')),refs=JSON.parse(await fs.readFile(path.join(R,'sources.json'),'utf8'));
 const a=JSON.parse(await fs.readFile(path.join(R,'figure-data.json'),'utf8'));
+const brief=JSON.parse(await fs.readFile(path.join(R,'prompt-packet/mechanism-brief.json'),'utf8'));
 const stage=path.join(R,'.build',rev);await fs.mkdir(stage,{recursive:true});await fs.mkdir(path.join(R,'output'),{recursive:true});
 const p=Presentation.create({slideSize:{width:1600,height:900}}),F='Microsoft YaHei';p.theme.defaultFont=F;
 const C={navy:'#132F43',ink:'#263D4A',blue:'#245B77',muted:'#627681',green:'#2C6D68',red:'#963F3C',rule:'#CAD6DC'};
@@ -38,6 +39,8 @@ case 'chain':{const{step,w}=chain(s,d.nodes,410);d.details.forEach((v,i)=>T(s,v,
 case 'route':{let map={};for(const q of route.nodes)map[q.id]=N(s,q.label,q.x,q.y,q.w,q.h,q.id==='test'?'#E7F2EF':'#F0F5F8');for(const q of route.edges)A(s,map[q.source],map[q.target],q.from,q.to,q.kind||'straight');T(s,'材料通过预试核对后，\n再按预定分配规则实施。',80,670,420,120,27);break;}
 case 'decision':{let a=N(s,'预试与评分核对',80,460,390,100),b=N(s,'达到预定标准？',650,460,400,100),c=N(s,'进入正式实施',1200,340,320,95,'#E7F2EF'),e=N(s,'修订后重新核对',1200,650,320,95,'#F8EDE9');A(s,a,b);A(s,b,c,'right','left','elbow');A(s,b,e,'right','left','elbow');T(s,'达到',1090,350,100,50,26);T(s,'未达到',1070,670,120,50,26);T(s,'标准需在方案中预先写明，\n修订保留版本和原因。',80,685,900,100,30);break;}
 case 'parallel':{const a=N(s,'研究问题与假说',80,465,350,100),b=N(s,'作答过程记录',650,340,400,95),c=N(s,'统一新题测验',650,650,400,95),d=N(s,'对照证据并解释',1210,465,310,100,'#E7F2EF');A(s,a,b,'right','left','elbow');A(s,a,c,'right','left','elbow');A(s,b,d,'right','left','elbow');A(s,c,d,'right','left','elbow');T(s,'形成可核查的编码记录',650,465,470,60,27);T(s,'形成可复核的评分结果',650,765,520,50,27);break;}
+case 'mechanism-prompt':{T(s,'关系核对图（可编辑）',1040,287,480,40,24,false,C.muted);T(s,'GPT Image任务示例（未执行）',80,330,790,55,29,true,C.blue);T(s,brief.openai_prompt,80,405,790,310,30);let ns=brief.nodes.map((v,i)=>N(s,v.label,1040,330+i*145,480,78));for(let i=0;i<2;i++)s.shapes.connect(ns[i],ns[i+1],{kind:'straight',fromSide:'bottom',toSide:'top',line:{style:'dashed',fill:C.blue,width:2},tail:{type:'arrow',width:'med',length:'med'}});T(s,'虚线：待验证关系',1040,740,480,45,27,true,C.blue);T(s,'其他解释仍需核对：既有水平、练习时间、题目难度和实施差异。',80,755,850,60,26,false,C.red);break;}
+case 'image-prompt-review':{T(s,'可复制的画面描述（未执行）',80,330,830,55,30,true,C.blue);T(s,brief.midjourney_prompt.replace(' --ar 16:9','\n--ar 16:9'),80,410,830,240,28);T(s,'中文含义：分步提示题单、作答修订、新题试卷，依次排列，以虚线连接。',80,660,830,85,28);T(s,'--ar 16:9只规定宽高比；中文标签、图注和编辑源另行核对。',80,755,830,60,26);let labels=['检查对象与箭头','核对文字与符号','保留可编辑定稿'];let ns=labels.map((v,i)=>N(s,v,1040,340+i*150,480,80,i===2?'#E7F2EF':'#F0F5F8'));A(s,ns[0],ns[1],'bottom','top');A(s,ns[1],ns[2],'bottom','top');T(s,'删去虚构成绩，标明假说范围。',1040,760,480,55,26,false,C.red);break;}
 case 'mechanism':{const ns=['分步提示方式','作答过程改变','独立解题表现'].map((v,i)=>N(s,v,80+i*510,410,420,95));for(let i=0;i<2;i++)s.shapes.connect(ns[i],ns[i+1],{kind:'straight',fromSide:'right',toSide:'left',line:{style:'dashed',fill:C.blue,width:2},tail:{type:'arrow',width:'med',length:'med'}});['记录具体提示与使用情况','编码错误、尝试与修正','使用统一无AI新题测量'].forEach((v,i)=>T(s,v,80+i*510,565,420,100,28));T(s,'待排除的其他解释：既有水平、练习时间、题目难度和实施差异。',80,735,1440,65,29,true,C.red);break;}
 case 'files':{let lab=['原始数据与计算','原生图表与图注','路线节点与连接','PDF / SVG / PNG'];let det=['CSV、脚本、计算结果','PPT对象与嵌入工作簿','draw.io与route.json','预览、排版与矢量导出'];lab.forEach((v,i)=>{let y=330+i*114,n=N(s,v,80,y,550,78);T(s,det[i],820,y+8,700,80,30);if(i)A(s,s._prev,n,'bottom','top');s._prev=n;});break;}
 }

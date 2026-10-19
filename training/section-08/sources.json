@@ -46,5 +46,23 @@
     "short": "课程自编教学示例",
     "url": "local:training/section-08/lesson.json",
     "location": "方案未实施，假说未验证；未伪装为科研实证或Agent截图"
+  },
+  "openai": {
+    "title": "OpenAI Image generation官方指南",
+    "short": "OpenAI图像指南，任务与编辑",
+    "url": "https://developers.openai.com/api/docs/guides/image-generation",
+    "location": "2026-10-19查阅：生成与编辑、文本渲染和结构布局限制；未调用图像模型，不声称请求文字保证准确"
+  },
+  "deprecated": {
+    "title": "OpenAI Deprecations：DALL·E model snapshots",
+    "short": "OpenAI下线记录，2026-05-12",
+    "url": "https://developers.openai.com/api/docs/deprecations",
+    "location": "2025-11-14条目：dall-e-2与dall-e-3 API于2026-05-12移除；不推断第三方入口"
+  },
+  "midjourney": {
+    "title": "Midjourney Prompt Basics与Aspect Ratio",
+    "short": "Midjourney提示与宽高比文档",
+    "url": "https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics",
+    "location": "2026-10-19查阅短而具体的画面描述；--ar参数另见prompt-packet/参考资料.md；未操作Midjourney"
   }
 }
