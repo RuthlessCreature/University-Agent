@@ -4,7 +4,7 @@
   "target_pages": 240,
   "produced_pages": 240,
   "next_section": null,
-  "scope": "240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4真实Google Scholar检索、Section 5原文与作者数据复算、Section 6设计与样本条件计算、Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要与Word返修材料、Section 10指南与研究路线及Word文件、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。",
+  "scope": "240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4真实Google Scholar检索、Section 5原文与作者数据复算、Section 6设计与样本条件计算、Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要与Word返修材料、Section 10指南与研究路线及Word文件、Section 11权利要求阅读与交底图文、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。",
   "sections": [
     {
       "id": 0,
@@ -142,10 +142,11 @@
       "page_budget": 12,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s11-r3",
-      "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r3.pptx",
-      "sha256": "dfad9550598ce51a615fad72078e5286a57feab6e27ac6e8fcdf9b5adddb59db",
-      "checks": "training/section-11/checks.json"
+      "revision": "s11-r6",
+      "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r6.pptx",
+      "sha256": "9c03fcba0911142719817daed2fa6706835998f3d69a921cecd2afd629a8eac7",
+      "checks": "training/section-11/checks.json",
+      "consistency_review": "2026-10-19：补公开权利要求结构限定与引用关系，教学流程和实际Word附图同源；不作查全、专利性、法律范围或设备效果结论。"
     },
     {
       "id": 12,

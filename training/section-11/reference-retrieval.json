@@ -8,7 +8,16 @@
       24,
       94,
       96
-    ]
+    ],
+    "recheck_2026_10_19": {
+      "official_url": "Opened official document URL via web; page screenshot attempts partly failed, so the existing original PDF cache and page images were used for visual rereading",
+      "viewed_physical_pages": [
+        24,
+        94,
+        96
+      ],
+      "scope": "Description structure, recorded search scope and non-final opinion distinction"
+    }
   },
   {
     "file": "EP4636367A1.pdf",
@@ -20,6 +29,14 @@
       16,
       17,
       26
-    ]
+    ],
+    "recheck_2026_10_19": {
+      "official_url": "Opened official document URL via web; page screenshot attempts partly failed, so the existing original PDF cache and page images were used for visual rereading",
+      "viewed_physical_pages": [
+        14,
+        15
+      ],
+      "scope": "Claims 1,3,4,11 and their references; selected reading, not complete legal analysis"
+    }
   }
 ]

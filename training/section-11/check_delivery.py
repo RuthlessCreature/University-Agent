@@ -1,9 +1,9 @@
 from pathlib import Path
 from xml.etree import ElementTree as E
-import json,hashlib,re,zipfile
+import json,hashlib,re,zipfile,subprocess,sys
 from docx import Document
 from pypdf import PdfReader
-r=Path(__file__).resolve().parent;rev='s11-r3';packet=r/'patent-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
+r=Path(__file__).resolve().parent;rev='s11-r6';packet=r/'patent-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
 def load(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 d=load(r/'lesson.json');m=load(packet/'patent.json');e=load(r/'execution-evidence.json');run=load(packet/'output/run.json');assert e['run']==run
@@ -16,7 +16,7 @@ for sec in m['sections']:assert sec['title'] in body and sec['content'] in body
 assert len(m['sections'])==6 and '{{' not in body and 'teaching-simulation' in body and '没有样机' in body
 issues=load(packet/'output/issues.json');assert len(issues)==5 and all(q['severity']=='blocking' for q in issues)
 assert load(packet/'output/questions.json')==m['questions'] and len(m['questions'])==4
-assert len(PdfReader(packet/'word-preview/patent-draft.pdf').pages)==2 and len(list((packet/'word-preview').glob('page-*.png')))==2
+assert len(PdfReader(packet/'word-preview/patent-draft.pdf').pages)==3 and len(list((packet/'word-preview').glob('page-*.png')))==3
 route=(packet/'方案流程.mmd').read_text('utf-8');assert route.count('-->')==6
 fig=load(r/'source-figure.json');assert fig['physical_pdf_page']==17 and fig['figure']=='FIG. 2' and sha(r/'assets'/fig['asset'])==fig['sha256']
 ns={'a':'http://schemas.openxmlformats.org/drawingml/2006/main','p':'http://schemas.openxmlformats.org/presentationml/2006/main'};diagrams=[];tables=[];images=[]
@@ -32,7 +32,10 @@ with zipfile.ZipFile(p) as z:
  assert len(E.fromstring(z.read('ppt/slides/slide7.xml')).findall('.//p:cxnSp',ns))==6
  assert any(z.read(n)==(r/'assets'/fig['asset']).read_bytes() for n in z.namelist() if n.startswith('ppt/media/') and n.endswith('.png'))
 pdf=r/'renders'/rev/(p.stem+'.pdf');assert len(PdfReader(pdf).pages)==12 and len(list(pdf.parent.glob('slide-*.png')))==12
-v=load(r/'.build'/rev/'validation.json');digest=sha(p);assert v['finalSha256']==digest and v['packageIntegrity']['findingCount']==v['presentationLayout']['findingCount']==0
+subprocess.run([sys.executable,str(r/'check_scheme.py'),rev],check=True,capture_output=True)
+receipt=r/'.build'/rev/'validation.json'
+if not receipt.exists():receipt=r/'validation.json'
+v=load(receipt);digest=sha(p);assert v['finalSha256']==digest and v['packageIntegrity']['findingCount']==v['presentationLayout']['findingCount']==0
 (r/'validation.json').write_text(json.dumps(v,ensure_ascii=False,indent=2),'utf-8')
-q=dict(revision=rev,pages=12,notes=12,pdf_pages=12,preview_images=12,editable_connector_diagram_pages=diagrams,native_table_pages=tables,original_patent_figure_pages=images,word_pages=2,word_sections=6,questions=4,blocking_issues=5,actual_file_execution=True,external_model_called=False,scientific_validation='not_performed',pptx_sha256=digest,scope='文件哈希、原文图像、Word段落、来源、待补事项及导出文件核对；不代表专利检索查全、专利性判断、设备验证或用户教学验收。')
+q=dict(revision=rev,pages=12,notes=12,pdf_pages=12,preview_images=12,editable_connector_diagram_pages=diagrams,native_table_pages=tables,original_patent_figure_pages=images,word_pages=3,word_embedded_flow_figures=1,native_flow_and_claim_endpoint_checks=True,word_sections=6,questions=4,blocking_issues=5,actual_file_execution=True,external_model_called=False,scientific_validation='not_performed',pptx_sha256=digest,scope='文件哈希、原文图像、Word段落、来源、待补事项及导出文件核对；不代表专利检索查全、专利性判断、设备验证或用户教学验收。')
 (r/'checks.json').write_text(json.dumps(q,ensure_ascii=False,indent=2),'utf-8');print(json.dumps(q,ensure_ascii=False,indent=2))

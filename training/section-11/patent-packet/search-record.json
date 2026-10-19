@@ -23,5 +23,13 @@
     "全部权利要求与实施方式评估",
     "当前法律状态与权属核对",
     "新颖性创造性和实施自由分析"
-  ]
+  ],
+  "recheck_2026_10_19": {
+    "operation": "Directly revisited the two previously found public documents; no claim of a new search or comprehensive search",
+    "read": [
+      "US7255669B2 full claim 15 and description FIG.7",
+      "EP4636367A1 PDF pages 14–15 claims 1,3,4,11"
+    ],
+    "correction": "US claim15 mechanical/contact conditions added; EP claim3/4 dependency and claim11 optional predecessor scope separated"
+  }
 }

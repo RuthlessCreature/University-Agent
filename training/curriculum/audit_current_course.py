@@ -9,7 +9,7 @@ def write(p,s):p.write_text(s.rstrip()+'\n','utf-8')
 def dump(p,d):write(p,json.dumps(d,ensure_ascii=False,indent=2))
 d=json.loads((R/'section-progress.json').read_text('utf-8'));s=d['sections'][0];f=A/'training/section-00/output/高校科研AI课程_Section0_s0-r4.pptx'
 s.update(revision='s0-r4',pptx=str(f.relative_to(A)).replace('\\','/'),sha256=sha(f));s.pop('pending_consistency_review',None);s['consistency_review']='2026-10-19：已去除旧课堂练习安排，补查Berkeley 2025具体页面，修订课程导图。'
-d['checked_date']='2026-10-19';d['scope']='240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4真实Google Scholar检索、Section 5原文与作者数据复算、Section 6设计与样本条件计算、Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要与Word返修材料、Section 10指南与研究路线及Word文件、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。';dump(R/'section-progress.json',d)
+d['checked_date']='2026-10-19';d['scope']='240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4真实Google Scholar检索、Section 5原文与作者数据复算、Section 6设计与样本条件计算、Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要与Word返修材料、Section 10指南与研究路线及Word文件、Section 11权利要求阅读与交底图文、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。';dump(R/'section-progress.json',d)
 ns={'a':'http://schemas.openxmlformats.org/drawingml/2006/main','p':'http://schemas.openxmlformats.org/presentationml/2006/main'};pages={};inventory=[];offset=0
 for s in d['sections']:
  p=A/s['pptx'];assert sha(p)==s['sha256']

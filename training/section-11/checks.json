@@ -1,5 +1,5 @@
 {
-  "revision": "s11-r3",
+  "revision": "s11-r6",
   "pages": 12,
   "notes": 12,
   "pdf_pages": 12,
@@ -19,13 +19,15 @@
   "original_patent_figure_pages": [
     3
   ],
-  "word_pages": 2,
+  "word_pages": 3,
+  "word_embedded_flow_figures": 1,
+  "native_flow_and_claim_endpoint_checks": true,
   "word_sections": 6,
   "questions": 4,
   "blocking_issues": 5,
   "actual_file_execution": true,
   "external_model_called": false,
   "scientific_validation": "not_performed",
-  "pptx_sha256": "dfad9550598ce51a615fad72078e5286a57feab6e27ac6e8fcdf9b5adddb59db",
+  "pptx_sha256": "9c03fcba0911142719817daed2fa6706835998f3d69a921cecd2afd629a8eac7",
   "scope": "文件哈希、原文图像、Word段落、来源、待补事项及导出文件核对；不代表专利检索查全、专利性判断、设备验证或用户教学验收。"
 }

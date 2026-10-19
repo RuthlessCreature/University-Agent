@@ -1,0 +1,29 @@
+{
+  "prior_revision": "s11-r3",
+  "current_revision": "s11-r6",
+  "changed_text_pages": [
+    3,
+    5,
+    7,
+    8,
+    10,
+    11
+  ],
+  "changed_png_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+  ],
+  "identical_png_pages": [
+    1,
+    2,
+    9
+  ],
+  "visual_review": "All 12 final PPT PNGs opened individually. Final Word 3 pages and template 1 page opened after A4/spacing and label fixes. LibreOffice/Poppler, no native Microsoft Office application check."
+}

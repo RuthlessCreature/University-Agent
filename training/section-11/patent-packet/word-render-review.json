@@ -1,0 +1,12 @@
+{
+  "word_sha256": "0750843db14fabc7dd88b2fd7d631b1efae89651252f09ec667d19f8f10c4c14",
+  "word_pdf_sha256": "5ded3e07c0d275c9f5e9eb132cf228e9806c5eec81af33a8c38ab0f183563b3f",
+  "word_pages": 3,
+  "template_pages": 1,
+  "preview_sha256": {
+    "page-1.png": "e6514d0329afb7598443f45d2786be7002b04d13ef40b04297969a0b9c04e107",
+    "page-2.png": "39df5aeca631a8c4eacd90411d060b86ce13bbec5461e7c8d36bfddedc262976",
+    "page-3.png": "cc734093fc51afa09513738d128b01fafc7cfd29ccca9987962c40e57217fccd"
+  },
+  "review": "A4 final pages individually inspected after removing orphan text and moving the valid-branch label off the arrow. Embedded diagram and S1–S4 pending materials checked. No Microsoft Word application test."
+}

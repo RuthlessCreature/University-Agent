@@ -1,0 +1,108 @@
+{
+  "title": "离心机传感数据检查 教学假设方案",
+  "status": "无样机，未验证，未证明可专利性",
+  "caption": "箭头仅表示拟议信息路径；安装、阈值、接口、处理与恢复规则均待提供。",
+  "nodes": [
+    {
+      "id": "input",
+      "label": "S1 传感数据与时间标记",
+      "x": 80,
+      "y": 340,
+      "w": 390,
+      "h": 95
+    },
+    {
+      "id": "valid",
+      "label": "S2 数据有效？",
+      "x": 620,
+      "y": 340,
+      "w": 350,
+      "h": 95
+    },
+    {
+      "id": "state",
+      "label": "S3 识别运行状态",
+      "x": 1130,
+      "y": 340,
+      "w": 390,
+      "h": 95
+    },
+    {
+      "id": "fault",
+      "label": "S4 记录传感故障",
+      "x": 620,
+      "y": 560,
+      "w": 350,
+      "h": 95
+    },
+    {
+      "id": "request",
+      "label": "形成控制处理请求",
+      "x": 1130,
+      "y": 560,
+      "w": 390,
+      "h": 95
+    },
+    {
+      "id": "response",
+      "label": "处理与恢复规则待验证",
+      "x": 1130,
+      "y": 730,
+      "w": 390,
+      "h": 75
+    }
+  ],
+  "edges": [
+    {
+      "source": "input",
+      "target": "valid",
+      "from": "right",
+      "to": "left"
+    },
+    {
+      "source": "valid",
+      "target": "state",
+      "from": "right",
+      "to": "left",
+      "label": "有效",
+      "label_x": 990,
+      "label_y": 335
+    },
+    {
+      "source": "valid",
+      "target": "fault",
+      "from": "bottom",
+      "to": "top",
+      "label": "异常",
+      "label_x": 650,
+      "label_y": 475
+    },
+    {
+      "source": "state",
+      "target": "request",
+      "from": "bottom",
+      "to": "top"
+    },
+    {
+      "source": "fault",
+      "target": "request",
+      "from": "right",
+      "to": "left"
+    },
+    {
+      "source": "request",
+      "target": "response",
+      "from": "bottom",
+      "to": "top"
+    }
+  ],
+  "annotations": [
+    {
+      "text": "数据异常时保留故障记录。\n请求的内容、接收接口和\n设备动作仍需设计与试验。",
+      "x": 80,
+      "y": 600,
+      "w": 450,
+      "h": 160
+    }
+  ]
+}

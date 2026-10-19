@@ -1,38 +1,51 @@
 {
   "kind": "patent",
   "status": "draft_review_required",
-  "input_sha256": "35d21f63a011cdecd6c012d69b406b2d3a58762f0d06852f6418c13284e4c117",
-  "template_sha256": "b45636e9dc7ee2b235bef60ae4f1a1a7469a436aa9d32842ab9e224ea97915b7",
+  "input_sha256": "ef36b1568081407dcb2b358a46157cb7bc0acf9ad70288f7f40cbc6e6cc4ecc5",
+  "template_sha256": "667aa69ae74665423ee7f26bacf9f29a86c147c01c3e0d44124537b70938dc4d",
   "guide_sha256": null,
   "artifact": "patent-draft.docx",
-  "artifact_sha256": "593a0579bafb593c52e2aac1ad6dc030d33566ccac2199d8db6229854a60b1bc",
+  "artifact_sha256": "0750843db14fabc7dd88b2fd7d631b1efae89651252f09ec667d19f8f10c4c14",
   "human_approved": false,
   "external_model_called": false,
   "scientific_validation": "not_performed",
+  "diagram_assets": [
+    {
+      "file": "diagrams/教学方案流程.png",
+      "caption": "教学方案信息流程 无样机与控制验证",
+      "sha256": "42e893f672347fd3ebc8fa35dc688762595ea0c2261d5621dfcd5d91b8085790"
+    }
+  ],
   "events": [
     {
       "stage": "intake",
       "state": "running",
       "detail": "",
-      "utc": "2026-10-18T12:35:30.179924+00:00"
+      "utc": "2026-10-19T14:25:11.080670+00:00"
     },
     {
       "stage": "constraints",
       "state": "passed",
       "detail": "",
-      "utc": "2026-10-18T12:35:30.192924+00:00"
+      "utc": "2026-10-19T14:25:11.092472+00:00"
     },
     {
       "stage": "outline",
       "state": "human_review_required",
       "detail": "",
-      "utc": "2026-10-18T12:35:30.211924+00:00"
+      "utc": "2026-10-19T14:25:11.105479+00:00"
+    },
+    {
+      "stage": "teaching_diagram",
+      "state": "embedded",
+      "detail": "diagrams/教学方案流程.png",
+      "utc": "2026-10-19T14:25:11.130473+00:00"
     },
     {
       "stage": "docx",
       "state": "written",
       "detail": "patent-draft.docx",
-      "utc": "2026-10-18T12:35:30.280988+00:00"
+      "utc": "2026-10-19T14:25:11.149461+00:00"
     }
   ]
 }
