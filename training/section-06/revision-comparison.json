@@ -1,0 +1,84 @@
+{
+  "published_version_comparison": {
+    "previous_revision": "s6-r3",
+    "current_revision": "s6-r5",
+    "changed_slide_text_pages": [
+      3,
+      11,
+      13
+    ],
+    "changed_png_pages": [
+      3,
+      7,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "byte_identical_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      16
+    ]
+  },
+  "reviewed_intermediate_comparison": {
+    "previous_revision": "s6-r4",
+    "current_revision": "s6-r5",
+    "changed_slide_text_pages": [
+      3,
+      11
+    ],
+    "changed_png_pages": [
+      3,
+      11,
+      15
+    ],
+    "byte_identical_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      16
+    ]
+  },
+  "visually_opened_intermediate_pages": [
+    3,
+    7,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visually_opened_final_changed_pages": [
+    3,
+    11,
+    15
+  ],
+  "original_previously_reviewed_pages": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    16
+  ]
+}

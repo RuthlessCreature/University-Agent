@@ -1,5 +1,5 @@
 {
-  "revision": "s6-r3",
+  "revision": "s6-r5",
   "pages": 16,
   "pdf_pages": 16,
   "notes": 16,
@@ -12,7 +12,6 @@
     6,
     7,
     8,
-    11,
     12,
     14,
     15,
@@ -24,7 +23,13 @@
     13
   ],
   "native_chart_pages": [
-    10
+    10,
+    11
+  ],
+  "sample_size_per_arm": [
+    100,
+    45,
+    26
   ],
   "chart_series_values": [
     [
@@ -36,13 +41,13 @@
       83.0
     ]
   ],
-  "embedded_workbooks": 1,
+  "embedded_workbooks": 2,
   "source_data_rows": 8,
   "recalculated_increments": [
     12,
     31,
     19
   ],
-  "pptx_sha256": "2e1fc3f29a81ee8ad7df3a745a3ef567481c749cd9a4fea6f804d8b85164a43a",
+  "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
   "scope": "文件结构、可编辑对象、图表缓存与工作簿、公开数据一致性及条件增量复算。另有逐页人工视觉检查；不表示已开展研究、统计推断完成或科研Agent全系统运行。"
 }

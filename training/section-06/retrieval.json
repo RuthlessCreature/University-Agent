@@ -31,5 +31,18 @@
     "通过伦理或数据授权",
     "样本量已计算",
     "全部科研方案已验收"
-  ]
+  ],
+  "conditional_calculation_20261019": {
+    "method_url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/power.t.test.html",
+    "reference_pages_reopened": {
+      "blocks": [
+        2,
+        10
+      ]
+    },
+    "code": "design-packet/sample-size.R",
+    "actual_runtime_report": "design-packet/r-output/run.json",
+    "assumptions_status": "教学设定，无预研究估计依据",
+    "participant_data_used": false
+  }
 }

@@ -46,5 +46,11 @@
     "short": "课程方法说明／教学模拟",
     "url": "local:方案示例与材料状态.md",
     "location": "本科课程方案、区组示意、样本层级和资源安排未实施；没有实验结果或批准记录"
+  },
+  "rpower": {
+    "title": "R stats power.t.test官方文档与本地R条件计算",
+    "short": "R stats官方说明；本地计算2026-10-19",
+    "url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/power.t.test.html",
+    "location": "n为每组人数；delta、sd、sig.level、power与strict；实际源码design-packet/sample-size.R，运行记录r-output/run.json"
   }
 }
