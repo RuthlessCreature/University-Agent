@@ -17,4 +17,4 @@
 
 制作使用 Artifact Tool。最终文件尚未在 Microsoft PowerPoint 中实测；预览来自 LibreOffice。后续 Section 2 展开 Agentic AI、Agent 与 Harness，Section 3 展开 Humanizer，Section 9 单独核对 Science 等目标期刊的具体要求。
 
-当前修订为 a4：第11页补充PLOS FAQ中单纯语言改进的披露例外，避免将正文总则作一概而论的解释。
+当前修订为a5：第9页用同一篇公开论文说明Claude、ChatGPT Work与DeepSeek课程网页方案的选用条件，配套三份完整任务文本、一份人工核对说明和检查脚本。三条路线未作产品执行或性能比较；原有专业检索工具分工保留在讲师稿及Section5。a4的PLOS披露限定继续保留。

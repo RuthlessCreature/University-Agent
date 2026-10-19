@@ -82,5 +82,26 @@
     "url": "https://www.connectedpapers.com/",
     "location": "官方产品首页",
     "checked": "2026-10-17"
+  },
+  "claude_files": {
+    "title": "Claude Help Center, Create and edit files with Claude",
+    "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
+    "location": "2026-08-06；How to get started、Supported file types、Advanced data analysis",
+    "checked": "2026-10-19",
+    "use": "仅核对官方公布的文件与执行能力；未登录产品实测"
+  },
+  "chatgpt_files": {
+    "title": "OpenAI, Work with files",
+    "url": "https://learn.chatgpt.com/docs/artifacts-viewer",
+    "location": "Work with files正文：ChatGPT桌面预览、ChatGPT Work网页附件与下载；Review and refine files",
+    "checked": "2026-10-19",
+    "use": "用于ChatGPT Work文件路线，不据此承诺普通聊天入口均有相同能力"
+  },
+  "deepseek_api": {
+    "title": "DeepSeek API Docs, Your First API Call",
+    "url": "https://api-docs.deepseek.com/",
+    "location": "API兼容格式、Integrate with Agent Tools；顶部Search/Fetch说明",
+    "checked": "2026-10-19",
+    "use": "区分模型API与应用提供的搜索、计算、导出；指南子路径返回同一API首页，未冒充读到专项指南"
   }
 }

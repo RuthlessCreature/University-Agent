@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-19",
+  "references": [
+    {
+      "cached_file": "gwu-foundations.pdf",
+      "sha256": "ff59ef2c62c770fff92d48b9b72b89b711f737a64a12af4d63244d7e0332122e",
+      "visually_viewed_pages": [
+        20
+      ],
+      "original_url": "https://docs.google.com/presentation/d/1H4KwDLIjdCLdsPkPWANsnr-qewui19Jal3vDk7v4nBE/edit",
+      "retrieved_this_turn": false,
+      "note": "原网址本次读取失败；重新查看既有缓存预览，不将缓存日期写为本轮下载日期。"
+    },
+    {
+      "cached_file": "ijs-foundations.pdf",
+      "sha256": "96f383129df832224a558ea3bd0448d5da2212b9ff22c80b61f4270d643e4694",
+      "visually_viewed_pages": [
+        22
+      ],
+      "original_url": "https://ai4science.ijs.si/static/files/4-FoundationModels.pdf",
+      "retrieved_this_turn": false,
+      "note": "原网址本次读取失败；重新查看既有缓存预览，不将缓存日期写为本轮下载日期。"
+    }
+  ],
+  "adopted_scope": "材料可见范围、检索和生成步骤的解释次序；不采用原图、产品断言或预测。"
+}

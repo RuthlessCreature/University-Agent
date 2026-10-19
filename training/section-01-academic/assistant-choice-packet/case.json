@@ -1,0 +1,51 @@
+{
+  "material_type": "课程选用案例；未作三方实测",
+  "slide": 9,
+  "common_facts": {
+    "study": "Walters & Wilder (2023), Scientific Reports 13:14045",
+    "doi": "10.1038/s41598-023-41032-5",
+    "source": "../sources/citation-study.pdf",
+    "reported_references": 636,
+    "reported_fabrication_proportions": [
+      0.55,
+      0.18
+    ],
+    "reported_substantive_error_among_real_proportions": [
+      0.43,
+      0.24
+    ],
+    "location": "PDF第4页表3、4；第1页摘要与正文计数",
+    "limit": "2023年特定模型与文献任务；报告比例不外推到当前产品，也不把两种分母相加"
+  },
+  "routes": [
+    {
+      "product": "Claude",
+      "prompt_file": "Claude.md",
+      "executed": false,
+      "result_file": null
+    },
+    {
+      "product": "ChatGPT-Work",
+      "prompt_file": "ChatGPT-Work.md",
+      "executed": false,
+      "result_file": null
+    },
+    {
+      "product": "DeepSeek-课程网页",
+      "prompt_file": "DeepSeek-课程网页.md",
+      "executed": false,
+      "result_file": null
+    }
+  ],
+  "shared_checklist": [
+    "出处定位",
+    "分母定义",
+    "保留年份与研究限制",
+    "不推断当前产品排名",
+    "下载并打开所需可编辑文件"
+  ],
+  "input_sha256": {
+    "citation-study.pdf": "2a911abde0ab94ad322871af9c259cefe25254324815507157071da1e5e66b83",
+    "citation-data.json": "2a4e8fc2b05fd3e53e76082640edb170a4e0fea05ac6cdc8a5fb71ab9be0f82a"
+  }
+}

@@ -1,12 +1,11 @@
 {
-  "revision": "a4",
+  "revision": "a5",
   "pptx_pages": 12,
   "notes": 12,
   "pdf_pages": 12,
   "preview_images": 12,
   "native_tables": [
     6,
-    9,
     11
   ],
   "editable_chart_page": 5,
@@ -18,11 +17,12 @@
   "editable_diagram_pages": [
     2,
     3,
-    4
+    4,
+    9
   ],
   "classroom_exercise_pages": 0,
   "research_pdf_pages": 8,
   "source_pdf_sha256": "2a911abde0ab94ad322871af9c259cefe25254324815507157071da1e5e66b83",
-  "pptx_sha256": "3e6acc96c479734447513346c17f349d9794f94fcfa605f350fcf9ce3b4de57f",
+  "pptx_sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
   "scope": "文件结构、源数据、可编辑对象和页数核验；不替代科学审查、用户教学验收或PowerPoint实测。"
 }

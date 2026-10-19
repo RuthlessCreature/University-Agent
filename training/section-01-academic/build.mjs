@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'a4';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'a5';
 const SKILL='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation,applyPresentationChartFont}=await import(pathToFileURL(path.join(SKILL,'container_tools/artifact_tool_utils.mjs')).href);
@@ -10,7 +10,7 @@ const data=JSON.parse(await fs.readFile(path.join(R,'lesson.json'),'utf8')),refs
 const stage=path.join(R,'.build',rev);await fs.mkdir(stage,{recursive:true});await fs.mkdir(path.join(R,'output'),{recursive:true});
 const p=Presentation.create({slideSize:{width:1600,height:900}}),F='Microsoft YaHei';p.theme.defaultFont=F;
 const C={navy:'#132F43',ink:'#263D4A',blue:'#245B77',muted:'#627681',red:'#963F3C',green:'#2C6D68',rule:'#CAD6DC',light:'#F1F5F7'};
-const shortRefs={ijs:'IJS / SLAIF（2026）',gwu:'GWU MAE-6291（2026）',nist:'NIST AI 600-1（2024）',concepts:'OpenAI：Key concepts',context:'OpenAI：Conversation state',prompt:'OpenAI：Prompt engineering',optimization:'OpenAI：Model optimization',tools:'OpenAI：Using tools',walters:'Walters & Wilder（2023），表3、4',nature:'Nature Portfolio AI policy',plos:'PLOS AI policy',elicit:'Elicit',consensus:'Consensus',connected:'Connected Papers'};
+const shortRefs={claude_files:'Claude：文件工具',chatgpt_files:'OpenAI：Work with files',deepseek_api:'DeepSeek：API Docs',ijs:'IJS / SLAIF（2026）',gwu:'GWU MAE-6291（2026）',nist:'NIST AI 600-1（2024）',concepts:'OpenAI：Key concepts',context:'OpenAI：Conversation state',prompt:'OpenAI：Prompt engineering',optimization:'OpenAI：Model optimization',tools:'OpenAI：Using tools',walters:'Walters & Wilder（2023），表3、4',nature:'Nature Portfolio AI policy',plos:'PLOS AI policy',elicit:'Elicit',consensus:'Consensus',connected:'Connected Papers'};
 function text(s,v,x,y,w,h,size=31,bold=false,color=C.ink){const t=s.shapes.add({geometry:'textbox',position:{left:x,top:y,width:w,height:h},fill:'none',line:{fill:'none',width:0}});t.text=v;t.text.style={typeface:F,fontSize:size,bold,color,autoFit:'none',wrap:'word',insets:0,verticalAlignment:'top'};return t;}
 function rule(s,x,y,w,color=C.rule,width=1){return s.shapes.add({geometry:'line',position:{left:x,top:y,width:w,height:0},line:{fill:color,width}});}
 function node(s,v,x,y,w,h,size=30){const t=s.shapes.add({geometry:'rect',position:{left:x,top:y,width:w,height:h},fill:'#FFFFFF',line:{fill:C.blue,width:1.5}});t.text=v;t.text.style={typeface:F,fontSize:size,bold:true,color:C.navy,autoFit:'none',wrap:'word',insets:12,verticalAlignment:'middle'};return t;}
@@ -47,6 +47,16 @@ for(const d of data){
  case 'prompt-structure':{
   text(s,d.lead,80,215,1440,78,32,false,C.blue);text(s,d.example,80,340,1000,412,31);
   for(let i=0;i<4;i++){let y=338+i*104;text(s,d.labels[i][0],1180,y,340,43,29,true,C.blue);text(s,d.labels[i][1],1180,y+47,340,58,26);}break;}
+ case 'assistant-choice':{
+  text(s,'使用入口',80,323,270,40,28,true);text(s,'这一任务怎样处理',440,323,530,40,28,true);text(s,'选择依据与检查',1070,323,450,40,28,true);
+  for(let i=0;i<3;i++){
+   const y=390+i*132;
+   const a=text(s,d.routes[i][0],80,y,260,97,29,true,C.blue);
+   const b=text(s,d.routes[i][1],440,y,530,100,29);
+   const c=text(s,d.routes[i][2],1070,y,450,100,27,false,C.green);
+   connect(s,a,b);connect(s,b,c);if(i<2)rule(s,80,y+108,1440);
+  }
+  break;}
  case 'tool-map':table(s,d.rows,[295,615,530],228,420,28);text(s,d.selection,80,697,1440,105,30);break;
  case 'inference':{
   for(let i=0;i<3;i++){let y=325+i*128;text(s,d.levels[i][0],80,y,240,55,39,true,C.blue);text(s,d.levels[i][1],370,y,1150,45,32,true);text(s,d.levels[i][2],370,y+51,1150,70,28);if(i<2)rule(s,80,y+120,1440);}
@@ -61,6 +71,6 @@ for(const d of data){
  s.speakerNotes.text=d.notes+'\n\n'+d.refs.map(k=>`${refs[k].title}\n${refs[k].url}\n定位：${refs[k].location}`).join('\n\n');
 }
 const candidate=path.join(stage,'candidate.pptx');await (await PresentationFile.exportPptx(p)).save(candidate);
-const tableOwners=[6,9,11];
+const tableOwners=[6,11];
 await finalizePresentation({workspaceDir:R,candidatePath:candidate,finalPath:path.join(R,'output',`高校科研AI课程_Section1_学术讲授版_${rev}.pptx`),pythonExecutable:PY,integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-heading-fit',...tableOwners.flatMap(n=>['--require-native-table-slide',String(n)])],fontPolicy:{basis:'design',families:[F]},explicitTotalSlideCount:12,requiredNativeTableOwnerSlides:tableOwners,requiredNativeChartOwnerSlides:[5],materializeLiteralChartWorkbooks:true,verifyArtifactToolImport:true,receiptPath:path.join(stage,'validation.json')});
 console.log('FINAL',rev,'12 slides');
