@@ -2103,18 +2103,18 @@
           "section": 14,
           "page": 15,
           "global_page": 239,
-          "title": "五类任务的当前输出范围",
-          "pptx": "training/section-14/output/高校科研AI课程_Section14_本地与云端Agent实际演示_s14-r2.pptx",
-          "pptx_sha256": "d77a1a31c952d6916ed8243d96034a75be03a9858bade90f684c94fb5085de14",
-          "excerpt": "14  本地与云端Agent实际演示\n五类任务的当前输出范围\n任务入口决定组织材料的顺序，真正交付什么还取决于该运行端接入了哪些工具。\n任务\n本地8788本轮实际输出\nWorker当前代码范围\n申报 / Grant\n教学指南、材料、模板 → Word\n模型节点组织内容 → Word\n论文 / Paper\n公开数据示例文字 → Word\n模型节点组织内容 → Word\n专利 / Patent\n教学技术方案 → Word\n模型节点组织内容 "
+          "title": "五类任务要分别看运行端和实际文件",
+          "pptx": "training/section-14/output/高校科研AI课程_Section14_本地与云端Agent实际演示_s14-r3.pptx",
+          "pptx_sha256": "ebde36eba553ace4acf095461eb291b8cc75dbdc4cf78448b9bb841d4a73e92a",
+          "excerpt": "14  本地与云端Agent实际演示\n五类任务要分别看运行端和实际文件\n前节五类本地产物已随本节保存快照；8788固定材料演示与Worker模型工作流各有自己的输出范围。\n任务\n本课程已有本地产物快照\nWorker代码中的导出范围\n申报 / Grant\n第10节：Word、路线与问题清单\n模型节点组织内容后导出Word\n论文 / Paper\n第9节：清稿、标记稿及回复Word\n模型节点组织内容后导出Word\n专利 / Patent\n第1"
         },
         {
           "section": 14,
           "page": 16,
           "global_page": 240,
           "title": "可复查的演示材料包",
-          "pptx": "training/section-14/output/高校科研AI课程_Section14_本地与云端Agent实际演示_s14-r2.pptx",
-          "pptx_sha256": "d77a1a31c952d6916ed8243d96034a75be03a9858bade90f684c94fb5085de14",
+          "pptx": "training/section-14/output/高校科研AI课程_Section14_本地与云端Agent实际演示_s14-r3.pptx",
+          "pptx_sha256": "ebde36eba553ace4acf095461eb291b8cc75dbdc4cf78448b9bb841d4a73e92a",
           "excerpt": "14  本地与云端Agent实际演示\n可复查的演示材料包\n保留这次用的材料、指令版本、运行结果和问题清单，下一次才能检查变化来自哪里。\n输入材料\n指令与程序版本\n过程记录\n交付文件\n指南、研究材料\n与模板原件\nSkill内容及指纹\n本轮程序快照\n节点输入和输出\n失败原因与重试\nWord、来源账本\n问题清单与预览\n改了材料或模板，就产生新记录，并重新检查对应文件。\n实际授课前复查服务、模型和文件；保留未核验项，不把旧记录说成现场运行。\n来"
         }
       ]
@@ -4465,7 +4465,7 @@
       "section": 14,
       "page": 11,
       "global_page": 235,
-      "title": "云端入口与模型配置的核验",
+      "title": "云端本轮核验到哪一步",
       "images": 0,
       "charts": 0,
       "connectors": 0,
@@ -4505,7 +4505,7 @@
       "section": 14,
       "page": 15,
       "global_page": 239,
-      "title": "五类任务的当前输出范围",
+      "title": "五类任务要分别看运行端和实际文件",
       "images": 0,
       "charts": 0,
       "connectors": 0,

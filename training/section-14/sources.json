@@ -21,13 +21,13 @@
     "short": "本轮本地HTTP、文件与拒绝记录",
     "title": "Section 14实际本地教学运行",
     "url": "demo/output/grant/run.json",
-    "location": "evidence/local-http.json；demo/input；demo/output；evidence/negative-cases.json；固定材料，无模型调用"
+    "location": "evidence/local-http.json；demo/input；demo/output；evidence/negative-cases.json；固定材料，无模型调用；course-artifacts/manifest.json为前节五类已有产物快照，本轮未重跑这些前节流程"
   },
   "cloud": {
-    "short": "本轮云端健康接口与实际登录页",
+    "short": "本轮HTTPS健康200、登录401",
     "title": "科研工作台健康检查",
     "url": "https://ikun.homes/health",
-    "location": "evidence/cloud-health.json；assets/cloud-health-actual.png；2026-10-18 UTC；仅健康与配置状态，不含本轮模型任务"
+    "location": "evidence/cloud-health.json、cloud-auth-attempt.json；当前公开配置与一次登录尝试，无本轮模型任务"
   },
   "code": {
     "short": "当前工作区代码快照；12项定向夹具测试",

@@ -5,7 +5,7 @@
   "template_sha256": "371963251fe4dbc29171f9fe1119e406b22e5b2c84aa3379e021d61c68fd9989",
   "guide_sha256": null,
   "artifact": "patent-draft.docx",
-  "artifact_sha256": "4773d9356abf1642073df5814cc4ccfe9244593ff6e9f61c94c8e03e720aaeb5",
+  "artifact_sha256": "02953300a2d612dcc57917ca53b2159a83f1915c5c3ed1f4c4ddf9481faa4672",
   "human_approved": false,
   "external_model_called": false,
   "scientific_validation": "not_performed",
@@ -14,25 +14,25 @@
       "stage": "intake",
       "state": "running",
       "detail": "",
-      "utc": "2026-10-18T14:21:39.804625+00:00"
+      "utc": "2026-10-19T16:47:38.978717+00:00"
     },
     {
       "stage": "constraints",
       "state": "passed",
       "detail": "",
-      "utc": "2026-10-18T14:21:39.805627+00:00"
+      "utc": "2026-10-19T16:47:38.997714+00:00"
     },
     {
       "stage": "outline",
       "state": "human_review_required",
       "detail": "",
-      "utc": "2026-10-18T14:21:39.840243+00:00"
+      "utc": "2026-10-19T16:47:39.013715+00:00"
     },
     {
       "stage": "docx",
       "state": "written",
       "detail": "patent-draft.docx",
-      "utc": "2026-10-18T14:21:39.905779+00:00"
+      "utc": "2026-10-19T16:47:39.040750+00:00"
     }
   ]
 }

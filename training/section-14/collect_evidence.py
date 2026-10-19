@@ -8,8 +8,12 @@ E=R/'evidence'; I=R/'demo/input'; O=R/'demo/output';I.mkdir(parents=True,exist_o
 for kind in ['grant','paper','patent']:
  src=A/'training/demos'/kind; dest=I/kind;dest.mkdir(exist_ok=True)
  for name in [kind+'.json','template.docx']+(['guide.json'] if kind=='grant' else []):shutil.copy2(src/name,dest/name)
- req=urllib.request.Request('http://127.0.0.1:8788/api/local-run/'+kind,data=b'{}',headers={'Content-Type':'application/json'})
- with urllib.request.urlopen(req,timeout=30) as q:run=json.load(q)
+ if kind=='grant':
+  # The actual browser click already wrote this run; keep its exact artifact.
+  run=json.loads((src/'http-output/run.json').read_text('utf-8'))
+ else:
+  req=urllib.request.Request('http://127.0.0.1:8788/api/local-run/'+kind,data=b'{}',headers={'Content-Type':'application/json'})
+  with urllib.request.urlopen(req,timeout=30) as q:run=json.load(q)
  dest=O/kind;shutil.copytree(src/'http-output',dest,dirs_exist_ok=True)
  with urllib.request.urlopen('http://127.0.0.1:8788/artifacts/'+kind,timeout=15) as q:b=q.read()
  assert hashlib.sha256(b).hexdigest()==run['artifact_sha256']==sha(dest/(kind+'-draft.docx'))
@@ -39,7 +43,7 @@ cloud=json.loads((E/'cloud-health.json').read_text('utf-8'))
 assert cloud['health']['skill_fingerprint']==lock['fingerprint']
 dump(E/'same-skills.json',{'checked_at':now,'count':len(rows),'canonical_commit':lock['commit'],'fingerprint':lock['fingerprint'],'cloud_health_fingerprint_matches':True,'normalization':'CRLF converted to LF','skills':rows,'scope':'Instruction bytes on disk and bundle verified; live health reports same fingerprint. Does not prove equal tools or correct model execution.'})
 snap=E/'source-snapshot';snap.mkdir(exist_ok=True)
-for f in ['src/automatic.js','src/model.js','src/workflows.js','src/writing.js','src/grant.js','src/projects.js','src/word-export.js','skills-lock.json']:
+for f in ['src/automatic.js','src/model.js','src/workflows.js','src/writing.js','src/grant.js','src/projects.js','src/word-export.js','src/generated/skill-pack.js','skills-lock.json','tools/serve-local.mjs','tools/run-local-workflow.py','tests/automatic.test.mjs','tests/deepseek.test.mjs']:
  p=snap/f;p.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(A/f,p)
 shutil.copy2(W/'University-Skills/tools/local_workflow.py',snap/'local_workflow.py')
 shutil.copy2(R/'.reference-cache/page-30.png',R/'assets/cmu-2025-page-30.png')

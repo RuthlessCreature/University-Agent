@@ -8,19 +8,19 @@
       "stage": "intake",
       "state": "running",
       "detail": "",
-      "utc": "2026-10-18T14:21:40.561314+00:00"
+      "utc": "2026-10-19T16:47:39.355558+00:00"
     },
     {
       "stage": "constraints",
       "state": "passed",
       "detail": "",
-      "utc": "2026-10-18T14:21:40.568309+00:00"
+      "utc": "2026-10-19T16:47:39.365208+00:00"
     },
     {
       "stage": "workflow",
       "state": "failed",
       "detail": "final_export_blocked",
-      "utc": "2026-10-18T14:21:40.602865+00:00"
+      "utc": "2026-10-19T16:47:39.382204+00:00"
     }
   ]
 }

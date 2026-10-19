@@ -8,13 +8,13 @@
       "stage": "intake",
       "state": "running",
       "detail": "",
-      "utc": "2026-10-18T14:21:40.521306+00:00"
+      "utc": "2026-10-19T16:47:39.322803+00:00"
     },
     {
       "stage": "workflow",
       "state": "failed",
       "detail": "unknown_source:NOT-A-SOURCE",
-      "utc": "2026-10-18T14:21:40.547303+00:00"
+      "utc": "2026-10-19T16:47:39.343803+00:00"
     }
   ]
 }

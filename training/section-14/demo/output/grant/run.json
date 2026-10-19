@@ -5,7 +5,7 @@
   "template_sha256": "ecfe2a21d747a214e94cbb61c9e4b746ec4a1d6f3057c5b168fed9a612a354b7",
   "guide_sha256": "5dbed041b003c020b2453954057edf0a6202608762c1d080c219f61c02dad0f2",
   "artifact": "grant-draft.docx",
-  "artifact_sha256": "4bd8229d661bfdfd41acabdd8496e0decfff5fd53ebdb28c0d7514af0ad840a2",
+  "artifact_sha256": "94a3608204d22fb9cc45162d2c21231fd0e9c135606942bb0c8194ae6c729651",
   "human_approved": false,
   "external_model_called": false,
   "scientific_validation": "not_performed",
@@ -14,25 +14,25 @@
       "stage": "intake",
       "state": "running",
       "detail": "",
-      "utc": "2026-10-18T14:21:37.964856+00:00"
+      "utc": "2026-10-19T16:44:03.916916+00:00"
     },
     {
       "stage": "constraints",
       "state": "passed",
       "detail": "",
-      "utc": "2026-10-18T14:21:37.974375+00:00"
+      "utc": "2026-10-19T16:44:03.954135+00:00"
     },
     {
       "stage": "outline",
       "state": "human_review_required",
       "detail": "",
-      "utc": "2026-10-18T14:21:38.014430+00:00"
+      "utc": "2026-10-19T16:44:03.974186+00:00"
     },
     {
       "stage": "docx",
       "state": "written",
       "detail": "grant-draft.docx",
-      "utc": "2026-10-18T14:21:38.104557+00:00"
+      "utc": "2026-10-19T16:44:04.020106+00:00"
     }
   ]
 }

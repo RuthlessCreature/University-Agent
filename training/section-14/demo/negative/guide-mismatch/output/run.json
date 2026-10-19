@@ -8,13 +8,13 @@
       "stage": "intake",
       "state": "running",
       "detail": "",
-      "utc": "2026-10-18T14:21:40.553302+00:00"
+      "utc": "2026-10-19T16:47:39.344804+00:00"
     },
     {
       "stage": "workflow",
       "state": "failed",
       "detail": "guide_requirement_mismatch",
-      "utc": "2026-10-18T14:21:40.558300+00:00"
+      "utc": "2026-10-19T16:47:39.353991+00:00"
     }
   ]
 }

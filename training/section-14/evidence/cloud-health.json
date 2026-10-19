@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-18T14:18:46.916Z",
+  "checked_at": "2026-10-19T16:42:52.385Z",
   "url": "https://ikun.homes/health",
-  "method": "browser navigation and visible JSON",
+  "method": "actual HTTPS GET",
   "health": {
     "ok": true,
     "service": "university-agent",
@@ -16,5 +16,6 @@
     "skill_commit": "7987aaca32e23d1e041d8d530a386f2bc03c177f",
     "skill_fingerprint": "7b0f394edabf03e0acf62924a063b5728cdf9a7fa1e4104f4c230a1bf0ab0512"
   },
-  "scope": "Health/configuration only; no authenticated workflow or live model requested this turn."
+  "scope": "Current configuration only; authenticated model execution checked separately.",
+  "http_status": 200
 }

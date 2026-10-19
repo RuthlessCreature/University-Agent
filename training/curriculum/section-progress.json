@@ -178,10 +178,11 @@
       "page_budget": 16,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s14-r2",
-      "pptx": "training/section-14/output/高校科研AI课程_Section14_本地与云端Agent实际演示_s14-r2.pptx",
-      "sha256": "d77a1a31c952d6916ed8243d96034a75be03a9858bade90f684c94fb5085de14",
-      "checks": "training/section-14/checks.json"
+      "revision": "s14-r3",
+      "pptx": "training/section-14/output/高校科研AI课程_Section14_本地与云端Agent实际演示_s14-r3.pptx",
+      "sha256": "ebde36eba553ace4acf095461eb291b8cc75dbdc4cf78448b9bb841d4a73e92a",
+      "checks": "training/section-14/checks.json",
+      "consistency_review": "2026-10-20：重跑本地三份Word及3项异常，24份完整指令与Worker包一致，12项夹具测试重跑；附前节18项文件。云端健康200、登录401，未创建真实模型任务。"
     }
   ]
 }

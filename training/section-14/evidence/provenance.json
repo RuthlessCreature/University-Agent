@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-18T14:21:37.122953+00:00",
-  "agent_head": "7fc72fe9ca5b4e04fc59c0c9e5cbbe123ae45095",
+  "checked_at": "2026-10-19T16:47:38.005400+00:00",
+  "agent_head": "d9644ac4061ea806a2d48d447651e543681d788a",
   "working_tree_snapshot": true,
   "reference_pdf": {
     "url": "https://www.cs.cmu.edu/~mgormley/courses/10423-f25/slides/lecture23-code.pdf",
@@ -52,6 +52,43 @@
     {
       "path": "evidence/source-snapshot/src/writing.js",
       "sha256": "ba0c08c59abbf83b862a55b7fcb653724f15fdc0056d7c3d1044b9225078c40c"
+    },
+    {
+      "path": "evidence/source-snapshot/tests/automatic.test.mjs",
+      "sha256": "3fb103242dbc08bc4ab951a2649fb44bfd38329d733f056d266abe6242b2fd68"
+    },
+    {
+      "path": "evidence/source-snapshot/tests/deepseek.test.mjs",
+      "sha256": "f6bb5c3c6fdd19c995dd0eb5aa69bc5bab275bb74712319f9118ae1e569d7941"
+    },
+    {
+      "path": "evidence/source-snapshot/tools/run-local-workflow.py",
+      "sha256": "66fba114d280ea98e0a47fdf9b5ae79b9949c318e2a77606ef26e64c017cf972"
+    },
+    {
+      "path": "evidence/source-snapshot/tools/serve-local.mjs",
+      "sha256": "1b574bc6db610d738add77539cdbc9326607a32a7bc2facd688388440e2243c4"
+    },
+    {
+      "path": "evidence/source-snapshot/src/generated/skill-pack.js",
+      "sha256": "51f8d83088cbe202216b77b267dad1ac1f7424eb0896e2fccb268b90b85d7c56"
     }
-  ]
+  ],
+  "browser_capture": {
+    "file": "assets/local-grant-actual.png",
+    "sha256": "a3ca37b404239b124611f49f5f82d01ece257a6d9260e246e9648b1307264c11",
+    "kind": "actual browser click on local grant button followed by generated Word link",
+    "grant_run_sha256": "0f48ed8e6b712be50d983f0ad15440f31d320f1eeb4209ce2585faccfcbdf120",
+    "scope": "页面实际截图与该次按钮生成的run和Word对应；未用图像模型。"
+  },
+  "reference_latest_review": {
+    "date": "2026-10-20",
+    "cached_physical_pages_viewed": [
+      30,
+      34
+    ],
+    "online_pdf_result": "fetch error; cached original retained",
+    "openai_skills_docs_opened": true,
+    "cloudflare_alarms_docs_opened": true
+  }
 }

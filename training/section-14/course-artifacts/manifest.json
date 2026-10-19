@@ -1,0 +1,169 @@
+{
+  "files": [
+    {
+      "kind": "grant",
+      "section": 10,
+      "source": "training/section-10/grant-packet/output/grant-draft.docx",
+      "file": "course-artifacts/grant/grant-draft.docx",
+      "bytes": 216057,
+      "sha256": "ddb3227fbd249c4bed018fe6bddf1438cd3eb5884c33f25ea4c761478729c40f",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "grant",
+      "section": 10,
+      "source": "training/section-10/grant-packet/output/run.json",
+      "file": "course-artifacts/grant/run.json",
+      "bytes": 1882,
+      "sha256": "00ded5949c7770f80457c8af500bd22bdc3d747a72025fadb7a10abfdfddcb9e",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "grant",
+      "section": 10,
+      "source": "training/section-10/grant-packet/output/issues.json",
+      "file": "course-artifacts/grant/issues.json",
+      "bytes": 711,
+      "sha256": "06a5d42f88ac242b05242120e71099512eecf366d004872d5f4229fe5fc4c5a9",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "paper",
+      "section": 9,
+      "source": "training/section-09/writing-packet/word-r1/修订稿_清稿.docx",
+      "file": "course-artifacts/paper/修订稿_清稿.docx",
+      "bytes": 38664,
+      "sha256": "bcb8b5222019a9b3807b3b4bb78531647e7adc906c5e6027c0028c17b4ab0ca5",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "paper",
+      "section": 9,
+      "source": "training/section-09/writing-packet/word-r1/修订稿_改动标记.docx",
+      "file": "course-artifacts/paper/修订稿_改动标记.docx",
+      "bytes": 39065,
+      "sha256": "581ad63e9b066f37373fde131fcd77953ad80071a93a0aa5c50ea1679211ca56",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "paper",
+      "section": 9,
+      "source": "training/section-09/writing-packet/word-r1/逐条审稿回复.docx",
+      "file": "course-artifacts/paper/逐条审稿回复.docx",
+      "bytes": 37684,
+      "sha256": "3c111082badb9fd99bf48edfef580368083921983ffcce6f1cd4cf9429d32c23",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "paper",
+      "section": 9,
+      "source": "training/section-09/writing-packet/word-r1/export-manifest.json",
+      "file": "course-artifacts/paper/export-manifest.json",
+      "bytes": 5461,
+      "sha256": "eef5824ba81d8b102585b59715b796e12e242f6d3970de5bb6c9a014a5f7f158",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "patent",
+      "section": 11,
+      "source": "training/section-11/patent-packet/output/patent-draft.docx",
+      "file": "course-artifacts/patent/patent-draft.docx",
+      "bytes": 132209,
+      "sha256": "0750843db14fabc7dd88b2fd7d631b1efae89651252f09ec667d19f8f10c4c14",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "patent",
+      "section": 11,
+      "source": "training/section-11/patent-packet/output/run.json",
+      "file": "course-artifacts/patent/run.json",
+      "bytes": 1532,
+      "sha256": "97a55c4aa22acbbf2457daff0c6fb434dc2f54b1995aca7f9be1aec4906082b6",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "patent",
+      "section": 11,
+      "source": "training/section-11/patent-packet/output/issues.json",
+      "file": "course-artifacts/patent/issues.json",
+      "bytes": 687,
+      "sha256": "f230963bd52209133ec5a4c274a3a598a8e48b170dbf41412578dc83c5f25ae3",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "figure",
+      "section": 8,
+      "source": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+      "file": "course-artifacts/figure/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+      "bytes": 123811,
+      "sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "figure",
+      "section": 8,
+      "source": "training/section-08/figure-packet/研究技术路线.drawio",
+      "file": "course-artifacts/figure/研究技术路线.drawio",
+      "bytes": 5820,
+      "sha256": "65dbc568c052124200037e03c7fba77492b5bb7e9e23b84a4cdad4a085b9b03a",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "figure",
+      "section": 8,
+      "source": "training/section-08/figure-packet/材料核对与返工.drawio",
+      "file": "course-artifacts/figure/材料核对与返工.drawio",
+      "bytes": 3264,
+      "sha256": "c61aa5fe91599b48d982f3bd8ff97ef1ec5740539a6d1b058776b92acf106ccb",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "figure",
+      "section": 8,
+      "source": "training/section-08/checks.json",
+      "file": "course-artifacts/figure/checks.json",
+      "bytes": 1432,
+      "sha256": "2cee2b03ce8e95b1408590e40a88f2918b33e05b6db4c4d06a95dfaa33b99ccd",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "closeout",
+      "section": 12,
+      "source": "training/section-12/closeout-packet/output/materials-review.docx",
+      "file": "course-artifacts/closeout/materials-review.docx",
+      "bytes": 39516,
+      "sha256": "6399b20d534c6684ab64148e5808850d8cf8f3cc79e197733e7647bbba4bdaf7",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "closeout",
+      "section": 12,
+      "source": "training/section-12/closeout-packet/output/attachment-catalog.csv",
+      "file": "course-artifacts/closeout/attachment-catalog.csv",
+      "bytes": 1589,
+      "sha256": "489fbc38545a7f1e783497bc476aa7e0786ecf51323fc858dbfaded594e29558",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "closeout",
+      "section": 12,
+      "source": "training/section-12/closeout-packet/output/evidence-matrix.csv",
+      "file": "course-artifacts/closeout/evidence-matrix.csv",
+      "bytes": 760,
+      "sha256": "02c22efcb1cbb566f8274a24bf61ba528fcece850370fcea678c58d4b1117f55",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    },
+    {
+      "kind": "closeout",
+      "section": 12,
+      "source": "training/section-12/closeout-packet/output/run.json",
+      "file": "course-artifacts/closeout/run.json",
+      "bytes": 1597,
+      "sha256": "191fee5b1b6f948ecdde698b6e665f881226d35f667a0a815e220af78614fcb3",
+      "scope": "复制前节已有教学产物供复查；本轮未重跑该节流程，不代表科学验收或云端执行。"
+    }
+  ],
+  "researcher_approved": false,
+  "this_turn_reexecuted": false,
+  "scope": "本课程五类已有本地产物快照；8788固定材料演示和Worker代码范围另行说明。"
+}

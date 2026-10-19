@@ -1,5 +1,5 @@
 {
-  "revision": "s14-r2",
+  "revision": "s14-r3",
   "pages": 16,
   "notes": 16,
   "pdf_pages": 16,
@@ -28,7 +28,10 @@
   "actual_grant_word_preview_pages": 2,
   "this_turn_cloud_health_checked": true,
   "this_turn_live_cloud_model_task": false,
+  "actual_cloud_login_status": 401,
+  "local_course_artifact_snapshots": 18,
+  "bundled_skill_instructions_checked": 24,
   "researcher_approved": false,
-  "pptx_sha256": "d77a1a31c952d6916ed8243d96034a75be03a9858bade90f684c94fb5085de14",
-  "scope": "Package, actual local files, copied input/output hashes, source bytes and declared test scope. Geometry/import checks do not prove teaching acceptance; fixture tests do not prove live cloud model operation."
+  "pptx_sha256": "ebde36eba553ace4acf095461eb291b8cc75dbdc4cf78448b9bb841d4a73e92a",
+  "scope": "Package, actual local files, copied input/output hashes, 18 existing course artifact snapshots, 24 full instruction files against Worker bundle, current health and failed login, actual fixture test run and declared scope. Geometry/import checks do not prove teaching acceptance; fixture tests do not prove live cloud model operation."
 }
