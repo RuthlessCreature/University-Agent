@@ -1,0 +1,3 @@
+# 客户原稿52项
+
+原始正文完整保留在original_topics.json，来源为handoff-inputs中的客户截图及.doc文本。当前逐项定位、边界和缺口统一见COURSE_COVERAGE_MATRIX.md，避免同时维护新旧两套页码。历史M编号和旧页码可在Git历史中查阅，不能视为新课件已通过教学验收。

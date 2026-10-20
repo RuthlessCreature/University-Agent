@@ -1,0 +1,17 @@
+{
+  "status": "teaching_draft_for_review",
+  "utc": "2026-10-19T16:30:52.459136+00:00",
+  "input_hashes": {
+    "penguins.csv": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+    "source.json": "fb692fd31480568fd3aa640fde40127c8aa0f65e1b30b24a06c0c8fe19021e6a",
+    "brief.json": "084e63084f33a83b5ac890b7e10f8c8402f8c2687ab9d997eaa0a3064929c5c2",
+    "figure-narration.json": "84b9a81adc39d72ade9c40b447cfadaf8ac73ac5946e87521ebb4830fd5ac48c"
+  },
+  "executor_sha256": "78633aed6cd73291e8e8bb915c5dcee741df5c5a2069a021a224bf7a74d85d22",
+  "artifact_sha256": "5808635ebf988104522df979c9c5e52eae104b6f8c9a4bb4a751a93ac0638629",
+  "external_model_called": false,
+  "researcher_approved": false,
+  "published": false,
+  "platform_account_accessed": false,
+  "scope": "公开CSV复算、锁定数字匹配与现成教学文字整理，不是自主传播Agent运行或正式发表"
+}

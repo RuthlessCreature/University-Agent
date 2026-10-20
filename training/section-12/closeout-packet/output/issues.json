@@ -1,0 +1,12 @@
+[
+  {
+    "id": "SAMPLING",
+    "status": "PENDING",
+    "issue": "缺个体标识与抽样设计核对资料"
+  },
+  {
+    "id": "SIGNOFF",
+    "status": "PENDING",
+    "issue": "未取得研究者对科学解释与当前版本的核对"
+  }
+]

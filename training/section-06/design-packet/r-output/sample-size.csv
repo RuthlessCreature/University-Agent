@@ -1,0 +1,4 @@
+"delta_points","assumed_sd","standardized_difference","alpha","target_power","n_unrounded_per_arm","n_required_per_arm","power_at_required_n","power_at_one_fewer","power_by_independent_integration","assumed_retention","recruit_per_arm"
+4,10,0.4,0.05,0.8,99.0803248665524,100,0.803647504421276,0.79967868669063,0.803647504419786,0.9,112
+6,10,0.6,0.05,0.8,44.5857893411129,45,0.803696922860703,0.794670015608049,0.803696922859229,0.9,50
+8,10,0.8,0.05,0.8,25.524571835741,26,0.8074866151471,0.791451289985583,0.807486615145299,0.9,29

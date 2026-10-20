@@ -1,0 +1,28 @@
+{
+  "revision": "a7",
+  "pptx_pages": 12,
+  "notes": 12,
+  "pdf_pages": 12,
+  "preview_images": 12,
+  "native_tables": [
+    6,
+    11
+  ],
+  "editable_chart_page": 5,
+  "embedded_chart_workbook": true,
+  "chart_values_verified": [
+    0.55,
+    0.18
+  ],
+  "editable_diagram_pages": [
+    2,
+    3,
+    4,
+    9
+  ],
+  "classroom_exercise_pages": 0,
+  "research_pdf_pages": 8,
+  "source_pdf_sha256": "2a911abde0ab94ad322871af9c259cefe25254324815507157071da1e5e66b83",
+  "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+  "scope": "文件结构、源数据、可编辑对象和页数核验；不替代科学审查、用户教学验收或PowerPoint实测。"
+}

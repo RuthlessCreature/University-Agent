@@ -1,0 +1,14 @@
+{
+  "word_sha256": "ddb3227fbd249c4bed018fe6bddf1438cd3eb5884c33f25ea4c761478729c40f",
+  "word_pdf_sha256": "8c81398dd0a51ad0712baa51e5b473fc2bf242b5002da138b66df14cce074ab8",
+  "previews": {
+    "page-1.png": "0e1935603e3baa52011fbaa296dc0f4bb8fc7a74f4be70bd3697b59e075e12b9",
+    "page-2.png": "af8d8227de2634c2036e3f9e07f7052119e73dc4b1a1309347ecd78d552d36cb",
+    "page-3.png": "4f0d2722d1989af3c6b6e28d5748470ea1cc55d7b18c74fee6738d99a525db03"
+  },
+  "word_pages": 3,
+  "template_pages": 1,
+  "scope": "Final three Word pages and one teaching template page visually opened after title/paragraph fixes. No Microsoft Word or PowerPoint application check.",
+  "external_model_called": false,
+  "research_implemented": false
+}

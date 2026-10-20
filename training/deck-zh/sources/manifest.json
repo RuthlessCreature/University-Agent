@@ -1,0 +1,185 @@
+[
+  {
+    "id": "nature-ai",
+    "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+    "title": "Nature Portfolio AI policy",
+    "usage": "Official policy; paraphrase only; last-update date not displayed",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\nature-ai.html",
+    "sha256": "53044ebd771ee3f5f1cba1824b819a16bbef4e9e6895d0ecadbafa7ef1ca2e83",
+    "download": "ok"
+  },
+  {
+    "id": "agents",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "title": "Building effective agents",
+    "usage": "Official engineering article; paraphrase only",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\agents.html",
+    "sha256": "fb1e99464300d1dfa3cb26a9bfae987da24d7cd8d39b530926c4052a62db9b16",
+    "download": "ok"
+  },
+  {
+    "id": "mcp",
+    "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+    "title": "MCP introduction",
+    "usage": "Official documentation; paraphrase only",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\mcp.html",
+    "sha256": "7b4299c3d6924e3209981cb8fc4cbd8b530d3c2a759e8510f6be8733ba835ff2",
+    "download": "ok"
+  },
+  {
+    "id": "skills",
+    "url": "https://agentskills.io/what-are-skills",
+    "title": "Agent Skills specification",
+    "usage": "Official specification",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\skills.html",
+    "sha256": "74bbfeed9ac57735a84bae7e20561c3fce8325c13e7e9b893cf234b2663cd4f5",
+    "download": "ok"
+  },
+  {
+    "id": "penguins",
+    "url": "https://allisonhorst.github.io/palmerpenguins/",
+    "title": "palmerpenguins",
+    "usage": "Data CC0; Horst Hill Gorman 2020",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\penguins.html",
+    "sha256": "6e2fc3776103ef1277b14671722bffb3001c1edadf754a1621688e2e02e853c4",
+    "download": "ok"
+  },
+  {
+    "id": "gorman",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081",
+    "title": "Gorman Williams Fraser 2014 PLOS ONE 9 e90081",
+    "usage": "CC BY; figures reproduced unchanged with attribution",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\gorman.html",
+    "sha256": "7410388c29d53a8d14a8d821ffb6b8fb7ee4b969342d94a1b926767657ee4a6c",
+    "download": "ok"
+  },
+  {
+    "id": "minimax",
+    "url": "https://platform.minimax.io/docs/api-reference/text-openai-api",
+    "title": "MiniMax OpenAI compatibility",
+    "usage": "Official API documentation; account access untested",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\minimax.html",
+    "sha256": "be6faf2025a04955dbb0bf5d2b45dd749687daf6d610d11a159aab421aecac8f",
+    "download": "ok"
+  },
+  {
+    "id": "codex",
+    "url": "https://developers.openai.com/codex/skills",
+    "title": "Codex Skills",
+    "usage": "Official documentation; local CLI version 0.124.0",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\codex.html",
+    "sha256": "964b6c724f5d2d1dd172b42f96b9e04622cb6d9b4546f7727279779018181f41",
+    "download": "ok"
+  },
+  {
+    "id": "scipy",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html",
+    "title": "Independent samples t test",
+    "usage": "Official statistical reference",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\scipy.html",
+    "sha256": "9a741ff7024c4f4023b53e081d2f62f233b9cf44382743466ea58c43f9524c8c",
+    "download": "ok"
+  },
+  {
+    "id": "icmje",
+    "url": "https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html",
+    "title": "IMRAD manuscript preparation",
+    "usage": "Official recommendations",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\icmje.html",
+    "sha256": "21d2bc4092afd1da98e4342afa210c34777998e9d7a49a13a8bcdd1faa26b9bc",
+    "download": "ok"
+  },
+  {
+    "id": "orcid",
+    "url": "https://info.orcid.org/what-is-orcid/",
+    "title": "ORCID",
+    "usage": "Official documentation",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\orcid.html",
+    "sha256": "284639ae730e1089db1a4342def8872face049435f88c5b200e3497e987acde9",
+    "download": "ok"
+  },
+  {
+    "id": "crossref",
+    "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "title": "Crossref REST API",
+    "usage": "Metadata verifies identity, not truth of claims",
+    "retrieved": "2026-10-16",
+    "kind": "public-real-source",
+    "local_path": "sources\\crossref.html",
+    "sha256": "7cd6aa338ce3ba4b71f046097304f8dad4e8cd4a80603583f48199eb6998de2b",
+    "download": "ok"
+  },
+  {
+    "id": "gorman2014-fig1",
+    "local_path": "assets\\gorman2014-fig1.png",
+    "sha256": "c604454c75ab3ca7cf98870f486e924db052138f98ebd3a358cb07c8e17f5e31",
+    "kind": "public-real-asset",
+    "usage": "Gorman et al. 2014 CC BY, figures; palmerpenguins data CC0, CSV"
+  },
+  {
+    "id": "gorman2014-fig3",
+    "local_path": "assets\\gorman2014-fig3.png",
+    "sha256": "db4d71116ffba31b25653d7adc361266b205f3bb14c205c285a380067442c473",
+    "kind": "public-real-asset",
+    "usage": "Gorman et al. 2014 CC BY, figures; palmerpenguins data CC0, CSV"
+  },
+  {
+    "id": "penguins-data",
+    "local_path": "sources\\penguins.csv",
+    "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+    "kind": "public-real-asset",
+    "usage": "palmerpenguins CSV; CC0; see public project documentation"
+  },
+  {
+    "id": "prisma",
+    "url": "https://www.prisma-statement.org/prisma-2020-statement",
+    "title": "PRISMA 2020 statement",
+    "kind": "public-real-source",
+    "retrieved": "2026-10-17",
+    "usage": "official documentation; paraphrase only",
+    "sha256": "62dcb0a62027592266fc7306cdd18d034f60e6084f8b131fa37760971ec613bb",
+    "download": "ok"
+  },
+  {
+    "id": "minimax-cn",
+    "url": "https://platform.minimax.cn/docs/api-reference/text-openai-api",
+    "title": "MiniMax国内OpenAI兼容文档",
+    "kind": "public-real-source",
+    "retrieved": "2026-10-17",
+    "usage": "official documentation; paraphrase only",
+    "sha256": "7729468328d2df70cec7a3dfc6e614da8a1a764f6aa02a81e17c4ddf61b71f89",
+    "download": "ok"
+  },
+  {
+    "id": "minimax-plan",
+    "url": "https://platform.minimax.cn/docs/m-plan/quickstart",
+    "title": "MiniMax订阅Key配置说明",
+    "kind": "public-real-source",
+    "retrieved": "2026-10-17",
+    "usage": "official documentation; paraphrase only",
+    "sha256": "5f96b59b3c1d40bbeac61cd526c83b6c4a88fe37394f07268cb509ed51e464e7",
+    "download": "ok"
+  }
+]

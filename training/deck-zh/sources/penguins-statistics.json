@@ -1,0 +1,28 @@
+{
+  "rows": 344,
+  "missing_body_mass": 2,
+  "groups": {
+    "Adelie": {
+      "n": 151,
+      "mean": 3700.662251655629,
+      "sd": 458.56612591013476,
+      "min": 2850.0,
+      "max": 4775.0
+    },
+    "Gentoo": {
+      "n": 123,
+      "mean": 5076.016260162602,
+      "sd": 504.11623665709163,
+      "min": 3950.0,
+      "max": 6300.0
+    },
+    "Chinstrap": {
+      "n": 68,
+      "mean": 3733.0882352941176,
+      "sd": 384.3350813871914,
+      "min": 2700.0,
+      "max": 4800.0
+    }
+  },
+  "method": "all observed body_mass_g; descriptive statistics; no random sampling; no causal inference"
+}

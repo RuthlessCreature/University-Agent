@@ -1,0 +1,27 @@
+{
+  "revision": "course-r4",
+  "pages": 240,
+  "source_sections": 15,
+  "slide_xml_byte_identical": 240,
+  "notes_xml_byte_identical": 240,
+  "native_objects": {
+    "charts": 24,
+    "tables": 26,
+    "images": 12,
+    "connectors": 474,
+    "notes": 240
+  },
+  "embedded_workbooks_byte_identical": 24,
+  "copied_parts_verified": 765,
+  "internal_relationships_resolve": 1506,
+  "metadata_change_only": [
+    [
+      0,
+      "docProps/app.xml"
+    ]
+  ],
+  "actual_pptx_pdf_pages": 240,
+  "preview_images": 240,
+  "pptx_sha256": "6ffa913b9aad457b86963b25449066a87e05664c8f1e85dc9c9f70113a4f6471",
+  "scope": "Current source deck hashes, complete native slide/note/chart/media/workbook parts, relationship resolution and actual assembled rendering. Does not establish policy completeness, scientific approval, live model execution, timed rehearsal or user teaching acceptance."
+}

@@ -1,0 +1,11 @@
+.build/
+.reference-cache/
+node_modules/
+__pycache__/
+*.log
+output/*s11-r1.pptx
+output/*s11-r2.pptx
+renders/s11-r1/
+renders/s11-r2/
+assets/EP4636367A1-page-1.png
+assets/EP4636367A1-page-17.png

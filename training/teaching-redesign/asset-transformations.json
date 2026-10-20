@@ -1,0 +1,29 @@
+[
+  {
+    "file": "nsfc-ai-paragraph.png",
+    "parent": "nsfc-2026-application-rules.pdf",
+    "pdf_page_index": 13,
+    "printed_page": 16,
+    "render_dpi": 280,
+    "crop_pixels": [
+      274,
+      1086,
+      1864,
+      1390
+    ],
+    "change": "paragraph crop only, no text added or redrawn",
+    "sha256": "68471906613e658345d65ecb371bae9fac639fe4a6a48e1d6f5efcdea0449e9f"
+  },
+  {
+    "file": "asreview-cycle.png",
+    "parent": "asreview-fig1.png",
+    "crop_pixels": [
+      0,
+      630,
+      1033,
+      1340
+    ],
+    "change": "active-learning-cycle crop only, no labels changed; disclosed on slide",
+    "sha256": "c2599b05da828877a336f1d7112f1d49d9834de135f416849b7f262414dac614"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "DETAILS",
+    "severity": "blocking",
+    "issue": "缺安装、参数、接口与安全验证等实施细节"
+  },
+  {
+    "id": "NOVELTY",
+    "severity": "blocking",
+    "issue": "未形成经核实的区别特征，现有技术检索未查全"
+  },
+  {
+    "id": "EFFECT",
+    "severity": "blocking",
+    "issue": "无样机与测试结果，不得填写性能数字"
+  },
+  {
+    "id": "OWNERSHIP",
+    "severity": "blocking",
+    "issue": "真实发明人贡献、权属与公开记录尚未提供"
+  },
+  {
+    "id": "HUMAN-SIGNOFF",
+    "severity": "blocking",
+    "issue": "需要研究者对输入和模板的当前版本签核"
+  }
+]

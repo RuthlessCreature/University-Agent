@@ -1,0 +1,11 @@
+{
+  "package": "webr",
+  "version": "0.6.0",
+  "tarball": "https://registry.npmjs.org/webr/-/webr-0.6.0.tgz",
+  "npm_integrity": "sha512-M2b8m3/ZBk7XMIR7LD97s5k/9jUla83Z0Hl4b+WnrK7XmSMpZdajCiP3XkSzHKHDUgscHKe+lVUvk3aym8q0bw==",
+  "integrity_verified": true,
+  "original_worker_sha256": "c64282f5e15b51ef473e26548203313f868208c8988b2c7bdfc22c5730de418b",
+  "patched_worker_sha256": "30012f0a709536a852a024adb8ecd6c48085f7852224f0578167c33fd7ecbdbd",
+  "R_wasm_sha256": "5df459fb222d332e358cf08e4019c0e114398579ed8c62242bfcceeda81222ba",
+  "patch_scope": "Two Node.js Windows path-to-file-URL loader adjustments only; no R source or R.wasm changes."
+}

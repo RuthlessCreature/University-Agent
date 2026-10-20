@@ -1,0 +1,18 @@
+# Section 9 论文写作、投稿与返修
+
+22页，最终版本s9-r7。可编辑PPTX在output，PDF和22张逐页图在renders/s9-r7。讲师稿与PPT备注对应。
+
+页面1—3讲材料、主张与结构；4—10用公开数据讲结果段、摘要、引言、方法、图表、讨论和Humanizer修改；11—15讲引文、AI协作、选刊、提交和编辑评审；16—21讲意见拆解、三种回复、版本对应及重投；22整理文件关系并衔接基金申报。
+
+框图和连接线为原生对象；第5页均值图和第8页频数图为原生图表，分别附嵌入Excel工作簿。writing-packet保留公开CSV、来源哈希、实际计算摘要、两份教学稿、真实文本差异、模拟审稿意见矩阵与逐条回复。可直接编辑Markdown及CSV。
+
+公开数据与真实原研究分别列来源。中文教学稿由AI协助编写并经过事实和表达审查，没有新增采样，不构成研究成果。三条审稿意见为教学模拟，正文修订是真实文件改动；R2.1所要求的新增研究未完成。没有实际投稿、外审或期刊系统截图。revision.diff不是Word修订模式。新增word-r1中的标记稿也使用字体增删标记，未启用Word修订模式。
+
+构建：配置Artifact Tool依赖后运行build.mjs；render.py s9-r7从最终PPTX导出PDF与PNG；check_delivery.py复核源数据、图表缓存、真实差异、回复锚点和导出文件。validation.json记录PPT包与版面检查。程序通过只反映所列检查，教学效果仍待用户审阅。
+
+
+style-packet补PLOS One与Scientific Reports两份摘要任务模板、原[A1]、119词英文教学改稿、中文讲解稿、逐句事实对应和差异文件。它们用于核对官方部分格式要求与原材料，不等于全文合规或投稿适格性。PPT第5页展示中文稿与均值，第13页展示完整任务和核对流程。两份模板使用同一实际草稿作比较，不声称两次独立模型执行。
+
+本轮第14页明确Adelie 152条中排除6条缺失；第17页补样本筛选流程；第20页用R1.2串起实际回复、标记稿和清稿。writing-packet/word-r1包含三份可编辑Word、来源与导出哈希及5页实际渲染预览。独立检查从DOCX实际增删格式还原两个Markdown版本，并核对回复和段落编号。运行export_revision_packet.py生成文件，check_revision_packet.py检查对应关系。三条意见为教学模拟，新增研究仍未完成。
+
+独立交付包可在配有本课程Python依赖的环境运行check_delivery.py和check_revision_packet.py。若没有历史s9-r5文件，只跳过版本比较；仍核对当前数据、图表、Word和已保存的导出检查记录。validation.json是该PPT导出时的检查记录，不代表在新机器重新运行了PowerPoint。重建PPT需另配Artifact Tool运行环境。

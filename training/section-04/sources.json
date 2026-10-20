@@ -1,0 +1,56 @@
+{
+  "utah": {
+    "title": "Stefan Nagy. Research 101: Ideas. University of Utah, 2026-01-07",
+    "short": "Utah CS5493/6493，2026，pp.35、41、52",
+    "url": "https://www-old.cs.utah.edu/~snagy/courses/cs5493/slides/Week1b_ResearchIdeas.pdf",
+    "location": "PDF第35、41、52页，另读第37、47、53页文字"
+  },
+  "nber": {
+    "title": "Sebastian Tello-Trillo. Choosing and Crafting a Research Question. NBER workshop, 2026，作者公布的逐页文字版",
+    "short": "Tello-Trillo，2026，作者课件文字版",
+    "url": "https://sebastiantellotrillo.com/resources/choosing-and-crafting-a-research-question-markdown-version",
+    "location": "Slide 21、23、26；仅借鉴收窄问题和评价路径，不复制原文"
+  },
+  "paper": {
+    "title": "Bastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS, 2025. DOI:10.1073/pnas.2422633122",
+    "short": "Bastani等，PNAS 2025，摘要、Table 1",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+    "location": "摘要、Experimental Design、Table 1；48%与127%为原文四舍五入的练习成绩相对提升"
+  },
+  "course": {
+    "title": "课程编写：选题判断与教学模拟",
+    "short": "课程教学模拟／方法说明",
+    "url": "local:教学模拟与选题示例.md",
+    "location": "设定的对象、时间、限制和候选题均非实测资料，不代表已通过伦理或数据授权"
+  },
+  "trend_preprint": {
+    "title": "Towards Educator-Driven Tutor Authoring: Generative AI Approaches for Creating Intelligent Tutor Interfaces",
+    "short": "Calo & MacLellan，arXiv2024，Fig.1",
+    "url": "https://arxiv.org/html/2405.14713v1",
+    "location": "arXiv摘要页Submission history；全文第2、3节与Figure1；CC BY4.0，图按比例缩放"
+  },
+  "trend_patent": {
+    "title": "Method and apparatus for automated content database creation and real-time, adaptive tutoring and grading",
+    "short": "US20240274025A1，首页及说明书",
+    "url": "https://patents.google.com/patent/US20240274025A1/en",
+    "location": "原始PDF首页(43)、(22)、(60)、摘要；网页说明书互动辅导段与Claims1"
+  },
+  "scholar_help": {
+    "title": "Google Scholar Search Help",
+    "short": "Google Scholar官方检索帮助",
+    "url": "https://scholar.google.com/intl/en/scholar/help.html",
+    "location": "2026-10-19；Finding recent papers、Locating full text、Citation Export、Content Coverage"
+  },
+  "scholar_actual": {
+    "title": "Google Scholar真实浏览器检索与前10条记录",
+    "short": "Google Scholar实际页面，2026-10-19",
+    "url": "https://scholar.google.com/scholar?q=%22generative+AI%22+%22tutoring%22&as_ylo=2024&as_yhi=2025",
+    "location": "trend-packet/google-scholar-actual.png、google-scholar-actual-state.txt、google-scholar-records.json；只取结果前10条"
+  },
+  "gptutor": {
+    "title": "Promoting student engagement with GPTutor: An intelligent tutoring system powered by generative AI",
+    "short": "Bai等，GPTutor原文与更正",
+    "url": "https://link.springer.com/article/10.1186/s41239-025-00571-9",
+    "location": "Abstract、Sampling procedures、Limitations；更正DOI10.1186/s41239-026-00581-1，补作者贡献声明"
+  }
+}

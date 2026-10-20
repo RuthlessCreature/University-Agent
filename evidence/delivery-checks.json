@@ -1,0 +1,49 @@
+{
+  "review_date": "2026-10-17",
+  "slide_count": 200,
+  "sample_count": 12,
+  "main_minutes": 370,
+  "extension_minutes": 110,
+  "instructor_accepted": false,
+  "model_api_called": false,
+  "cloud_deployed": false,
+  "packages": [
+    {
+      "file": "training\\deck-zh\\dist\\University_AI_Research_Training_12_Sample_v11.pptx",
+      "sha256": "c8fe28a7267bd1fb65703bac620ab49f0a27d7ad55fb6ae16fb475a3a972822c",
+      "bytes": 1827537,
+      "slides": 12,
+      "notes": 12,
+      "charts": 2,
+      "embedded_workbooks": 2
+    },
+    {
+      "file": "training\\deck-zh\\dist\\University_AI_Research_Training_ZH_v11.pptx",
+      "sha256": "11c22b03fcebdd745db15f575376cdf71bc715df6dd9346cc9f9b49e60f39122",
+      "bytes": 2642604,
+      "slides": 200,
+      "notes": 200,
+      "charts": 16,
+      "embedded_workbooks": 16
+    }
+  ],
+  "local_outputs": [
+    {
+      "kind": "grant",
+      "sha256": "e2549b646fa7596e1216a8fde602b7dfee736634a1d40abe84a8865dca5c6f17",
+      "status": "draft_review_required"
+    },
+    {
+      "kind": "paper",
+      "sha256": "77039c534f0da6a5a34adefb464f8b0173d5088a8a4a08487fe533eb52a49837",
+      "status": "draft_review_required"
+    },
+    {
+      "kind": "patent",
+      "sha256": "576aad1e3883922efa87b4113893d9a0dec36f2a25fbe6512260549c99580cda",
+      "status": "draft_review_required"
+    }
+  ],
+  "statistics_recomputed": true,
+  "expanded_chart_values_verified": 15
+}

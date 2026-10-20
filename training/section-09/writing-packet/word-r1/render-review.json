@@ -1,0 +1,33 @@
+{
+  "renderer": "Bundled documents render_docx.py; installed Windows LibreOffice and bundled Poppler",
+  "files": {
+    "修订稿_改动标记.docx": {
+      "pages": 2,
+      "docx_sha256": "581ad63e9b066f37373fde131fcd77953ad80071a93a0aa5c50ea1679211ca56",
+      "pdf_sha256": "100693c3c9ac027da5737ece587e1d001ccbf051404d89a192146cb6e45328b1",
+      "preview_sha256": {
+        "page-1.png": "11ed3d4a93fd42c87a8acb824353ff3b13760f5917c44ac676212e09d6026a36",
+        "page-2.png": "58191121f8ee7b2bb276766363365066aac00ae684bbd7b928f7dc103d2ff6d3"
+      }
+    },
+    "修订稿_清稿.docx": {
+      "pages": 2,
+      "docx_sha256": "bcb8b5222019a9b3807b3b4bb78531647e7adc906c5e6027c0028c17b4ab0ca5",
+      "pdf_sha256": "93eff982bde846704c7dedeedfc39e1d921faf0260b280b266163722cf2fd2e1",
+      "preview_sha256": {
+        "page-1.png": "5b3df8f3e8d0e89f1ad25a34ae99cb4b20e87a1c8a6475edc66efcf7dac1935f",
+        "page-2.png": "b895f0c91378af88afc68a72ed568fef5a43aaffaf9d7076547fda220ea90050"
+      }
+    },
+    "逐条审稿回复.docx": {
+      "pages": 1,
+      "docx_sha256": "3c111082badb9fd99bf48edfef580368083921983ffcce6f1cd4cf9429d32c23",
+      "pdf_sha256": "f93e51880f691133e001852f22dc80d8f69deff5290ba8d93f353f1c9d00d450",
+      "preview_sha256": {
+        "page-1.png": "1a198cbc07d2e9b142c7dbfd9bb5428e4e0031d95fa07ecd8d58b88e84adff8e"
+      }
+    }
+  },
+  "visual_review": "All five final pages opened individually after removing inherited title borders and tightening paragraph spacing. No native Word application check.",
+  "total_pages": 5
+}

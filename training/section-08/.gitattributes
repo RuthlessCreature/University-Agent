@@ -1,0 +1,8 @@
+# Keep editable diagram sources identical to the recorded export hashes.
+export_diagrams.mjs -text
+figure-packet/route.json -text
+figure-packet/decision.json -text
+figure-packet/diagram-exports.json -text
+figure-packet/*.drawio -text
+figure-packet/研究技术路线.svg -text
+figure-packet/材料核对与返工.svg -text

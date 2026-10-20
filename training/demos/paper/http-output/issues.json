@@ -1,0 +1,12 @@
+[
+  {
+    "id": "SCOPE",
+    "severity": "review",
+    "issue": "本草稿仅演示文件与证据组织，不构成投稿论文"
+  },
+  {
+    "id": "HUMAN-SIGNOFF",
+    "severity": "blocking",
+    "issue": "需要研究者对输入和模板的当前版本签核"
+  }
+]

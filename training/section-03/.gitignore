@@ -1,0 +1,9 @@
+.build/
+.chart-data-*/
+.reference-cache/
+node_modules/
+*.log
+output/*_s3-r1.pptx
+renders/s3-r1/
+output/*_s3-r2.pptx
+renders/s3-r2/

@@ -1,0 +1,44 @@
+{
+  "material_status": "公开EP文献阅读节选，不是本例权利要求草案或法律意见",
+  "document": "EP4636367A1",
+  "url": "https://data.epo.org/publication-server/rest/v1.2/publication-dates/2025-10-22/patents/EP4636367NWA1/document.pdf",
+  "physical_pdf_pages": [
+    14,
+    15
+  ],
+  "selected_claims": [
+    {
+      "number": 1,
+      "kind": "独立方法权利要求",
+      "summary": "至少两个自由度的加速度和/或角速度数据，识别振动模式以判断运行状态"
+    },
+    {
+      "number": 3,
+      "references": "any preceding claim（本条之前为1、2）",
+      "summary": "使用训练过的机器学习模型识别振动模式"
+    },
+    {
+      "number": 4,
+      "references": [
+        3
+      ],
+      "summary": "从数据生成均值、能量、方差和/或峰峰值等特征，送入训练模型"
+    },
+    {
+      "number": 11,
+      "references": "any preceding claim（1至10）",
+      "summary": "增加根据已确定运行状态停止仪器操作"
+    }
+  ],
+  "selected_edges": [
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "not_drawn": "权利要求2、5至10及全部可选引用组合未画；11引用前述任一项，不表示其每种组合都要求机器学习。"
+}

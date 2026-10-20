@@ -1,0 +1,12 @@
+[
+  {
+    "claim": "本课程亲自采集了344只企鹅数据",
+    "status": "UNSUPPORTED",
+    "reason": "数据来自公开项目，课程只作二次计算"
+  },
+  {
+    "claim": "性别差异的因果机制已经证实",
+    "status": "UNSUPPORTED",
+    "reason": "当前仅有描述统计，未开展因果识别"
+  }
+]

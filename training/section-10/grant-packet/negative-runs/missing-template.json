@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "error": "template_missing_section:研究内容",
+  "input_sha256": "23f9b60ac270b0a1e7471609756124edb626499b54c34dfdba7a9d809c542444",
+  "template_sha256": "471704490c73ee83bc37cf985d6f9b97beaaba457f2d5fbaf51c91d74416f726",
+  "events": [
+    {
+      "stage": "intake",
+      "state": "running",
+      "detail": "",
+      "utc": "2026-10-19T13:43:30.660616+00:00"
+    },
+    {
+      "stage": "constraints",
+      "state": "passed",
+      "detail": "",
+      "utc": "2026-10-19T13:43:30.672118+00:00"
+    },
+    {
+      "stage": "workflow",
+      "state": "failed",
+      "detail": "template_missing_section:研究内容",
+      "utc": "2026-10-19T13:43:30.687039+00:00"
+    }
+  ]
+}

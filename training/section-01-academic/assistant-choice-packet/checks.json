@@ -1,0 +1,16 @@
+{
+  "source_pdf_pages": 8,
+  "source_location": "PDF第4页表3、4",
+  "input_hashes_verified": 2,
+  "reported_references": 636,
+  "reported_proportions": [
+    0.55,
+    0.18,
+    0.43,
+    0.24
+  ],
+  "prompt_files": 3,
+  "product_runs": 0,
+  "product_output_files": 0,
+  "scope": "输入完整性、原文报告值和教学材料状态对应；不验证模型输出质量、账户功能或三方执行。"
+}

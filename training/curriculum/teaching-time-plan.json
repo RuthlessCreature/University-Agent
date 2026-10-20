@@ -1,0 +1,135 @@
+{
+  "status": "lecturer allocation, not timed rehearsal",
+  "formal_minutes": 370,
+  "extension_minutes": 110,
+  "prepared_minutes": 480,
+  "morning_formal_minutes": 170,
+  "afternoon_formal_minutes": 200,
+  "breaks": [
+    "10:20–10:30",
+    "15:00–15:10"
+  ],
+  "lunch": "12:00–13:30",
+  "rows": [
+    {
+      "section": 0,
+      "title": "封面与课程导入",
+      "formal_minutes": 5,
+      "extension_minutes": 0,
+      "prepared_minutes": 5,
+      "rehearsed": false
+    },
+    {
+      "section": 1,
+      "title": "科研AI的能力、原理与学术边界",
+      "formal_minutes": 20,
+      "extension_minutes": 5,
+      "prepared_minutes": 25,
+      "rehearsed": false
+    },
+    {
+      "section": 2,
+      "title": "Agentic AI、AI Agent与科研工作流",
+      "formal_minutes": 30,
+      "extension_minutes": 10,
+      "prepared_minutes": 40,
+      "rehearsed": false
+    },
+    {
+      "section": 3,
+      "title": "Humanizer与各类产物的表达",
+      "formal_minutes": 30,
+      "extension_minutes": 10,
+      "prepared_minutes": 40,
+      "rehearsed": false
+    },
+    {
+      "section": 4,
+      "title": "选题与研究问题",
+      "formal_minutes": 25,
+      "extension_minutes": 5,
+      "prepared_minutes": 30,
+      "rehearsed": false
+    },
+    {
+      "section": 5,
+      "title": "文献检索、阅读与综述",
+      "formal_minutes": 40,
+      "extension_minutes": 15,
+      "prepared_minutes": 55,
+      "rehearsed": false
+    },
+    {
+      "section": 6,
+      "title": "研究与实验方案",
+      "formal_minutes": 20,
+      "extension_minutes": 10,
+      "prepared_minutes": 30,
+      "rehearsed": false
+    },
+    {
+      "section": 7,
+      "title": "数据处理与统计分析",
+      "formal_minutes": 35,
+      "extension_minutes": 10,
+      "prepared_minutes": 45,
+      "rehearsed": false
+    },
+    {
+      "section": 8,
+      "title": "科研图表与技术路线",
+      "formal_minutes": 20,
+      "extension_minutes": 10,
+      "prepared_minutes": 30,
+      "rehearsed": false
+    },
+    {
+      "section": 9,
+      "title": "论文写作、投稿与返修",
+      "formal_minutes": 35,
+      "extension_minutes": 10,
+      "prepared_minutes": 45,
+      "rehearsed": false
+    },
+    {
+      "section": 10,
+      "title": "基金申报与Grant Agent",
+      "formal_minutes": 45,
+      "extension_minutes": 10,
+      "prepared_minutes": 55,
+      "rehearsed": false
+    },
+    {
+      "section": 11,
+      "title": "专利挖掘与技术交底",
+      "formal_minutes": 20,
+      "extension_minutes": 5,
+      "prepared_minutes": 25,
+      "rehearsed": false
+    },
+    {
+      "section": 12,
+      "title": "项目执行与结题",
+      "formal_minutes": 10,
+      "extension_minutes": 0,
+      "prepared_minutes": 10,
+      "rehearsed": false
+    },
+    {
+      "section": 13,
+      "title": "科研汇报与成果传播",
+      "formal_minutes": 10,
+      "extension_minutes": 0,
+      "prepared_minutes": 10,
+      "rehearsed": false
+    },
+    {
+      "section": 14,
+      "title": "本地与云端Agent实际演示",
+      "formal_minutes": 25,
+      "extension_minutes": 10,
+      "prepared_minutes": 35,
+      "rehearsed": false
+    }
+  ]
+}

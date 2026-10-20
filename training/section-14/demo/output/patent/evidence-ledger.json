@@ -1,0 +1,36 @@
+{
+  "scope": "source identity and supplied locator only; scientific truth not auto-verified",
+  "sources": [
+    {
+      "id": "F1",
+      "type": "teaching-simulation",
+      "locator": "patent.json；教学技术事实，不对应真实专利"
+    }
+  ],
+  "sections": [
+    {
+      "title": "技术领域与问题",
+      "source_ids": [
+        "F1"
+      ]
+    },
+    {
+      "title": "技术方案",
+      "source_ids": [
+        "F1"
+      ]
+    },
+    {
+      "title": "实施方式",
+      "source_ids": [
+        "F1"
+      ]
+    },
+    {
+      "title": "效果与现有技术",
+      "source_ids": [
+        "F1"
+      ]
+    }
+  ]
+}

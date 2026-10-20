@@ -1,0 +1,27 @@
+{
+  "executed_at": "2026-10-19T11:36:05.856Z",
+  "actual_execution": true,
+  "engine": "official WebR 0.6.0 in local Node.js",
+  "runtime": "R version 4.6.0 (2026-04-24)",
+  "R_wasm_sha256": "5df459fb222d332e358cf08e4019c0e114398579ed8c62242bfcceeda81222ba",
+  "script_sha256": "4b241ef49e1517dfe51ca7846a96d63af7fec27917e8060dea46c813f7bea402",
+  "assumptions_status": "教学假设；没有预研究估计依据",
+  "participant_data_used": false,
+  "desktop_R_or_RStudio_used": false,
+  "model_called": false,
+  "files": [
+    {
+      "name": "sample-size.csv",
+      "sha256": "980a7689937fb94ae61d1f380300f3a7d34533e6ddc2431e3bc6755b39f6bd3e"
+    },
+    {
+      "name": "resource-capacity.csv",
+      "sha256": "1d8389bacb1a75e4a56ec8511f384ea361e676984de43a34cc7250f2812eb061"
+    },
+    {
+      "name": "session-info.txt",
+      "sha256": "42f13c06de3bf78f9252fcbc01da62dd8a0f35d7ae709340bf4292b2946f16ba"
+    }
+  ],
+  "scope": "实际运行独立等样本双侧t检验功效计算、独立数值积分核对及工作量算术；不证明拟议研究已获批准、可招募或参数真实。"
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "paper",
+  "title": "企鹅公开数据的描述性分析",
+  "material_type": "public-source",
+  "sources": [
+    {
+      "id": "P1",
+      "type": "public-source",
+      "locator": "https://doi.org/10.1371/journal.pone.0090081；Fig1、Field methods；公开原论文"
+    },
+    {
+      "id": "D1",
+      "type": "public-source",
+      "locator": "../deck-zh/sources/penguins.csv；CC0；统计输出 penguins-statistics.json"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": "本教学草稿说明公开企鹅观测数据的来源与描述统计，不提出新的生态学发现。原论文包含更广泛的稳定同位素等研究变量。",
+      "source_ids": [
+        "P1"
+      ]
+    },
+    {
+      "title": "Methods",
+      "content": "从公开CSV读取344行记录。按物种对非缺失体重计算样本量、均值和样本标准差。未进行显著性或因果检验。",
+      "source_ids": [
+        "D1"
+      ]
+    },
+    {
+      "title": "Results",
+      "content": "体重有效记录342行。Adelie n=151，均值3700.7 g；Chinstrap n=68，均值3733.1 g；Gentoo n=123，均值5076.0 g。数字来自本地描述统计复算。",
+      "source_ids": [
+        "D1"
+      ]
+    },
+    {
+      "title": "Discussion",
+      "content": "物种分组存在描述差异，但采样、性别、岛屿与年份限制外推。该教学分析不是原论文全部结论的复现。",
+      "source_ids": [
+        "P1",
+        "D1"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "SCOPE",
+      "severity": "review",
+      "issue": "本草稿仅演示文件与证据组织，不构成投稿论文"
+    }
+  ]
+}

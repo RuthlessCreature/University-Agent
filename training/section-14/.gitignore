@@ -1,0 +1,7 @@
+.build/
+.reference-cache/
+node_modules/
+__pycache__/
+*.log
+output/*s14-r1.pptx
+renders/s14-r1/

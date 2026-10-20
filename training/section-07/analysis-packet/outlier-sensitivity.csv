@@ -1,0 +1,3 @@
+﻿scenario,label,records,female_n,male_n,female_mean_mm,male_mean_mm,male_minus_female_mm
+retain_all,保留全部完整记录,146,73,73,187.7945205479452,192.41095890410958,4.616438356164366
+exclude_flagged_scenario,仅作比较：排除标记值,144,72,72,188.01388888888889,192.16666666666666,4.1527777777777715

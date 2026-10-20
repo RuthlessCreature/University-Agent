@@ -1,0 +1,2421 @@
+{
+  "revision": "course-r2",
+  "reviewed_pages": 240,
+  "review_method": "实际打开并查看全部240张最终PNG；核对图文、遮挡、图表标注与截图可读性。",
+  "scope": "合并后的视觉检查；不替代科学审查、逐项来源复核、真人计时或用户教学验收。",
+  "open_items": {
+    "41": "流程说明换行较碎，待排版微调。",
+    "45": "流程说明换行较碎，待排版微调。",
+    "51": "流程说明换行较碎，待排版微调。",
+    "181": "说明文字换行可再精简。",
+    "183": "说明文字换行可再精简。",
+    "187": "说明文字换行可再精简。",
+    "189": "说明文字换行可再精简。",
+    "193": "说明文字换行可再精简。",
+    "203": "说明文字换行可再精简。",
+    "205": "说明文字换行可再精简。",
+    "208": "说明文字换行可再精简。"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "section": 0,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-001.png",
+      "sha256": "6d47a6a278aa772eb68a99fe81a6c88b13a8dd83fabec63cc772cad837cf3394",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 2,
+      "section": 0,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-002.png",
+      "sha256": "2967bc6e7d95684effb5f7d7153a57ff82ca4db61e8a6486b9a6115ad37d9011",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 3,
+      "section": 0,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-003.png",
+      "sha256": "372ba52232619b6d6662e01f2fe9726991845301304527d4c0c5479a80a91f96",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 4,
+      "section": 0,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-004.png",
+      "sha256": "d1db571704265c371a826265b33ebebfbd6f952242b6100979c949be369a5241",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 5,
+      "section": 1,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-005.png",
+      "sha256": "61877c00b5f138d2fbac0c0baf5e8b6564da656d8d495569ca07e0cd358176cc",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 6,
+      "section": 1,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-006.png",
+      "sha256": "9f7609a25024d5ed94a3bb757e8e385d6e9c14338c639c7de55bb355599a6740",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 7,
+      "section": 1,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-007.png",
+      "sha256": "583d68b84ef7597b5bcf82bbd9db05f5bffad50706c0f601f948d26841800849",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 8,
+      "section": 1,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-008.png",
+      "sha256": "6970e7ab63db0d5e64a64d7d03380bdc283aa9a1d8b9ec0080ee85f172171002",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 9,
+      "section": 1,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-009.png",
+      "sha256": "c0aca38626804f72532d6104a3427f7a488f28a5c250cf34d18f38bf1f6fbaad",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 10,
+      "section": 1,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-010.png",
+      "sha256": "64bf913bdeb3e6dde4014bcf44c1665f72029bc97f1b9bcca7e3ea621b51b619",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 11,
+      "section": 1,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-011.png",
+      "sha256": "042fde4cdc232ac19e181605576e0da42f68866729a704e5aef3f4f6d6031a9f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 12,
+      "section": 1,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-012.png",
+      "sha256": "b43411067fc0271301258311365d6d2ddbe34461d1b32d1414d60b1f74d93f44",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 13,
+      "section": 1,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-013.png",
+      "sha256": "ada08e71139f7d22d0bd181a3c8ac41be462bfd4a240e9f4e589e20e4f399ee6",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 14,
+      "section": 1,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-014.png",
+      "sha256": "c540ee3e67910615e9617b637bc5384d913433cfd1e65dcf35bbdcc5976d540a",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 15,
+      "section": 1,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-015.png",
+      "sha256": "eed922e8ada5cf4a58394ca80767c59019a65e077aedade38433b7845cf80a7e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 16,
+      "section": 1,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-016.png",
+      "sha256": "6a647ed40f66ece64dae857247575e866d67ebf272c86d3449cb7c58db3dff2c",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 17,
+      "section": 2,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-017.png",
+      "sha256": "51f15ceb81996d2ffad2c55282102ea9792708971461a7392256494a21675864",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 18,
+      "section": 2,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-018.png",
+      "sha256": "e0194539b06b04ff948eeb6b56f1d26abb25a923e156c2e4129c9716b6314cd9",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 19,
+      "section": 2,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-019.png",
+      "sha256": "59024434d9627bbe5bef9bf108120fe69cf02f99fddbcee591e9090323f611a0",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 20,
+      "section": 2,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-020.png",
+      "sha256": "089ed7b0ab8fd2fe1be2b86df22503ed34664d448b3e655eca7d264a7b929059",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 21,
+      "section": 2,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-021.png",
+      "sha256": "f96f4265be47807bd91bec8174976f64c17d0dc7482e3d86a25568aacd6047a4",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 22,
+      "section": 2,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-022.png",
+      "sha256": "7e2f8411e5e591c67b043b57a484509d06eed9f22de67192fa54d1a794790b47",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 23,
+      "section": 2,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-023.png",
+      "sha256": "f4d8708247a5d4ff1f0b0d9a9bb61bf0ae8ea5902b5af76771cd3d519725a754",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 24,
+      "section": 2,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-024.png",
+      "sha256": "84d53f928e9fb2ab2a607d91bb7eae46798aabff76e251ceb7da0dfccd42490c",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 25,
+      "section": 2,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-025.png",
+      "sha256": "705e3e18d64641c42cd28325e4fed5560bb6b77ff54c0eeadeb9dc1ccecb5956",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 26,
+      "section": 2,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-026.png",
+      "sha256": "84065c4ea8025a4116a92f16de960290fe6aebf04c98088c76e8ecb3f35c71e6",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 27,
+      "section": 2,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-027.png",
+      "sha256": "c7d79fd139df437dcaef695cdba78f63f164010d272cf21c0ff6edf0c0624964",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 28,
+      "section": 2,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-028.png",
+      "sha256": "84e24f6b4c1206c0debe5657d53bb7dbdcdc5b58390d802d7ecd3568122afdef",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 29,
+      "section": 2,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-029.png",
+      "sha256": "4c07b796149a7caebbdc382c628c92e9bf5517210f51f6e4c0e8d5c7cfbb0449",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 30,
+      "section": 2,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-030.png",
+      "sha256": "b3429f5da5a4b22f5ce7036d72cc2e7971cad011e77f4efb78fe5326551dc142",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 31,
+      "section": 2,
+      "section_page": 15,
+      "preview": "renders/course-r2/slide-031.png",
+      "sha256": "31bd665fe64fd083c05cb0efa7e4dba07117c57e0f6e71f48092ba61a9207ba4",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 32,
+      "section": 2,
+      "section_page": 16,
+      "preview": "renders/course-r2/slide-032.png",
+      "sha256": "000b43eb895146b9bf665aa991d505ff67107fdf2c08a475cc8538211f317c3a",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 33,
+      "section": 2,
+      "section_page": 17,
+      "preview": "renders/course-r2/slide-033.png",
+      "sha256": "e41417a499a3f1fd5df1b48274b2461028dd73f064b84ba97231d7adb7f9d402",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 34,
+      "section": 2,
+      "section_page": 18,
+      "preview": "renders/course-r2/slide-034.png",
+      "sha256": "e9e60eb1525e1e815b37b25639dca1c1922ae36a0abe68414563219ba7931664",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 35,
+      "section": 3,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-035.png",
+      "sha256": "76b662cb381200c3a4a0154b21c392145dce429f68b11430fa36de50b713e29c",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 36,
+      "section": 3,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-036.png",
+      "sha256": "630eeb76734b76210bffe8954e5681f0f257dc98dc475c7b3bde1626faa15025",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 37,
+      "section": 3,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-037.png",
+      "sha256": "26792eed8ecded8445c5e6c8bfa1405331869bf2120a999ae803e79c57042031",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 38,
+      "section": 3,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-038.png",
+      "sha256": "1af2e68d85012e9b862ea54ffbf5e7628102867a19111ea2f2f7c4c0316b2071",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 39,
+      "section": 3,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-039.png",
+      "sha256": "98088379d270d3cd9761023372d34b6d8b13dba6ac19048d6876d2576f952685",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 40,
+      "section": 3,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-040.png",
+      "sha256": "e2e40a94fd3e3e7f4890fa50af76571a84ff4fb8d46580f4cc6956bdfa158ab8",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 41,
+      "section": 3,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-041.png",
+      "sha256": "47868d5249b621a95ce00ed35be2d228ed5fa2a960894b9613c3be946511fc45",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "流程说明换行较碎，待排版微调。"
+    },
+    {
+      "page": 42,
+      "section": 3,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-042.png",
+      "sha256": "e0db1096b7f9a3e51150fcfb768b72c55dffc1f6a65f92150189d2300e9fe545",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 43,
+      "section": 3,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-043.png",
+      "sha256": "2c8d31ca15738923ccc80467dd37d5572191362dde0bc04ac66a2c9cd0fda062",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 44,
+      "section": 3,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-044.png",
+      "sha256": "edf71a3295c727a58edcbda7e50d21bf92b8b2b405a6cc821509a392d9c61c4b",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 45,
+      "section": 3,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-045.png",
+      "sha256": "b5d2ed6b34300589f6dbf5f6eb9618d1033918a4e9c7b6cf439bb03642a94651",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "流程说明换行较碎，待排版微调。"
+    },
+    {
+      "page": 46,
+      "section": 3,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-046.png",
+      "sha256": "d0d66c382e18e2e9874e2556f48357b016b977c8e2db6ef005e2ac998ed457c2",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 47,
+      "section": 3,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-047.png",
+      "sha256": "f1bdb41f5930fb7f93869054f9e890cb87380d15704470b3aff08acd470ffe85",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 48,
+      "section": 3,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-048.png",
+      "sha256": "65768465a8173178781ec620a27bdd1edf0e7da1b7a6963b2c4d6db19f32d87a",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 49,
+      "section": 3,
+      "section_page": 15,
+      "preview": "renders/course-r2/slide-049.png",
+      "sha256": "57dca52116040ed5dd2255c0bfc3d00f1aaa640da5e972fb4157b2952b74c871",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 50,
+      "section": 3,
+      "section_page": 16,
+      "preview": "renders/course-r2/slide-050.png",
+      "sha256": "4a5e8c9b77a0664fd0ae2ba9d47121d9d15a99d3933bb28af2be791b6d55ef90",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 51,
+      "section": 3,
+      "section_page": 17,
+      "preview": "renders/course-r2/slide-051.png",
+      "sha256": "9c11cfde6d137e1004260a99e0e0af3592dbf5fe55b7a5d7c3057dd35fcdcb5d",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "流程说明换行较碎，待排版微调。"
+    },
+    {
+      "page": 52,
+      "section": 3,
+      "section_page": 18,
+      "preview": "renders/course-r2/slide-052.png",
+      "sha256": "eb194d9805fa2dc768b75267b19cc58f87d282f1abcadf3d1730403bcfd2ae49",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 53,
+      "section": 4,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-053.png",
+      "sha256": "2fe2be04b6f4117146eb7924a50efb3e43a61aa6725ae83cf05563f352dcf790",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 54,
+      "section": 4,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-054.png",
+      "sha256": "9736560a0b071243a2dcedea7007d78493dc0623a21b219e20f6a26ddd11d7e7",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 55,
+      "section": 4,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-055.png",
+      "sha256": "82ca2607611b295d7384a875c9d47dae7fc63d0dc2a8820c879f53127ef80fbb",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 56,
+      "section": 4,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-056.png",
+      "sha256": "7fecf0b588b2129c11c2c9305f81e17b5cedba709a1a7b2413885a2dbd420703",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 57,
+      "section": 4,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-057.png",
+      "sha256": "b39de795d8b14f5bdd1a993d15bfbf882b7202370e30894416ee4630cab2746d",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 58,
+      "section": 4,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-058.png",
+      "sha256": "32fa36c8f1fda502b84b9a014e10d7363c00ceea49ee99abcae80def1b36bab3",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 59,
+      "section": 4,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-059.png",
+      "sha256": "c326255ce6ffc48fb65bbcaaec1f76c3e3d99f827a8dd6104e17bdaa90da1e69",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 60,
+      "section": 4,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-060.png",
+      "sha256": "a8f011bb3e4fe41ed7eabe32a7da57e03fc53aa5ab4e0439f69ebb5a72de91f1",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 61,
+      "section": 4,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-061.png",
+      "sha256": "1a75d6e949198996d45bdba4a12ee72f383c9d505fd91dd2f642169632614fbb",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 62,
+      "section": 4,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-062.png",
+      "sha256": "2b189ac07ffeb06a833c29ba478efda7801d53f54f76be033d9407eb9822e165",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 63,
+      "section": 4,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-063.png",
+      "sha256": "6c97609082e7ad0b4337db032aa7c3b7d2f378fd749b324c3c3151fb037dd47c",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 64,
+      "section": 4,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-064.png",
+      "sha256": "e80e2aabf2c4cd5c3d6a5a249dcc9f04bdc5883237756ed38ba4d1cdf748f869",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 65,
+      "section": 4,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-065.png",
+      "sha256": "a4a120f7e09a2ba21f9aa229f09d4d84f3bd41a48fa90625354a312df7fdbd1e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 66,
+      "section": 4,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-066.png",
+      "sha256": "93d54e4b6ddff2af97a1888f8ad1304779ccd23d388fcd09b6bf851d17822588",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 67,
+      "section": 5,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-067.png",
+      "sha256": "b47df44c331b03172175975b5bf48d0090262f7f4df5d9d9ac17be53fc17ed26",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 68,
+      "section": 5,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-068.png",
+      "sha256": "8eac737ff80789450c9caff3a0e9984a29d44f8781bad7927c6018236648bb78",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 69,
+      "section": 5,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-069.png",
+      "sha256": "be612b706034e0c9d3778c9160eec1700b084e12f6dda4c04fa751dd0ab04cf1",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 70,
+      "section": 5,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-070.png",
+      "sha256": "3f15b883d75465bcc981498b6e5d3f7b22d5bfef1362cc3b84255e24da4bb933",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 71,
+      "section": 5,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-071.png",
+      "sha256": "d8d31631001d083f306fb0e642ba616e9aeacd4d980468595877307ce5e896ba",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 72,
+      "section": 5,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-072.png",
+      "sha256": "145da540c9bbd51a7ba8b82c4807f11cf0c168d85f92c011c7d67d60a71f9685",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 73,
+      "section": 5,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-073.png",
+      "sha256": "94c5523d4a069142f4804a3ba833abb896bb0bfa86b98ba6104b0800b057df4a",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 74,
+      "section": 5,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-074.png",
+      "sha256": "b03ac8fc89afb7d43f3c8e30920a41eed8ad78755dd0a43c2463774b315fd3a7",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 75,
+      "section": 5,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-075.png",
+      "sha256": "8b57d27582007e096eda8f9fcb0702b72b8a8b4cf2a2f57e76d6ff803cfd77ad",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 76,
+      "section": 5,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-076.png",
+      "sha256": "e38bc0f4f832d991d807812f28ad91760465c463a94978bddfe21c837d18f915",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 77,
+      "section": 5,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-077.png",
+      "sha256": "64f99a8010974a5a6157adc7283bf6b6da057675597a2968c9431b3a8cd8ddd9",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 78,
+      "section": 5,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-078.png",
+      "sha256": "2c72d795012305ab9fd40729a2774b45ea88064e00d2ceef79d74b72c0fa2285",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 79,
+      "section": 5,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-079.png",
+      "sha256": "d2e62aa69ff917ce631285f64beb3304acc501298a907668162fea7aed7bc7a9",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 80,
+      "section": 5,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-080.png",
+      "sha256": "0e2d63c9063e0e1faacec8b71e9a6d59e83aa5c85f9174a682265f5c50b15e6b",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 81,
+      "section": 5,
+      "section_page": 15,
+      "preview": "renders/course-r2/slide-081.png",
+      "sha256": "4535a9b0ac698f8eebb5797caa12c6c6447fd6e2cd808dec53a1895ef530072c",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 82,
+      "section": 5,
+      "section_page": 16,
+      "preview": "renders/course-r2/slide-082.png",
+      "sha256": "a26fe6bf41519eece052c28b4226a2b55508482561ac30e9311054d154212f40",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 83,
+      "section": 5,
+      "section_page": 17,
+      "preview": "renders/course-r2/slide-083.png",
+      "sha256": "0756c143d51182d22f4961cf66237e8a64b1d920262854ef4e073e37e275d2a8",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 84,
+      "section": 5,
+      "section_page": 18,
+      "preview": "renders/course-r2/slide-084.png",
+      "sha256": "4d12af4b69d8f9fd7180adeb6d3e9c4e0eab5d69851d4635fcec9dd33fdae240",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 85,
+      "section": 5,
+      "section_page": 19,
+      "preview": "renders/course-r2/slide-085.png",
+      "sha256": "1db666a9c1b5121b5b1dbdbec5476aef4054dbf39db1fb2a1e48d5f808dc629f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 86,
+      "section": 5,
+      "section_page": 20,
+      "preview": "renders/course-r2/slide-086.png",
+      "sha256": "e70bbbb81ebfcf591c63eb286d2c97ba7f62554f0974c191e106ded46f8255f8",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 87,
+      "section": 5,
+      "section_page": 21,
+      "preview": "renders/course-r2/slide-087.png",
+      "sha256": "0956ec89bf25f8f24149030728d837101afcf25611836fd109aa7e613518dca7",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 88,
+      "section": 5,
+      "section_page": 22,
+      "preview": "renders/course-r2/slide-088.png",
+      "sha256": "569778864893aeb958467569f4cabfba1734246a2701551dedfadb1b5b47fe0e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 89,
+      "section": 5,
+      "section_page": 23,
+      "preview": "renders/course-r2/slide-089.png",
+      "sha256": "5d571ca2a07a5e955b09793758a782169f36341b11a12e191c3ff5bf572292c9",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 90,
+      "section": 5,
+      "section_page": 24,
+      "preview": "renders/course-r2/slide-090.png",
+      "sha256": "155e2781eb70929c8bd40d1df0346c952fab3e1f87571212aff3c7e0ddf7ff01",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 91,
+      "section": 6,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-091.png",
+      "sha256": "a744ea2eacac803b7530caac885530974ffdb827e839bc4ee382fa78aadd9523",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 92,
+      "section": 6,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-092.png",
+      "sha256": "b12d9b4b5296b03aad6b93026a8acf5eed8952d0fad3c63f1898ca9ad1f2d52e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 93,
+      "section": 6,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-093.png",
+      "sha256": "e3c3a475632ddb1e03006e2cee65ef2f5976a9a39c4c62ef552e6b8ae7dd7eb3",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 94,
+      "section": 6,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-094.png",
+      "sha256": "3c188cb96b8b0ec9102c126f72bdfbbd3c2c9a4dc18ea7ab1893aa5e0bc96502",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 95,
+      "section": 6,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-095.png",
+      "sha256": "88aaab771867cd7787d85b00f02acd6c06399c57c3f599101056be2dc563231f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 96,
+      "section": 6,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-096.png",
+      "sha256": "b6708e1bc3b14d949391125364431439c217f917e7100be3865332cb574e51bf",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 97,
+      "section": 6,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-097.png",
+      "sha256": "fe87cff86ada92502d4132b7943c16b6e682c1d5db42fccf8e794d6e7a9547be",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 98,
+      "section": 6,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-098.png",
+      "sha256": "bc7a19945b6d565c0f6ea4342405db62b91592a1897ed70c6d66bc4da1ffe938",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 99,
+      "section": 6,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-099.png",
+      "sha256": "a16de493a3e7276d33b46ef1d2f40888dc7505f548bebcaec2b8975334935ccb",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 100,
+      "section": 6,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-100.png",
+      "sha256": "70843324c76c047f6f16daa0b019df1fe0175a09bf2b27249a5192513990c684",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 101,
+      "section": 6,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-101.png",
+      "sha256": "720441a9ff0cfd6ccb961d5d2719861950cc1a005aaf55df29deef0df097d45f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 102,
+      "section": 6,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-102.png",
+      "sha256": "f069f1536a28ff07a39183dabb77ed115e38da183dad9a097fc1676682dcea53",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 103,
+      "section": 6,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-103.png",
+      "sha256": "07ec0e4bad92fb0a9546ac65dae700721c237ae6b7acc161fd4ca5462a2798f3",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 104,
+      "section": 6,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-104.png",
+      "sha256": "2aec224962c1aed6039fff610c238b3046b393b3a16a2e73f419c4b2f24524b7",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 105,
+      "section": 6,
+      "section_page": 15,
+      "preview": "renders/course-r2/slide-105.png",
+      "sha256": "f96b3db1c1d931fbab2cddcedaba75feb3ef29a379ca45750176da2513836b23",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 106,
+      "section": 6,
+      "section_page": 16,
+      "preview": "renders/course-r2/slide-106.png",
+      "sha256": "ce47eba7466ae0594d88eb3a16b089f82ddbdc0d6d593df0fdfe24859c75cc8d",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 107,
+      "section": 7,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-107.png",
+      "sha256": "e5b4f79bfd4f136f89c0cefecda7e8f5a227d355c4691df3c9b60d7068f5c1d4",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 108,
+      "section": 7,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-108.png",
+      "sha256": "0319d8bbfc444f3f321ee7347fe6737f8cb1d12d93e9c8631e49096a90233982",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 109,
+      "section": 7,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-109.png",
+      "sha256": "331399bf17be75fb8b58a28e648385e61784ee0f57bf936cdf10c900f60a8201",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 110,
+      "section": 7,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-110.png",
+      "sha256": "42e30ddb4978d86374e994467b46180369a332b206a95196c2950afe1657a8d1",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 111,
+      "section": 7,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-111.png",
+      "sha256": "14a8b59108eba8f32531838b351c4f1c5583c652a7d0d3702e66695aa6b4ae42",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 112,
+      "section": 7,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-112.png",
+      "sha256": "5a0c27756a99f3594db03a89be8a976148dc70950d8922e28d44d4f2181bbc9d",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 113,
+      "section": 7,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-113.png",
+      "sha256": "a2f939be74e4c439ff0c806741318c8756015a23999b571c6f80553c1881f7e9",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 114,
+      "section": 7,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-114.png",
+      "sha256": "917a914fc90a74508315489c4e42cdbfbddc079342d9f942476946b541bd55b2",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 115,
+      "section": 7,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-115.png",
+      "sha256": "e5283caf27b1f6325bc41b7536820503cecbaca8119aa0b82c12465900afd216",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 116,
+      "section": 7,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-116.png",
+      "sha256": "9bfac2aeaffcd048cbd4faf588b2aa8c856f6efd432784257c839ab9eb7333cf",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 117,
+      "section": 7,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-117.png",
+      "sha256": "3048d132c6916a73da15cf3e2b991997168741f6f10713a74f5d8c1ecb359478",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 118,
+      "section": 7,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-118.png",
+      "sha256": "c473b2ae4afdd15fb5b61c2eea614541462e53008d0d468ee25be0de45cc65fd",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 119,
+      "section": 7,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-119.png",
+      "sha256": "a32ef06e3b4e393373953ebec1ff5479e93b452aab917384fc2e36ad76ded88f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 120,
+      "section": 7,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-120.png",
+      "sha256": "4131829a3b5e303506b94cff30f35206c10728782b1763238159a5b77ca6a1c8",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 121,
+      "section": 7,
+      "section_page": 15,
+      "preview": "renders/course-r2/slide-121.png",
+      "sha256": "c5770be8d79424c9c445aae4cb74922b3057e8f0a4bab662d248eefcf2b13cf9",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 122,
+      "section": 7,
+      "section_page": 16,
+      "preview": "renders/course-r2/slide-122.png",
+      "sha256": "8354519a890f243f2481e5ae53db9e1efd2d268629760fe5084745a528dabb25",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 123,
+      "section": 7,
+      "section_page": 17,
+      "preview": "renders/course-r2/slide-123.png",
+      "sha256": "3574bd09d45cf6616522d63779771b4fb54c353f942244cc145dd10f5859c2ad",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 124,
+      "section": 7,
+      "section_page": 18,
+      "preview": "renders/course-r2/slide-124.png",
+      "sha256": "e5bb71e7a742e67866ffb3dc9c6703536d986fdf69c6e0b543cc244d72e7acd6",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 125,
+      "section": 7,
+      "section_page": 19,
+      "preview": "renders/course-r2/slide-125.png",
+      "sha256": "4119c3f5cdafaeee8dbaa2e24dbb15b0097a248cfc1d8e2177939865ef427228",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 126,
+      "section": 7,
+      "section_page": 20,
+      "preview": "renders/course-r2/slide-126.png",
+      "sha256": "c6764640918c24bad47e18bc6ceaa0c8ae166f94fb1a0eedd3c745cbac33c1e7",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 127,
+      "section": 7,
+      "section_page": 21,
+      "preview": "renders/course-r2/slide-127.png",
+      "sha256": "65f816ac87a65c9b31e0b895e6329c08544130450f7846b6bfbea52a9e1adba6",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 128,
+      "section": 7,
+      "section_page": 22,
+      "preview": "renders/course-r2/slide-128.png",
+      "sha256": "d5cc2ad69ea28f8cb592d1d2bc9f3a710706a4008fe3a8d0e06a94ff6f1fa5e9",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 129,
+      "section": 8,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-129.png",
+      "sha256": "0f7116f3e6fba3929737b676b3f5d6111a337b7db696ccedc32d8aff6361ef1b",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 130,
+      "section": 8,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-130.png",
+      "sha256": "473f6e01829f748568634c751bb6ce0a9b032097a7e5b358cd5ecc16ab5f3489",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 131,
+      "section": 8,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-131.png",
+      "sha256": "35a41edf05534fe8abc23cb633f3e10b83c17bc5c698696279873435cb7aee9c",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 132,
+      "section": 8,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-132.png",
+      "sha256": "123c596b6915d1a9c9ff39b95605df7dbcfb3b09eb843329bd40d36c9ef5c0aa",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 133,
+      "section": 8,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-133.png",
+      "sha256": "cb0e21b8449a83789cffc29df4c1eab60e839e5c399a6c58a20bb6e36c7ea9a6",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 134,
+      "section": 8,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-134.png",
+      "sha256": "6d4cf7daf3e9b9c64994596bb12168805a8d983a559c606a9ee9d747fcd6fa20",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 135,
+      "section": 8,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-135.png",
+      "sha256": "d51c0c5751d24bb416ce8c454346479a58047e75a6c4da7d641b34dfe27554c8",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 136,
+      "section": 8,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-136.png",
+      "sha256": "3ebe10514e978a96090e72787b098afefff43fe2cbff4986fea4a4bdd76958e7",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 137,
+      "section": 8,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-137.png",
+      "sha256": "a4df6eca0eab28eef20c213aee62c4db6d72450f2bb6aa589da9be1aae95fa9e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 138,
+      "section": 8,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-138.png",
+      "sha256": "795dda7e3226a3038abe2cc6b11a7f13b518e55c83be2eab4283eeabe1aa622b",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 139,
+      "section": 8,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-139.png",
+      "sha256": "b7d2c9b83539ab6584826a1ff0fed46b4e94c46ba5e5d2970240c591eb7280f6",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 140,
+      "section": 8,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-140.png",
+      "sha256": "dd63b25e971df31fa436810c78eaff96f87a82f82bf41364eff8bd76a53ee688",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 141,
+      "section": 8,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-141.png",
+      "sha256": "ae09a3ba94ee139a01a5ebe22c54edb971587a2d975e5f20b47339fde095f07d",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 142,
+      "section": 8,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-142.png",
+      "sha256": "efbe2f0d4f3e8e15695b4b57be4c51c9dd15fbe5dca2c89a62b8430b1ebf129f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 143,
+      "section": 8,
+      "section_page": 15,
+      "preview": "renders/course-r2/slide-143.png",
+      "sha256": "32cdf602985419ce39f45717dcaff037bfcb0cef0c68165829b29c14d023ca0f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 144,
+      "section": 8,
+      "section_page": 16,
+      "preview": "renders/course-r2/slide-144.png",
+      "sha256": "2e8c6811bdc807ff6cb6b7d1b04efae98f649b2cb2e0d5104314e9a742791793",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 145,
+      "section": 9,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-145.png",
+      "sha256": "82f7a56c46ec1f9bacd77405991e1cfbc84dc05dea1ef7c0437aafc32c94a7d9",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 146,
+      "section": 9,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-146.png",
+      "sha256": "12ff31ac7a229459bf14c558e737d9491824cd217e50f06506738c389af92998",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 147,
+      "section": 9,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-147.png",
+      "sha256": "1c8ae7b50331751b288b4da9e6b75b46b35009a18e5a06d3b0f4e7aaec99cd23",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 148,
+      "section": 9,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-148.png",
+      "sha256": "3d70ed81f3a0731e38c9501852542fd5f9719c32b7aefaff8d0f23f5bd1befa8",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 149,
+      "section": 9,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-149.png",
+      "sha256": "64b6591b3b490d7a4528b757ddb78a2936a8e1f1f24353cb0db1a6b1b9c33733",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 150,
+      "section": 9,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-150.png",
+      "sha256": "bfd7e5a33e6f09abc61d3ddb4ff34755dac656c04ef8560735fbf0616f92ed11",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 151,
+      "section": 9,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-151.png",
+      "sha256": "3a2c554be232f7b6853cc94f5ce5917e6550511aa0949ee206b45e3ec2571e1e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 152,
+      "section": 9,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-152.png",
+      "sha256": "a696b674e926e9dffe1faae5279f1af49f337e3439527df6b120cdfecd8eaab1",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 153,
+      "section": 9,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-153.png",
+      "sha256": "9ef921b69ac8e256c983e7fe2a002add85ee5b3e4af2d79172dc6f9aedd206cf",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 154,
+      "section": 9,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-154.png",
+      "sha256": "3af1a47de96f9b672f10c85eb51ea5e31a890282c8f5cd50f806ae44d005492a",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 155,
+      "section": 9,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-155.png",
+      "sha256": "3a703292f3720d933c2efecc1d371a9dc37e4ceb5a35787d4f4b3685dbb6602e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 156,
+      "section": 9,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-156.png",
+      "sha256": "8c91e70ddb1654708a069afdc8af7bb15fe9414d24e4f0cce53cf38db2178ce9",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 157,
+      "section": 9,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-157.png",
+      "sha256": "c85367f66a8e37bfb43a25f1e22abeea9393c61320e6913bb3eb30257af61724",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 158,
+      "section": 9,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-158.png",
+      "sha256": "1f3742e270f57228b25ac47a3edcdd393e6bc2287a7400858836bb087d401381",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 159,
+      "section": 9,
+      "section_page": 15,
+      "preview": "renders/course-r2/slide-159.png",
+      "sha256": "edf3e88ec7a6a1d38405900a6f0ead5d746520d0544cfeda12fe07a7da78ce0a",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 160,
+      "section": 9,
+      "section_page": 16,
+      "preview": "renders/course-r2/slide-160.png",
+      "sha256": "58de9f3653748d19010dee9dd978af27e7fe656995053a62dc42fa61053b3591",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 161,
+      "section": 9,
+      "section_page": 17,
+      "preview": "renders/course-r2/slide-161.png",
+      "sha256": "b7d3c5ac24a7e14022e58d2632aa01c76ca566630ae84da6b03ee3d41f297967",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 162,
+      "section": 9,
+      "section_page": 18,
+      "preview": "renders/course-r2/slide-162.png",
+      "sha256": "993a3f7f10d8f1adf839c4afc26f4f796402eb9b46cab65bffd9549eef0cf49e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 163,
+      "section": 9,
+      "section_page": 19,
+      "preview": "renders/course-r2/slide-163.png",
+      "sha256": "f78280fe8bb0c829a81ec5ac77baeb5ab072578ba2debee0e59971a3ae4c0432",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 164,
+      "section": 9,
+      "section_page": 20,
+      "preview": "renders/course-r2/slide-164.png",
+      "sha256": "76d57a4f501b931870f94f62389ba510b767101c59ac080a1519335a62a8a508",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 165,
+      "section": 9,
+      "section_page": 21,
+      "preview": "renders/course-r2/slide-165.png",
+      "sha256": "4316ebf616f44bbecb8aed3d5b8a23566c7e9b132f9f6748bc600bd8dae245e4",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 166,
+      "section": 9,
+      "section_page": 22,
+      "preview": "renders/course-r2/slide-166.png",
+      "sha256": "573c6431fc07d766ff5b1585591934c76ab3f25e6a6f3c6351420780e75f0e82",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 167,
+      "section": 10,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-167.png",
+      "sha256": "127c92d8b02b3993ace94c88d7cacbe2235ac25e2a0401ddb9bd3627751a0e92",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 168,
+      "section": 10,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-168.png",
+      "sha256": "d04f78c2a4976ba23fcb711db3df5213383f40cf4666131b7a1f0995dce4872a",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 169,
+      "section": 10,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-169.png",
+      "sha256": "ba72cd57659cfd405990a4158efe0885a6406ee28e4b28d7326c4cda1666983e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 170,
+      "section": 10,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-170.png",
+      "sha256": "6effd3151813271f1227a08bac70b6729cb68b57610fc9d384d565a4d40d6e47",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 171,
+      "section": 10,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-171.png",
+      "sha256": "c025498cbd3d1f7f92daf5ac9c15ae0a3406d8a855f08d25f51aaabb2181ec07",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 172,
+      "section": 10,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-172.png",
+      "sha256": "11e537979d26067ecbe2621c845d8b36965b665da511fdc2d6b3b7ca8dd66a44",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 173,
+      "section": 10,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-173.png",
+      "sha256": "3528d8697c16619fd82190f43535b9166063abfaa9638ade4160c690214f253c",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 174,
+      "section": 10,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-174.png",
+      "sha256": "0d535da73f7055882eb8ff7f906ea1839df0d35f8b817d0e2a2e367036603456",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 175,
+      "section": 10,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-175.png",
+      "sha256": "5a4189c4a30099e0ba4a1ba6a48886ae6a8aef975d90aea09dbfc89e65fe93b4",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 176,
+      "section": 10,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-176.png",
+      "sha256": "57378b0d79e257d62f382c009375d5773c10126e7c8ebad3ede1c5ffe15cb30d",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 177,
+      "section": 10,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-177.png",
+      "sha256": "52a1cbdf2614ccf7089a6c7910a76403acca82570483dc14d9aedf0bf5ac1461",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 178,
+      "section": 10,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-178.png",
+      "sha256": "a6de995ea9957d444c29ca4cbf1c90e5f3dd56de7450c39f1583de4636090a7e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 179,
+      "section": 10,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-179.png",
+      "sha256": "99a2b700f11eb5f23877ac90dfa7f30445b477931eacf154d7a53d5619b8ce67",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 180,
+      "section": 10,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-180.png",
+      "sha256": "8dbc05521d49892a16fa68379ecc6b9327e205968d52cf2317e901a5d172b6ac",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 181,
+      "section": 10,
+      "section_page": 15,
+      "preview": "renders/course-r2/slide-181.png",
+      "sha256": "d527ce2959984452033e2a37e6da55737db93cda9e94ae4304f69cad5ed0e625",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "说明文字换行可再精简。"
+    },
+    {
+      "page": 182,
+      "section": 10,
+      "section_page": 16,
+      "preview": "renders/course-r2/slide-182.png",
+      "sha256": "d51b8d591e9cd9328ff0ae3f052903e692bfd8aa52aea48daf230e5180403114",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 183,
+      "section": 10,
+      "section_page": 17,
+      "preview": "renders/course-r2/slide-183.png",
+      "sha256": "189193bdec4925edbf9b262b6a7be9fc8dc0ee8ffcaa99588747dbb2982b3bc8",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "说明文字换行可再精简。"
+    },
+    {
+      "page": 184,
+      "section": 10,
+      "section_page": 18,
+      "preview": "renders/course-r2/slide-184.png",
+      "sha256": "2065723fc4e139ffa86369b76861a199926184b61e3b4db57eeea32ccbfb16a4",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 185,
+      "section": 10,
+      "section_page": 19,
+      "preview": "renders/course-r2/slide-185.png",
+      "sha256": "759e5729da7a9d913c0895d68145de9f2856a3531c60f9e25cc6417099dc2c9f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 186,
+      "section": 10,
+      "section_page": 20,
+      "preview": "renders/course-r2/slide-186.png",
+      "sha256": "79aa4fe4136b54b3ce5070479be5407647b25b3e2df5d1d158913058bee6b978",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 187,
+      "section": 10,
+      "section_page": 21,
+      "preview": "renders/course-r2/slide-187.png",
+      "sha256": "70129c449eafaf13cc497a97da9139570df9006eeba1e3fe4048d37868b31354",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "说明文字换行可再精简。"
+    },
+    {
+      "page": 188,
+      "section": 10,
+      "section_page": 22,
+      "preview": "renders/course-r2/slide-188.png",
+      "sha256": "30eb4439a22ec8fff2aaf2ac204a97cf6eaa54b7f7af70060e0b34713783ece4",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 189,
+      "section": 10,
+      "section_page": 23,
+      "preview": "renders/course-r2/slide-189.png",
+      "sha256": "ebb9f013dad25163f3c3de41bdaceb2c3c8dec0ee71907daaaa6d33c40da2989",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "说明文字换行可再精简。"
+    },
+    {
+      "page": 190,
+      "section": 10,
+      "section_page": 24,
+      "preview": "renders/course-r2/slide-190.png",
+      "sha256": "1120c6792baba039380a30a5e08217217748e227e9eb51772857b8fc6381f9b0",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 191,
+      "section": 10,
+      "section_page": 25,
+      "preview": "renders/course-r2/slide-191.png",
+      "sha256": "a66a0b8026a288aef9962330a1ce1b010c8817f3109213e2221b954b378ed7f7",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 192,
+      "section": 10,
+      "section_page": 26,
+      "preview": "renders/course-r2/slide-192.png",
+      "sha256": "3d08b4fd87215e8e9267aabf35da8b7f3a2b01efd42d8045a26eb8ea3c67b481",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 193,
+      "section": 11,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-193.png",
+      "sha256": "a1f197f4da27e482e72b9474261635eab378b675f347382073169add4b85920c",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "说明文字换行可再精简。"
+    },
+    {
+      "page": 194,
+      "section": 11,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-194.png",
+      "sha256": "4bb59ff4801f0cfa1080fb78886f2a4b65411ddfe645bdf0adad7fb1a805a745",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 195,
+      "section": 11,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-195.png",
+      "sha256": "e9cc4e7566f7e2d1f939c0b7c809d19bcd0700d8f7e3a84a7bb2363b57b25984",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 196,
+      "section": 11,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-196.png",
+      "sha256": "536d3b593764643a52cd25526ee9081cce8bd0263e29bae09b15b752c840f3d1",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 197,
+      "section": 11,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-197.png",
+      "sha256": "1eac95eb8762dd8d4c6ffd4ac5804bcf3ffeb374f40a58941147edde8a5df37f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 198,
+      "section": 11,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-198.png",
+      "sha256": "5db21fda5b7594fbd2d4377d2b7590841b040399f40c7a1560851ce6cce1ca94",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 199,
+      "section": 11,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-199.png",
+      "sha256": "3c1f3b9a6d9a365fc076358f39d6a9efdc8dd529190c2e379286128c83325bae",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 200,
+      "section": 11,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-200.png",
+      "sha256": "eae1f7541992b795211e456a769dbc84608a6019dc773f44a6863702f32dce1f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 201,
+      "section": 11,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-201.png",
+      "sha256": "04fb85a7545cc05fc8d2bfb78d9cd1711cbe575d4a5c50626763ec35beac9b90",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 202,
+      "section": 11,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-202.png",
+      "sha256": "21dd0c6909a13c7881fa391f0ea421178031db56d1122e36f4dc1ee5fcad31da",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 203,
+      "section": 11,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-203.png",
+      "sha256": "fe9d30b577f947d97f734d35ab9d2f6b6d6860608233475a87498a9ef4340aba",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "说明文字换行可再精简。"
+    },
+    {
+      "page": 204,
+      "section": 11,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-204.png",
+      "sha256": "8a7fd3b74b05fb33bc2ba42e10198efbf68a71a5f09ebee13609d47f0222df35",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 205,
+      "section": 12,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-205.png",
+      "sha256": "58e7c4eef9498589a5cc5660c738c1cde11fc9a2781f38cf0b5142b98e98439e",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "说明文字换行可再精简。"
+    },
+    {
+      "page": 206,
+      "section": 12,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-206.png",
+      "sha256": "8442b90da206e5bac5897f65429ffdbb95aa1d92b3b86e6b897ca20a130a5c79",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 207,
+      "section": 12,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-207.png",
+      "sha256": "dbc17e6fcf66b2d9ad51a67fc77840e01dd806d170e38ef5961e9f012c6f6dc2",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 208,
+      "section": 12,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-208.png",
+      "sha256": "0faec880ec7808967dcf184940cc61e9a9b5600922bce02e7fe222c127214c57",
+      "reviewed_visually": true,
+      "result": "可阅读；有排版待改项",
+      "note": "说明文字换行可再精简。"
+    },
+    {
+      "page": 209,
+      "section": 12,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-209.png",
+      "sha256": "66b88d344643d3599e0788933af7e796014bfa55947541d9652254c0d38f53eb",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 210,
+      "section": 12,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-210.png",
+      "sha256": "3427db0d4d2c6b76b9e5634c901112eb254fd9225fec65429fec07a5c12c044d",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 211,
+      "section": 12,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-211.png",
+      "sha256": "187e3ce8051f04450422eadb020fe9e55c7af0c22666e729b880a5359a7e70ee",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 212,
+      "section": 12,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-212.png",
+      "sha256": "35afba19ca4d53772d679c90255956bbc506eb0a82d24b77a80a57f2cefb564e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 213,
+      "section": 12,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-213.png",
+      "sha256": "cc056a63dcc5ed32c21700fe57eb6f3b521192c45a41fd2d37f76b73d5de2488",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 214,
+      "section": 12,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-214.png",
+      "sha256": "4d920c3a4624b3a7461cb826394471ccc432d7f7a5efbc1561aad9e23399b832",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 215,
+      "section": 13,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-215.png",
+      "sha256": "6d749a061685a818f95e6869512c033877d78b0af121bcda49061a469cc91bd5",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 216,
+      "section": 13,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-216.png",
+      "sha256": "43d9831723644d8a3333d08b37e0ccf5d5697bdafbb0e3c031f51f046e3fc8a6",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 217,
+      "section": 13,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-217.png",
+      "sha256": "19f07016b59d4820a66a08445bb3431cdb4b5918ef5a39de020b174ed7ad2bc3",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 218,
+      "section": 13,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-218.png",
+      "sha256": "1085d2d9bdae3209559fa8c0c6f4285c2ac10dd75b429ac45909fc45da5ad0be",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 219,
+      "section": 13,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-219.png",
+      "sha256": "410bb1856123a67eee41947ee001262cdb8504e048095739c182f5b3357dbc22",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 220,
+      "section": 13,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-220.png",
+      "sha256": "68d34b026b3463cf54ee3c09675dee10d279df7ce403ca3abcd636a59c2f09e8",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 221,
+      "section": 13,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-221.png",
+      "sha256": "692b68c8ce2e231bff602f8ede3b13d6721e4b6445a78855acc17b76ad346d72",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 222,
+      "section": 13,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-222.png",
+      "sha256": "fdb1928b72fb66c2b75f889490b651ee9c14dbd60a527beb99941cf36ff2979a",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 223,
+      "section": 13,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-223.png",
+      "sha256": "1842626514697628b03c294f3f28b9fdae993497f28c024973f181a174a79e97",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 224,
+      "section": 13,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-224.png",
+      "sha256": "5a1117c9ef66f3aa63d198ccc629638b6fce5683480a27ea1bd4fcbff5e62fa2",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 225,
+      "section": 14,
+      "section_page": 1,
+      "preview": "renders/course-r2/slide-225.png",
+      "sha256": "644a95c5b01cd2a58f6f694204591aa076c559fc8732dbf5cac1d57137bf97b4",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 226,
+      "section": 14,
+      "section_page": 2,
+      "preview": "renders/course-r2/slide-226.png",
+      "sha256": "0bbbd8cff4f0f2e8caf6e2b2b52246b50257aff8fa8e3b164e88ca09c2483120",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 227,
+      "section": 14,
+      "section_page": 3,
+      "preview": "renders/course-r2/slide-227.png",
+      "sha256": "54cd668138440000e20bf6186085c4264fb3097740b99323ff4c21ae44c0c39d",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 228,
+      "section": 14,
+      "section_page": 4,
+      "preview": "renders/course-r2/slide-228.png",
+      "sha256": "bc809fe61b781cf2ee44e558e128d1a7c802f91a1a209b0d874fa732550df861",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 229,
+      "section": 14,
+      "section_page": 5,
+      "preview": "renders/course-r2/slide-229.png",
+      "sha256": "4d80c45c8193d795d3f422803afc48f88da6241bc41d1395ef0b114df8340b99",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 230,
+      "section": 14,
+      "section_page": 6,
+      "preview": "renders/course-r2/slide-230.png",
+      "sha256": "ed71cab67ecb88ea4216a5a229d71ce681f9dc3b5ca2da420f2a3983868e0d30",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 231,
+      "section": 14,
+      "section_page": 7,
+      "preview": "renders/course-r2/slide-231.png",
+      "sha256": "cdad022c84d9324a38b7f799ad8923316179604770faa47a32e465320a6f6a0b",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 232,
+      "section": 14,
+      "section_page": 8,
+      "preview": "renders/course-r2/slide-232.png",
+      "sha256": "90683cb9986ca59237840a76fa7099cce89c20c376291efbfd31c1e22f17dbbc",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 233,
+      "section": 14,
+      "section_page": 9,
+      "preview": "renders/course-r2/slide-233.png",
+      "sha256": "9e1e1ed1bf28522f864d46c74570cf90a30be5f1bec726f34e6b5ad95d06b88f",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 234,
+      "section": 14,
+      "section_page": 10,
+      "preview": "renders/course-r2/slide-234.png",
+      "sha256": "1090dd62d8db7424bd949d739d14f452a101c369148c9c1d4f0300a79f271e98",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 235,
+      "section": 14,
+      "section_page": 11,
+      "preview": "renders/course-r2/slide-235.png",
+      "sha256": "bfc802caa59b249e662d28fc9e85eda96d4a5ad929a153865f08439f9d5b6b53",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 236,
+      "section": 14,
+      "section_page": 12,
+      "preview": "renders/course-r2/slide-236.png",
+      "sha256": "58ce6c44eb39f0a744bbb674d8da7ae16204f2b695287e1b34dd45d64ccd551a",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 237,
+      "section": 14,
+      "section_page": 13,
+      "preview": "renders/course-r2/slide-237.png",
+      "sha256": "dc9a4446a30cf70ddfd004eeda817ae3bbb28e9109db2fa9b50bdc73ba4eb983",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 238,
+      "section": 14,
+      "section_page": 14,
+      "preview": "renders/course-r2/slide-238.png",
+      "sha256": "ce30c0acb8dfe7d6bbfadb16f1c7fbe86ee306789af5ddd9280b49eb4be3908e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 239,
+      "section": 14,
+      "section_page": 15,
+      "preview": "renders/course-r2/slide-239.png",
+      "sha256": "2c75e4ad692b9ca0566573a0784a8a6d94aaa1feda661e9dd6771cf0f010c14e",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    },
+    {
+      "page": 240,
+      "section": 14,
+      "section_page": 16,
+      "preview": "renders/course-r2/slide-240.png",
+      "sha256": "e143f526e527fbbb6bf0269f6e9225bf4b0f58f6ba03c8794bac057697d0b2fb",
+      "reviewed_visually": true,
+      "result": "未见合并导致的丢图或文字遮挡",
+      "note": ""
+    }
+  ]
+}

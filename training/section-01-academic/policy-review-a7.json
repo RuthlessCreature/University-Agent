@@ -1,0 +1,44 @@
+{
+  "revision": "a7",
+  "checked_date": "2026-10-20",
+  "science": {
+    "status": "original_read",
+    "url": "https://www.science.org/content/page/science-journals-editorial-policies",
+    "acquisition": "In-app browser: official page loaded normally after its automatic loading screen; read visible page and downloaded the linked original PDF.",
+    "html_body_sha256": "ec1739a4bd71ae113234d613a6721a8e6140d5a1778a2f23c2ef02a162b9a4ba",
+    "guidelines_url": "https://www.science.org/cms/asset/cea1081d-3aa4-42a2-96b7-72290067116a/sept26_science_journals_guidelines_ai_use.pdf",
+    "pdf_sha256": "ea01091ab506ac7cb9c17ba30c8604cce0bf54253be5566bd9bdbb60af041c60",
+    "pdf_pages": 2,
+    "visually_viewed_pdf_pages": [
+      1,
+      2
+    ],
+    "pdf_metadata_creation_date": "D:20260901173850-04'00'",
+    "date_scope": "PDF元数据创建时间不是独立的政策发布时间或生效日；正文未标独立更新时间，使用访问日期。",
+    "locations": [
+      "Authorship",
+      "Image and Text Integrity: Artificial intelligence",
+      "PDF p1 Doing the research / Preparing the manuscript / Reviewing the manuscript / Responding to the reviews",
+      "PDF p2 Responding to the reviews / Revising the manuscript"
+    ]
+  },
+  "nature": {
+    "status": "original_read",
+    "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+    "html_body_sha256": "9574b5434ff6e419a6715ac0d016c6e9fe265b1ec31a8c09eaddba148ac9c965",
+    "locations": [
+      "Risk-assessment framework: green / amber / red",
+      "Role-specific responsibilities"
+    ]
+  },
+  "plos": {
+    "status": "original_read",
+    "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
+    "locations": [
+      "AI use by authors",
+      "AI use disclosures",
+      "FAQs: language editing, translation, analysis scripts and figure preparation"
+    ]
+  },
+  "scope": "官方来源和中文转述核对，未执行任何投稿或稿件上传。原网页全文和原PDF仅在本地缓存，不随仓库发布。"
+}

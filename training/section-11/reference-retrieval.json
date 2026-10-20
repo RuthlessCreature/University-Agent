@@ -1,0 +1,42 @@
+[
+  {
+    "file": "wipo-2025.pdf",
+    "sha256": "4e0e42b72096562f05f170aea42736696b73a1818c6f3751a0c6df8519fb0bd1",
+    "pages": 209,
+    "view_pages": [
+      16,
+      24,
+      94,
+      96
+    ],
+    "recheck_2026_10_19": {
+      "official_url": "Opened official document URL via web; page screenshot attempts partly failed, so the existing original PDF cache and page images were used for visual rereading",
+      "viewed_physical_pages": [
+        24,
+        94,
+        96
+      ],
+      "scope": "Description structure, recorded search scope and non-final opinion distinction"
+    }
+  },
+  {
+    "file": "EP4636367A1.pdf",
+    "sha256": "3b154d4f2e91d87d612b1c21a13f6410c16f3204cec88ea3a35bd5a7bc05ff59",
+    "pages": 31,
+    "view_pages": [
+      1,
+      14,
+      16,
+      17,
+      26
+    ],
+    "recheck_2026_10_19": {
+      "official_url": "Opened official document URL via web; page screenshot attempts partly failed, so the existing original PDF cache and page images were used for visual rereading",
+      "viewed_physical_pages": [
+        14,
+        15
+      ],
+      "scope": "Claims 1,3,4,11 and their references; selected reading, not complete legal analysis"
+    }
+  }
+]

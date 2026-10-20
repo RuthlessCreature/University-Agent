@@ -1,0 +1,43 @@
+{
+  "executor": "local Python invoked by Codex; not Cursor",
+  "python_executable": "C:\\Users\\Georgij Xe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14",
+  "cursor_operated": false,
+  "cursor_model_called": false,
+  "input_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "runs": [
+    {
+      "script": "baseline.py",
+      "cwd": "E:\\20261024\\University-Agent\\training\\section-07\\cursor-packet",
+      "command": [
+        "C:\\Users\\Georgij Xe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "E:\\20261024\\University-Agent\\training\\section-07\\cursor-packet\\baseline.py",
+        "E:\\20261024\\University-Agent\\training\\section-07\\cursor-packet\\penguins.csv"
+      ],
+      "started_at": "2026-10-19T07:48:30.165168+00:00",
+      "finished_at": "2026-10-19T07:48:30.292361+00:00",
+      "exit_code": 0,
+      "stdout": "{\"actual_execution\": true, \"analysis_rows\": 146, \"groups\": [{\"sex_code\": 0, \"n\": 73, \"mean_mm\": 187.7945205479452, \"sd_mm\": 5.595034763345455}, {\"sex_code\": 1, \"n\": 73, \"mean_mm\": 192.41095890410958, \"sd_mm\": 6.599317339354874}], \"male_minus_female_mm\": 4.616438356164366}\n",
+      "stderr": "",
+      "script_sha256": "c7559e551333896c5326557b0719a35876804a3181ce95cf8acdfb204703be67",
+      "output_folder": "baseline-output"
+    },
+    {
+      "script": "modified.py",
+      "cwd": "E:\\20261024\\University-Agent\\training\\section-07\\cursor-packet",
+      "command": [
+        "C:\\Users\\Georgij Xe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "E:\\20261024\\University-Agent\\training\\section-07\\cursor-packet\\modified.py",
+        "E:\\20261024\\University-Agent\\training\\section-07\\cursor-packet\\penguins.csv"
+      ],
+      "started_at": "2026-10-19T07:48:30.293362+00:00",
+      "finished_at": "2026-10-19T07:48:30.422405+00:00",
+      "exit_code": 0,
+      "stdout": "{\"actual_execution\": true, \"analysis_rows\": 146, \"groups\": [{\"sex_code\": 0, \"n\": 73, \"mean_mm\": 187.7945205479452, \"sd_mm\": 5.595034763345455}, {\"sex_code\": 1, \"n\": 73, \"mean_mm\": 192.41095890410958, \"sd_mm\": 6.599317339354874}], \"female_minus_male_mm\": -4.616438356164366}\n",
+      "stderr": "",
+      "script_sha256": "09609460253eb73796b0741d2e587ade7a38cfb2e8b4d993c805fe1b860c16f3",
+      "output_folder": "modified-output"
+    }
+  ],
+  "scope": "Actual local script execution only; no scientific or teacher approval."
+}

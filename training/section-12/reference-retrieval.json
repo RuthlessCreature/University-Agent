@@ -1,0 +1,30 @@
+{
+  "checked_date": "2026-10-18",
+  "file": "hadea-repa-2025.pdf",
+  "sha256": "371342d2934ffa4179233d4d1b298444071d82cbf2d00954c63cf45b9dde0b27",
+  "pages": 105,
+  "viewed_physical_pages": [
+    75,
+    97,
+    98,
+    102,
+    104
+  ],
+  "scope": "已逐页查看本地原PDF渲染；仅采用持续记录、分工和材料组织方式",
+  "latest_review": {
+    "date": "2026-10-20",
+    "online_original_pdf_opened": true,
+    "online_pdf_page_count": 105,
+    "cached_page_images_reviewed": [
+      97,
+      102
+    ],
+    "cached_pdf_sha256_rechecked": "371342d2934ffa4179233d4d1b298444071d82cbf2d00954c63cf45b9dde0b27",
+    "nsfc_official_notice_reread_sections": [
+      "二",
+      "三",
+      "五"
+    ],
+    "scope": "本轮采用附件分类与逐项定位的讲授组织；未将欧盟制度或截图当作国内流程。"
+  }
+}

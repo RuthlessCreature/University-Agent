@@ -1,0 +1,112 @@
+[
+  {
+    "result_position": 1,
+    "title": "Generative AI and its impact on personalized intelligent tutoring systems",
+    "result_url": "https://arxiv.org/abs/2410.10650",
+    "cited_by_count": 204,
+    "displayed_versions": 9,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": true,
+    "checked_scope": "arXiv题录、摘要与作者所填报告类型；未完整阅读全文"
+  },
+  {
+    "result_position": 2,
+    "title": "The effects of Generative Artificial Intelligence on Intelligent Tutoring Systems in higher education: A systematic review",
+    "result_url": "https://stel.pubpub.org/pub/04-01-batsaikhan-correia",
+    "cited_by_count": 65,
+    "displayed_versions": 3,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": true,
+    "checked_scope": "期刊原始题录与摘要；未完成系统综述质量审查"
+  },
+  {
+    "result_position": 3,
+    "title": "Empowering education by developing and evaluating generative AI-powered tutoring system for enhanced student learning",
+    "result_url": "https://ray.yorksj.ac.uk/id/eprint/10583/",
+    "cited_by_count": 47,
+    "displayed_versions": 3,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": false,
+    "checked_scope": "仅登记搜索结果，原文未核验"
+  },
+  {
+    "result_position": 4,
+    "title": "Promoting student engagement with GPTutor: An intelligent tutoring system powered by generative AI",
+    "result_url": "https://link.springer.com/article/10.1186/s41239-025-00571-9",
+    "cited_by_count": 31,
+    "displayed_versions": 9,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": true,
+    "checked_scope": "原文摘要、方法的样本筛选、限制与更正说明；非独立复现"
+  },
+  {
+    "result_position": 5,
+    "title": "3DG: a framework for using generative AI for handling sparse learner performance data from intelligent tutoring systems",
+    "result_url": "https://arxiv.org/abs/2402.01746",
+    "cited_by_count": 17,
+    "displayed_versions": 5,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": false,
+    "checked_scope": "仅登记搜索结果，原文未核验"
+  },
+  {
+    "result_position": 6,
+    "title": "Adaptive second language tutoring using generative ai and a social robot",
+    "result_url": "https://dl.acm.org/doi/abs/10.1145/3610978.3640559",
+    "cited_by_count": 32,
+    "displayed_versions": 6,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": false,
+    "checked_scope": "仅登记搜索结果，原文未核验"
+  },
+  {
+    "result_position": 7,
+    "title": "Generative AI-based tutoring for enhancing learning engagement and achievement",
+    "result_url": "https://search.informit.org/doi/abs/10.3316/informit.T2025072100009290720335183",
+    "cited_by_count": 17,
+    "displayed_versions": 9,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": false,
+    "checked_scope": "仅登记搜索结果，原文未核验"
+  },
+  {
+    "result_position": 8,
+    "title": "GPTutor: A generative AI-powered intelligent tutoring system to support interactive learning with knowledge-grounded question answering",
+    "result_url": "https://ieeexplore.ieee.org/abstract/document/10898626/",
+    "cited_by_count": 17,
+    "displayed_versions": 3,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": false,
+    "checked_scope": "仅登记搜索结果，原文未核验"
+  },
+  {
+    "result_position": 9,
+    "title": "An adaptive intelligent tutoring system powered by generative AI",
+    "result_url": "https://ieeexplore.ieee.org/abstract/document/11016362/",
+    "cited_by_count": 16,
+    "displayed_versions": 3,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": false,
+    "checked_scope": "仅登记搜索结果，原文未核验"
+  },
+  {
+    "result_position": 10,
+    "title": "Pedagogy-driven evaluation of generative AI-Powered intelligent tutoring systems",
+    "result_url": "https://link.springer.com/chapter/10.1007/978-3-031-99261-2_3",
+    "cited_by_count": 12,
+    "displayed_versions": 5,
+    "citation_source": "Google Scholar",
+    "captured_date": "2026-10-19",
+    "primary_checked": false,
+    "checked_scope": "仅登记搜索结果，原文未核验"
+  }
+]

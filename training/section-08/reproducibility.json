@@ -1,0 +1,6 @@
+{
+  "reexecuted": true,
+  "figure_data_sha256": "6e98dd1a33b99ca81bea84a6748fe8298b66678e2c8e65ddaf9205470937e4fa",
+  "same_bytes_after_rerun": true,
+  "scope": "固定输入、随机种子和当前包版本下复算一致，不证明统计假设成立。"
+}

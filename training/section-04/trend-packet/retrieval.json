@@ -1,0 +1,48 @@
+{
+  "checked_date": "2026-10-19",
+  "sources": [
+    {
+      "cached_file": "preprint.html",
+      "url": "https://arxiv.org/abs/2405.14713",
+      "http_status": 200,
+      "sha256": "76e8e4d8331a99ca1e4293d0ef721efd75b983d4f6079a36305be269640323ed",
+      "bytes": 43953
+    },
+    {
+      "cached_file": "preprint-full.html",
+      "url": "https://arxiv.org/html/2405.14713v1",
+      "http_status": 200,
+      "sha256": "793ad669851fbe1aa1194ec3fffb77800639b6d37179449543870fead44fd34f",
+      "bytes": 76152
+    },
+    {
+      "cached_file": "patent.html",
+      "url": "https://patents.google.com/patent/US20240274025A1/en",
+      "http_status": 200,
+      "sha256": "fcc223185335b4ee863cd3dc8cdeb0e4db1ad1a84d0e937d8e568c831c212444",
+      "bytes": 544227
+    },
+    {
+      "cached_file": "patent-original.pdf",
+      "url": "https://patentimages.storage.googleapis.com/55/66/72/fb70dcb27534d0/US20240274025A1.pdf",
+      "http_status": 200,
+      "sha256": "42f317c9e3c1647b0e83384acf6a923b4b872ec0db16f2573a76bdde4199108c",
+      "bytes": 2661753
+    },
+    {
+      "cached_file": "journal.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+      "http_status": 200,
+      "sha256": "7e2d0f5042a6cf9befef35d9a3526281e6523b2eabd153ab645c77eb2813fe12",
+      "bytes": 183903
+    },
+    {
+      "cached_file": "builder.png",
+      "url": "https://arxiv.org/html/2405.14713v1/images/builder.png",
+      "http_status": 200,
+      "sha256": "073a74dfa2b251c86713dc4fcc63d185f1a8991aa30ec4a53cf503b2fa2192dd",
+      "bytes": 566647
+    }
+  ],
+  "scope": "原件获取记录；读取定位与概括另见records.json。未做全库检索或专利法律状态核验。"
+}

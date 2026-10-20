@@ -1,0 +1,7 @@
+.build/
+.reference-cache/
+node_modules/
+__pycache__/
+*.log
+output/*s10-r1*
+renders/s10-r1/

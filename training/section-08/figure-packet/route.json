@@ -1,0 +1,137 @@
+{
+  "title": "分步提示与独立解题：拟议技术路线",
+  "status": "教学模拟，未实施",
+  "nodes": [
+    {
+      "id": "materials",
+      "label": "题目与评分规则",
+      "x": 80,
+      "y": 340,
+      "w": 350,
+      "h": 85
+    },
+    {
+      "id": "pilot",
+      "label": "材料预试与分配安排",
+      "x": 80,
+      "y": 495,
+      "w": 350,
+      "h": 110
+    },
+    {
+      "id": "step",
+      "label": "分步提示条件",
+      "x": 610,
+      "y": 350,
+      "w": 400,
+      "h": 85
+    },
+    {
+      "id": "answer",
+      "label": "完整解答条件",
+      "x": 610,
+      "y": 620,
+      "w": 400,
+      "h": 85
+    },
+    {
+      "id": "process1",
+      "label": "提示组过程记录",
+      "x": 610,
+      "y": 465,
+      "w": 400,
+      "h": 85
+    },
+    {
+      "id": "process2",
+      "label": "解答组过程记录",
+      "x": 610,
+      "y": 735,
+      "w": 400,
+      "h": 70
+    },
+    {
+      "id": "test",
+      "label": "一周后无AI新题\n按统一规则评分",
+      "x": 1180,
+      "y": 490,
+      "w": 340,
+      "h": 110
+    },
+    {
+      "id": "compare",
+      "label": "按预定方案比较",
+      "x": 1180,
+      "y": 710,
+      "w": 340,
+      "h": 85
+    }
+  ],
+  "edges": [
+    {
+      "source": "materials",
+      "target": "pilot",
+      "from": "bottom",
+      "to": "top"
+    },
+    {
+      "source": "pilot",
+      "target": "step",
+      "from": "right",
+      "to": "left",
+      "kind": "elbow"
+    },
+    {
+      "source": "pilot",
+      "target": "answer",
+      "from": "right",
+      "to": "left",
+      "kind": "elbow"
+    },
+    {
+      "source": "step",
+      "target": "process1",
+      "from": "bottom",
+      "to": "top"
+    },
+    {
+      "source": "answer",
+      "target": "process2",
+      "from": "bottom",
+      "to": "top"
+    },
+    {
+      "source": "process1",
+      "target": "test",
+      "from": "right",
+      "to": "left",
+      "kind": "elbow"
+    },
+    {
+      "source": "process2",
+      "target": "test",
+      "from": "right",
+      "to": "left",
+      "kind": "elbow"
+    },
+    {
+      "source": "test",
+      "target": "compare",
+      "from": "bottom",
+      "to": "top"
+    }
+  ],
+  "caption": "教学拟议，未实施；箭头表示执行次序和后续测量，不表示因果效应。",
+  "arrow_meaning": "工作次序与同一组后续测量；不是机制或因果证明",
+  "link_to_protocol": "training/section-06/design-packet/protocol.json（仓库根目录相对路径）",
+  "annotations": [
+    {
+      "text": "用同一编号对应组别、过程与测验；\n测量缺失和执行偏离单独登记。",
+      "x": 80,
+      "y": 670,
+      "w": 470,
+      "h": 110
+    }
+  ],
+  "protocol_sha256": "d7b972353d634dfb9a5fbdd221cb21b2bd8d7994a1369a82849477e1b8af611b"
+}

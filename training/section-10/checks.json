@@ -1,0 +1,40 @@
+{
+  "revision": "s10-r5",
+  "pages": 26,
+  "notes": 26,
+  "pdf_pages": 26,
+  "preview_images": 26,
+  "editable_connector_diagram_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    11,
+    12,
+    13,
+    15,
+    17,
+    18,
+    21,
+    23,
+    26
+  ],
+  "native_table_pages": [
+    22
+  ],
+  "actual_word_preview_pages": [
+    25
+  ],
+  "word_pages": 3,
+  "word_embedded_route_figures": 2,
+  "native_route_endpoint_checks": true,
+  "negative_cases_blocked": 4,
+  "actual_file_execution": true,
+  "external_model_called": false,
+  "scientific_validation": "not_performed",
+  "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+  "scope": "指南、输入、模板及Word哈希，内容填充、映射和来源，4项真实异常与导出文件核对；不代表科研有效性或云端模型全系统运行。"
+}

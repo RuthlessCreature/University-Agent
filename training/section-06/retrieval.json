@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-17",
+  "original_slide_decks": [
+    {
+      "url": "https://dmrocke.ucdavis.edu/Class/BIM283.2026.Winter/Lecture07_Randomized_Block_Designs.pdf",
+      "sha256": "4806fe150823bcdca9821c6068b25a8fa59eb5255c78e0fc903d3bae3fb10e73",
+      "pages": 55,
+      "visually_viewed": [
+        2,
+        10,
+        11
+      ]
+    },
+    {
+      "url": "https://dmrocke.ucdavis.edu/Class/BIM283.2026.Winter/Lecture09_Two_Level_Factorials.pdf",
+      "sha256": "3de23e5abc0dbe620706c8a6978335db42fb3d84513f4186d4f9f12bb41433b8",
+      "pages": 64,
+      "visually_viewed": [
+        2,
+        8,
+        9
+      ]
+    }
+  ],
+  "public_data_source": "https://dmrocke.ucdavis.edu/Class/BIM283.2026.Winter/Lecture09_Two_Level_Factorials.pdf",
+  "public_data_location": "PDF第8页定义和重复说明、第9页pilot.a表",
+  "original_slide_images_redistributed": false,
+  "paper_fulltext_record": "training/section-05/retrieval.json",
+  "claims_not_made": [
+    "本项目实验已实施",
+    "通过伦理或数据授权",
+    "样本量已计算",
+    "全部科研方案已验收"
+  ],
+  "conditional_calculation_20261019": {
+    "method_url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/power.t.test.html",
+    "reference_pages_reopened": {
+      "blocks": [
+        2,
+        10
+      ]
+    },
+    "code": "design-packet/sample-size.R",
+    "actual_runtime_report": "design-packet/r-output/run.json",
+    "assumptions_status": "教学设定，无预研究估计依据",
+    "participant_data_used": false
+  }
+}

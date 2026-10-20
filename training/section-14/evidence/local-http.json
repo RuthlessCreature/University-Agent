@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-19T16:47:38.005400+00:00",
+  "health": {
+    "mode": "local-file-demo",
+    "llm_called": false,
+    "cloud_deployed": false
+  },
+  "kinds": [
+    "grant",
+    "paper",
+    "patent"
+  ],
+  "artifact_download_hash_verified": true,
+  "scope": "Real local HTTP + Python + DOCX, fixed teaching materials, no model."
+}

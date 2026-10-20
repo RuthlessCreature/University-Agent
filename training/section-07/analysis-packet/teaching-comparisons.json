@@ -1,0 +1,201 @@
+{
+  "source_hashes": {
+    "penguins.csv": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+    "normal-ci-simulation.csv": "9a0bca6c0c7bef10b560fae45687cd9cbacc1f05d85f067830c3de39fc326e95",
+    "outlier-sensitivity.csv": "1378da193483e93561884567ec763d193a8e3591c10485b36e1ebf6ca7784434",
+    "normal-ci-first20.csv": "603a2f2a4225a3a4cd3426b79c0c1d2b8d98820cc383ca3c7372e4481135b091"
+  },
+  "python_version": "3.12.14",
+  "script_sha256": "1e0386453639d0cb60233fa2085153283399aee49c5fb83a99e218ec72d89253",
+  "iqr_thresholds": {
+    "q1": 186.0,
+    "q3": 195.0,
+    "lower": 172.5,
+    "upper": 208.5
+  },
+  "flagged_records": [
+    {
+      "source_csv_row": 30,
+      "sex": "female",
+      "flipper_length_mm": 172.0
+    },
+    {
+      "source_csv_row": 131,
+      "sex": "male",
+      "flipper_length_mm": 210.0
+    }
+  ],
+  "outlier_scenarios": [
+    {
+      "scenario": "retain_all",
+      "label": "保留全部完整记录",
+      "records": 146,
+      "female_n": 73,
+      "male_n": 73,
+      "female_mean_mm": 187.7945205479452,
+      "male_mean_mm": 192.41095890410958,
+      "male_minus_female_mm": 4.616438356164366
+    },
+    {
+      "scenario": "exclude_flagged_scenario",
+      "label": "仅作比较：排除标记值",
+      "records": 144,
+      "female_n": 72,
+      "male_n": 72,
+      "female_mean_mm": 188.01388888888889,
+      "male_mean_mm": 192.16666666666666,
+      "male_minus_female_mm": 4.1527777777777715
+    }
+  ],
+  "source_records_deleted": 0,
+  "ci_prefix_selection": "连续前20次；没有跳过或重新挑选模拟次数",
+  "ci_prefix_records": [
+    {
+      "repetition": 1,
+      "mean": "102.21913710266205",
+      "lower": "98.29920913358194",
+      "upper": "106.13906507174215",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 2,
+      "mean": "97.03064627977321",
+      "lower": "93.1107183106931",
+      "upper": "100.95057424885331",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 3,
+      "mean": "99.10189639641274",
+      "lower": "95.18196842733263",
+      "upper": "103.02182436549285",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 4,
+      "mean": "102.84630296556139",
+      "lower": "98.92637499648129",
+      "upper": "106.7662309346415",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 5,
+      "mean": "99.69738154647035",
+      "lower": "95.77745357739025",
+      "upper": "103.61730951555046",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 6,
+      "mean": "96.38852837055516",
+      "lower": "92.46860040147506",
+      "upper": "100.30845633963527",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 7,
+      "mean": "102.84397990280414",
+      "lower": "98.92405193372403",
+      "upper": "106.76390787188424",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 8,
+      "mean": "102.13396979865884",
+      "lower": "98.21404182957873",
+      "upper": "106.05389776773895",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 9,
+      "mean": "101.14969846421444",
+      "lower": "97.22977049513433",
+      "upper": "105.06962643329454",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 10,
+      "mean": "99.33201861581263",
+      "lower": "95.41209064673252",
+      "upper": "103.25194658489274",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 11,
+      "mean": "103.69575617899258",
+      "lower": "99.77582820991248",
+      "upper": "107.61568414807269",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 12,
+      "mean": "102.58301081147737",
+      "lower": "98.66308284239726",
+      "upper": "106.50293878055747",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 13,
+      "mean": "101.153091580258",
+      "lower": "97.2331636111779",
+      "upper": "105.07301954933811",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 14,
+      "mean": "102.06302015892783",
+      "lower": "98.14309218984772",
+      "upper": "105.98294812800793",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 15,
+      "mean": "100.49609448460146",
+      "lower": "96.57616651552135",
+      "upper": "104.41602245368156",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 16,
+      "mean": "100.61414950535125",
+      "lower": "96.69422153627114",
+      "upper": "104.53407747443136",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 17,
+      "mean": "101.73406022118468",
+      "lower": "97.81413225210457",
+      "upper": "105.65398819026478",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 18,
+      "mean": "94.84038811250907",
+      "lower": "90.92046014342897",
+      "upper": "98.76031608158918",
+      "covers_true_100": "False"
+    },
+    {
+      "repetition": 19,
+      "mean": "99.27199401975297",
+      "lower": "95.35206605067286",
+      "upper": "103.19192198883307",
+      "covers_true_100": "True"
+    },
+    {
+      "repetition": 20,
+      "mean": "101.49859581190145",
+      "lower": "97.57866784282135",
+      "upper": "105.41852378098156",
+      "covers_true_100": "True"
+    }
+  ],
+  "ci_all_repetitions": 1000,
+  "ci_covered": 941,
+  "ci_not_covered": 59,
+  "ci_first20_miss_repetitions": [
+    18
+  ],
+  "scope": "实际读取公开CSV的描述敏感性比较，以及既有正态教学模拟的连续前20次；未查明异常原因，不批准删值，不构成稳健性或科研结论。"
+}

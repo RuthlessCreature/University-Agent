@@ -1,0 +1,27 @@
+{
+  "source_file": "demo/input/paper/penguins.csv",
+  "source_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "raw_records": 344,
+  "body_mass_nonmissing_records": 342,
+  "groups": {
+    "Adelie": {
+      "records": 151,
+      "mean_g": 3700.662251655629,
+      "sample_sd_g": 458.56612591013476
+    },
+    "Chinstrap": {
+      "records": 68,
+      "mean_g": 3733.0882352941176,
+      "sample_sd_g": 384.3350813871914
+    },
+    "Gentoo": {
+      "records": 123,
+      "mean_g": 5076.016260162602,
+      "sample_sd_g": 504.11623665709163
+    }
+  },
+  "scope": "本轮独立CSV描述统计与已生成Word数字核对；Word执行器本身只组织给定文字，未做因果或总体推断。",
+  "original_D1_locator": "../deck-zh/sources/penguins.csv",
+  "bundled_locator": "demo/input/paper/penguins.csv",
+  "source_location_note": "保留原教学输入的D1定位，同时随包补充同一公开CSV的可检查副本。"
+}

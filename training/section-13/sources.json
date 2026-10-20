@@ -1,0 +1,68 @@
+{
+  "lecture": {
+    "title": "Desika Narayanan，Giving Scientific Presentations，SURF/UF REUs 2025，University of Florida",
+    "short": "佛罗里达大学2025原始课件",
+    "url": "https://www.eng.ufl.edu/surf/wp-content/uploads/sites/243/2025/07/Narayanan_Scientific_PresentationsCopressed.pdf",
+    "location": "已逐页查看PDF第3、14、20、23、27、29、31页；采用问题与证据组织、术语解释、图示与可读性。第23页原图仅供讲图示范，非本课程研究结果；未采用第20页拼合宣传图或第31页反例中的统计值"
+  },
+  "data": {
+    "title": "Horst、Hill与Gorman，palmerpenguins公开数据",
+    "short": "palmerpenguins公开数据，课程二次计算",
+    "url": "https://allisonhorst.github.io/palmerpenguins/",
+    "location": "About the data、License、References；原CSV与来源哈希在communication-packet/input，结果为本节重新计算"
+  },
+  "orcid": {
+    "title": "ORCID for Researchers",
+    "short": "ORCID官方研究者说明",
+    "url": "https://info.orcid.org/researchers/",
+    "location": "What is ORCID、Why get an ORCID、Optimize your ORCID；持续身份标识、成果关联和可见性，未操作真实账号"
+  },
+  "orcidworks": {
+    "title": "ORCID Help，Add works using an identifier",
+    "short": "ORCID官方成果关联说明",
+    "url": "https://support.orcid.org/hc/en-us/articles/360022298153-Add-works-using-an-identifier",
+    "location": "Introduction与步骤4、5：优先通过导入或连接已有系统添加成果，核对字段与可见性；不是自动确认归属"
+  },
+  "rg": {
+    "title": "ResearchGate Help，What is my Profile 与 How to add research",
+    "short": "ResearchGate官方帮助",
+    "url": "https://help.researchgate.net/profile/what-is-my-profile",
+    "location": "个人资料用于呈现研究及贡献；成果条目另见https://help.researchgate.net/research-and-publications/how-to-add-research；未登录、认领成果或上传"
+  },
+  "rights": {
+    "title": "ResearchGate Help，Copyright and ResearchGate",
+    "short": "ResearchGate官方版权说明",
+    "url": "https://help.researchgate.net/copyright/copyright-and-researchgate",
+    "location": "开头版权责任与General principles：预印本、接受稿、出版版本的分享规则可能不同，需核对许可和出版社规则；未对具体论文作法律结论"
+  },
+  "course": {
+    "title": "本节自编科研汇报与传播教学表达",
+    "short": "AI编写教学示例，未发布",
+    "url": "local:training/section-13/communication-packet/input/brief.json",
+    "location": "三个读者版本、错误表述与修订、事实限定；不代表原作者对外表达或正式项目报告"
+  },
+  "run": {
+    "title": "本节实际复算和文件整理记录",
+    "short": "实际本地复算与文件记录",
+    "url": "local:training/section-13/execution-evidence.json",
+    "location": "make_packet.py、facts.json、expression-check.json及Word；无外部模型调用，无平台账号操作"
+  },
+  "doi": {
+    "title": "DOI Foundation，What is a DOI?",
+    "short": "DOI基金会官方说明",
+    "url": "https://www.doi.org/the-identifier/what-is-a-doi/",
+    "location": "What is a DOI与persistent identifiers：标识对象并提供可解析的持续引用；本节没有注册或赋予任何新DOI"
+  },
+  "engagement": {
+    "title": "UKRI Guidance on engaging the public with your research",
+    "short": "UKRI，读者、倾听与评价指导",
+    "url": "https://www.ukri.org/manage-your-award/good-research-resource-hub/guidance-on-engaging-the-public-with-your-research/",
+    "location": "2026-10-19读Identify your target group、Listen to the public、Measure success；具体月度安排由课程编写"
+  },
+  "outreach": {
+    "title": "本节三个月传播安排与四份教学草稿",
+    "short": "自编三个月教学安排，未发布",
+    "url": "local:training/section-13/outreach-packet/plan.json",
+    "location": "四份Markdown、材料状态、CSV与核对；没有实际平台发布、用户反馈或传播指标"
+  }
+}

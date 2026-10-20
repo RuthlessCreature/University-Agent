@@ -1,0 +1,6 @@
+# Keep the exact bytes used by execution records and input SHA-256 checks.
+cross-tool/** -text
+cursor-packet/** -text
+analysis-packet/** -text
+# Preserve the R interpreter's verbatim sessionInfo output, including padding.
+cross-tool/r-output/session-info.txt -whitespace

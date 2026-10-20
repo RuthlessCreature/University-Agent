@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-17",
+  "revision": "r3",
+  "pptx_slides": 12,
+  "speaker_notes": 12,
+  "pdf_pages": 12,
+  "editable_charts": 1,
+  "embedded_workbooks": 1,
+  "native_tables": 1,
+  "diagram_pages": [
+    6,
+    10
+  ],
+  "classroom_counts": [
+    [
+      95,
+      5
+    ],
+    [
+      205,
+      695
+    ]
+  ],
+  "count_total": 1000,
+  "source_hashes_checked": true,
+  "word_pages": 1,
+  "instructor_accepted": false,
+  "powerpoint_native_open_checked": false,
+  "cloud_or_model_called": false,
+  "pptx_sha256": "606c94ca7b22fa6387ab87f8b552a2b0b0c0c68034699a6ef260ae2cfbdabeac"
+}

@@ -1,0 +1,9 @@
+{
+  "revision": "course-r4",
+  "pptx_sha256": "6ffa913b9aad457b86963b25449066a87e05664c8f1e85dc9c9f70113a4f6471",
+  "pdf_sha256": "3639d29d17fb5d4a44ae9825dbfbccfb9c2d9c6fccc45cc3108d15f32595d4cc",
+  "pages": 240,
+  "images": 240,
+  "renderer": "LibreOffice then Poppler 96 dpi",
+  "scope": "Actual assembled PPTX rendered, not concatenated prior PDFs; visual comparison recorded separately."
+}

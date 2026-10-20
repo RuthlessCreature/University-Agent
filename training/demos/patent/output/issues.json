@@ -1,0 +1,17 @@
+[
+  {
+    "id": "PARAMETERS",
+    "severity": "blocking",
+    "issue": "关键实施参数需发明人确认"
+  },
+  {
+    "id": "PRIOR-ART",
+    "severity": "blocking",
+    "issue": "没有执行真实专利检索"
+  },
+  {
+    "id": "HUMAN-SIGNOFF",
+    "severity": "blocking",
+    "issue": "需要研究者对输入和模板的当前版本签核"
+  }
+]

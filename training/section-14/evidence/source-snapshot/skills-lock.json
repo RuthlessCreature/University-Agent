@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/RuthlessCreature/University-Skills",
+  "commit": "7987aaca32e23d1e041d8d530a386f2bc03c177f",
+  "fingerprint": "7b0f394edabf03e0acf62924a063b5728cdf9a7fa1e4104f4c230a1bf0ab0512",
+  "skills": {
+    "research-intake": "b71c665872ef97ca1444963f27bcd36037c0cab360cbcee340c2ce813e20a1c9",
+    "document-parsing": "31434ab88b153cabaa9b132109898607263ef983754b348897a178f6c89fc3c9",
+    "literature-discovery": "af070deb2538c37fdcfa6b84eefd79452b4dda097c45c40523f5616e57c280f3",
+    "literature-synthesis": "bf8f1fc3c7aad94a0670283d4f7563d9f57435675ee0c281720b52dd11219ccd",
+    "citation-verification": "6d7b11e56bd00c4969333841d4abc194f628836aa2432be02131cd1675dc3e00",
+    "claim-audit": "99cc7231d96a6bb005ce742445a3bb86b2e1b73d140d0731f33868c0b34c8f15",
+    "topic-evaluation": "99391df16d80f14181669719ad73e587d1ce6814add3659f3c1d96f465093e09",
+    "experiment-design": "3c5e440fb6a73837132b15d5a72f44628f3fa3c37313f922b4521ac8031a3ee4",
+    "data-analysis": "ecc5d92e2ce642cb5d06360957897abfb23627368ec8bf2598bf19daaf13139d",
+    "grant-template": "58f1eadea9d5adeb1122a9e23a6252843ac5538489b7cdde05c77cf91af10eb7",
+    "grant-research-content": "49d238af0a8c9edb9de3f30476d0448a62ceae1a9fd17719e483e28cce264025",
+    "grant-technical-route": "793804ce2de963b044817d2c05776a886a562ce895ffd1ce2f442a91fcf88f75",
+    "grant-background": "de77f97264cffea3e19704e0287b17d231c5ccf80a4142ef9f31dd551ca75d13",
+    "grant-review": "c1cbb25fea4e1a1a568ae288e54927576834d51483b2afe18e0ed13737cce6e8",
+    "paper-drafting": "7ed82cd00f7d408bf3889beacb6c71c0ce12662887544f731c85eb30261a919d",
+    "paper-review": "71fec1af3bcedc350148755f6ac79868119fe7a39b23cb53c9f7bc51b8dd0517",
+    "rebuttal": "0e7a114c8f6d3ed89b4e8dad826e27382b016d32c1c607b167a403e47cc6161f",
+    "patent-disclosure": "bcb608395107cf1e862bda67d8dea53e5ee7806d260eba1469844175ac1fee65",
+    "patent-search": "af6d087cdfc721923d1d3bb21dfb644954825a6d964e768ee9470a66cf45973c",
+    "data-figure": "9c041ed1c76553b71e79fe1305d3e60988bda5f5e75f856b22380b571b84834c",
+    "diagram": "66ffee7180f76bea070049e8aa9cc6dad01cced8f27ae1a71e483441cebb8039",
+    "nano-banana-figure": "2050c99352a9ea315cc1009790b6f14d2797d83ee0a2e02c52d8f8d18c7bd221",
+    "academic-humanizer": "9fc8f6e6529f2cd40254a20dfff09d0e536ea52d480fe3b5741404c18d1b70a0",
+    "research-closeout": "2c9323e68162e14d6d353946d0da6586caf47b2f8528235ff5e6f052176d9c42"
+  },
+  "scope": "identical SKILL.md bytes in local Codex folders and Worker prompts; available execution tools differ"
+}

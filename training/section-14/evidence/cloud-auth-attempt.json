@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-19T16:47:41.141605+00:00",
+  "url": "https://ikun.homes/api/auth/login",
+  "method": "HTTPS POST using existing project-specific access configuration",
+  "status": 401,
+  "authenticated": false,
+  "cloud_task_created": false,
+  "model_called": false,
+  "credential_or_response_body_saved": false,
+  "scope": "One actual login attempt was rejected. No password change, deployment or model request."
+}

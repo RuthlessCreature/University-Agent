@@ -1,0 +1,7 @@
+{
+  "origin": "University-Skills/tools/local_workflow.py",
+  "observed_repo_head": "7987aaca32e23d1e041d8d530a386f2bc03c177f",
+  "snapshot_sha256": "83e6d87c359f8b93cee21f038a42b7214b973e188c063b3e762ae0ecdf4ce348",
+  "scope": "复制当前工作区执行器，以文件哈希识别；不声称工作区内容必然与所列HEAD一致",
+  "external_model_called": false
+}

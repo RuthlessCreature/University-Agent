@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-19T16:47:41.142605+00:00",
+  "command": [
+    "--test",
+    "--test-reporter=tap",
+    "tests/automatic.test.mjs",
+    "tests/deepseek.test.mjs"
+  ],
+  "exit_code": 0,
+  "passed": 12,
+  "failed": 0,
+  "models": "fixtures only",
+  "storage": "in-memory test fixture",
+  "tap_sha256": "751d807079060d774d44f1553cbd71f63cef23b715ee30061f3fac136ac648ee",
+  "scope": "Actual local test executions; no live cloud or model responses."
+}

@@ -1,0 +1,2 @@
+# Preserve the exact bytes recorded in the R execution hashes on every platform.
+design-packet/** -text

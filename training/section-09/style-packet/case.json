@@ -1,0 +1,72 @@
+{
+  "checked_date": "2026-10-19",
+  "journal": "PLOS One",
+  "scope": "Abstract language and selected reporting requirements only, not submission eligibility",
+  "official_url": "https://journals.plos.org/plosone/s/submission-guidelines",
+  "official_sections": [
+    "Language",
+    "Abstract"
+  ],
+  "requirements": [
+    {
+      "id": "format",
+      "rule": "英文摘要不超过300词，不放引文，尽量避免缩写",
+      "verification": "word-count, citation-pattern scan, manual abbreviation review"
+    },
+    {
+      "id": "content",
+      "rule": "说明目的、概括做法与主要结果及意义",
+      "verification": "manual sentence-to-source review"
+    },
+    {
+      "id": "facts",
+      "rule": "本例保留已核对数字与限制，不添加未做的研究",
+      "verification": "data comparison and manual interpretation review"
+    }
+  ],
+  "facts": [
+    {
+      "claim": "152 Adelie / 146 complete / 73 each",
+      "value": [
+        "152",
+        "146",
+        "73"
+      ],
+      "source": "writing-packet/manuscript-r1.md [M1]; figure-data.json analysis_rows, adelie_rows, female.n, male.n",
+      "status": "VERIFIED"
+    },
+    {
+      "claim": "Male and female means; male minus female",
+      "value": [
+        "192.41",
+        "187.79",
+        "4.62"
+      ],
+      "source": "figure-data.json male.mean, female.mean, mean_difference_mm",
+      "status": "VERIFIED"
+    },
+    {
+      "claim": "Resampling and interval",
+      "value": [
+        "10,000",
+        "2.68",
+        "6.58"
+      ],
+      "source": "figure-data.json bootstrap.replicates, bootstrap.percentile_95; writing-packet/manuscript-r1.md [M2]",
+      "status": "VERIFIED"
+    },
+    {
+      "claim": "Independence assumption and unresolved missingness, nesting and target population",
+      "value": [],
+      "source": "writing-packet/manuscript-r1.md [M2][D1][L1]",
+      "status": "PENDING"
+    }
+  ],
+  "authorship": "Codex-assisted teaching revision, reviewed for facts and expression; no journal assessment",
+  "external_journal_submission": false,
+  "external_model_service_run_claimed": false,
+  "before_sha256": "7ee80ab2bc9e533ad6cd77c5aae43205f931836459d042cb7df894cbbe1c5c9e",
+  "draft_sha256": "2c6dd917a3f1d2564b7c658c6fdea4c024e65ae5d68f2078f908f208367c5b6a",
+  "slide_abstract_zh": "本例用公开企鹅数据演示组间比较的报告。筛选Adelie并保留性别和鳍长完整的146条记录，雌雄各73条。雄性平均鳍长192.41毫米，雌性187.79毫米，差值4.62毫米。组内有放回重抽样10000次，差值百分位区间为2.68至6.58毫米。该区间依赖记录独立等条件。缺失机制、巢内依赖和目标总体未核实，结果限于纳入记录，不作因果解释。",
+  "prompt": "请按所附PLOS One作者要求，将[A1]改写为不超过300个英文词的摘要，不放引文，尽量避免缩写。说明本教学例子的目的、公开数据和筛选方法、主要结果及其解释范围。保留146条、每组73条、两组均值、4.62毫米差值、10000次重抽样及2.68至6.58毫米区间。明确区间的独立性假设和未核实条件，不添加新发现、P值、采样或因果结论。另交中文释义、逐句事实依据、词数及尚未满足的要求；措辞简洁，不把语言修改说成达到发表标准。"
+}

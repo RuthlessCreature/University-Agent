@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "grant",
+    "post_status": 200,
+    "download_status": 200,
+    "docx_zip_valid": true,
+    "bytes": 37796,
+    "sha256": "0b7a9cdf6aafec9b1266627f2f9d2bd2058e1e774ec192bf703b4671693a6c4e",
+    "external_model_called": false
+  },
+  {
+    "kind": "paper",
+    "post_status": 200,
+    "download_status": 200,
+    "docx_zip_valid": true,
+    "bytes": 37584,
+    "sha256": "aa20e707866690578eac872ef4253876b17e004be2c207bca3d98e2fd8f06f22",
+    "external_model_called": false
+  },
+  {
+    "kind": "patent",
+    "post_status": 200,
+    "download_status": 200,
+    "docx_zip_valid": true,
+    "bytes": 37489,
+    "sha256": "3cc342f3c06a3b377e7a7249c0e9cd3e5ee022e02ae6c0bf72002715dfe1dcb3",
+    "external_model_called": false
+  }
+]

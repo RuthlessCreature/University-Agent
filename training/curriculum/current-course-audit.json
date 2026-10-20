@@ -1,0 +1,4526 @@
+{
+  "checked_date": "2026-10-20",
+  "total_pages": 240,
+  "sections": 15,
+  "coverage_scope": "Editorial location review of current slide text and selected sections; preliminary topic mapping, not execution completeness or scientific acceptance. Excerpts identify location, not proof of semantic coverage by themselves.",
+  "counts": {
+    "已有对应内容": 47,
+    "调整讲法": 5,
+    "部分覆盖": 0
+  },
+  "rows": [
+    {
+      "id": 1,
+      "original_topic": "顶刊AI政策与趋势速览（Nature/Science系列对AI使用的规定",
+      "status": "已有对应内容",
+      "locations": [
+        "1/11"
+      ],
+      "assessment": "Nature Portfolio、Science journals与PLOS按语言修改、正文起草、数据分析和图像用途对照；Science依据官方细则第1—2页。审稿和返修限制见配套说明。正式投稿仍需核对目标期刊最新规则。",
+      "evidence": [
+        {
+          "section": 1,
+          "page": 11,
+          "global_page": 15,
+          "title": "AI 使用声明要看具体用途",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\nAI 使用声明要看具体用途\n改语法、起草正文、分析数据和生成插图，适用的要求各不相同。\n出版方\n写作与披露\n科研内容与图像\nNature\nPortfolio\n按风险分级。广泛写作支持\n需人工监督、核验与披露。\n作者对准确性与原创性负责；\n不能伪造数据或让AI代替判断。\nScience\njournals\n语言清晰度修改：免声明。\n起草正文、翻译：\n致谢注明模型与版本。\n改代码功能、数据分析：方法披"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "original_topic": "核心认知：“AI不会取代科研人员，但会用AI的科研人员会取代不用AI的”",
+      "status": "调整讲法",
+      "locations": [
+        "1/6",
+        "2/17"
+      ],
+      "assessment": "改讲任务能力、证据与作者责任，未把“必然取代”当作事实。",
+      "evidence": [
+        {
+          "section": 1,
+          "page": 6,
+          "global_page": 10,
+          "title": "科研任务中的能力与限制",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\n科研任务中的能力与限制\n能力\n可以提供的帮助\n科研中仍需判断的部分\n语言组织\n翻译、归纳、调整段落与术语表达。\n是否改变原意、限定条件或证据强度。\n材料比较\n整理多篇文献的方法、结果与分歧。\n材料是否完整，比较对象是否可比。\n代码生成\n根据分析需求编写和修改代码。\n代码是否实际运行，方法假设是否适用。\n图表与解释\n依据数据生成图表，说明统计结果。\n数据来源、单位、样本与结论范围。\n同一段文字可能"
+        },
+        {
+          "section": 2,
+          "page": 17,
+          "global_page": 33,
+          "title": "Agent 的完成情况怎样核验",
+          "pptx": "training/section-02/output/高校科研AI课程_Section2_Agent与工作流_s2-r7.pptx",
+          "pptx_sha256": "3bdf8539ed315ac1a46aedb6bff6dcac1c9bd007efd055b1d78e818ec9202e4c",
+          "excerpt": "02  Agentic AI、AI Agent 与科研工作流\nAgent 的完成情况怎样核验\n从运行成功到科研可用，需要检查不同层次的结果。\n检查层次\n可以检查什么\n通过后仍不能推出什么\n运行与文件\n工具返回、文件存在、文件能否打开\n不能说明内容正确或任务完整\n结构与要求\n章节、字段、格式及必需附件\n不能说明科学论证成立\n数据与来源\n计算可复核，引文和原文对应\n不能自动确认研究价值与因果关系\n任务与专业判断\n实际要求是否完成，限定是否恰"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "original_topic": "角色设定 → 任务拆解 → 约束条件 → 输出格式 → 迭代优化",
+      "status": "已有对应内容",
+      "locations": [
+        "1/7",
+        "1/8",
+        "2/10"
+      ],
+      "assessment": "任务、材料、约束、产物与迭代均有位置；不承诺提示词保证正确。",
+      "evidence": [
+        {
+          "section": 1,
+          "page": 7,
+          "global_page": 11,
+          "title": "复杂科研任务的组织",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\n复杂科研任务的组织\n把“帮我写一篇综述”拆成有输入、产物和核对依据的研究环节。\n01\n界定问题\n研究对象、时间范围、纳入标准\n形成边界清楚的研究问题\n02\n收集材料\n检索式、数据库与全文\n保存可回查的文献集合\n03\n比较证据\n对象、设计、指标和主要结果\n区分共识、分歧与证据缺口\n04\n组织论述\n经过核对的证据与主张\n形成段落，标明引文与限制\n05\n检查与修订\n原文、引用清单与全文\n核对遗漏、误引"
+        },
+        {
+          "section": 1,
+          "page": 8,
+          "global_page": 12,
+          "title": "科研提示词的主要变量",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\n科研提示词的主要变量\n提示词是研究者向模型交代任务、材料和判断标准的指令。\n请从研究方法角度，比较我提供的两篇论文。\n比较研究对象、样本来源、对照设置、测量指标和结论范围。只依据这两篇全文，给出每项判断对应的原文位置。\n请区分作者报告的结果与你的解释。两篇论文没有报告的信息写明“未报告”，不要补入样本量、统计结果或其他文献。\n按比较维度逐项列出共同点、差异及其对结论的影响。\n分析角度\n研究方法，"
+        },
+        {
+          "section": 2,
+          "page": 10,
+          "global_page": 26,
+          "title": "申报材料处理的工作流框架",
+          "pptx": "training/section-02/output/高校科研AI课程_Section2_Agent与工作流_s2-r7.pptx",
+          "pptx_sha256": "3bdf8539ed315ac1a46aedb6bff6dcac1c9bd007efd055b1d78e818ec9202e4c",
+          "excerpt": "02  Agentic AI、AI Agent 与科研工作流\n申报材料处理的工作流框架\n把每一步的输入、输出和检查条件写清楚，才能判断文件是在推进，还是只生成了更多文字。\n解析指南\n对应模板\n组织内容\n核对并导出\n保留条款与原文位置\n章节、字段、字数与附件\n只使用已提供的研究依据\n检查缺项、引用及文件\n指南要求\n要能追到具体章节、附件或原文条款。\n研究内容\n要区分已有结果、拟开展工作与缺少的材料。\n最终文件\n应保留可编辑正文、问题清单和"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "original_topic": "文献类：Elicit / Consensus / Connected Papers",
+      "status": "已有对应内容",
+      "locations": [
+        "1/9",
+        "5/8",
+        "5/9",
+        "5/10"
+      ],
+      "assessment": "工具用途、检索及引文回查；不是账户操作教学。",
+      "evidence": [
+        {
+          "section": 1,
+          "page": 9,
+          "global_page": 13,
+          "title": "Claude、ChatGPT、DeepSeek 怎样选",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\nClaude、ChatGPT、DeepSeek 怎样选\n同一任务：依据公开论文，解释“AI 编造文献”的证据，交付一页说明。\n使用入口\n这一任务怎样处理\n选择依据与检查\nClaude\n已启用文件工具\n读论文 PDF，核对表3、4；\n整理结果与限制，导出 Word。\n适合：已有论文，要说明稿。\n检查：原文定位、可编辑正文。\nChatGPT Work\n文件处理模式\n附论文和报告值表；\n制作可编辑图表"
+        },
+        {
+          "section": 5,
+          "page": 8,
+          "global_page": 74,
+          "title": "Connected Papers与引文图",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\nConnected Papers与引文图\n关联图帮助寻找相近论文，图上的邻近关系需要回论文确认。\n种子论文\n论文甲\n论文乙\n论文丙\n相似关系\n邻近表示关联线索，\n不能据此判定互相引用。\n实际引用另核\n参考文献和被引记录\n用于查明引用方向。\n可编辑关系示意，非Connected Papers执行截图；节点不代表真实文献。\n来源：Connected Papers官方About；课程方法说明／教学示例\n08"
+        },
+        {
+          "section": 5,
+          "page": 9,
+          "global_page": 75,
+          "title": "Elicit入口的现行变化",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\nElicit入口的现行变化\n独立的Find Papers、Extract Data和Chat with Papers已并入Research Agent工作流。\n01\n官方变更日期\n2026-09-30\n02\n新任务在\nResearch Agent中开始\n03\n检索、提取和提问仍要核对来源\nElicit官方帮助页实录，2026-10-17；不是本项目Agent执行记录。\n来源：Elicit官方说明，2026-"
+        },
+        {
+          "section": 5,
+          "page": 10,
+          "global_page": 76,
+          "title": "带引文的答案怎样核对",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n带引文的答案怎样核对\nConsensus等工具可把检索与答案组织放在一起。引文链接只是核对的入口。\n自然语言问题\n检索到的研究\n带引文的综合\n回原文检查\n说明对象与条件\n核对相关性和覆盖\n定位每个主要判断\n看设计、结果与限制\n核对顺序：先看引用了哪篇，再看原文是否包含该判断，最后检查条件有没有被省略。\n模型给出的“多数支持”仍需检查分母、筛选范围和研究是否可比较。\n来源：Consensus官方说明，2026"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "original_topic": "写作类：Claude / ChatGPT / DeepSeek",
+      "status": "已有对应内容",
+      "locations": [
+        "1/9",
+        "2/6"
+      ],
+      "assessment": "按同一公开论文任务补Claude、ChatGPT Work、DeepSeek课程网页的输入、工具与输出路线，附三份完整任务和人工核对示例。官方功能已核对，三方任务尚未执行，不作为产品能力排名或全流程实测。",
+      "evidence": [
+        {
+          "section": 1,
+          "page": 9,
+          "global_page": 13,
+          "title": "Claude、ChatGPT、DeepSeek 怎样选",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\nClaude、ChatGPT、DeepSeek 怎样选\n同一任务：依据公开论文，解释“AI 编造文献”的证据，交付一页说明。\n使用入口\n这一任务怎样处理\n选择依据与检查\nClaude\n已启用文件工具\n读论文 PDF，核对表3、4；\n整理结果与限制，导出 Word。\n适合：已有论文，要说明稿。\n检查：原文定位、可编辑正文。\nChatGPT Work\n文件处理模式\n附论文和报告值表；\n制作可编辑图表"
+        },
+        {
+          "section": 2,
+          "page": 6,
+          "global_page": 22,
+          "title": "ChatGPT 与 Codex 的使用侧重",
+          "pptx": "training/section-02/output/高校科研AI课程_Section2_Agent与工作流_s2-r7.pptx",
+          "pptx_sha256": "3bdf8539ed315ac1a46aedb6bff6dcac1c9bd007efd055b1d78e818ec9202e4c",
+          "excerpt": "02  Agentic AI、AI Agent 与科研工作流\nChatGPT 与 Codex 的使用侧重\n两者能力有重叠。选择时应看材料、工具和交付方式是否适合当前任务。\n比较维度\nChatGPT 中的协作\nCodex 中的协作\n典型工作入口\n问题、资料、文件与自然语言任务\n工作目录、文件与自然语言任务\n适合关注的内容\n解释、比较、讨论，以及可用工具支持的产物\n文件处理、脚本运行、版本记录及结果检查\n都可能完成\n在相应工具可用时开展研究"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "original_topic": "数据类：ChatGPT / Cursor / R/Python代写",
+      "status": "已有对应内容",
+      "locations": [
+        "7/21",
+        "7/22"
+      ],
+      "assessment": "补同一CSV的差值方向修改、完整代码差异、两次本地Python运行及原数据独立复算；按官方说明解释Cursor编辑和终端执行。Cursor任务未在产品提交，不作Cursor界面或模型实测。",
+      "evidence": [
+        {
+          "section": 7,
+          "page": 21,
+          "global_page": 127,
+          "title": "Cursor改代码以后，怎样确认结果",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\nCursor改代码以后，怎样确认结果\n同一份企鹅数据：把鳍长均值差由“雄减雌”改为“雌减雄”，再核对两次输出。\nCursor：编辑代码\nPython：运行脚本\n文件：两次输出\n复核：回到原数据\n改差值公式和字段名；\n查看修改前后的差异。\n使用同一个解释器，\n分别执行两个脚本。\n分开保存CSV和记录；\n差值应为相反数。\n纳入行、两组人数、\n均值和SD应不变。\n实际Python输出：同一数据、同一146条记录\n原"
+        },
+        {
+          "section": 7,
+          "page": 22,
+          "global_page": 128,
+          "title": "Python与R的实际结果核对",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\nPython与R的实际结果核对\n软件输出需要对照纳入行、分组、单位和计算定义，界面不同不应改变分析对象。\n核对项目\nPython实际输出\nR实际输出\n纳入数 / 雌雄各n\n146 / 各73\n146 / 各73\n均值 mm：雌 / 雄\n187.79 / 192.41\n187.79 / 192.41\n样本SD mm：雌 / 雄\n5.60 / 6.60\n5.60 / 6.60\n雄减雌均值差 mm\n4.62\n4.6"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "original_topic": "原则：复杂任务用Claude，中文场景用DeepSeek/Kimi，多模态用Gemini",
+      "status": "调整讲法",
+      "locations": [
+        "1/9",
+        "2/6",
+        "2/18"
+      ],
+      "assessment": "按任务、材料、工具与权限选择；不把原稿品牌偏好当作永久能力结论。",
+      "evidence": [
+        {
+          "section": 1,
+          "page": 9,
+          "global_page": 13,
+          "title": "Claude、ChatGPT、DeepSeek 怎样选",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\nClaude、ChatGPT、DeepSeek 怎样选\n同一任务：依据公开论文，解释“AI 编造文献”的证据，交付一页说明。\n使用入口\n这一任务怎样处理\n选择依据与检查\nClaude\n已启用文件工具\n读论文 PDF，核对表3、4；\n整理结果与限制，导出 Word。\n适合：已有论文，要说明稿。\n检查：原文定位、可编辑正文。\nChatGPT Work\n文件处理模式\n附论文和报告值表；\n制作可编辑图表"
+        },
+        {
+          "section": 2,
+          "page": 6,
+          "global_page": 22,
+          "title": "ChatGPT 与 Codex 的使用侧重",
+          "pptx": "training/section-02/output/高校科研AI课程_Section2_Agent与工作流_s2-r7.pptx",
+          "pptx_sha256": "3bdf8539ed315ac1a46aedb6bff6dcac1c9bd007efd055b1d78e818ec9202e4c",
+          "excerpt": "02  Agentic AI、AI Agent 与科研工作流\nChatGPT 与 Codex 的使用侧重\n两者能力有重叠。选择时应看材料、工具和交付方式是否适合当前任务。\n比较维度\nChatGPT 中的协作\nCodex 中的协作\n典型工作入口\n问题、资料、文件与自然语言任务\n工作目录、文件与自然语言任务\n适合关注的内容\n解释、比较、讨论，以及可用工具支持的产物\n文件处理、脚本运行、版本记录及结果检查\n都可能完成\n在相应工具可用时开展研究"
+        },
+        {
+          "section": 2,
+          "page": 18,
+          "global_page": 34,
+          "title": "科研任务怎样选择协作方式",
+          "pptx": "training/section-02/output/高校科研AI课程_Section2_Agent与工作流_s2-r7.pptx",
+          "pptx_sha256": "3bdf8539ed315ac1a46aedb6bff6dcac1c9bd007efd055b1d78e818ec9202e4c",
+          "excerpt": "02  Agentic AI、AI Agent 与科研工作流\n科研任务怎样选择协作方式\n先判断任务是否需要工具执行和持续记录，再决定采用多大的自动化范围。\n当前科研任务\n讨论与解释\n对话协作\n步骤稳定、重复处理\n预设工作流\n需要边查边判断\nAgent＋工具反馈\n需要跨会话持续完成\n补充状态与恢复安排\n后续课程：按科研任务展开；Section 10 看申报流程，Section 14 看真实运行与接续。\n来源：Anthropic：Build"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "original_topic": "AI跨学科前沿热点快速扫描：追踪领域技术演进脉络",
+      "status": "已有对应内容",
+      "locations": [
+        "4/2",
+        "4/10"
+      ],
+      "assessment": "区分证据层次、覆盖与热度，不把预测当作确定结论。",
+      "evidence": [
+        {
+          "section": 4,
+          "page": 2,
+          "global_page": 54,
+          "title": "Google Scholar怎样找出值得读的论文",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\nGoogle Scholar怎样找出值得读的论文\n真实检索：“generative AI” “tutoring”；限定2024—2025年，先看前10条结果。\n看材料类型\n首条报告被引204次；\n用引用量寻找线索。\n回到原文\nGPTutor研究参与度，\n独立作答需另看测验。\n记日期与版本\n前10条保存为CSV；\n版本关系逐项核对。\n引用量为2026-10-19页面快照；前10条不是全库，也不等于Web of Sc"
+        },
+        {
+          "section": 4,
+          "page": 10,
+          "global_page": 62,
+          "title": "三份材料怎样帮助收窄研究问题",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\n三份材料怎样帮助收窄研究问题\n界面能生成、方案已公开、学生学会了，分别需要不同证据。\n原文Figure1：A提出要求，B生成初稿，C继续修改。\n预印本：怎样制作辅导界面\n有方法和初步效率比较；\n不直接证明学生学得更好。\n专利：怎样生成内容和反馈\n有技术披露；\n不等于授权或效果验证。\n期刊：撤去AI后能否独立作答\n有学习结果比较；\n不能直接外推到高校课程。\n拟议问题：高校课程中，分步提示相对直接答案，能否改善撤去A"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "original_topic": "AI技术趋势预判方法：Web of Science高被引文献 + arXiv预印本 + 专利数据交叉分析",
+      "status": "调整讲法",
+      "locations": [
+        "4/2",
+        "4/10"
+      ],
+      "assessment": "用户2026-10-19允许Google Scholar等入口替代Web of Science。已保存2024—2025年实际查询、相关性排序前10条、3条原文有限核对与版本判断，并比较预印本、专利和期刊材料。引用量用于发现线索，未冒用WoS高被引认定；有限样本不作领域增长率或未来热点预测。",
+      "evidence": [
+        {
+          "section": 4,
+          "page": 2,
+          "global_page": 54,
+          "title": "Google Scholar怎样找出值得读的论文",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\nGoogle Scholar怎样找出值得读的论文\n真实检索：“generative AI” “tutoring”；限定2024—2025年，先看前10条结果。\n看材料类型\n首条报告被引204次；\n用引用量寻找线索。\n回到原文\nGPTutor研究参与度，\n独立作答需另看测验。\n记日期与版本\n前10条保存为CSV；\n版本关系逐项核对。\n引用量为2026-10-19页面快照；前10条不是全库，也不等于Web of Sc"
+        },
+        {
+          "section": 4,
+          "page": 10,
+          "global_page": 62,
+          "title": "三份材料怎样帮助收窄研究问题",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\n三份材料怎样帮助收窄研究问题\n界面能生成、方案已公开、学生学会了，分别需要不同证据。\n原文Figure1：A提出要求，B生成初稿，C继续修改。\n预印本：怎样制作辅导界面\n有方法和初步效率比较；\n不直接证明学生学得更好。\n专利：怎样生成内容和反馈\n有技术披露；\n不等于授权或效果验证。\n期刊：撤去AI后能否独立作答\n有学习结果比较；\n不能直接外推到高校课程。\n拟议问题：高校课程中，分步提示相对直接答案，能否改善撤去A"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "original_topic": "选题四维评估矩阵：创新性→可行性→影响力→竞争热度，AI辅助量化评分",
+      "status": "已有对应内容",
+      "locations": [
+        "4/9",
+        "4/12"
+      ],
+      "assessment": "四维比较保留；判断依据需明确，未伪造客观分数。",
+      "evidence": [
+        {
+          "section": 4,
+          "page": 9,
+          "global_page": 61,
+          "title": "选题的四个判断维度",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\n选题的四个判断维度\n每个判断都应附依据和缺口。四项可以并列比较，不必合成一个看似精确的总分。\n候选研究问题\n创新性\n相对最接近研究增加什么\n最接近论文与差异说明\n可行性\n现有条件能否提供关键证据\n授权、样本、设备与时间\n影响力\n答案会改变什么认识或决定\n受影响者与具体决策\n竞争热度\n谁在研究，进展到了哪里\n近期研究、预印本与更新日期\n每项判断都记录依据、缺口和更新日期，便于随新证据修订。\n来源：Utah CS54"
+        },
+        {
+          "section": 4,
+          "page": 12,
+          "global_page": 64,
+          "title": "候选问题的比较",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\n候选问题的比较\n下面比较研究问题及其关键条件，所有项目均为拟议情境。\n候选问题\n新增信息\n关键条件／风险\n当前处理\nAI使用场景分布\n了解任务与用途\n抽样范围、记录质量\n可先核查调查可行性\n提示方式与延后表现\n比较不同帮助方式\n分配安排、测验、授权\n优先核查关键条件\n全校AI使用的长期影响\n范围更广\n长期追踪与数据关联\n暂缓，收窄对象和时点\n教学模拟：处理意见基于设定条件；新增信息仍需文献核查。\n来源：课程教学模"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "original_topic": "AI研究假说生成：输入关键词自动产出可验证假说",
+      "status": "已有对应内容",
+      "locations": [
+        "4/4",
+        "4/8",
+        "6/3"
+      ],
+      "assessment": "问题收窄、假说和反证条件均有具体说明。",
+      "evidence": [
+        {
+          "section": 4,
+          "page": 4,
+          "global_page": 56,
+          "title": "研究问题的收窄过程",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\n研究问题的收窄过程\n“AI能否提升学习”需要进一步指定人群、帮助方式、比较条件和测量时点。\nAI能否提升学习\n方向太宽，无法选数据\n本科生使用AI提示\n限定对象与干预方式\n与完整解答相比\n明确在比较什么\n撤去工具后的新题表现\n规定可测量的结果\n教学模拟：本科课程、提示方式与延后测验均为拟议设定。\n来源：Tello-Trillo，2026，作者课件文字版；课程教学模拟／方法说明\n04"
+        },
+        {
+          "section": 4,
+          "page": 8,
+          "global_page": 60,
+          "title": "假说与可能推翻它的结果",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\n假说与可能推翻它的结果\n假说需要同时写出预期方向、测量办法和对不支持结果的处理。\n假说：提示改善\n延后表现\n无AI新题测验\n差异与不确定性\n支持、不支持\n或证据不足\n说明比较条件\n和适用人群\n题目质量与评分一致性\n报告估计值及区间\n区分反向结果\n与证据不足\n主要结果、测量时点和判断规则需要事先说明，结果出来后再按证据解释。\n未显著不等于两种方式等效；等效性需要另行设定界值和分析。\n来源：课程教学模拟／方法说明\n0"
+        },
+        {
+          "section": 6,
+          "page": 3,
+          "global_page": 93,
+          "title": "一份拟议研究的分配与测量",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n一份拟议研究的分配与测量\n本科课程教学示例：比较逐步提示与完整解答，以一周后的无AI新题评分为主要结果。\n第0天：学习前测量\n学生随机1∶1分配\n逐步提示\n计划50人\n完整解答\n计划50人\n一周后无AI新题\n主要结果0—100分\n同类内容与时间规则；补充记录当场表现、用时及额外帮助。\n教学模拟：50人/组来自第11页假设情景；尚未招募、采集或获批。\n来源：课程方法说明／教学模拟\n03"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "original_topic": "组合检索策略：Connected Papers + Elicit + Semantic Scholar + Consensus协同使用",
+      "status": "已有对应内容",
+      "locations": [
+        "5/7",
+        "5/8",
+        "5/9",
+        "5/10",
+        "5/11"
+      ],
+      "assessment": "按关键词、语义、引文追踪和原文回查解释工具组合。",
+      "evidence": [
+        {
+          "section": 5,
+          "page": 7,
+          "global_page": 73,
+          "title": "关键词、语义与引文追踪",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n关键词、语义与引文追踪\n关键词匹配可控制表达，语义检索发现近义内容，引文追踪补充前后关联研究。\n类别\n主要内容\n需要检查\n关键词\n术语、字段、短语与逻辑组合\n检索式便于记录和修订\n语义\n用自然语言描述问题\n相关性仍取决于问题解释和收录范围\n引文追踪\n参考文献与后续引用\n补查基础研究及后续检验\n不同路径可能找到不同材料，合并后还要去重和筛选。\n来源：UCL Thomas，2025，原始工作坊课件；Semant"
+        },
+        {
+          "section": 5,
+          "page": 8,
+          "global_page": 74,
+          "title": "Connected Papers与引文图",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\nConnected Papers与引文图\n关联图帮助寻找相近论文，图上的邻近关系需要回论文确认。\n种子论文\n论文甲\n论文乙\n论文丙\n相似关系\n邻近表示关联线索，\n不能据此判定互相引用。\n实际引用另核\n参考文献和被引记录\n用于查明引用方向。\n可编辑关系示意，非Connected Papers执行截图；节点不代表真实文献。\n来源：Connected Papers官方About；课程方法说明／教学示例\n08"
+        },
+        {
+          "section": 5,
+          "page": 9,
+          "global_page": 75,
+          "title": "Elicit入口的现行变化",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\nElicit入口的现行变化\n独立的Find Papers、Extract Data和Chat with Papers已并入Research Agent工作流。\n01\n官方变更日期\n2026-09-30\n02\n新任务在\nResearch Agent中开始\n03\n检索、提取和提问仍要核对来源\nElicit官方帮助页实录，2026-10-17；不是本项目Agent执行记录。\n来源：Elicit官方说明，2026-"
+        },
+        {
+          "section": 5,
+          "page": 10,
+          "global_page": 76,
+          "title": "带引文的答案怎样核对",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n带引文的答案怎样核对\nConsensus等工具可把检索与答案组织放在一起。引文链接只是核对的入口。\n自然语言问题\n检索到的研究\n带引文的综合\n回原文检查\n说明对象与条件\n核对相关性和覆盖\n定位每个主要判断\n看设计、结果与限制\n核对顺序：先看引用了哪篇，再看原文是否包含该判断，最后检查条件有没有被省略。\n模型给出的“多数支持”仍需检查分母、筛选范围和研究是否可比较。\n来源：Consensus官方说明，2026"
+        },
+        {
+          "section": 5,
+          "page": 11,
+          "global_page": 77,
+          "title": "Semantic Scholar中的发现与阅读",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\nSemantic Scholar中的发现与阅读\n论文条目、引用关系和辅助阅读信息可帮助定位材料，短摘要只适合初筛。\n论文条目\n引用与被引\n寻找前后研究\n原文链接\n检查可获取版本\n辅助摘要\n回正文补足条件\n核对题名与作者\n辅助阅读信息可节省定位时间，关键主张仍需原文位置。\n来源：Semantic Scholar官方FAQ；课程方法说明／教学示例\n11"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "original_topic": "AI批量文献处理：多篇PDF → 结构化摘要矩阵（含核心方法、主要发现、局限性）",
+      "status": "已有对应内容",
+      "locations": [
+        "5/15",
+        "5/16",
+        "5/17",
+        "5/24"
+      ],
+      "assessment": "两篇全文比较与证据表；不声称任意PDF自动解析已接入。",
+      "evidence": [
+        {
+          "section": 5,
+          "page": 15,
+          "global_page": 81,
+          "title": "一篇论文的阅读顺序",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n一篇论文的阅读顺序\n先判断论文在回答什么，再查设计和结果，最后解释作者结论适用到哪里。\n问题与研究对象\n方法与比较条件\n主要结果与图表\n限制与适用范围\n记录作者真正\n研究的内容\n看分组、测量与排除\n核对数值、单位和分母\n区分结果、解释与推测\n阅读笔记中把原文事实和自己的解释分开，避免写综述时找不到依据。\n笔记至少保留：原文位置、自己的转述和仍不确定的地方。\n来源：课程方法说明／教学示例\n15"
+        },
+        {
+          "section": 5,
+          "page": 16,
+          "global_page": 82,
+          "title": "证据提取中的定位信息",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n证据提取中的定位信息\n同一句“提高学习表现”，需要补出对象、比较条件、测量时点和结论范围。\n对象\n土耳其一所高中的数学教学\nExperimental Design\n比较\nBase、Tutor与无生成式AI资源组\nExperimental Design\n测量\n有帮助的练习与撤去资源的测验\nAbstract、Table 1\n限定\n特定工具、学校和教学任务\n课程解读：\n外推需证据\n公开真实研究的中文提取示例；定位"
+        },
+        {
+          "section": 5,
+          "page": 17,
+          "global_page": 83,
+          "title": "两篇研究的设计比较",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n两篇研究的设计比较\n两项研究都讨论AI学习，但人群、对照条件和测量安排不同。\n比较项\nBastani等，2025\nKestin等，2025\n对象／学科\n土耳其高中数学\nHarvard本科入门物理\n比较条件\n两种AI辅导与无AI资源组\n定制AI辅导与课堂主动学习\n结果测量\n有帮助练习／无资源测验\n课程内容的前测与后测\n解释范围\n工具设计与独立表现\n定制辅导的特定课堂比较\n两篇为比较教学案例，未覆盖全部相关文献"
+        },
+        {
+          "section": 5,
+          "page": 24,
+          "global_page": 90,
+          "title": "一份可检查的文献工作包",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n一份可检查的文献工作包\n交付时应能追查材料来源、比较依据，以及仍然没有解决的问题。\n检索记录\n检索式、日期、筛选条件\n文献与版本清单\nDOI、来源与全文状态\n证据矩阵\n设计、结果、原文位置与复算\n综述与问题清单\n支持的结论和待补材料\n下一节：依据已有研究与资源条件，安排研究对象、比较和测量。\n来源：课程方法说明／教学示例\n24"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "original_topic": "AI驱动对比分析：自动识别不同文献间的观点分歧、方法差异、结论矛盾",
+      "status": "已有对应内容",
+      "locations": [
+        "5/17",
+        "5/18",
+        "5/19"
+      ],
+      "assessment": "区分对象、设计与测量差别，检查是否真的存在结论矛盾。",
+      "evidence": [
+        {
+          "section": 5,
+          "page": 17,
+          "global_page": 83,
+          "title": "两篇研究的设计比较",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n两篇研究的设计比较\n两项研究都讨论AI学习，但人群、对照条件和测量安排不同。\n比较项\nBastani等，2025\nKestin等，2025\n对象／学科\n土耳其高中数学\nHarvard本科入门物理\n比较条件\n两种AI辅导与无AI资源组\n定制AI辅导与课堂主动学习\n结果测量\n有帮助练习／无资源测验\n课程内容的前测与后测\n解释范围\n工具设计与独立表现\n定制辅导的特定课堂比较\n两篇为比较教学案例，未覆盖全部相关文献"
+        },
+        {
+          "section": 5,
+          "page": 18,
+          "global_page": 84,
+          "title": "真实数据：一张后测成绩图怎样读",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n真实数据：一张后测成绩图怎样读\nHarvard本科物理研究：比较定制AI辅导与课堂主动学习，先核对统计量与记录单位。\n174条记录\n142条记录\n先看统计量\n中位数是排列后居中的分数。\n3.5与4.5是分值，不是百分比。\n再看记录单位\n316条记录来自194个编号。\n合并前测中位数为2.75。\n并非每个编号都有两条记录。\n作者公开数据的描述统计复算；未复现全部回归，未重新实施实验。\n来源：Kestin等，S"
+        },
+        {
+          "section": 5,
+          "page": 19,
+          "global_page": 85,
+          "title": "一条研究结论的证据登记",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n一条研究结论的证据登记\n以“定制AI辅导的后测中位数较高”为例，分开记录已核事实、解释与待查问题。\n类别\n主要内容\n需要检查\n原文与数据\n后测中位数3.5与4.5；\n记录数174与142\nResults对应段；\n公开文件post_score\n课程解释\n特定课程中的两种\n教学条件比较\n保留对象、对照\n及后测时点\n仍待核对\n194个编号、316行；\n72个编号只出现一次\n核查纳入与行记录关系；\n不补造缺失原因\n"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "original_topic": "研究空白（Gap）自动识别：基于已有文献自动生成“尚未被回答的关键问题”",
+      "status": "已有对应内容",
+      "locations": [
+        "4/7",
+        "5/22"
+      ],
+      "assessment": "研究空白需要反证检索与范围限制，不能由少量检索自动定论。",
+      "evidence": [
+        {
+          "section": 4,
+          "page": 7,
+          "global_page": 59,
+          "title": "研究空白的核对",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\n研究空白的核对\n“没有搜到”需要追查检索范围。可以研究的空白还要说明已有结果在哪个条件下不足。\n已有证据\n特定高中数学情境\n能说明什么／不能说明什么\n拟议对象\n某本科课程\n对象变化是否有理论理由？\n拟议测量\n延后、无AI、新题\n与即时成绩的区别是什么？\n当前判断\n值得核查的候选问题\n尚不能宣称首次或无人研究\n课程模拟对照，非系统综述；尚未完成高校场景的完整检索。\n来源：Bastani等，PNAS 2025，摘要、"
+        },
+        {
+          "section": 5,
+          "page": 22,
+          "global_page": 88,
+          "title": "研究空白与反证检索",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n研究空白与反证检索\n一句“尚无研究”需要主动寻找反例，并回到原始研究核对。\n待核查的空白断言\n查找反例与原文\n修订研究问题\n高校没有AI辅导\n实证研究\nKestin等已报告本科物理\n随机对照研究\n继续核查特定课程、工具\n及延后测量的未回答问题\n反证检索：同义表达、前后引文、近期论文和预印本都要考虑。\n反例能推翻过宽的空白表述；收窄问题后还需继续检索。\n来源：Bastani等，PNAS 2025；Kestin"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "original_topic": "AI方案生成：输入研究目标与约束条件（时间、经费、设备），自动输出多套可选方案并横向对比优劣",
+      "status": "已有对应内容",
+      "locations": [
+        "4/11",
+        "6/13",
+        "6/14"
+      ],
+      "assessment": "资源约束、比较方案与备用路径明确。",
+      "evidence": [
+        {
+          "section": 4,
+          "page": 11,
+          "global_page": 63,
+          "title": "资源缺口会改变研究问题",
+          "pptx": "training/section-04/output/高校科研AI课程_Section4_选题与研究问题_s4-r7.pptx",
+          "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+          "excerpt": "04  选题与研究问题\n资源缺口会改变研究问题\n关键数据或条件拿不到时，应收窄问题、换证据路径，或暂缓研究。\n能获得关键数据与必要授权？\n能够取得\n先做可行性核查\n无法取得\n改题或暂缓\n例：有问卷但缺少成绩和使用记录时，能回答的问题会改变。\n课程模拟：公开数据不自动包含所需变量；公开可访问也不等于可任意使用。\n来源：课程教学模拟／方法说明\n11"
+        },
+        {
+          "section": 6,
+          "page": 13,
+          "global_page": 103,
+          "title": "样本计划怎样变成工作量",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n样本计划怎样变成工作量\n沿用“差6分”的教学情景：每组需45份完整主要结果，再估算招募、测量和评分容量。\n安排\n本例计算\n仍需确认\n完整主要结果\n45人/组，合计90人\n差6分情景；前提见第11页\n招募预留\n45÷0.90向上取整＝50人/组\n保留率90%为教学假设\n测量排程\n100人×3时点＝300人次\n基线、当场、一周后\n评分任务\n100份答卷×2名评分者＝200份次\n按满额准备，尚未实际评分\n教学容量测算："
+        },
+        {
+          "section": 6,
+          "page": 14,
+          "global_page": 104,
+          "title": "失败触发条件与备用方案",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n失败触发条件与备用方案\n备用方案应说明什么时候切换、保留什么问题，以及改变后还能得出什么结论。\n关键条件无法满足\n设备或测量不稳定\n暂停采集，校准后复核\n核心数据无法取得\n收窄问题\n或暂缓\n教学模拟：切换理由、时间和对结论的影响都应记录。\n来源：课程方法说明／教学模拟\n14"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "original_topic": "变量优化建议：AI辅助确定最优参数范围、估算合理样本量、推荐对照组设置方案",
+      "status": "已有对应内容",
+      "locations": [
+        "6/4",
+        "6/5",
+        "6/9",
+        "6/10",
+        "6/11"
+      ],
+      "assessment": "变量、对照、组合与样本量依据均说明；无“自动最优”保证。",
+      "evidence": [
+        {
+          "section": 6,
+          "page": 4,
+          "global_page": 94,
+          "title": "变量与可能的干扰",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n变量与可能的干扰\n方案需要区分研究者改变的条件、实际测量的结果，以及需要控制或记录的其他差异。\n改变的条件\n提示方式、使用规则\n观察的结果\n新题评分、完成时间\n可能的干扰\n基础水平、课程内容、额外帮助\n同一变量在不同问题中可能扮演不同角色，先回到要回答的问题。\n来源：NIST手册§5.3.2；课程方法说明／教学模拟\n04"
+        },
+        {
+          "section": 6,
+          "page": 5,
+          "global_page": 95,
+          "title": "对照条件与一致条件",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n对照条件与一致条件\n比较提示方式时，若题目、时间和评分同时改变，就难以解释差异来自哪里。\n比较条件\n逐步提示\n完整解答\n共同安排\n同类内容、相同时间规则\n同类内容、相同时间规则\n共同测量\n延后新题、统一评分规则\n延后新题、统一评分规则\n记录偏离\n额外帮助、缺席与执行差异\n额外帮助、缺席与执行差异\n教学模拟：差异条件和共同安排分别写清，执行偏离另作记录。\n来源：课程方法说明／教学模拟\n05"
+        },
+        {
+          "section": 6,
+          "page": 9,
+          "global_page": 99,
+          "title": "公开教材示例：三因素的全部组合",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n公开教材示例：三因素的全部组合\n温度、浓度和催化剂各有两个水平，全部组合共8组。表中y是课件报告的响应。\n组\n温度T（°C）\n浓度C（%）\n催化剂K\n响应y\n1\n160\n20\nA\n60\n2\n180\n20\nA\n72\n3\n160\n40\nA\n54\n4\n180\n40\nA\n68\n5\n160\n20\nB\n52\n6\n180\n20\nB\n83\n7\n160\n40\nB\n45\n8\n180\n40\nB\n80\n公开教材示例，非本项目实测；y为两"
+        },
+        {
+          "section": 6,
+          "page": 10,
+          "global_page": 100,
+          "title": "一个因素的效果可能随另一个因素改变",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n一个因素的效果可能随另一个因素改变\n固定浓度C为20%，温度从160°C到180°C时，催化剂A与B对应的响应增量不同。\n温度变化的响应增量\n催化剂A：72 − 60 = 12\n催化剂B：83 − 52 = 31\n增量差：31 − 12 = 19\n无原始重复读数，\n不据此判断统计显著。\n公开课件数据重绘；仅展示条件增量，未作显著性判断或工艺推广。\n来源：UC Davis 2026，因子设计课件pp.8–9\n10"
+        },
+        {
+          "section": 6,
+          "page": 11,
+          "global_page": 101,
+          "title": "样本量怎样随目标差异改变",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n样本量怎样随目标差异改变\n教学计算：两组独立、等人数；假设标准差10分，双侧显著性水平0.05，检验功效80%。\n差异与波动要有依据\n标准差描述分数的分散。\n10分和目标差都是教学假设。\n45人/组的适用条件\n只对应本例“差6分”情景。\n改为班级分配需重新计算。\n功效80%：若设定差异存在且前提成立，重复研究中约80%能检出。\n参数为教学假设；本地R实际计算，未纳入班级相关或实际缺失机制。\n来源：Lakens，2"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "original_topic": "技术路线图绘制：Mermaid/Draw.io与AI联动，文字描述需求→一键生成申报书级技术路线图",
+      "status": "已有对应内容",
+      "locations": [
+        "8/11",
+        "8/12",
+        "8/13",
+        "8/15"
+      ],
+      "assessment": "节点、条件、并行汇合及draw.io编辑源；自动化文字仍需核对。",
+      "evidence": [
+        {
+          "section": 8,
+          "page": 11,
+          "global_page": 139,
+          "title": "拟议研究的技术路线",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n拟议研究的技术路线\n题目、分配与过程记录分别留存；一周后按原组别测量无AI新题表现，再按预定方案比较。\n题目与评分规则\n材料预试与分配安排\n分步提示条件\n完整解答条件\n提示组过程记录\n解答组过程记录\n一周后无AI新题\n按统一规则评分\n按预定方案比较\n用同一编号对应组别、过程与测验；\n测量缺失和执行偏离单独登记。\n教学方案，尚未实施。分配单位、样本依据、授权与评分规则均需另行确认。\n来源：UBC课程节点关系，p"
+        },
+        {
+          "section": 8,
+          "page": 12,
+          "global_page": 140,
+          "title": "启动材料核对与返工回路",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n启动材料核对与返工回路\n判断分支要写清核对哪些材料；未确认时返回修订，补齐后再查。\n预试材料与检查记录\n启动条件已核对？\n按已定方案实施\n补材料／修订版本\n已确认\n尚未确认\n修订后再查\n核对材料：\n评分规则与试评记录、\n分配单位及样本依据、\n招募与数据权限。\n返回箭头：补齐材料后重新核对；未确认的条件继续保留。\n教学拟议回路，尚未实施；图中的“已确认”分支不代表本项目已经满足条件。\n来源：UBC课程节点关系，"
+        },
+        {
+          "section": 8,
+          "page": 13,
+          "global_page": 141,
+          "title": "并行研究任务与汇合依据",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n并行研究任务与汇合依据\n并行分支要有各自输入和输出，汇合时说明要对照哪些证据。\n研究问题与假说\n作答过程记录\n统一新题测验\n对照证据并解释\n形成可核查的编码记录\n形成可复核的评分结果\n教学示意。两条证据路径可能一致，也可能相互矛盾，需如实解释。\n来源：UBC课程节点关系，p.2；课程自编教学示例\n13"
+        },
+        {
+          "section": 8,
+          "page": 15,
+          "global_page": 143,
+          "title": "数据图与路线图的编辑源",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n数据图与路线图的编辑源\n保留数据、脚本和原生图表，路线另存节点与连接，后续改稿才能追溯修改。\n原始数据与计算\nCSV、脚本、计算结果\n原生图表与图注\nPPT对象与嵌入工作簿\n路线节点与连接\ndraw.io与route.json\nPDF / SVG / PNG\n预览、排版与矢量导出\n配套文件是可编辑教学成果；未声称已经通过特定期刊的投稿验收。\n来源：PLOS One，图注与图像要求；课程自编教学示例\n15"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "original_topic": "实验风险预判：AI自动生成风险清单（含潜在失败点与应对Plan B）",
+      "status": "已有对应内容",
+      "locations": [
+        "6/14",
+        "10/16"
+      ],
+      "assessment": "风险与失败触发条件、替代方案有对应位置。",
+      "evidence": [
+        {
+          "section": 6,
+          "page": 14,
+          "global_page": 104,
+          "title": "失败触发条件与备用方案",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n失败触发条件与备用方案\n备用方案应说明什么时候切换、保留什么问题，以及改变后还能得出什么结论。\n关键条件无法满足\n设备或测量不稳定\n暂停采集，校准后复核\n核心数据无法取得\n收窄问题\n或暂缓\n教学模拟：切换理由、时间和对结论的影响都应记录。\n来源：课程方法说明／教学模拟\n14"
+        },
+        {
+          "section": 10,
+          "page": 16,
+          "global_page": 182,
+          "title": "风险与替代方案",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n风险与替代方案\n替代路径应说明触发条件、调整动作，以及调整后还能支持什么结论。\n提示规则不稳定\n触发：预试未达到预定要求。动作：修订提示和材料，再做预试核对。\n退出或记录缺失\n记录发生原因，按预先方案处理，报告缺失及其对解释的影响。\n无法按计划分组\n先评估调整目标与设计的可行性。改为观察性研究时，重新限定因果解释。\n备用方案改变设计时，结论的适用范围也随之调整。\n来源：NIH StrokeNet"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "original_topic": "Python/R零基础代码生成：自然语言描述分析需求→AI输出可运行代码",
+      "status": "已有对应内容",
+      "locations": [
+        "7/21",
+        "7/22"
+      ],
+      "assessment": "同一任务附Python与R完整代码和输出，146条纳入行及描述统计已在本地逐项比较；R使用WebR。",
+      "evidence": [
+        {
+          "section": 7,
+          "page": 21,
+          "global_page": 127,
+          "title": "Cursor改代码以后，怎样确认结果",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\nCursor改代码以后，怎样确认结果\n同一份企鹅数据：把鳍长均值差由“雄减雌”改为“雌减雄”，再核对两次输出。\nCursor：编辑代码\nPython：运行脚本\n文件：两次输出\n复核：回到原数据\n改差值公式和字段名；\n查看修改前后的差异。\n使用同一个解释器，\n分别执行两个脚本。\n分开保存CSV和记录；\n差值应为相反数。\n纳入行、两组人数、\n均值和SD应不变。\n实际Python输出：同一数据、同一146条记录\n原"
+        },
+        {
+          "section": 7,
+          "page": 22,
+          "global_page": 128,
+          "title": "Python与R的实际结果核对",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\nPython与R的实际结果核对\n软件输出需要对照纳入行、分组、单位和计算定义，界面不同不应改变分析对象。\n核对项目\nPython实际输出\nR实际输出\n纳入数 / 雌雄各n\n146 / 各73\n146 / 各73\n均值 mm：雌 / 雄\n187.79 / 192.41\n187.79 / 192.41\n样本SD mm：雌 / 雄\n5.60 / 6.60\n5.60 / 6.60\n雄减雌均值差 mm\n4.62\n4.6"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "original_topic": "AI数据清洗：自动扫描缺失值、异常值、重复项，给出清洗建议与对应代码",
+      "status": "已有对应内容",
+      "locations": [
+        "7/3",
+        "7/5",
+        "7/6",
+        "7/7"
+      ],
+      "assessment": "原始表、缺失、分母、过滤与异常复核有实际数据例子。",
+      "evidence": [
+        {
+          "section": 7,
+          "page": 3,
+          "global_page": 109,
+          "title": "原始表格中的数值与缺失",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n原始表格中的数值与缺失\n预览前6条记录，就能看见鳍长的单位、性别分类，以及整组测量缺失。\nCSV行\n物种\n鳍长 mm\n性别\n年份\n2\nAdelie\n181\nmale\n2007\n3\nAdelie\n186\nfemale\n2007\n4\nAdelie\n195\nfemale\n2007\n5\nAdelie\nNA\nNA\n2007\n6\nAdelie\n193\nfemale\n2007\n7\nAdelie\n190\nmale\n2007\n"
+        },
+        {
+          "section": 7,
+          "page": 5,
+          "global_page": 111,
+          "title": "缺失检查与分析分母",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n缺失检查与分析分母\n344条记录中，性别缺失11条，四个体型测量字段各缺失2条。\n分析分母随问题改变\n物种、岛屿、年份\n均无缺失。\n同一条记录可能\n缺少多个字段。\n每个字段的缺失数有重叠，须回到行记录确定排除范围。\n来源：palmerpenguins公开数据，本课程二次计算\n05"
+        },
+        {
+          "section": 7,
+          "page": 6,
+          "global_page": 112,
+          "title": "本次计算的纳入流程",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n本次计算的纳入流程\n152条Adelie记录中，6条缺少性别或鳍长，最终纳入146条。\n全部记录\n344条\nAdelie\n152条\n所需字段完整\n146条\n限定物种\n排除6条\nmale：73条\nfemale：73条\n排除依据：性别或鳍长缺失\n未进行插补，完整记录分析仍可能受缺失机制影响。\n仅检查本次所需列；缺失处理的影响仍须结合采样记录判断。\n来源：palmerpenguins公开数据，本课程二次计算\n06"
+        },
+        {
+          "section": 7,
+          "page": 7,
+          "global_page": 113,
+          "title": "异常标记后，结果怎样变化",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n异常标记后，结果怎样变化\n同一份Adelie数据：比较保留全部记录与暂排两个标记值的均值差，原始记录保持不动。\n按分布规则标记2条\n回原数据查原因\n原始记录继续保留\n比较口径\n雌／雄条数\n雄减雌mm\n保留全部完整记录\n73 / 73\n4.616\n比较时排除2条\n72 / 72\n4.153\n标记行30与131：鳍长172、210毫米。\n暂排只是一次敏感性比较；未查明错误，\n不能将它写成清洗后的“正确答案”。\n真"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "original_topic": "智能统计方法推荐：描述数据类型与研究问题，AI自动推荐最优统计检验方法并解释选择逻辑",
+      "status": "已有对应内容",
+      "locations": [
+        "7/10",
+        "7/11",
+        "7/12",
+        "7/15"
+      ],
+      "assessment": "按研究问题、独立性、测量及统计假设选择方法，不承诺唯一最优检验。",
+      "evidence": [
+        {
+          "section": 7,
+          "page": 10,
+          "global_page": 116,
+          "title": "独立组与配对数据",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n独立组与配对数据\n不同个体组成的两组，与同一个体在两个时点的记录，具有不同的数据结构。\n独立组示意\n配对示意\n个体A、B、C\n组1\n个体D、E、F\n组2\n同一个体X\n时点1\n同一个体X\n时点2\n比较两组的分布或均值\n先计算每个个体的前后差\n教学结构示意。组内行数相等不能证明一一配对。\n来源：NIST统计手册 §1.3.5.3；课程方法示意 / 教学模拟\n10"
+        },
+        {
+          "section": 7,
+          "page": 11,
+          "global_page": 117,
+          "title": "分析方法与数据结构",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n分析方法与数据结构\n方法选择需要同时考虑结果类型、研究问题、分配或采样单位及模型假设。\n结果与数据结构\n连续结果 / 独立组\n均值差：如Welch方法\n连续结果 / 配对\n对应差值：如配对分析\n分类结果 / 计数\n比例比较：检查稀疏计数\n重复测量、聚类或多组比较，需进一步匹配研究设计。\n本节实际运行描述统计与分组重抽样（bootstrap），未运行所有分支。\n来源：NIST统计手册 §1.3.5.3；课程方法"
+        },
+        {
+          "section": 7,
+          "page": 12,
+          "global_page": 118,
+          "title": "雌雄均值差与条件区间",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n雌雄均值差与条件区间\nAdelie完整记录中，雄性均值比雌性高4.62毫米。\n完整记录\nn\n均值 mm\nSD mm\nfemale（雌）\n73\n187.79\n5.60\nmale（雄）\n73\n192.41\n6.60\n雄减雌：4.62 mm\n重抽样区间：2.68—6.58 mm\n每组按行抽样，10000次，取2.5%与97.5%分位点。\n区间依赖行独立假设，不是原研究的已发表推断结论。\n来源：palmerpengu"
+        },
+        {
+          "section": 7,
+          "page": 15,
+          "global_page": 121,
+          "title": "效应大小、统计证据与科研解释",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n效应大小、统计证据与科研解释\n结果报告需要同时交代差异大小、估计不确定性和研究设计允许的解释范围。\n差异与单位\n估计不确定性\n研究范围\n对象和比较方向\n抽样与模型条件\n选择、混杂与适用对象\n企鹅的毫米差异和硬币的尾概率，分别对应不同问题与模型。\n显著性阈值无法单独回答差异是否重要、研究是否可靠。\n来源：ASA，2016，P值声明；UC Berkeley 2026，假设检验，pp.6/17/29\n15"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "original_topic": "统计分析代码生成：直接输出SPSS/R/Python三种版本的分析代码",
+      "status": "已有对应内容",
+      "locations": [
+        "7/21",
+        "7/22"
+      ],
+      "assessment": "三份完整代码与统一统计定义随课件提供；Python与本地WebR已运行，SPSS仅提供语法，尚未执行。覆盖主题不代表三种软件均已验证。",
+      "evidence": [
+        {
+          "section": 7,
+          "page": 21,
+          "global_page": 127,
+          "title": "Cursor改代码以后，怎样确认结果",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\nCursor改代码以后，怎样确认结果\n同一份企鹅数据：把鳍长均值差由“雄减雌”改为“雌减雄”，再核对两次输出。\nCursor：编辑代码\nPython：运行脚本\n文件：两次输出\n复核：回到原数据\n改差值公式和字段名；\n查看修改前后的差异。\n使用同一个解释器，\n分别执行两个脚本。\n分开保存CSV和记录；\n差值应为相反数。\n纳入行、两组人数、\n均值和SD应不变。\n实际Python输出：同一数据、同一146条记录\n原"
+        },
+        {
+          "section": 7,
+          "page": 22,
+          "global_page": 128,
+          "title": "Python与R的实际结果核对",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\nPython与R的实际结果核对\n软件输出需要对照纳入行、分组、单位和计算定义，界面不同不应改变分析对象。\n核对项目\nPython实际输出\nR实际输出\n纳入数 / 雌雄各n\n146 / 各73\n146 / 各73\n均值 mm：雌 / 雄\n187.79 / 192.41\n187.79 / 192.41\n样本SD mm：雌 / 雄\n5.60 / 6.60\n5.60 / 6.60\n雄减雌均值差 mm\n4.62\n4.6"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "original_topic": "数据可视化：AI自动推荐最佳图表类型 → 生成期刊级高质量图表（可直接用于论文）",
+      "status": "已有对应内容",
+      "locations": [
+        "8/2",
+        "8/3",
+        "8/6",
+        "8/7",
+        "8/15"
+      ],
+      "assessment": "真实数据图、图注与编辑源齐备；是否适合投稿仍按期刊核对。",
+      "evidence": [
+        {
+          "section": 8,
+          "page": 2,
+          "global_page": 130,
+          "title": "研究问题与图型选择",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n研究问题与图型选择\n比较分布、观察变量关系、展示时序和说明工作步骤，各有适合的表达方式。\n读者需要比较什么\n分布或变量关系\n频数图、散点图\n年份或条件变化\n有明确尺度的趋势图\n研究步骤与依赖\n节点、连接与分支\n选择依据是要比较什么、数据怎样组织，以及读者需要看清的关系。\n来源：UBC 2026，图形编码，pp.4/6/17\n02"
+        },
+        {
+          "section": 8,
+          "page": 3,
+          "global_page": 131,
+          "title": "均值图与分布图",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n均值图与分布图\n相同的两组记录，均值图给出中心位置，分布图补充重叠、跨度和频数。\n均值：187.79 / 192.41 mm\n同一批数据，补充组间重叠与跨度\n公开观测二次分析。两图使用相同146条记录，图型改变不改变数据。\n来源：palmerpenguins公开数据，本课程重绘；UBC 2026，图形编码，pp.4/6/17\n03"
+        },
+        {
+          "section": 8,
+          "page": 6,
+          "global_page": 134,
+          "title": "可独立阅读的数据图",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n可独立阅读的数据图\n图题、坐标与单位、分组图例、样本范围和来源，共同限定读者能怎样解释图。\n喙长（mm）\n鳍长（mm）\nAdelie完整记录146条。每点一条观测；未作因果解释或绘制拟合线。\n来源：palmerpenguins公开数据，本课程重绘；UBC 2026，图形编码，pp.4/6/17\n06"
+        },
+        {
+          "section": 8,
+          "page": 7,
+          "global_page": 135,
+          "title": "图注中的对象、符号与方法",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n图注中的对象、符号与方法\n图注应让读者脱离正文，仍能认出研究对象、样本范围、符号含义和计算方式。\n图1　Adelie企鹅喙长与鳍长的观测关系\n2007—2009年公开记录中，保留性别、喙长与鳍长均完整的146条Adelie观测，雌雄各73条。每点表示一条观测，蓝色圆点表示雌性，绿色方点表示雄性。两轴单位均为毫米，图中未绘制拟合线。数据来自palmerpenguins公开简化表。\n对象与样本范围\n点、颜色与单位"
+        },
+        {
+          "section": 8,
+          "page": 15,
+          "global_page": 143,
+          "title": "数据图与路线图的编辑源",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n数据图与路线图的编辑源\n保留数据、脚本和原生图表，路线另存节点与连接，后续改稿才能追溯修改。\n原始数据与计算\nCSV、脚本、计算结果\n原生图表与图注\nPPT对象与嵌入工作簿\n路线节点与连接\ndraw.io与route.json\nPDF / SVG / PNG\n预览、排版与矢量导出\n配套文件是可编辑教学成果；未声称已经通过特定期刊的投稿验收。\n来源：PLOS One，图注与图像要求；课程自编教学示例\n15"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "original_topic": "AI辅助结果解读：自动判断实验数据是否支持原假说，识别意外发现中潜藏的创新点",
+      "status": "已有对应内容",
+      "locations": [
+        "7/12",
+        "7/15",
+        "7/18",
+        "7/20"
+      ],
+      "assessment": "结果解释、混合组成与科研限制分别说明；不自动确认创新发现。",
+      "evidence": [
+        {
+          "section": 7,
+          "page": 12,
+          "global_page": 118,
+          "title": "雌雄均值差与条件区间",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n雌雄均值差与条件区间\nAdelie完整记录中，雄性均值比雌性高4.62毫米。\n完整记录\nn\n均值 mm\nSD mm\nfemale（雌）\n73\n187.79\n5.60\nmale（雄）\n73\n192.41\n6.60\n雄减雌：4.62 mm\n重抽样区间：2.68—6.58 mm\n每组按行抽样，10000次，取2.5%与97.5%分位点。\n区间依赖行独立假设，不是原研究的已发表推断结论。\n来源：palmerpengu"
+        },
+        {
+          "section": 7,
+          "page": 15,
+          "global_page": 121,
+          "title": "效应大小、统计证据与科研解释",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n效应大小、统计证据与科研解释\n结果报告需要同时交代差异大小、估计不确定性和研究设计允许的解释范围。\n差异与单位\n估计不确定性\n研究范围\n对象和比较方向\n抽样与模型条件\n选择、混杂与适用对象\n企鹅的毫米差异和硬币的尾概率，分别对应不同问题与模型。\n显著性阈值无法单独回答差异是否重要、研究是否可靠。\n来源：ASA，2016，P值声明；UC Berkeley 2026，假设检验，pp.6/17/29\n15"
+        },
+        {
+          "section": 7,
+          "page": 18,
+          "global_page": 124,
+          "title": "混合物种与组内相关",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n混合物种与组内相关\n把物种混在一起，喙长与鳍长的总体相关可能包含物种间差异。\nPearson相关\n总体 r = 0.656\nAdelie内 r = 0.326\n总体关系包含\n物种间的差异。\n横轴喙长mm，纵轴鳍长mm。点来自公开观测，未画未经计算的拟合线。\n来源：palmerpenguins公开数据，本课程二次计算\n18"
+        },
+        {
+          "section": 7,
+          "page": 20,
+          "global_page": 126,
+          "title": "结果段落中的对象、数字与限制",
+          "pptx": "training/section-07/output/高校科研AI课程_Section7_数据处理与统计分析_s7-r9.pptx",
+          "pptx_sha256": "c3c9638fe200e1205af030a8e9966016d89ca1d4275dbf16d1078efbe0954fc3",
+          "excerpt": "07  数据处理与统计分析\n结果段落中的对象、数字与限制\n一段可检查的结果文字，需要把纳入范围、差异方向、方法和限定条件写在一起。\n二次分析结果示例\n在性别与鳍长均完整的146条Adelie记录中，雌雄各73条。雄性平均鳍长为192.41毫米，雌性为187.79毫米，均值差为4.62毫米。按两组分别进行10000次有放回重抽样，百分位区间为2.68—6.58毫米。\n该区间依赖行独立的抽样假设。简化数据未提供可核验的巢与个体对应关系，也未"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "original_topic": "科学叙事构建：将零散、孤立的实验结果串联为有说服力的完整逻辑链条",
+      "status": "已有对应内容",
+      "locations": [
+        "9/2",
+        "9/3",
+        "9/4",
+        "9/8"
+      ],
+      "assessment": "主张、证据、结果与图的对应构成叙述。",
+      "evidence": [
+        {
+          "section": 9,
+          "page": 2,
+          "global_page": 146,
+          "title": "主张与证据的对应",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n主张与证据的对应\n同一份数据，可以支持完整记录中的均值差异，却不足以证明因果机制。\n样本范围\n344条原始记录 → Adelie 152条 → 完整记录146条，雌雄各73条。\n可报告的结果\n在这些完整记录中，雄性平均鳍长比雌性高4.62 mm。\n需要更多证据\n“性别决定鳍长”“适用于所有企鹅”涉及因果或总体外推，当前分析不能支持。\n公开数据二次教学分析，不作为新科研成果。\n来源：palmerpenguin"
+        },
+        {
+          "section": 9,
+          "page": 3,
+          "global_page": 147,
+          "title": "常见论文结构与读者问题",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n常见论文结构与读者问题\n引言解释问题，方法交代做法，结果报告发现，讨论说明解释和限制。\n引言 Introduction\n为什么研究这个问题？已有研究留下什么具体问题？\n方法 Methods\n数据从哪里来？怎样筛选、测量和分析？\n结果 Results\n比较得到什么？图表、数字和不确定性怎样对应？\n讨论 Discussion\n结果如何解释？哪些条件限制解释和推广？\n结构服务于研究问题，目标期刊和学科惯例决定具体"
+        },
+        {
+          "section": 9,
+          "page": 4,
+          "global_page": 148,
+          "title": "一段结果文字的内部结构",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n一段结果文字的内部结构\n先说明比较对象，再给出数字与单位，最后补足读者需要的条件。\n课程结果段落：对象 → 数字 → 范围\n纳入146条Adelie完整记录，雌雄各73条。雄性平均鳍长为192.41 mm，雌性为187.79 mm，均值差为4.62 mm。该差异描述本次纳入记录中的组间比较，未作因果推断。\n146条 / 每组73条：与方法中的纳入条件对应\n192.41 / 187.79 / 4.62：与计算"
+        },
+        {
+          "section": 9,
+          "page": 8,
+          "global_page": 152,
+          "title": "图与结果段落的对应",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n图与结果段落的对应\n正文概括图中能支持的发现，并给出对象、方向、单位和必要数字。\n结果段落 [R1]\n雄性平均鳍长比雌性高4.62 mm。两组的分布有重叠。\n均值差与个体差异是两个层面：不能仅凭性别推断某个体的鳍长。\n图与文字来自相同146条记录，组间重叠不影响均值差的如实报告。\n来源：MIT CommLab，结果写作；palmerpenguins公开数据及课程二次计算\n08"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "original_topic": "Discussion自动撰写：输入结果→AI生成与已有文献的对比讨论段落",
+      "status": "已有对应内容",
+      "locations": [
+        "9/9",
+        "5/20"
+      ],
+      "assessment": "讨论与替代解释、文献比较有教学示例。",
+      "evidence": [
+        {
+          "section": 9,
+          "page": 9,
+          "global_page": 153,
+          "title": "讨论中的解释与替代解释",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n讨论中的解释与替代解释\n讨论把结果放回研究问题，同时交代数据和设计尚不能排除的解释。\n完整记录中的均值差\n雄性 − 雌性 = 4.62 mm\n数据组成\n年份、岛屿与缺失，是否影响所见差异？\n观测依赖\n巢内或年份相关性是否影响不确定性？\n解释范围\n没有实验设计，当前不能确认因果机制。\n区分当前观察、条件解释与尚待验证的工作。\n来源：MIT CommLab，讨论写作；课程教学示例 / 模拟审稿\n09"
+        },
+        {
+          "section": 5,
+          "page": 20,
+          "global_page": 86,
+          "title": "综述段落的组织",
+          "pptx": "training/section-05/output/高校科研AI课程_Section5_文献检索阅读与综述_s5-r4.pptx",
+          "pptx_sha256": "097b513f7e66c66d2989c7fa8372e7137667ae11fd4b8bfca2c18d9cad44523c",
+          "excerpt": "05  文献检索、阅读与综述\n综述段落的组织\n按研究问题组织证据，说明差异发生在哪个条件下。\n逐篇列举，信息停留在主题\n研究甲讨论了AI教育。研究乙也讨论了AI教育。两项研究都很有意义，未来值得深入研究。\n围绕比较条件组织证据\n评价AI辅导，需要先说明比较条件与测量时点。高中数学研究区分有帮助的练习和撤去资源的测验（Bastani等，2025）；本科物理研究中，定制AI辅导与课堂主动学习的后测中位数为4.5和3.5（Kestin等，20"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "original_topic": "模拟审稿人预审：投稿前AI自动“挑刺”，提前发现逻辑漏洞、论证薄弱环节",
+      "status": "已有对应内容",
+      "locations": [
+        "9/11",
+        "9/15",
+        "9/22"
+      ],
+      "assessment": "预审关注证据和论证，未冒充正式期刊评审。",
+      "evidence": [
+        {
+          "section": 9,
+          "page": 11,
+          "global_page": 155,
+          "title": "引文存在与主张得到支持",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n引文存在与主张得到支持\n核对参考文献时，既要确认文献真实存在，也要读原文判断它支持哪一句。\n确认文献身份\n阅读相关原文\n判断支持范围\n作者、题名、年份、DOI互相核对\n回到方法、结果与讨论，找到具体依据\n给相应句子引用；不把自己的计算归给原文\n真实原文：Gorman、Williams与Fraser，2014，PLOS ONE 9(3): e90081。\n本课4.62 mm为二次计算。它不应写成“原研究报告了"
+        },
+        {
+          "section": 9,
+          "page": 15,
+          "global_page": 159,
+          "title": "编辑初筛与外部评审",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n编辑初筛与外部评审\n期刊先检查材料和适配，再决定是否邀请外部评审，最后由编辑形成决定。\n材料初检\n编辑评估\n外部评审\n编辑决定\n文件与声明完整性\n范围、标准与适配\n方法、证据与解释\n作者修订与逐条回复\n编辑可决定接受、修订或拒稿。\n修订后重新提交，编辑继续评估；\n具体环节按目标期刊规定。\n本页为官方流程转述，没有实际稿件状态或执行截图。\n来源：PLOS One，编辑与同行评审流程\n15"
+        },
+        {
+          "section": 9,
+          "page": 22,
+          "global_page": 166,
+          "title": "可复核的写作与返修材料",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n可复核的写作与返修材料\n研究材料、当前稿、修改记录和逐条回复，应能指向同一组事实。\n来源与计算证据\n当前稿与段落锚点\n修改与回复记录\n提交前版本复核\n核对数字与单位\n正文、图表对应材料\nWord清稿与增删标记\n回复定位并保留缺口\n材料里的数字、段落里的判断和文件里的修改，应逐项对应。\n下一节：基金申报与Grant Agent。当前写作示例未投稿。\n来源：课程教学示例 / 模拟审稿\n22"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "original_topic": "分段协作策略：Title→Abstract→Introduction→Methods→Results→Discussion逐段分工，明确“哪些AI写、哪些自己写”",
+      "status": "已有对应内容",
+      "locations": [
+        "9/3",
+        "9/5",
+        "9/6",
+        "9/7",
+        "9/12"
+      ],
+      "assessment": "按论文各段的任务与已有证据分工。",
+      "evidence": [
+        {
+          "section": 9,
+          "page": 3,
+          "global_page": 147,
+          "title": "常见论文结构与读者问题",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n常见论文结构与读者问题\n引言解释问题，方法交代做法，结果报告发现，讨论说明解释和限制。\n引言 Introduction\n为什么研究这个问题？已有研究留下什么具体问题？\n方法 Methods\n数据从哪里来？怎样筛选、测量和分析？\n结果 Results\n比较得到什么？图表、数字和不确定性怎样对应？\n讨论 Discussion\n结果如何解释？哪些条件限制解释和推广？\n结构服务于研究问题，目标期刊和学科惯例决定具体"
+        },
+        {
+          "section": 9,
+          "page": 5,
+          "global_page": 149,
+          "title": "摘要中的结果与解释范围",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n摘要中的结果与解释范围\n摘要交代目的、做法和主要结果，材料中的限制随改写保留。\n中文讲解稿\n本例用公开企鹅数据演示组间比较的报告。筛选Adelie并保留性别和鳍长完整的146条记录，雌雄各73条。雄性平均鳍长192.41毫米，雌性187.79毫米，差值4.62毫米。组内有放回重抽样10000次，差值百分位区间为2.68至6.58毫米。该区间依赖记录独立等条件。缺失机制、巢内依赖和目标总体未核实，结果限于纳入"
+        },
+        {
+          "section": 9,
+          "page": 6,
+          "global_page": 150,
+          "title": "引言中的已有研究与具体问题",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n引言中的已有研究与具体问题\n引言需要说明研究背景和当前问题，并用已读文献限定自己真正要回答的内容。\n领域背景\n性别与形态差异是企鹅生态研究的一个问题。\n已有研究\nGorman等（2014）研究南极企鹅群落的性别形态差异。\n当前问题\n这份公开数据中的Adelie完整记录，雌雄鳍长相差多少？\n本例目标\n演示描述性比较及论文表达，不据此主张研究空白。\n本例演示引言组织，不把重复计算包装成研究空白。\n来源：MIT "
+        },
+        {
+          "section": 9,
+          "page": 7,
+          "global_page": 151,
+          "title": "方法段落中的可复核信息",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n方法段落中的可复核信息\n数据来源、纳入条件、处理规则和分析参数，需要与实际执行一致。\n原始公开表 344条\nAdelie 152条\n完整记录 146条\n限定研究对象\n排除6条缺失，不插补\n方法段落节选 [M1]\n数据来自palmerpenguins公开简化表。筛选Adelie记录后，保留性别和鳍长均完整的观测，共146条；雌雄各73条。排除6条记录，未对缺失值作插补。\n完整分析参数另见[M2]：雄减雌、分组"
+        },
+        {
+          "section": 9,
+          "page": 12,
+          "global_page": 156,
+          "title": "AI分段协作的输入与输出",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\nAI分段协作的输入与输出\n向AI提供事实材料和写作任务，并要求把缺失信息、使用依据和修改理由一并返回。\n研究事实与资料\n分段写作任务\n草稿与依据位置\n复核与修订\n方法、结果及限制\n明确段落要回答什么\n未知内容单独列出\n逐句比对原始材料\n写作任务示例：只依据附带计算记录写方法与结果。保留数字、单位和条件；\n未知事项列出；每段注明材料位置，返回修改理由。\n保留工具用途与核查记录；AI使用的披露要求按目标期刊核对"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "original_topic": "期刊风格适配：顶级期刊语言风格Prompt模板库，AI生成对应风格文本",
+      "status": "已有对应内容",
+      "locations": [
+        "3/15",
+        "9/5",
+        "9/13"
+      ],
+      "assessment": "附PLOS One与Scientific Reports两份有官方定位的摘要任务模板、原摘要、实际英文教学改稿及事实核对。范围限摘要，未声称两次模型执行、全文合规或投稿适格。",
+      "evidence": [
+        {
+          "section": 3,
+          "page": 15,
+          "global_page": 49,
+          "title": "给修订任务写清边界",
+          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r4.pptx",
+          "pptx_sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
+          "excerpt": "03  Humanizer 与各类科研产物的表达\n给修订任务写清边界\n要求说明保留项、修改范围和交付方式，减少无依据的扩写。\n请按高校科研材料的语体修订下文。\n保留数字、单位、专业术语、引文、否定和限定条件。\n改掉空泛评价、重复结尾、指代不清和过长句。\n不要补充未提供的研究事实。\n交付修订稿及逐项差异说明；事实不明处另列问题。\n作者原稿\n修订要求\n修订稿＋差异\n课程编写的任务示例；提示词本身不能保证事实不变，需要再次核对。\n来源：Hum"
+        },
+        {
+          "section": 9,
+          "page": 5,
+          "global_page": 149,
+          "title": "摘要中的结果与解释范围",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n摘要中的结果与解释范围\n摘要交代目的、做法和主要结果，材料中的限制随改写保留。\n中文讲解稿\n本例用公开企鹅数据演示组间比较的报告。筛选Adelie并保留性别和鳍长完整的146条记录，雌雄各73条。雄性平均鳍长192.41毫米，雌性187.79毫米，差值4.62毫米。组内有放回重抽样10000次，差值百分位区间为2.68至6.58毫米。该区间依赖记录独立等条件。缺失机制、巢内依赖和目标总体未核实，结果限于纳入"
+        },
+        {
+          "section": 9,
+          "page": 13,
+          "global_page": 157,
+          "title": "按期刊要求改写摘要的任务示例",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n按期刊要求改写摘要的任务示例\n把官方条款写入具体任务，改稿后分别核对格式、数字与结论。\n完整改写任务\n请按所附PLOS One作者要求，将[A1]改写为不超过300个英文词的摘要，不放引文，尽量避免缩写。说明本教学例子的目的、公开数据和筛选方法、主要结果及其解释范围。保留146条、每组73条、两组均值、4.62毫米差值、10000次重抽样及2.68至6.58毫米区间。明确区间的独立性假设和未核实条件，不添加"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "original_topic": "逻辑链条检查：AI自动扫描全文，识别论证断层与逻辑不一致之处",
+      "status": "已有对应内容",
+      "locations": [
+        "9/2",
+        "9/11",
+        "9/22"
+      ],
+      "assessment": "逐句主张、引文支持和完整返修包用于检查逻辑。",
+      "evidence": [
+        {
+          "section": 9,
+          "page": 2,
+          "global_page": 146,
+          "title": "主张与证据的对应",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n主张与证据的对应\n同一份数据，可以支持完整记录中的均值差异，却不足以证明因果机制。\n样本范围\n344条原始记录 → Adelie 152条 → 完整记录146条，雌雄各73条。\n可报告的结果\n在这些完整记录中，雄性平均鳍长比雌性高4.62 mm。\n需要更多证据\n“性别决定鳍长”“适用于所有企鹅”涉及因果或总体外推，当前分析不能支持。\n公开数据二次教学分析，不作为新科研成果。\n来源：palmerpenguin"
+        },
+        {
+          "section": 9,
+          "page": 11,
+          "global_page": 155,
+          "title": "引文存在与主张得到支持",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n引文存在与主张得到支持\n核对参考文献时，既要确认文献真实存在，也要读原文判断它支持哪一句。\n确认文献身份\n阅读相关原文\n判断支持范围\n作者、题名、年份、DOI互相核对\n回到方法、结果与讨论，找到具体依据\n给相应句子引用；不把自己的计算归给原文\n真实原文：Gorman、Williams与Fraser，2014，PLOS ONE 9(3): e90081。\n本课4.62 mm为二次计算。它不应写成“原研究报告了"
+        },
+        {
+          "section": 9,
+          "page": 22,
+          "global_page": 166,
+          "title": "可复核的写作与返修材料",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n可复核的写作与返修材料\n研究材料、当前稿、修改记录和逐条回复，应能指向同一组事实。\n来源与计算证据\n当前稿与段落锚点\n修改与回复记录\n提交前版本复核\n核对数字与单位\n正文、图表对应材料\nWord清稿与增删标记\n回复定位并保留缺口\n材料里的数字、段落里的判断和文件里的修改，应逐项对应。\n下一节：基金申报与Grant Agent。当前写作示例未投稿。\n来源：课程教学示例 / 模拟审稿\n22"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "original_topic": "科研图表生成：Midjourney/DALL-E专用提示词模板，生成技术路线图、机制示意图、流程图等",
+      "status": "调整讲法",
+      "locations": [
+        "8/10",
+        "8/14",
+        "8/16"
+      ],
+      "assessment": "已补GPT Image完整任务、Midjourney提示、明确修改要求和可编辑关系图。原稿DALL·E 2/3 API名称按2026-05-12官方下线记录修正；两份提示未执行，Nano Banana未接入。",
+      "evidence": [
+        {
+          "section": 8,
+          "page": 10,
+          "global_page": 138,
+          "title": "AI协助绘图的具体输入",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\nAI协助绘图的具体输入\n提供数据、字段含义、问题和限制后，要求AI给出可运行脚本、图和图注。\nCSV与字段说明\n绘图要求与代码\n实际图与图注\n源数据复核\n对象、单位与缺失\n图型、尺度和限制\n保留可编辑版本\n点数、数值和标签\n提示示例：保留全部观测，不连线、不加拟合，输出图注和数据来源。\n本地原生图已生成；AI写出绘图建议与实际运行结果分别核对。\n来源：课程自编教学示例\n10"
+        },
+        {
+          "section": 8,
+          "page": 14,
+          "global_page": 142,
+          "title": "机制示意的完整任务与假说范围",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\n机制示意的完整任务与假说范围\n对象、布局和箭头含义写入任务，图中保留“待验证”的状态。\n关系核对图（可编辑）\nGPT Image任务示例（未执行）\n请绘制一张供高校教师讲解的概念示意图，主题是“分步提示可能怎样影响独立解题”。白底，蓝绿配色，三个区域依次表示分步提示、作答中的尝试与修正、无AI的新题测验。区域间只用两条虚线箭头，图例写明“待验证关系”。不要添加成绩、提升百分比、实验照片或文献。图注写“教学假说"
+        },
+        {
+          "section": 8,
+          "page": 16,
+          "global_page": 144,
+          "title": "Midjourney提示与示意图复核",
+          "pptx": "training/section-08/output/高校科研AI课程_Section8_科研图表与技术路线_s8-r6.pptx",
+          "pptx_sha256": "0552a333945db4bf2a8efb5dc10da9be18b42792bf8096dd5ce4e71d9898c43a",
+          "excerpt": "08  科研图表与技术路线\nMidjourney提示与示意图复核\n图像工具先接收清楚的画面描述，教师再逐项检查对象、标签和关系。\n可复制的画面描述（未执行）\nFlat academic concept illustration, three simple panels left to right: a worksheet with stepped hints, a student's solution revisions, a fres"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "original_topic": "伦理红线：AI润色与人工润色的边界划分，哪些场景可用AI、哪些必须声明、期刊合规自查清单",
+      "status": "已有对应内容",
+      "locations": [
+        "1/11",
+        "3/4",
+        "3/16",
+        "9/14",
+        "10/4"
+      ],
+      "assessment": "表达、事实、披露与投稿要求分别说明；目标期刊逐次核对。",
+      "evidence": [
+        {
+          "section": 1,
+          "page": 11,
+          "global_page": 15,
+          "title": "AI 使用声明要看具体用途",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\nAI 使用声明要看具体用途\n改语法、起草正文、分析数据和生成插图，适用的要求各不相同。\n出版方\n写作与披露\n科研内容与图像\nNature\nPortfolio\n按风险分级。广泛写作支持\n需人工监督、核验与披露。\n作者对准确性与原创性负责；\n不能伪造数据或让AI代替判断。\nScience\njournals\n语言清晰度修改：免声明。\n起草正文、翻译：\n致谢注明模型与版本。\n改代码功能、数据分析：方法披"
+        },
+        {
+          "section": 3,
+          "page": 4,
+          "global_page": 38,
+          "title": "删掉“可能”，结论就变了",
+          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r4.pptx",
+          "pptx_sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
+          "excerpt": "03  Humanizer 与各类科研产物的表达\n删掉“可能”，结论就变了\n限定词表达证据强度，不能按“更有力量”的要求一律删除。\n原意：保留可能性\n更明确的反馈可能帮助学生改进写作。\n润色后的风险：判断更肯定\n更明确的反馈帮助学生改进写作。\n“可能”被删后，陈述的确定程度提高；流畅度的变化掩盖了论证含义的变化。\n据 UCL 2026 年课件第8页的英文例子作中文转述，不作为本课程实验结果。\n来源：McKinley，UCL（2026），"
+        },
+        {
+          "section": 3,
+          "page": 16,
+          "global_page": 50,
+          "title": "差异核对：表达变了，事实还在吗",
+          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r4.pptx",
+          "pptx_sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
+          "excerpt": "03  Humanizer 与各类科研产物的表达\n差异核对：表达变了，事实还在吗\n把修订前后并排看，逐项核对容易被顺手改掉的信息。\n核对项\n风险改动示例\n处理办法\n研究状态\n拟开展 → 已完成\n需要撤回，不能改变时态事实\n推断关系\n相关 → 导致\n需要撤回，不能提高因果强度\n范围与否定\n本样本／未检出 → 被省略\n回到原句和研究记录核对\n数字与引用\n数值、单位、DOI被替换\n逐项比对原始资料\n逐项差异说明支持复核；关键词检查只能覆盖部分"
+        },
+        {
+          "section": 9,
+          "page": 14,
+          "global_page": 158,
+          "title": "投稿文件中的信息一致性",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n投稿文件中的信息一致性\n提交前逐项核对相同数字与研究范围，作者信息和声明由作者确认。\n主稿与图表\n146条；雄减雌4.62毫米\n限定Adelie 152条\n排除6条缺失，未插补\n投稿信与系统字段\n作者、贡献和声明待确认\n相同数字逐项比对，未知声明留待作者确认\n官方要求作为案例；具体文件清单按目标期刊核对。\n来源：PLOS One，投稿指南；课程教学示例 / 模拟审稿\n14"
+        },
+        {
+          "section": 10,
+          "page": 4,
+          "global_page": 170,
+          "title": "国自然申请中的AI使用要求",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n国自然申请中的AI使用要求\nAI参与资料整理时，申请人仍须核实信息、声明使用情况并按规定标识。\n资料与引用\nAI辅助跟踪动态、整理文献时，申请人逐项核实信息与文献真实性、准确性。\n使用情况\n全面如实声明AI使用情况，并按规定对相关内容作出标识。\n申请书正文\n不得使用生成式AI直接生成的申请书，也不得使用未经核实的生成内容。\n本节AI协助编写的研究设计和Word仅作教学演示，不作国自然申请书使用。"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "original_topic": "审稿意见拆解：AI逐条解析审稿人意见，自动分类（实验补充类、文字修改类、理论质疑类）",
+      "status": "已有对应内容",
+      "locations": [
+        "9/16"
+      ],
+      "assessment": "方法、补研究与文字意见按修改动作分类。",
+      "evidence": [
+        {
+          "section": 9,
+          "page": 16,
+          "global_page": 160,
+          "title": "审稿意见的分类与修改动作",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n审稿意见的分类与修改动作\n先判断意见需要补说明、重分析、新研究还是讨论范围，再安排回应。\nR1.1：缺少方法细节\n补数据来源、筛选和缺失处理 → 已修改[M1]。\nR1.2：因果结论过强\n收回因果与机制表述，说明范围 → 已修改[R1][D1]。\nR2.1：要求独立采样\n需要新增研究 → 本轮未完成，在[L1]说明限制。\n教学模拟审稿意见，实际文件改动可查，新增研究没有发生。\n来源：课程教学示例 / 模拟审"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "original_topic": "回应策略生成：针对每类意见，AI生成得体、有说服力的Rebuttal草稿",
+      "status": "已有对应内容",
+      "locations": [
+        "9/17",
+        "9/18",
+        "9/19",
+        "9/20"
+      ],
+      "assessment": "回复、修改位置与未完成研究分别给出示例。",
+      "evidence": [
+        {
+          "section": 9,
+          "page": 17,
+          "global_page": 161,
+          "title": "回复示例：补充方法说明",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n回复示例：补充方法说明\n把意见中缺少的信息写入方法，读者便能核对样本量怎样确定。\n模拟意见 R1.1：来源、缺失与样本量如何交代？\n公开原始表\n344条记录\n限定Adelie\n152条记录\n性别与鳍长完整\n146条，雌雄各73条\n筛选研究对象\n排除6条缺失，未插补\n正文 [M1]\n写明来源、纳入条件、排除记录及物理行号。\n回复 R1.1\n指向[M1]和计算记录，让读者核对146条从何而来。\n模拟意见R1.1"
+        },
+        {
+          "section": 9,
+          "page": 18,
+          "global_page": 162,
+          "title": "回复示例：收回因果结论",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n回复示例：收回因果结论\n当现有设计不支持因果解释时，修改结果与讨论的范围，并如实说明没有新增验证。\n模拟意见 R1.2\n观察性比较无法支持“性别决定鳍长”，请修改因果结论。\n实际改动 [R1][D1]\n删除“证明决定”等表述；保留4.62 mm描述，说明组成、缺失和独立性限制。\n回复节选\n已收回因果与机制结论，并限定为纳入记录中的描述性比较；未增加机制验证。\n模拟意见R1.2；实际修订在[R1]与[D1]，"
+        },
+        {
+          "section": 9,
+          "page": 19,
+          "global_page": 163,
+          "title": "回复示例：尚未完成的补充研究",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n回复示例：尚未完成的补充研究\n无法完成建议中的独立采样时，说明缺口及其对结论的影响，不能用未来计划充当结果。\n模拟意见 R2.1\n请增加独立样本，并检验巢内相关性后再讨论推广。\n实际状态 [L1]\n本轮未新增采样，也未完成巢内相关性检验。该缺口保留在限制部分。\n回复节选\n这项补充研究尚未完成。当前结果限于本次纳入记录，不能用其支持更广范围的结论。\n模拟意见R2.1；[L1]保留未完成状态，不虚构实验或分析。"
+        },
+        {
+          "section": 9,
+          "page": 20,
+          "global_page": 164,
+          "title": "回复、标记稿与清稿的版本对应",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n回复、标记稿与清稿的版本对应\n同一条意见在回复、标记稿和清稿中使用相同编号，方便逐项查找。\n逐条审稿回复.docx\nR1.2：已收回因果结论\n修订稿_改动标记.docx\n红色删除；绿色新增\n原稿 [R1] 证明性别决定鳍长。\n修订 [R1] 在完整记录中，雄性平均鳍长比雌性高4.62毫米。\n修订稿_清稿.docx 保留修订后文字。[D1]说明限制，[L1]保留未完成研究。\n三份Word可编辑；标记稿使用彩色"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "original_topic": "模拟预审稿：正式投稿前，AI切换审稿人视角进行Pre-submission Review",
+      "status": "已有对应内容",
+      "locations": [
+        "9/11",
+        "9/15",
+        "9/22"
+      ],
+      "assessment": "投稿前核对来源、逻辑和文件，AI意见为模拟。",
+      "evidence": [
+        {
+          "section": 9,
+          "page": 11,
+          "global_page": 155,
+          "title": "引文存在与主张得到支持",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n引文存在与主张得到支持\n核对参考文献时，既要确认文献真实存在，也要读原文判断它支持哪一句。\n确认文献身份\n阅读相关原文\n判断支持范围\n作者、题名、年份、DOI互相核对\n回到方法、结果与讨论，找到具体依据\n给相应句子引用；不把自己的计算归给原文\n真实原文：Gorman、Williams与Fraser，2014，PLOS ONE 9(3): e90081。\n本课4.62 mm为二次计算。它不应写成“原研究报告了"
+        },
+        {
+          "section": 9,
+          "page": 15,
+          "global_page": 159,
+          "title": "编辑初筛与外部评审",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n编辑初筛与外部评审\n期刊先检查材料和适配，再决定是否邀请外部评审，最后由编辑形成决定。\n材料初检\n编辑评估\n外部评审\n编辑决定\n文件与声明完整性\n范围、标准与适配\n方法、证据与解释\n作者修订与逐条回复\n编辑可决定接受、修订或拒稿。\n修订后重新提交，编辑继续评估；\n具体环节按目标期刊规定。\n本页为官方流程转述，没有实际稿件状态或执行截图。\n来源：PLOS One，编辑与同行评审流程\n15"
+        },
+        {
+          "section": 9,
+          "page": 22,
+          "global_page": 166,
+          "title": "可复核的写作与返修材料",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n可复核的写作与返修材料\n研究材料、当前稿、修改记录和逐条回复，应能指向同一组事实。\n来源与计算证据\n当前稿与段落锚点\n修改与回复记录\n提交前版本复核\n核对数字与单位\n正文、图表对应材料\nWord清稿与增删标记\n回复定位并保留缺口\n材料里的数字、段落里的判断和文件里的修改，应逐项对应。\n下一节：基金申报与Grant Agent。当前写作示例未投稿。\n来源：课程教学示例 / 模拟审稿\n22"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "original_topic": "拒稿后策略：AI辅助分析拒稿原因，推荐改投期刊与论文快速迭代修改方案",
+      "status": "已有对应内容",
+      "locations": [
+        "9/21"
+      ],
+      "assessment": "拒稿理由、修改与目标期刊要求有对应。",
+      "evidence": [
+        {
+          "section": 9,
+          "page": 21,
+          "global_page": 165,
+          "title": "拒稿后的修改与重投",
+          "pptx": "training/section-09/output/高校科研AI课程_Section9_论文写作投稿与返修_s9-r7.pptx",
+          "pptx_sha256": "5787ae761aef1e3c2ec1e84435b8a1c1fed215f3962dc86af07b295db6862ce5",
+          "excerpt": "09  论文写作、投稿与返修\n拒稿后的修改与重投\n根据决定理由判断是内容适配、证据不足还是重大事实分歧，再决定修改方向。\n阅读编辑决定和理由\n范围不符\n重新判断目标期刊和文章类型。\n证据或方法不足\n补研究或收窄结论，再评估稿件。\n重大事实争议\n按期刊程序，用材料说明申诉依据。\n重投前核对上一流程已结束，并重新检查目标刊要求。\n来源：PLOS One，编辑与同行评审流程；课程教学示例 / 模拟审稿\n21"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "original_topic": "立项依据撰写：AI辅助文献脉络梳理与科学意义凝练",
+      "status": "已有对应内容",
+      "locations": [
+        "10/8",
+        "10/11"
+      ],
+      "assessment": "文献脉络、科学问题与可检验关系形成依据。",
+      "evidence": [
+        {
+          "section": 10,
+          "page": 8,
+          "global_page": 174,
+          "title": "立项依据中的文献与本例问题",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n立项依据中的文献与本例问题\n已有研究的对象、干预和测量，可以帮助限定本例准备追问的内容。\n公开研究：高中数学\nBastani等（PNAS，2025）比较不同AI辅导条件，并另设无辅助测验。研究设计把工具使用阶段与独立作答阶段分别观察。\n本例拟追问：大学统计课程\n在相同模型和任务下，先写思路再获得分步提示，是否改变独立解题表现？需继续检索同类研究，判断具体差异。\n高中研究的设计启发可以借鉴；大学场"
+        },
+        {
+          "section": 10,
+          "page": 11,
+          "global_page": 177,
+          "title": "研究假说与其他可能解释",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n研究假说与其他可能解释\n提示方式、独立尝试与后续测验之间的关系，需要通过设计和数据检验。\n分步提示方式\n独立尝试与修正\n无AI新题表现\n记录实际提供的提示\n保留步骤和修改过程\n采用统一测验与评分\n其他可能解释：既有水平、学习投入、题目难度、教师实施及组间交流。\n虚线为待检验关系；既有水平和实施差异等因素需另行考虑。\n来源：课程教学模拟，未实施\n11"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "original_topic": "研究内容与技术路线：AI自动生成结构化方案框架",
+      "status": "已有对应内容",
+      "locations": [
+        "10/9",
+        "10/10",
+        "10/12",
+        "10/13"
+      ],
+      "assessment": "目标、内容、设计与路线相互对应。",
+      "evidence": [
+        {
+          "section": 10,
+          "page": 9,
+          "global_page": 175,
+          "title": "科学问题、目标与研究内容",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n科学问题、目标与研究内容\n问题说明未知关系，目标说明准备弄清什么，研究内容安排取得证据的工作。\n科学问题\n研究目标\n研究内容\n提示方式与离开AI后的独立解题，有怎样的关系？\n比较两种条件下的独立测验表现，检查作答过程。\n预试题目和评分，实施比较，记录过程，联合解释。\n概念用于组织思路，正文按研究自身逻辑展开。\n来源：国自然2026申请书改版说明；课程教学模拟，未实施\n09"
+        },
+        {
+          "section": 10,
+          "page": 10,
+          "global_page": 176,
+          "title": "研究内容与可检验结果",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n研究内容与可检验结果\n每项研究内容需要说明观察什么、怎样判断，以及得不到预期结果时仍能回答什么。\n题目与评分预试\n检查题目难度与评分规则，形成可复查的材料和修订记录。\n辅导条件比较\n统一测量，记录两组过程及无AI新题成绩，报告差异与不确定性。\n过程与结果解释\n比较尝试、求助和修正记录。未出现预期差异时，也如实分析设计与适用范围。\n研究计划中的产物是预期安排，不能写成已经取得的结果。\n来源：NIH"
+        },
+        {
+          "section": 10,
+          "page": 12,
+          "global_page": 178,
+          "title": "比较设计与测量安排",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n比较设计与测量安排\n两组使用同一模型、题目和练习时长，一周后按统一规则评价无AI新题作答。\n核对准入与分配方案\n完整解答条件\n分步提示条件\n一周后无AI新题\n按统一规则评分\n保留实际求助与作答记录\n评分规则与分析方案预先确定\n研究设计教学示意。样本量、分配方式、伦理与授权仍待核定。\n来源：NIH StrokeNet 2026原始课件；课程教学模拟，未实施\n12"
+        },
+        {
+          "section": 10,
+          "page": 13,
+          "global_page": 179,
+          "title": "比较实施与一周后测量的技术路线",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n比较实施与一周后测量的技术路线\n两种条件分别保留过程记录，再用同一测量时点和评分规则比较。\n题目与评分规则\n材料预试与分配安排\n分步提示条件\n完整解答条件\n提示组过程记录\n解答组过程记录\n一周后无AI新题\n按统一规则评分\n按预定方案比较\n用同一编号对应组别、过程与测验；\n测量缺失和执行偏离单独登记。\n教学拟议，未实施。预试、分配、测量质量及启动条件仍待核定。\n来源：课程教学模拟，未实施\n13"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "original_topic": "创新点提炼：AI对比已有研究，定位差异化优势",
+      "status": "已有对应内容",
+      "locations": [
+        "10/14"
+      ],
+      "assessment": "按对象、条件、方法与已有工作比较创新。",
+      "evidence": [
+        {
+          "section": 10,
+          "page": 14,
+          "global_page": 180,
+          "title": "创新点的比较依据",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n创新点的比较依据\n创新论证需要明确：与哪些已有工作比较，增加了哪项可检验认识。\n已有工作覆盖什么\n不同AI辅导设计、练习阶段与无辅助测验，已有公开研究涉及。\n本例准备比较什么\n大学统计课程中的具体提示方式，以及过程记录与独立表现的对应。\n创新论证仍需什么\n检索相关大学研究，说明具体未解问题及其价值，再判断是否形成新认识。\n当前只给出创新论证的比较方式，创新性仍待文献与专家核对。\n来源：NIH S"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "original_topic": "研究基础与团队介绍：输入CV→AI自动提炼最具竞争力的亮点表述",
+      "status": "已有对应内容",
+      "locations": [
+        "10/6",
+        "10/15"
+      ],
+      "assessment": "前期成果、本人贡献和条件需真实资料；不补造CV或团队基础。",
+      "evidence": [
+        {
+          "section": 10,
+          "page": 6,
+          "global_page": 172,
+          "title": "申报前的材料盘点",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n申报前的材料盘点\n已有文献、研究者工作和拟开展的研究，需要分别登记。\n材料登记与用途核对\n公开文献\n支持研究现状与方法选择，注明阅读范围。\n申请人已有工作\n核对论文贡献、数据记录与相关工作积累。\n拟开展研究\n写明研究设想、待办条件和未验证关系。\n缺少材料时，保留问题及其影响，不用通用措辞补成团队成果。\n来源：国自然2026申请通告；课程教学模拟，未实施\n06"
+        },
+        {
+          "section": 10,
+          "page": 15,
+          "global_page": 181,
+          "title": "研究基础与实施条件",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n研究基础与实施条件\n申请人的已有工作，需要与本项目的关键任务逐项对应。\n关键研究任务\n已有工作与贡献\n条件证明与缺口\n例如题目设计、实施和分析\n提供相关论文、数据、工具\n及本人贡献\n核对准入、设备、合作\n和时间安排\n本例实际状态：没有申请人前期成果、课程准入证明或合作承诺。\n公开文献支持研究背景，申请人研究基础仍需真实材料。\n本例未提供申请人真实研究基础，不能据此判断具备申报条件。\n来源：国自然"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "original_topic": "预算编制：AI自动生成合理经费预算框架与说明文字",
+      "status": "已有对应内容",
+      "locations": [
+        "6/13",
+        "10/18",
+        "12/8"
+      ],
+      "assessment": "任务与费用依据、财务和资产资料分别核对。",
+      "evidence": [
+        {
+          "section": 6,
+          "page": 13,
+          "global_page": 103,
+          "title": "样本计划怎样变成工作量",
+          "pptx": "training/section-06/output/高校科研AI课程_Section6_研究与实验方案_s6-r5.pptx",
+          "pptx_sha256": "233d3690ad36188197376ba611a1d179fca9422854d2d073b0c24f4e03f508ba",
+          "excerpt": "06  研究与实验方案\n样本计划怎样变成工作量\n沿用“差6分”的教学情景：每组需45份完整主要结果，再估算招募、测量和评分容量。\n安排\n本例计算\n仍需确认\n完整主要结果\n45人/组，合计90人\n差6分情景；前提见第11页\n招募预留\n45÷0.90向上取整＝50人/组\n保留率90%为教学假设\n测量排程\n100人×3时点＝300人次\n基线、当场、一周后\n评分任务\n100份答卷×2名评分者＝200份次\n按满额准备，尚未实际评分\n教学容量测算："
+        },
+        {
+          "section": 10,
+          "page": 18,
+          "global_page": 184,
+          "title": "研究任务与经费依据",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n研究任务与经费依据\n先识别研究需要的资源，再按对应类别和单位要求说明成本。\n研究任务\n资源用量\n费用依据\n需要哪些人员、材料与计算条件\n按实施次数、工作量与使用时长估算\n核对报价、费用归属和当期规定\n2026国自然案例：青年A、B、C类等实行包干制，申请时无需编制预算；\n其余项目按规定实行预算制，结合实际研究需要编报。\n预算方式按所申报类别核对，不把示例测算当作官方额度。\n来源：国自然2026申"
+        },
+        {
+          "section": 12,
+          "page": 8,
+          "global_page": 212,
+          "title": "软件成果的版本、贡献与登记材料",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n软件成果的版本、贡献与登记材料\n台账先记录实际软件和运行证据，再核对本人贡献、权属及登记材料。\n固定教学代码快照\n运行同一份公开CSV\n整理材料并保留缺口\n核对项目\nSW01当前证据与状态\n版本定位\n2026-10-19教学快照；哈希随包\n实际运行\n344条输入，146条纳入，雌雄各73\n本人贡献及权属\n实际人员、职责和归属尚未确认\n所需材料\n申请表、程序及文档、相关证明\n登记状态\n未申请；无登记号或证书\n经费与"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "original_topic": "AI基金委评审视角预审：模拟评审专家逐段打分并给出修改意见报告",
+      "status": "调整讲法",
+      "locations": [
+        "10/21",
+        "10/24",
+        "10/26"
+      ],
+      "assessment": "预审和未决问题可演示；不编基金委评分或伪造专家签核。",
+      "evidence": [
+        {
+          "section": 10,
+          "page": 21,
+          "global_page": 187,
+          "title": "Grant Agent的工作流与Harness",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\nGrant Agent的工作流与Harness\n运行记录把输入版本、核对动作、输出文件和未解决问题连在一起。\n指南与模板\n研究者材料\n内容与路线\n核对与Word\n保留原件\n提取具体要求\n登记事实、来源与缺口\n按研究逻辑\n组织段落和步骤\n逐项检查并保留版本\nHarness：保存输入版本、步骤状态、来源定位与失败原因的运行规则。\n框架图说明整体工作。本次本地执行范围在后页单独列出。\n来源：Secti"
+        },
+        {
+          "section": 10,
+          "page": 24,
+          "global_page": 190,
+          "title": "异常材料的实际拦截",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n异常材料的实际拦截\n指南章节不一致、未知来源、模板缺章和未经签核的最终导出，均有真实失败记录。\n指南与章节不一致\n检出章节名与指南不一致，停止写出Word\n引用未登记来源\n来源标识未登记，停止写出Word\n模板缺少必需章节\n未找到研究内容的填充位置\n未经签核请求最终导出\n最终导出被拒绝，未生成正式稿\n4项异常已实际触发拦截；覆盖范围以具体检查规则为限。\n来源：Section10实际本地文件记录\n"
+        },
+        {
+          "section": 10,
+          "page": 26,
+          "global_page": 192,
+          "title": "提交前的完整性与研究者判断",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n提交前的完整性与研究者判断\n正式申报要核对当年要求、真实研究材料和最终排版，再由申请人与单位履行职责。\n当年官方要求与模板\n真实材料与研究者论证\n核对事实、引用、贡献、伦理与使用声明\n申请人与单位按职责核对最终版本，按正式系统流程提交。\n下一节：专利挖掘与技术交底。本节产物仍为教学材料。\n来源：国自然2026申请通告；课程教学模拟，未实施\n26"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "original_topic": "进度管理：AI自动搭建里程碑跟踪表，关键节点预警与延期风险提醒",
+      "status": "已有对应内容",
+      "locations": [
+        "12/3",
+        "12/5",
+        "12/7"
+      ],
+      "assessment": "任务、进展、证据、缺口与后续安排有对应。",
+      "evidence": [
+        {
+          "section": 12,
+          "page": 3,
+          "global_page": 207,
+          "title": "项目进度与阶段检查",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n项目进度与阶段检查\n日常记录、进展报告和阶段检查应对照同一任务基线，及时发现偏差。\n立项时\n执行中\n阶段检查\n结题前\n任务要求与完成判据\n记录分工及版本\n按要求报进展\n保留数据与方法记录\n对照计划检查偏差\n办理必要的变更\n逐项核对证明材料\n整理正文及附件\n案例当前：数据来源和统计已核，抽样依据待补。\n阶段记录保留问题、影响、处理状态与后续安排，不能只报“进展顺利”。\n进展报告和中期检查的适用范围、周期与审批方式，"
+        },
+        {
+          "section": 12,
+          "page": 5,
+          "global_page": 209,
+          "title": "任务、成果与证据的对应",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n任务、成果与证据的对应\n每项任务对应到实际附件和具体字段，证据表保留材料已核与待补的区别。\n任务条目\n当前结果与材料定位\n材料状态\nM1 来源与筛选\nA02来源、A03原始CSV、A05纳入表\n344条中筛得146条分析记录\n材料已核\nM2 分组统计\nA04程序、A06计算结果\n雌雄各73条，雄减雌4.62 mm\n材料已核\nM3 抽样依据\nA03列名缺个体与抽样字段\nA08记录待补，当前未判为完成\n待补资料\n“材"
+        },
+        {
+          "section": 12,
+          "page": 7,
+          "global_page": 211,
+          "title": "文件完整、数字正确以后，还要核对什么",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n文件完整、数字正确以后，还要核对什么\n来源和均值已经核对，仍需查看个体标识与采样记录，才能判断分析假设是否适用。\n核对来源与文件版本\n复算筛选与分组均值\n继续查个体与采样依据\nM1、M2：材料已核\nM3：仍待补资料\n附件A02、A03\n来源、许可及原文件哈希\n附件A04至A06\n146条记录、分组数与差值\n附件A08登记缺口\n不能凭正确均值确认独立性\n当前结论限于所选记录的描述，个体重复、采样依赖和分析假设仍待核"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "original_topic": "中期/年度报告：输入进展数据→AI生成结构化报告初稿",
+      "status": "已有对应内容",
+      "locations": [
+        "12/5",
+        "12/6",
+        "12/7"
+      ],
+      "assessment": "进度、结果段落及未完成部分据证据表整理。",
+      "evidence": [
+        {
+          "section": 12,
+          "page": 5,
+          "global_page": 209,
+          "title": "任务、成果与证据的对应",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n任务、成果与证据的对应\n每项任务对应到实际附件和具体字段，证据表保留材料已核与待补的区别。\n任务条目\n当前结果与材料定位\n材料状态\nM1 来源与筛选\nA02来源、A03原始CSV、A05纳入表\n344条中筛得146条分析记录\n材料已核\nM2 分组统计\nA04程序、A06计算结果\n雌雄各73条，雄减雌4.62 mm\n材料已核\nM3 抽样依据\nA03列名缺个体与抽样字段\nA08记录待补，当前未判为完成\n待补资料\n“材"
+        },
+        {
+          "section": 12,
+          "page": 6,
+          "global_page": 210,
+          "title": "结果段落中的数字与限定",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n结果段落中的数字与限定\n结果需要说明分析对象、单位和比较方向，同时保留当前数据不能回答的问题。\n能够据实说明的结果\n雌性平均鳍长187.79 mm，\n雄性192.41 mm，均值高4.62 mm。\n该差值描述本次所选记录。个体重复与采样依赖尚待核对，不能据此解释因果机制。\n所选Adelie记录的描述统计，无因果识别；个体重复和采样依赖仍待核对。\n来源：palmerpenguins公开数据，课程二次计算；实际本地复"
+        },
+        {
+          "section": 12,
+          "page": 7,
+          "global_page": 211,
+          "title": "文件完整、数字正确以后，还要核对什么",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n文件完整、数字正确以后，还要核对什么\n来源和均值已经核对，仍需查看个体标识与采样记录，才能判断分析假设是否适用。\n核对来源与文件版本\n复算筛选与分组均值\n继续查个体与采样依据\nM1、M2：材料已核\nM3：仍待补资料\n附件A02、A03\n来源、许可及原文件哈希\n附件A04至A06\n146条记录、分组数与差值\n附件A08登记缺口\n不能凭正确均值确认独立性\n当前结论限于所选记录的描述，个体重复、采样依赖和分析假设仍待核"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "original_topic": "结题报告撰写：AI自动汇总项目成果，生成结题报告核心章节",
+      "status": "已有对应内容",
+      "locations": [
+        "12/5",
+        "12/8",
+        "12/9",
+        "12/10"
+      ],
+      "assessment": "材料对应、归档、Word实际产物与正式报送边界分别说明。",
+      "evidence": [
+        {
+          "section": 12,
+          "page": 5,
+          "global_page": 209,
+          "title": "任务、成果与证据的对应",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n任务、成果与证据的对应\n每项任务对应到实际附件和具体字段，证据表保留材料已核与待补的区别。\n任务条目\n当前结果与材料定位\n材料状态\nM1 来源与筛选\nA02来源、A03原始CSV、A05纳入表\n344条中筛得146条分析记录\n材料已核\nM2 分组统计\nA04程序、A06计算结果\n雌雄各73条，雄减雌4.62 mm\n材料已核\nM3 抽样依据\nA03列名缺个体与抽样字段\nA08记录待补，当前未判为完成\n待补资料\n“材"
+        },
+        {
+          "section": 12,
+          "page": 8,
+          "global_page": 212,
+          "title": "软件成果的版本、贡献与登记材料",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n软件成果的版本、贡献与登记材料\n台账先记录实际软件和运行证据，再核对本人贡献、权属及登记材料。\n固定教学代码快照\n运行同一份公开CSV\n整理材料并保留缺口\n核对项目\nSW01当前证据与状态\n版本定位\n2026-10-19教学快照；哈希随包\n实际运行\n344条输入，146条纳入，雌雄各73\n本人贡献及权属\n实际人员、职责和归属尚未确认\n所需材料\n申请表、程序及文档、相关证明\n登记状态\n未申请；无登记号或证书\n经费与"
+        },
+        {
+          "section": 12,
+          "page": 9,
+          "global_page": 213,
+          "title": "Closeout流程的实际输出",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\nCloseout流程的实际输出\n本地程序读取任务要求和CSV，保存146条纳入记录、计算结果、9项附件目录及核对Word。\n本次实际生成的Word第1页\n任务要求与原始CSV\n复算数字并逐项对应\nWord、证据表与9项附件目录\n附件逐项记录路径与哈希。2项已核，1项待补。\n真实执行为本节文件程序，无外部模型调用；未表示云端Closeout功能已经运行。\n来源：实际本地复算与文件记录，无模型调用；自编教学任务书，非"
+        },
+        {
+          "section": 12,
+          "page": 10,
+          "global_page": 214,
+          "title": "提交、复核与版本一致",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n提交、复核与版本一致\n研究者核对科学内容，单位核对报送材料，提交和归档应保留同一个确认版本。\n负责人核对\n单位线上审核\n基金委审核\n下载最终PDF\n签字与归档\n正式报送时，电子版、最终PDF及签字材料应保持版本一致。\n具体步骤和时间以适用通知及单位要求为准。AI整理文件不等于负责人确认或正式签核。\n本例只完成材料核对演示，未正式报送、未代签；下一节为科研汇报与成果传播。\n来源：NSFC 2026通告，二、五部分；"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "original_topic": "成果亮点包装：论文、专利、软著→AI自动整理为结构化成果清单+高质量成果摘要",
+      "status": "已有对应内容",
+      "locations": [
+        "12/5",
+        "12/8",
+        "13/5"
+      ],
+      "assessment": "新增软件实际运行快照、CSV/JSON台账、功能说明和登记材料核对；外部论文与教学交底另列状态及贡献缺口。未确认权属与本人贡献，未申请登记，不计为本人已取得成果。",
+      "evidence": [
+        {
+          "section": 12,
+          "page": 5,
+          "global_page": 209,
+          "title": "任务、成果与证据的对应",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n任务、成果与证据的对应\n每项任务对应到实际附件和具体字段，证据表保留材料已核与待补的区别。\n任务条目\n当前结果与材料定位\n材料状态\nM1 来源与筛选\nA02来源、A03原始CSV、A05纳入表\n344条中筛得146条分析记录\n材料已核\nM2 分组统计\nA04程序、A06计算结果\n雌雄各73条，雄减雌4.62 mm\n材料已核\nM3 抽样依据\nA03列名缺个体与抽样字段\nA08记录待补，当前未判为完成\n待补资料\n“材"
+        },
+        {
+          "section": 12,
+          "page": 8,
+          "global_page": 212,
+          "title": "软件成果的版本、贡献与登记材料",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+          "excerpt": "12  项目执行与结题\n软件成果的版本、贡献与登记材料\n台账先记录实际软件和运行证据，再核对本人贡献、权属及登记材料。\n固定教学代码快照\n运行同一份公开CSV\n整理材料并保留缺口\n核对项目\nSW01当前证据与状态\n版本定位\n2026-10-19教学快照；哈希随包\n实际运行\n344条输入，146条纳入，雌雄各73\n本人贡献及权属\n实际人员、职责和归属尚未确认\n所需材料\n申请表、程序及文档、相关证明\n登记状态\n未申请；无登记号或证书\n经费与"
+        },
+        {
+          "section": 13,
+          "page": 5,
+          "global_page": 219,
+          "title": "同一结果的三种读者版本",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n同一结果的三种读者版本\n改变的是解释重点，分析对象、数字、单位和证据范围应保持一致。\n读者\n同一事实的不同表达\n同行汇报\n对palmerpenguins公开数据的146条Adelie记录作描述统计，雌雄各73条。雄性平均鳍长比雌性高4.62 mm。筛选条件、分组结果和程序随材料保存，个体重复与采样依赖尚待核对。该差值描述所选记录，不作因果解释。\n项目评审\n已完成公开数据筛选和均值复算，保留146条Adelie"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "original_topic": "专利撰写：AI辅助专利交底书与技术申请书各模块快速生成",
+      "status": "已有对应内容",
+      "locations": [
+        "11/2",
+        "11/6",
+        "11/7",
+        "11/8",
+        "11/10",
+        "11/11"
+      ],
+      "assessment": "交底、参数、附图和权利要求对应；不据此作法律授权判断。",
+      "evidence": [
+        {
+          "section": 11,
+          "page": 2,
+          "global_page": 194,
+          "title": "技术方案与交底材料",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
+          "excerpt": "11  专利挖掘与技术交底\n技术方案与交底材料\n科学发现、具体技术方案和专利权利要求，承担不同的表达任务。\n科学发现\n报告观察或认识。能否形成专利对象，需要看具体技术方案。\n技术交底\n说明解决什么技术问题，用哪些部件或步骤，怎样实施，有什么依据。\n专利申请\n发明和实用新型须具备新颖性、创造性、实用性，说明书与权利要求有法定要求。\n交底材料记录事实、细节和证据；申请文件与保护范围另作专业核对。\n来源：专利法第2、6、22、24、26、64"
+        },
+        {
+          "section": 11,
+          "page": 6,
+          "global_page": 198,
+          "title": "发明挖掘中的具体追问",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
+          "excerpt": "11  专利挖掘与技术交底\n发明挖掘中的具体追问\n“加上传感器和AI”仍需继续拆成部件、数据路径、判断条件和效果依据。\n待讨论设想\n传感数据有效性检查\n安装与数据\n安装在哪？时间标记怎样产生？\n判断与异常\n怎样判丢帧、饱和，依据是什么？\n控制与证据\n怎样请求处理、恢复，效果怎样验证？\n本例未找到经核实的区别特征，问题清单用于继续收集技术事实。\n来源：教学假设方案，未实施；专利法第2、6、22、24、26、64条\n06"
+        },
+        {
+          "section": 11,
+          "page": 7,
+          "global_page": 199,
+          "title": "教学方案的结构与异常分支",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
+          "excerpt": "11  专利挖掘与技术交底\n教学方案的结构与异常分支\n数据有效时识别状态，数据异常时记录故障，再按经验证规则处理控制请求。\nS1 传感数据与时间标记\nS2 数据有效？\nS3 识别运行状态\nS4 记录传感故障\n形成控制处理请求\n处理与恢复规则待验证\n有效\n异常\n数据异常时保留故障记录。\n请求的内容、接收接口和\n设备动作仍需设计与试验。\n课程假设方案，无样机、无控制验证，也未证明区别于已有技术。\n来源：教学假设方案，未实施\n07"
+        },
+        {
+          "section": 11,
+          "page": 8,
+          "global_page": 200,
+          "title": "实施说明中的可复现细节",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
+          "excerpt": "11  专利挖掘与技术交底\n实施说明中的可复现细节\n实施例需要交代怎样实现，各项参数及异常处理都有技术依据。\n课程实施说明节选\nS1读取振动数据及时间标记。S2检查数据是否满足预定有效性条件。数据有效时，S3进入运行状态识别；数据异常时，S4记录传感故障。两条路径均形成控制处理请求。控制单元如何响应和恢复，仍需设备设计与试验支持。\n尚缺：安装位置、采样率、时间窗口、故障门槛、接口及制动与恢复细节。\n完整段落与待补参数随交底材料保存，当前"
+        },
+        {
+          "section": 11,
+          "page": 10,
+          "global_page": 202,
+          "title": "权利要求的引用关系与图文支持",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
+          "excerpt": "11  专利挖掘与技术交底\n权利要求的引用关系与图文支持\n从属权利要求保留所引用项的条件，再增加限定；阅读时须一起核对。\n权利要求1\n多自由度数据\n识别振动模式\n权利要求3\n引用前项，再加训练模型\n权利要求4\n引用3，再加特征表示\n图只画权3引用权1的路径。权3也可引用权2，本图未画全部组合。\n权利要求11\n引用前述任一项，再增加按运行状态停止。\n各引用组合的条件应分别阅读。\n拟写特征应在说明书和附图找到支持；本例未起草正式权利要求。\n"
+        },
+        {
+          "section": 11,
+          "page": 11,
+          "global_page": 203,
+          "title": "Patent Agent的实际材料流程",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
+          "excerpt": "11  专利挖掘与技术交底\nPatent Agent的实际材料流程\n公开原文阅读、教学材料整理与本地文件执行分别留证，交底书保留未决问题。\n公开资料检索\n技术对照与追问\n文件结构检查\nWord与问题清单\n本轮Codex\n实际读原文\n课程编写对照及设想\n本地读取已编写输入\n附流程图\n保留来源与版本\n实际结果：Word教学草稿已写出，仍待技术事实补充与研究者核对。\n本地填充脚本没有调用外部模型，没有完成查全、专利性或侵权判断。\n公开检索与文"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "original_topic": "学术传播：AI驱动公众号/知乎/ResearchGate高质量学术内容生产",
+      "status": "已有对应内容",
+      "locations": [
+        "13/5",
+        "13/7",
+        "13/8"
+      ],
+      "assessment": "普通读者版本、平台用途与分享版本已讲；不安排账户发布。",
+      "evidence": [
+        {
+          "section": 13,
+          "page": 5,
+          "global_page": 219,
+          "title": "同一结果的三种读者版本",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n同一结果的三种读者版本\n改变的是解释重点，分析对象、数字、单位和证据范围应保持一致。\n读者\n同一事实的不同表达\n同行汇报\n对palmerpenguins公开数据的146条Adelie记录作描述统计，雌雄各73条。雄性平均鳍长比雌性高4.62 mm。筛选条件、分组结果和程序随材料保存，个体重复与采样依赖尚待核对。该差值描述所选记录，不作因果解释。\n项目评审\n已完成公开数据筛选和均值复算，保留146条Adelie"
+        },
+        {
+          "section": 13,
+          "page": 7,
+          "global_page": 221,
+          "title": "研究者身份与成果入口",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n研究者身份与成果入口\nORCID用于持续标识研究者，成果条目和个人主页则帮助读者找到具体工作。\nORCID：持续的研究者标识\nDOI或稳定链接：具体成果\n单位或个人主页\nResearchGate研究条目\n核对本人贡献与作者关联\n研究方向、贡献与联系方式\n链接到可公开的具体成果\n核对条目归属、分享版本\n和内容可见范围\n关系图用于说明用途，不是实际账号界面；本轮未登录、认领成果或修改平台资料。\n来源：ORCID官"
+        },
+        {
+          "section": 13,
+          "page": 8,
+          "global_page": 222,
+          "title": "公开版本与传播渠道",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n公开版本与传播渠道\n先核对可以公开的内容和版本，再让介绍文字指向论文、数据或报告的稳定入口。\n公开内容与版本\n成果的稳定入口\n面向读者的介绍\n反馈与更正记录\n核对署名、许可\n及未公开信息\n论文、数据或报告\n链接到对应版本\n按读者补充背景\n同时保留来源\n保存具体问题\n与实际更正\n预印本、接受稿与出版版本的分享规则可能不同，上传前核对许可。\n论文、专利、报告、学术PPT与科普稿分别核对公开权限，本节未执行任何对外"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "original_topic": "PPT生成：科研成果→AI生成可视化汇报PPT（含逻辑结构与排版）",
+      "status": "已有对应内容",
+      "locations": [
+        "3/11",
+        "13/2",
+        "13/3",
+        "13/4"
+      ],
+      "assessment": "实际科研数据在课件中组织为可编辑图和讲述；不声称云端一键PPT接口已接入。",
+      "evidence": [
+        {
+          "section": 3,
+          "page": 11,
+          "global_page": 45,
+          "title": "PPT：把过程画出来",
+          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r4.pptx",
+          "pptx_sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
+          "excerpt": "03  Humanizer 与各类科研产物的表达\nPPT：把过程画出来\n页面呈现步骤和关系，讲师解释每一步采用的依据。\n文字堆在一起\n本研究通过多源资料整合、研究要素识别、逻辑关系梳理、综合归纳与反复修订，形成完整的研究问题。\n用步骤和依据组织页面\n检索资料\n比较已有研究\n形成研究问题\n检查可研究性\n明确范围与来源\n对象、方法\n结果与不足\n限定对象\n关系与条件\n材料、方法\n与资源是否支持\n课程框架：流程图解释组织方式，不能证明某个选题已"
+        },
+        {
+          "section": 13,
+          "page": 2,
+          "global_page": 216,
+          "title": "科研报告中的问题与证据",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n科研报告中的问题与证据\n从明确问题进入数据和方法，再解释主要结果、适用范围与仍待回答的问题。\n研究问题\n分析材料\n读出结果\n限定解释\nAdelie雌雄鳍长\n平均和分布有何不同？\n公开344条记录\n筛得146条\n雌雄各73条\n雄减雌4.62毫米\n190至195毫米档\n雌21条，雄24条\n仅作描述统计\n采样依赖尚待核对\n未作因果识别\n背景服务于听懂问题；细节、完整统计和补充图留在可查阅的材料中。\n本例只比较所选记"
+        },
+        {
+          "section": 13,
+          "page": 3,
+          "global_page": 217,
+          "title": "科学图中的条件、过程与来源",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n科学图中的条件、过程与来源\n图中的分支和连接应帮助读者理解过程，关键条件与图源需要随图保留。\n条件\n分支写明条件，说明何时适用。\n过程\n连接与颜色帮助读者追踪变化。\n来源\n作者和年份随图保留，便于回查。\n左图为UF2025课件第23页原图，用于讲图示范，不是本课程的观测或模拟结果。\n来源：佛罗里达大学2025原始课件\n03"
+        },
+        {
+          "section": 13,
+          "page": 4,
+          "global_page": 218,
+          "title": "结果图怎样支持现场解释",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n结果图怎样支持现场解释\n比较均值时同时展示分布，让听众看到组内变化与两组重叠。\n怎样解释这张图\n横轴：每档5毫米。\n纵轴：记录数。\n190至195毫米这一档：\n雌性21条，雄性24条。\n均值差4.62毫米，\n分布仍有重叠。\n分箱宽5 mm，两组各73条记录；图由公开CSV实算，无游泳性能或因果结论。\n来源：palmerpenguins公开数据，课程二次计算；实际本地复算与文件记录\n04"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "original_topic": "个人品牌建设：AI辅助构建个人学术品牌内容矩阵（长期运营策略与选题规划）",
+      "status": "已有对应内容",
+      "locations": [
+        "13/7",
+        "13/8",
+        "13/10"
+      ],
+      "assessment": "补三个月相对时点、四份完整传播教学稿及后续季度复核规则，分别登记公开原始资料、课程计算与待确认材料。未实际发布或测量传播指标，不把预设答疑记为真实反馈。",
+      "evidence": [
+        {
+          "section": 13,
+          "page": 7,
+          "global_page": 221,
+          "title": "研究者身份与成果入口",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n研究者身份与成果入口\nORCID用于持续标识研究者，成果条目和个人主页则帮助读者找到具体工作。\nORCID：持续的研究者标识\nDOI或稳定链接：具体成果\n单位或个人主页\nResearchGate研究条目\n核对本人贡献与作者关联\n研究方向、贡献与联系方式\n链接到可公开的具体成果\n核对条目归属、分享版本\n和内容可见范围\n关系图用于说明用途，不是实际账号界面；本轮未登录、认领成果或修改平台资料。\n来源：ORCID官"
+        },
+        {
+          "section": 13,
+          "page": 8,
+          "global_page": 222,
+          "title": "公开版本与传播渠道",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n公开版本与传播渠道\n先核对可以公开的内容和版本，再让介绍文字指向论文、数据或报告的稳定入口。\n公开内容与版本\n成果的稳定入口\n面向读者的介绍\n反馈与更正记录\n核对署名、许可\n及未公开信息\n论文、数据或报告\n链接到对应版本\n按读者补充背景\n同时保留来源\n保存具体问题\n与实际更正\n预印本、接受稿与出版版本的分享规则可能不同，上传前核对许可。\n论文、专利、报告、学术PPT与科普稿分别核对公开权限，本节未执行任何对外"
+        },
+        {
+          "section": 13,
+          "page": 10,
+          "global_page": 224,
+          "title": "围绕公开材料的三个月传播安排",
+          "pptx": "training/section-13/output/高校科研AI课程_Section13_科研汇报与成果传播_s13-r10.pptx",
+          "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+          "excerpt": "13  科研汇报与成果传播\n围绕公开材料的三个月传播安排\n每次增加一项读者需要的信息，同时保留来源、版本和解释范围。\n第1周\n结果说明\n第1月末\n方法说明\n第2月末\n限制答疑\n第3月末\n复核更新\n解释4.62毫米差异\n附公开数据与教学标识\n344 / 152 / 146条\n记录筛选与排除\n代码、单位与版本\n说明未测游泳性能\n区分预设与实际问题\n复核链接与复算\n保留旧版及原因\n再排下一季度\n每次介绍对应可追查的材料，新增发现需要新的研究依"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "original_topic": "核心工具链总复习",
+      "status": "已有对应内容",
+      "locations": [
+        "2/18",
+        "14/15",
+        "14/16"
+      ],
+      "assessment": "按任务选择协作方式，复核五类输出及材料归档。",
+      "evidence": [
+        {
+          "section": 2,
+          "page": 18,
+          "global_page": 34,
+          "title": "科研任务怎样选择协作方式",
+          "pptx": "training/section-02/output/高校科研AI课程_Section2_Agent与工作流_s2-r7.pptx",
+          "pptx_sha256": "3bdf8539ed315ac1a46aedb6bff6dcac1c9bd007efd055b1d78e818ec9202e4c",
+          "excerpt": "02  Agentic AI、AI Agent 与科研工作流\n科研任务怎样选择协作方式\n先判断任务是否需要工具执行和持续记录，再决定采用多大的自动化范围。\n当前科研任务\n讨论与解释\n对话协作\n步骤稳定、重复处理\n预设工作流\n需要边查边判断\nAgent＋工具反馈\n需要跨会话持续完成\n补充状态与恢复安排\n后续课程：按科研任务展开；Section 10 看申报流程，Section 14 看真实运行与接续。\n来源：Anthropic：Build"
+        },
+        {
+          "section": 14,
+          "page": 15,
+          "global_page": 239,
+          "title": "五类任务要分别看运行端和实际文件",
+          "pptx": "training/section-14/output/高校科研AI课程_Section14_本地与云端Agent实际演示_s14-r3.pptx",
+          "pptx_sha256": "ebde36eba553ace4acf095461eb291b8cc75dbdc4cf78448b9bb841d4a73e92a",
+          "excerpt": "14  本地与云端Agent实际演示\n五类任务要分别看运行端和实际文件\n前节五类本地产物已随本节保存快照；8788固定材料演示与Worker模型工作流各有自己的输出范围。\n任务\n本课程已有本地产物快照\nWorker代码中的导出范围\n申报 / Grant\n第10节：Word、路线与问题清单\n模型节点组织内容后导出Word\n论文 / Paper\n第9节：清稿、标记稿及回复Word\n模型节点组织内容后导出Word\n专利 / Patent\n第1"
+        },
+        {
+          "section": 14,
+          "page": 16,
+          "global_page": 240,
+          "title": "可复查的演示材料包",
+          "pptx": "training/section-14/output/高校科研AI课程_Section14_本地与云端Agent实际演示_s14-r3.pptx",
+          "pptx_sha256": "ebde36eba553ace4acf095461eb291b8cc75dbdc4cf78448b9bb841d4a73e92a",
+          "excerpt": "14  本地与云端Agent实际演示\n可复查的演示材料包\n保留这次用的材料、指令版本、运行结果和问题清单，下一次才能检查变化来自哪里。\n输入材料\n指令与程序版本\n过程记录\n交付文件\n指南、研究材料\n与模板原件\nSkill内容及指纹\n本轮程序快照\n节点输入和输出\n失败原因与重试\nWord、来源账本\n问题清单与预览\n改了材料或模板，就产生新记录，并重新检查对应文件。\n实际授课前复查服务、模型和文件；保留未核验项，不把旧记录说成现场运行。\n来"
+        }
+      ]
+    }
+  ],
+  "visual_inventory": [
+    {
+      "section": 0,
+      "page": 1,
+      "global_page": 1,
+      "title": "AI 实务",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 0,
+      "page": 2,
+      "global_page": 2,
+      "title": "课程导入",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 0,
+      "page": 3,
+      "global_page": 3,
+      "title": "课程导入",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 0,
+      "page": 4,
+      "global_page": 4,
+      "title": "课程导入",
+      "images": 0,
+      "charts": 0,
+      "connectors": 6,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 1,
+      "global_page": 5,
+      "title": "科研流程中的 AI",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 2,
+      "global_page": 6,
+      "title": "生成式 AI 与科研 AI 的范围",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 3,
+      "global_page": 7,
+      "title": "预训练、后训练与推理",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 4,
+      "global_page": 8,
+      "title": "上下文与检索增强生成",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 5,
+      "global_page": 9,
+      "title": "语言流畅与文献真实性",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 6,
+      "global_page": 10,
+      "title": "科研任务中的能力与限制",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 1,
+      "page": 7,
+      "global_page": 11,
+      "title": "复杂科研任务的组织",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 8,
+      "global_page": 12,
+      "title": "科研提示词的主要变量",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 9,
+      "global_page": 13,
+      "title": "Claude、ChatGPT、DeepSeek 怎样选",
+      "images": 0,
+      "charts": 0,
+      "connectors": 6,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 10,
+      "global_page": 14,
+      "title": "预测、解释与因果判断",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 1,
+      "page": 11,
+      "global_page": 15,
+      "title": "AI 使用声明要看具体用途",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 1,
+      "page": 12,
+      "global_page": 16,
+      "title": "科研可信度的四个条件",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 1,
+      "global_page": 17,
+      "title": "科研任务中的 AI 协作与执行",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 2,
+      "global_page": 18,
+      "title": "模型、Agent 与产品的关系",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 3,
+      "global_page": 19,
+      "title": "Agentic AI 与 AI Agent",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 4,
+      "global_page": 20,
+      "title": "Agent 怎样依据反馈继续工作",
+      "images": 0,
+      "charts": 0,
+      "connectors": 8,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 5,
+      "global_page": 21,
+      "title": "固定工作流与动态决策",
+      "images": 0,
+      "charts": 0,
+      "connectors": 5,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 6,
+      "global_page": 22,
+      "title": "ChatGPT 与 Codex 的使用侧重",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 2,
+      "page": 7,
+      "global_page": 23,
+      "title": "工具调用与执行证据",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 8,
+      "global_page": 24,
+      "title": "Skill：可复用的任务做法",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 9,
+      "global_page": 25,
+      "title": "Prompt、Skill、工具与 MCP",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 10,
+      "global_page": 26,
+      "title": "申报材料处理的工作流框架",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 11,
+      "global_page": 27,
+      "title": "多 Agent 协作的适用范围",
+      "images": 0,
+      "charts": 0,
+      "connectors": 6,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 12,
+      "global_page": 28,
+      "title": "上下文、记忆与任务状态",
+      "images": 0,
+      "charts": 0,
+      "connectors": 5,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 13,
+      "global_page": 29,
+      "title": "Harness：让 Agent 持续工作的运行安排",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 14,
+      "global_page": 30,
+      "title": "Harness 中的材料与版本管理",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 15,
+      "global_page": 31,
+      "title": "Harness 中的工具权限与人工确认",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 16,
+      "global_page": 32,
+      "title": "Harness 中的失败恢复与停止条件",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 2,
+      "page": 17,
+      "global_page": 33,
+      "title": "Agent 的完成情况怎样核验",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 2,
+      "page": 18,
+      "global_page": 34,
+      "title": "科研任务怎样选择协作方式",
+      "images": 0,
+      "charts": 0,
+      "connectors": 8,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 1,
+      "global_page": 35,
+      "title": "Humanizer 与科研表达",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 2,
+      "global_page": 36,
+      "title": "一段空话为什么难读",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 3,
+      "global_page": 37,
+      "title": "材料不足时怎样修改",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 4,
+      "global_page": 38,
+      "title": "删掉“可能”，结论就变了",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 5,
+      "global_page": 39,
+      "title": "改写前先锁定研究信息",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 6,
+      "global_page": 40,
+      "title": "检测分数不能代替文字审阅",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 7,
+      "global_page": 41,
+      "title": "一轮修订的完整过程",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 8,
+      "global_page": 42,
+      "title": "论文段落：写出对象与操作",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 9,
+      "global_page": 43,
+      "title": "申报书：把研究计划与已有成果分开",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 10,
+      "global_page": 44,
+      "title": "进展报告：保留没做完的部分",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 11,
+      "global_page": 45,
+      "title": "PPT：把过程画出来",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 12,
+      "global_page": 46,
+      "title": "图注：交代图里究竟比较了什么",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 13,
+      "global_page": 47,
+      "title": "评语：指出位置、问题和改法",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 14,
+      "global_page": 48,
+      "title": "中英文转换：保留术语与判断强度",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 15,
+      "global_page": 49,
+      "title": "给修订任务写清边界",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 16,
+      "global_page": 50,
+      "title": "差异核对：表达变了，事实还在吗",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 3,
+      "page": 17,
+      "global_page": 51,
+      "title": "修订记录与使用说明",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 3,
+      "page": 18,
+      "global_page": 52,
+      "title": "一份可交付的修订结果",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 1,
+      "global_page": 53,
+      "title": "选题与研究问题",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 2,
+      "global_page": 54,
+      "title": "Google Scholar怎样找出值得读的论文",
+      "images": 1,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 3,
+      "global_page": 55,
+      "title": "真实研究：完成题目与掌握知识",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 4,
+      "global_page": 56,
+      "title": "研究问题的收窄过程",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 5,
+      "global_page": 57,
+      "title": "描述、预测与因果问题",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 6,
+      "global_page": 58,
+      "title": "使用AI与成绩的关系",
+      "images": 0,
+      "charts": 0,
+      "connectors": 5,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 7,
+      "global_page": 59,
+      "title": "研究空白的核对",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 8,
+      "global_page": 60,
+      "title": "假说与可能推翻它的结果",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 9,
+      "global_page": 61,
+      "title": "选题的四个判断维度",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 10,
+      "global_page": 62,
+      "title": "三份材料怎样帮助收窄研究问题",
+      "images": 1,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 11,
+      "global_page": 63,
+      "title": "资源缺口会改变研究问题",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 12,
+      "global_page": 64,
+      "title": "候选问题的比较",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 4,
+      "page": 13,
+      "global_page": 65,
+      "title": "AI参与选题的工作流程",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 4,
+      "page": 14,
+      "global_page": 66,
+      "title": "一份选题说明的完整结构",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 1,
+      "global_page": 67,
+      "title": "文献检索、阅读与综述",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 2,
+      "global_page": 68,
+      "title": "综述目的与检索范围",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 5,
+      "page": 3,
+      "global_page": 69,
+      "title": "研究问题中的检索概念",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 4,
+      "global_page": 70,
+      "title": "同义词与概念的组合",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 5,
+      "global_page": 71,
+      "title": "真实检索页：结果排序与范围",
+      "images": 1,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 6,
+      "global_page": 72,
+      "title": "检索记录中的必要信息",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 7,
+      "global_page": 73,
+      "title": "关键词、语义与引文追踪",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 5,
+      "page": 8,
+      "global_page": 74,
+      "title": "Connected Papers与引文图",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 9,
+      "global_page": 75,
+      "title": "Elicit入口的现行变化",
+      "images": 1,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 10,
+      "global_page": 76,
+      "title": "带引文的答案怎样核对",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 11,
+      "global_page": 77,
+      "title": "Semantic Scholar中的发现与阅读",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 12,
+      "global_page": 78,
+      "title": "Zotero中的条目、附件与笔记",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 13,
+      "global_page": 79,
+      "title": "去重与版本关系",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 14,
+      "global_page": 80,
+      "title": "纳入、排除与全文缺失",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 15,
+      "global_page": 81,
+      "title": "一篇论文的阅读顺序",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 16,
+      "global_page": 82,
+      "title": "证据提取中的定位信息",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 17,
+      "global_page": 83,
+      "title": "两篇研究的设计比较",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 5,
+      "page": 18,
+      "global_page": 84,
+      "title": "真实数据：一张后测成绩图怎样读",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 19,
+      "global_page": 85,
+      "title": "一条研究结论的证据登记",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 5,
+      "page": 20,
+      "global_page": 86,
+      "title": "综述段落的组织",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 21,
+      "global_page": 87,
+      "title": "一条引文的核验过程",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 22,
+      "global_page": 88,
+      "title": "研究空白与反证检索",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 23,
+      "global_page": 89,
+      "title": "文献Agent的材料流转",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 5,
+      "page": 24,
+      "global_page": 90,
+      "title": "一份可检查的文献工作包",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 1,
+      "global_page": 91,
+      "title": "研究与实验方案",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 2,
+      "global_page": 92,
+      "title": "公开研究中的分组与测量",
+      "images": 0,
+      "charts": 0,
+      "connectors": 7,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 3,
+      "global_page": 93,
+      "title": "一份拟议研究的分配与测量",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 4,
+      "global_page": 94,
+      "title": "变量与可能的干扰",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 5,
+      "global_page": 95,
+      "title": "对照条件与一致条件",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 6,
+      "page": 6,
+      "global_page": 96,
+      "title": "随机分配与区组安排",
+      "images": 0,
+      "charts": 0,
+      "connectors": 6,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 7,
+      "global_page": 97,
+      "title": "独立样本与重复读数",
+      "images": 0,
+      "charts": 0,
+      "connectors": 6,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 8,
+      "global_page": 98,
+      "title": "编码、盲法与评分偏差",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 9,
+      "global_page": 99,
+      "title": "公开教材示例：三因素的全部组合",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 6,
+      "page": 10,
+      "global_page": 100,
+      "title": "一个因素的效果可能随另一个因素改变",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 11,
+      "global_page": 101,
+      "title": "样本量怎样随目标差异改变",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 12,
+      "global_page": 102,
+      "title": "测量方案与预先约定",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 13,
+      "global_page": 103,
+      "title": "样本计划怎样变成工作量",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 6,
+      "page": 14,
+      "global_page": 104,
+      "title": "失败触发条件与备用方案",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 15,
+      "global_page": 105,
+      "title": "AI协助检查研究方案",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 6,
+      "page": 16,
+      "global_page": 106,
+      "title": "一份可实施方案需要的材料",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 1,
+      "global_page": 107,
+      "title": "数据处理与统计分析",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 2,
+      "global_page": 108,
+      "title": "公开数据的采集背景",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 3,
+      "global_page": 109,
+      "title": "原始表格中的数值与缺失",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 7,
+      "page": 4,
+      "global_page": 110,
+      "title": "字段定义与比较口径",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 7,
+      "page": 5,
+      "global_page": 111,
+      "title": "缺失检查与分析分母",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 6,
+      "global_page": 112,
+      "title": "本次计算的纳入流程",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 7,
+      "global_page": 113,
+      "title": "异常标记后，结果怎样变化",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 1
+    },
+    {
+      "section": 7,
+      "page": 8,
+      "global_page": 114,
+      "title": "鳍长分布与组间重叠",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 9,
+      "global_page": 115,
+      "title": "标准差与标准误",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 10,
+      "global_page": 116,
+      "title": "独立组与配对数据",
+      "images": 0,
+      "charts": 0,
+      "connectors": 1,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 11,
+      "global_page": 117,
+      "title": "分析方法与数据结构",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 12,
+      "global_page": 118,
+      "title": "雌雄均值差与条件区间",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 7,
+      "page": 13,
+      "global_page": 119,
+      "title": "95%置信水平的重复抽样含义",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 14,
+      "global_page": 120,
+      "title": "双侧P值的条件含义",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 15,
+      "global_page": 121,
+      "title": "效应大小、统计证据与科研解释",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 16,
+      "global_page": 122,
+      "title": "Bootstrap的有放回重抽样",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 17,
+      "global_page": 123,
+      "title": "重抽样结果的分布",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 18,
+      "global_page": 124,
+      "title": "混合物种与组内相关",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 19,
+      "global_page": 125,
+      "title": "采集年份与样本组成",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 20,
+      "global_page": 126,
+      "title": "结果段落中的对象、数字与限制",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 21,
+      "global_page": 127,
+      "title": "Cursor改代码以后，怎样确认结果",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 7,
+      "page": 22,
+      "global_page": 128,
+      "title": "Python与R的实际结果核对",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 8,
+      "page": 1,
+      "global_page": 129,
+      "title": "科研图表与技术路线",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 2,
+      "global_page": 130,
+      "title": "研究问题与图型选择",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 3,
+      "global_page": 131,
+      "title": "均值图与分布图",
+      "images": 0,
+      "charts": 2,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 4,
+      "global_page": 132,
+      "title": "纵轴范围与柱长比较",
+      "images": 0,
+      "charts": 2,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 5,
+      "global_page": 133,
+      "title": "误差线的三种含义",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 6,
+      "global_page": 134,
+      "title": "可独立阅读的数据图",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 7,
+      "global_page": 135,
+      "title": "图注中的对象、符号与方法",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 8,
+      "global_page": 136,
+      "title": "多面板图的阅读顺序",
+      "images": 0,
+      "charts": 2,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 9,
+      "global_page": 137,
+      "title": "颜色的类别与数量含义",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 10,
+      "global_page": 138,
+      "title": "AI协助绘图的具体输入",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 11,
+      "global_page": 139,
+      "title": "拟议研究的技术路线",
+      "images": 0,
+      "charts": 0,
+      "connectors": 8,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 12,
+      "global_page": 140,
+      "title": "启动材料核对与返工回路",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 13,
+      "global_page": 141,
+      "title": "并行研究任务与汇合依据",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 14,
+      "global_page": 142,
+      "title": "机制示意的完整任务与假说范围",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 15,
+      "global_page": 143,
+      "title": "数据图与路线图的编辑源",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 8,
+      "page": 16,
+      "global_page": 144,
+      "title": "Midjourney提示与示意图复核",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 1,
+      "global_page": 145,
+      "title": "论文写作、投稿与返修",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 2,
+      "global_page": 146,
+      "title": "主张与证据的对应",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 3,
+      "global_page": 147,
+      "title": "常见论文结构与读者问题",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 4,
+      "global_page": 148,
+      "title": "一段结果文字的内部结构",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 5,
+      "global_page": 149,
+      "title": "摘要中的结果与解释范围",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 6,
+      "global_page": 150,
+      "title": "引言中的已有研究与具体问题",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 7,
+      "global_page": 151,
+      "title": "方法段落中的可复核信息",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 8,
+      "global_page": 152,
+      "title": "图与结果段落的对应",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 9,
+      "global_page": 153,
+      "title": "讨论中的解释与替代解释",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 10,
+      "global_page": 154,
+      "title": "Humanizer修改中的证据边界",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 11,
+      "global_page": 155,
+      "title": "引文存在与主张得到支持",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 12,
+      "global_page": 156,
+      "title": "AI分段协作的输入与输出",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 13,
+      "global_page": 157,
+      "title": "按期刊要求改写摘要的任务示例",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 14,
+      "global_page": 158,
+      "title": "投稿文件中的信息一致性",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 15,
+      "global_page": 159,
+      "title": "编辑初筛与外部评审",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 16,
+      "global_page": 160,
+      "title": "审稿意见的分类与修改动作",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 17,
+      "global_page": 161,
+      "title": "回复示例：补充方法说明",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 18,
+      "global_page": 162,
+      "title": "回复示例：收回因果结论",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 19,
+      "global_page": 163,
+      "title": "回复示例：尚未完成的补充研究",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 20,
+      "global_page": 164,
+      "title": "回复、标记稿与清稿的版本对应",
+      "images": 0,
+      "charts": 0,
+      "connectors": 1,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 21,
+      "global_page": 165,
+      "title": "拒稿后的修改与重投",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 9,
+      "page": 22,
+      "global_page": 166,
+      "title": "可复核的写作与返修材料",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 1,
+      "global_page": 167,
+      "title": "基金申报与Grant Agent",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 2,
+      "global_page": 168,
+      "title": "不同资助项目的要求来源",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 3,
+      "global_page": 169,
+      "title": "2026年国自然正文结构",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 4,
+      "global_page": 170,
+      "title": "国自然申请中的AI使用要求",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 5,
+      "global_page": 171,
+      "title": "指南要求与申请书位置",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 6,
+      "global_page": 172,
+      "title": "申报前的材料盘点",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 7,
+      "global_page": 173,
+      "title": "贯穿示例与待回答的问题",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 8,
+      "global_page": 174,
+      "title": "立项依据中的文献与本例问题",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 9,
+      "global_page": 175,
+      "title": "科学问题、目标与研究内容",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 10,
+      "global_page": 176,
+      "title": "研究内容与可检验结果",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 11,
+      "global_page": 177,
+      "title": "研究假说与其他可能解释",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 12,
+      "global_page": 178,
+      "title": "比较设计与测量安排",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 13,
+      "global_page": 179,
+      "title": "比较实施与一周后测量的技术路线",
+      "images": 0,
+      "charts": 0,
+      "connectors": 8,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 14,
+      "global_page": 180,
+      "title": "创新点的比较依据",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 15,
+      "global_page": 181,
+      "title": "研究基础与实施条件",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 16,
+      "global_page": 182,
+      "title": "风险与替代方案",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 17,
+      "global_page": 183,
+      "title": "研究进度与任务依赖",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 18,
+      "global_page": 184,
+      "title": "研究任务与经费依据",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 19,
+      "global_page": 185,
+      "title": "摘要与正文的相互对应",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 20,
+      "global_page": 186,
+      "title": "申报材料中的Humanizer修订",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 21,
+      "global_page": 187,
+      "title": "Grant Agent的工作流与Harness",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 22,
+      "global_page": 188,
+      "title": "要求、章节与产物的实际映射",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 10,
+      "page": 23,
+      "global_page": 189,
+      "title": "本地执行记录与文件输出",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 24,
+      "global_page": 190,
+      "title": "异常材料的实际拦截",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 25,
+      "global_page": 191,
+      "title": "生成后的Word及其使用范围",
+      "images": 1,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 10,
+      "page": 26,
+      "global_page": 192,
+      "title": "提交前的完整性与研究者判断",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 1,
+      "global_page": 193,
+      "title": "专利挖掘与技术交底",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 2,
+      "global_page": 194,
+      "title": "技术方案与交底材料",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 3,
+      "global_page": 195,
+      "title": "公开专利原文中的技术结构",
+      "images": 1,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 4,
+      "global_page": 196,
+      "title": "技术特征驱动的检索",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 5,
+      "global_page": 197,
+      "title": "公开技术特征的逐项对照",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 11,
+      "page": 6,
+      "global_page": 198,
+      "title": "发明挖掘中的具体追问",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 7,
+      "global_page": 199,
+      "title": "教学方案的结构与异常分支",
+      "images": 0,
+      "charts": 0,
+      "connectors": 6,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 8,
+      "global_page": 200,
+      "title": "实施说明中的可复现细节",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 9,
+      "global_page": 201,
+      "title": "技术效果与证据对应",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 10,
+      "global_page": 202,
+      "title": "权利要求的引用关系与图文支持",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 11,
+      "global_page": 203,
+      "title": "Patent Agent的实际材料流程",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 11,
+      "page": 12,
+      "global_page": 204,
+      "title": "公开前的材料与权属核对",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 12,
+      "page": 1,
+      "global_page": 205,
+      "title": "项目执行与结题",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 12,
+      "page": 2,
+      "global_page": 206,
+      "title": "国自然结题材料的使用边界",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 12,
+      "page": 3,
+      "global_page": 207,
+      "title": "项目进度与阶段检查",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 12,
+      "page": 4,
+      "global_page": 208,
+      "title": "过程记录如何保留",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 12,
+      "page": 5,
+      "global_page": 209,
+      "title": "任务、成果与证据的对应",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 12,
+      "page": 6,
+      "global_page": 210,
+      "title": "结果段落中的数字与限定",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 12,
+      "page": 7,
+      "global_page": 211,
+      "title": "文件完整、数字正确以后，还要核对什么",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 12,
+      "page": 8,
+      "global_page": 212,
+      "title": "软件成果的版本、贡献与登记材料",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 1
+    },
+    {
+      "section": 12,
+      "page": 9,
+      "global_page": 213,
+      "title": "Closeout流程的实际输出",
+      "images": 1,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 12,
+      "page": 10,
+      "global_page": 214,
+      "title": "提交、复核与版本一致",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 13,
+      "page": 1,
+      "global_page": 215,
+      "title": "科研汇报与成果传播",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 13,
+      "page": 2,
+      "global_page": 216,
+      "title": "科研报告中的问题与证据",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 13,
+      "page": 3,
+      "global_page": 217,
+      "title": "科学图中的条件、过程与来源",
+      "images": 1,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 13,
+      "page": 4,
+      "global_page": 218,
+      "title": "结果图怎样支持现场解释",
+      "images": 0,
+      "charts": 1,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 13,
+      "page": 5,
+      "global_page": 219,
+      "title": "同一结果的三种读者版本",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 13,
+      "page": 6,
+      "global_page": 220,
+      "title": "Humanizer修订中的事实核对",
+      "images": 0,
+      "charts": 0,
+      "connectors": 1,
+      "native_tables": 0
+    },
+    {
+      "section": 13,
+      "page": 7,
+      "global_page": 221,
+      "title": "研究者身份与成果入口",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 13,
+      "page": 8,
+      "global_page": 222,
+      "title": "公开版本与传播渠道",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 13,
+      "page": 9,
+      "global_page": 223,
+      "title": "可编辑表达示例与核对记录",
+      "images": 1,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 13,
+      "page": 10,
+      "global_page": 224,
+      "title": "围绕公开材料的三个月传播安排",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 1,
+      "global_page": 225,
+      "title": "本地与云端Agent实际演示",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 2,
+      "global_page": 226,
+      "title": "Agent的动作与环境反馈",
+      "images": 1,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 3,
+      "global_page": 227,
+      "title": "申报演示的三份输入",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 4,
+      "global_page": 228,
+      "title": "本地页面到Word的实际操作",
+      "images": 1,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 5,
+      "global_page": 229,
+      "title": "本次运行经过的四个环节",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 6,
+      "global_page": 230,
+      "title": "指南要求与产物的对应",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 14,
+      "page": 7,
+      "global_page": 231,
+      "title": "Word草稿与尚缺的证据",
+      "images": 1,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 8,
+      "global_page": 232,
+      "title": "本地与Worker中的同源Skill",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 9,
+      "global_page": 233,
+      "title": "Harness怎样管理一次任务",
+      "images": 0,
+      "charts": 0,
+      "connectors": 5,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 10,
+      "global_page": 234,
+      "title": "Cloudflare承载的工作流结构",
+      "images": 0,
+      "charts": 0,
+      "connectors": 4,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 11,
+      "global_page": 235,
+      "title": "云端本轮核验到哪一步",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 14,
+      "page": 12,
+      "global_page": 236,
+      "title": "一次提交后的后台执行",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 13,
+      "global_page": 237,
+      "title": "节点文字修订与事实保留",
+      "images": 0,
+      "charts": 0,
+      "connectors": 2,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 14,
+      "global_page": 238,
+      "title": "错误输入的实际拒绝结果",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    },
+    {
+      "section": 14,
+      "page": 15,
+      "global_page": 239,
+      "title": "五类任务要分别看运行端和实际文件",
+      "images": 0,
+      "charts": 0,
+      "connectors": 0,
+      "native_tables": 1
+    },
+    {
+      "section": 14,
+      "page": 16,
+      "global_page": 240,
+      "title": "可复查的演示材料包",
+      "images": 0,
+      "charts": 0,
+      "connectors": 3,
+      "native_tables": 0
+    }
+  ],
+  "remaining": "Resolve partially covered original topics; review source freshness and combined delivery; timing allocation is not a rehearsal."
+}

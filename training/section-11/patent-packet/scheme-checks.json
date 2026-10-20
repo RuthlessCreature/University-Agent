@@ -1,0 +1,9 @@
+{
+  "revision": "s11-r7",
+  "native_flow_nodes": 6,
+  "native_flow_endpoint_pairs": 6,
+  "selected_claim_reference_endpoint_pairs": 2,
+  "drawio_and_svg_edges_equal_shared_json": true,
+  "word_png_equals_source_file": true,
+  "scope": "Diagram/file correspondence only; no device, patentability or legal scope validation."
+}

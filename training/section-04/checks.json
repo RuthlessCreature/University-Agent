@@ -1,0 +1,58 @@
+{
+  "revision": "s4-r7",
+  "pages": 14,
+  "pdf_pages": 14,
+  "notes": 14,
+  "preview_images": 14,
+  "editable_diagram_pages": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    14
+  ],
+  "native_table_pages": [
+    12
+  ],
+  "native_chart_pages": [
+    3
+  ],
+  "chart_values_verified": [
+    0.48,
+    1.27
+  ],
+  "embedded_workbooks": 1,
+  "pptx_sha256": "d142b88d2b8bc6f9111b706a84a928c3b4c5f040439dfc613577524d3c4e65db",
+  "scope": "文件结构、页数、原生对象、指定数据与限定词检查。逐页视觉审阅另记，不代表选题已通过科学审核或Agent全系统已运行。",
+  "source_comparison": {
+    "google_scholar_actual_result_rows": 10,
+    "primary_reading_positions": [
+      1,
+      2,
+      4
+    ],
+    "scholar_snapshot_hashes_verified": true,
+    "scholar_csv_matches_snapshot_records": true,
+    "bulk_export_performed": false,
+    "full_systematic_review": false,
+    "selected_records": 3,
+    "material_categories": 3,
+    "public_event_window": [
+      "2024-01-01",
+      "2025-12-31"
+    ],
+    "patent_application_and_publication_separated": true,
+    "preprint_published_version_link_retained": true,
+    "journal_online_and_issue_dates_separated": true,
+    "figure_source_sha256": "073a74dfa2b251c86713dc4fcc63d185f1a8991aa30ec4a53cf503b2fa2192dd",
+    "quantitative_field_trend_estimated": false,
+    "model_search_pipeline_executed": false,
+    "scope": "所选材料登记、日期语义、CSV对应和原图哈希；不验证领域覆盖、科研结论、专利法律状态或创新性。"
+  }
+}

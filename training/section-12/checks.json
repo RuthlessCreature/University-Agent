@@ -1,0 +1,73 @@
+{
+  "revision": "s12-r8",
+  "pages": 10,
+  "notes": 10,
+  "pdf_pages": 10,
+  "preview_images": 10,
+  "editable_connector_diagram_pages": [
+    1,
+    3,
+    4,
+    7,
+    8,
+    9,
+    10
+  ],
+  "native_table_pages": [
+    5,
+    8
+  ],
+  "native_chart_pages": [
+    6
+  ],
+  "embedded_workbooks": 1,
+  "actual_word_preview_pages": [
+    9
+  ],
+  "word_pages": 3,
+  "attachment_files": 9,
+  "retained_rows_with_source_lines": 146,
+  "actual_file_execution": true,
+  "source_records": 344,
+  "analysis_records": 146,
+  "mean_difference_mm": 4.616438356164366,
+  "verified_material_items": 2,
+  "pending_items": 1,
+  "actual_negative_cases_blocked": 4,
+  "external_model_called": false,
+  "scientific_validation": "not_performed",
+  "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
+  "software_snapshot": {
+    "snapshot": "SW-DEMO-20261019",
+    "actual_program_execution": true,
+    "input_records": 344,
+    "included_records": 146,
+    "groups": 2,
+    "records_per_group": 73,
+    "included_row_ids_checked": 146,
+    "descriptive_statistics_independently_recomputed": true,
+    "snapshot_file_hashes_verified": 7,
+    "ledger_rows": 3,
+    "counted_as_own_achievements": 0,
+    "ownership_confirmed": false,
+    "human_contributors_confirmed": false,
+    "registration_submitted": false,
+    "registration_certificate_exists": false,
+    "scope": "Local program execution, exact files, numerical outputs, editable ledger and explicit gaps. Does not establish ownership, personal contribution, eligibility, project acceptance or official registration."
+  },
+  "unchanged_slide_text_vs_s12_r5": [
+    2,
+    3,
+    6,
+    8,
+    10
+  ],
+  "identical_preview_bytes_vs_s12_r5": [
+    2,
+    3,
+    6,
+    8,
+    10
+  ],
+  "scope": "公开CSV独立复算、材料状态与哈希、本轮4次真实失败执行记录、9项附件文件哈希及原CSV逐行对应、Word内容、PPT原生对象及导出检查；新增软件快照实际执行及台账核对，不证明贡献、权属、登记适格性、科研验收、财务审核或云端模型全系统运行。"
+}

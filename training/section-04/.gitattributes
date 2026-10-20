@@ -1,0 +1,2 @@
+# Preserve source-figure and teaching packet bytes used by delivery checks.
+trend-packet/** -text

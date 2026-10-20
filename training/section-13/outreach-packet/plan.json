@@ -1,0 +1,110 @@
+{
+  "checked_date": "2026-10-19",
+  "scope": "三个月相对时点的课程教学安排；不是实际发布、自动提醒或已执行传播活动",
+  "items": [
+    {
+      "id": "R1",
+      "relative_phase": "第1周",
+      "topic": "结果说明",
+      "title": "公开数据中的4.62毫米差异",
+      "audience": "普通读者",
+      "proposed_channel": "拟供单位主页或课程资料页；尚未发布",
+      "draft_file": "R1-结果说明.md",
+      "state": "draft_not_published",
+      "published": false,
+      "actual_feedback_received": false,
+      "source_ids": [
+        "A01",
+        "A02"
+      ],
+      "checks_before_release": [
+        "逐句核对对象、数字、单位与限制",
+        "核对引用、配图与公开范围",
+        "由实际作者确认署名、贡献与版本"
+      ],
+      "draft_sha256": "ae88c403f37e8322dbc043ab2f76a7a6e0eb528f617bf80b1d7281382ffe2616"
+    },
+    {
+      "id": "R2",
+      "relative_phase": "第1月末",
+      "topic": "方法说明",
+      "title": "146条记录是怎样筛出来的",
+      "audience": "希望复核的教师",
+      "proposed_channel": "拟供课程资料页或技术说明；尚未发布",
+      "draft_file": "R2-方法说明.md",
+      "state": "draft_not_published",
+      "published": false,
+      "actual_feedback_received": false,
+      "source_ids": [
+        "A01",
+        "A02"
+      ],
+      "checks_before_release": [
+        "逐句核对对象、数字、单位与限制",
+        "核对引用、配图与公开范围",
+        "由实际作者确认署名、贡献与版本"
+      ],
+      "draft_sha256": "19e6ec967caf90bad4ecdd3a3d7316682fd290e78b47aba214acfb2b35257a06"
+    },
+    {
+      "id": "R3",
+      "relative_phase": "第2月末",
+      "topic": "限制与答疑",
+      "title": "均值差能说明游泳更快吗",
+      "audience": "读过结果说明的普通读者",
+      "proposed_channel": "拟供答疑说明；没有真实读者反馈",
+      "draft_file": "R3-限制与答疑.md",
+      "state": "draft_not_published",
+      "published": false,
+      "actual_feedback_received": false,
+      "source_ids": [
+        "A01",
+        "A02"
+      ],
+      "checks_before_release": [
+        "逐句核对对象、数字、单位与限制",
+        "核对引用、配图与公开范围",
+        "由实际作者确认署名、贡献与版本"
+      ],
+      "draft_sha256": "4a20c45bf678b4f47bae17f1c9c62a42db746268ec0478706c63f495ea58b031"
+    },
+    {
+      "id": "R4",
+      "relative_phase": "第3月末",
+      "topic": "复核与更新",
+      "title": "这份教学材料怎样保持可复查",
+      "audience": "准备复算或再次使用材料的教师",
+      "proposed_channel": "拟供材料更新说明；尚无对外更正记录",
+      "draft_file": "R4-复核与更新.md",
+      "state": "draft_not_published",
+      "published": false,
+      "actual_feedback_received": false,
+      "source_ids": [
+        "A01",
+        "A02"
+      ],
+      "checks_before_release": [
+        "逐句核对对象、数字、单位与限制",
+        "核对引用、配图与公开范围",
+        "由实际作者确认署名、贡献与版本"
+      ],
+      "draft_sha256": "39a26b8df34ad0b100ecba125d94f6e56394a8e4610190af2eaa35f9496ef9e1"
+    }
+  ],
+  "metrics": {
+    "visits": null,
+    "downloads": null,
+    "citations": null,
+    "adoptions": null,
+    "reason": "未开展或未测量，不以0代替缺失数据"
+  },
+  "actual_feedback_records": [],
+  "platform_account_accessed": false,
+  "source_files": {
+    "penguins.csv": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+    "facts.json": "0531a97e5eb096bb878c18c70f3a7ecfa794a354e54b5a533a8e9906a5a04bf6"
+  },
+  "outreach_publication_performed": false,
+  "teaching_repo_storage_authorized": true,
+  "continuation": "首季度后复核实际问题、资料与可用精力，再安排下一季度；没有自动循环或发布任务。"
+}

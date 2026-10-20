@@ -1,0 +1,16 @@
+{
+  "input_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "python_actual_execution": true,
+  "R_actual_execution": true,
+  "R_engine": "WebR 0.6.0 local Node.js / R 4.6.0",
+  "R_desktop_application_tested": false,
+  "SPSS_actual_execution": false,
+  "SPSS_status": "Source supplied only; no executable found in PATH or Program Files scan; IBM full documentation requests returned 403, indexed official syntax reviewed.",
+  "matched_included_row_ids": 146,
+  "matched_groups": 2,
+  "comparison_direction": "male minus female",
+  "sample_sd_denominator": "n-1",
+  "absolute_tolerance": 1e-09,
+  "actual_python_and_R_agree": true,
+  "scope": "Descriptive numerical agreement only. Does not validate data independence, scientific interpretation, IBM SPSS syntax execution or all program failures."
+}

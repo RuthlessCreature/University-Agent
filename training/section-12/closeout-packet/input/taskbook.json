@@ -1,0 +1,15 @@
+{
+  "title": "企鹅公开数据复核的结题材料教学案例",
+  "material_type": "teaching-simulation",
+  "purpose": "自编材料核对任务，借已有公开数据计算演示结题证据组织，不是基金项目任务书或先验研究注册",
+  "overall_completed_claim": false,
+  "requirements": [
+    {"id":"M1","criterion":"登记数据来源和筛选过程","rule":"source_and_selection","expected":{"raw_rows":344,"adelie_rows":152,"analysis_rows":146},"locator":"教学任务书 M1"},
+    {"id":"M2","criterion":"复算雌雄鳍长均值及差值","rule":"group_means","expected":{"female_n":73,"male_n":73,"mean_difference_mm":4.616438356164366},"locator":"教学任务书 M2"},
+    {"id":"M3","criterion":"核对个体重复记录与抽样依据","rule":"sampling_evidence","required_fields":["individual_id","sampling_design"],"locator":"教学任务书 M3"}
+  ],
+  "excluded_claims": [
+    {"claim":"本课程亲自采集了344只企鹅数据","status":"UNSUPPORTED","reason":"数据来自公开项目，课程只作二次计算"},
+    {"claim":"性别差异的因果机制已经证实","status":"UNSUPPORTED","reason":"当前仅有描述统计，未开展因果识别"}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "scope": "source identity and supplied locator only; scientific truth not auto-verified",
+  "sources": [
+    {
+      "id": "TEACH-GUIDE",
+      "type": "teaching-simulation",
+      "locator": "guide.json，TEACH-SECTION10-01；非官方指南"
+    },
+    {
+      "id": "DESIGN",
+      "type": "teaching-simulation",
+      "locator": "grant.json，课程自编研究设想；未实施"
+    },
+    {
+      "id": "BASTANI",
+      "type": "public-source",
+      "locator": "Bastani等，PNAS 2025，10.1073/pnas.2422633122；作者公开版Experimental Design；仅借鉴研究设计，不复制为团队前期成果"
+    }
+  ],
+  "sections": [
+    {
+      "title": "立项依据",
+      "source_ids": [
+        "BASTANI",
+        "DESIGN"
+      ]
+    },
+    {
+      "title": "研究内容",
+      "source_ids": [
+        "DESIGN",
+        "TEACH-GUIDE"
+      ]
+    },
+    {
+      "title": "研究基础",
+      "source_ids": [
+        "DESIGN"
+      ]
+    }
+  ]
+}

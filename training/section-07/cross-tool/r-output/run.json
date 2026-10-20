@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-19T02:14:12.435Z",
+  "runtime": "R version 4.6.0 (2026-04-24)",
+  "engine": "official webR 0.6.0 in local Node.js, WebAssembly",
+  "desktop_Rscript_used": false,
+  "actual_execution": true,
+  "remote_model_called": false,
+  "input_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "script_sha256": "5cdb27c06ed474746d9769e505ffb915955784f39ec282d5a6c65d4e3041c9c8",
+  "R_wasm_sha256": "5df459fb222d332e358cf08e4019c0e114398579ed8c62242bfcceeda81222ba",
+  "loader_patch_scope": "Two Node.js Windows path-to-file-URL loader adjustments only; no R source or R.wasm changes.",
+  "files": [
+    {
+      "name": "summary.csv",
+      "sha256": "8d4fbc272f6bd4634ae18f11237af48eedb4c77d6237172ea2ea026cc02fd539"
+    },
+    {
+      "name": "comparison.csv",
+      "sha256": "9f4c0d50b7bfeed6e7a9931d466d8afc9bffa4860302bbb7819f15438ba55aba"
+    },
+    {
+      "name": "included_rows.csv",
+      "sha256": "b4d7d2bd0012425a95d89eadb930e168fbacc29e7be6eee510734198a2371025"
+    },
+    {
+      "name": "session-info.txt",
+      "sha256": "42f13c06de3bf78f9252fcbc01da62dd8a0f35d7ae709340bf4292b2946f16ba"
+    }
+  ],
+  "scope": "Unchanged R source executed in a real local R interpreter; no IBM SPSS execution and no desktop-R application claim."
+}

@@ -1,0 +1,60 @@
+{
+  "scope": "source identity and supplied locator only; scientific truth not auto-verified",
+  "sources": [
+    {
+      "id": "SIM",
+      "type": "teaching-simulation",
+      "locator": "课程自编技术设想，未实施、未证明新颖性"
+    },
+    {
+      "id": "US",
+      "type": "public-source",
+      "locator": "US7255669B2，说明书FIG.7控制步骤及权利要求15；https://patents.google.com/patent/US7255669B2/en"
+    },
+    {
+      "id": "EP",
+      "type": "public-source",
+      "locator": "EP4636367A1，2025-10-22公开，PDF第14至15页权利要求1至4及11；EPO公开原文"
+    }
+  ],
+  "sections": [
+    {
+      "title": "技术领域与问题",
+      "source_ids": [
+        "SIM"
+      ]
+    },
+    {
+      "title": "公开技术与本例范围",
+      "source_ids": [
+        "US",
+        "EP",
+        "SIM"
+      ]
+    },
+    {
+      "title": "方案说明与实施安排",
+      "source_ids": [
+        "SIM"
+      ]
+    },
+    {
+      "title": "附图与标记",
+      "source_ids": [
+        "SIM"
+      ]
+    },
+    {
+      "title": "效果证据与待补资料",
+      "source_ids": [
+        "SIM"
+      ]
+    },
+    {
+      "title": "发明人与公开记录",
+      "source_ids": [
+        "SIM"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+writing-packet/penguins.csv -text
+style-packet/** -text
+
+export_revision_packet.py -text
+writing-packet/word-r1/** -text
+
+export_revision_packet.py -text
+writing-packet/word-r1/** -text

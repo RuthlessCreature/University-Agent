@@ -1,0 +1,44 @@
+{
+  "previous_revision": "s5-r3",
+  "current_revision": "s5-r4",
+  "changed_slide_text_pages": [
+    18,
+    19,
+    20,
+    24
+  ],
+  "changed_png_pages": [
+    18,
+    19,
+    20,
+    24
+  ],
+  "visually_opened_final_changed_pages": [
+    18,
+    19,
+    20,
+    24
+  ],
+  "byte_identical_previously_reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    21,
+    22,
+    23
+  ]
+}

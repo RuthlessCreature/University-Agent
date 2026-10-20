@@ -1,0 +1,5 @@
+--- before-A1.txt
++++ abstract-en.txt
+@@ -1 +1 @@
+-本例说明公开数据的描述性比较及其报告方式。使用palmerpenguins简化表，限定Adelie并保留性别与鳍长完整的146条记录，雌雄各73条。雄性平均鳍长为192.41毫米，雌性为187.79毫米，均值差为4.62毫米。两组分别按行进行10000次有放回重抽样，均值差的百分位区间为2.68—6.58毫米。结果反映当前完整记录中的差异，未确定缺失机制、巢内依赖及目标总体，不作因果解释。
++This teaching example describes flipper-length differences between female and male Adelie penguins in the public palmerpenguins dataset. Of 152 Adelie records, 146 had complete sex and flipper-length data, with 73 in each group. Mean flipper length was 192.41 millimetres in males and 187.79 millimetres in females, a male-minus-female difference of 4.62 millimetres. Resampling records with replacement within each group 10,000 times gave a percentile interval of 2.68 to 6.58 millimetres for this difference. This interval assumes independent records, an assumption not established from the simplified dataset. Missing-data mechanisms, nesting dependencies and the target population remain unresolved. The comparison demonstrates descriptive reporting of the included records; it does not establish a causal effect or a general difference across all penguins.

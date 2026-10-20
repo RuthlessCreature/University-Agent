@@ -1,0 +1,19 @@
+{
+  "raw_rows": 344,
+  "adelie_rows": 152,
+  "analysis_rows": 146,
+  "excluded_csv_lines": [
+    5,
+    10,
+    11,
+    12,
+    13,
+    49
+  ],
+  "female_n": 73,
+  "male_n": 73,
+  "female_mean_mm": 187.7945205479452,
+  "male_mean_mm": 192.41095890410958,
+  "mean_difference_mm": 4.616438356164366,
+  "source_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+}

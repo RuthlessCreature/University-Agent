@@ -1,0 +1,21 @@
+{
+  "draft_files_verified": 4,
+  "plan_rows": 4,
+  "relative_phases": [
+    "第1周",
+    "第1月末",
+    "第2月末",
+    "第3月末"
+  ],
+  "public_source_rows": 344,
+  "analysis_rows": 146,
+  "records_per_group": 73,
+  "CSV_means_difference_and_histograms_independently_checked": true,
+  "draft_hashes_verified": 4,
+  "source_snapshot_hashes_verified": 2,
+  "actual_outreach_posts": 0,
+  "platform_account_accessed": false,
+  "actual_feedback_records": 0,
+  "metrics_measured": false,
+  "scope": "Numerical consistency, exact draft/source files, editable plan, material classification and unpublished outreach status. Does not establish author approval, permission for every use, communication effectiveness or scientific validity."
+}

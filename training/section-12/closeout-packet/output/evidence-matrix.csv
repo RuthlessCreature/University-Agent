@@ -1,0 +1,4 @@
+﻿id,criterion,status,status_zh,evidence,locator,result,limit
+M1,登记数据来源和筛选过程,VERIFIED,材料已核,input/source.json、input/penguins.csv,CSV列名及全部344条记录,344条原记录，Adelie 152条，筛选后146条,核对公开来源与筛选，不确认原始采集质量
+M2,复算雌雄鳍长均值及差值,VERIFIED,材料已核,output/calculation.json、input/penguins.csv,sex、flipper_length_mm列；Adelie记录,雌雄各73条，均值差4.62 mm,描述统计，未证明独立性、因果或总体外推
+M3,核对个体重复记录与抽样依据,PENDING,待补资料,input/penguins.csv,完整列名列表,简化CSV缺个体标识及抽样设计资料,需回到原始数据与采样记录核对，当前不判断已完成

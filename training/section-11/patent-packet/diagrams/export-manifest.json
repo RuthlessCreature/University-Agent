@@ -1,0 +1,12 @@
+{
+  "source": "flow.json",
+  "source_sha256": "d422dcbfeaf22f636c7fc091a45e0b281e77cc608539d277784a114d816738a8",
+  "exporter_sha256": "f1a781ef76db335f49ccda1c34ed36a2f570b04d8f192a445e110a7bec5817a8",
+  "files": {
+    "flow.json": "d422dcbfeaf22f636c7fc091a45e0b281e77cc608539d277784a114d816738a8",
+    "教学方案流程.drawio": "80baa392144885bfeb83915044e6aa6c5ab18870df05914c757e786516cd9c55",
+    "教学方案流程.png": "42e893f672347fd3ebc8fa35dc688762595ea0c2261d5621dfcd5d91b8085790",
+    "教学方案流程.svg": "d4a5ebdacd4d9cac614ac304b210bc0616021f6fe758470820e9a57387bde145"
+  },
+  "status": "课程教学方案，未实施；SVG由共享节点连接导出，PNG由LibreOffice渲染"
+}

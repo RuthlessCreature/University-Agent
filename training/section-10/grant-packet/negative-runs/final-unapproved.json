@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "error": "final_export_blocked",
+  "input_sha256": "23f9b60ac270b0a1e7471609756124edb626499b54c34dfdba7a9d809c542444",
+  "template_sha256": "328561859b7035bf6fa8c6322594b339deb472efd3e339d6dac4d8ff369f9c0a",
+  "events": [
+    {
+      "stage": "intake",
+      "state": "running",
+      "detail": "",
+      "utc": "2026-10-19T13:43:30.696471+00:00"
+    },
+    {
+      "stage": "constraints",
+      "state": "passed",
+      "detail": "",
+      "utc": "2026-10-19T13:43:30.698534+00:00"
+    },
+    {
+      "stage": "workflow",
+      "state": "failed",
+      "detail": "final_export_blocked",
+      "utc": "2026-10-19T13:43:30.712568+00:00"
+    }
+  ]
+}

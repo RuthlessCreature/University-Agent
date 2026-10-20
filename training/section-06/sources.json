@@ -1,0 +1,56 @@
+{
+  "blocks": {
+    "title": "David M. Rocke. Randomized Block Designs. UC Davis BIM283, 2026-01-28/02-02",
+    "short": "UC Davis 2026，区组设计课件",
+    "url": "https://dmrocke.ucdavis.edu/Class/BIM283.2026.Winter/Lecture07_Randomized_Block_Designs.pdf",
+    "location": "PDF第2、10、11页已渲染查看；设计、随机分配及已知干扰因素"
+  },
+  "factor": {
+    "title": "David M. Rocke. Factorial Designs at Two Levels. UC Davis BIM283, 2026-02-09/18",
+    "short": "UC Davis 2026，因子设计课件pp.8–9",
+    "url": "https://dmrocke.ucdavis.edu/Class/BIM283.2026.Winter/Lecture09_Two_Level_Factorials.pdf",
+    "location": "PDF第2、8、9页已渲染查看；第8页定义T/C/K，第9页pilot.a给出8组响应，第8页注明两次重复的均值；来源教材Box, Hunter & Hunter, Statistics for Experimenters (2005), §5.4"
+  },
+  "nist": {
+    "title": "NIST/SEMATECH e-Handbook. Choosing an experimental design",
+    "short": "NIST实验设计手册§5.3",
+    "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm",
+    "location": "§5.3.2变量与水平；§5.3.3.2区组；全因子设计说明"
+  },
+  "variables": {
+    "title": "NIST/SEMATECH. How do you select and scale the process variables?",
+    "short": "NIST手册§5.3.2",
+    "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri32.htm",
+    "location": "输入、输出、参数范围及不可行组合"
+  },
+  "blockguide": {
+    "title": "NIST/SEMATECH. Randomized block designs",
+    "short": "NIST手册§5.3.3.2",
+    "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri332.htm",
+    "location": "控制已知干扰因素与区组设计"
+  },
+  "lakens": {
+    "title": "Daniël Lakens. Sample Size Justification. Collabra: Psychology 8(1):33267, 2022. DOI:10.1525/collabra.33267",
+    "short": "Lakens，2022，样本量论证",
+    "url": "https://doi.org/10.1525/collabra.33267",
+    "location": "Abstract、Six Approaches to Justify Sample Sizes、inferential goals"
+  },
+  "paper": {
+    "title": "Bastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 2025. DOI:10.1073/pnas.2422633122",
+    "short": "Bastani等，PNAS 2025，实验设计",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+    "location": "Experimental Design、Abstract，原文XML已在Section 5读取并保留来源哈希"
+  },
+  "course": {
+    "title": "课程编写：研究设计方法与教学模拟",
+    "short": "课程方法说明／教学模拟",
+    "url": "local:方案示例与材料状态.md",
+    "location": "本科课程方案、区组示意、样本层级和资源安排未实施；没有实验结果或批准记录"
+  },
+  "rpower": {
+    "title": "R stats power.t.test官方文档与本地R条件计算",
+    "short": "R stats官方说明；本地计算2026-10-19",
+    "url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/power.t.test.html",
+    "location": "n为每组人数；delta、sd、sig.level、power与strict；实际源码design-packet/sample-size.R，运行记录r-output/run.json"
+  }
+}

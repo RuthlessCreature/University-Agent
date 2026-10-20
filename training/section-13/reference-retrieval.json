@@ -1,0 +1,45 @@
+{
+  "checked_date": "2026-10-18",
+  "file": "uf-presentations-2025.pdf",
+  "sha256": "662b52b31f9c97467f28962f85d82fb727a8f294353870acaaee8c6d9451552b",
+  "pages": 32,
+  "viewed_physical_pages": [
+    3,
+    14,
+    20,
+    23,
+    27,
+    29,
+    31
+  ],
+  "adopted_pages": [
+    3,
+    23,
+    27,
+    29,
+    31
+  ],
+  "source_asset": {
+    "file": "assets/uf-2025-page-23.png",
+    "sha256": "516f6667364512d0947d624457a360d92e6c256b7e355c562636221616e4a6bc",
+    "physical_page": 23,
+    "whole_page": true,
+    "method": "Poppler PDF rasterization, 100 dpi; no content redrawn"
+  },
+  "not_adopted": "第14页天文数值，第20页拼合宣传图，第31页反例中的统计值；CERN检索附件为1页海报，未作为PPT采用",
+  "latest_review": {
+    "date": "2026-10-20",
+    "viewed_cached_physical_pages": [
+      3,
+      14,
+      23
+    ],
+    "cached_pdf_sha256_rechecked": "662b52b31f9c97467f28962f85d82fb727a8f294353870acaaee8c6d9451552b",
+    "online_original_pdf_result": "timeout",
+    "official_pages_opened": [
+      "https://info.orcid.org/researchers/",
+      "https://www.doi.org/the-identifier/what-is-a-doi/"
+    ],
+    "scope": "报告与讲图组织，未采用天文学统计值；身份和成果标识用途核对，未访问账号。"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "人工读取原文后整理的要求与材料状态，非官方模板或自动资格审查",
+  "checked": "2026-10-19",
+  "urls": [
+    "https://www.nsfc.gov.cn/p1/3381/2821/99242.html",
+    "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+  ],
+  "records": [
+    {
+      "id": "O1",
+      "requirement": "面上及青年C正文按三部分组织，原则上不超过30页",
+      "locator": "改版说明2025-12-30正文",
+      "status": "VERIFIED",
+      "application": "仅上述两类；最终排版核对页数"
+    },
+    {
+      "id": "O2",
+      "requirement": "从信息系统取得当年新版申请书",
+      "locator": "2026通告一（二）6",
+      "status": "PENDING",
+      "application": "本节未取得官方模板；自编教学模板不得替代"
+    },
+    {
+      "id": "O3",
+      "requirement": "AI相关信息人工核实、声明和标识，不使用AI直接生成的申请书",
+      "locator": "2026通告一（二）8",
+      "status": "VERIFIED",
+      "application": "本节AI教学稿仅供讲授，不用于申报"
+    },
+    {
+      "id": "O4",
+      "requirement": "研究成果真实署名和贡献",
+      "locator": "2026通告一（二）4",
+      "status": "PENDING",
+      "application": "未提供申请人代表作和贡献说明"
+    },
+    {
+      "id": "O5",
+      "requirement": "涉及伦理敏感领域按规定经过伦理审查",
+      "locator": "2026通告一（二）11",
+      "status": "PENDING",
+      "application": "示例未实施，未取得伦理审查意见"
+    },
+    {
+      "id": "O6",
+      "requirement": "按类别核对包干制或预算制",
+      "locator": "2026通告一（二）2",
+      "status": "VERIFIED",
+      "application": "未为示例编造预算额度"
+    }
+  ],
+  "recheck_scope": "Re-read official 2026 application notice sections 一（二）2、4、5、6、8、10、11 and reform notice; no claim about 2027 rules"
+}

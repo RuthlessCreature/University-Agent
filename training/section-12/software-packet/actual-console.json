@@ -1,0 +1,1 @@
+{"actual_execution": true, "analysis_rows": 146, "groups": [{"sex_code": 0, "n": 73, "mean_mm": 187.7945205479452, "sd_mm": 5.595034763345455}, {"sex_code": 1, "n": 73, "mean_mm": 192.41095890410958, "sd_mm": 6.599317339354874}], "male_minus_female_mm": 4.616438356164366}

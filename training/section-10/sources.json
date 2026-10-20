@@ -1,0 +1,38 @@
+{
+  "lecture": {
+    "title": "Mitchell S. V. Elkind，Grant Writing，NIH StrokeNet，2026-09-10",
+    "short": "NIH StrokeNet 2026原始课件",
+    "url": "https://nihstrokenet.org/docs/default-source/default-document-library/elkind-grant-writing-9-10-26.pdf?sfvrsn=0",
+    "location": "PDF物理页21、27、29、36、40、51已逐页查看；仅参考研究论证、可检验性、风险与讲授组织，不搬用NIH制度"
+  },
+  "reform": {
+    "title": "国家自然科学基金委，关注！！！2026年申请书改版，2025-12-30",
+    "short": "国自然2026申请书改版说明",
+    "url": "https://www.nsfc.gov.cn/p1/3381/2821/99242.html",
+    "location": "正文三部分、研究内容组织与原则上30页；仅面上与青年C类"
+  },
+  "notice": {
+    "title": "关于2026年度国家自然科学基金项目申请与结题等有关事项的通告，2026-01-14",
+    "short": "国自然2026申请通告",
+    "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+    "location": "一（二）1、2、4、5、6、8、10、11及依托单位事项，2026-10-18核查"
+  },
+  "paper": {
+    "title": "Bastani等，Generative AI without guardrails can harm learning: Evidence from high school mathematics，PNAS 2025，10.1073/pnas.2422633122",
+    "short": "Bastani等2025研究设计；本例另拟",
+    "url": "https://hamsabastani.github.io/education_llm.pdf",
+    "location": "作者公开版Experimental Design（PDF第4—6页及相邻说明），仅转述比较条件与无辅助测量，不使用效果数字。另查到勘误10.1073/pnas.2518204122元数据，勘误全文未读取；不声称已完成最终版与勘误的完整核验"
+  },
+  "course": {
+    "title": "课程自编研究设计与材料整理规则",
+    "short": "课程教学模拟，未实施",
+    "url": "local:training/section-10/grant-packet/grant.json",
+    "location": "TEACH-SECTION10-01、教学段落、技术路线及缺口，非官方指南和模板"
+  },
+  "runtime": {
+    "title": "本节实际文件流程与执行记录",
+    "short": "Section10实际本地文件记录",
+    "url": "local:training/section-10/execution-evidence.json",
+    "location": "run_demo.py、runtime-snapshot/local_workflow.py、grant-packet/output/run.json；无外部模型调用，无科学核验"
+  }
+}

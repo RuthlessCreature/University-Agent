@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-17",
+  "reference_pdf": {
+    "url": "https://eppi.ioe.ac.uk/CMS/Portals/0/AI%20in%20evidence%20synthesis%20v_3_1.pdf",
+    "sha256": "00e90533e15d8e9a449e118060512b78d6ebf6366a6901d10f1b14e6f86428c7",
+    "viewed_pages": [
+      14,
+      17,
+      43,
+      56
+    ]
+  },
+  "fulltexts": [
+    {
+      "id": "PMC12179260",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12179260/fullTextXML",
+      "sha256": "db98d8223d150c7330e87d6ac7b5ccefcc6df63c5448ed85f2e00a787a5f7d34",
+      "read": true
+    },
+    {
+      "id": "PMC12232635",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12232635/fullTextXML",
+      "sha256": "d3b61ee92873f2ac2eb2b7b82b28f95583c0d12a00b5cd385104dc6d21d60d92",
+      "read": true
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "assets/pubmed.png",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22generative+AI%22+learning",
+      "kind": "公开网页真实实录",
+      "detail_path": "assets/pubmed-detail.png",
+      "capture_method": "bundled Playwright；细节图为真实浏览器clip截图，未重画界面"
+    },
+    {
+      "path": "assets/elicit.png",
+      "url": "https://support.elicit.com/en/articles/17220397-where-did-find-papers-extract-data-and-chat-with-papers-go",
+      "kind": "官方帮助页真实实录",
+      "detail_path": "assets/elicit-detail.png",
+      "capture_method": "bundled Playwright；细节图为真实浏览器clip截图，未重画界面"
+    }
+  ],
+  "failed_alternatives": [
+    "Sevilla 2026 PDF因证书错误未取得，未作为已读来源",
+    "SMU 2025下载未取得，不作为已查看课件",
+    "in-app CUA初始化失败，网页实录改用bundled Playwright访问公开页面"
+  ],
+  "reference_images_not_redistributed": true,
+  "reproduction_20261019": {
+    "data_url": "https://raw.githubusercontent.com/HarvardAItutor/Study-Data-v4/main/Harvard_AI_Tutor_Study_Data.dta",
+    "source_blob_sha1": "2ad104a44b64acd98f4951ab92955ba85d2400cf",
+    "data_sha256": "362b26d84d01024e3c77e172d929e2bf8cbb3c7b09a9acd64757b9c0c1bd117e",
+    "reference_pages_reopened": [
+      43,
+      56
+    ],
+    "publisher_url": "https://www.nature.com/articles/s41598-025-97652-6",
+    "publisher_html_sha256": "d60c98b0b01271d76f52255eaa7925ed2b71da45ad9bc1d57f5809fb6689a03a",
+    "supplement_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-025-97652-6/MediaObjects/41598_2025_97652_MOESM1_ESM.docx",
+    "supplement_sha256": "56a8250676cee2be25c1411b8d11292d5fac431b3af8edf5d9bb1ff51949b73e",
+    "scope": "正文结果、研究对象、交叉设计、限制；补充Table S3与统计表说明；本地描述复算，未审查全部评分细则或复现全部回归。"
+  }
+}

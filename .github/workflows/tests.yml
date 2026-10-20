@@ -12,4 +12,6 @@ jobs:
         with:
           node-version: '22'
       - name: Run Node unit tests
-        run: npm test
+        run: |
+          npm ci
+          npm test

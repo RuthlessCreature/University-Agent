@@ -1,0 +1,54 @@
+{
+  "scope": "source identity and supplied locator only; scientific truth not auto-verified",
+  "sources": [
+    {
+      "id": "GUIDE-01",
+      "type": "teaching-simulation",
+      "locator": "本目录 guide.json；TEACH-GRANT-01，非官方基金指南"
+    },
+    {
+      "id": "INPUT-01",
+      "type": "teaching-simulation",
+      "locator": "本目录 grant.json，研究设计教学材料"
+    }
+  ],
+  "sections": [
+    {
+      "title": "立项依据",
+      "source_ids": [
+        "INPUT-01"
+      ]
+    },
+    {
+      "title": "研究目标",
+      "source_ids": [
+        "GUIDE-01",
+        "INPUT-01"
+      ]
+    },
+    {
+      "title": "研究内容",
+      "source_ids": [
+        "INPUT-01"
+      ]
+    },
+    {
+      "title": "技术路线",
+      "source_ids": [
+        "INPUT-01"
+      ]
+    },
+    {
+      "title": "考核指标",
+      "source_ids": [
+        "GUIDE-01"
+      ]
+    },
+    {
+      "title": "研究基础与风险",
+      "source_ids": [
+        "INPUT-01"
+      ]
+    }
+  ]
+}

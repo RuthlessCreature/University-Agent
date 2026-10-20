@@ -1,0 +1,55 @@
+{
+  "marks": {
+    "url": "https://www.cs.ubc.ca/~tmm/talks/vad/2601-marks.pdf",
+    "sha256": "bf00b8b3ef8785eabdc2c302f39dc690058941b7ce0d18e2d3c6b129348c177c",
+    "pages": 23
+  },
+  "color": {
+    "url": "https://www.cs.ubc.ca/~tmm/talks/vad/VAD-color.pdf",
+    "sha256": "83cc1d17f7694b5c3adc27bfcacea0ebbea387dfdf8a5b47510575b04e871177",
+    "pages": 84
+  },
+  "networks": {
+    "url": "https://www.cs.ubc.ca/~tmm/talks/vad/2501-networks.pdf",
+    "sha256": "f992763fd3a48b5e43c7964bde97985e1d6da2e66e123ce97eff2ed551ed9ef2",
+    "pages": 33
+  },
+  "rules": {
+    "url": "https://www.cs.ubc.ca/~tmm/talks/vad/VAD-rules.pdf",
+    "sha256": "bd9108a5f6d40782175e56c4fbc2aa51890e4fde726989fc47f584b28ad6e531",
+    "pages": 44
+  },
+  "checked_date": "2026-10-18",
+  "viewed_pdf_pages": {
+    "marks": [
+      4,
+      6,
+      17
+    ],
+    "color": [
+      7,
+      21
+    ],
+    "networks": [
+      2
+    ],
+    "rules": [
+      4
+    ]
+  },
+  "course_url": "https://www.cs.ubc.ca/~tmm/courses/447-26/",
+  "original_pages_redistributed": false,
+  "diagram_review_20261019": {
+    "reference_pages_reopened": {
+      "network": [
+        2
+      ],
+      "marks": [
+        17
+      ]
+    },
+    "course_page_checked": "https://www.cs.ubc.ca/~tmm/courses/447-26/",
+    "exports": "figure-packet/diagram-exports.json",
+    "workflow_executed": false
+  }
+}

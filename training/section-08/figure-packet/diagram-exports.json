@@ -1,0 +1,22 @@
+{
+  "checked_date": "2026-10-19",
+  "exporter": "export_diagrams.mjs",
+  "exporter_sha256": "2213ee5497995b11ebc9efeca77cc1a7a4b7afcf30fb6c8ca71d1d322e38b80e",
+  "files": {
+    "route.json": "aa8d77fd8a0201f054ab2a3bf21f299284f956f4043fec688b5d86606589208d",
+    "decision.json": "ba92a666b846f304aac3d8ae6a36e45a7b0cde17c940f94be396ceeca42afa21",
+    "研究技术路线.drawio": "65dbc568c052124200037e03c7fba77492b5bb7e9e23b84a4cdad4a085b9b03a",
+    "研究技术路线.svg": "563334f91b4599915a62c7c9e5c02ea9e8aaf90f0595382b39af5f8f1aa9a714",
+    "研究技术路线.png": "d2bd8cddbfa02743f9969494518bbc96615144b713ad7f2f0f44145e289693c8",
+    "材料核对与返工.drawio": "c61aa5fe91599b48d982f3bd8ff97ef1ec5740539a6d1b058776b92acf106ccb",
+    "材料核对与返工.svg": "86ea890b4c722ecfcbf5de7d82036e1561056b8abf4171f93a1c9efa962ef7c7",
+    "材料核对与返工.png": "0cae3f7186ecef52fc5de6143144b8dda75a85a90eb9f7966910eef1d479e466"
+  },
+  "PNG_render_engine": "LibreOffice actual SVG conversion",
+  "PNG_visually_opened": [
+    "研究技术路线.png",
+    "材料核对与返工.png"
+  ],
+  "drawio_interactive_edit_tested": false,
+  "scope": "共享节点边定义、编辑源与实际渲染；教学拟议，未实施研究。"
+}

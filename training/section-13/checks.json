@@ -1,0 +1,76 @@
+{
+  "revision": "s13-r10",
+  "pages": 10,
+  "notes": 10,
+  "pdf_pages": 10,
+  "preview_images": 10,
+  "editable_connector_diagram_pages": [
+    1,
+    2,
+    7,
+    8,
+    9,
+    10
+  ],
+  "native_table_pages": [
+    5
+  ],
+  "native_chart_pages": [
+    4
+  ],
+  "embedded_workbooks": 1,
+  "sourced_figure_page": 3,
+  "actual_word_preview_page": 9,
+  "word_pages": 3,
+  "figure_narration_steps": 4,
+  "prepared_questions": 3,
+  "selected_bin_counts": [
+    21,
+    24
+  ],
+  "reader_versions": 3,
+  "source_records": 344,
+  "analysis_records": 146,
+  "histogram_records_per_group": 73,
+  "actual_file_execution": true,
+  "external_model_called": false,
+  "platform_account_accessed": false,
+  "researcher_approved": false,
+  "pptx_sha256": "ea5bf0482f8da8b3bfbff2146730de1f10b0909afbe15510cb1443a9ea4e2025",
+  "outreach_case": {
+    "draft_files_verified": 4,
+    "plan_rows": 4,
+    "relative_phases": [
+      "第1周",
+      "第1月末",
+      "第2月末",
+      "第3月末"
+    ],
+    "public_source_rows": 344,
+    "analysis_rows": 146,
+    "records_per_group": 73,
+    "CSV_means_difference_and_histograms_independently_checked": true,
+    "draft_hashes_verified": 4,
+    "source_snapshot_hashes_verified": 2,
+    "actual_outreach_posts": 0,
+    "platform_account_accessed": false,
+    "actual_feedback_records": 0,
+    "metrics_measured": false,
+    "scope": "Numerical consistency, exact draft/source files, editable plan, material classification and unpublished outreach status. Does not establish author approval, permission for every use, communication effectiveness or scientific validity."
+  },
+  "unchanged_slide_text_vs_s13_r8": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "identical_preview_bytes_vs_s13_r8": [
+    1,
+    3,
+    10
+  ],
+  "scope": "原CSV分组与分箱独立复算、三个完整段落及比较对象、Word与源图字节、原生图表表格及导出检查；本轮讲图稿、区间频数及单位换算；既有四份传播草稿、相对时点和未发布状态核对，不表示传播计划已执行、科研验收或实际平台发布。"
+}
