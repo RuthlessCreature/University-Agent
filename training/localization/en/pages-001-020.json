@@ -1,0 +1,1633 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  1,
+  20
+ ],
+ "items": [
+  {
+   "page": 1,
+   "pairs": [
+    [
+     "62hilz",
+     "University Scientific Research"
+    ],
+    [
+     "1nkaws8",
+     "AI Practice"
+    ],
+    [
+     "1bdbi8z",
+     "Documents, data, papers and project materials"
+    ],
+    [
+     "17m0l4n",
+     "For university teachers and researchers"
+    ],
+    [
+     "62mtx8",
+     "SECTION 0"
+    ]
+   ],
+   "note": "Introduce the course with literature, data and project materials commonly used by college teachers. The entire course is taught and demonstrated by the instructor, and students are not required to operate or submit. The course not only explains how to do it, but also explains why it is done. The principles are limited to helping select tools, organize tasks, and examine results. Approximately 240 pages include extended materials, and the teaching effect cannot be guaranteed based on the number of pages. The name and date of the training unit and instructor have not been confirmed and this information is not fictitious."
+  },
+  {
+   "page": 2,
+   "pairs": [
+    [
+     "1f72yzw",
+     "Course sequence and four modules"
+    ],
+    [
+     "1r81yvt",
+     "Course Import"
+    ],
+    [
+     "qg25ik",
+     "0/02"
+    ],
+    [
+     "11d19ti",
+     "First understand the usage and limitations, then follow the scientific research process, and finally view the complete document process."
+    ],
+    [
+     "1jpx94p",
+     "一 Basic skills in AI scientific research"
+    ],
+    [
+     "1awkjac",
+     "II The whole process of scientific research"
+    ],
+    [
+     "m001il",
+     "III Papers and Project Outputs"
+    ],
+    [
+     "s5ivjw",
+     "IV Conclusion and Influence"
+    ],
+    [
+     "5uho07",
+     "01 Capabilities, principles and boundaries"
+    ],
+    [
+     "agu6v4",
+     "02 Agent and Workflow"
+    ],
+    [
+     "1rurop9",
+     "03 Humanizer"
+    ],
+    [
+     "1y1vkkk",
+     "04 Topic selection and research questions"
+    ],
+    [
+     "1itrg1t",
+     "05 Literature search and review"
+    ],
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "posiwu",
+     "07 Data processing and statistics"
+    ],
+    [
+     "1pez7e4",
+     "08 Scientific research charts and routes"
+    ],
+    [
+     "136ngpw",
+     "09 Papers, submissions and revisions"
+    ],
+    [
+     "pzzf5d",
+     "10 Fund declaration"
+    ],
+    [
+     "1n6snn7",
+     "11 Patent and technology disclosure"
+    ],
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "11yekd3",
+     "13 Scientific research reporting and dissemination"
+    ],
+    [
+     "krsyqs",
+     "14 Local and cloud demonstration"
+    ],
+    [
+     "9nxgw7",
+     "Harness explains execution management in Section 2, combined with input, run records, and file demonstrations in Section 14."
+    ]
+   ],
+   "note": "The four modules correspond to the customer's original course. The first module explains AI capabilities, common mistakes, Agent concepts and Humanizer. The second module unfolds along topic selection, documents, plans, data and charts. The third module organizes the evidence into papers, application materials and technical briefings. The fourth module talks about project execution, conclusion, reporting and dissemination, and then uses local and cloud processes to connect the previous content. Here we only introduce the location of the courses and do not read the titles one by one. Humanizer is a separate chapter and is also used in the text of other chapters; Harness refers to task execution management, Section 2 talks about the framework, and Section 14 looks at the actual records. The arrow indicates the teaching sequence of this course and does not mean that scientific research cannot be returned for revision.\nReference: Dawn Song, UC Berkeley CS294/194-196 Agentic AI, Fall 2025, Introduction, Physics pp. 6, 10, 19.\nhttps://rdi.berkeley.edu/agentic-ai/slides/introduction_25.pdf\nOrganization draws on topic grouping, action feedback, and reviewable processes; no legacy product status, rankings, forecasts, assignments, or assessments are used. Chinese arrangements are written for this course."
+  },
+  {
+   "page": 3,
+   "pairs": [
+    [
+     "1dfpy1b",
+     "The same day period and eight hours of lesson preparation materials"
+    ],
+    [
+     "1r81yvt",
+     "Course Import"
+    ],
+    [
+     "qq1r7j",
+     "0/03"
+    ],
+    [
+     "1fel7vb",
+     "Onsite sessions are arranged from 09:00–12:00 and 13:30–17:00; extended content is available for lecturers to select according to their progress."
+    ],
+    [
+     "7mjc6s",
+     "09:00–12:00"
+    ],
+    [
+     "8x3w5b",
+     "13:30–17:00"
+    ],
+    [
+     "14q87z6",
+     "Basic scientific research skills and research preparation"
+    ],
+    [
+     "73u1hz",
+     "Principles and common concepts, Humanizer; topic selection, literature and research plan."
+    ],
+    [
+     "atkx22",
+     "Data analysis and production of scientific research results"
+    ],
+    [
+     "1jchpht",
+     "Data and charts, papers, applications, patents, conclusion, dissemination and complete process."
+    ],
+    [
+     "1p18hek",
+     "Short break: 10:20–10:30, 15:00–15:10; Lunch: 12:00–13:30."
+    ],
+    [
+     "1022e3n",
+     "370 minutes of formal teaching + 110 minutes of extended teaching = 480 minutes of lesson preparation materials"
+    ]
+   ],
+   "note": "180 minutes in the morning and 210 minutes in the afternoon, totaling 390 minutes. After deducting two 10-minute short breaks, the formal teaching time is 370 minutes; the 90 minutes at lunch are not included in the teaching. An additional 110 minutes of extended lectures are provided, including supplementary case explanations, chart interpretations and lecturer demonstrations, totaling 480 minutes of material. No classroom exercises, group tasks, account operations, or student submissions will be scheduled. The 240 pages include formal lectures and extended materials, with on-site depth selected at the instructor's pace. Minute allocations are preparation arrangements and cannot be treated as live rehearsal records.\nBasis: Customer-specified time period and 8 hours of lesson preparation requirements; this course is scheduled for two 10-minute short breaks, and minutes are calculated according to time periods."
+  },
+  {
+   "page": 4,
+   "pairs": [
+    [
+     "1aaczq3",
+     "Materials, actions and results in the lecturer’s demonstration"
+    ],
+    [
+     "1r81yvt",
+     "Course Import"
+    ],
+    [
+     "pw2y4m",
+     "0/04"
+    ],
+    [
+     "1jyu9zb",
+     "Each demonstration explains where the material comes from, what the tool actually does, and how the results are checked."
+    ],
+    [
+     "92wfw",
+     "Original paper"
+    ],
+    [
+     "rt1a11",
+     "Locate paragraphs that support the conclusion"
+    ],
+    [
+     "1j9wvyz",
+     "Excerpt, original text location and applicable conditions"
+    ],
+    [
+     "5el3dp",
+     "Public Data Sheet"
+    ],
+    [
+     "17k5kgd",
+     "Check data, calculations and plots"
+    ],
+    [
+     "reei8l",
+     "Recalculable results and editable data graphs"
+    ],
+    [
+     "1jakcvl",
+     "Guidelines, Materials and Templates"
+    ],
+    [
+     "kbkcg3",
+     "Correspond to each item and organize the chapters"
+    ],
+    [
+     "1lk8t12",
+     "Word drafts, sources and gaps"
+    ],
+    [
+     "pxzvxv",
+     "Disclose the original document, teaching simulation and AI draft respectively; after the document is generated, the scientific content still needs to be checked."
+    ]
+   ],
+   "note": "Use three material-to-outcome paths to illustrate what the instructor will demonstrate. Literature Presentation Return to the original text and determine whether the excerpt supports the conclusion. The data demonstration starts with opening the CSV, checking for missing items, comparing objects and methods, and then calculating the results and making graphs. The application demonstration starts with applicable guidelines, existing research materials and templates, mapping requirements to content, leaving gaps. The three paths are not the same research, nor do they require students to open the materials on site. From the case to the corresponding chapter, the background and sources are introduced. Public papers, public Penguin data and self-edited guides are registered separately; TEACH-GRANT-01 is not an official fund guide. Text written and revised by AI is also attributed. The figure represents the demonstration organization, and does not pretend to be an execution screenshot; for actual operation, please refer to the corresponding chapter records and files.\nReference: Dawn Song, UC Berkeley CS294/194-196 Agentic AI, Fall 2025, Introduction, Physics pp. 6, 10, 19.\nhttps://rdi.berkeley.edu/agentic-ai/slides/introduction_25.pdf\nOrganization draws on topic grouping, action feedback, and reviewable processes; no legacy product status, rankings, forecasts, assignments, or assessments are used. Chinese arrangements are written for this course."
+  },
+  {
+   "page": 5,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "16sl7vp",
+     "AI in the scientific research process"
+    ],
+    [
+     "1d0h5jg",
+     "AI can participate in multiple links of scientific research; each link requires different materials and evidence."
+    ],
+    [
+     "3164gl",
+     "Scientific research link"
+    ],
+    [
+     "crgq7s",
+     "Work that AI can assist"
+    ],
+    [
+     "pwjwto",
+     "Academic judgment required to be reserved"
+    ],
+    [
+     "bajmtn",
+     "Documents and topics"
+    ],
+    [
+     "ij11n3",
+     "Retrieve clues and compare existing research"
+    ],
+    [
+     "1eckqdp",
+     "Check the original text and research gaps"
+    ],
+    [
+     "l8g4bi",
+     "Research Plan"
+    ],
+    [
+     "gqy40h",
+     "Propose alternative designs and variables"
+    ],
+    [
+     "1q1t3ut",
+     "Demonstrate comparison, measurement and feasibility"
+    ],
+    [
+     "h8emop",
+     "Data and Analysis"
+    ],
+    [
+     "1c5luey",
+     "Generate code and identify data issues"
+    ],
+    [
+     "kt9ior",
+     "Recalculate results and check assumptions"
+    ],
+    [
+     "1224pqs",
+     "Thesis and application"
+    ],
+    [
+     "1bymwqx",
+     "Organize materials and modify expressions"
+    ],
+    [
+     "qan3ba",
+     "Check claims, citations and results"
+    ],
+    [
+     "zgtp7z",
+     "Review and Dissemination"
+    ],
+    [
+     "1c350nt",
+     "Collate opinions and prepare reports"
+    ],
+    [
+     "1t8a9g9",
+     "Reserve restrictions and respond to questions"
+    ],
+    [
+     "1ggpqsf",
+     "The value of scientific research depends on questions, methods and evidence. Writing the text faster is just one part of it."
+    ],
+    [
+     "bl09rw",
+     "Source: IJS/SLAIF (2026); GWU MAE-6291 (2026)"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "This section introduces the scope, basic principles, capability differences and specifications of generative AI in scientific research. The work steps in the picture are a summary of the course, and it cannot be claimed that various tools can independently complete scientific research. Scientific research also includes specialized predictive models, experimental equipment, and domain methods, which are distinguished from general generative tools on the following page. Each node in the graph is a native editable object.\nDžeroski, AI for Science, SLAIF/Jožef Stefan Institute, 2026\nhttps://ai4science.ijs.si/2026course/\nPositioning: Introduction and Foundation Models courseware\nBarba, MAE-6291, George Washington University, Spring 2026\nhttps://barbagroup.github.io/mae6291-genai/2026/\nPositioning: Class 1, 2, 10"
+  },
+  {
+   "page": 6,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "1s4qh8h",
+     "Generative AI and the scope of scientific AI"
+    ],
+    [
+     "178q0gn",
+     "AI in scientific research includes both problem-oriented models and generative models that process language, images, and code."
+    ],
+    [
+     "465t61",
+     "AI methods and systems for scientific research"
+    ],
+    [
+     "1u54h1s",
+     "Domain prediction and identification"
+    ],
+    [
+     "14b03oz",
+     "Generative Model"
+    ],
+    [
+     "l08gff",
+     "Build a model with specific data and goals"
+    ],
+    [
+     "kiwubj",
+     "For example, material property prediction and microscopic image segmentation."
+    ],
+    [
+     "1d2jbq6",
+     "Pay attention to prediction error, generalization and measurement conditions when evaluating."
+    ],
+    [
+     "rbuk6j",
+     "Generate new content based on input"
+    ],
+    [
+     "180xdgn",
+     "The large language model mainly deals with language and code;"
+    ],
+    [
+     "1erut1r",
+     "Multimodal models can also process images, audio and other content."
+    ],
+    [
+     "1fra4gu",
+     "There are application systems on top of the model: interface, retrieval, calculation tools, file and task management."
+    ],
+    [
+     "zr8dzo",
+     "If the same model is connected to different materials and tools, the work that can be completed will be different."
+    ],
+    [
+     "17iiwar",
+     "This course focuses on how general generative AI can assist scientific research, and then introduces the Agent system that can perform multi-step tasks."
+    ],
+    [
+     "obdup7",
+     "Source: NIST AI 600-1 (2024); IJS/SLAIF (2026); OpenAI: Using tools"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "The two categories, left and right, are distinguished for scientific research use and are not mutually exclusive technical classifications: generative models can also be used for domain prediction, and multimodal capabilities also overlap with language models. Generative AI is defined according to the NIST AI 600-1 Section 1 footnote. The domain examples refer to the IJS Foundation Models courseware, and the scientific research pictures or data are not copied. The concept of Agent system is left to Section 2.\nNIST AI 600-1, 2024\nhttps://doi.org/10.6028/NIST.AI.600-1\nPositioning: Section 1 Definition; Section 2.2 Confabulation; MEASURE 2.5\nDžeroski, AI for Science, SLAIF/Jožef Stefan Institute, 2026\nhttps://ai4science.ijs.si/2026course/\nPositioning: Introduction and Foundation Models courseware\nOpenAI Docs, Using tools\nhttps://developers.openai.com/api/docs/guides/tools\nPositioning: web search, file retrieval and tool invocation"
+  },
+  {
+   "page": 7,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "zh476c",
+     "Pre-training, post-training and inference"
+    ],
+    [
+     "qfnemc",
+     "Understanding how the model acquires capabilities can help distinguish between “what the model has learned” and “what it has provided this time.”"
+    ],
+    [
+     "1nowj17",
+     "Pre-training"
+    ],
+    [
+     "1fzn2tx",
+     "Post training"
+    ],
+    [
+     "1tdwyf7",
+     "Reasoning"
+    ],
+    [
+     "zqjw7j",
+     "Learning from large-scale materials"
+    ],
+    [
+     "196sd7x",
+     "Language and data rules"
+    ],
+    [
+     "1db1mmk",
+     "Form transferable basic capabilities."
+    ],
+    [
+     "1rwha5d",
+     "Training materials will affect the quality of answers."
+    ],
+    [
+     "o2oo5y",
+     "Use examples, feedback, etc."
+    ],
+    [
+     "1lvm72k",
+     "Adjust model behavior"
+    ],
+    [
+     "15aev1o",
+     "Improve instruction following and task performance."
+    ],
+    [
+     "18oohel",
+     "The specific method varies by model."
+    ],
+    [
+     "d3ljfl",
+     "According to the current command and context"
+    ],
+    [
+     "10zg4hs",
+     "Produce answers or other output"
+    ],
+    [
+     "1pdkf93",
+     "Usually use existing model parameters."
+    ],
+    [
+     "1jjueit",
+     "Facts may still appear in the answer"
+    ],
+    [
+     "1f3m1kf",
+     "or incorrect reasoning."
+    ],
+    [
+     "1fx8s3m",
+     "Upload a paper, usually to supplement the current task."
+    ],
+    [
+     "xbovth",
+     "Fine-tuning updates model parameters through training; retrieval enhancement generation supplements the answer basis by finding relevant materials."
+    ],
+    [
+     "1jkwa6g",
+     "The three solve different problems: basic abilities, behavioral adjustments, and the input and output of the current task."
+    ],
+    [
+     "1akh2jx",
+     "Source: OpenAI: Key concepts; OpenAI: Model optimization; IJS/SLAIF (2026)"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "This is the conceptual framework, omitting the optimizer, network layer, and low-level interfaces. Pre-training and post-training do not have the same production process for all models. Common methods of post-training include supervised fine-tuning and feedback-based optimization. Reasoning can involve multiple steps of calculation and is not equivalent to a simple complement. Whether the uploaded file enters the service for subsequent training is affected by product terms and settings; this page only explains the technical differences between providing context for the current task and specialized fine-tuning, and does not make any commitment to data retention.\nOpenAI Docs, Key concepts\nhttps://developers.openai.com/api/docs/concepts\nPositioning: Text generation models; Tokens\nOpenAI Docs, Model optimization\nhttps://developers.openai.com/api/docs/guides/model-optimization\nPositioning: Evaluation, prompt engineering and fine-tuning\nDžeroski, AI for Science, SLAIF/Jožef Stefan Institute, 2026\nhttps://ai4science.ijs.si/2026course/\nPositioning: Introduction and Foundation Models courseware"
+  },
+  {
+   "page": 8,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "1bkg9my",
+     "Context and retrieval enhancement generation"
+    ],
+    [
+     "7046fj",
+     "The model’s existing knowledge, current task materials, and external search results are different sources of information."
+    ],
+    [
+     "1el0snl",
+     "Research Questions"
+    ],
+    [
+     "wql7ti",
+     "Retrieve original materials"
+    ],
+    [
+     "xzl0dt",
+     "Organize relevant fragments"
+    ],
+    [
+     "x90qqw",
+     "Model generation answer"
+    ],
+    [
+     "rrqavm",
+     "What to compare and what to answer?"
+    ],
+    [
+     "1htfmms",
+     "Check papers, guides or project documents"
+    ],
+    [
+     "168da63",
+     "Reserve the source, conditions and version"
+    ],
+    [
+     "ebc74v",
+     "Organize content based on instructions and these materials"
+    ],
+    [
+     "99g5q7",
+     "Context"
+    ],
+    [
+     "1s4egno",
+     "The instructions, dialogues, materials and tool results that can be used in this answer are limited in capacity."
+    ],
+    [
+     "g5fefm",
+     "Token"
+    ],
+    [
+     "1s86m72",
+     "Fragments used by the model when processing text; cannot be converted to a fixed number of Chinese characters."
+    ],
+    [
+     "s4y33l",
+     "Retrieval Enhanced Generation (RAG)"
+    ],
+    [
+     "fxq39g",
+     "Find relevant materials first, and then give it to the model to generate answers; you still need to check whether the search is complete and whether the references support the conclusion."
+    ],
+    [
+     "14poic2",
+     "Just because it can be put into context does not mean that all information will be used correctly. Material selection and evidence checking are still necessary."
+    ],
+    [
+     "1pdmhax",
+     "Source: OpenAI: Conversation state; OpenAI: Prompt engineering; OpenAI: Using tools; GWU MAE-6291 (2026)"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ]
+   ],
+   "note": "The schematic diagram is a simplified RAG framework drawn by the course, not a screenshot of a product execution. Retrieval may come from a database, file, or search tool; not all chats perform retrieval automatically. Input and output are subject to restrictions such as context windows, and the specific amount varies with the model. This section does not discuss the implementation details of the vector library, API, and word segmenter. RAG can provide external materials and does not guarantee that search recall, evidence quality and citation attribution are all correct.\nOpenAI Docs, Conversation state\nhttps://developers.openai.com/api/docs/guides/conversation-state\nPositioning: Managing the context window\nOpenAI Docs, Prompt engineering\nhttps://developers.openai.com/api/docs/guides/prompt-engineering\nPositioning: Prompt structure; Include relevant context information\nOpenAI Docs, Using tools\nhttps://developers.openai.com/api/docs/guides/tools\nPositioning: web search, file retrieval and tool invocation\nBarba, MAE-6291, George Washington University, Spring 2026\nhttps://barbagroup.github.io/mae6291-genai/2026/\nPositioning: Class 1, 2, 10"
+  },
+  {
+   "page": 9,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "6vzrh",
+     "Language fluency and document authenticity"
+    ],
+    [
+     "1sxnuws",
+     "Documentary Illusion: The generated citations look complete, but may not have corresponding real research."
+    ],
+    [
+     "lbpjx3",
+     "Walters and Wilder (2023) asked two models to generate short reviews around 42 topics,"
+    ],
+    [
+     "g9iw26",
+     "Check 636 references in 84 generated texts."
+    ],
+    [
+     "194dr5l",
+     "What is compared in the picture?"
+    ],
+    [
+     "kfa3oi",
+     "Citations generated by both models in this study setting."
+    ],
+    [
+     "l0eibh",
+     "Percentages are redrawn as reported in Table 3 of the original text."
+    ],
+    [
+     "zlfk06",
+     "Real documents can also be written incorrectly"
+    ],
+    [
+     "193162x",
+     "Bibliographic errors in authentic documents: 43% vs. 24%."
+    ],
+    [
+     "s8d7sp",
+     "The denominator is the real document, which is different from the scale in the picture.\nWhat can"
+    ],
+    [
+     "sg0qp2",
+     "launch?"
+    ],
+    [
+     "1xc87zt",
+     "Title, author, year and DOI given by AI"
+    ],
+    [
+     "1ml72er",
+     "Need to return to the publication page or database for verification."
+    ],
+    [
+     "12rogn3",
+     "Historical research, not current model ranking. Results are limited to 2023 models, prompts, and tasks and cannot be extrapolated to today's error rates."
+    ],
+    [
+     "r7y79x",
+     "Source: Walters & Wilder (2023), Tables 3, 4; NIST AI 600-1 (2024)"
+    ],
+    [
+     "80y4by",
+     "05"
+    ],
+    [
+     "rkmuv6",
+     "Chart: Proportion of fictitious documents among cited documents (barChart):"
+    ],
+    [
+     "1jcaqwu",
+     "Categories: GPT-3.5 (n=222), GPT-4 (n=414)"
+    ],
+    [
+     "1ewmlf7",
+     "Proportion of fictional documents: GPT-3.5 (n=222)=0.55000000000000004, GPT-4 (n=414)=0.17999999999999999"
+    ]
+   ],
+   "note": "Real Public Research, DOI 10.1038/s41598-023-41032-5. The summary on page 1 and Table 3 and Table 4 on page 4 of the original PDF have been read; the PDF has 8 pages in total. Table 3: GPT-3.5 total citations n = 222, 55% fictitious; GPT-4 total citations n = 414, 18% fictitious. Table 4: 43% and 24% of the actually existing documents contain at least one substantive description error; these two percentages cannot be regarded as proportions of all 636 documents. The figure is an editable redraw of the values ​​reported in the original text, and is not the result of re-running the model in this course, nor does it infer current model capabilities.\nWalters & Wilder, Scientific Reports 13:14045, 2023\nhttps://doi.org/10.1038/s41598-023-41032-5\nPositioning: Abstract on page 1 of PDF, Table 3 and Table 4 on page 4\nNIST AI 600-1, 2024\nhttps://doi.org/10.6028/NIST.AI.600-1\nPositioning: Section 1 Definition; Section 2.2 Confabulation; MEASURE 2.5"
+  },
+  {
+   "page": 10,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "1mayebb",
+     "Capabilities and limitations in scientific research tasks"
+    ],
+    [
+     "1wbymlo",
+     "The same text may be fluent, but the method is misunderstood; the same code may run successfully, but answer the wrong question."
+    ],
+    [
+     "1v21h9q",
+     "When evaluating AI-assisted results, it is necessary to look at expression, execution and scientific judgment at the same time."
+    ],
+    [
+     "meiixl",
+     "The output form is correct, the tool runs successfully, and the research conclusion is established. These are three levels that need to be checked separately."
+    ],
+    [
+     "10tuc99",
+     "Source: OpenAI: Using tools; NIST AI 600-1 (2024)"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "162jr1t",
+     "Ability Help that can be provided Parts of scientific research that still require judgment"
+    ],
+    [
+     "10gcdgm",
+     "Language organization Translate, summarize, and adjust paragraphs and terminology expressions.\tWhether to change the original intention, qualifications or strength of the evidence."
+    ],
+    [
+     "ud766t",
+     "Material Comparison: Organize the methods, results and differences of multiple documents.\tWhether the materials are complete and whether the comparison objects are comparable."
+    ],
+    [
+     "18lkubt",
+     "Code Generation Write and modify code according to analysis needs.\tDoes the code actually run and the method assumptions apply."
+    ],
+    [
+     "czdkaf",
+     "Charts and explanations Generate charts based on data to illustrate statistical results.\tData sources, units, samples and scope of conclusions."
+    ]
+   ],
+   "note": "This is a summary of the scientific research tasks in the course. It does not rate the tools, nor does it claim that any general model has the same capabilities. Code generation is separated from code execution; execution success is separated from method application. Charts must be derived from actual data or clearly labeled illustrations. Mechanistic illustrations cannot replace experimental results. NIST recommends validating capabilities on a specific task basis and avoiding inappropriate extrapolations from narrow or anecdotal assessments.\nOpenAI Docs, Using tools\nhttps://developers.openai.com/api/docs/guides/tools\nPositioning: web search, file retrieval and tool invocation\nNIST AI 600-1, 2024\nhttps://doi.org/10.6028/NIST.AI.600-1\nPositioning: Section 1 Definition; Section 2.2 Confabulation; MEASURE 2.5"
+  },
+  {
+   "page": 11,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "1v8ctxo",
+     "Organization of complex scientific research tasks"
+    ],
+    [
+     "13kn6kq",
+     "Split \"Write a review for me\" into research links with input, product and verification basis."
+    ],
+    [
+     "94wj3u",
+     "01"
+    ],
+    [
+     "nee3nh",
+     "Defining the problem"
+    ],
+    [
+     "1hpngdl",
+     "Research objects, time range, inclusion criteria"
+    ],
+    [
+     "w49q93",
+     "Formulate research questions with clear boundaries"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ],
+    [
+     "7kcbsa",
+     "Collect materials"
+    ],
+    [
+     "natev5",
+     "Search formula, database and full text"
+    ],
+    [
+     "o6m687",
+     "Save a collection of documents that can be reviewed"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ],
+    [
+     "7eiwcn",
+     "Comparative Evidence"
+    ],
+    [
+     "1armw9v",
+     "Objects, design, indicators and main results"
+    ],
+    [
+     "1s7gqp8",
+     "Distinguish between consensus, disagreement and evidence gaps"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ],
+    [
+     "iz0ld2",
+     "Organizational Discussion"
+    ],
+    [
+     "dxffuc",
+     "Checked evidence and claims"
+    ],
+    [
+     "15kg0sq",
+     "Form paragraphs, indicate citations and limitations"
+    ],
+    [
+     "80y4by",
+     "05"
+    ],
+    [
+     "fxsteg",
+     "Inspection and revision"
+    ],
+    [
+     "etv49o",
+     "Original text, citation list and full text"
+    ],
+    [
+     "jj3k9c",
+     "Check for omissions, misquotations and inferences that cross boundaries"
+    ],
+    [
+     "72q36l",
+     "First determine what evidence is needed for each step, and then decide whether to let the model be generated, call tools, or let the researcher make the judgment."
+    ],
+    [
+     "139omyw",
+     "Source: GWU MAE-6291 (2026); OpenAI: Prompt engineering; NIST AI 600-1 (2024)"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ]
+   ],
+   "note": "This page is used to explain the principles of task decomposition and does not arrange practical or classroom exercises for students. As an example of scientific research work, the review cannot directly call the search terms or research gaps generated by the model as verified results. The formal search and inclusion reporting requirements for systematic reviews are detailed in the literature chapter. This page does not pretend to be in compliance with PRISMA. When the original material is insufficient, gaps will be left. The subsequent Agent chapter explains how the system saves the status and output of these steps.\nBarba, MAE-6291, George Washington University, Spring 2026\nhttps://barbagroup.github.io/mae6291-genai/2026/\nPositioning: Class 1, 2, 10\nOpenAI Docs, Prompt engineering\nhttps://developers.openai.com/api/docs/guides/prompt-engineering\nPositioning: Prompt structure; Include relevant context information\nNIST AI 600-1, 2024\nhttps://doi.org/10.6028/NIST.AI.600-1\nPositioning: Section 1 Definition; Section 2.2 Confabulation; MEASURE 2.5"
+  },
+  {
+   "page": 12,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "t4twdi",
+     "Main variables of scientific research prompt words"
+    ],
+    [
+     "wb73lj",
+     "Prompt words are instructions for the researcher to explain tasks, materials and judgment criteria to the model."
+    ],
+    [
+     "1ndxlvh",
+     "Please compare the two papers I provided from the perspective of research methods."
+    ],
+    [
+     "1lnq3ot",
+     "Compare study objects, sample sources, control settings, measurement indicators, and conclusion ranges. Based only on these two full texts, the original text position corresponding to each judgment is given."
+    ],
+    [
+     "8ov4kf",
+     "Please distinguish between the results reported by the authors and your interpretation. Information not reported in the two papers is marked as “not reported” and do not fill in the sample size, statistical results or other literature."
+    ],
+    [
+     "5bpcy4",
+     "List the common points, differences and their impact on the conclusion one by one according to the comparison dimensions."
+    ],
+    [
+     "zkm3ev",
+     "Analysis perspective"
+    ],
+    [
+     "1t21rum",
+     "Research methods, oriented to specific problems"
+    ],
+    [
+     "xnw74a",
+     "Tasks and Materials"
+    ],
+    [
+     "15v1k7b",
+     "Two designated full texts with clear scope"
+    ],
+    [
+     "muuhcd",
+     "Constraints"
+    ],
+    [
+     "tkczig",
+     "According to location, no missing items will be filled in"
+    ],
+    [
+     "hwn9sv",
+     "Output structure"
+    ],
+    [
+     "suqrx",
+     "Dimension, comparison, conclusion impact"
+    ],
+    [
+     "13jh7yu",
+     "The “Expert” role helps specify the angle; materials, constraints, and verification criteria determine how the mission is carried out."
+    ],
+    [
+     "yeui7f",
+     "Source: OpenAI: Prompt engineering"
+    ],
+    [
+     "76zb91",
+     "08"
+    ]
+   ],
+   "note": "This page is a structural analysis of scientific research instructions, not a record of on-site operation tasks or model execution. The examples are written by the course and do not refer to any two real papers, nor do they provide fictitious comparisons. The role setting is used to specify the methodological perspective and does not mean that the model has the qualifications of a real researcher. Instructions can restrict the output, but they cannot guarantee that the citation is accurate. You still need to go back to the original text for verification. The prompt design principles come from the official instructions, and the comparative dimensions and text are organized by the course according to scientific research scenarios.\nOpenAI Docs, Prompt engineering\nhttps://developers.openai.com/api/docs/guides/prompt-engineering\nPositioning: Prompt structure; Include relevant context information"
+  },
+  {
+   "page": 13,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "1l20lc4",
+     "How to choose between Claude, ChatGPT and DeepSeek"
+    ],
+    [
+     "1d9aq0",
+     "Same task: Based on public papers, explain the evidence of \"AI fabricated literature\" and deliver a one-page explanation."
+    ],
+    [
+     "1fxav0i",
+     "Use the entrance"
+    ],
+    [
+     "sf0gk9",
+     "How to handle this task"
+    ],
+    [
+     "x5iqlt",
+     "Selection basis and inspection"
+    ],
+    [
+     "b4688n",
+     "Claude"
+    ],
+    [
+     "11qt3g7",
+     "File Tool Enabled"
+    ],
+    [
+     "1ya7min",
+     "Read the paper PDF and check tables 3 and 4;"
+    ],
+    [
+     "4idbho",
+     "Organize the results and restrictions and export them to Word."
+    ],
+    [
+     "1wq5vrp",
+     "Suitable for: Already have a paper and need a manuscript."
+    ],
+    [
+     "wlkaxq",
+     "Check: original text positioning, editable text."
+    ],
+    [
+     "1cior5h",
+     "ChatGPT Work"
+    ],
+    [
+     "l5wi52",
+     "File processing mode"
+    ],
+    [
+     "qtqbcw",
+     "Attached are papers and report value sheets;"
+    ],
+    [
+     "ufadra",
+     "Create editable charts and documentation."
+    ],
+    [
+     "5f8ic6",
+     "Suitable for: looking at pictures and modifying files at the same time."
+    ],
+    [
+     "1olc148",
+     "Check: numerical value, denominator, chart editing."
+    ],
+    [
+     "f7b76j",
+     "DeepSeek"
+    ],
+    [
+     "gxm5vl",
+     "Course web plan"
+    ],
+    [
+     "i6ugvn",
+     "Provide the verified text and values;"
+    ],
+    [
+     "bghomm",
+     "Draft the model and export it separately with the file tool."
+    ],
+    [
+     "1sfd30x",
+     "Suitable for: following the course web process."
+    ],
+    [
+     "i82u0b",
+     "Check: node records, actual export files."
+    ],
+    [
+     "1m7i936",
+     "The three routes are selected examples and have not been tested by three parties. Whether you can read files, calculate and export requires checking the current entry and permissions."
+    ],
+    [
+     "75axcw",
+     "Source: Claude: File Tool; OpenAI: Work with files; DeepSeek: API Docs; Walters & Wilder (2023), Tables 3, 4"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "Teachers often ask \"Which assistant is easier to use?\" This page brings the problem down to the same thing: using the public paper of Walters and Wilder (2023), write a page of Chinese material description. First, show the papers and report value tables that have been checked for the course, and then explain what is required for each of the three entrances. The paper studied specific models and tasks at the time; 55% and 18% are error rates that cannot be generalized to today's products. The three routes are selected examples for course writing and have not yet been executed on Claude, ChatGPT or DeepSeek respectively, and there are no three-party performance, speed or cost comparisons.\nClaude route: The official document description supports executing code, processing uploaded materials, and generating Word and other files. If the current account has opened the file tool, you can directly provide the paper PDF, and let it first list the original text positioning, denominator and restrictions, and then organize it into a description draft. If the table cannot be read, a manually checked excerpt will be used instead, and no guessing is allowed. ChatGPT route: This specifically refers to the file processing capabilities in ChatGPT Work and official instructions; provide papers and report value tables together, require editable diagrams and explanation files, check the numbers and graphics in the preview, and then download the file. Whether the common chat portal has the same tool needs to be checked on site. DeepSeek route: This specifically refers to the course web plan that connects to the DeepSeek API; verified text and values ​​are provided, and the model is drafted and exported by the application's file tool. API response, web page retrieval, calculation, and Word export each have their own tools and records. You cannot say that the entire process is complete just by looking at a single answer. The official API also announced the Search/Fetch and Agent integration portal. This page does not describe DeepSeek as naturally unable to connect to the Internet or generate files. There are currently no model calls or three brand results exported for this case.\nLet’s jointly check an error-prone area: 55% and 18% correspond to the fictitious proportion of all references; 43% and 24% correspond to the substantial error proportion in real references. The two sets have different denominators and cannot be combined into an \"overall error rate\". Tables 3 and 4 of the original text and the description of counting in the text should be read together. If you need to determine whether the new documents are authentic item by item, you can also use academic search, DOI and original text review; this is not something that can be accomplished with three assistants voting for each other. Elicit and Consensus are portals for discovery and organization of research, and Connected Papers are used to explore document relationships. For their coverage and full-text availability, please check the official instructions in Section 5. After this page is changed to a branded example, the division of labor of these professional tools is still retained.\nInstructors can open assistant-choice-packet/common tasks.md, three entry tasks and manual verification examples.md. The task text is a teaching material, and the manual verification examples are written based on the paper report values, and none of them pretend to be product answers. Common facts, output check items, product boundaries, and page numbers of this section are written to case.json; local checks only confirm the correspondence between these materials and cannot prove that the tripartite model has been run.\nClaude Help Center, Create and edit files with Claude\nhttps://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude\nPositioning: 2026-08-06; How to get started, Supported file types, Advanced data analysis\nOpenAI, Work with files\nhttps://learn.chatgpt.com/docs/artifacts-viewer\nPositioning: Work with files Text: ChatGPT desktop preview, ChatGPT Work web page attachment and download; Review and refine files\nDeepSeek API Docs, Your First API Call\nhttps://api-docs.deepseek.com/\nPositioning: API compatible format, Integrate with Agent Tools; top Search/Fetch instructions\nWalters & Wilder, Scientific Reports 13:14045, 2023\nhttps://doi.org/10.1038/s41598-023-41032-5\nPositioning: Abstract on page 1 of PDF, Table 3 and Table 4 on page 4"
+  },
+  {
+   "page": 14,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "1ub223z",
+     "Prediction, explanation and causal judgment"
+    ],
+    [
+     "1j0obb9",
+     "After AI generates explanations or predictions, it must be clear: which judgment is supported by the research."
+    ],
+    [
+     "1ih1614",
+     "Prediction"
+    ],
+    [
+     "1hjv5id",
+     "Use existing features to estimate unknown results."
+    ],
+    [
+     "1ecr62e",
+     "For example, predicting properties based on material composition."
+    ],
+    [
+     "k23056",
+     "Need to check the test set, error and applicable range."
+    ],
+    [
+     "sq0ybs",
+     "Explanation"
+    ],
+    [
+     "zs1dxv",
+     "Describe the mechanism through which the phenomenon may occur."
+    ],
+    [
+     "pka796",
+     "Requires evidence of theory, measurement, and supporting mechanisms."
+    ],
+    [
+     "1mcqz0d",
+     "A reasonable story is not enough to establish the mechanism."
+    ],
+    [
+     "agsihl",
+     "Causation"
+    ],
+    [
+     "1ly77ci",
+     "Determine whether changing a factor will change the result."
+    ],
+    [
+     "1lpvm2x",
+     "An appropriate research design and identification of hypotheses are required."
+    ],
+    [
+     "lfpphl",
+     "Accurate correlations or predictions cannot alone prove cause and effect."
+    ],
+    [
+     "1le26ab",
+     "For example: AI discovers that \"a certain feature and result change at the same time\", which can form clues to be tested."
+    ],
+    [
+     "1j01j8p",
+     "To write \"Changing this feature leads to a change in the result\", it is necessary to check for confounding, chronological order and other explanations."
+    ],
+    [
+     "1syunse",
+     "Model output should retain the strength of conclusions that the research design can support. Mechanism schematics and natural language reasoning also require evidence."
+    ],
+    [
+     "2vuosz",
+     "Source: IJS/SLAIF (2026); NIST AI 600-1 (2024)"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "This page talks about the levels of scientific research inference. The examples are method descriptions and do not make up specific experiments or numerical values. Prediction can be used to screen candidate materials without automatically establishing mechanisms and causal conclusions; causal judgment does not rely solely on random experiments. Specific research can include quasi-experiments, observational identification and corresponding hypotheses. A mechanism is not considered proven just because a model generates a detailed explanation. Details of technical methods are developed in the research design and data analysis chapters.\nDžeroski, AI for Science, SLAIF/Jožef Stefan Institute, 2026\nhttps://ai4science.ijs.si/2026course/\nPositioning: Introduction and Foundation Models courseware\nNIST AI 600-1, 2024\nhttps://doi.org/10.6028/NIST.AI.600-1\nPositioning: Section 1 Definition; Section 2.2 Confabulation; MEASURE 2.5"
+  },
+  {
+   "page": 15,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "1wwvy1i",
+     "AI usage statement depends on the specific purpose"
+    ],
+    [
+     "a65yy3",
+     "Different requirements apply for correcting grammar, drafting text, analyzing data and generating illustrations."
+    ],
+    [
+     "f1zjzm",
+     "AI cannot be attributable, the author must still check facts, citations and originality."
+    ],
+    [
+     "ejv45l",
+     "For input restrictions on review and rework materials, please see the supporting policy verification instructions."
+    ],
+    [
+     "pon94t",
+     "Verification date: 2026-10-20. Science details are located on pages 1-2 of the official PDF; the date of access is not equal to the effective date of the policy."
+    ],
+    [
+     "fdfiye",
+     "Source: Nature Portfolio AI policy; Science journals official policy and AI rules; PLOS AI policy"
+    ],
+    [
+     "80uytz",
+     "11"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "20af4y",
+     "Publisher Writing and Disclosure Research Content and Images"
+    ],
+    [
+     "6udk16",
+     "Nature"
+    ],
+    [
+     "1dlh8qf",
+     "Portfolio graded by risk. Extensive writing support"
+    ],
+    [
+     "1n0ldoj",
+     "Requires manual supervision, verification and disclosure.\tThe author is responsible for accuracy and originality;"
+    ],
+    [
+     "2fgj79",
+     "Cannot falsify data or let AI replace judgment."
+    ],
+    [
+     "eyinvh",
+     "Science"
+    ],
+    [
+     "10o1orp",
+     "journals Language clarity modification: Disclaimer."
+    ],
+    [
+     "t14nf0",
+     "Drafting text and translation:"
+    ],
+    [
+     "rhl53c",
+     "Acknowledgements. Please indicate the model and version.\tModify code function, data analysis: method disclosure."
+    ],
+    [
+     "1tkkr1t",
+     "Schematic illustrations are prohibited in principle, please ask the editor first for exceptions."
+    ],
+    [
+     "lrwk3c",
+     "The model name and version are registered according to the purpose."
+    ],
+    [
+     "kgk62z",
+     "PLOS Pure language improvements: Disclosure free."
+    ],
+    [
+     "1fgcdo6",
+     "Generate text, etc.: Disclose in accordance with regulations;"
+    ],
+    [
+     "k8u2ig",
+     "Translation suggestion disclosure.\tAI schematics are available, but must not be passed off as research data;"
+    ],
+    [
+     "jf028j",
+     "The legend is disclosed and checked for accuracy and copyright."
+    ]
+   ],
+   "note": "This page compares three publishers by use. Nature's current webpage lists extensive writing support as a use that requires careful handling, requiring manual supervision, verification, and disclosure; it cannot be concluded that all language editors are exempt from claims. The first page of Science's official rules distinguishes between improving clarity, drafting or translating the text, modifying code functions, and research analysis: the former does not require a statement, drafting and translation indicate the model and version in the acknowledgments, and the latter two categories are in the method description. If you only change the code format and do not change the function, you can avoid the declaration. Schematic illustrations are not allowed in principle, exceptions must be discussed with the editor. Pages 1-2 also limit the input of review and rework materials. Please see the supporting instructions for details. PLOS FAQ exempts the disclosure of pure language improvements and recommends disclosure of translations; schematic diagrams can be used, but they must be disclosed and verified in the figure captions and do not pretend to be original data. None of the three transfer author responsibility to the tool. This round actually reads the web page and views the two-page original PDF of Science; the PDF metadata creation date is 2026-09-01, and the effective date of the independent policy is not marked in the text.\nNature Portfolio, Artificial Intelligence policy\nhttps://www.nature.com/nature-portfolio/editorial-policies/ai\nPositioning: Risk assessment framework; Role-specific responsibilities\nScience Journals: Editorial Policies / Science journals’ guidelines for AI usage\nhttps://www.science.org/content/page/science-journals-editorial-policies\nPositioning: Authorship; Image and Text Integrity / Artificial intelligence; Official AI rules PDF pages 1-2\nDetails PDF: https://www.science.org/cms/asset/cea1081d-3aa4-42a2-96b7-72290067116a/sept26_science_journals_guidelines_ai_use.pdf\nPLOS, Ethical Publishing Practice\nhttps://journals.plos.org/plosone/s/ethical-publishing-practice\nPositioning: AI use by authors; AI use disclosures; FAQ language improvements and translation exceptions, coding and mapping requirements"
+  },
+  {
+   "page": 16,
+   "pairs": [
+    [
+     "1k0af1p",
+     "01 Scientific Research AI: Capabilities, Principles and Academic Boundaries"
+    ],
+    [
+     "ic2q0k",
+     "Four conditions for scientific research credibility"
+    ],
+    [
+     "yspyih",
+     "AI-assisted results need to be checked by evidence and methods before they are included in papers, applications or reports."
+    ],
+    [
+     "1fxcgzd",
+     "The source is authentic"
+    ],
+    [
+     "kxhx8t",
+     "Papers, data and guides have locatable originals."
+    ],
+    [
+     "1kywzla",
+     "If there is a title or DOI, the actual corresponding content still needs to be confirmed."
+    ],
+    [
+     "yzj9vb",
+     "The process can be checked"
+    ],
+    [
+     "vpaj9k",
+     "Keep records of input, methods, code, and processing."
+    ],
+    [
+     "79yrg5",
+     "The calculation can be reproduced, the modification has a basis, and the versions can be distinguished."
+    ],
+    [
+     "kjdtjp",
+     "Inference is appropriate"
+    ],
+    [
+     "1dbys1d",
+     "The conclusion is consistent with the research objects, conditions and design."
+    ],
+    [
+     "1o081az",
+     "Do not write speculations as results, and do not write correlations directly as causation."
+    ],
+    [
+     "7zikmb",
+     "Clear responsibilities"
+    ],
+    [
+     "195lqan",
+     "The researcher checks the content and discloses it for use as required."
+    ],
+    [
+     "1grpok1",
+     "Language revised to preserve facts, figures, citations, and limitations."
+    ],
+    [
+     "gl0dg1",
+     "The subsequent chapters are based on this: literature, data, charts, papers and application materials, each has evidence that needs to be checked."
+    ],
+    [
+     "clh2d8",
+     "Source: NIST AI 600-1 (2024); Walters & Wilder (2023), Tables 3, 4; Nature Portfolio AI policy; PLOS AI policy"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ]
+   ],
+   "note": "This page is the usage framework of the course based on the aforementioned principles, empirical research and publication standards. There is no requirement for classroom exercises, operation check-ins or for students to submit documents. Authentic sources do not guarantee that the conclusions are valid, and reproducibility does not guarantee that the methods are reasonable. The four items need to be judged based on specific research. The subsequent Humanizer chapter will show how to improve the language without changing the strength of evidence and usage facts; the Agent and Harness chapters will explain how to save execution status, sources and files.\nNIST AI 600-1, 2024\nhttps://doi.org/10.6028/NIST.AI.600-1\nPositioning: Section 1 Definition; Section 2.2 Confabulation; MEASURE 2.5\nWalters & Wilder, Scientific Reports 13:14045, 2023\nhttps://doi.org/10.1038/s41598-023-41032-5\nPositioning: Abstract on page 1 of PDF, Table 3 and Table 4 on page 4\nNature Portfolio, Artificial Intelligence policy\nhttps://www.nature.com/nature-portfolio/editorial-policies/ai\nPositioning: Risk assessment framework; Role-specific responsibilities\nPLOS, Ethical Publishing Practice\nhttps://journals.plos.org/plosone/s/ethical-publishing-practice\nPositioning: AI use by authors; AI use disclosures; FAQ language improvements and translation exceptions, coding and mapping requirements"
+  },
+  {
+   "page": 17,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "16v6671",
+     "AI collaboration and execution in scientific research tasks"
+    ],
+    [
+     "1pfxydg",
+     "The same is \"putting together a declaration\", and different work arrangements are required to discuss the content and process the documents."
+    ],
+    [
+     "1v6moar",
+     "Declaration Guide"
+    ],
+    [
+     "2w7a2s",
+     "Extraction request"
+    ],
+    [
+     "cn0uxy",
+     "Organizing content"
+    ],
+    [
+     "1o5pkbt",
+     "First draft of application form"
+    ],
+    [
+     "19l67iu",
+     "Terms and Attachments"
+    ],
+    [
+     "14i1w60",
+     "Request List"
+    ],
+    [
+     "lu2jcw",
+     "Paragraph and Evidence"
+    ],
+    [
+     "47i4qq",
+     "Word+Question List"
+    ],
+    [
+     "1uvbsyc",
+     "People are responsible for judgment"
+    ],
+    [
+     "xklxr0",
+     "Whether the qualifications and direction match; whether the research question is established; whether the existing results support the plan."
+    ],
+    [
+     "vjxy6f",
+     "Teaching Scenario: This page explains the task composition and does not mean that a Grant Agent has been run."
+    ],
+    [
+     "j9itr3",
+     "Source: Stanford CS224N (2026), Lecture 10"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "Let’s start with the application materials that teachers are familiar with. Explain clearly what the discussion content, calling tools, outputting files, and checking materials are. A system may provide these capabilities simultaneously, but the degree of completion will be viewed on a case-by-case basis. Don’t substitute product names for task analysis. This section only explains the organization method, real examples of guidelines and templates are placed in Section 10.\nDetailed teaching content:\nUnderstand the requirements: Read the guide to find out the sections, restrictions and submission requirements: list of requirements and location of the original text\nOrganization content: Compare research objectives, research content and existing evidence: Correspondence between paragraphs and evidence\nProcess files: write text, tables and technical routes according to templates: open and editable files\nCheck deliverables: check for missing items, citations, formatting and versions: issue list and revised document\nStanford CS224N, Winter 2026, Lecture 10: RAG and Agents\nhttps://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf\nPositioning: PDF pages 29-30: Definition and composition; Page 61: Execution environment; Page 68: Evaluation; Page 70: Tool cycle"
+  },
+  {
+   "page": 18,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "16yd1n3",
+     "The relationship between model, agent and product"
+    ],
+    [
+     "r1fkhl",
+     "These names are at different levels: some represent the source of capabilities, some represent systems, and some represent working methods."
+    ],
+    [
+     "vxbxqz",
+     "Agent execution system"
+    ],
+    [
+     "1ow6qt",
+     "Model"
+    ],
+    [
+     "13nhow2",
+     "Generate operation request"
+    ],
+    [
+     "185ciet",
+     "Tools"
+    ],
+    [
+     "19mrmap",
+     "Execute and return the result"
+    ],
+    [
+     "fjkj3t",
+     "Status: Completed, Failed, Pending Verification"
+    ],
+    [
+     "58vlav",
+     "How these systems work"
+    ],
+    [
+     "432ezg",
+     "Agentic AI"
+    ],
+    [
+     "dh4z43",
+     "Describe goal-oriented, multi-step actions,"
+    ],
+    [
+     "egll9d",
+     "Adjust features such as this based on feedback."
+    ],
+    [
+     "1bx806a",
+     "ChatGPT / Codex"
+    ],
+    [
+     "j1xcax",
+     "Product examples; capabilities overlap,"
+    ],
+    [
+     "khy0h8",
+     "cannot be equated with two concepts respectively."
+    ],
+    [
+     "15dz6a",
+     "Look at actual behavior when making judgments: whether to take action, read feedback, and change the next step accordingly."
+    ],
+    [
+     "fpya93",
+     "Source: Stanford CS224N (2026), Lecture 10; OpenAI Docs: Use ChatGPT"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "First separate the four levels. Do not let students remember that Agentic AI is equal to ChatGPT, and AI Agent is equal to Codex. Agentic can modify the working method or system characteristics; Agent usually refers to the system responsible for performing tasks. Definitions in academia and industry are not entirely consistent and a working definition adopted by the course is provided here. Product capabilities will change, and this lesson does not describe interface differences as permanent boundaries.\nDetailed teaching content:\nModel: Generates judgment, text, or tool call requests based on input. : The model itself is not equivalent to a system that completes file tasks.\nAI Agent: An execution system that combines tools and feedback to advance tasks around goals. : Specific systems vary in their degree of autonomy, authority, and reliability.\nAgentic AI: Describes the way AI works with characteristics such as goal orientation and multi-step actions. : The usage of terminology has not yet been unified, and this course explains it based on behavior.\nChatGPT / Codex: Products and work environments people use. : They can support multiple collaboration methods and have overlapping capabilities.\nStanford CS224N, Winter 2026, Lecture 10: RAG and Agents\nhttps://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf\nPositioning: PDF pages 29-30: Definition and composition; Page 61: Execution environment; Page 68: Evaluation; Page 70: Tool cycle\nOpenAI Docs, Use ChatGPT\nhttps://learn.chatgpt.com/docs/use-chatgpt\nPositioning: Go from idea to useful result; Compare ChatGPT Work and Codex on desktop; Check 2026-10-17"
+  },
+  {
+   "page": 19,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "1u4uaft",
+     "Agentic AI and AI Agent"
+    ],
+    [
+     "7ci1f3",
+     "The former is convenient for describing how the task is advanced, and the latter is convenient for discussing what system is responsible for execution."
+    ],
+    [
+     "1wo9662",
+     "Teaching Situation: Verifying a citation with a missing DOI"
+    ],
+    [
+     "yw1p9w",
+     "Citation to be verified"
+    ],
+    [
+     "16cb7np",
+     "Check publication page"
+    ],
+    [
+     "z3s97q",
+     "Check fields"
+    ],
+    [
+     "1i0x2eu",
+     "Checklist"
+    ],
+    [
+     "1n4bfx8",
+     "Agentic Features"
+    ],
+    [
+     "h4xa3k",
+     "Continue to check if missing items are found, and decide the next step based on the results."
+    ],
+    [
+     "ct91tg",
+     "AI Agent System"
+    ],
+    [
+     "u8yq0u",
+     "The models, search tools, documentation tools, and execution arrangements that undertake this task."
+    ],
+    [
+     "1486pn7",
+     "The same Agent can switch between fixed process and flexible judgment."
+    ],
+    [
+     "1tc7lkf",
+     "Source: Stanford CS224N (2026), Lecture 10; Anthropic: Building effective agents"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "Use the same document verification scenario to explain: deciding to recheck materials is an action feature, and it is the system that undertakes the recheck and retains the results. Only conceptual examples are given here, and no fake query records are shown. In engineering practice, workflow and Agent are often used in combination, and all systems cannot be hard divided into two mutually exclusive categories by name.\nDetailed teaching content:\nComparison dimension: Agentic AI: Working method: AI Agent: Execution system\nDiscussion objects: Actively splitting tasks, calling tools, and adjusting based on feedback: a system composed of models, tools, statuses, and running arrangements\nScientific research example: After discovering that the citation is missing a DOI, continue to check the publication page: a literature verification agent responsible for finding citations and outputting a checklist\nWe need to ask: Which steps are determined by the system? When will it be confirmed by humans? : Which tools are connected? Where are the materials stored? How to stop?\nUsage restrictions: is a set of characteristics without a uniform threshold of autonomy: the name itself does not prove that it has been implemented, correct or reliable\nStanford CS224N, Winter 2026, Lecture 10: RAG and Agents\nhttps://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf\nPositioning: PDF pages 29-30: Definition and composition; Page 61: Execution environment; Page 68: Evaluation; Page 70: Tool cycle\nAnthropic, Building effective agents, 2024-12-19\nhttps://www.anthropic.com/engineering/building-effective-agents\nPositioning: What are agents; Workflows; Agents. Used to explain architectural patterns and not used to compare current products."
+  },
+  {
+   "page": 20,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "1iyvt0y",
+     "How Agent continues to work based on feedback"
+    ],
+    [
+     "1nfl07u",
+     "A tool call will generate new information; the system should read the actual returned results before deciding to continue, change methods, or stop."
+    ],
+    [
+     "3pzy57",
+     "Read tasks and status"
+    ],
+    [
+     "1i3om0r",
+     "Select Next"
+    ],
+    [
+     "1q0t5ci",
+     "Call tool"
+    ],
+    [
+     "gabitb",
+     "Check the returned results"
+    ],
+    [
+     "3hjy48",
+     "Goals, materials, completed steps"
+    ],
+    [
+     "3wor8w",
+     "Check the original text, calculate data or write files"
+    ],
+    [
+     "17h0srt",
+     "Tool performs specific operations"
+    ],
+    [
+     "f06zzv",
+     "Success, failure, missing items and exceptions"
+    ],
+    [
+     "1t889c7",
+     "Feedback is used to select next steps; stop when completed or blocked"
+    ],
+    [
+     "1ntdw0e",
+     "Find the original text"
+    ],
+    [
+     "1b8arj1",
+     "Check the title, author, year and conclusion location."
+    ],
+    [
+     "c5qnp6",
+     "Not found"
+    ],
+    [
+     "svtnem",
+     "Record the search scope and missing items; keep \"Not yet verified\"."
+    ],
+    [
+     "1gcyfew",
+     "Exception encountered"
+    ],
+    [
+     "dlw6jx",
+     "Determine whether to try again, change the source, or hand it over to the researcher."
+    ],
+    [
+     "1mwcxz1",
+     "Frame diagram: The arrows indicate task advancement and feedback, and do not show the internal thinking process of the model."
+    ],
+    [
+     "1tc7lkf",
+     "Source: Stanford CS224N (2026), Lecture 10; Anthropic: Building effective agents"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ]
+   ],
+   "note": "First read along the upper row, and then follow the feedback arrow to return to the next choice. It is emphasized that the results returned by the tool are observation information; \"already checked\" written by the model itself cannot replace the retrieval record. Do not treat the reasons for operation explained externally as the internal thinking chain of the model. Stopping conditions should include completion, insufficient materials, insufficient authority, and exceeding agreed resources.\nDetailed teaching content:\nFind the original text: Check the title, author, year and location of the conclusion.\nNot found: record the search scope and missing items; keep \"Not yet verified\".\nIf an exception is encountered: determine whether to retry, change the source, or hand it over to the researcher.\nStanford CS224N, Winter 2026, Lecture 10: RAG and Agents\nhttps://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf\nPositioning: PDF pages 29-30: Definition and composition; Page 61: Execution environment; Page 68: Evaluation; Page 70: Tool cycle\nAnthropic, Building effective agents, 2024-12-19\nhttps://www.anthropic.com/engineering/building-effective-agents\nPositioning: What are agents; Workflows; Agents. Used to explain architectural patterns and not used to compare current products."
+  }
+ ]
+}
