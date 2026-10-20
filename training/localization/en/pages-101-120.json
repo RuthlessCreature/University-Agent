@@ -1,0 +1,1405 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  101,
+  120
+ ],
+ "items": [
+  {
+   "page": 101,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "1hy053n",
+     "How sample size changes with target differences"
+    ],
+    [
+     "f9id5q",
+     "Teaching calculation: two groups are independent and have equal numbers; assuming a standard deviation of 10 points, a two-sided significance level of 0.05, and a test power of 80%."
+    ],
+    [
+     "3m229q",
+     "Differences and fluctuations must have a basis"
+    ],
+    [
+     "jkbzwk",
+     "Standard deviation describes the dispersion of scores."
+    ],
+    [
+     "11n82jv",
+     "10 points and the target difference are both teaching assumptions."
+    ],
+    [
+     "zqgbf0",
+     "Applicable conditions for 45 people/group"
+    ],
+    [
+     "1vfdmug",
+     "only corresponds to the \"6 points difference\" scenario in this example."
+    ],
+    [
+     "8hlski",
+     "Change to class assignment and need to be recalculated."
+    ],
+    [
+     "f1fldn",
+     "Efficacy 80%: If the setting difference exists and the premise is established, about 80% can be detected in repeated studies."
+    ],
+    [
+     "7jn16i",
+     "Parameters are teaching assumptions; actual calculations in local R, which do not include class-related or actual missing mechanisms."
+    ],
+    [
+     "2frizy",
+     "Source: Lakens, 2022, sample size argument; R stats official description; local computing 2026-10-19; course method description/teaching simulation"
+    ],
+    [
+     "80uytz",
+     "11"
+    ],
+    [
+     "1o0t76u",
+     "Chart: Number of people required (each group, rounded up) (barChart):"
+    ],
+    [
+     "1ewby1j",
+     "Categories: 4 points worse, 6 points worse, 8 points worse"
+    ],
+    [
+     "109i6jd",
+     "Number of people in each group: difference of 4 points=100, difference of 6 points=45, difference of 8 points=26"
+    ]
+   ],
+   "note": "First use the raw scores to explain the parameters: If you want to identify the average difference between the two groups by 4 points, and the standard deviation of the individual scores is assumed to be 10 points, the standardized difference is 0.4; the differences of 6 points and 8 points correspond to 0.6 and 0.8 respectively. These three differences and standard deviations are all teaching assumptions. There is no basis for replacing the results of this course with the results of public papers, nor are they called the default \"small, medium, and large\" effects in the field.\nUnder the premise that the two groups are independent, the number of samples is equal, the common standard deviation and the normal model, the two-sided significance level is 0.05, and the target test power is 80%, the actual number of people in each group calculated by the power.t.test of local R is 99.0803, 44.5858, 25.5246, and after rounding up, it is 100, 45, 26. The R code uses strict=TRUE to calculate the two rejection areas on both sides, and uses the numerical integration of the chi-square variance term to check the efficacy; then check that the current integer number of people reaches 80%, and it is not reached when there is one less person. Calculation source code, CSV, session version and hash are saved in design-packet.\n\"Efficacy 80%\" means that in repeated studies where the specified difference does exist and the model and other premises are established, the probability of detection according to the specified test rules is 80%; it does not mean that the conclusion of this study has an 80% probability of being correct. 0.05 represents the control target of the probability of falsely reporting differences according to predetermined rules under the premise of zero difference; it is not the probability that the research result is false. The page does not require beginners to memorize formulas, the point is that the number depends on the basis of differences and fluctuations one wishes to identify.\nOn page 13, only the scene demonstration resources with a difference of 6 points are used for conversion. Formal research needs to first demonstrate why a 6-point difference is worth identifying, where the 10-point fluctuation comes from, and whether individual allocation is feasible. When changing to class allocation, the number of independent classes and intra-group correlation need to be considered; non-normality, different variances, repeated measurements, baseline adjustments or actual missingness should also be calculated separately in the final analysis. Variances and fluctuations cannot be backfilled to accommodate existing budgets, and calculations cannot be run as if the sample basis has been approved.\nDaniël Lakens. Sample Size Justification. Collabra: Psychology 8(1):33267, 2022. DOI:10.1525/collabra.33267\nhttps://doi.org/10.1525/collabra.33267\nPositioning: Abstract, Six Approaches to Justify Sample Sizes, inferential goals\nR stats power.t.test official documentation and native R conditional calculations\nhttps://stat.ethz.ch/R-manual/R-devel/library/stats/html/power.t.test.html\nPositioning: n is the number of people in each group; delta, sd, sig.level, power and strict; actual source code design-packet/sample-size.R, running record r-output/run.json\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 102,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "rzn9f0",
+     "Measurement plan and pre-agreement"
+    ],
+    [
+     "x9ky2u",
+     "The main indicators, time points, exclusion rules and analysis methods should be written clearly before the results are released, and the modified version should be retained."
+    ],
+    [
+     "7yh5r7",
+     "Before starting"
+    ],
+    [
+     "1et0bd3",
+     "During execution"
+    ],
+    [
+     "a7jl8d",
+     "During data compilation"
+    ],
+    [
+     "ds714z",
+     "When interpreting results"
+    ],
+    [
+     "1upgecn",
+     "Determine indicators, measurement and analysis rules"
+    ],
+    [
+     "1ixy5t",
+     "Record deviation and reasons"
+    ],
+    [
+     "1re215y",
+     "Check missing, excluded and versions"
+    ],
+    [
+     "olm3bs",
+     "According to original plan and deviation"
+    ],
+    [
+     "audmxk",
+     "Explain separately"
+    ],
+    [
+     "1tsk2g7",
+     "Indicators and measurement quality should be checked first, then exclusions and deficiencies should be determined, and plans and revision records should be retained."
+    ],
+    [
+     "n2bzoz",
+     "If implementation problems are discovered, traces should be left for revision; the original plan, deviations and exploratory analysis will be explained separately."
+    ],
+    [
+     "xz7eyt",
+     "Source: Course Method Description/Teaching Simulation"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ]
+   ],
+   "note": "Pre-agreement can reduce the space for selecting indicators or excluding samples after looking at the results, but it does not guarantee a correct design. Temporary modifications are sometimes necessary, and the time, reasons and known information should be indicated. Measuring tools need to be checked for applicability, scoring consistency, calibration and range; the key steps are to start with a small-scale trial run. Registration or review requirements are carried out according to actual subject and institutional procedures, and this page does not falsify any approval.\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 103,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "1onipdo",
+     "How does a sample plan turn into workload?"
+    ],
+    [
+     "5welqr",
+     "Follow the \"6 points difference\" teaching scenario: each group requires 45 complete main results, and then estimates the recruitment, measurement and scoring capacity."
+    ],
+    [
+     "1ccs5w4",
+     "Teaching capacity measurement: Number of students, number of students, and number of ratings have their own meanings; the 90% retention rate has not been empirically verified."
+    ],
+    [
+     "74bk3e",
+     "Source: R stats official description; local calculation 2026-10-19; course method description/teaching simulation"
+    ],
+    [
+     "8ku67x",
+     "13"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "10cxkte",
+     "Arrangement This example calculation still needs to be confirmed"
+    ],
+    [
+     "12lyunu",
+     "Full main results 45 people/group, total 90 people 6 points difference scenario; see page 11 for prerequisites"
+    ],
+    [
+     "hxq0ti",
+     "Recruitment reservation 45÷0.90 rounded up = 50 people/group The retention rate of 90% is a teaching assumption"
+    ],
+    [
+     "147v3qh",
+     "Measurement schedule 100 people × 3 time points = 300 people Baseline, on site, one week later"
+    ],
+    [
+     "1c9t1lr",
+     "Grading task 100 answer sheets × 2 raters = 200 times. Prepared at full capacity, but not yet actually scored."
+    ]
+   ],
+   "note": "The resource table starts with headcount calculations, rather than listing equipment and funding out of thin air. In the 6-point difference scenario, there are 45 people in each group and a total of 90 complete main results; assuming a 90% retention rate, divide 45 by 0.90 and round up to 50 people in each group, with a total recruitment capacity of 100 people. The 10% missingness is only reserved for teaching and does not guarantee that the research will not be affected by missingness bias. If dropout is related to group or outcome, increasing the number of participants will not eliminate bias.\nAccording to the three time points of baseline, on-site and one week later, 100 people are planned to be reserved for measurement, and the capacity is 300 people. The 300 records here are not regarded as 300 independent students, and the actual collection number will not be prefilled as 300. The main results are based on 100 answer sheets and 200 scores are reserved for two raters who do not know the grouping; the verification and handling rules for scoring differences need to be formulated separately. This is task capacity, not the amount of work that has been paid for or completed.\nOfficial launch also requires confirmation of recruitment and data permissions, whether the test can be scheduled a week later, the availability of two raters, scoring rules and trial materials, as well as intervention content, record storage and budget. Engineering research conditions such as equipment range and material batch in the original table can still be used as resource check items in other disciplines; this page uses course research examples to demonstrate how to extrapolate from samples and measurement numbers to workload.\nIf the real resource only accommodates 100 people, and the difference you wish to identify is 4 points, you cannot copy the number of 45 people/group: the conditional calculation on page 11 requires 100 complete results per group. The value of the problem, estimation accuracy and detectable range should be re-discussed, and the data basis should be supplemented or postponed, instead of silently deleting controls, changing main indicators or amplifying the expected effect. All cases have not yet been recruited, collected, scored, approved, or formed into actual research results.\nR stats power.t.test official documentation and native R conditional calculations\nhttps://stat.ethz.ch/R-manual/R-devel/library/stats/html/power.t.test.html\nPositioning: n is the number of people in each group; delta, sd, sig.level, power and strict; actual source code design-packet/sample-size.R, running record r-output/run.json\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 104,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "1nii0an",
+     "Failure trigger conditions and backup plans"
+    ],
+    [
+     "1le4bt5",
+     "The backup plan should describe when to switch, what issues to retain, and what conclusions can be drawn after the change."
+    ],
+    [
+     "1sr5y0c",
+     "Key conditions cannot be met"
+    ],
+    [
+     "1iu7b0",
+     "Equipment or measurement unstable"
+    ],
+    [
+     "1gaopi0",
+     "Pause collection and review after calibration"
+    ],
+    [
+     "javlya",
+     "Core data cannot be obtained"
+    ],
+    [
+     "1d12zqx",
+     "Narrowing problem"
+    ],
+    [
+     "1auf9mu",
+     "or suspended"
+    ],
+    [
+     "arpedh",
+     "Teaching Simulation: Reasons for switching, time and impact on conclusions should be recorded."
+    ],
+    [
+     "xz7eyt",
+     "Source: Course Method Description/Teaching Simulation"
+    ],
+    [
+     "6mwyd4",
+     "14"
+    ]
+   ],
+   "note": "Teaching example: When equipment stability does not meet pre-specified standards, pause, calibrate and retest; do not repeatedly filter readings to obtain expected results. When the core data is not authorized, the simulated data is not written as real data, and can be changed to a question or postponement that can obtain data support. Specific thresholds must come from measurement requirements and pre-planned scenarios, this page does not fabricate general standards. Changing outcome measures or samples changes the questions that can be answered and should be reassessed.\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 105,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "1hw9boj",
+     "AI assists in checking research plans"
+    ],
+    [
+     "4nzd60",
+     "Provide the plan, material basis and limitations together, requiring AI to locate contradictions and deficiencies, and then let the researcher handle them."
+    ],
+    [
+     "8hyfx1",
+     "Problems and existing solutions"
+    ],
+    [
+     "i87j9o",
+     "Variable and resource comparison"
+    ],
+    [
+     "axi4s9",
+     "Conflicts and missing items list"
+    ],
+    [
+     "qpkxs2",
+     "Revised plan"
+    ],
+    [
+     "j2peyb",
+     "Attached is the original text, equipment and authorization status"
+    ],
+    [
+     "kxmjrc",
+     "Corresponding objects, indicators and methods item by item"
+    ],
+    [
+     "1o3u76p",
+     "Return to location and reason, unknown allowed"
+    ],
+    [
+     "xhzy3p",
+     "Retain handling opinions and missing evidence"
+    ],
+    [
+     "1dry8sp",
+     "Check example: Are repeated readings of the same sample miscalculated as independent samples?"
+    ],
+    [
+     "h03f73",
+     "Process diagram: The model puts forward inspection opinions, and the researcher confirms and modifies them based on the original materials."
+    ],
+    [
+     "xz7eyt",
+     "Source: Course Method Description/Teaching Simulation"
+    ],
+    [
+     "6wwk23",
+     "15"
+    ]
+   ],
+   "note": "You can ask AI to check: whether the main results answer the question; whether the allocation unit is consistent with the sample size; whether the control changes other conditions at the same time; whether repeated readings are miscalculated as independent samples; whether the alternative plan changes the range of the conclusion. AI may not falsify effect sizes, device capabilities, experimental results, or ethical approvals. This page is a process diagram, not a screenshot of the actual execution of the research and design agent. The appendix of this section adds a complete design example and conditional calculation, which can be used to check: whether the independent allocation unit is consistent with the efficacy model; whether the 90% retention assumption is justified; whether 300 measured person-times are regarded as the number of people; whether the main results change after looking at the data. The actual operation of R only completes the calculation of conditional efficacy and capacity, and does not call the research design model.\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 106,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "1gzl75n",
+     "A set of materials needed to implement the plan"
+    ],
+    [
+     "1stqw9",
+     "Design instructions, measurement rules, resource arrangements and risk treatment should be able to correspond to each other, and unconfirmed matters will continue to be retained."
+    ],
+    [
+     "12kk1c",
+     "Research objects and comparisons"
+    ],
+    [
+     "1oj5upm",
+     "Object boundaries, comparisons and main results"
+    ],
+    [
+     "dfgf7w",
+     "Variables and Measurement Tables"
+    ],
+    [
+     "l6yt91",
+     "Definition, unit, time and quality requirements"
+    ],
+    [
+     "1iwc7mj",
+     "Allocation and Analysis Arrangement"
+    ],
+    [
+     "154lemo",
+     "Independent units, sample basis and missing processing"
+    ],
+    [
+     "1rk0t6b",
+     "Resources, Risks and Versions"
+    ],
+    [
+     "1k9f2w3",
+     "Startup conditions, backup plans and division of responsibilities"
+    ],
+    [
+     "1rpsovh",
+     "Next section: Examine the raw data, run the analysis, and map the values to the research question."
+    ],
+    [
+     "xz7eyt",
+     "Source: Course Method Description/Teaching Simulation"
+    ],
+    [
+     "76w5r2",
+     "16"
+    ]
+   ],
+   "note": "This section delivers teaching examples, variable tables, public textbook data, charts, and to-be-confirmed lists of design descriptions. They do not imply ethical, facility or investigator review. When entering data processing and statistics in the next section, the independent units, main results and analysis rules specified here must be used, and the original question cannot be arbitrarily changed based on the results. In this round, a complete teaching plan, sample scenario R source code, real running CSV and work scale are added. The parameters are teaching assumptions and cannot be directly used as the basis for formal application samples.\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 107,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "4zpj7",
+     "Data processing and statistical analysis"
+    ],
+    [
+     "jbhjtg",
+     "This section uses public measurement data to explain how inspection, calculation and interpretation are connected."
+    ],
+    [
+     "1el0snl",
+     "Research Questions"
+    ],
+    [
+     "1ens422",
+     "Raw data check"
+    ],
+    [
+     "1fp02s9",
+     "Statistical calculation"
+    ],
+    [
+     "m1jx86",
+     "Results and Limitations"
+    ],
+    [
+     "1blz46x",
+     "Male and female of the same species"
+    ],
+    [
+     "1a8xh49",
+     "Fin length difference"
+    ],
+    [
+     "18tuis6",
+     "Check fields, units and missing items"
+    ],
+    [
+     "811f46",
+     "Describe distributions and estimate differences"
+    ],
+    [
+     "mq1435",
+     "Explain assumptions and scope of application"
+    ],
+    [
+     "1pxzck4",
+     "Example task: Compare fin lengths of males and females of the same species and check year, absence, and independence assumptions."
+    ],
+    [
+     "1uw7ckm",
+     "Analysis objects, units and exclusion rules jointly determine the meaning of the results."
+    ],
+    [
+     "zlechb",
+     "Source: UC Berkeley 2026, EDA I, pp.9/20/24"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "Starting from the original document, first clarify the question, unit of measurement, and scope of comparison. AI can generate cleaning and analysis codes, and the instructor must check the filter conditions, denominator, and output. Keep the complete CSV, code and calculation results later.\nUC Berkeley Stat131a Fall2026 Lecture2: EDA I\nhttps://docs.google.com/presentation/d/1_i5kgBSmCoYQF2bB1jfGpZkL3pRWku54BDd5xxLqZVE/edit\nPositioning: PDF pages 9, 20, and 24, rendered for viewing"
+  },
+  {
+   "page": 108,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "z5wnk5",
+     "Collection background of public data"
+    ],
+    [
+     "tiwi6m",
+     "Palmer data contains 344 penguins, 3 species, and 3 islands, and the collection years are 2007-2009."
+    ],
+    [
+     "1jfog42",
+     "344 public observations"
+    ],
+    [
+     "107p4rq",
+     "Adelie Adelie"
+    ],
+    [
+     "b6j3xq",
+     "152 items"
+    ],
+    [
+     "bjxvy8",
+     "Chinstrap Hatband"
+    ],
+    [
+     "1afajc6",
+     "68 items"
+    ],
+    [
+     "1vldj5k",
+     "Gentoo Papua"
+    ],
+    [
+     "k1l1c1",
+     "124 items"
+    ],
+    [
+     "6el8pb",
+     "3 islands, 2007-2009"
+    ],
+    [
+     "ex80f6",
+     "For secondary teaching analysis of public observation data, the research scope needs to be judged based on the original sampling design."
+    ],
+    [
+     "bmy8q",
+     "Source: palmerpenguins public data, secondary calculation in this course"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "Collected by Kristen Gorman and Palmer Station LTER, the course uses an 8-field simplified version compiled by Horst et al. The observation object is individual penguins, but the simplified table cannot independently verify nests, individual uniqueness, or duplicate records. The CSV line number here is only used for traceability and cannot be used to pretend to be a biological individual ID.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 109,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "32a4n1",
+     "Values and missing values in the original table"
+    ],
+    [
+     "1wtvbvi",
+     "Preview the first 6 records and you can see the unit of fin length, gender classification, and the entire set of missing measurements."
+    ],
+    [
+     "cpal32",
+     "NA means missing; male means male and female means female. CSV row numbers are only used for traceback."
+    ],
+    [
+     "bmy8q",
+     "Source: palmerpenguins public data, secondary calculation in this course"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "pqemyy",
+     "CSV row Species Fin length mm Sex Year"
+    ],
+    [
+     "1p73e8l",
+     "2 Adelie 181 male 2007"
+    ],
+    [
+     "6p0xeq",
+     "3 Adelie 186 female 2007"
+    ],
+    [
+     "xt0ncx",
+     "4 Adelie 195 female 2007"
+    ],
+    [
+     "1wx7ruj",
+     "5 Adelie NA NA 2007"
+    ],
+    [
+     "ohgxf1",
+     "6 Adelie 193 female 2007"
+    ],
+    [
+     "pimuq",
+     "7 Adelie 190 male 2007"
+    ]
+   ],
+   "note": "This page takes the first 6 data rows of the CSV. The row numbers displayed are the physical row numbers of the file, including the header. NA in line 5 indicates that the record is missing and cannot be converted to 0 mm. The table only extracts the few columns needed for this section, and the remaining fields are still saved in the full CSV.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 110,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "7vgtw",
+     "Field definition and comparison caliber"
+    ],
+    [
+     "tvs7r8",
+     "The example question is limited to the comparison of male and female fin lengths within the Adelie species, and the measurement unit is retained in millimeters."
+    ],
+    [
+     "tyu5ur",
+     "The calculation in this section follows the original field, and does not add zeros to NA or guess gender."
+    ],
+    [
+     "bmy8q",
+     "Source: palmerpenguins public data, secondary calculation in this course"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "8fq4bc",
+     "Field Meaning and Unit This Purpose"
+    ],
+    [
+     "t7qkt0",
+     "species species, classification limited to Adelie"
+    ],
+    [
+     "1h7rz4s",
+     "sex female/male grouping variable"
+    ],
+    [
+     "99xdwa",
+     "flipper_length_mm Flipper length, mm Continuous result variable"
+    ],
+    [
+     "m4g64a",
+     "island/year island/year of collection Check composition and stratification"
+    ],
+    [
+     "1ioy4wm",
+     "The original individual ID simplified table is not provided. Dependencies cannot be verified based on this table alone."
+    ]
+   ],
+   "note": "Define the analysis target first, and then retrieve the columns. Adelie is commonly known as Adelie penguin. The name of the source table is retained in this section for easy comparison. Sex is a taxonomic record, fin length is a continuous measurement; year and island may affect composition and cannot be ignored. The absence of all fields was not used to determine inclusion in this analysis.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 111,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "3cttyw",
+     "Missing Check and Analysis Denominator\nAmong the"
+    ],
+    [
+     "170f12g",
+     "344 records, 11 are missing for gender and 2 are missing for each of the four body measurement fields."
+    ],
+    [
+     "1sanzkc",
+     "The analysis denominator changes with the problem"
+    ],
+    [
+     "17fbxk8",
+     "species, island, year\nNone of"
+    ],
+    [
+     "1hm84yz",
+     "is missing."
+    ],
+    [
+     "1biboh3",
+     "The same record may"
+    ],
+    [
+     "1kgpyxy",
+     "Multiple fields are missing."
+    ],
+    [
+     "m3dhpg",
+     "The number of missing items in each field overlaps. You must go back to the row record to determine the exclusion range."
+    ],
+    [
+     "bmy8q",
+     "Source: palmerpenguins public data, secondary calculation in this course"
+    ],
+    [
+     "80y4by",
+     "05"
+    ],
+    [
+     "lqke8h",
+     "Chart: Number of missing fields in 344 records (barChart):"
+    ],
+    [
+     "y3ommz",
+     "Categories: Beak length, Beak depth, Fin length, Weight, Gender"
+    ],
+    [
+     "1uqa9oc",
+     "Number of missing records: Beak length=2, Beak depth=2, Fin length=2, Weight=2, Gender=11"
+    ]
+   ],
+   "note": "Missing statistics are based on fields, and the same row may be missing multiple columns at the same time. Therefore, the missing numbers of each field cannot be added together as the total number of exclusions. The figure shows the complete 344 rows of missing fields. Specific comparisons are also filtered by the target column.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 112,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "2ydsii",
+     "The inclusion process in this calculation"
+    ],
+    [
+     "9g213g",
+     "Among the 152 Adelie records, 6 lacked gender or fin length, and 146 were finally included."
+    ],
+    [
+     "ypv46u",
+     "All records"
+    ],
+    [
+     "12o1ll",
+     "344 items"
+    ],
+    [
+     "1j5zxpz",
+     "Adelie"
+    ],
+    [
+     "b6j3xq",
+     "152 items"
+    ],
+    [
+     "o1emux",
+     "Required fields are complete"
+    ],
+    [
+     "16z9cc1",
+     "146 items"
+    ],
+    [
+     "1xc3jil",
+     "Limited species"
+    ],
+    [
+     "b6uhu2",
+     "Exclude 6 items"
+    ],
+    [
+     "mgcsr",
+     "male: 73 items"
+    ],
+    [
+     "ycuwj2",
+     "female: 73 items"
+    ],
+    [
+     "1egtch7",
+     "Exclusion basis: Gender or missing fin length"
+    ],
+    [
+     "1iyonbn",
+     "No imputation was performed, and complete record analysis may still be affected by missing mechanisms."
+    ],
+    [
+     "v32a96",
+     "Only check the required columns this time; the impact of missing processing must still be judged based on the sampling records."
+    ],
+    [
+     "bmy8q",
+     "Source: palmerpenguins public data, secondary calculation in this course"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ]
+   ],
+   "note": "After filtering Adelie from 344 entries, there were 152 entries. After analyzing the complete records of sex and flipper_length_mm, we got 73 entries for female and 73 entries for male. The excluded CSV physical row numbers are 5, 10, 11, 12, 13, and 49. No interpolation was performed. Deletions may be related to measurement or sampling, and complete recording of results does not prove that deletions are unbiased.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 113,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "bul8qo",
+     "How does the result change after exception marking?"
+    ],
+    [
+     "f6874o",
+     "The same Adelie data: compare the mean difference between retaining all records and temporarily arranging two mark values, and the original records remain unchanged."
+    ],
+    [
+     "1cflp4q",
+     "Mark 2 items according to distribution rules"
+    ],
+    [
+     "x17lbk",
+     "Return to the original data to check the reason"
+    ],
+    [
+     "t2w656",
+     "Original records continue to be retained"
+    ],
+    [
+     "1lamlyq",
+     "Mark rows 30 and 131: fin length 172, 210 mm."
+    ],
+    [
+     "1s7uxl1",
+     "The temporary ranking is just a sensitivity comparison; no errors have been identified."
+    ],
+    [
+     "f2pb2n",
+     "It cannot be written as the “correct answer” after cleaning."
+    ],
+    [
+     "1v6s9jc",
+     "Sensitivity comparison of real public data; marking does not mean wrong identification, and the original data has not been deleted."
+    ],
+    [
+     "69mlyg",
+     "Source: NIST Statistical Manual §1.3.5.3; palmerpenguins public data, secondary calculation in this course; local comparison and simulation, 2026-10-19"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "1jorolg",
+     "Comparative caliber, number of female/male bars, male minus female mm"
+    ],
+    [
+     "1epwmbs",
+     "Keep all complete records 73 / 73 4.616"
+    ],
+    [
+     "15wumhd",
+     "Exclude 2 items when comparing 72 / 72 4.153"
+    ]
+   ],
+   "note": "The course script performs a 1.5 times IQR range screening on Adelie's complete records, and only saves the mark, but does not delete it accordingly. The screening threshold is an exploratory rule and does not equal false identification. Can check unit conversion, input, instrument and sampling background; retain and compare different analyzes when it cannot be determined. This round actually recalculates the quartiles according to the original CSV: Q1=186, Q3=195, and the 1.5 times IQR range is 172.5-208.5 mm. Marking physical rows 30 (female, 172mm) and 131 (male, 210mm), recording error not yet identified. When all complete records are kept, there are 73 males and 73 males respectively, and the male minus the female is 4.616438 mm; when these two species are temporarily arranged only for sensitivity comparison, there are 72 females each, with a difference of 4.152778 mm. This difference does not prove that the exclusions are more correct, nor does it prove that the results are robust; the original files are unchanged from those formally included in the CSV. The code and complete values ​​for both calibers are saved in analysis-packet. IQR is explained in this lesson as the span of the middle half of the records, not the instrument tolerance.\nNIST/SEMATECH: Two-Sample t-Test for Equal Means\nhttps://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm\nPositioning: paired/unpaired and Welch-Satterthwaite description\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash.\nComparison of anomaly labeling sensitivity in this course with the first 20 consecutive times of normal simulation\nlocal:analysis-packet/teaching-comparisons.json\nPositioning: prepare-teaching-comparisons.py, outlier-sensitivity.csv, normal-ci-first20.csv; original data and all 1000 simulations remain unchanged"
+  },
+  {
+   "page": 114,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "tos84t",
+     "Fin length distribution and overlap between groups"
+    ],
+    [
+     "1pcpxhx",
+     "The distribution of males and females overlaps, and the mean difference cannot be used to accurately determine the gender of each penguin."
+    ],
+    [
+     "1lsy8vv",
+     "73 items per group"
+    ],
+    [
+     "1tftuqb",
+     "One set every 5 mm"
+    ],
+    [
+     "18ny10n",
+     "There is overlap between groups,"
+    ],
+    [
+     "1rch85u",
+     "The mean difference is not equal to"
+    ],
+    [
+     "f20xzq",
+     "Individuals can be accurately classified."
+    ],
+    [
+     "1ijg25l",
+     "The horizontal axis is the fin length interval, and the vertical axis is the number of records. Binning boundaries and counts are recalculated."
+    ],
+    [
+     "bmy8q",
+     "Source: palmerpenguins public data, secondary calculation in this course"
+    ],
+    [
+     "76zb91",
+     "08"
+    ],
+    [
+     "1as0igm",
+     "Chart: Adelie fin length bin frequency (mm) (barChart):"
+    ],
+    [
+     "1y6a6ss",
+     "Categories: 170–175, 175–180, 180–185, 185–190, 190–195, 195–200, 200–205, 205–210, 210–215"
+    ],
+    [
+     "nulz9c",
+     "female: 170–175=2, 175–180=3, 180–185=11, 185–190=27, 190–195=21, 195–200=8, 200–205=1, 205–210=0, 210–215=0"
+    ],
+    [
+     "11zmhu1",
+     "male (male): 170–175=0, 175–180=1, 180–185=10, 185–190=8, 190–195=24, 195–200=22, 200–205=5, 205–210=2, 210–215=1"
+    ]
+   ],
+   "note": "Adelie's complete records are summarized in intervals of equal width of 5 mm. The interval is closed on the left and open on the right. The final interval includes the right endpoint according to NumPy rules. 73 items per group. The overlap of the two sets of distributions reminds the instructor to distinguish between group means and individual discrimination, and not to give unverified classification accuracy.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 115,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "5qxhm6",
+     "Standard deviation and standard error"
+    ],
+    [
+     "e9fzds",
+     "The standard deviation describes the dispersion of individual measurements, and the standard error describes the fluctuations in mean estimates across samples."
+    ],
+    [
+     "5av1da",
+     "female 73 measurements"
+    ],
+    [
+     "f5p6s",
+     "Dispersion among individuals"
+    ],
+    [
+     "rmg8cd",
+     "Fluctuations in mean estimates"
+    ],
+    [
+     "vl73gk",
+     "SD = 5.60 mm"
+    ],
+    [
+     "uah6nt",
+     "SE = 0.65 mm"
+    ],
+    [
+     "u3f5e8",
+     "Mean value 187.79 mm"
+    ],
+    [
+     "edcjju",
+     "Under the assumption of independent and identical distribution: SE = SD / √n"
+    ],
+    [
+     "3bnrl9",
+     "Here SE assumes row independence and does not check the correlation structure at the nest or individual level."
+    ],
+    [
+     "1wmuxmw",
+     "Source: NIST Statistical Manual §1.3.5.2; palmerpenguins public data, secondary calculation for this course"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "The mean value of the female group is 187.79mm, and the sample SD is 5.60mm. When treating rows as independent and identically distributed observations, the mean SE=SD/√73=0.65mm. The SE formula relies on independence; nest or year correlation may make simple SE inappropriate. Small SE cannot be understood as meaning that each individual is close to the mean.\nNIST/SEMATECH: Confidence Limits for the Mean\nhttps://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm\nPositioning: Purpose and Definition; repeated sampling explanation\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 116,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "1g3ctk2",
+     "Independent group and paired data"
+    ],
+    [
+     "j03iby",
+     "Two groups composed of different individuals have different data structures from the records of the same individual at two points in time."
+    ],
+    [
+     "1x8w4vr",
+     "Independent group indication"
+    ],
+    [
+     "hcwr70",
+     "Pairing instructions"
+    ],
+    [
+     "1twu35u",
+     "Individual A, B, C"
+    ],
+    [
+     "1dyci6e",
+     "Group 1"
+    ],
+    [
+     "ngcdo3",
+     "Individual D, E, F"
+    ],
+    [
+     "1docwhf",
+     "Group 2"
+    ],
+    [
+     "1ae6vii",
+     "Same individual X"
+    ],
+    [
+     "vdxik3",
+     "Time 1"
+    ],
+    [
+     "1ae6vii",
+     "Same individual X"
+    ],
+    [
+     "vnx492",
+     "Time 2"
+    ],
+    [
+     "1bgoouw",
+     "Compare the distribution or means of two groups"
+    ],
+    [
+     "3x5r26",
+     "First calculate the before and after difference of each individual"
+    ],
+    [
+     "1kbvhfn",
+     "Teaching structure diagram. An equal number of rows within a group cannot prove one-to-one matching."
+    ],
+    [
+     "1not62x",
+     "Source: NIST Statistical Manual §1.3.5.3; Course Method Illustration/Teaching Simulation"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "The left side shows that different individuals A and B enter two groups respectively, and the right side shows the before and after records of the same individual X. Matching requires verifiable correspondence. The simplified table of penguin data does not have pre- and post-test IDs, and the two groups are not paired because they are equal in number. Indicated letters are not actual sample IDs.\nNIST/SEMATECH: Two-Sample t-Test for Equal Means\nhttps://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm\nPositioning: paired/unpaired and Welch-Satterthwaite description\nCourse self-editing method description and teaching simulation\nlocal:training/section-07/lesson.json\nPositioning: The simulation content does not represent scientific research observations or model execution screenshots"
+  },
+  {
+   "page": 117,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "6j4et8",
+     "Analysis methods and data structures"
+    ],
+    [
+     "1d8l7lz",
+     "Method selection needs to consider also the type of results, research question, allocation or sampling units, and model assumptions."
+    ],
+    [
+     "1bvo8h5",
+     "Results and data structures"
+    ],
+    [
+     "gxvco9",
+     "Continuous result / independent group"
+    ],
+    [
+     "yv0cl5",
+     "Mean difference: such as Welch method"
+    ],
+    [
+     "19czy00",
+     "Continuous results/matching"
+    ],
+    [
+     "1wtpng6",
+     "Corresponding difference: such as paired analysis"
+    ],
+    [
+     "1gbb119",
+     "Classification results/count"
+    ],
+    [
+     "1pxjk0m",
+     "Scale Comparison: Checking Sparse Counts"
+    ],
+    [
+     "1oaa17n",
+     "Repeated measurements, clustering or multiple group comparisons require further matching of the research design."
+    ],
+    [
+     "73kjm5",
+     "This section actually runs descriptive statistics and group resampling (bootstrap), but not all branches."
+    ],
+    [
+     "1not62x",
+     "Source: NIST Statistical Manual §1.3.5.3; Course Method Illustration/Teaching Simulation"
+    ],
+    [
+     "80uytz",
+     "11"
+    ]
+   ],
+   "note": "For continuous results, you can consider independent group Welch or paired difference methods to compare means, and for categorical results, you can compare proportions and check sparse counts; multiple groups, repeated measurements, or clustering require corresponding models. A P value for the normality test does not automatically determine the entire method. This page only shows the selection frame and does not claim that all methods have been run.\nNIST/SEMATECH: Two-Sample t-Test for Equal Means\nhttps://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm\nPositioning: paired/unpaired and Welch-Satterthwaite description\nCourse self-editing method description and teaching simulation\nlocal:training/section-07/lesson.json\nPositioning: The simulation content does not represent scientific research observations or model execution screenshots"
+  },
+  {
+   "page": 118,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "c2e7hv",
+     "Mean difference between male and female and conditional interval"
+    ],
+    [
+     "diqfiu",
+     "In Adelie’s complete record, the average male is 4.62 mm taller than the female."
+    ],
+    [
+     "jv3yxy",
+     "Male minus female: 4.62 mm"
+    ],
+    [
+     "7edptn",
+     "Resampling interval: 2.68-6.58 mm"
+    ],
+    [
+     "1ahg257",
+     "Each group is sampled by row, 10,000 times, and the 2.5% and 97.5% quantiles are taken."
+    ],
+    [
+     "gq7dec",
+     "The interval dependence row independence assumption is not a published inference conclusion of the original study."
+    ],
+    [
+     "185lv3s",
+     "Source: palmerpenguins public data, secondary calculation of this course; UC Berkeley 2026, confidence interval, pp.4/7/8"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "fjxxp8",
+     "Complete record n Mean mm SD mm"
+    ],
+    [
+     "1p7d7vz",
+     "female (female) 73 187.79 5.60"
+    ],
+    [
+     "hbpoy6",
+     "male (male) 73 192.41 6.60"
+    ]
+   ],
+   "note": "Male is 192.41mm and female is 187.79mm; the difference is defined as male minus female. The two groups were sampled 10,000 times by row with replacement, and the 2.5% and 97.5% percentile points formed the percentile interval. Approximately 2.68-6.58mm is obtained, and the value is generated by the script. This is the teaching interval under the row-independence model and does not cover selection bias, missing mechanisms, or within-nest correlations.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash.\nUC Berkeley Stat131a Fall2026 Lecture11: Confidence intervals I\nhttps://docs.google.com/presentation/d/1as5Nr_mx7eZk1Wz4mZJdOcHGjycFxf5FqhZyfXqjLbk/edit\nPositioning: PDF pages 4, 7, and 8, rendered for viewing"
+  },
+  {
+   "page": 119,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "swbfsc",
+     "The meaning of repeated sampling at 95% confidence level"
+    ],
+    [
+     "1dmr0y0",
+     "In repeated simulations, the interval position will change, and the true value is fixed at 100; 95% refers to the long-term coverage of this method when the model is established."
+    ],
+    [
+     "mjl842",
+     "1st-10th time"
+    ],
+    [
+     "10loibh",
+     "Fixed true value 100"
+    ],
+    [
+     "efwnq4",
+     "1"
+    ],
+    [
+     "f9vgt1",
+     "2"
+    ],
+    [
+     "ezvv42",
+     "3"
+    ],
+    [
+     "dlxun7",
+     "4"
+    ],
+    [
+     "dby8y8",
+     "5"
+    ],
+    [
+     "e5x215",
+     "6"
+    ],
+    [
+     "dvxgc6",
+     "7"
+    ],
+    [
+     "gxt2yv",
+     "8"
+    ],
+    [
+     "gnth9w",
+     "9"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ],
+    [
+     "3bt5n0",
+     "90"
+    ],
+    [
+     "2huck3",
+     "95"
+    ],
+    [
+     "smuzdo",
+     "100"
+    ],
+    [
+     "rsw6ar",
+     "105"
+    ],
+    [
+     "uavr1h",
+     "110"
+    ],
+    [
+     "14ofun4",
+     "11th-20th time"
+    ],
+    [
+     "10loibh",
+     "Fixed true value 100"
+    ],
+    [
+     "80uytz",
+     "11"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ],
+    [
+     "8ku67x",
+     "13"
+    ],
+    [
+     "6mwyd4",
+     "14"
+    ],
+    [
+     "6wwk23",
+     "15"
+    ],
+    [
+     "76w5r2",
+     "16"
+    ],
+    [
+     "7gvrg1",
+     "17"
+    ],
+    [
+     "5iyjl8",
+     "18"
+    ],
+    [
+     "5sy5a7",
+     "19"
+    ],
+    [
+     "13dvipr",
+     "20"
+    ],
+    [
+     "3bt5n0",
+     "90"
+    ],
+    [
+     "2huck3",
+     "95"
+    ],
+    [
+     "smuzdo",
+     "100"
+    ],
+    [
+     "rsw6ar",
+     "105"
+    ],
+    [
+     "uavr1h",
+     "110"
+    ],
+    [
+     "1cg3yij",
+     "Simulation: mean 100, known standard deviation 10; 25 independent normal observations each time."
+    ],
+    [
+     "6ooksy",
+     "Among the first 20 consecutive times, the 18th time was not covered; out of the total 1000 times, 941 times were covered and 59 times were not covered. Teaching simulation, not real measurement."
+    ],
+    [
+     "166qkhm",
+     "Source: UC Berkeley 2026, Confidence Interval, pp.4/7/8; NIST Statistical Manual §1.3.5.2; Course Method Illustration/Teaching Simulation"
+    ],
+    [
+     "8ku67x",
+     "13"
+    ]
+   ],
+   "note": "The teaching simulation assumes that the overall mean is 100, the known SD is 10, and 25 independent normal observations are made each time; the normal interval of the known SD is used instead of the sample SD. Run 1000 times, display the first 10 times. The coverage ratio of a certain group of 10 times does not need to be equal to 95%, and 1000 times also have Monte Carlo fluctuations. The model parameters are self-set values ​​and have nothing to do with the penguin data. The first 20 consecutive changes in this round are divided into columns 1-10 and 11-20. The two columns use the same coordinates. The 18th interval is 90.920460-98.760316, which does not include 100 and is marked with a red horizontal line and serial number; the remaining 20 times include 100. There are no seed changes, reruns to pick samples, or skipped times. The total is still 941/1000 covered and 59 uncovered. Exactly 19/20 coverage in the first 20 times cannot be used as proof of long-term coverage. The vertical line represents the fixed true value, and the horizontal line is the interval obtained by repeated sampling. The original 1000 times CSV remains unchanged; the first 20 consecutive times extracted from the original CSV are provided with the hash with the package.\nUC Berkeley Stat131a Fall2026 Lecture11: Confidence intervals I\nhttps://docs.google.com/presentation/d/1as5Nr_mx7eZk1Wz4mZJdOcHGjycFxf5FqhZyfXqjLbk/edit\nPositioning: PDF pages 4, 7, and 8, rendered for viewing\nNIST/SEMATECH: Confidence Limits for the Mean\nhttps://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm\nPositioning: Purpose and Definition; repeated sampling explanation\nCourse self-editing method description and teaching simulation\nlocal:training/section-07/lesson.json\nPositioning: The simulation content does not represent scientific research observations or model execution screenshots"
+  },
+  {
+   "page": 120,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "t88pdf",
+     "Conditional meaning of two-sided P value"
+    ],
+    [
+     "rkmwwa",
+     "Teaching settings: Toss a coin 20 times independently, observe 15 heads, and calculate the probabilities of both ends under the possible assumptions of heads and tails."
+    ],
+    [
+     "1e8pp",
+     "Red: Bilateral extreme event"
+    ],
+    [
+     "gdiq4d",
+     "K ≤ 5 or K ≥ 15"
+    ],
+    [
+     "cx98v4",
+     "The sum of the probabilities of the two ends of red"
+    ],
+    [
+     "r5mqfu",
+     "P ≈ 0.0414"
+    ],
+    [
+     "d5ld49",
+     "Does not represent the null hypothesis\nThe probability that"
+    ],
+    [
+     "1a6d9a1",
+     "is true."
+    ],
+    [
+     "lzsu9m",
+     "Teaching settings, not penguin tests. Exact two-sided P≈0.0414, no normal approximation used."
+    ],
+    [
+     "1lxx1in",
+     "Source: UC Berkeley 2026, Hypothesis Testing, pp.6/17/29; ASA, 2016, P-value statement; Course method illustration/teaching simulation"
+    ],
+    [
+     "6mwyd4",
+     "14"
+    ],
+    [
+     "v7sowc",
+     "Chart: Binomial distribution of the number of heads K (n=20, p=0.5) (barChart):"
+    ],
+    [
+     "wqezr1",
+     "Categories: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20"
+    ],
+    [
+     "1odjtcl",
+     "Probability: 0=9.5367431640600002E-07, 1=1.9073486328099999E-05, 2=0.00018119812011699999, 3=0.0010871887206999999, 4=0.0046205520629900004, 5=0.0147857666016, 6=0.036964416503899998, 7=0.073928833007799996, 8=0.120134353638, 9=0.16017913818400001, 10=0.176197052002, 11=0.16017913818400001, 12=0.120134353638, 13=0.073928833007799996, 14=0.036964416503899998, 15=0.0147857666016, 16=0.0046205520629900004, 17=0.0010871887206999999, 18=0.00018119812011699999, 19=1.9073486328099999E-05, 20=9.5367431640600002E-07"
+    ]
+   ],
+   "note": "The null hypothesis is that the probability of each head is 0.5 and independent. Bilateral extreme events are defined as K ≥ 15 or K ≤ 5, and the exact binomial distribution is added to get 0.041389. The 15 heads are a teaching setting and are not disguised as actual tossing records. The P value is not equal to the probability that the null hypothesis is true, nor is it equal to the probability that the result is due to chance. In this round, 12 bars with K ≤ 5 or K ≥ 15 are marked red; the P value added is the sum of the probabilities of these bars, not the height of the 15 bar, nor the cumulative probability from 0 to 15. Colors and values ​​are from the same set of exact binomial probabilities, with unchanged data.\nUC Berkeley Stat131a Fall2026 Lecture14: Hypothesis testing I\nhttps://docs.google.com/presentation/d/1kVlWvs05VWO8afAteE92p85yHMnPlo1WEuktsL6AeHE/edit\nPositioning: PDF pages 6, 17, and 29 have been rendered for viewing; pages 30 and 34 have read text\nASA 2016 Statement on Statistical Significance and P-Values\nhttps://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf\nPositioning: Principles Pages 2-3; Model Conditions, Effect Sizes, and Selective Reporting\nCourse self-editing method description and teaching simulation\nlocal:training/section-07/lesson.json\nPositioning: The simulation content does not represent scientific research observations or model execution screenshots"
+  }
+ ]
+}
