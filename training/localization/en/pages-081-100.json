@@ -1,0 +1,1321 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  81,
+  100
+ ],
+ "items": [
+  {
+   "page": 81,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "1m9zusq",
+     "The reading order of a paper"
+    ],
+    [
+     "1iwi4gg",
+     "First determine what the paper is answering, then check the design and results, and finally explain where the author's conclusions apply."
+    ],
+    [
+     "d0ooz3",
+     "Problems and Research Objects"
+    ],
+    [
+     "11aadc1",
+     "Methods and comparison conditions"
+    ],
+    [
+     "qckuxy",
+     "Main results and graphs"
+    ],
+    [
+     "jkyt6i",
+     "Restrictions and Scope of Application"
+    ],
+    [
+     "6qm6lv",
+     "Record the author’s true"
+    ],
+    [
+     "za78fz",
+     "Research content"
+    ],
+    [
+     "yna3lz",
+     "Look at grouping, measurement and exclusion"
+    ],
+    [
+     "1svusfc",
+     "Check values, units and denominators"
+    ],
+    [
+     "15ww1bb",
+     "Distinguish between results, explanations and speculations"
+    ],
+    [
+     "zla7oa",
+     "Separate the facts of the original text from your own interpretation in your reading notes to avoid finding no basis when writing a review."
+    ],
+    [
+     "1cssroh",
+     "The notes should at least retain: the location of the original text, your own paraphrase and the areas that are still uncertain."
+    ],
+    [
+     "14byjk6",
+     "Source: Course method description/teaching examples"
+    ],
+    [
+     "6wwk23",
+     "15"
+    ]
+   ],
+   "note": "You can go back and forth in the reading order, and you can't just read the last sentence of the summary. For empirical research, methods determine what judgments the results can support. If there is any inconsistency between the figures and the text, first check the definitions, samples and supplementary materials. Theoretical, qualitative and methodological papers should be adjusted according to their argumentation structure, and unified quantitative tables are not required.\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 82,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "1su06es",
+     "Location information in evidence extraction"
+    ],
+    [
+     "1lch7cq",
+     "In the same sentence \"improve learning performance\", it is necessary to supplement the object, comparison conditions, measurement time point and conclusion range."
+    ],
+    [
+     "1hptjin",
+     "Object"
+    ],
+    [
+     "qvnqvx",
+     "Mathematics teaching in a high school in Türkiye"
+    ],
+    [
+     "x9lhsn",
+     "Experimental Design"
+    ],
+    [
+     "1de1wow",
+     "Compare"
+    ],
+    [
+     "f6bsot",
+     "Base, Tutor and non-generative AI resource group"
+    ],
+    [
+     "x9lhsn",
+     "Experimental Design"
+    ],
+    [
+     "uryvfj",
+     "Measurement"
+    ],
+    [
+     "1syje86",
+     "Helpful exercises and resource removal quizzes"
+    ],
+    [
+     "mm3oal",
+     "Abstract、Table 1"
+    ],
+    [
+     "3pykgf",
+     "Limited"
+    ],
+    [
+     "18bhw97",
+     "Specific tools, schools and teaching tasks"
+    ],
+    [
+     "u55qay",
+     "Course Interpretation:"
+    ],
+    [
+     "1v3dk4i",
+     "Extrapolation requires evidence"
+    ],
+    [
+     "14lqey9",
+     "Disclose Chinese extraction examples of real research; locate paragraphs or tables and then quote."
+    ],
+    [
+     "tav0f",
+     "Source: Bastani et al., PNAS 2025; course method description/teaching example"
+    ],
+    [
+     "76w5r2",
+     "16"
+    ]
+   ],
+   "note": "Bastani et al. are used as an example of original text extraction. This page does not repeat a large number of values, but focuses on information positioning. \"Practice results\" and \"independent test\" in the text cannot be confused with the same result. The teaching table is reproduced in Chinese, the original XML text actually comes from the corresponding full text of Europe PMC, and the DOI and article identity are separately registered.\nBastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 2025. DOI:10.1073/pnas.2422633122\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/\nPositioning: Abstract, Experimental Design, Table 1; the original XML was actually read by Europe PMC\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 83,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "1vuds8u",
+     "Comparison of design of two studies"
+    ],
+    [
+     "15jfp11",
+     "Both studies discuss AI learning, but the populations, control conditions, and measurement arrangements are different."
+    ],
+    [
+     "ea3q68",
+     "The two articles are comparative teaching cases, which do not cover all relevant literature and do not constitute a systematic review."
+    ],
+    [
+     "1lvbss9",
+     "Source: Bastani et al., PNAS 2025; Kestin et al., Scientific Reports 2025"
+    ],
+    [
+     "7gvrg1",
+     "17"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "1dnuqax",
+     "Comparison term Bastani et al., 2025 Kestin et al., 2025"
+    ],
+    [
+     "1hmxxt5",
+     "Object/Subject Turkish High School Mathematics Harvard Undergraduate Introductory Physics"
+    ],
+    [
+     "ubbg1p",
+     "Comparison conditions Two types of AI tutoring and no AI resource group Customized AI tutoring and classroom active learning"
+    ],
+    [
+     "bb16hf",
+     "Outcome measurement Helped exercises/no-resource tests Pre-test and post-test of course content"
+    ],
+    [
+     "ouc1wu",
+     "Explanation Scope Tool Design and Independent Performance Class-Specific Comparisons of Customized Tutoring"
+    ]
+   ],
+   "note": "Both articles actually read the original text. Kestin's study was conducted in the Harvard PS2 course, and 194 of the 233 registered students met the inclusion criteria. Two groups of cross-content arrangements were used. This page only retains the design differences and does not directly compare the sample numbers for effect size. The two studies are not simply duplicates of each other and cannot be voted on as \"harmful/better\" in their titles.\nBastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 2025. DOI:10.1073/pnas.2422633122\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/\nPositioning: Abstract, Experimental Design, Table 1; the original XML was actually read by Europe PMC\nKestin et al. AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports 2025. DOI:10.1038/s41598-025-97652-6\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/\nPositioning: Abstract, Methods: Study population/Course setting; The original XML was actually read by Europe PMC; Rechecked with the publisher on 2026-10-19 Results / Learning gains: post-test scores, Study population, Study design, limitations and Supplementary Table S3. The latest update status monitoring has not been completed."
+  },
+  {
+   "page": 84,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "ot8pby",
+     "Real data: How to read a post-test score chart"
+    ],
+    [
+     "lenq5x",
+     "Harvard Undergraduate Physics Research: Comparing customized AI tutoring and classroom active learning, first check the statistics and recording units."
+    ],
+    [
+     "uaywwh",
+     "174 records"
+    ],
+    [
+     "a5857a",
+     "142 records"
+    ],
+    [
+     "1h9j5il",
+     "Let’s look at statistics first"
+    ],
+    [
+     "10qrfs7",
+     "The median is the score that is centered after sorting."
+    ],
+    [
+     "13pb1ev",
+     "3.5 and 4.5 are points, not percentages."
+    ],
+    [
+     "u8cj7k",
+     "Look at the recording unit again"
+    ],
+    [
+     "14vtfkr",
+     "316 records come from 194 numbers."
+    ],
+    [
+     "mv5bb7",
+     "The combined pre-test median is 2.75."
+    ],
+    [
+     "r0ecp",
+     "Not every number has two records."
+    ],
+    [
+     "u8b1yv",
+     "The descriptive statistics of the author's published data were recalculated; all regressions were not reproduced and the experiment was not re-implemented."
+    ],
+    [
+     "1b54i4q",
+     "Source: Kestin et al., Scientific Reports 2025; Kestin author data, local recalculation 2026-10-19; UCL Thomas, 2025, original workshop courseware"
+    ],
+    [
+     "5iyjl8",
+     "18"
+    ],
+    [
+     "rdtgp7",
+     "Chart: Posttest median (original score) (barChart):"
+    ],
+    [
+     "28fn6x",
+     "Categories: Active learning in the classroom, customized AI tutoring"
+    ],
+    [
+     "owno28",
+     "Median: Active learning in class=3.5, Customized AI tutoring=4.5"
+    ]
+   ],
+   "note": "First explain the coordinates of the graph. The column height is the median of the post-test scores, that is, the middle position after the scores are arranged according to size; the median and the mean are two statistics. The two conditions on the horizontal axis are active learning in class and customized AI tutoring. The latter is not a general chat tool that students can open at will. The numbers 3.5 and 4.5 on the bars are the scores of the original article, not percentages, effect sizes or learning increases. The graph starts from zero and goes to 6, because the actual post-test score range in this public data is from 0 to 6; the complete scoring details are not obtained in this round, and the upper limit of the formal scale will not be written accordingly.\nThe data comes from the author's repository HarvardAItutor/Study-Data-v4 linked to the paper's Data availability. The dta is actually downloaded and read with local Python. The median of the 174 records with lect_AI=0 is 3.5, the median of the 142 records with lect_AI=1 is 4.5, and the median pre-merge test is 2.75. These three items are consistent with the main text Results / Learning gains: post-test scores. The PPT is a newly created editable diagram based on public data, with an embedded summary workbook; it is not the original Figure 1. The original Figure 1 draws the mean and attaches the standard error of the mean. You cannot copy that set of error bars to the median column on this page.\n316 is the number of data rows, and the unique number of RID is 194. 194 is consistent with the number of qualified people in the text; a number-by-number check found that 122 numbers have records with two conditions, and 72 numbers only appear once. The study population qualification description in the main text mentions participating in two types of teaching and completing all pre- and post-tests. The step-by-step correspondence between public documents and this description still needs to be verified. Without obtaining the screening log, we do not speculate on missing rows, eliminate causes, or correct author data without authorization, and we cannot treat this table as a complete matching table of 194 people. Descriptive statistics can be recalculated, but this does not mean that the design, missing mechanisms, and full statistical model review have been completed.\nThe class then compares this study with the high school mathematics study on page 17: the learning stages, comparison methods, and measurement arrangements have their own conditions. Here we do not deduce that AI is universally effective from two columns, nor do we combine the two articles to synthesize the overall effect. Page 56 of UCL 2025 reminds you to check whether the synthesis is established. This time, re-check this page and page 43 to learn from its organization method of checking coverage, original text and comparability.\nKestin et al. AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports 2025. DOI:10.1038/s41598-025-97652-6\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/\nPositioning: Abstract, Methods: Study population/Course setting; The original XML was actually read by Europe PMC; Rechecked with the publisher on 2026-10-19 Results / Learning gains: post-test scores, Study population, Study design, limitations and Supplementary Table S3. The latest update status monitoring has not been completed.\nThe authors’ public research data linked to Kestin et al.’s paper Data availability\nhttps://github.com/HarvardAItutor/Study-Data-v4\nPositioning: Harvard_AI_Tutor_Study_Data.dta; lect_AI, post_score, pre_score, rid; source blob 2ad104a44b64acd98f4951ab92955ba85d2400cf; see literature-packet/kestin-reproduction.json for calculation\nJames Thomas. Using AI tools for searching, classifying, extracting and synthesizing research. UCL, 2025-06-13\nhttps://eppi.ioe.ac.uk/CMS/Portals/0/AI%20in%20evidence%20synthesis%20v_3_1.pdf\nPositioning: PDF pages 14, 17, 43, and 56 have been rendered for viewing; refer to the search, correlation discovery and verification process"
+  },
+  {
+   "page": 85,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "9k0atv",
+     "Evidence registration for a research conclusion"
+    ],
+    [
+     "kunoux",
+     "Take \"The post-test median of customized AI tutoring is higher\" as an example, record the verified facts, explanations and uninvestigated questions separately."
+    ],
+    [
+     "1fz7nl8",
+     "The recalculation results are consistent, but the design and material gaps still need to be checked; 72 single numbers are reserved as matters to be reviewed."
+    ],
+    [
+     "1qy2ppm",
+     "Source: Kestin et al., Scientific Reports 2025; Kestin author data, local recalculation 2026-10-19; course method description/teaching example"
+    ],
+    [
+     "5sy5a7",
+     "19"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "oqcy3p",
+     "Category Main content Need to check"
+    ],
+    [
+     "1xp19nu",
+     "Original text and data Post-test median 3.5 and 4.5;"
+    ],
+    [
+     "1gegxge",
+     "Record number 174 and 142 Results corresponding section;"
+    ],
+    [
+     "1wnjrl3",
+     "Public file post_score"
+    ],
+    [
+     "1tof49z",
+     "Course Explanation Two types of specific courses"
+    ],
+    [
+     "1rocpgf",
+     "Comparison of teaching conditions: retained objects and comparisons"
+    ],
+    [
+     "150285n",
+     "and post-test time points"
+    ],
+    [
+     "1hg5ub1",
+     "Still to be verified 194 numbers, 316 lines;"
+    ],
+    [
+     "4kyuyx",
+     "72 numbers appear only once. Check the relationship between inclusion and row record;"
+    ],
+    [
+     "ed9kn7",
+     "Do not replace missing reasons"
+    ]
+   ],
+   "note": "This table is an example of a complete registration of a conclusion. The first line only puts back the actual information found in the original text and the author's data: the results section reports post-test medians of 3.5 and 4.5, and the same results are obtained locally grouped by lect_AI, with the number of records being 174 and 142. The positioning is retained in the main text section and original fields, and the source file hash and script are saved in the attachment.\nThe second line is the course's explanation of the scope of the conclusion: the comparison occurred in two projects in Harvard introductory physics. Customized AI systems and classroom active learning have separate teaching arrangements. You cannot omit \"customization\" and write that casual use of ChatGPT will definitely improve your performance. The median difference is a descriptive statistic, and the causal interpretation of the study also depends on the random arrangement, crossover design, model treatment, and missingness conditions.\nThe third row retains matters to be reviewed. The 194 unique numbers, 316 lines of data, 122 double numbers and 72 single numbers are all calculated from actual data; the gradual correspondence between the text qualification conditions and the public bank records has not yet been verified. There is no step-by-step filtering of logs and no judgment of the cause. This example shows that fact checking and retention gaps can be done at the same time; the form should allow filling in \"to be verified\" instead of requiring the AI ​​to fill in all the boxes.\nKestin et al. AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports 2025. DOI:10.1038/s41598-025-97652-6\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/\nPositioning: Abstract, Methods: Study population/Course setting; The original XML was actually read by Europe PMC; Rechecked with the publisher on 2026-10-19 Results / Learning gains: post-test scores, Study population, Study design, limitations and Supplementary Table S3. The latest update status monitoring has not been completed.\nThe authors’ public research data linked to Kestin et al.’s paper Data availability\nhttps://github.com/HarvardAItutor/Study-Data-v4\nPositioning: Harvard_AI_Tutor_Study_Data.dta; lect_AI, post_score, pre_score, rid; source blob 2ad104a44b64acd98f4951ab92955ba85d2400cf; see literature-packet/kestin-reproduction.json for calculation\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 86,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "1yf4zzw",
+     "Organization of summary paragraphs"
+    ],
+    [
+     "iqcfde",
+     "Organize the evidence by research question and describe the conditions under which the differences occurred."
+    ],
+    [
+     "k2hlub",
+     "List articles one by one, and the information stays on the topic"
+    ],
+    [
+     "jrfbpa",
+     "Study A discussed AI education. Study B also discusses AI education. Both studies are meaningful and worthy of further study in the future."
+    ],
+    [
+     "1iyxqoq",
+     "Organize evidence around comparative conditions"
+    ],
+    [
+     "1bxrxy0",
+     "To evaluate AI tutoring, you need to first explain the comparison conditions and measurement time points. High school mathematics research distinguishes between helpful exercises and resource-removing tests (Bastani et al., 2025); in undergraduate physics research, the post-test medians for customized AI tutoring and classroom active learning are 4.5 and 3.5 (Kestin et al., 2025). These results answer different questions and cannot be synthesized into the conclusion that \"AI is effective for all students.\""
+    ],
+    [
+     "x7fybb",
+     "An example of a course-written review, with specific research sources, and does not claim to represent the entire field."
+    ],
+    [
+     "1f92e7b",
+     "Source: Bastani et al., PNAS 2025; Kestin et al., Scientific Reports 2025; Kestin author data, local recalculation 2026-10-19; course method description/teaching example"
+    ],
+    [
+     "13dvipr",
+     "20"
+    ]
+   ],
+   "note": "The first paragraph is a general example sentence written for the course, and the second paragraph is a draft teaching review based on two real papers. Formal papers also require complete retrieval, method evaluation, and accurate citations. Two case paragraphs cannot be called a consensus in the field. The passage does not claim which mechanism has been demonstrated. In the latter part of this round, the post-test median that can be recalculated by the author's data is added, and the order corresponds to customized AI tutoring 4.5 and classroom active learning 3.5. There is no calculation of comprehensive effects, effect rankings or long-term learning retention; single numbering issues in public data are listed separately for review.\nBastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 2025. DOI:10.1073/pnas.2422633122\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/\nPositioning: Abstract, Experimental Design, Table 1; the original XML was actually read by Europe PMC\nKestin et al. AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports 2025. DOI:10.1038/s41598-025-97652-6\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/\nPositioning: Abstract, Methods: Study population/Course setting; The original XML was actually read by Europe PMC; Rechecked with the publisher on 2026-10-19 Results / Learning gains: post-test scores, Study population, Study design, limitations and Supplementary Table S3. The latest update status monitoring has not been completed.\nThe authors’ public research data linked to Kestin et al.’s paper Data availability\nhttps://github.com/HarvardAItutor/Study-Data-v4\nPositioning: Harvard_AI_Tutor_Study_Data.dta; lect_AI, post_score, pre_score, rid; source blob 2ad104a44b64acd98f4951ab92955ba85d2400cf; see literature-packet/kestin-reproduction.json for calculation\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 87,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "11krzvo",
+     "The verification process of a citation"
+    ],
+    [
+     "1wyko8s",
+     "Article identity, publication status and claim support are three questions that need to be answered separately."
+    ],
+    [
+     "1n8d6xs",
+     "Title and DOI"
+    ],
+    [
+     "mld4o4",
+     "Author, year and version"
+    ],
+    [
+     "1w8nr8t",
+     "Update or retraction status"
+    ],
+    [
+     "b5a6qz",
+     "Can the original text support the claim?"
+    ],
+    [
+     "ke4otc",
+     "Find original publication record"
+    ],
+    [
+     "81awvm",
+     "Check whether the entries are mismatched"
+    ],
+    [
+     "evk8c9",
+     "Check publisher and update history"
+    ],
+    [
+     "gm3wfy",
+     "Look at objects, results and limitations"
+    ],
+    [
+     "x7qf3d",
+     "The authenticity of the citation and the support of the claim should be checked separately, and DOI resolvability cannot be used to replace the original text verification."
+    ],
+    [
+     "mz151k",
+     "The verification results should be recorded separately: identity, version, update status and claim support."
+    ],
+    [
+     "14byjk6",
+     "Source: Course Method Description/Teaching Examples"
+    ],
+    [
+     "133vx0s",
+     "21"
+    ]
+   ],
+   "note": "Successful DOI parsing only indicates that the identifier corresponds to the record, but does not prove that the claim is valid. At present, the identity and read chapters of two papers are registered in the attachment. There is no comprehensive retraction monitoring, and the status is separately marked for verification. Before submission for actual scientific research, manuscripts must be reviewed according to the publisher's updates and applicable databases at that time. The citation format check cannot be said to be a scientific verification.\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 88,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "1qkuxus",
+     "Research gaps and retrieval of counter-evidence"
+    ],
+    [
+     "yepfbv",
+     "The sentence \"There is no research yet\" requires actively looking for counterexamples and going back to the original research for verification."
+    ],
+    [
+     "q7lwk9",
+     "Blank assertion to be checked"
+    ],
+    [
+     "8b4opm",
+     "Find counterexamples and original text"
+    ],
+    [
+     "q1l8u5",
+     "Revised research question"
+    ],
+    [
+     "waw61j",
+     "There is no AI tutoring in colleges and universities"
+    ],
+    [
+     "14sf8se",
+     "Empirical Research"
+    ],
+    [
+     "jvhay9",
+     "Kestin et al. have reported undergraduate physics"
+    ],
+    [
+     "62nq52",
+     "Randomized controlled study"
+    ],
+    [
+     "vjf1xd",
+     "Continue to check specific courses and tools"
+    ],
+    [
+     "1rg88kt",
+     "and unanswered questions for delayed measurements"
+    ],
+    [
+     "139awx4",
+     "Contrary evidence search: synonymous expressions, forward and backward citations, recent papers and preprints are all considered."
+    ],
+    [
+     "1fjvgat",
+     "Counterexamples can overturn overly broad blank statements; you need to continue searching after narrowing the question."
+    ],
+    [
+     "1ricpfi",
+     "Source: Bastani et al., PNAS 2025; Kestin et al., Scientific Reports 2025; Course method description/teaching examples"
+    ],
+    [
+     "13xuq3p",
+     "22"
+    ]
+   ],
+   "note": "On the left are assertions written in the course that need to be verified. The scope is deliberately too broad and is not a true domain conclusion. Public studies such as Kestin's have conducted randomized controls in undergraduate introductory physics, so this assertion cannot be established. The researcher needs to examine the original text and then reframe the problem. Limiting the search to a certain course or postponing the measurement still requires continued search. This cannot be used to claim that a gap has been found or to prove that no one has studied it. The rebuttal search should include synonyms, previous and subsequent citations, and recent material.\nBastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 2025. DOI:10.1073/pnas.2422633122\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/\nPositioning: Abstract, Experimental Design, Table 1; the original XML was actually read by Europe PMC\nKestin et al. AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports 2025. DOI:10.1038/s41598-025-97652-6\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/\nPositioning: Abstract, Methods: Study population/Course setting; The original XML was actually read by Europe PMC; Rechecked with the publisher on 2026-10-19 Results / Learning gains: post-test scores, Study population, Study design, limitations and Supplementary Table S3. The latest update status monitoring has not been completed.\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 89,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "1qns5pl",
+     "Material circulation of literature agent"
+    ],
+    [
+     "164pbxr",
+     "Retrieval, screening, extraction and writing require the preservation of intermediate materials in order to check for omissions and errors."
+    ],
+    [
+     "z1vjxm",
+     "Question and search scope"
+    ],
+    [
+     "dc7kut",
+     "Input and version"
+    ],
+    [
+     "2is04z",
+     "Candidate record and full text"
+    ],
+    [
+     "1o59s5c",
+     "Removal of duplicates and inclusion basis"
+    ],
+    [
+     "16uy9m9",
+     "Evidence Matrix and Gaps"
+    ],
+    [
+     "d6x7tb",
+     "Original text location and information status"
+    ],
+    [
+     "11klfwn",
+     "Overview Draft and Checklist"
+    ],
+    [
+     "1uj93he",
+     "Citation Support and Open Matter"
+    ],
+    [
+     "jgplx",
+     "Process description: Failures and deletions must also be entered into the record, and the generated text cannot be used to replace the unobtained original text."
+    ],
+    [
+     "uneslt",
+     "Source: UCL Thomas, 2025, original workshop courseware; course method description/teaching examples"
+    ],
+    [
+     "13nv4eq",
+     "23"
+    ]
+   ],
+   "note": "This is a schematic of the course process, not a screenshot of the model running. Materials can be processed in the local Codex according to the document discovery, document synthesis and citation verification skills; the existence of skill definitions does not mean that each service account, search API or full-text analysis has been accessed. This section actually completed the acquisition of public materials, two web page screenshots, two original text readings and course evidence tables, and did not run a multi-database system search. 2026-10-19 In addition, the local Python descriptive statistics recalculation of the author's public dta was actually completed, retaining the original hash, summary CSV, recalculation script and recording unit to be checked; this is not a model call or the entire literature Agent has been run.\nJames Thomas. Using AI tools for searching, classifying, extracting and synthesizing research. UCL, 2025-06-13\nhttps://eppi.ioe.ac.uk/CMS/Portals/0/AI%20in%20evidence%20synthesis%20v_3_1.pdf\nPositioning: PDF pages 14, 17, 43, and 56 have been rendered for viewing; refer to the search, correlation discovery and verification process\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 90,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "1rrm6t3",
+     "A reviewable documentation work package"
+    ],
+    [
+     "1fxrjx9",
+     "When delivered, it should be possible to trace the source of materials, the basis for comparison, and any issues that remain unresolved."
+    ],
+    [
+     "170si2o",
+     "Retrieve records"
+    ],
+    [
+     "7ser4h",
+     "Search formula, date, filter conditions"
+    ],
+    [
+     "7g5ij8",
+     "Documentation and version list"
+    ],
+    [
+     "crc0fb",
+     "DOI, source and full-text status"
+    ],
+    [
+     "1t8afx4",
+     "Evidence Matrix"
+    ],
+    [
+     "8x9wk",
+     "Design, results, original text position and recalculation"
+    ],
+    [
+     "1uec8ut",
+     "Overview and Question List"
+    ],
+    [
+     "1eult3",
+     "Supporting conclusions and additional materials"
+    ],
+    [
+     "1b2kvrk",
+     "Next section: Arrange research objects, comparisons and measurements based on existing research and resource conditions."
+    ],
+    [
+     "14byjk6",
+     "Source: Course method description/teaching examples"
+    ],
+    [
+     "129x3xv",
+     "24"
+    ]
+   ],
+   "note": "This section delivers the material index, search records, evidence matrix and review examples of the two comparative cases, and retains the scope description. When entering Section 6 of the research design, unresolved issues must continue to be dealt with. The completion of the literature list cannot be regarded as the establishment of the research design. There are no class assignments or student submissions. This round adds descriptive statistical recalculations of the author's public data, source file hashes, complete Python scripts, and material gap descriptions. The original person-by-person data is only stored locally, ignoring the cache, delivery summary table and public download entrance.\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 91,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "38dstc",
+     "Research and Experimental Plan"
+    ],
+    [
+     "ihczb1",
+     "The research design needs to explain: who is compared, what is changed, what is measured, and what differences will affect judgments."
+    ],
+    [
+     "1el0snl",
+     "Research Questions"
+    ],
+    [
+     "1ghowtu",
+     "Objects and Comparisons"
+    ],
+    [
+     "hehyfx",
+     "Measurement and Analysis"
+    ],
+    [
+     "1gbdr08",
+     "Resources and Risks"
+    ],
+    [
+     "c0b6d",
+     "Specify the differences to be estimated"
+    ],
+    [
+     "icpu2k",
+     "Specify allocation units and comparisons"
+    ],
+    [
+     "xzu55x",
+     "Record indicators, time points and rules"
+    ],
+    [
+     "17d80sq",
+     "Confirm authorization and conditions"
+    ],
+    [
+     "shd539",
+     "With backup arrangements"
+    ],
+    [
+     "14f9n8q",
+     "For example: To compare two prompting methods, it is necessary to unify the content and tests first, and then explain the differences in distribution and implementation."
+    ],
+    [
+     "12zzd07",
+     "Questions, indicators and available evidence need to correspond so that subsequent analysis can interpret the results."
+    ],
+    [
+     "1o5ktgw",
+     "Source: UC Davis 2026, block design courseware; course method description/teaching simulation"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "This section talks about design choices and their reasons. We do not write the experimental plan as a list of tool names. AI can help check protocol consistency and resource gaps, but cannot replace on-site conditions, ethical review or sample basis. Empirical research may be through intervention or observation of phenomena; the path should be chosen according to the problem, and not every problem can be arranged with a randomized experiment.\nDavid M. Rocke. Randomized Block Designs. UC Davis BIM283, 2026-01-28/02-02\nhttps://dmrocke.ucdavis.edu/Class/BIM283.2026.Winter/Lecture07_Randomized_Block_Designs.pdf\nPositioning: PDF pages 2, 10, and 11 have been rendered for viewing; design, random assignment, and known interference factors\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 92,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "3fgb3g",
+     "Group and measurement in public research"
+    ],
+    [
+     "1chyh2l",
+     "The study of high school mathematics separates the tutoring method from the measurement stage to facilitate comparison of on-the-spot performance and independent mastery."
+    ],
+    [
+     "e03ds1",
+     "Classes are randomly assigned"
+    ],
+    [
+     "yvw75k",
+     "Complete exercises according to group conditions"
+    ],
+    [
+     "o28p4r",
+     "No generative AI resources"
+    ],
+    [
+     "11f4zz0",
+     "General AI Q&A"
+    ],
+    [
+     "rfpv61",
+     "(Base)"
+    ],
+    [
+     "c43enw",
+     "Teacher’s default prompts"
+    ],
+    [
+     "1512pos",
+     "（Tutor）"
+    ],
+    [
+     "5jwrjx",
+     "Unified no-resource test"
+    ],
+    [
+     "12nth01",
+     "The control group can still use textbooks and notes"
+    ],
+    [
+     "yahf6h",
+     "Report the design of real research publicly; class assignment, three groups of resources are different, and test conditions are consistent."
+    ],
+    [
+     "1axr5xr",
+     "Source: Bastani et al., PNAS 2025, Experimental Design"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "Redrawn based on the original Experimental Design written by Bastani et al.: Taking the class as the allocation unit, three groups of non-generative AI resources, GPT Base, and GPT Tutor are set up. Practice with corresponding resources first, and then take the test without resources; the previous teacher's teaching sessions are the same. The control group still has textbooks and notes and should not be written as having no teaching resources. The organization of comparison and measurement is borrowed here and is not directly copied to undergraduate courses.\nBastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 2025. DOI:10.1073/pnas.2422633122\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/\nPositioning: Experimental Design, Abstract, the original XML has been read in Section 5 and the source hash is retained"
+  },
+  {
+   "page": 93,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "1jyam76",
+     "A Distribution and Measurement of a Proposed Study"
+    ],
+    [
+     "157jo0c",
+     "Undergraduate course teaching example: Compare step-by-step prompts and complete answers, with the score of new questions without AI after one week as the main result."
+    ],
+    [
+     "w3gaip",
+     "Day 0: Measurement before learning"
+    ],
+    [
+     "bwkafe",
+     "Students are randomly assigned 1:1"
+    ],
+    [
+     "12nuq8",
+     "Step by Step Tips"
+    ],
+    [
+     "2upruf",
+     "Planned for 50 people"
+    ],
+    [
+     "ruid5m",
+     "Full answer"
+    ],
+    [
+     "2upruf",
+     "Planned for 50 people"
+    ],
+    [
+     "fsjf8t",
+     "No new AI questions after one week"
+    ],
+    [
+     "17qwzu5",
+     "Main results 0-100 points"
+    ],
+    [
+     "zgcgzl",
+     "Similar content and time rules; supplementary records of on-site performance, time taken and additional help."
+    ],
+    [
+     "1xxxwge",
+     "Teaching simulation: 50 people/group from hypothetical scenario on page 11; not yet recruited, collected or approved."
+    ],
+    [
+     "xz7eyt",
+     "Source: Course Method Description/Teaching Simulation"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "This page develops the proposed problem into a design that can be discussed. It is assumed that individual students are used as independent allocation units. After completing the baseline measurement, students are randomly assigned to two conditions: step-by-step prompts and complete answers on a 1:1 basis. The two groups used the same content, the same time rules and measurement arrangements to record sharing, extra help and absences between classmates. Individual independence and mutual influence can be ignored. Currently, it is only a prerequisite for calculation and must be verified before starting. If the allocation is ultimately based on classes, the number of people on this page cannot be used directly.\nThe main results are planned to be 5 new questions under no AI conditions after one week, with a total score of 0-100; the scoring rules of 0-20 for each question, question equivalence and rater consistency need to be formed and evaluated first. The week, number of questions, and point scale are proposed settings for teaching and are not validated measurement protocols derived from published papers. The baseline is only a record of the previous level, and the on-site performance and usage time are supplementary results. The main problem cannot be replaced after the main results are unsatisfactory.\nThe figure above plans to recruit 50 people into each group, which comes from the conditional calculation of \"difference 6 points, standard deviation 10 points, two-sided 0.05, power 80%, hypothesis retention 90%\" on page 11. This is to show how the parameters affect the plan. It is not recommended to use this scenario directly as a formal sample basis. It is expected that each group will retain 45 complete primary results, but there is no guarantee that 45 will actually be reached. If it is still insufficient after reaching the predetermined deadline, the actual accuracy and detectable range should be stated, and the sample cannot be expanded while watching the results.\nThe main analysis is to compare the mean difference in scores one week after the two groups are assigned and report the range; the assigned personnel will remain registered according to the original grouping, and those who have not measured the results will be marked as missing. The current power calculation only addresses the simplified scenario of no clustering, equal variances, two sets of independent t-tests, and does not address actual missing treatments, interference, or scale quality. The formal analysis plan needs to clarify the missing and exclusion processing and sensitivity analysis before the results appear, and be reviewed and approved by the researcher.\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 94,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "ubmz70",
+     "Variables and Possible Interferences"
+    ],
+    [
+     "n9593z",
+     "The protocol needs to distinguish between conditions altered by the researcher, results actually measured, and other differences that need to be controlled or recorded."
+    ],
+    [
+     "zgq7mn",
+     "Changed conditions"
+    ],
+    [
+     "xl6uau",
+     "Prompt methods and usage rules"
+    ],
+    [
+     "xn7dip",
+     "Observation results"
+    ],
+    [
+     "oh5jjw",
+     "New question scoring and completion time"
+    ],
+    [
+     "mu4y25",
+     "Possible interference"
+    ],
+    [
+     "x9c7gl",
+     "Basic level, course content, additional help"
+    ],
+    [
+     "1fi86mo",
+     "The same variable may play different roles in different questions. Let’s return to the question to be answered first."
+    ],
+    [
+     "ybvh9o",
+     "Source: NIST Manual §5.3.2; Course Method Description/Teaching Simulation"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ]
+   ],
+   "note": "Variables are first explained in ordinary language: the input is what is arranged, the output is what is observed; other simultaneously changing conditions may hinder interpretation. Random assignment does not mean that all sample characteristics are necessarily the same, nor does it eliminate implementation differences. For uncontrollable factors, recording and analysis should be considered in advance. The scope of engineering experiment parameters must be determined by professional and equipment conditions, and values ​​from public courseware are not copied.\nNIST/SEMATECH. How do you select and scale the process variables?\nhttps://www.itl.nist.gov/div898/handbook/pri/section3/pri32.htm\nPositioning: inputs, outputs, parameter ranges and infeasible combinations\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 95,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "19bbcwf",
+     "Contrast conditions and consistent conditions"
+    ],
+    [
+     "1poc00h",
+     "When comparing prompting methods, if the question, time and scoring are changed at the same time, it will be difficult to explain where the difference comes from."
+    ],
+    [
+     "emjpj0",
+     "Teaching simulation: Different conditions and common arrangements are clearly written separately, and implementation deviations are recorded separately."
+    ],
+    [
+     "xz7eyt",
+     "Source: Course Method Description/Teaching Simulation"
+    ],
+    [
+     "80y4by",
+     "05"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "3ae1hr",
+     "Comparison Conditions Step-by-Step Tips Full Answer"
+    ],
+    [
+     "1u88w8z",
+     "Joint arrangement Similar content, same time rules Similar content, same time rules"
+    ],
+    [
+     "1714k2a",
+     "Common measurement Postponing new questions and unifying scoring rules Postponing new questions and unifying scoring rules"
+    ],
+    [
+     "a95i1u",
+     "Record Deviations Extra Help, Absence and Performance Differences Extra Help, Absence and Performance Differences"
+    ]
+   ],
+   "note": "This is a comparative framework for teaching simulations and there is no guarantee that tables alone will eliminate distractions. The equivalence of content and tests between the two groups needs to be verified. More comparison groups can be set up, but adding new groups changes resource and sample requirements. Active controls answer different questions than no-intervention controls, and the design should make clear what resources the control provides.\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 96,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "13cuvq4",
+     "Random allocation and block arrangement"
+    ],
+    [
+     "1n74ljg",
+     "Known batch differences can be processed separately in the design, and then different processing can be arranged within each batch."
+    ],
+    [
+     "1iqcl",
+     "Day 1"
+    ],
+    [
+     "621wv9",
+     "Randomly arranged within the day"
+    ],
+    [
+     "1d3tloq",
+     "Process A"
+    ],
+    [
+     "1cttzzr",
+     "Process B"
+    ],
+    [
+     "168ocd2",
+     "Day 2"
+    ],
+    [
+     "621wv9",
+     "Randomly arranged within the day"
+    ],
+    [
+     "1d3tloq",
+     "Process A"
+    ],
+    [
+     "1cttzzr",
+     "Process B"
+    ],
+    [
+     "1o3by66",
+     "Teaching Tips: There are two treatments every day. The specific number of samples and distribution table need to be determined separately according to the research."
+    ],
+    [
+     "c8vxj4",
+     "Source: UC Davis 2026, Block Design Courseware; NIST Manual §5.3.3.2; Course Method Description/Teaching Simulation"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ]
+   ],
+   "note": "Take two days of testing samples as a simulation example. If all A's are tested on the first day and all B's are tested on the second day, the processing will be mixed with the dates. Blocking separates known date differences and randomly assigns or randomly arranges A/B within each day. A/B in the figure is a schematic. A real schedule needs to save the random process and seeds or lists. Also consider equipment drift, sequencing effects, and feasibility. Blocking is not about randomly splitting data afterwards.\nDavid M. Rocke. Randomized Block Designs. UC Davis BIM283, 2026-01-28/02-02\nhttps://dmrocke.ucdavis.edu/Class/BIM283.2026.Winter/Lecture07_Randomized_Block_Designs.pdf\nPositioning: PDF pages 2, 10, and 11 have been rendered for viewing; design, random assignment, and known interference factors\nNIST/SEMATECH. Randomized block designs\nhttps://www.itl.nist.gov/div898/handbook/pri/section3/pri332.htm\nPositioning: Controlling known interference factors and block design\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 97,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "qpakbu",
+     "Independent samples and duplicate reads"
+    ],
+    [
+     "v8gzsi",
+     "Reading the same sample three times allows you to check the measurement stability; it still only provides an independent sample."
+    ],
+    [
+     "uhkfbz",
+     "Independently prepared"
+    ],
+    [
+     "ypotss",
+     "Sample 1"
+    ],
+    [
+     "1px05q2",
+     "Reading 1 Reading 2 Reading 3"
+    ],
+    [
+     "zjnmvp",
+     "Sample 2"
+    ],
+    [
+     "1px05q2",
+     "Reading 1 Reading 2 Reading 3"
+    ],
+    [
+     "z9o16q",
+     "Sample 3"
+    ],
+    [
+     "1px05q2",
+     "Reading 1 Reading 2 Reading 3"
+    ],
+    [
+     "1p8jssf",
+     "Number of independent samples: 3"
+    ],
+    [
+     "1gic9ou",
+     "Total reading: 3 × 3 = 9"
+    ],
+    [
+     "9oyjg4",
+     "Teaching simulation: 3 independent samples and 9 readings in the picture; it does not mean that the sample size demonstration has been completed."
+    ],
+    [
+     "xz7eyt",
+     "Source: Course Method Description/Teaching Simulation"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ]
+   ],
+   "note": "In the figure, three samples were prepared independently, and each sample was measured three times, constituting 3 samples and 9 readings. This count example does not represent an adequate sample size. If the treatment is applied to an entire batch of material, the individual allocation unit may be the batch and the specimens may not automatically be treated as independent replicates. Technical replicates and independent replicates are determined at the actual level of preparation, distribution, and measurement; analyzes may need to deal with nested correlations.\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 98,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "1ccv8lf",
+     "Coding, blinding and scoring bias"
+    ],
+    [
+     "iw1a7r",
+     "Knowing the group may affect operation or scoring. Information that can be hidden and links that cannot be hidden must be explained in the plan."
+    ],
+    [
+     "wag27t",
+     "Sample or answer sheet code"
+    ],
+    [
+     "1s8ptx2",
+     "Measurement according to unified rules"
+    ],
+    [
+     "1sx4o0o",
+     "Save the group table independently"
+    ],
+    [
+     "blkhat",
+     "After analysis, decode according to rules"
+    ],
+    [
+     "174hgk3",
+     "The number does not directly display the group"
+    ],
+    [
+     "f4xdnw",
+     "One who measures or rates"
+    ],
+    [
+     "l318l2",
+     "Try not to know the group"
+    ],
+    [
+     "1tgi5sv",
+     "Restrict accessible persons"
+    ],
+    [
+     "ltj9an",
+     "And keep records"
+    ],
+    [
+     "1so3523",
+     "Indicate who knew the grouping when"
+    ],
+    [
+     "1usfvka",
+     "Who is responsible for numbering, hidden grouping and decoding should be written into the plan; if the blind method cannot be implemented, explain the reason."
+    ],
+    [
+     "1y5i76p",
+     "The feasibility is affected by the research task, and links that cannot be blinded must be clearly reported."
+    ],
+    [
+     "xz7eyt",
+     "Source: Course Method Description/Teaching Simulation"
+    ],
+    [
+     "76zb91",
+     "08"
+    ]
+   ],
+   "note": "Blinding requires specifying whose information is being withheld. It is sometimes impossible for the lecturer or subject to be unaware of the intervention, but the rater may still be unaware of the groupings. Don’t just make anonymous numbers so that all participants are blinded. Blind destruction, exception handling and decoding times need to be documented. This page is a method description and does not claim that the examples have been double-blinded.\nCourse Writing: Research Design Methods and Teaching Simulation\nlocal:scheme example and material status.md\nPositioning: Undergraduate course plans, block designations, sample levels and resource arrangements have not been implemented; there are no experimental results or approval records"
+  },
+  {
+   "page": 99,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "1mp5u9y",
+     "Example of public teaching materials: all combinations of three factors"
+    ],
+    [
+     "11pk9fq",
+     "Temperature, concentration and catalyst each have two levels, with a total of 8 groups for all combinations. y in the table is the response to the courseware report."
+    ],
+    [
+     "jfzafs",
+     "Examples from public teaching materials, not actual measurements of this project; y is the average of two repetitions, and the original courseware is not marked with physical units."
+    ],
+    [
+     "1dweiz0",
+     "Source: UC Davis 2026, Factorial Design Courseware pp.8–9"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "zp72xf",
+     "Group Temperature T (°C) Concentration C (%) Catalyst K Response y"
+    ],
+    [
+     "1lx0824",
+     "1 160 20 A 60"
+    ],
+    [
+     "13gnsu4",
+     "2 180 20 A 72"
+    ],
+    [
+     "kxuo8n",
+     "3 160 40 A 54"
+    ],
+    [
+     "15mgfgj",
+     "4 180 40 A 68"
+    ],
+    [
+     "6cj83i",
+     "5 160 20 B 52"
+    ],
+    [
+     "1usslhz",
+     "6 180 20 B 83"
+    ],
+    [
+     "shv2ny",
+     "7 160 40 B 45"
+    ],
+    [
+     "1wm7t2a",
+     "8 180 40 B 80"
+    ]
+   ],
+   "note": "The numerical values ​​are transcribed from pilot.a on page 9 of the UC Davis 2026 factorial design courseware PDF; on page 8, the factors and units are defined and y is the mean of two repetitions. The source textbook is Box, Hunter & Hunter 2005 §5.4. The courseware does not give the physical unit of y, so it cannot be changed to a percentage without authorization. This table is displayed according to the original courseware arrangement and does not equal the actual random running order. It is only used to understand the combination design and is not used as a suggestion for process operation.\nDavid M. Rocke. Factorial Designs at Two Levels. UC Davis BIM283, 2026-02-09/18\nhttps://dmrocke.ucdavis.edu/Class/BIM283.2026.Winter/Lecture09_Two_Level_Factorys.pdf\nPositioning: PDF pages 2, 8, and 9 have been rendered for viewing; page 8 defines T/C/K, page 9 pilot.a gives 8 sets of responses, and page 8 indicates the mean of two repetitions; source textbook Box, Hunter & Hunter, Statistics for Experimenters (2005), §5.4"
+  },
+  {
+   "page": 100,
+   "pairs": [
+    [
+     "vzmpd8",
+     "06 Research and Experimental Plan"
+    ],
+    [
+     "13op5az",
+     "The effect of one factor may change with another factor"
+    ],
+    [
+     "1wz57o2",
+     "When the fixed concentration C is 20% and the temperature is from 160°C to 180°C, the corresponding response increments of catalysts A and B are different."
+    ],
+    [
+     "hlh5z2",
+     "Increment of response to temperature change"
+    ],
+    [
+     "1djtoy7",
+     "Catalyst A: 72 − 60 = 12"
+    ],
+    [
+     "14iwjpg",
+     "Catalyst B: 83 − 52 = 31"
+    ],
+    [
+     "14ae2lu",
+     "Incremental difference: 31 − 12 = 19"
+    ],
+    [
+     "5ik07o",
+     "No original duplicate reading,"
+    ],
+    [
+     "1yghjds",
+     "No statistical significance is determined based on this."
+    ],
+    [
+     "1ysz1xe",
+     "The public courseware data is redrawn; only the conditional increment is displayed, and no significance judgment or process promotion is made."
+    ],
+    [
+     "1dweiz0",
+     "Source: UC Davis 2026, Factorial Design Courseware pp.8–9"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ],
+    [
+     "ukrvze",
+     "Chart: Response y when fixed concentration C=20% (lineChart):"
+    ],
+    [
+     "1tbfok1",
+     "Categories: 160°C, 180°C"
+    ],
+    [
+     "9txla1",
+     "Catalyst A: 160°C=60, 180°C=72"
+    ],
+    [
+     "aol6mh",
+     "Catalyst B: 160°C=52, 180°C=83"
+    ]
+   ],
+   "note": "Take four lines on page 9: when C=20, A is 60/72 at T=160/180; B is 52/83 respectively. Hand calculated increment A=72-60=12, B=83-52=31, increment difference=19. Figures are used to explain the meaning of an interaction, and statistical significance cannot be claimed based on just two non-parallel lines. Only the group mean was obtained, and no original repeated readings or error variances were obtained, so no error bars were drawn and no significance test was performed. y has no physical unit and is not converted to a percentage.\nDavid M. Rocke. Factorial Designs at Two Levels. UC Davis BIM283, 2026-02-09/18\nhttps://dmrocke.ucdavis.edu/Class/BIM283.2026.Winter/Lecture09_Two_Level_Factorys.pdf\nPositioning: PDF pages 2, 8, and 9 have been rendered for viewing; page 8 defines T/C/K, page 9 pilot.a gives 8 sets of responses, and page 8 indicates the mean of two repetitions; source textbook Box, Hunter & Hunter, Statistics for Experimenters (2005), §5.4"
+  }
+ ]
+}
