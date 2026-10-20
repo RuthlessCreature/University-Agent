@@ -3,13 +3,14 @@ Page/file checks are automatic; coverage judgments below are editorial assessmen
 """
 from pathlib import Path
 import json,hashlib,zipfile,re,xml.etree.ElementTree as ET
+from datetime import datetime,timezone,timedelta
+CHECKED_DATE=datetime.now(timezone(timedelta(hours=8))).date().isoformat()
 R=Path(__file__).resolve().parent;A=R.parents[1]
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,s):p.write_text(s.rstrip()+'\n','utf-8')
 def dump(p,d):write(p,json.dumps(d,ensure_ascii=False,indent=2))
-d=json.loads((R/'section-progress.json').read_text('utf-8'));s=d['sections'][0];f=A/'training/section-00/output/高校科研AI课程_Section0_s0-r4.pptx'
-s.update(revision='s0-r4',pptx=str(f.relative_to(A)).replace('\\','/'),sha256=sha(f));s.pop('pending_consistency_review',None);s['consistency_review']='2026-10-19：已去除旧课堂练习安排，补查Berkeley 2025具体页面，修订课程导图。'
-d['checked_date']='2026-10-19';d['scope']='240页实际文件已登记；Section 0一致性、Section 1助手选择、Section 4真实Google Scholar检索、Section 5原文与作者数据复算、Section 6设计与样本条件计算、Section 7代码与编辑执行示例、Section 8图像任务、Section 9摘要与Word返修材料、Section 10指南与研究路线及Word文件、Section 11权利要求阅读与交底图文、Section 12软件台账、Section 13传播安排已修订。52条原稿主题覆盖仍有部分缺口，时长为备课分配，未作真人彩排；不代表用户教学验收。';dump(R/'section-progress.json',d)
+d=json.loads((R/'section-progress.json').read_text('utf-8'))
+d['checked_date']=CHECKED_DATE;d['scope']='15节、240页当前文件已登记，逐节修订与实际执行范围见sections。52项原稿主题仍有Science政策来源缺口；云端本轮登录401、未创建模型任务。370＋110分钟为备课分配，未作真人计时彩排；文件、覆盖及版面检查不代表用户教学验收。';dump(R/'section-progress.json',d)
 ns={'a':'http://schemas.openxmlformats.org/drawingml/2006/main','p':'http://schemas.openxmlformats.org/presentationml/2006/main'};pages={};inventory=[];offset=0
 for s in d['sections']:
  p=A/s['pptx'];assert sha(p)==s['sha256']
@@ -80,8 +81,8 @@ for i,(topic,(loc,status,note)) in enumerate(zip(topics,rows),1):
  evidence=[{k:v for k,v in pages[x].items() if k!='text'}|{'excerpt':pages[x]['text'][:220]} for x in keys]
  records.append({'id':i,'original_topic':topic,'status':status,'locations':keys,'assessment':note,'evidence':evidence})
 counts={k:sum(x['status']==k for x in records) for k in ['已有对应内容','调整讲法','部分覆盖']}
-dump(R/'current-course-audit.json',{'checked_date':'2026-10-19','total_pages':240,'sections':15,'coverage_scope':'Editorial location review of current slide text and selected sections; preliminary topic mapping, not execution completeness or scientific acceptance. Excerpts identify location, not proof of semantic coverage by themselves.','counts':counts,'rows':records,'visual_inventory':inventory,'remaining':'Resolve partially covered original topics; review source freshness and combined delivery; timing allocation is not a rehearsal.'})
-head='# 原课程要求与当前240页课件的对应\n\n2026年10月19日复核。依据handoff-inputs中的客户原截图及正文52项，位置均从section-progress登记的当前PPT读取，使用“Section/节内页码”；总页码按0—14顺序计算。旧M编号与旧PPT页码不再作为新课件定位。\n\n“已有对应内容”表示已定位到相关讲授内容，仍需逐条全页复核，不代表相关软件已全部运行；“调整讲法”保留主题并修正原稿中无证据的承诺；“部分覆盖”保留为待补，不能算全部完成。代码、模型和正式科研审核另看各节记录。\n\n'
+dump(R/'current-course-audit.json',{'checked_date':CHECKED_DATE,'total_pages':240,'sections':15,'coverage_scope':'Editorial location review of current slide text and selected sections; preliminary topic mapping, not execution completeness or scientific acceptance. Excerpts identify location, not proof of semantic coverage by themselves.','counts':counts,'rows':records,'visual_inventory':inventory,'remaining':'Resolve partially covered original topics; review source freshness and combined delivery; timing allocation is not a rehearsal.'})
+head=f'# 原课程要求与当前240页课件的对应\n\n{CHECKED_DATE}复核。依据handoff-inputs中的客户原截图及正文52项，位置均从section-progress登记的当前PPT读取，使用“Section/节内页码”；总页码按0—14顺序计算。旧M编号与旧PPT页码不再作为新课件定位。\n\n“已有对应内容”表示已定位到相关讲授内容，仍需逐条全页复核，不代表相关软件已全部运行；“调整讲法”保留主题并修正原稿中无证据的承诺；“部分覆盖”保留为待补，不能算全部完成。代码、模型和正式科研审核另看各节记录。\n\n'
 body='|序号|原稿项目|当前Section/页码|状态|说明|\n|---|---|---|---|---|\n'+''.join(f"|{x['id']}|{x['original_topic'].replace('|','／')}|{'、'.join(x['locations'])}|{x['status']}|{x['assessment']}|\n" for x in records)
 write(R/'COURSE_COVERAGE_MATRIX.md',head+body+'\n本轮统计：'+str(counts)+'。范围不足的条目继续修订；不以匹配到关键词代替内容审阅。每个定位对应的文件哈希、页题和摘录见current-course-audit.json。')
 write(R/'CLIENT_ORIGINAL_52_ITEMS.md','# 客户原稿52项\n\n原始正文完整保留在original_topics.json，来源为handoff-inputs中的客户截图及.doc文本。当前逐项定位、边界和缺口统一见COURSE_COVERAGE_MATRIX.md，避免同时维护新旧两套页码。历史M编号和旧页码可在Git历史中查阅，不能视为新课件已通过教学验收。')

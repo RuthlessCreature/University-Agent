@@ -1,0 +1,3826 @@
+{
+  "revision": "course-r2",
+  "pages_compared": 240,
+  "identical_pixels": 4,
+  "changed_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240
+  ],
+  "rows": [
+    {
+      "section": 0,
+      "section_page": 1,
+      "global_page": 1,
+      "identical_pixels": true,
+      "changed_pixel_fraction": 0.0,
+      "changed_bbox": null,
+      "source_preview": "training/section-00/renders/s0-r4/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-001.png"
+    },
+    {
+      "section": 0,
+      "section_page": 2,
+      "global_page": 2,
+      "identical_pixels": true,
+      "changed_pixel_fraction": 0.0,
+      "changed_bbox": null,
+      "source_preview": "training/section-00/renders/s0-r4/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-002.png"
+    },
+    {
+      "section": 0,
+      "section_page": 3,
+      "global_page": 3,
+      "identical_pixels": true,
+      "changed_pixel_fraction": 0.0,
+      "changed_bbox": null,
+      "source_preview": "training/section-00/renders/s0-r4/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-003.png"
+    },
+    {
+      "section": 0,
+      "section_page": 4,
+      "global_page": 4,
+      "identical_pixels": true,
+      "changed_pixel_fraction": 0.0,
+      "changed_bbox": null,
+      "source_preview": "training/section-00/renders/s0-r4/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-004.png"
+    },
+    {
+      "section": 1,
+      "section_page": 1,
+      "global_page": 5,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00028232519422863485,
+      "changed_bbox": [
+        156,
+        873,
+        427,
+        889
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-005.png"
+    },
+    {
+      "section": 1,
+      "section_page": 2,
+      "global_page": 6,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003230438401775805,
+      "changed_bbox": [
+        229,
+        604,
+        1362,
+        889
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-006.png"
+    },
+    {
+      "section": 1,
+      "section_page": 3,
+      "global_page": 7,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.001259017758046615,
+      "changed_bbox": [
+        253,
+        218,
+        1148,
+        887
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-007.png"
+    },
+    {
+      "section": 1,
+      "section_page": 4,
+      "global_page": 8,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.001294395116537181,
+      "changed_bbox": [
+        262,
+        436,
+        1349,
+        891
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-008.png"
+    },
+    {
+      "section": 1,
+      "section_page": 5,
+      "global_page": 9,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0013977524972253051,
+      "changed_bbox": [
+        160,
+        313,
+        1340,
+        887
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-009.png"
+    },
+    {
+      "section": 1,
+      "section_page": 6,
+      "global_page": 10,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00345657602663707,
+      "changed_bbox": [
+        111,
+        694,
+        1164,
+        887
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-010.png"
+    },
+    {
+      "section": 1,
+      "section_page": 7,
+      "global_page": 11,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0007415371809100998,
+      "changed_bbox": [
+        102,
+        503,
+        713,
+        891
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-011.png"
+    },
+    {
+      "section": 1,
+      "section_page": 8,
+      "global_page": 12,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00470865704772475,
+      "changed_bbox": [
+        112,
+        344,
+        1466,
+        887
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-012.png"
+    },
+    {
+      "section": 1,
+      "section_page": 9,
+      "global_page": 13,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0022190621531631522,
+      "changed_bbox": [
+        208,
+        94,
+        1394,
+        887
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-013.png"
+    },
+    {
+      "section": 1,
+      "section_page": 10,
+      "global_page": 14,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.002367508324084351,
+      "changed_bbox": [
+        156,
+        330,
+        818,
+        889
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-014.png"
+    },
+    {
+      "section": 1,
+      "section_page": 11,
+      "global_page": 15,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00039123196448390677,
+      "changed_bbox": [
+        238,
+        349,
+        958,
+        887
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-015.png"
+    },
+    {
+      "section": 1,
+      "section_page": 12,
+      "global_page": 16,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0001567702552719201,
+      "changed_bbox": [
+        229,
+        873,
+        964,
+        890
+      ],
+      "source_preview": "training/section-01-academic/renders/a5/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-016.png"
+    },
+    {
+      "section": 2,
+      "section_page": 1,
+      "global_page": 17,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.011121670366259712,
+      "changed_bbox": [
+        79,
+        32,
+        1427,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-017.png"
+    },
+    {
+      "section": 2,
+      "section_page": 2,
+      "global_page": 18,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.017604051054384017,
+      "changed_bbox": [
+        79,
+        32,
+        1271,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-018.png"
+    },
+    {
+      "section": 2,
+      "section_page": 3,
+      "global_page": 19,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.012839206437291898,
+      "changed_bbox": [
+        79,
+        32,
+        1385,
+        893
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-019.png"
+    },
+    {
+      "section": 2,
+      "section_page": 4,
+      "global_page": 20,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.013934517203107658,
+      "changed_bbox": [
+        79,
+        32,
+        1516,
+        893
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-020.png"
+    },
+    {
+      "section": 2,
+      "section_page": 5,
+      "global_page": 21,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006465732519422863,
+      "changed_bbox": [
+        111,
+        32,
+        1439,
+        893
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-021.png"
+    },
+    {
+      "section": 2,
+      "section_page": 6,
+      "global_page": 22,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.007241259711431742,
+      "changed_bbox": [
+        142,
+        32,
+        1270,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-022.png"
+    },
+    {
+      "section": 2,
+      "section_page": 7,
+      "global_page": 23,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0028433684794672586,
+      "changed_bbox": [
+        80,
+        32,
+        748,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-023.png"
+    },
+    {
+      "section": 2,
+      "section_page": 8,
+      "global_page": 24,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0049008046614872364,
+      "changed_bbox": [
+        179,
+        32,
+        1301,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-024.png"
+    },
+    {
+      "section": 2,
+      "section_page": 9,
+      "global_page": 25,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0037645671476137623,
+      "changed_bbox": [
+        113,
+        32,
+        1349,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-025.png"
+    },
+    {
+      "section": 2,
+      "section_page": 10,
+      "global_page": 26,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006241675915649279,
+      "changed_bbox": [
+        82,
+        32,
+        1490,
+        893
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-026.png"
+    },
+    {
+      "section": 2,
+      "section_page": 11,
+      "global_page": 27,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005431465038845727,
+      "changed_bbox": [
+        123,
+        32,
+        1366,
+        893
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-027.png"
+    },
+    {
+      "section": 2,
+      "section_page": 12,
+      "global_page": 28,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005039539400665927,
+      "changed_bbox": [
+        80,
+        32,
+        1296,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-028.png"
+    },
+    {
+      "section": 2,
+      "section_page": 13,
+      "global_page": 29,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006578107658157603,
+      "changed_bbox": [
+        111,
+        32,
+        1351,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-029.png"
+    },
+    {
+      "section": 2,
+      "section_page": 14,
+      "global_page": 30,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006555910099889012,
+      "changed_bbox": [
+        111,
+        32,
+        1378,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-030.png"
+    },
+    {
+      "section": 2,
+      "section_page": 15,
+      "global_page": 31,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0032699778024417314,
+      "changed_bbox": [
+        142,
+        32,
+        1359,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-031.png"
+    },
+    {
+      "section": 2,
+      "section_page": 16,
+      "global_page": 32,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005575749167591565,
+      "changed_bbox": [
+        148,
+        32,
+        1181,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-032.png"
+    },
+    {
+      "section": 2,
+      "section_page": 17,
+      "global_page": 33,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004209905660377359,
+      "changed_bbox": [
+        79,
+        32,
+        1190,
+        889
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-17.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-033.png"
+    },
+    {
+      "section": 2,
+      "section_page": 18,
+      "global_page": 34,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.007967536071032186,
+      "changed_bbox": [
+        79,
+        32,
+        1419,
+        893
+      ],
+      "source_preview": "training/section-02/renders/s2-r7/slide-18.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-034.png"
+    },
+    {
+      "section": 3,
+      "section_page": 1,
+      "global_page": 35,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01102871809100999,
+      "changed_bbox": [
+        154,
+        30,
+        1236,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-035.png"
+    },
+    {
+      "section": 3,
+      "section_page": 2,
+      "global_page": 36,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.014603912319644839,
+      "changed_bbox": [
+        80,
+        30,
+        1511,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-036.png"
+    },
+    {
+      "section": 3,
+      "section_page": 3,
+      "global_page": 37,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.012639428412874585,
+      "changed_bbox": [
+        79,
+        30,
+        1128,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-037.png"
+    },
+    {
+      "section": 3,
+      "section_page": 4,
+      "global_page": 38,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.007103912319644839,
+      "changed_bbox": [
+        111,
+        30,
+        1074,
+        888
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-038.png"
+    },
+    {
+      "section": 3,
+      "section_page": 5,
+      "global_page": 39,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004784267480577136,
+      "changed_bbox": [
+        111,
+        30,
+        1084,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-039.png"
+    },
+    {
+      "section": 3,
+      "section_page": 6,
+      "global_page": 40,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003060488346281909,
+      "changed_bbox": [
+        79,
+        30,
+        1444,
+        892
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-040.png"
+    },
+    {
+      "section": 3,
+      "section_page": 7,
+      "global_page": 41,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005644422863485017,
+      "changed_bbox": [
+        80,
+        30,
+        1356,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-041.png"
+    },
+    {
+      "section": 3,
+      "section_page": 8,
+      "global_page": 42,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008741675915649278,
+      "changed_bbox": [
+        79,
+        30,
+        1365,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-042.png"
+    },
+    {
+      "section": 3,
+      "section_page": 9,
+      "global_page": 43,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0077254439511653715,
+      "changed_bbox": [
+        82,
+        30,
+        1443,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-043.png"
+    },
+    {
+      "section": 3,
+      "section_page": 10,
+      "global_page": 44,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004143312985571587,
+      "changed_bbox": [
+        142,
+        30,
+        1285,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-044.png"
+    },
+    {
+      "section": 3,
+      "section_page": 11,
+      "global_page": 45,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006761931187569368,
+      "changed_bbox": [
+        111,
+        30,
+        1490,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-045.png"
+    },
+    {
+      "section": 3,
+      "section_page": 12,
+      "global_page": 46,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004801609322974473,
+      "changed_bbox": [
+        81,
+        30,
+        1321,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-046.png"
+    },
+    {
+      "section": 3,
+      "section_page": 13,
+      "global_page": 47,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004170366259711432,
+      "changed_bbox": [
+        79,
+        30,
+        1322,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-047.png"
+    },
+    {
+      "section": 3,
+      "section_page": 14,
+      "global_page": 48,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00730507769145394,
+      "changed_bbox": [
+        81,
+        30,
+        1116,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-048.png"
+    },
+    {
+      "section": 3,
+      "section_page": 15,
+      "global_page": 49,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009253607103218646,
+      "changed_bbox": [
+        111,
+        30,
+        1205,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-049.png"
+    },
+    {
+      "section": 3,
+      "section_page": 16,
+      "global_page": 50,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.002480577136514983,
+      "changed_bbox": [
+        111,
+        30,
+        804,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-050.png"
+    },
+    {
+      "section": 3,
+      "section_page": 17,
+      "global_page": 51,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0051130688124306324,
+      "changed_bbox": [
+        145,
+        30,
+        1418,
+        890
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-17.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-051.png"
+    },
+    {
+      "section": 3,
+      "section_page": 18,
+      "global_page": 52,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003564095449500555,
+      "changed_bbox": [
+        80,
+        30,
+        824,
+        891
+      ],
+      "source_preview": "training/section-03/renders/s3-r3/slide-18.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-052.png"
+    },
+    {
+      "section": 4,
+      "section_page": 1,
+      "global_page": 53,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00850860155382908,
+      "changed_bbox": [
+        80,
+        90,
+        1160,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-053.png"
+    },
+    {
+      "section": 4,
+      "section_page": 2,
+      "global_page": 54,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0075353773584905664,
+      "changed_bbox": [
+        80,
+        90,
+        1483,
+        893
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-054.png"
+    },
+    {
+      "section": 4,
+      "section_page": 3,
+      "global_page": 55,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01234947280799112,
+      "changed_bbox": [
+        80,
+        90,
+        1284,
+        889
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-055.png"
+    },
+    {
+      "section": 4,
+      "section_page": 4,
+      "global_page": 56,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00990566037735849,
+      "changed_bbox": [
+        79,
+        90,
+        1076,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-056.png"
+    },
+    {
+      "section": 4,
+      "section_page": 5,
+      "global_page": 57,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.010887208657047724,
+      "changed_bbox": [
+        111,
+        90,
+        1351,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-057.png"
+    },
+    {
+      "section": 4,
+      "section_page": 6,
+      "global_page": 58,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005343368479467259,
+      "changed_bbox": [
+        127,
+        90,
+        1156,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-058.png"
+    },
+    {
+      "section": 4,
+      "section_page": 7,
+      "global_page": 59,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.010949639289678136,
+      "changed_bbox": [
+        79,
+        90,
+        1394,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-059.png"
+    },
+    {
+      "section": 4,
+      "section_page": 8,
+      "global_page": 60,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0037694228634850167,
+      "changed_bbox": [
+        111,
+        90,
+        1418,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-060.png"
+    },
+    {
+      "section": 4,
+      "section_page": 9,
+      "global_page": 61,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004773168701442842,
+      "changed_bbox": [
+        80,
+        90,
+        1366,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-061.png"
+    },
+    {
+      "section": 4,
+      "section_page": 10,
+      "global_page": 62,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006219478357380688,
+      "changed_bbox": [
+        80,
+        90,
+        1216,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-062.png"
+    },
+    {
+      "section": 4,
+      "section_page": 11,
+      "global_page": 63,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004092674805771366,
+      "changed_bbox": [
+        126,
+        90,
+        1409,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-063.png"
+    },
+    {
+      "section": 4,
+      "section_page": 12,
+      "global_page": 64,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003349056603773585,
+      "changed_bbox": [
+        122,
+        90,
+        1340,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-064.png"
+    },
+    {
+      "section": 4,
+      "section_page": 13,
+      "global_page": 65,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0056319367369589346,
+      "changed_bbox": [
+        79,
+        90,
+        1294,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-065.png"
+    },
+    {
+      "section": 4,
+      "section_page": 14,
+      "global_page": 66,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0036105715871254163,
+      "changed_bbox": [
+        153,
+        90,
+        1207,
+        891
+      ],
+      "source_preview": "training/section-04/renders/s4-r7/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-066.png"
+    },
+    {
+      "section": 5,
+      "section_page": 1,
+      "global_page": 67,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.010879578246392897,
+      "changed_bbox": [
+        79,
+        90,
+        1449,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-067.png"
+    },
+    {
+      "section": 5,
+      "section_page": 2,
+      "global_page": 68,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.013063956714761377,
+      "changed_bbox": [
+        111,
+        90,
+        1423,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-068.png"
+    },
+    {
+      "section": 5,
+      "section_page": 3,
+      "global_page": 69,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01282741398446171,
+      "changed_bbox": [
+        79,
+        90,
+        1263,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-069.png"
+    },
+    {
+      "section": 5,
+      "section_page": 4,
+      "global_page": 70,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.014882769145394006,
+      "changed_bbox": [
+        108,
+        218,
+        1329,
+        892
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-070.png"
+    },
+    {
+      "section": 5,
+      "section_page": 5,
+      "global_page": 71,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.007921059933407325,
+      "changed_bbox": [
+        80,
+        90,
+        1489,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-071.png"
+    },
+    {
+      "section": 5,
+      "section_page": 6,
+      "global_page": 72,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003752774694783574,
+      "changed_bbox": [
+        79,
+        90,
+        1294,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-072.png"
+    },
+    {
+      "section": 5,
+      "section_page": 7,
+      "global_page": 73,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0024646226415094338,
+      "changed_bbox": [
+        79,
+        90,
+        1368,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-073.png"
+    },
+    {
+      "section": 5,
+      "section_page": 8,
+      "global_page": 74,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003292869034406215,
+      "changed_bbox": [
+        112,
+        90,
+        1295,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-074.png"
+    },
+    {
+      "section": 5,
+      "section_page": 9,
+      "global_page": 75,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0026220865704772475,
+      "changed_bbox": [
+        120,
+        90,
+        1290,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-075.png"
+    },
+    {
+      "section": 5,
+      "section_page": 10,
+      "global_page": 76,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0038054938956714763,
+      "changed_bbox": [
+        128,
+        90,
+        1038,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-076.png"
+    },
+    {
+      "section": 5,
+      "section_page": 11,
+      "global_page": 77,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0034295227524972255,
+      "changed_bbox": [
+        142,
+        90,
+        934,
+        892
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-077.png"
+    },
+    {
+      "section": 5,
+      "section_page": 12,
+      "global_page": 78,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005932297447280799,
+      "changed_bbox": [
+        111,
+        91,
+        1052,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-078.png"
+    },
+    {
+      "section": 5,
+      "section_page": 13,
+      "global_page": 79,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004990982241953385,
+      "changed_bbox": [
+        123,
+        218,
+        1491,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-079.png"
+    },
+    {
+      "section": 5,
+      "section_page": 14,
+      "global_page": 80,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004490149833518313,
+      "changed_bbox": [
+        126,
+        91,
+        1294,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-080.png"
+    },
+    {
+      "section": 5,
+      "section_page": 15,
+      "global_page": 81,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004674667036625971,
+      "changed_bbox": [
+        80,
+        90,
+        918,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-081.png"
+    },
+    {
+      "section": 5,
+      "section_page": 16,
+      "global_page": 82,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.012119173140954495,
+      "changed_bbox": [
+        79,
+        90,
+        1452,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-082.png"
+    },
+    {
+      "section": 5,
+      "section_page": 17,
+      "global_page": 83,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004350027746947835,
+      "changed_bbox": [
+        80,
+        90,
+        1234,
+        889
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-17.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-083.png"
+    },
+    {
+      "section": 5,
+      "section_page": 18,
+      "global_page": 84,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0041849334073251945,
+      "changed_bbox": [
+        80,
+        90,
+        1272,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-18.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-084.png"
+    },
+    {
+      "section": 5,
+      "section_page": 19,
+      "global_page": 85,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0032054661487236403,
+      "changed_bbox": [
+        80,
+        90,
+        1162,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-19.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-085.png"
+    },
+    {
+      "section": 5,
+      "section_page": 20,
+      "global_page": 86,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004021920088790233,
+      "changed_bbox": [
+        126,
+        90,
+        1356,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-20.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-086.png"
+    },
+    {
+      "section": 5,
+      "section_page": 21,
+      "global_page": 87,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0032644284128745837,
+      "changed_bbox": [
+        80,
+        90,
+        1325,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-21.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-087.png"
+    },
+    {
+      "section": 5,
+      "section_page": 22,
+      "global_page": 88,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0035002774694783572,
+      "changed_bbox": [
+        79,
+        90,
+        1471,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-22.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-088.png"
+    },
+    {
+      "section": 5,
+      "section_page": 23,
+      "global_page": 89,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004828662597114317,
+      "changed_bbox": [
+        79,
+        90,
+        940,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-23.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-089.png"
+    },
+    {
+      "section": 5,
+      "section_page": 24,
+      "global_page": 90,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00716634295227525,
+      "changed_bbox": [
+        80,
+        90,
+        1121,
+        891
+      ],
+      "source_preview": "training/section-05/renders/s5-r4/slide-24.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-090.png"
+    },
+    {
+      "section": 6,
+      "section_page": 1,
+      "global_page": 91,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01005202552719201,
+      "changed_bbox": [
+        79,
+        90,
+        1387,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-091.png"
+    },
+    {
+      "section": 6,
+      "section_page": 2,
+      "global_page": 92,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.012714345172031077,
+      "changed_bbox": [
+        79,
+        91,
+        1338,
+        889
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-092.png"
+    },
+    {
+      "section": 6,
+      "section_page": 3,
+      "global_page": 93,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008572419533851277,
+      "changed_bbox": [
+        80,
+        91,
+        1394,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-093.png"
+    },
+    {
+      "section": 6,
+      "section_page": 4,
+      "global_page": 94,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01326373473917869,
+      "changed_bbox": [
+        155,
+        217,
+        1238,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-094.png"
+    },
+    {
+      "section": 6,
+      "section_page": 5,
+      "global_page": 95,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008260266370699224,
+      "changed_bbox": [
+        79,
+        90,
+        1114,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-095.png"
+    },
+    {
+      "section": 6,
+      "section_page": 6,
+      "global_page": 96,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009557436182019978,
+      "changed_bbox": [
+        110,
+        217,
+        1184,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-096.png"
+    },
+    {
+      "section": 6,
+      "section_page": 7,
+      "global_page": 97,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004198806881243063,
+      "changed_bbox": [
+        111,
+        90,
+        1332,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-097.png"
+    },
+    {
+      "section": 6,
+      "section_page": 8,
+      "global_page": 98,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005734600443951165,
+      "changed_bbox": [
+        79,
+        90,
+        1479,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-098.png"
+    },
+    {
+      "section": 6,
+      "section_page": 9,
+      "global_page": 99,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0029002497225305217,
+      "changed_bbox": [
+        79,
+        90,
+        1179,
+        889
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-099.png"
+    },
+    {
+      "section": 6,
+      "section_page": 10,
+      "global_page": 100,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0036494173140954496,
+      "changed_bbox": [
+        80,
+        90,
+        1369,
+        889
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-100.png"
+    },
+    {
+      "section": 6,
+      "section_page": 11,
+      "global_page": 101,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0038318534961154275,
+      "changed_bbox": [
+        126,
+        90,
+        1321,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-101.png"
+    },
+    {
+      "section": 6,
+      "section_page": 12,
+      "global_page": 102,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004098224195338513,
+      "changed_bbox": [
+        79,
+        90,
+        1387,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-102.png"
+    },
+    {
+      "section": 6,
+      "section_page": 13,
+      "global_page": 103,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003303274139844617,
+      "changed_bbox": [
+        111,
+        90,
+        1291,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-103.png"
+    },
+    {
+      "section": 6,
+      "section_page": 14,
+      "global_page": 104,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0074660099889012205,
+      "changed_bbox": [
+        154,
+        90,
+        1479,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-104.png"
+    },
+    {
+      "section": 6,
+      "section_page": 15,
+      "global_page": 105,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005948251942286349,
+      "changed_bbox": [
+        79,
+        90,
+        1386,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-105.png"
+    },
+    {
+      "section": 6,
+      "section_page": 16,
+      "global_page": 106,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005829633740288568,
+      "changed_bbox": [
+        80,
+        90,
+        1151,
+        891
+      ],
+      "source_preview": "training/section-06/renders/s6-r5/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-106.png"
+    },
+    {
+      "section": 7,
+      "section_page": 1,
+      "global_page": 107,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0033525249722530523,
+      "changed_bbox": [
+        79,
+        90,
+        978,
+        890
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-107.png"
+    },
+    {
+      "section": 7,
+      "section_page": 2,
+      "global_page": 108,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004828662597114317,
+      "changed_bbox": [
+        79,
+        91,
+        1162,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-108.png"
+    },
+    {
+      "section": 7,
+      "section_page": 3,
+      "global_page": 109,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.007058129855715871,
+      "changed_bbox": [
+        79,
+        90,
+        1054,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-109.png"
+    },
+    {
+      "section": 7,
+      "section_page": 4,
+      "global_page": 110,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005974611542730299,
+      "changed_bbox": [
+        111,
+        91,
+        1150,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-110.png"
+    },
+    {
+      "section": 7,
+      "section_page": 5,
+      "global_page": 111,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005935072142064373,
+      "changed_bbox": [
+        79,
+        90,
+        1390,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-111.png"
+    },
+    {
+      "section": 7,
+      "section_page": 6,
+      "global_page": 112,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005847669256381798,
+      "changed_bbox": [
+        79,
+        90,
+        1318,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-112.png"
+    },
+    {
+      "section": 7,
+      "section_page": 7,
+      "global_page": 113,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006213928967813541,
+      "changed_bbox": [
+        111,
+        216,
+        1282,
+        891
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-113.png"
+    },
+    {
+      "section": 7,
+      "section_page": 8,
+      "global_page": 114,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003190899001109878,
+      "changed_bbox": [
+        142,
+        217,
+        1011,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-114.png"
+    },
+    {
+      "section": 7,
+      "section_page": 9,
+      "global_page": 115,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005887902330743618,
+      "changed_bbox": [
+        79,
+        90,
+        1473,
+        891
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-115.png"
+    },
+    {
+      "section": 7,
+      "section_page": 10,
+      "global_page": 116,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0059614317425083245,
+      "changed_bbox": [
+        127,
+        90,
+        1376,
+        848
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-116.png"
+    },
+    {
+      "section": 7,
+      "section_page": 11,
+      "global_page": 117,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003524556048834628,
+      "changed_bbox": [
+        79,
+        91,
+        1361,
+        848
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-117.png"
+    },
+    {
+      "section": 7,
+      "section_page": 12,
+      "global_page": 118,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0019214761376248612,
+      "changed_bbox": [
+        103,
+        217,
+        584,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-118.png"
+    },
+    {
+      "section": 7,
+      "section_page": 13,
+      "global_page": 119,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0020310765815760266,
+      "changed_bbox": [
+        80,
+        90,
+        1283,
+        892
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-119.png"
+    },
+    {
+      "section": 7,
+      "section_page": 14,
+      "global_page": 120,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.002478496115427303,
+      "changed_bbox": [
+        173,
+        90,
+        1391,
+        890
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-120.png"
+    },
+    {
+      "section": 7,
+      "section_page": 15,
+      "global_page": 121,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0043874861265260825,
+      "changed_bbox": [
+        126,
+        90,
+        1114,
+        889
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-121.png"
+    },
+    {
+      "section": 7,
+      "section_page": 16,
+      "global_page": 122,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004540094339622641,
+      "changed_bbox": [
+        111,
+        90,
+        1294,
+        890
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-122.png"
+    },
+    {
+      "section": 7,
+      "section_page": 17,
+      "global_page": 123,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0014248057713651498,
+      "changed_bbox": [
+        186,
+        217,
+        1269,
+        892
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-17.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-123.png"
+    },
+    {
+      "section": 7,
+      "section_page": 18,
+      "global_page": 124,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0030292730299667035,
+      "changed_bbox": [
+        110,
+        217,
+        1357,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-18.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-124.png"
+    },
+    {
+      "section": 7,
+      "section_page": 19,
+      "global_page": 125,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.002880826859045505,
+      "changed_bbox": [
+        111,
+        90,
+        1270,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-19.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-125.png"
+    },
+    {
+      "section": 7,
+      "section_page": 20,
+      "global_page": 126,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00871392896781354,
+      "changed_bbox": [
+        79,
+        90,
+        1498,
+        893
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-20.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-126.png"
+    },
+    {
+      "section": 7,
+      "section_page": 21,
+      "global_page": 127,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006308962264150944,
+      "changed_bbox": [
+        111,
+        91,
+        1480,
+        892
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-21.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-127.png"
+    },
+    {
+      "section": 7,
+      "section_page": 22,
+      "global_page": 128,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006841009988901221,
+      "changed_bbox": [
+        111,
+        90,
+        1282,
+        892
+      ],
+      "source_preview": "training/section-07/renders/s7-r9/slide-22.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-128.png"
+    },
+    {
+      "section": 8,
+      "section_page": 1,
+      "global_page": 129,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008522475027746949,
+      "changed_bbox": [
+        79,
+        90,
+        1324,
+        891
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-129.png"
+    },
+    {
+      "section": 8,
+      "section_page": 2,
+      "global_page": 130,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.011431742508324084,
+      "changed_bbox": [
+        79,
+        90,
+        1324,
+        889
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-130.png"
+    },
+    {
+      "section": 8,
+      "section_page": 3,
+      "global_page": 131,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008518312985571588,
+      "changed_bbox": [
+        173,
+        217,
+        1210,
+        893
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-131.png"
+    },
+    {
+      "section": 8,
+      "section_page": 4,
+      "global_page": 132,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00609322974472808,
+      "changed_bbox": [
+        173,
+        90,
+        1386,
+        893
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-132.png"
+    },
+    {
+      "section": 8,
+      "section_page": 5,
+      "global_page": 133,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009547724750277469,
+      "changed_bbox": [
+        111,
+        217,
+        1368,
+        893
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-133.png"
+    },
+    {
+      "section": 8,
+      "section_page": 6,
+      "global_page": 134,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.007794811320754717,
+      "changed_bbox": [
+        80,
+        93,
+        1145,
+        893
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-134.png"
+    },
+    {
+      "section": 8,
+      "section_page": 7,
+      "global_page": 135,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00415996115427303,
+      "changed_bbox": [
+        81,
+        90,
+        1145,
+        890
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-135.png"
+    },
+    {
+      "section": 8,
+      "section_page": 8,
+      "global_page": 136,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003958102108768035,
+      "changed_bbox": [
+        127,
+        90,
+        1319,
+        893
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-136.png"
+    },
+    {
+      "section": 8,
+      "section_page": 9,
+      "global_page": 137,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003031354051054384,
+      "changed_bbox": [
+        111,
+        217,
+        1145,
+        891
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-137.png"
+    },
+    {
+      "section": 8,
+      "section_page": 10,
+      "global_page": 138,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006961709211986682,
+      "changed_bbox": [
+        79,
+        90,
+        1387,
+        892
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-138.png"
+    },
+    {
+      "section": 8,
+      "section_page": 11,
+      "global_page": 139,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00750416204217536,
+      "changed_bbox": [
+        115,
+        217,
+        1409,
+        892
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-139.png"
+    },
+    {
+      "section": 8,
+      "section_page": 12,
+      "global_page": 140,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006664123196448391,
+      "changed_bbox": [
+        123,
+        90,
+        1429,
+        892
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-140.png"
+    },
+    {
+      "section": 8,
+      "section_page": 13,
+      "global_page": 141,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0072155937846836845,
+      "changed_bbox": [
+        79,
+        90,
+        1439,
+        892
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-141.png"
+    },
+    {
+      "section": 8,
+      "section_page": 14,
+      "global_page": 142,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008570338512763596,
+      "changed_bbox": [
+        126,
+        90,
+        1207,
+        892
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-142.png"
+    },
+    {
+      "section": 8,
+      "section_page": 15,
+      "global_page": 143,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004014983351831298,
+      "changed_bbox": [
+        79,
+        90,
+        1126,
+        891
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-143.png"
+    },
+    {
+      "section": 8,
+      "section_page": 16,
+      "global_page": 144,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005438401775804662,
+      "changed_bbox": [
+        118,
+        90,
+        1353,
+        849
+      ],
+      "source_preview": "training/section-08/renders/s8-r6/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-144.png"
+    },
+    {
+      "section": 9,
+      "section_page": 1,
+      "global_page": 145,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008794395116537181,
+      "changed_bbox": [
+        142,
+        91,
+        1387,
+        891
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-145.png"
+    },
+    {
+      "section": 9,
+      "section_page": 2,
+      "global_page": 146,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.014131520532741398,
+      "changed_bbox": [
+        80,
+        90,
+        1493,
+        893
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-146.png"
+    },
+    {
+      "section": 9,
+      "section_page": 3,
+      "global_page": 147,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01432505549389567,
+      "changed_bbox": [
+        80,
+        90,
+        1376,
+        891
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-147.png"
+    },
+    {
+      "section": 9,
+      "section_page": 4,
+      "global_page": 148,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00887069922308546,
+      "changed_bbox": [
+        191,
+        90,
+        1463,
+        893
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-148.png"
+    },
+    {
+      "section": 9,
+      "section_page": 5,
+      "global_page": 149,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006104328523862375,
+      "changed_bbox": [
+        111,
+        217,
+        1189,
+        892
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-149.png"
+    },
+    {
+      "section": 9,
+      "section_page": 6,
+      "global_page": 150,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0030334350721420646,
+      "changed_bbox": [
+        111,
+        90,
+        1145,
+        891
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-150.png"
+    },
+    {
+      "section": 9,
+      "section_page": 7,
+      "global_page": 151,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004690621531631521,
+      "changed_bbox": [
+        173,
+        90,
+        1309,
+        892
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-151.png"
+    },
+    {
+      "section": 9,
+      "section_page": 8,
+      "global_page": 152,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003524556048834628,
+      "changed_bbox": [
+        142,
+        217,
+        1261,
+        893
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-152.png"
+    },
+    {
+      "section": 9,
+      "section_page": 9,
+      "global_page": 153,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006176470588235294,
+      "changed_bbox": [
+        79,
+        90,
+        876,
+        890
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-153.png"
+    },
+    {
+      "section": 9,
+      "section_page": 10,
+      "global_page": 154,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009252219755826858,
+      "changed_bbox": [
+        83,
+        90,
+        1508,
+        891
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-154.png"
+    },
+    {
+      "section": 9,
+      "section_page": 11,
+      "global_page": 155,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00411972807991121,
+      "changed_bbox": [
+        142,
+        217,
+        1125,
+        891
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-155.png"
+    },
+    {
+      "section": 9,
+      "section_page": 12,
+      "global_page": 156,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003467674805771365,
+      "changed_bbox": [
+        154,
+        91,
+        1387,
+        892
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-156.png"
+    },
+    {
+      "section": 9,
+      "section_page": 13,
+      "global_page": 157,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004325749167591565,
+      "changed_bbox": [
+        79,
+        90,
+        1340,
+        891
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-157.png"
+    },
+    {
+      "section": 9,
+      "section_page": 14,
+      "global_page": 158,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.010246254162042175,
+      "changed_bbox": [
+        79,
+        90,
+        1453,
+        849
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-158.png"
+    },
+    {
+      "section": 9,
+      "section_page": 15,
+      "global_page": 159,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004547031076581576,
+      "changed_bbox": [
+        79,
+        90,
+        1325,
+        742
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-159.png"
+    },
+    {
+      "section": 9,
+      "section_page": 16,
+      "global_page": 160,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006147336293007769,
+      "changed_bbox": [
+        81,
+        90,
+        1057,
+        848
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-160.png"
+    },
+    {
+      "section": 9,
+      "section_page": 17,
+      "global_page": 161,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0033220033296337405,
+      "changed_bbox": [
+        170,
+        93,
+        1396,
+        891
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-17.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-161.png"
+    },
+    {
+      "section": 9,
+      "section_page": 18,
+      "global_page": 162,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006668978912319645,
+      "changed_bbox": [
+        111,
+        217,
+        1312,
+        655
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-18.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-162.png"
+    },
+    {
+      "section": 9,
+      "section_page": 19,
+      "global_page": 163,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0031506659267480576,
+      "changed_bbox": [
+        111,
+        90,
+        1282,
+        848
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-19.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-163.png"
+    },
+    {
+      "section": 9,
+      "section_page": 20,
+      "global_page": 164,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0059614317425083245,
+      "changed_bbox": [
+        111,
+        217,
+        1170,
+        891
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-20.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-164.png"
+    },
+    {
+      "section": 9,
+      "section_page": 21,
+      "global_page": 165,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003186736958934517,
+      "changed_bbox": [
+        111,
+        90,
+        1145,
+        891
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-21.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-165.png"
+    },
+    {
+      "section": 9,
+      "section_page": 22,
+      "global_page": 166,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005335044395116537,
+      "changed_bbox": [
+        154,
+        216,
+        1325,
+        848
+      ],
+      "source_preview": "training/section-09/renders/s9-r7/slide-22.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-166.png"
+    },
+    {
+      "section": 10,
+      "section_page": 1,
+      "global_page": 167,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.011004439511653719,
+      "changed_bbox": [
+        79,
+        90,
+        1298,
+        892
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-167.png"
+    },
+    {
+      "section": 10,
+      "section_page": 2,
+      "global_page": 168,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.010258046614872365,
+      "changed_bbox": [
+        111,
+        90,
+        1504,
+        892
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-168.png"
+    },
+    {
+      "section": 10,
+      "section_page": 3,
+      "global_page": 169,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01445130410654828,
+      "changed_bbox": [
+        81,
+        90,
+        1219,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-169.png"
+    },
+    {
+      "section": 10,
+      "section_page": 4,
+      "global_page": 170,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.014248751387347392,
+      "changed_bbox": [
+        111,
+        90,
+        1489,
+        849
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-170.png"
+    },
+    {
+      "section": 10,
+      "section_page": 5,
+      "global_page": 171,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008856825749167591,
+      "changed_bbox": [
+        79,
+        90,
+        1354,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-171.png"
+    },
+    {
+      "section": 10,
+      "section_page": 6,
+      "global_page": 172,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00281354051054384,
+      "changed_bbox": [
+        82,
+        90,
+        939,
+        892
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-172.png"
+    },
+    {
+      "section": 10,
+      "section_page": 7,
+      "global_page": 173,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00808892896781354,
+      "changed_bbox": [
+        111,
+        90,
+        1355,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-173.png"
+    },
+    {
+      "section": 10,
+      "section_page": 8,
+      "global_page": 174,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.007690760266370699,
+      "changed_bbox": [
+        80,
+        90,
+        1366,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-174.png"
+    },
+    {
+      "section": 10,
+      "section_page": 9,
+      "global_page": 175,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00930285793562708,
+      "changed_bbox": [
+        79,
+        90,
+        1343,
+        892
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-175.png"
+    },
+    {
+      "section": 10,
+      "section_page": 10,
+      "global_page": 176,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005527192008879024,
+      "changed_bbox": [
+        79,
+        90,
+        1346,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-176.png"
+    },
+    {
+      "section": 10,
+      "section_page": 11,
+      "global_page": 177,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005935765815760267,
+      "changed_bbox": [
+        79,
+        90,
+        1052,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-177.png"
+    },
+    {
+      "section": 10,
+      "section_page": 12,
+      "global_page": 178,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00595865704772475,
+      "changed_bbox": [
+        81,
+        90,
+        1419,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-178.png"
+    },
+    {
+      "section": 10,
+      "section_page": 13,
+      "global_page": 179,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009211293007769145,
+      "changed_bbox": [
+        81,
+        90,
+        1409,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-179.png"
+    },
+    {
+      "section": 10,
+      "section_page": 14,
+      "global_page": 180,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006044672586015538,
+      "changed_bbox": [
+        110,
+        90,
+        1452,
+        892
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-180.png"
+    },
+    {
+      "section": 10,
+      "section_page": 15,
+      "global_page": 181,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0071392896781354055,
+      "changed_bbox": [
+        79,
+        90,
+        1327,
+        892
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-181.png"
+    },
+    {
+      "section": 10,
+      "section_page": 16,
+      "global_page": 182,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005472391786903441,
+      "changed_bbox": [
+        110,
+        91,
+        1452,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-182.png"
+    },
+    {
+      "section": 10,
+      "section_page": 17,
+      "global_page": 183,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.003333795782463929,
+      "changed_bbox": [
+        79,
+        90,
+        1014,
+        892
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-17.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-183.png"
+    },
+    {
+      "section": 10,
+      "section_page": 18,
+      "global_page": 184,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005536209766925638,
+      "changed_bbox": [
+        79,
+        90,
+        897,
+        892
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-18.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-184.png"
+    },
+    {
+      "section": 10,
+      "section_page": 19,
+      "global_page": 185,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.010815760266370699,
+      "changed_bbox": [
+        111,
+        90,
+        1477,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-19.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-185.png"
+    },
+    {
+      "section": 10,
+      "section_page": 20,
+      "global_page": 186,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006227108768035516,
+      "changed_bbox": [
+        82,
+        90,
+        1447,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-20.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-186.png"
+    },
+    {
+      "section": 10,
+      "section_page": 21,
+      "global_page": 187,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005632630410654828,
+      "changed_bbox": [
+        80,
+        90,
+        1294,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-21.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-187.png"
+    },
+    {
+      "section": 10,
+      "section_page": 22,
+      "global_page": 188,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004036487236403995,
+      "changed_bbox": [
+        79,
+        90,
+        1084,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-22.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-188.png"
+    },
+    {
+      "section": 10,
+      "section_page": 23,
+      "global_page": 189,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0024028856825749167,
+      "changed_bbox": [
+        79,
+        90,
+        1027,
+        848
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-23.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-189.png"
+    },
+    {
+      "section": 10,
+      "section_page": 24,
+      "global_page": 190,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.002349472807991121,
+      "changed_bbox": [
+        80,
+        90,
+        1135,
+        706
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-24.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-190.png"
+    },
+    {
+      "section": 10,
+      "section_page": 25,
+      "global_page": 191,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009850860155382907,
+      "changed_bbox": [
+        126,
+        90,
+        1455,
+        891
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-25.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-191.png"
+    },
+    {
+      "section": 10,
+      "section_page": 26,
+      "global_page": 192,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00589830743618202,
+      "changed_bbox": [
+        79,
+        90,
+        1055,
+        892
+      ],
+      "source_preview": "training/section-10/renders/s10-r4/slide-26.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-192.png"
+    },
+    {
+      "section": 11,
+      "section_page": 1,
+      "global_page": 193,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01688887347391787,
+      "changed_bbox": [
+        111,
+        91,
+        1449,
+        889
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-193.png"
+    },
+    {
+      "section": 11,
+      "section_page": 2,
+      "global_page": 194,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.017549250832408436,
+      "changed_bbox": [
+        111,
+        90,
+        1513,
+        849
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-194.png"
+    },
+    {
+      "section": 11,
+      "section_page": 3,
+      "global_page": 195,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01704980577136515,
+      "changed_bbox": [
+        79,
+        90,
+        1498,
+        848
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-195.png"
+    },
+    {
+      "section": 11,
+      "section_page": 4,
+      "global_page": 196,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00987930077691454,
+      "changed_bbox": [
+        111,
+        90,
+        1329,
+        891
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-196.png"
+    },
+    {
+      "section": 11,
+      "section_page": 5,
+      "global_page": 197,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005974611542730299,
+      "changed_bbox": [
+        79,
+        90,
+        1482,
+        891
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-197.png"
+    },
+    {
+      "section": 11,
+      "section_page": 6,
+      "global_page": 198,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004978496115427303,
+      "changed_bbox": [
+        123,
+        90,
+        933,
+        892
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-198.png"
+    },
+    {
+      "section": 11,
+      "section_page": 7,
+      "global_page": 199,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.007874583795782463,
+      "changed_bbox": [
+        127,
+        90,
+        1452,
+        891
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-199.png"
+    },
+    {
+      "section": 11,
+      "section_page": 8,
+      "global_page": 200,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006862513873473918,
+      "changed_bbox": [
+        80,
+        90,
+        1520,
+        892
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-200.png"
+    },
+    {
+      "section": 11,
+      "section_page": 9,
+      "global_page": 201,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.005345449500554939,
+      "changed_bbox": [
+        111,
+        90,
+        1392,
+        891
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-201.png"
+    },
+    {
+      "section": 11,
+      "section_page": 10,
+      "global_page": 202,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009878607103218646,
+      "changed_bbox": [
+        126,
+        90,
+        1425,
+        849
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-202.png"
+    },
+    {
+      "section": 11,
+      "section_page": 11,
+      "global_page": 203,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.011485849056603773,
+      "changed_bbox": [
+        154,
+        90,
+        1481,
+        891
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-203.png"
+    },
+    {
+      "section": 11,
+      "section_page": 12,
+      "global_page": 204,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006492785793562708,
+      "changed_bbox": [
+        79,
+        90,
+        1272,
+        892
+      ],
+      "source_preview": "training/section-11/renders/s11-r6/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-204.png"
+    },
+    {
+      "section": 12,
+      "section_page": 1,
+      "global_page": 205,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01687708102108768,
+      "changed_bbox": [
+        142,
+        217,
+        1449,
+        892
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-205.png"
+    },
+    {
+      "section": 12,
+      "section_page": 2,
+      "global_page": 206,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.014850166481687015,
+      "changed_bbox": [
+        81,
+        90,
+        1432,
+        891
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-206.png"
+    },
+    {
+      "section": 12,
+      "section_page": 3,
+      "global_page": 207,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.011757075471698113,
+      "changed_bbox": [
+        112,
+        90,
+        1021,
+        892
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-207.png"
+    },
+    {
+      "section": 12,
+      "section_page": 4,
+      "global_page": 208,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009954217536071033,
+      "changed_bbox": [
+        79,
+        90,
+        1169,
+        893
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-208.png"
+    },
+    {
+      "section": 12,
+      "section_page": 5,
+      "global_page": 209,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0034586570477247503,
+      "changed_bbox": [
+        142,
+        217,
+        918,
+        892
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-209.png"
+    },
+    {
+      "section": 12,
+      "section_page": 6,
+      "global_page": 210,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006023168701442841,
+      "changed_bbox": [
+        142,
+        91,
+        1422,
+        893
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-210.png"
+    },
+    {
+      "section": 12,
+      "section_page": 7,
+      "global_page": 211,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008545366259711432,
+      "changed_bbox": [
+        111,
+        90,
+        1422,
+        892
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-211.png"
+    },
+    {
+      "section": 12,
+      "section_page": 8,
+      "global_page": 212,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006777192008879023,
+      "changed_bbox": [
+        111,
+        90,
+        1214,
+        892
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-212.png"
+    },
+    {
+      "section": 12,
+      "section_page": 9,
+      "global_page": 213,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0048564095449500555,
+      "changed_bbox": [
+        80,
+        92,
+        1126,
+        892
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-213.png"
+    },
+    {
+      "section": 12,
+      "section_page": 10,
+      "global_page": 214,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00737930077691454,
+      "changed_bbox": [
+        126,
+        90,
+        1407,
+        892
+      ],
+      "source_preview": "training/section-12/renders/s12-r7/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-214.png"
+    },
+    {
+      "section": 13,
+      "section_page": 1,
+      "global_page": 215,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.010471698113207547,
+      "changed_bbox": [
+        111,
+        217,
+        1176,
+        893
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-215.png"
+    },
+    {
+      "section": 13,
+      "section_page": 2,
+      "global_page": 216,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.011338790233074362,
+      "changed_bbox": [
+        113,
+        217,
+        1356,
+        892
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-216.png"
+    },
+    {
+      "section": 13,
+      "section_page": 3,
+      "global_page": 217,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008598779134295227,
+      "changed_bbox": [
+        113,
+        217,
+        1387,
+        891
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-217.png"
+    },
+    {
+      "section": 13,
+      "section_page": 4,
+      "global_page": 218,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00634433962264151,
+      "changed_bbox": [
+        142,
+        90,
+        1366,
+        893
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-218.png"
+    },
+    {
+      "section": 13,
+      "section_page": 5,
+      "global_page": 219,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0049736403995560485,
+      "changed_bbox": [
+        81,
+        91,
+        1419,
+        892
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-219.png"
+    },
+    {
+      "section": 13,
+      "section_page": 6,
+      "global_page": 220,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.012002635960044396,
+      "changed_bbox": [
+        83,
+        90,
+        1470,
+        892
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-220.png"
+    },
+    {
+      "section": 13,
+      "section_page": 7,
+      "global_page": 221,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0065947558268590455,
+      "changed_bbox": [
+        108,
+        217,
+        1390,
+        891
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-221.png"
+    },
+    {
+      "section": 13,
+      "section_page": 8,
+      "global_page": 222,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.008760405105438402,
+      "changed_bbox": [
+        111,
+        90,
+        1449,
+        892
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-222.png"
+    },
+    {
+      "section": 13,
+      "section_page": 9,
+      "global_page": 223,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006723085460599334,
+      "changed_bbox": [
+        111,
+        91,
+        1201,
+        892
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-223.png"
+    },
+    {
+      "section": 13,
+      "section_page": 10,
+      "global_page": 224,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.006254162042175361,
+      "changed_bbox": [
+        111,
+        90,
+        1356,
+        892
+      ],
+      "source_preview": "training/section-13/renders/s13-r10/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-224.png"
+    },
+    {
+      "section": 14,
+      "section_page": 1,
+      "global_page": 225,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01599056603773585,
+      "changed_bbox": [
+        79,
+        90,
+        1333,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-225.png"
+    },
+    {
+      "section": 14,
+      "section_page": 2,
+      "global_page": 226,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.01103704217536071,
+      "changed_bbox": [
+        79,
+        90,
+        1414,
+        889
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-226.png"
+    },
+    {
+      "section": 14,
+      "section_page": 3,
+      "global_page": 227,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.007086570477247503,
+      "changed_bbox": [
+        82,
+        90,
+        1364,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-227.png"
+    },
+    {
+      "section": 14,
+      "section_page": 4,
+      "global_page": 228,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009767619311875694,
+      "changed_bbox": [
+        79,
+        90,
+        1221,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-228.png"
+    },
+    {
+      "section": 14,
+      "section_page": 5,
+      "global_page": 229,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.009171753607103218,
+      "changed_bbox": [
+        79,
+        90,
+        1334,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-229.png"
+    },
+    {
+      "section": 14,
+      "section_page": 6,
+      "global_page": 230,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00415579911209767,
+      "changed_bbox": [
+        79,
+        90,
+        1012,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-230.png"
+    },
+    {
+      "section": 14,
+      "section_page": 7,
+      "global_page": 231,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0035911487236403995,
+      "changed_bbox": [
+        79,
+        90,
+        870,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-231.png"
+    },
+    {
+      "section": 14,
+      "section_page": 8,
+      "global_page": 232,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00510058268590455,
+      "changed_bbox": [
+        79,
+        90,
+        1270,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-232.png"
+    },
+    {
+      "section": 14,
+      "section_page": 9,
+      "global_page": 233,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0037659544950055493,
+      "changed_bbox": [
+        110,
+        90,
+        888,
+        889
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-233.png"
+    },
+    {
+      "section": 14,
+      "section_page": 10,
+      "global_page": 234,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.00603288013318535,
+      "changed_bbox": [
+        110,
+        92,
+        1438,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-234.png"
+    },
+    {
+      "section": 14,
+      "section_page": 11,
+      "global_page": 235,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004407602663706992,
+      "changed_bbox": [
+        80,
+        93,
+        1417,
+        889
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-235.png"
+    },
+    {
+      "section": 14,
+      "section_page": 12,
+      "global_page": 236,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.002517341842397336,
+      "changed_bbox": [
+        80,
+        91,
+        1166,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-236.png"
+    },
+    {
+      "section": 14,
+      "section_page": 13,
+      "global_page": 237,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0038048002219755826,
+      "changed_bbox": [
+        79,
+        90,
+        1261,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-237.png"
+    },
+    {
+      "section": 14,
+      "section_page": 14,
+      "global_page": 238,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.004239039955604883,
+      "changed_bbox": [
+        79,
+        90,
+        1145,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-238.png"
+    },
+    {
+      "section": 14,
+      "section_page": 15,
+      "global_page": 239,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.0058220033296337405,
+      "changed_bbox": [
+        110,
+        90,
+        1405,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-239.png"
+    },
+    {
+      "section": 14,
+      "section_page": 16,
+      "global_page": 240,
+      "identical_pixels": false,
+      "changed_pixel_fraction": 0.002882907880133185,
+      "changed_bbox": [
+        80,
+        90,
+        1276,
+        890
+      ],
+      "source_preview": "training/section-14/renders/s14-r3/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r2/slide-240.png"
+    }
+  ],
+  "scope": "Exact RGB pixel comparison of actual assembled PPTX rendering against section previews. Differences require visual review; unchanged content/relationships are checked separately."
+}
