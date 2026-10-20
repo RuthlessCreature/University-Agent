@@ -1,0 +1,1277 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  61,
+  80
+ ],
+ "items": [
+  {
+   "page": 61,
+   "pairs": [
+    [
+     "1y1vkkk",
+     "04 Topic selection and research questions"
+    ],
+    [
+     "1imr1mo",
+     "Four Judgment Dimensions for Topic Selection"
+    ],
+    [
+     "f13lzu",
+     "Every judgment should be accompanied by evidence and gaps. The four items can be compared side by side without having to be combined into a seemingly precise total score."
+    ],
+    [
+     "q8ml0z",
+     "Candidate Research Questions"
+    ],
+    [
+     "15he1ej",
+     "Innovative"
+    ],
+    [
+     "1sbsuw",
+     "Relatively closest to what research adds"
+    ],
+    [
+     "1iejwti",
+     "The closest to the paper and the difference explanation"
+    ],
+    [
+     "1q1io83",
+     "Feasibility"
+    ],
+    [
+     "1hf1k41",
+     "Can the existing conditions provide key evidence?"
+    ],
+    [
+     "1dsy4h8",
+     "Authorization, sample, equipment and time"
+    ],
+    [
+     "1feetjc",
+     "Influence"
+    ],
+    [
+     "w30zqh",
+     "What understanding or decision will the answer change?"
+    ],
+    [
+     "eovf98",
+     "Affected persons and specific decisions"
+    ],
+    [
+     "1hc2uuj",
+     "Competition"
+    ],
+    [
+     "h97ixa",
+     "Who is doing the research and where is the progress?"
+    ],
+    [
+     "1660n6w",
+     "Recent research, preprints and update dates"
+    ],
+    [
+     "gv2igs",
+     "The basis, gaps and update date are recorded for each judgment to facilitate revision with new evidence."
+    ],
+    [
+     "6p8vw2",
+     "Source: Utah CS5493/6493, 2026, pp.35, 41, 52; course teaching simulation/method description"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "Innovation requires a comparison object; feasibility does not just depend on whether the text can be written, but also requires confirmation of data authorization, personnel, equipment and professional capabilities. Impact can be the resolution of specific measurement errors or interpretational contradictions and does not require every study to claim a major breakthrough. The intensity of competition reflects work intensity and time pressure, and may involve a shared basis or repeated crowding. Insufficient evidence should be recorded for verification, and model scoring should not be used to cover up gaps.\nStefan Nagy. Research 101: Ideas. University of Utah, 2026-01-07\nhttps://www-old.cs.utah.edu/~snagy/courses/cs5493/slides/Week1b_ResearchIdeas.pdf\nPositioning: PDF pages 35, 41, and 52, also read the text on pages 37, 47, and 53\nCourse Writing: Topic Selection Judgment and Teaching Simulation\nlocal:Teaching simulation and topic selection examples.md\nPositioning: The set objects, time, limits and candidate questions are not actual measured data, and do not mean that they have been authorized by ethics or data."
+  },
+  {
+   "page": 62,
+   "pairs": [
+    [
+     "1y1vkkk",
+     "04 Topic selection and research questions"
+    ],
+    [
+     "13gm91g",
+     "How three materials help narrow research questions"
+    ],
+    [
+     "akgjdf",
+     "The interface can be generated, the plan has been made public, and students have learned it, each requires different evidence."
+    ],
+    [
+     "16prjr7",
+     "Original text Figure 1: A made a request, B generated the first draft, and C continued to revise."
+    ],
+    [
+     "1skkncx",
+     "Preprint: How to make a tutorial interface"
+    ],
+    [
+     "59grj9",
+     "There are methods and preliminary efficiency comparisons;"
+    ],
+    [
+     "p7lhkv",
+     "Does not directly prove that students learn better."
+    ],
+    [
+     "1diamxg",
+     "Patent: How to generate content and feedback"
+    ],
+    [
+     "1e3z2hh",
+     "There is technical disclosure;"
+    ],
+    [
+     "1q1zuin",
+     "does not equal authorization or effect verification."
+    ],
+    [
+     "apvz2v",
+     "Journal: Can you answer independently after removing the AI?"
+    ],
+    [
+     "1gnj8c9",
+     "There is a comparison of learning results;"
+    ],
+    [
+     "zhoxy8",
+     "Cannot be directly extrapolated to college courses."
+    ],
+    [
+     "1sonqbl",
+     "Proposed question: In college courses, can step-by-step prompts for relatively direct answers improve independent answering after removing AI?"
+    ],
+    [
+     "43zixy",
+     "The proposed topic is written by AI and is yet to be reviewed by the researcher; it does not prove the first innovation, teaching effect or free implementation of the patent."
+    ],
+    [
+     "2dva4a",
+     "Source: Utah CS5493/6493, 2026, pp.35, 41, 52; Calo & MacLellan, arXiv2024, Fig.1; US20240274025A1, home page and instructions; Bastani et al., PNAS 2025, abstract, Table 1"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "First look at the real method diagram on the left. Figure 1 of Calo and MacLellan marks the teacher's request, the first draft of the system-generated interface, and the teacher's continued modification as A, B, and C respectively. The Chinese explanation only helps to read the pictures and does not pretend to be the author's interface for the operation of this project. Its small-scale comparison involves design efficiency and cannot be translated into student achievement improvements. What I read is the arXiv version. The text is related to the conference. The version relationship is explained on the previous page.\nThe description of the patent application provides technical ideas for interactive tutoring, content generation and evaluation, and can help list system features that need to be compared; it does not provide the learning effect verification required for this course, nor can it be judged that the current rights are valid based on the public document number. The PNAS study differentiates between exercises with AI and tests without AI to help determine under what conditions the results should be measured. The open experiment comes from Turkish high school mathematics and does not directly answer the teaching conditions of colleges and universities.\nA teaching proposal question can be raised from this set of three types of materials: In college courses, if step-by-step prompts give answers relatively directly, can it improve independent answering after removing AI? This is not an identified research gap; it still requires a systematic search for similar work, comparison of prompt conditions, verification of samples and evaluation methods, and a decision by the researcher. There are no truly new experiments, innovative sign-offs, or model-generating research results here.\nThis round also reads the corrected text presented in the official PMC search index (the directly connected page encounters verification). The correction announced on August 20, 2025 involves the author's unit and is separately registered as version maintenance information. It cannot be regarded as adding a new learning effect study. Quantitative trends also need to fix the database, search terms, document type and time fields, save the full amount and export it to remove duplication by research and patent family, and deal with the disclosure lag; in this example, full database statistics are not performed, and no growth curve is drawn. The teaching sequence of page 41 of Utah2026, which classifies existing work and then identifies questions to be answered, is used on this page. The tables and conclusions in the original field are not copied.\nStefan Nagy. Research 101: Ideas. University of Utah, 2026-01-07\nhttps://www-old.cs.utah.edu/~snagy/courses/cs5493/slides/Week1b_ResearchIdeas.pdf\nPositioning: PDF pages 35, 41, and 52, also read the text on pages 37, 47, and 53\nTowards Educator-Driven Tutor Authoring: Generative AI Approaches for Creating Intelligent Tutor Interfaces\nhttps://arxiv.org/html/2405.14713v1\nPositioning: arXiv abstract page Submission history; full text sections 2 and 3 and Figure 1; CC BY4.0, figures scaled to scale\nMethod and apparatus for automated content database creation and real-time, adaptive tutoring and grading\nhttps://patents.google.com/patent/US20240274025A1/en\nPositioning: original PDF home page (43), (22), (60), abstract; interactive tutorial section and Claims1 of the web page manual\nBastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS, 2025. DOI:10.1073/pnas.2422633122\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/\nPositioning: Abstract, Experimental Design, Table 1; 48% and 127% are relative improvements in practice scores rounded from the original text"
+  },
+  {
+   "page": 63,
+   "pairs": [
+    [
+     "1y1vkkk",
+     "04 Topic selection and research questions"
+    ],
+    [
+     "8qo629",
+     "Resource gaps change research questions"
+    ],
+    [
+     "nl9ux1",
+     "When key data or conditions cannot be obtained, the problem should be narrowed, the evidence path should be changed, or the research should be postponed."
+    ],
+    [
+     "ixed1j",
+     "Can key data and necessary authorizations be obtained?"
+    ],
+    [
+     "15eknfu",
+     "Available"
+    ],
+    [
+     "1nv2uui",
+     "Do feasibility check first"
+    ],
+    [
+     "1gn2qsd",
+     "Unable to obtain"
+    ],
+    [
+     "j83zx",
+     "Change the title or postpone it"
+    ],
+    [
+     "p6ogag",
+     "Example: When there is a questionnaire but lack of scores and usage records, the questions that can be answered will change."
+    ],
+    [
+     "1qng5bo",
+     "Course Simulation: Public data does not automatically contain required variables; being publicly accessible does not mean that it can be used arbitrarily."
+    ],
+    [
+     "1olbe1z",
+     "Source: Course Teaching Simulation/Method Description"
+    ],
+    [
+     "80uytz",
+     "11"
+    ]
+   ],
+   "note": "For example, if there is only an anonymous questionnaire and lack of grades, usage records, or interpretable chronology, it is not appropriate to directly claim to be able to estimate the causal effect of AI on learning. You can start by researching usage scenarios and feelings, or you can look for other approved data. Questions should be rechecked when study subjects, interventions, and data conditions change. Sample sizes, budgets, and timelines should be calculated based on design, and this page does not fabricate universal sample thresholds or ethical approvals.\nCourse Writing: Topic Selection Judgment and Teaching Simulation\nlocal:Teaching simulation and topic selection examples.md\nPositioning: The set objects, time, limits and candidate questions are not actual measured data, and do not mean that they have been authorized by ethics or data."
+  },
+  {
+   "page": 64,
+   "pairs": [
+    [
+     "1y1vkkk",
+     "04 Topic selection and research questions"
+    ],
+    [
+     "1sl6awe",
+     "Comparison of candidate questions"
+    ],
+    [
+     "o9bf9d",
+     "The following compares the research questions and their key conditions, all items are proposed scenarios."
+    ],
+    [
+     "as4uor",
+     "Teaching simulation: processing opinions are based on set conditions; new information still needs to be verified by literature."
+    ],
+    [
+     "1olbe1z",
+     "Source: Course Teaching Simulation/Method Description"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "145m4az",
+     "Candidate question New information Key conditions/risks Current processing"
+    ],
+    [
+     "llomer",
+     "Distribution of AI usage scenarios. Understand the tasks and uses. Sampling scope and record quality. You can first check the feasibility of the survey."
+    ],
+    [
+     "sev7vt",
+     "Prompt methods and delayed performance Compare different help methods Assign arrangements, tests, authorization Prioritize key conditions"
+    ],
+    [
+     "zo0qmh",
+     "The long-term impact of school-wide AI use Wider scope Long-term tracking and data correlation Suspension, narrowing the objects and time points"
+    ]
+   ],
+   "note": "This table shows how researchers record judgments. The three questions cannot be ranked simply by whether they sound grandiose or not. Descriptive studies may also be useful; intervention questions can only be initiated once the required conditions are obtained; long-term impact studies may be important but can be progressed in stages when current resources are insufficient. Newly added information must be verified against the closest literature, and the descriptions in the table are teaching settings.\nCourse Writing: Topic Selection Judgment and Teaching Simulation\nlocal:Teaching simulation and topic selection examples.md\nPositioning: The set objects, time, limits and candidate questions are not actual measured data, and do not mean that they have been authorized by ethics or data."
+  },
+  {
+   "page": 65,
+   "pairs": [
+    [
+     "1y1vkkk",
+     "04 Topic selection and research questions"
+    ],
+    [
+     "1hihlj",
+     "AI participates in the workflow of topic selection"
+    ],
+    [
+     "n4ta4r",
+     "AI can sort out candidate directions and compare materials; researchers need to check the original text, identify omissions, and decide what to choose."
+    ],
+    [
+     "1jp1mvi",
+     "Scope and existing materials"
+    ],
+    [
+     "143691q",
+     "Choose questions and evidence table"
+    ],
+    [
+     "1lfc546",
+     "Original text verification and counterexamples"
+    ],
+    [
+     "10jcrym",
+     "Revision issues and boundaries"
+    ],
+    [
+     "kb46ha",
+     "Give restrictions and sources"
+    ],
+    [
+     "1j0wqe2",
+     "and time window"
+    ],
+    [
+     "1wn0dib",
+     "Link to actual material item by item"
+    ],
+    [
+     "io5p48",
+     "Check similar jobs"
+    ],
+    [
+     "i5h2zr",
+     "With unsupportive evidence"
+    ],
+    [
+     "uw1twp",
+     "Reason for record retention"
+    ],
+    [
+     "e1uee0",
+     "and pending matters"
+    ],
+    [
+     "6nau5a",
+     "Researcher review: Does the source exist? Is the opposite result missing? Can key evidence be obtained under current conditions?"
+    ],
+    [
+     "w8lp16",
+     "Process description: Candidate questions, evidence tables and pending matters all need to retain source and modification records."
+    ],
+    [
+     "1olbe1z",
+     "Source: Course Teaching Simulation/Method Description"
+    ],
+    [
+     "8ku67x",
+     "13"
+    ]
+   ],
+   "note": "The tasks may require: raising candidate questions based only on the given materials, distinguishing original facts, inferences and items to be verified; explaining the object, comparison, results and resource gaps for each question, and finding the closest research. Citations proposed by the model must be verified back to the original text. When there is insufficient data, the missing items are allowed to be retained. The topic-evaluation skill defines problem confirmation, four-dimensional evaluation, hypothesis and counterexample search. The existence of the skill file does not mean that the entire retrieval process has been run.\nCourse Writing: Topic Selection Judgment and Teaching Simulation\nlocal:Teaching simulation and topic selection examples.md\nPositioning: The set objects, time, limits and candidate questions are not actual measured data, and do not mean that they have been authorized by ethics or data."
+  },
+  {
+   "page": 66,
+   "pairs": [
+    [
+     "1y1vkkk",
+     "04 Topic selection and research questions"
+    ],
+    [
+     "1mfnmt8",
+     "The complete structure of a topic description"
+    ],
+    [
+     "5t89pv",
+     "Write the problem, existing evidence, and missing conditions in the same description before proceeding to subsequent documentation and design work."
+    ],
+    [
+     "9sf988",
+     "Proposed Research Question"
+    ],
+    [
+     "par82e",
+     "Two ways to help in undergraduate courses"
+    ],
+    [
+     "i0sq88",
+     "Impact on delayed performance of new questions without AI"
+    ],
+    [
+     "jw6o10",
+     "Existing real evidence"
+    ],
+    [
+     "dom4f4",
+     "High school mathematics research shows:"
+    ],
+    [
+     "1c6u4q0",
+     "Practice performance and independent tests need to be separated"
+    ],
+    [
+     "1yu04g5",
+     "Reasons for adding new evidence"
+    ],
+    [
+     "ioxpa0",
+     "Verification object and measurement differences"
+    ],
+    [
+     "b47j49",
+     "Does it correspond to a clear theoretical issue?"
+    ],
+    [
+     "14bsv6v",
+     "Still needs to be verified before starting"
+    ],
+    [
+     "1kpvhxk",
+     "Closest to research, data licensing,"
+    ],
+    [
+     "1tngwex",
+     "Allocation method, test and sample basis"
+    ],
+    [
+     "vn27ai",
+     "The public paper provides a starting point; the undergraduate course plan is a teaching simulation, and there is no implementation and results yet."
+    ],
+    [
+     "15su46r",
+     "Source: Bastani et al., PNAS 2025, Abstract, Table 1; Course Teaching Simulation/Method Description"
+    ],
+    [
+     "6mwyd4",
+     "14"
+    ]
+   ],
+   "note": "The complete topic selection instructions are displayed at the end and students are not required to submit them in class. The proposed question is: In an undergraduate course, does the step-by-step prompting change compared to the complete solution and there is no AI new question performance after one week? Real evidence comes from high school studies such as Bastani's; college subjects and delayed measurement are settings to be demonstrated. The next section will systematically search the closest studies to determine whether the candidate question has been answered and how the current question needs to be revised.\nBastani et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS, 2025. DOI:10.1073/pnas.2422633122\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/\nPositioning: Abstract, Experimental Design, Table 1; 48% and 127% are relative improvements in practice scores rounded from the original text\nCourse Writing: Topic Selection Judgment and Teaching Simulation\nlocal:Teaching simulation and topic selection examples.md\nPositioning: The set objects, time, limits and candidate questions are not actual measured data, and do not mean that they have been authorized by ethics or data."
+  },
+  {
+   "page": 67,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "rbwt6p",
+     "Literature search, reading and review"
+    ],
+    [
+     "1q09nai",
+     "Scientific research issues require a set of traceable research materials, and documentation work must leave a basis for finding, understanding, and comparing."
+    ],
+    [
+     "1el0snl",
+     "Research Questions"
+    ],
+    [
+     "hbs9w8",
+     "Search and Track"
+    ],
+    [
+     "1nl8ce4",
+     "Original text and evidence table"
+    ],
+    [
+     "12xmwtu",
+     "Review and citation check"
+    ],
+    [
+     "tymct4",
+     "Limit objects and results"
+    ],
+    [
+     "168tcit",
+     "Save search history"
+    ],
+    [
+     "1rsuju1",
+     "Mark the original text location"
+    ],
+    [
+     "1lt9kwq",
+     "Organize conclusions by questions"
+    ],
+    [
+     "hgxxb5",
+     "Researchers need to be able to explain: why they selected these studies, which judgments come from the original text, and which ones are still inferences."
+    ],
+    [
+     "wmi3pg",
+     "Deliverable materials: search records, literature entries, evidence table, draft review and open questions."
+    ],
+    [
+     "uneslt",
+     "Source: UCL Thomas, 2025, original workshop courseware; course method description/teaching examples"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "This section discusses retrieval, original text reading, comparison of multiple studies, and review presentation in sequence. Examples include AI education research, but also general citation checking. Tools are used to correspond to steps, and tool names are not regarded as methods. The two published studies were only used for comparative teaching and did not conduct a systematic review.\nJames Thomas. Using AI tools for searching, classifying, extracting and synthesizing research. UCL, 2025-06-13\nhttps://eppi.ioe.ac.uk/CMS/Portals/0/AI%20in%20evidence%20synthesis%20v_3_1.pdf\nPositioning: PDF pages 14, 17, 43, and 56 have been rendered for viewing; refer to the search, correlation discovery and verification process\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 68,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "kwh65m",
+     "Review purpose and search scope"
+    ],
+    [
+     "1ay34ku",
+     "Understanding the background for selecting a topic requires different search scope and recording intensity than the system answers a limited question."
+    ],
+    [
+     "ctlwri",
+     "The type of review chosen should be determined by the research question, time and method requirements."
+    ],
+    [
+     "gl21ls",
+     "Source: PRISMA 2020 official description; course method description/teaching examples"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "oqcy3p",
+     "Category Main content Need to check"
+    ],
+    [
+     "ezpu4",
+     "Understand the background. Master the concepts, main ideas and representative research. Clearly explain the scope and retain representative sources."
+    ],
+    [
+     "1p1aav9",
+     "Special Review: Compare multiple types of research on one issue and explain the selection logic and scope not covered"
+    ],
+    [
+     "15k9e0h",
+     "Systematic review Search, filter and synthesize according to preset plan Complete reporting method, reasons for exclusion and process"
+    ]
+   ],
+   "note": "There are more than just these types of reviews, and the differences are explained here according to the teaching purpose. You cannot rename the first few results found by several tools to systematic reviews. PRISMA provides reporting requirements and is not a substitute for searching, bias assessment, or scientific judgment. Specific review specifications should be selected by discipline and research type.\nPRISMA 2020 Statement\nhttps://www.prisma-statement.org/prisma-2020\nPositioning: Report checklist and flowchart description; do not refer to the reporting guide as a quality scoring tool\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 69,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "112o63v",
+     "Retrieval concepts in research questions"
+    ],
+    [
+     "1vruk7z",
+     "First find concepts that must appear at the same time, and then expand synonymous expressions. Outcome measurement can be left to the screening stage breakdown."
+    ],
+    [
+     "1xy89fd",
+     "Generative AI"
+    ],
+    [
+     "cjln2r",
+     "generative AI, LLM, ChatGPT"
+    ],
+    [
+     "tet0xn",
+     "Learning/Teaching"
+    ],
+    [
+     "1ph5d1p",
+     "learning, education, tutor"
+    ],
+    [
+     "197ywqa",
+     "Target Situation"
+    ],
+    [
+     "1g45t7o",
+     "Undergraduate/High School/Specific Courses"
+    ],
+    [
+     "ndmh9q",
+     "Teaching search terms need to be tested in the database used and cannot be directly used as a complete field search."
+    ],
+    [
+     "14byjk6",
+     "Source: Course method description/teaching example"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "Use AI-assisted learning as a teaching example. Different papers may use different tool names and terminology. Adding population or measurement words too early may miss relevant studies, so it can be widened first and then narrowed. Search concepts do not have to be mechanically crammed with all the conditions of the research question. The Chinese database and English database adjust vocabulary respectively.\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 70,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "k4i6x4",
+     "A combination of synonyms and concepts"
+    ],
+    [
+     "1pkinlo",
+     "OR expands a concept, AND connects different concepts. Excluded words may accidentally delete relevant studies."
+    ],
+    [
+     "g83bxd",
+     "(\"generative AI\" OR \"large language model\" OR ChatGPT)"
+    ],
+    [
+     "14cd03q",
+     "AND"
+    ],
+    [
+     "sty598",
+     "(learning OR education OR tutor*)"
+    ],
+    [
+     "5yim0v",
+     "Extension within a concept"
+    ],
+    [
+     "zawtdv",
+     "Intersection between concepts"
+    ],
+    [
+     "1ts17t6",
+     "Test and check for omissions"
+    ],
+    [
+     "yniuis",
+     "OR"
+    ],
+    [
+     "14cd03q",
+     "AND"
+    ],
+    [
+     "srz598",
+     "Use NOT with caution"
+    ],
+    [
+     "1l185tg",
+     "First check the search terms with known relevant papers, and then record the reasons for adjustment."
+    ],
+    [
+     "xopv5u",
+     "Source: NLM PubMed user guide and actual search page; course method description/teaching examples"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ]
+   ],
+   "note": "This is an example of a common structure and no claim is made that the syntax is the same across libraries. PubMed supports Boolean logic, and phrases, truncation, and field labels have their own rules; please check the help in other databases. First, use known relevant papers to check whether the search formula can be found, and then expand the words based on missed detections. NOT may exclude related research that discusses two topics at the same time.\nNLM. PubMed User Guide\nhttps://pubmed.ncbi.nlm.nih.gov/help/\nPositioning: Search, Boolean operators, History; assets/pubmed.png is the actual search web page\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 71,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "71cu1e",
+     "Real search page: result sorting and range"
+    ],
+    [
+     "159hhwx",
+     "A broad query will mix different subjects and article types. The first few results need to be judged one by one."
+    ],
+    [
+     "94wj3u",
+     "01"
+    ],
+    [
+     "1xul6bi",
+     "Query: \"generative AI\" learning"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ],
+    [
+     "mqe9kp",
+     "Best match sorting"
+    ],
+    [
+     "1mlrih0",
+     "Need to check research quality separately"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ],
+    [
+     "1yla3as",
+     "This is only a demonstration of the PubMed interface. Educational topics need to be supplemented by the subject database."
+    ],
+    [
+     "1gwt8sx",
+     "Screenshot of actual public webpage, 2026-10-17; the number of results will change with database updates."
+    ],
+    [
+     "18g2f0d",
+     "Source: NLM PubMed User Guide and actual search page"
+    ],
+    [
+     "80y4by",
+     "05"
+    ]
+   ],
+   "note": "assets/pubmed.png is a screenshot of the public PubMed query actually accessed by a native browser without logging in. The search term is \"generative AI\" learning. The number of results in the screenshot only represents the page at the time of visit and is not intended as evidence of domain trends or complete coverage. PubMed focuses on literature related to life sciences and medicine and cannot represent all educational research. There is no need to simulate HTML to redraw the interface.\nNLM. PubMed User Guide\nhttps://pubmed.ncbi.nlm.nih.gov/help/\nPositioning: Search, Boolean operators, History; assets/pubmed.png is the actual search web page"
+  },
+  {
+   "page": 72,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "sw1ub3",
+     "Retrieve necessary information in a record"
+    ],
+    [
+     "hvrcwj",
+     "Only a list of papers is saved, usually without the ability to review how they were found and filtered."
+    ],
+    [
+     "19h3tvq",
+     "Database and Date"
+    ],
+    [
+     "6hzhds",
+     "Complete search formula"
+    ],
+    [
+     "mnsq8j",
+     "Filtering and Exporting"
+    ],
+    [
+     "icvwhh",
+     "Subsequent modifications"
+    ],
+    [
+     "xhhue4",
+     "Indicate platform and coverage"
+    ],
+    [
+     "f7b68t",
+     "Reserved fields and filter conditions"
+    ],
+    [
+     "1bwjg9v",
+     "Record file name and exclusion reason"
+    ],
+    [
+     "1s192aq",
+     "Version, reason and new source"
+    ],
+    [
+     "ady5mu",
+     "Record examples: original queries, webpage records and candidate materials can correspond to each other; the preset queries are marked for trial checking."
+    ],
+    [
+     "1slilw1",
+     "Queries that have not been executed are marked as pending; entries where the full text cannot be obtained are recorded separately."
+    ],
+    [
+     "14byjk6",
+     "Source: Course Method Description/Teaching Examples"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ]
+   ],
+   "note": "Records should also include document type, time window, language restrictions, and full-text access status. A distinction should be made between real public web page test searches and complete field searches. The search-log.json in the attachment of this section records the actual PubMed page query. The saved teaching search query has not yet been run as a complete solution, and its expected result number cannot be filled in with the actual value.\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 73,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "fxn9d5",
+     "Keywords, semantics and citation tracking"
+    ],
+    [
+     "jdl5gx",
+     "Keyword matching can control expression, semantic search finds synonymous content, and citation tracking supplements contextual research."
+    ],
+    [
+     "1p1trhm",
+     "Different materials may be found through different paths, and they need to be deduplicated and filtered after merging."
+    ],
+    [
+     "1ubmb81",
+     "Source: UCL Thomas, 2025, original workshop courseware; Semantic Scholar official FAQ; course method description/teaching examples"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "oqcy3p",
+     "Category Main content Need to check"
+    ],
+    [
+     "yewr2k",
+     "Keywords terms, fields, phrases and logical combinations Search terms are easy to record and revise"
+    ],
+    [
+     "tof27u",
+     "Semantics Use natural language to describe the problem. Relevance still depends on the problem explanation and scope of inclusion."
+    ],
+    [
+     "v47ccz",
+     "Citation tracking References and subsequent citations Supplementary checking of basic research and subsequent inspection"
+    ]
+   ],
+   "note": "Think of the three paths as complementary. Similar searches do not mean the same research conclusions. The results of the semantic system must be judged back to the original text; a high number of citations does not prove the reliability of the method. The research principles remain at the conceptual level and the details of vector calculations are not discussed. UCL courseware only draws on the organization of search paths. Please refer to the official instructions for specific tool functions.\nJames Thomas. Using AI tools for searching, classifying, extracting and synthesizing research. UCL, 2025-06-13\nhttps://eppi.ioe.ac.uk/CMS/Portals/0/AI%20in%20evidence%20synthesis%20v_3_1.pdf\nPositioning: PDF pages 14, 17, 43, and 56 have been rendered for viewing; refer to the search, correlation discovery and verification process\nSemantic Scholar. Frequently Asked Questions\nhttps://webflow.semanticscholar.org/faq\nPositioning: AI-Features, Citations, Search, Semantic Reader\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 74,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "1qfs4tj",
+     "Connected Papers and Citation Maps"
+    ],
+    [
+     "o2qs2q",
+     "The association diagram helps find similar papers. The adjacent relationships on the diagram need to be confirmed by returning to the paper."
+    ],
+    [
+     "o943pv",
+     "Seed Paper"
+    ],
+    [
+     "a00nt0",
+     "Thesis A"
+    ],
+    [
+     "1gwme11",
+     "Paper B"
+    ],
+    [
+     "1ynwyf9",
+     "Paper C"
+    ],
+    [
+     "67g15j",
+     "Similar relationship"
+    ],
+    [
+     "cv9jfb",
+     "Proximity indicates related clues,"
+    ],
+    [
+     "1shdyk2",
+     "Cannot be judged as mutual references based on this."
+    ],
+    [
+     "ytegtb",
+     "The actual reference will be verified separately"
+    ],
+    [
+     "g5ah8u",
+     "References and citation records"
+    ],
+    [
+     "1o3vckz",
+     "is used to find out the reference direction."
+    ],
+    [
+     "mt9b99",
+     "Editable relationship representation, non-Connected Papers execution screenshot; nodes do not represent real documents."
+    ],
+    [
+     "1qxdznn",
+     "Source: Connected Papers official About; course method description/teaching examples"
+    ],
+    [
+     "76zb91",
+     "08"
+    ]
+   ],
+   "note": "Connected Papers official search fragment makes it clear that it is not a reference tree. This page shows the meaning of the relationship, using the symbols A, B, C and D. It does not mean that the software returned these papers. Similarity relationships and actual citation directions must be distinguished. Expansion from seeded papers is still affected by database coverage and seed selection. The graph query for this course topic has not yet been executed in Connected Papers.\nConnected Papers. About\nhttps://www.connectedpapers.com/about\nPositioning: The official search fragment description is not a citation tree; the complete JS page was not obtained this time, and the function only retains a limited description of related discoveries.\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 75,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "1pc1d4x",
+     "Current changes to the Elicit portal"
+    ],
+    [
+     "1vvjozk",
+     "The independent Find Papers, Extract Data and Chat with Papers have been integrated into the Research Agent workflow."
+    ],
+    [
+     "94wj3u",
+     "01"
+    ],
+    [
+     "14czvia",
+     "Official change date"
+    ],
+    [
+     "xixufn",
+     "2026-09-30"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ],
+    [
+     "lrlixp",
+     "New mission is here"
+    ],
+    [
+     "ugmj1d",
+     "Start in Research Agent"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ],
+    [
+     "18ss6c6",
+     "Search, extract and ask questions still need to check the source"
+    ],
+    [
+     "16xrswz",
+     "Elicit official help page record, 2026-10-17; not the Agent execution record of this project."
+    ],
+    [
+     "1makdcf",
+     "Source: Elicit official description, entrance change on 2026-09-30"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "Changes in the official help page on 2026-09-30: The independent entrance of the old tool is cancelled, and the capabilities are merged into the Research Agent; the old session can be read and exported, and the new work is entered into the Agent. The screenshot is the official help page, not the paid model of this project. The class will talk about functions and material flow, instead of just taking screenshots and registering button by button. Functions, packages and interfaces may continue to be updated and need to be reviewed before demonstration.\nElicit. Where did Find Papers, Extract Data, and Chat with Papers go?\nhttps://support.elicit.com/en/articles/17220397-where-did-find-papers-extract-data-and-chat-with-papers-go\nPositioning: Official change instructions and How to do the same work now; page screenshot 2026-10-17"
+  },
+  {
+   "page": 76,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "r5yl83",
+     "How to check answers with citations"
+    ],
+    [
+     "bnhrah",
+     "Tools such as Consensus can bring search and answer organization together. The citation link is just the entry point for verification."
+    ],
+    [
+     "l1n2wa",
+     "Natural language problem\nStudies retrieved by"
+    ],
+    [
+     "1yurfcp",
+     "Retrieved studies"
+    ],
+    [
+     "1b69mcr",
+     "Synthesis with citations"
+    ],
+    [
+     "17wd2sg",
+     "Return to the original text to check"
+    ],
+    [
+     "14f47ee",
+     "Describe the objects and conditions"
+    ],
+    [
+     "166tag",
+     "Check relevance and coverage"
+    ],
+    [
+     "v2g406",
+     "Locate each major judgment"
+    ],
+    [
+     "1unai3b",
+     "Look at design, results and limitations"
+    ],
+    [
+     "1j1cf5z",
+     "Check the order: first check which article is quoted, then check whether the original text contains the judgment, and finally check whether the condition has been omitted."
+    ],
+    [
+     "1bnamk1",
+     "The “majority support” given by the model still needs to check whether the denominator, screening range and studies are comparable."
+    ],
+    [
+     "ae3k2r",
+     "Source: Consensus official description, 2026-09-10; course method description/teaching examples"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "Consensus official instructions use keywords and semantics to search, and provide citation synthesis. This page does not guarantee that any quotation is correct or that the conclusion is comprehensive. The voting agreement ratio cannot replace the judgment of research quality and comparability. To distinguish between material retrieved by the system and studies that were not retrieved, generated abstracts should not be treated as original evidence.\nConsensus. How Consensus Works\nhttps://help.consensus.app/en/articles/9922673-how-consensus-works\nPositioning: How does a Consensus search work?, How does Consensus analyze the research?\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 77,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "y859xb",
+     "Discover and read in Semantic Scholar"
+    ],
+    [
+     "1hrxkit",
+     "Paper entries, citation relationships and auxiliary reading information can help locate materials, and short abstracts are only suitable for preliminary screening."
+    ],
+    [
+     "1xx2ni1",
+     "Thesis Entry"
+    ],
+    [
+     "1uwzfgq",
+     "Citing and being cited"
+    ],
+    [
+     "1axq559",
+     "Find before and after studies"
+    ],
+    [
+     "pv8ev2",
+     "Original link"
+    ],
+    [
+     "853yqi",
+     "Check available versions"
+    ],
+    [
+     "11s0h4o",
+     "Auxiliary summary"
+    ],
+    [
+     "8p20mo",
+     "Return to the text to supplement the conditions"
+    ],
+    [
+     "1qooniq",
+     "Check the title and author"
+    ],
+    [
+     "gjsbk2",
+     "Auxiliary reading information can save positioning time, but the key proposition still requires the original text position."
+    ],
+    [
+     "s8nrma",
+     "Source: Semantic Scholar official FAQ; course method description/teaching examples"
+    ],
+    [
+     "80uytz",
+     "11"
+    ]
+   ],
+   "note": "The official FAQ explains AI-related functions, citation, search and Semantic Reader. The auxiliary abstracts are not reproduced here as the author's original conclusions, and there is no promise that each article will provide the complete text or the same functions. It is recommended to locate the DOI in the entry and check with the publisher or legal open version. The actual functions are subject to the page at the time of access.\nSemantic Scholar. Frequently Asked Questions\nhttps://webflow.semanticscholar.org/faq\nPositioning: AI-Features, Citations, Search, Semantic Reader\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 78,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "5vgrqp",
+     "Items, attachments and notes in Zotero"
+    ],
+    [
+     "r5c6wr",
+     "Document entries save identity information, attachments save the original text, and notes save reading judgments and evidence locations."
+    ],
+    [
+     "1ign9e7",
+     "Literature entry"
+    ],
+    [
+     "1ixj9br",
+     "Title/Author/DOI"
+    ],
+    [
+     "1mvga1y",
+     "Check automatically acquired metadata"
+    ],
+    [
+     "1qlohby",
+     "Original text and supplementary materials"
+    ],
+    [
+     "1wgygl8",
+     "Record version and source of acquisition"
+    ],
+    [
+     "yngmoy",
+     "Reading notes with location"
+    ],
+    [
+     "tgq9w5",
+     "Distinguish between the original text and your own inference"
+    ],
+    [
+     "3ndo75",
+     "The same item can belong to multiple collections"
+    ],
+    [
+     "4z6xtz",
+     "Document management solves preservation and citation issues, and entries still need to be checked against publication records."
+    ],
+    [
+     "1jdluuw",
+     "Source: Zotero official instructions for use; course method description/teaching examples"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ]
+   ],
+   "note": "Zotero can add items by identifiers such as DOIs, and collections can share references, attachments, and note attachments to the same item. The import is not verified, pay special attention to the author, year, article type, page number and DOI. Literature export and Word plug-ins can format citations, but they cannot determine what claims are supported by the citations. There is no fake Zotero interface that is already open on the machine.\nZotero. The Basics\nhttps://www.zotero.org/support/quick_start_guide\nPositioning: Collections, Attachments, Add Item by Identifier, Word Processor Integration\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 79,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "12y5acb",
+     "Duplication removal and version relationship"
+    ],
+    [
+     "1tvrhfn",
+     "Records with similar titles may be duplicate imports, or they may be preprints, formal papers, or correction notices."
+    ],
+    [
+     "aieomd",
+     "Record suspected to be duplicate"
+    ],
+    [
+     "597sqj",
+     "Same study, same version"
+    ],
+    [
+     "oc6g8i",
+     "Merge entries and keep attachments"
+    ],
+    [
+     "15byp9i",
+     "Different version or update"
+    ],
+    [
+     "1yn683q",
+     "Record correspondences and differences"
+    ],
+    [
+     "8xvses",
+     "Records of duplication operations should be kept; results of different versions need to be returned to the original text for verification one by one."
+    ],
+    [
+     "14byjk6",
+     "Source: Course Method Description/Teaching Examples"
+    ],
+    [
+     "8ku67x",
+     "13"
+    ]
+   ],
+   "note": "Prioritize comparison of DOI, title, author and publication information. The titles of preprints and formal papers may change, and the results may also change; they should not be deleted simply based on string similarity. Corrections, retraction notices and supplementary materials cannot be discarded as duplicate papers. When reporting the same study repeatedly, the synthesis stage also needs to avoid counting the same data as multiple independent pieces of evidence.\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  },
+  {
+   "page": 80,
+   "pairs": [
+    [
+     "onzr7m",
+     "05 Literature search, reading and review"
+    ],
+    [
+     "fgimq8",
+     "Inclusion, exclusion and missing full text"
+    ],
+    [
+     "1tzubgi",
+     "Preliminary screening of bibliographies, full-text judgment and evidence extraction are different steps, and each step may leave pending entries."
+    ],
+    [
+     "125i1dv",
+     "Bibliography and abstract\nIs the full text of"
+    ],
+    [
+     "juof13",
+     "available?"
+    ],
+    [
+     "18zaoqy",
+     "Meets the scope of the problem"
+    ],
+    [
+     "uxwftu",
+     "Enter evidence table"
+    ],
+    [
+     "18pgyl",
+     "Check objects and topics"
+    ],
+    [
+     "rvvzat",
+     "The full text is missing and will be listed separately."
+    ],
+    [
+     "14alb7h",
+     "Write down specific reasons for exclusion"
+    ],
+    [
+     "1m7eur9",
+     "Save original text location"
+    ],
+    [
+     "ujdnrx",
+     "The full text is missing/the scope does not match/the information is unclear"
+    ],
+    [
+     "184kse2",
+     "Record the reasons and next steps respectively"
+    ],
+    [
+     "1fh10du",
+     "Process description, there is no fictitious screening number; the full text is not retrieved and the research does not meet the requirements and needs to be recorded separately."
+    ],
+    [
+     "gl21ls",
+     "Source: PRISMA 2020 official description; course method description/teaching examples"
+    ],
+    [
+     "6mwyd4",
+     "14"
+    ]
+   ],
+   "note": "This page shows the non-counting process, and there is no fake PRISMA screening number. If reporting a systematic review, the number of each stage and the reasons for exclusion need to be recorded according to applicable specifications. When the full text was not available, the abstract description was not evaluated as a complete method. Who completes the screening, how AI is involved, and spot checks methods should be documented.\nPRISMA 2020 Statement\nhttps://www.prisma-statement.org/prisma-2020\nPositioning: Report checklist and flowchart description; do not refer to the reporting guide as a quality scoring tool\nCourse Writing: Examples of Retrieval and Literature Comprehensive Teaching\nlocal: material status and verification scope.md\nPositioning: The search terms, judgment examples and review paragraphs are all written for the course; the two studies constitute comparative cases and do not constitute a systematic review"
+  }
+ ]
+}
