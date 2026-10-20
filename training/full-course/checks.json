@@ -1,5 +1,5 @@
 {
-  "revision": "course-r2",
+  "revision": "course-r3",
   "pages": 240,
   "source_sections": 15,
   "slide_xml_byte_identical": 240,
@@ -22,6 +22,6 @@
   ],
   "actual_pptx_pdf_pages": 240,
   "preview_images": 240,
-  "pptx_sha256": "db060a160c6f082cf03b525ee683d359cada925805b030e6b9aa3104bbc6d322",
+  "pptx_sha256": "9a06aba9dac0a97b966b2933b16696aa17130ef24f9a049afacfe240d07f2486",
   "scope": "Current source deck hashes, complete native slide/note/chart/media/workbook parts, relationship resolution and actual assembled rendering. Does not establish policy completeness, scientific approval, live model execution, timed rehearsal or user teaching acceptance."
 }

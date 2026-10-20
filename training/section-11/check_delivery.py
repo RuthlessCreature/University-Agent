@@ -3,7 +3,7 @@ from xml.etree import ElementTree as E
 import json,hashlib,re,zipfile,subprocess,sys
 from docx import Document
 from pypdf import PdfReader
-r=Path(__file__).resolve().parent;rev='s11-r6';packet=r/'patent-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
+r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 's11-r7';packet=r/'patent-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
 def load(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 d=load(r/'lesson.json');m=load(packet/'patent.json');e=load(r/'execution-evidence.json');run=load(packet/'output/run.json');assert e['run']==run

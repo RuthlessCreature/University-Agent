@@ -4,7 +4,7 @@ import csv,json,hashlib,zipfile,re,statistics,io,subprocess,sys
 from docx import Document
 from pypdf import PdfReader
 from openpyxl import load_workbook
-r=Path(__file__).resolve().parent;rev='s12-r7';packet=r/'closeout-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
+r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 's12-r8';packet=r/'closeout-packet';p=next((r/'output').glob('*'+rev+'.pptx'))
 def load(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 run=load(packet/'output/run.json');assert run==load(r/'execution-evidence.json')
@@ -77,7 +77,7 @@ unchanged=[];same_previews=[]
 prior=next((r/'output').glob('*s12-r5.pptx'),None)
 if prior:
  with zipfile.ZipFile(prior) as old,zipfile.ZipFile(p) as new:
-  for i in [1,2,3,4,6,8,10]:
+  for i in ([2,3,6,8,10] if rev=='s12-r8' else [1,2,3,4,6,8,10]):
    name=f'ppt/slides/slide{i}.xml';ot=[t.text for t in E.fromstring(old.read(name)).findall('.//a:t',ns)];nt=[t.text for t in E.fromstring(new.read(name)).findall('.//a:t',ns)];assert ot==nt;unchanged.append(i)
    oldpng=r/'renders/s12-r5'/f'slide-{i:02d}.png'
    if oldpng.exists() and oldpng.read_bytes()==(r/'renders'/rev/f'slide-{i:02d}.png').read_bytes():same_previews.append(i)

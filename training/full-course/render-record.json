@@ -1,7 +1,7 @@
 {
-  "revision": "course-r2",
-  "pptx_sha256": "db060a160c6f082cf03b525ee683d359cada925805b030e6b9aa3104bbc6d322",
-  "pdf_sha256": "f362eb1645317b18c13b39f288de598e1cc4555d58fb1d567e70bd78955c2d53",
+  "revision": "course-r3",
+  "pptx_sha256": "9a06aba9dac0a97b966b2933b16696aa17130ef24f9a049afacfe240d07f2486",
+  "pdf_sha256": "bc58447a9d00670d299a88aedc6dba83cfbbc19bb5c27cb8cc54a655a051360f",
   "pages": 240,
   "images": 240,
   "renderer": "LibreOffice then Poppler 96 dpi",

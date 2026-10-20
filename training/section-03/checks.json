@@ -1,5 +1,5 @@
 {
-  "revision": "s3-r3",
+  "revision": "s3-r4",
   "pages": 18,
   "pdf_pages": 18,
   "notes": 18,
@@ -37,6 +37,6 @@
     ]
   ],
   "embedded_workbooks": 2,
-  "pptx_sha256": "489467f6d8e3b41948c7b76d8fb015c1e226fe5b5a7b4f42c19a5d4aed3bd765",
+  "pptx_sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
   "scope": "课件结构、原生对象、报告数值与明确限定词的检查；不证明全部语义不变，不是外部模型或科研Agent运行测试。"
 }

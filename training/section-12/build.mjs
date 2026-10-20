@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s12-r7';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s12-r8';
 const S='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation,applyPresentationChartFont}=await import(pathToFileURL(path.join(S,'container_tools/artifact_tool_utils.mjs')).href);
@@ -20,11 +20,11 @@ function table(s,values){const t=s.tables.add({rows:values.length,columns:values
 async function pic(s,file,x,y,w,h){const b=await fs.readFile(path.join(R,file));s.images.add({blob:b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),contentType:'image/png',fit:'contain',alt:'本节实际生成的材料核对Word第一页，由LibreOffice渲染',position:{left:x,top:y,width:w,height:h}});}
 for(const d of data){const s=p.slides.add();s.background.fill='#FFFFFF';T(s,'12  项目执行与结题',80,28,1440,35,20,false,C.muted);T(s,d.title,80,84,1440,82,47,true,C.navy);rule(s,80,184,1440,C.navy,2);T(s,d.thesis,80,213,1440,95,31,false,C.blue);
 switch(d.kind){
-case 'opening':steps(s,['任务与完成判据','过程记录及变更','成果与证明材料','结题材料与归档'],['以任务书和获批版本为准','数据、方法、偏差和处理','逐项定位，保留缺口','负责人和单位按规定核对']);T(s,'本节案例：公开数据能复算到哪里，结题材料就据此写到哪里。',80,740,1440,65,31);break;
+case 'opening':steps(s,['任务与完成判据','过程记录及变更','成果与证明材料','结题材料与归档'],['以任务书\n和获批版本为准','数据与方法\n偏差和处理','逐项定位，保留缺口','负责人和单位\n按规定核对']);T(s,'本节案例：公开数据能复算到哪里，结题材料就据此写到哪里。',80,740,1440,65,31);break;
 case 'rules':rows(s,[['报告的事实依据','负责人核对数据、成果与项目关联，按要求整理正文和附件。'],['成果列入的条件','核对发表状态、项目参与者、时间、资助标注与项目相关性。'],['AI辅助的范围','定位资料、复算数字、检查缺项。正式报告由负责人依据真实材料撰写。']]);break;
 case 'monitoring':steps(s,['立项时','执行中','阶段检查','结题前'],['任务要求与完成判据\n记录分工及版本','按要求报进展\n保留数据与方法记录','对照计划检查偏差\n办理必要的变更','逐项核对证明材料\n整理正文及附件'],355);T(s,'案例当前：数据来源和统计已核，抽样依据待补。',80,690,1440,65,31,true,C.blue);T(s,'阶段记录保留问题、影响、处理状态与后续安排，不能只报“进展顺利”。',80,765,1440,55,29);break;
 case 'criteria':rows(s,[['M1 来源与筛选','交付来源记录及筛选过程，核对原始CSV、筛选条件和保留记录。'],['M2 分组统计','交付雌雄鳍长均值及差值，核对记录数、单位、比较方向和复算程序。'],['M3 抽样依据','查看原始个体标识与采样记录，核对重复观测和独立性假设。']]);break;
-case 'selection':{const ns=steps(s,['344条公开记录','152条Adelie记录','146条分析记录'],['保存原始文件与来源','条件：species为Adelie','性别和鳍长均有记录'],345);T(s,'152条中排除6条缺失记录，保留原CSV行号：5、10、11、12、13、49。',80,675,1440,65,30,true,C.blue);T(s,'原文件、筛选条件、排除原因和计算程序一起保存。行号用于定位，不是个体编号。',80,755,1440,60,29);break;}
+case 'selection':{const ns=steps(s,['344条公开记录','152条Adelie记录','146条分析记录'],['保存原始文件与来源','条件：species为Adelie','性别和鳍长\n均有记录'],345);T(s,'152条中排除6条缺失记录，保留原CSV行号：5、10、11、12、13、49。',80,675,1440,65,30,true,C.blue);T(s,'原文件、筛选条件、排除原因和计算程序一起保存。行号用于定位，不是个体编号。',80,755,1440,60,29);break;}
 case 'matrix':table(s,[['任务条目','当前结果与材料定位','材料状态'],['M1 来源与筛选','A02来源、A03原始CSV、A05纳入表\n344条中筛得146条分析记录','材料已核'],['M2 分组统计','A04程序、A06计算结果\n雌雄各73条，雄减雌4.62 mm','材料已核'],['M3 抽样依据','A03列名缺个体与抽样字段\nA08记录待补，当前未判为完成','待补资料']]);break;
 case 'result':{const c=s.charts.add('bar',{position:{left:80,top:330,width:760,height:430},title:'Adelie所选记录的平均鳍长（mm）',titleTextStyle:{fontSize:25,typeface:F},categories:['雌性 n=73','雄性 n=73'],series:[{name:'平均鳍长（mm）',values:[calc.female_mean_mm,calc.male_mean_mm].map(v=>Number(v.toPrecision(12))),fill:C.blue}],hasLegend:false,barOptions:{direction:'column',grouping:'clustered',gapWidth:65},xAxis:{textStyle:{fontSize:23,typeface:F}},yAxis:{min:0,max:220,majorUnit:50,textStyle:{fontSize:22,typeface:F},majorGridlines:{fill:C.rule,width:1}},dataLabels:{showValue:false},chartFill:'#FFFFFF',plotAreaFill:'#FFFFFF'});applyPresentationChartFont(c,{fontFamily:F});T(s,'能够据实说明的结果',920,335,600,65,32,true,C.blue);T(s,'雌性平均鳍长187.79 mm，\n雄性192.41 mm，均值高4.62 mm。\n\n该差值描述本次所选记录。个体重复与采样依赖尚待核对，不能据此解释因果机制。',920,430,600,335,31);break;}
 case 'gaps':{const a=N(s,'核对来源与文件版本',80,350,420,90),b=N(s,'复算筛选与分组均值',590,350,420,90),c=N(s,'继续查个体与采样依据',1100,350,420,90,'#F8EDE9'),d=N(s,'M1、M2：材料已核',590,610,420,80,'#E7F2EF'),e=N(s,'M3：仍待补资料',1100,610,420,80,'#F8EDE9');A(s,a,b);A(s,b,c);A(s,b,d,'bottom','top');A(s,c,e,'bottom','top');T(s,'附件A02、A03\n来源、许可及原文件哈希',80,470,420,100,27);T(s,'附件A04至A06\n146条记录、分组数与差值',590,710,420,90,27);T(s,'附件A08登记缺口\n不能凭正确均值确认独立性',1100,710,420,90,27);break;}

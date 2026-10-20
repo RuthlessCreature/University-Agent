@@ -733,8 +733,8 @@
           "page": 16,
           "global_page": 182,
           "title": "风险与替代方案",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n风险与替代方案\n替代路径应说明触发条件、调整动作，以及调整后还能支持什么结论。\n提示规则不稳定\n触发：预试未达到预定要求。动作：修订提示和材料，再做预试核对。\n退出或记录缺失\n记录发生原因，按预先方案处理，报告缺失及其对解释的影响。\n无法按计划分组\n先评估调整目标与设计的可行性。改为观察性研究时，重新限定因果解释。\n备用方案改变设计时，结论的适用范围也随之调整。\n来源：NIH StrokeNet"
         }
       ]
@@ -1205,8 +1205,8 @@
           "page": 15,
           "global_page": 49,
           "title": "给修订任务写清边界",
-          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r3.pptx",
-          "pptx_sha256": "489467f6d8e3b41948c7b76d8fb015c1e226fe5b5a7b4f42c19a5d4aed3bd765",
+          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r4.pptx",
+          "pptx_sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
           "excerpt": "03  Humanizer 与各类科研产物的表达\n给修订任务写清边界\n要求说明保留项、修改范围和交付方式，减少无依据的扩写。\n请按高校科研材料的语体修订下文。\n保留数字、单位、专业术语、引文、否定和限定条件。\n改掉空泛评价、重复结尾、指代不清和过长句。\n不要补充未提供的研究事实。\n交付修订稿及逐项差异说明；事实不明处另列问题。\n作者原稿\n修订要求\n修订稿＋差异\n课程编写的任务示例；提示词本身不能保证事实不变，需要再次核对。\n来源：Hum"
         },
         {
@@ -1336,8 +1336,8 @@
           "page": 4,
           "global_page": 38,
           "title": "删掉“可能”，结论就变了",
-          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r3.pptx",
-          "pptx_sha256": "489467f6d8e3b41948c7b76d8fb015c1e226fe5b5a7b4f42c19a5d4aed3bd765",
+          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r4.pptx",
+          "pptx_sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
           "excerpt": "03  Humanizer 与各类科研产物的表达\n删掉“可能”，结论就变了\n限定词表达证据强度，不能按“更有力量”的要求一律删除。\n原意：保留可能性\n更明确的反馈可能帮助学生改进写作。\n润色后的风险：判断更肯定\n更明确的反馈帮助学生改进写作。\n“可能”被删后，陈述的确定程度提高；流畅度的变化掩盖了论证含义的变化。\n据 UCL 2026 年课件第8页的英文例子作中文转述，不作为本课程实验结果。\n来源：McKinley，UCL（2026），"
         },
         {
@@ -1345,8 +1345,8 @@
           "page": 16,
           "global_page": 50,
           "title": "差异核对：表达变了，事实还在吗",
-          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r3.pptx",
-          "pptx_sha256": "489467f6d8e3b41948c7b76d8fb015c1e226fe5b5a7b4f42c19a5d4aed3bd765",
+          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r4.pptx",
+          "pptx_sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
           "excerpt": "03  Humanizer 与各类科研产物的表达\n差异核对：表达变了，事实还在吗\n把修订前后并排看，逐项核对容易被顺手改掉的信息。\n核对项\n风险改动示例\n处理办法\n研究状态\n拟开展 → 已完成\n需要撤回，不能改变时态事实\n推断关系\n相关 → 导致\n需要撤回，不能提高因果强度\n范围与否定\n本样本／未检出 → 被省略\n回到原句和研究记录核对\n数字与引用\n数值、单位、DOI被替换\n逐项比对原始资料\n逐项差异说明支持复核；关键词检查只能覆盖部分"
         },
         {
@@ -1363,8 +1363,8 @@
           "page": 4,
           "global_page": 170,
           "title": "国自然申请中的AI使用要求",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n国自然申请中的AI使用要求\nAI参与资料整理时，申请人仍须核实信息、声明使用情况并按规定标识。\n资料与引用\nAI辅助跟踪动态、整理文献时，申请人逐项核实信息与文献真实性、准确性。\n使用情况\n全面如实声明AI使用情况，并按规定对相关内容作出标识。\n申请书正文\n不得使用生成式AI直接生成的申请书，也不得使用未经核实的生成内容。\n本节AI协助编写的研究设计和Word仅作教学演示，不作国自然申请书使用。"
         }
       ]
@@ -1514,8 +1514,8 @@
           "page": 8,
           "global_page": 174,
           "title": "立项依据中的文献与本例问题",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n立项依据中的文献与本例问题\n已有研究的对象、干预和测量，可以帮助限定本例准备追问的内容。\n公开研究：高中数学\nBastani等（PNAS，2025）比较不同AI辅导条件，并另设无辅助测验。研究设计把工具使用阶段与独立作答阶段分别观察。\n本例拟追问：大学统计课程\n在相同模型和任务下，先写思路再获得分步提示，是否改变独立解题表现？需继续检索同类研究，判断具体差异。\n高中研究的设计启发可以借鉴；大学场"
         },
         {
@@ -1523,8 +1523,8 @@
           "page": 11,
           "global_page": 177,
           "title": "研究假说与其他可能解释",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n研究假说与其他可能解释\n提示方式、独立尝试与后续测验之间的关系，需要通过设计和数据检验。\n分步提示方式\n独立尝试与修正\n无AI新题表现\n记录实际提供的提示\n保留步骤和修改过程\n采用统一测验与评分\n其他可能解释：既有水平、学习投入、题目难度、教师实施及组间交流。\n虚线为待检验关系；既有水平和实施差异等因素需另行考虑。\n来源：课程教学模拟，未实施\n11"
         }
       ]
@@ -1546,8 +1546,8 @@
           "page": 9,
           "global_page": 175,
           "title": "科学问题、目标与研究内容",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n科学问题、目标与研究内容\n问题说明未知关系，目标说明准备弄清什么，研究内容安排取得证据的工作。\n科学问题\n研究目标\n研究内容\n提示方式与离开AI后的独立解题，有怎样的关系？\n比较两种条件下的独立测验表现，检查作答过程。\n预试题目和评分，实施比较，记录过程，联合解释。\n概念用于组织思路，正文按研究自身逻辑展开。\n来源：国自然2026申请书改版说明；课程教学模拟，未实施\n09"
         },
         {
@@ -1555,8 +1555,8 @@
           "page": 10,
           "global_page": 176,
           "title": "研究内容与可检验结果",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n研究内容与可检验结果\n每项研究内容需要说明观察什么、怎样判断，以及得不到预期结果时仍能回答什么。\n题目与评分预试\n检查题目难度与评分规则，形成可复查的材料和修订记录。\n辅导条件比较\n统一测量，记录两组过程及无AI新题成绩，报告差异与不确定性。\n过程与结果解释\n比较尝试、求助和修正记录。未出现预期差异时，也如实分析设计与适用范围。\n研究计划中的产物是预期安排，不能写成已经取得的结果。\n来源：NIH"
         },
         {
@@ -1564,8 +1564,8 @@
           "page": 12,
           "global_page": 178,
           "title": "比较设计与测量安排",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n比较设计与测量安排\n两组使用同一模型、题目和练习时长，一周后按统一规则评价无AI新题作答。\n核对准入与分配方案\n完整解答条件\n分步提示条件\n一周后无AI新题\n按统一规则评分\n保留实际求助与作答记录\n评分规则与分析方案预先确定\n研究设计教学示意。样本量、分配方式、伦理与授权仍待核定。\n来源：NIH StrokeNet 2026原始课件；课程教学模拟，未实施\n12"
         },
         {
@@ -1573,8 +1573,8 @@
           "page": 13,
           "global_page": 179,
           "title": "比较实施与一周后测量的技术路线",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n比较实施与一周后测量的技术路线\n两种条件分别保留过程记录，再用同一测量时点和评分规则比较。\n题目与评分规则\n材料预试与分配安排\n分步提示条件\n完整解答条件\n提示组过程记录\n解答组过程记录\n一周后无AI新题\n按统一规则评分\n按预定方案比较\n用同一编号对应组别、过程与测验；\n测量缺失和执行偏离单独登记。\n教学拟议，未实施。预试、分配、测量质量及启动条件仍待核定。\n来源：课程教学模拟，未实施\n13"
         }
       ]
@@ -1593,8 +1593,8 @@
           "page": 14,
           "global_page": 180,
           "title": "创新点的比较依据",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n创新点的比较依据\n创新论证需要明确：与哪些已有工作比较，增加了哪项可检验认识。\n已有工作覆盖什么\n不同AI辅导设计、练习阶段与无辅助测验，已有公开研究涉及。\n本例准备比较什么\n大学统计课程中的具体提示方式，以及过程记录与独立表现的对应。\n创新论证仍需什么\n检索相关大学研究，说明具体未解问题及其价值，再判断是否形成新认识。\n当前只给出创新论证的比较方式，创新性仍待文献与专家核对。\n来源：NIH S"
         }
       ]
@@ -1614,8 +1614,8 @@
           "page": 6,
           "global_page": 172,
           "title": "申报前的材料盘点",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n申报前的材料盘点\n已有文献、研究者工作和拟开展的研究，需要分别登记。\n材料登记与用途核对\n公开文献\n支持研究现状与方法选择，注明阅读范围。\n申请人已有工作\n核对论文贡献、数据记录与相关工作积累。\n拟开展研究\n写明研究设想、待办条件和未验证关系。\n缺少材料时，保留问题及其影响，不用通用措辞补成团队成果。\n来源：国自然2026申请通告；课程教学模拟，未实施\n06"
         },
         {
@@ -1623,9 +1623,9 @@
           "page": 15,
           "global_page": 181,
           "title": "研究基础与实施条件",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
-          "excerpt": "10  基金申报与Grant Agent\n研究基础与实施条件\n申请人的已有工作，需要与本项目的关键任务逐项对应。\n关键研究任务\n已有工作与贡献\n条件证明与缺口\n例如题目设计、实施和分析\n提供相关论文、数据、工具及本人贡献\n核对准入、设备、合作和时间安排\n本例实际状态：没有申请人前期成果、课程准入证明或合作承诺。\n公开文献支持研究背景，申请人研究基础仍需真实材料。\n本例未提供申请人真实研究基础，不能据此判断具备申报条件。\n来源：国自然20"
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\n研究基础与实施条件\n申请人的已有工作，需要与本项目的关键任务逐项对应。\n关键研究任务\n已有工作与贡献\n条件证明与缺口\n例如题目设计、实施和分析\n提供相关论文、数据、工具\n及本人贡献\n核对准入、设备、合作\n和时间安排\n本例实际状态：没有申请人前期成果、课程准入证明或合作承诺。\n公开文献支持研究背景，申请人研究基础仍需真实材料。\n本例未提供申请人真实研究基础，不能据此判断具备申报条件。\n来源：国自然"
         }
       ]
     },
@@ -1654,8 +1654,8 @@
           "page": 18,
           "global_page": 184,
           "title": "研究任务与经费依据",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n研究任务与经费依据\n先识别研究需要的资源，再按对应类别和单位要求说明成本。\n研究任务\n资源用量\n费用依据\n需要哪些人员、材料与计算条件\n按实施次数、工作量与使用时长估算\n核对报价、费用归属和当期规定\n2026国自然案例：青年A、B、C类等实行包干制，申请时无需编制预算；\n其余项目按规定实行预算制，结合实际研究需要编报。\n预算方式按所申报类别核对，不把示例测算当作官方额度。\n来源：国自然2026申"
         },
         {
@@ -1663,8 +1663,8 @@
           "page": 8,
           "global_page": 212,
           "title": "软件成果的版本、贡献与登记材料",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n软件成果的版本、贡献与登记材料\n台账先记录实际软件和运行证据，再核对本人贡献、权属及登记材料。\n固定教学代码快照\n运行同一份公开CSV\n整理材料并保留缺口\n核对项目\nSW01当前证据与状态\n版本定位\n2026-10-19教学快照；哈希随包\n实际运行\n344条输入，146条纳入，雌雄各73\n本人贡献及权属\n实际人员、职责和归属尚未确认\n所需材料\n申请表、程序及文档、相关证明\n登记状态\n未申请；无登记号或证书\n经费与"
         }
       ]
@@ -1685,17 +1685,17 @@
           "page": 21,
           "global_page": 187,
           "title": "Grant Agent的工作流与Harness",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
-          "excerpt": "10  基金申报与Grant Agent\nGrant Agent的工作流与Harness\n运行记录把输入版本、核对动作、输出文件和未解决问题连在一起。\n指南与模板\n研究者材料\n内容与路线\n核对与Word\n保留原件，提取具体要求\n登记事实、来源与缺口\n按研究逻辑组织段落和步骤\n逐项检查并保留版本\nHarness：保存输入版本、步骤状态、来源定位与失败原因的运行规则。\n框架图说明整体工作。本次本地执行范围在后页单独列出。\n来源：Sectio"
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
+          "excerpt": "10  基金申报与Grant Agent\nGrant Agent的工作流与Harness\n运行记录把输入版本、核对动作、输出文件和未解决问题连在一起。\n指南与模板\n研究者材料\n内容与路线\n核对与Word\n保留原件\n提取具体要求\n登记事实、来源与缺口\n按研究逻辑\n组织段落和步骤\n逐项检查并保留版本\nHarness：保存输入版本、步骤状态、来源定位与失败原因的运行规则。\n框架图说明整体工作。本次本地执行范围在后页单独列出。\n来源：Secti"
         },
         {
           "section": 10,
           "page": 24,
           "global_page": 190,
           "title": "异常材料的实际拦截",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n异常材料的实际拦截\n指南章节不一致、未知来源、模板缺章和未经签核的最终导出，均有真实失败记录。\n指南与章节不一致\n检出章节名与指南不一致，停止写出Word\n引用未登记来源\n来源标识未登记，停止写出Word\n模板缺少必需章节\n未找到研究内容的填充位置\n未经签核请求最终导出\n最终导出被拒绝，未生成正式稿\n4项异常已实际触发拦截；覆盖范围以具体检查规则为限。\n来源：Section10实际本地文件记录\n"
         },
         {
@@ -1703,8 +1703,8 @@
           "page": 26,
           "global_page": 192,
           "title": "提交前的完整性与研究者判断",
-          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-          "pptx_sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+          "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+          "pptx_sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
           "excerpt": "10  基金申报与Grant Agent\n提交前的完整性与研究者判断\n正式申报要核对当年要求、真实研究材料和最终排版，再由申请人与单位履行职责。\n当年官方要求与模板\n真实材料与研究者论证\n核对事实、引用、贡献、伦理与使用声明\n申请人与单位按职责核对最终版本，按正式系统流程提交。\n下一节：专利挖掘与技术交底。本节产物仍为教学材料。\n来源：国自然2026申请通告；课程教学模拟，未实施\n26"
         }
       ]
@@ -1725,8 +1725,8 @@
           "page": 3,
           "global_page": 207,
           "title": "项目进度与阶段检查",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n项目进度与阶段检查\n日常记录、进展报告和阶段检查应对照同一任务基线，及时发现偏差。\n立项时\n执行中\n阶段检查\n结题前\n任务要求与完成判据\n记录分工及版本\n按要求报进展\n保留数据与方法记录\n对照计划检查偏差\n办理必要的变更\n逐项核对证明材料\n整理正文及附件\n案例当前：数据来源和统计已核，抽样依据待补。\n阶段记录保留问题、影响、处理状态与后续安排，不能只报“进展顺利”。\n进展报告和中期检查的适用范围、周期与审批方式，"
         },
         {
@@ -1734,8 +1734,8 @@
           "page": 5,
           "global_page": 209,
           "title": "任务、成果与证据的对应",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n任务、成果与证据的对应\n每项任务对应到实际附件和具体字段，证据表保留材料已核与待补的区别。\n任务条目\n当前结果与材料定位\n材料状态\nM1 来源与筛选\nA02来源、A03原始CSV、A05纳入表\n344条中筛得146条分析记录\n材料已核\nM2 分组统计\nA04程序、A06计算结果\n雌雄各73条，雄减雌4.62 mm\n材料已核\nM3 抽样依据\nA03列名缺个体与抽样字段\nA08记录待补，当前未判为完成\n待补资料\n“材"
         },
         {
@@ -1743,8 +1743,8 @@
           "page": 7,
           "global_page": 211,
           "title": "文件完整、数字正确以后，还要核对什么",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n文件完整、数字正确以后，还要核对什么\n来源和均值已经核对，仍需查看个体标识与采样记录，才能判断分析假设是否适用。\n核对来源与文件版本\n复算筛选与分组均值\n继续查个体与采样依据\nM1、M2：材料已核\nM3：仍待补资料\n附件A02、A03\n来源、许可及原文件哈希\n附件A04至A06\n146条记录、分组数与差值\n附件A08登记缺口\n不能凭正确均值确认独立性\n当前结论限于所选记录的描述，个体重复、采样依赖和分析假设仍待核"
         }
       ]
@@ -1765,8 +1765,8 @@
           "page": 5,
           "global_page": 209,
           "title": "任务、成果与证据的对应",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n任务、成果与证据的对应\n每项任务对应到实际附件和具体字段，证据表保留材料已核与待补的区别。\n任务条目\n当前结果与材料定位\n材料状态\nM1 来源与筛选\nA02来源、A03原始CSV、A05纳入表\n344条中筛得146条分析记录\n材料已核\nM2 分组统计\nA04程序、A06计算结果\n雌雄各73条，雄减雌4.62 mm\n材料已核\nM3 抽样依据\nA03列名缺个体与抽样字段\nA08记录待补，当前未判为完成\n待补资料\n“材"
         },
         {
@@ -1774,8 +1774,8 @@
           "page": 6,
           "global_page": 210,
           "title": "结果段落中的数字与限定",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n结果段落中的数字与限定\n结果需要说明分析对象、单位和比较方向，同时保留当前数据不能回答的问题。\n能够据实说明的结果\n雌性平均鳍长187.79 mm，\n雄性192.41 mm，均值高4.62 mm。\n该差值描述本次所选记录。个体重复与采样依赖尚待核对，不能据此解释因果机制。\n所选Adelie记录的描述统计，无因果识别；个体重复和采样依赖仍待核对。\n来源：palmerpenguins公开数据，课程二次计算；实际本地复"
         },
         {
@@ -1783,8 +1783,8 @@
           "page": 7,
           "global_page": 211,
           "title": "文件完整、数字正确以后，还要核对什么",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n文件完整、数字正确以后，还要核对什么\n来源和均值已经核对，仍需查看个体标识与采样记录，才能判断分析假设是否适用。\n核对来源与文件版本\n复算筛选与分组均值\n继续查个体与采样依据\nM1、M2：材料已核\nM3：仍待补资料\n附件A02、A03\n来源、许可及原文件哈希\n附件A04至A06\n146条记录、分组数与差值\n附件A08登记缺口\n不能凭正确均值确认独立性\n当前结论限于所选记录的描述，个体重复、采样依赖和分析假设仍待核"
         }
       ]
@@ -1806,8 +1806,8 @@
           "page": 5,
           "global_page": 209,
           "title": "任务、成果与证据的对应",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n任务、成果与证据的对应\n每项任务对应到实际附件和具体字段，证据表保留材料已核与待补的区别。\n任务条目\n当前结果与材料定位\n材料状态\nM1 来源与筛选\nA02来源、A03原始CSV、A05纳入表\n344条中筛得146条分析记录\n材料已核\nM2 分组统计\nA04程序、A06计算结果\n雌雄各73条，雄减雌4.62 mm\n材料已核\nM3 抽样依据\nA03列名缺个体与抽样字段\nA08记录待补，当前未判为完成\n待补资料\n“材"
         },
         {
@@ -1815,8 +1815,8 @@
           "page": 8,
           "global_page": 212,
           "title": "软件成果的版本、贡献与登记材料",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n软件成果的版本、贡献与登记材料\n台账先记录实际软件和运行证据，再核对本人贡献、权属及登记材料。\n固定教学代码快照\n运行同一份公开CSV\n整理材料并保留缺口\n核对项目\nSW01当前证据与状态\n版本定位\n2026-10-19教学快照；哈希随包\n实际运行\n344条输入，146条纳入，雌雄各73\n本人贡献及权属\n实际人员、职责和归属尚未确认\n所需材料\n申请表、程序及文档、相关证明\n登记状态\n未申请；无登记号或证书\n经费与"
         },
         {
@@ -1824,8 +1824,8 @@
           "page": 9,
           "global_page": 213,
           "title": "Closeout流程的实际输出",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\nCloseout流程的实际输出\n本地程序读取任务要求和CSV，保存146条纳入记录、计算结果、9项附件目录及核对Word。\n本次实际生成的Word第1页\n任务要求与原始CSV\n复算数字并逐项对应\nWord、证据表与9项附件目录\n附件逐项记录路径与哈希。2项已核，1项待补。\n真实执行为本节文件程序，无外部模型调用；未表示云端Closeout功能已经运行。\n来源：实际本地复算与文件记录，无模型调用；自编教学任务书，非"
         },
         {
@@ -1833,8 +1833,8 @@
           "page": 10,
           "global_page": 214,
           "title": "提交、复核与版本一致",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n提交、复核与版本一致\n研究者核对科学内容，单位核对报送材料，提交和归档应保留同一个确认版本。\n负责人核对\n单位线上审核\n基金委审核\n下载最终PDF\n签字与归档\n正式报送时，电子版、最终PDF及签字材料应保持版本一致。\n具体步骤和时间以适用通知及单位要求为准。AI整理文件不等于负责人确认或正式签核。\n本例只完成材料核对演示，未正式报送、未代签；下一节为科研汇报与成果传播。\n来源：NSFC 2026通告，二、五部分；"
         }
       ]
@@ -1855,8 +1855,8 @@
           "page": 5,
           "global_page": 209,
           "title": "任务、成果与证据的对应",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n任务、成果与证据的对应\n每项任务对应到实际附件和具体字段，证据表保留材料已核与待补的区别。\n任务条目\n当前结果与材料定位\n材料状态\nM1 来源与筛选\nA02来源、A03原始CSV、A05纳入表\n344条中筛得146条分析记录\n材料已核\nM2 分组统计\nA04程序、A06计算结果\n雌雄各73条，雄减雌4.62 mm\n材料已核\nM3 抽样依据\nA03列名缺个体与抽样字段\nA08记录待补，当前未判为完成\n待补资料\n“材"
         },
         {
@@ -1864,8 +1864,8 @@
           "page": 8,
           "global_page": 212,
           "title": "软件成果的版本、贡献与登记材料",
-          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-          "pptx_sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+          "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+          "pptx_sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
           "excerpt": "12  项目执行与结题\n软件成果的版本、贡献与登记材料\n台账先记录实际软件和运行证据，再核对本人贡献、权属及登记材料。\n固定教学代码快照\n运行同一份公开CSV\n整理材料并保留缺口\n核对项目\nSW01当前证据与状态\n版本定位\n2026-10-19教学快照；哈希随包\n实际运行\n344条输入，146条纳入，雌雄各73\n本人贡献及权属\n实际人员、职责和归属尚未确认\n所需材料\n申请表、程序及文档、相关证明\n登记状态\n未申请；无登记号或证书\n经费与"
         },
         {
@@ -1898,8 +1898,8 @@
           "page": 2,
           "global_page": 194,
           "title": "技术方案与交底材料",
-          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r6.pptx",
-          "pptx_sha256": "9c03fcba0911142719817daed2fa6706835998f3d69a921cecd2afd629a8eac7",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
           "excerpt": "11  专利挖掘与技术交底\n技术方案与交底材料\n科学发现、具体技术方案和专利权利要求，承担不同的表达任务。\n科学发现\n报告观察或认识。能否形成专利对象，需要看具体技术方案。\n技术交底\n说明解决什么技术问题，用哪些部件或步骤，怎样实施，有什么依据。\n专利申请\n发明和实用新型须具备新颖性、创造性、实用性，说明书与权利要求有法定要求。\n交底材料记录事实、细节和证据；申请文件与保护范围另作专业核对。\n来源：专利法第2、6、22、24、26、64"
         },
         {
@@ -1907,8 +1907,8 @@
           "page": 6,
           "global_page": 198,
           "title": "发明挖掘中的具体追问",
-          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r6.pptx",
-          "pptx_sha256": "9c03fcba0911142719817daed2fa6706835998f3d69a921cecd2afd629a8eac7",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
           "excerpt": "11  专利挖掘与技术交底\n发明挖掘中的具体追问\n“加上传感器和AI”仍需继续拆成部件、数据路径、判断条件和效果依据。\n待讨论设想\n传感数据有效性检查\n安装与数据\n安装在哪？时间标记怎样产生？\n判断与异常\n怎样判丢帧、饱和，依据是什么？\n控制与证据\n怎样请求处理、恢复，效果怎样验证？\n本例未找到经核实的区别特征，问题清单用于继续收集技术事实。\n来源：教学假设方案，未实施；专利法第2、6、22、24、26、64条\n06"
         },
         {
@@ -1916,8 +1916,8 @@
           "page": 7,
           "global_page": 199,
           "title": "教学方案的结构与异常分支",
-          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r6.pptx",
-          "pptx_sha256": "9c03fcba0911142719817daed2fa6706835998f3d69a921cecd2afd629a8eac7",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
           "excerpt": "11  专利挖掘与技术交底\n教学方案的结构与异常分支\n数据有效时识别状态，数据异常时记录故障，再按经验证规则处理控制请求。\nS1 传感数据与时间标记\nS2 数据有效？\nS3 识别运行状态\nS4 记录传感故障\n形成控制处理请求\n处理与恢复规则待验证\n有效\n异常\n数据异常时保留故障记录。\n请求的内容、接收接口和\n设备动作仍需设计与试验。\n课程假设方案，无样机、无控制验证，也未证明区别于已有技术。\n来源：教学假设方案，未实施\n07"
         },
         {
@@ -1925,8 +1925,8 @@
           "page": 8,
           "global_page": 200,
           "title": "实施说明中的可复现细节",
-          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r6.pptx",
-          "pptx_sha256": "9c03fcba0911142719817daed2fa6706835998f3d69a921cecd2afd629a8eac7",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
           "excerpt": "11  专利挖掘与技术交底\n实施说明中的可复现细节\n实施例需要交代怎样实现，各项参数及异常处理都有技术依据。\n课程实施说明节选\nS1读取振动数据及时间标记。S2检查数据是否满足预定有效性条件。数据有效时，S3进入运行状态识别；数据异常时，S4记录传感故障。两条路径均形成控制处理请求。控制单元如何响应和恢复，仍需设备设计与试验支持。\n尚缺：安装位置、采样率、时间窗口、故障门槛、接口及制动与恢复细节。\n完整段落与待补参数随交底材料保存，当前"
         },
         {
@@ -1934,8 +1934,8 @@
           "page": 10,
           "global_page": 202,
           "title": "权利要求的引用关系与图文支持",
-          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r6.pptx",
-          "pptx_sha256": "9c03fcba0911142719817daed2fa6706835998f3d69a921cecd2afd629a8eac7",
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
           "excerpt": "11  专利挖掘与技术交底\n权利要求的引用关系与图文支持\n从属权利要求保留所引用项的条件，再增加限定；阅读时须一起核对。\n权利要求1\n多自由度数据\n识别振动模式\n权利要求3\n引用前项，再加训练模型\n权利要求4\n引用3，再加特征表示\n图只画权3引用权1的路径。权3也可引用权2，本图未画全部组合。\n权利要求11\n引用前述任一项，再增加按运行状态停止。\n各引用组合的条件应分别阅读。\n拟写特征应在说明书和附图找到支持；本例未起草正式权利要求。\n"
         },
         {
@@ -1943,9 +1943,9 @@
           "page": 11,
           "global_page": 203,
           "title": "Patent Agent的实际材料流程",
-          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r6.pptx",
-          "pptx_sha256": "9c03fcba0911142719817daed2fa6706835998f3d69a921cecd2afd629a8eac7",
-          "excerpt": "11  专利挖掘与技术交底\nPatent Agent的实际材料流程\n公开原文阅读、教学材料整理与本地文件执行分别留证，交底书保留未决问题。\n公开资料检索\n技术对照与追问\n文件结构检查\nWord与问题清单\n本轮Codex实际读原文\n课程编写对照及设想\n本地读取已编写输入\n附流程图，保留来源与版本\n实际结果：Word教学草稿已写出，仍待技术事实补充与研究者核对。\n本地填充脚本没有调用外部模型，没有完成查全、专利性或侵权判断。\n公开检索与文件"
+          "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+          "pptx_sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
+          "excerpt": "11  专利挖掘与技术交底\nPatent Agent的实际材料流程\n公开原文阅读、教学材料整理与本地文件执行分别留证，交底书保留未决问题。\n公开资料检索\n技术对照与追问\n文件结构检查\nWord与问题清单\n本轮Codex\n实际读原文\n课程编写对照及设想\n本地读取已编写输入\n附流程图\n保留来源与版本\n实际结果：Word教学草稿已写出，仍待技术事实补充与研究者核对。\n本地填充脚本没有调用外部模型，没有完成查全、专利性或侵权判断。\n公开检索与文"
         }
       ]
     },
@@ -2006,9 +2006,9 @@
           "page": 11,
           "global_page": 45,
           "title": "PPT：把过程画出来",
-          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r3.pptx",
-          "pptx_sha256": "489467f6d8e3b41948c7b76d8fb015c1e226fe5b5a7b4f42c19a5d4aed3bd765",
-          "excerpt": "03  Humanizer 与各类科研产物的表达\nPPT：把过程画出来\n页面呈现步骤和关系，讲师解释每一步采用的依据。\n文字堆在一起\n本研究通过多源资料整合、研究要素识别、逻辑关系梳理、综合归纳与反复修订，形成完整的研究问题。\n用步骤和依据组织页面\n检索资料\n比较已有研究\n形成研究问题\n检查可研究性\n明确范围与来源\n对象、方法、结果与不足\n限定对象、关系与条件\n材料、方法和资源是否支持\n课程框架：流程图解释组织方式，不能证明某个选题已经"
+          "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r4.pptx",
+          "pptx_sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
+          "excerpt": "03  Humanizer 与各类科研产物的表达\nPPT：把过程画出来\n页面呈现步骤和关系，讲师解释每一步采用的依据。\n文字堆在一起\n本研究通过多源资料整合、研究要素识别、逻辑关系梳理、综合归纳与反复修订，形成完整的研究问题。\n用步骤和依据组织页面\n检索资料\n比较已有研究\n形成研究问题\n检查可研究性\n明确范围与来源\n对象、方法\n结果与不足\n限定对象\n关系与条件\n材料、方法\n与资源是否支持\n课程框架：流程图解释组织方式，不能证明某个选题已"
         },
         {
           "section": 13,

@@ -3,7 +3,7 @@ from pathlib import Path
 import subprocess,sys,json,hashlib
 from pdf2image import convert_from_path
 from pypdf import PdfReader
-r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 'course-r1'
+r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else json.loads((r/'assembly-manifest.json').read_text('utf-8'))['revision']
 p=r/'output'/f'高校科研AI培训课程_全课240页_{rev}.pptx';out=r/'renders'/rev;out.mkdir(parents=True,exist_ok=True)
 profile=(r/'.build'/('lo-'+rev)).resolve().as_uri()
 q=subprocess.run(['C:/Program Files/LibreOffice/program/soffice.exe','-env:UserInstallation='+profile,'--headless','--convert-to','pdf','--outdir',str(out),str(p)],capture_output=True,text=True,timeout=480)

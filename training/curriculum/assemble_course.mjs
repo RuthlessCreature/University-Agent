@@ -9,7 +9,7 @@ const skill='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/pre
 const {requireRuntimeModule}=await import(pathToFileURL(path.join(skill,'container_tools/runtime_helpers.mjs')));
 const JSZip=await requireRuntimeModule('jszip'),XML=await requireRuntimeModule('xml-js');
 const {finalizePresentation}=await import(pathToFileURL(path.join(skill,'container_tools/artifact_tool_utils.mjs')));
-const REV=process.env.COURSE_REVISION||'course-r2',R=path.join(A,'training/full-course'),stage=path.join(R,'.build',REV);
+const REV=process.env.COURSE_REVISION||'course-r3',R=path.join(A,'training/full-course'),stage=path.join(R,'.build',REV);
 await fs.mkdir(stage,{recursive:true});await fs.mkdir(path.join(R,'output'),{recursive:true});
 const progress=JSON.parse(await fs.readFile(path.join(HERE,'section-progress.json'),'utf8'));
 const sha=b=>crypto.createHash('sha256').update(b).digest('hex');

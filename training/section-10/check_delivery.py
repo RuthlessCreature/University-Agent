@@ -3,7 +3,7 @@ from xml.etree import ElementTree as E
 import json,hashlib,re,zipfile,subprocess,sys
 from docx import Document
 from pypdf import PdfReader
-r=Path(__file__).resolve().parent;rev='s10-r4';packet=r/'grant-packet';p=next((r/'output').glob('*'+rev+'.pptx'));d=json.loads((r/'lesson.json').read_text('utf-8'));m=json.loads((packet/'grant.json').read_text('utf-8'));guide=json.loads((packet/'guide.json').read_text('utf-8'));e=json.loads((r/'execution-evidence.json').read_text('utf-8'));run=json.loads((packet/'output/run.json').read_text('utf-8'));assert e['positive']==run
+r=Path(__file__).resolve().parent;rev=sys.argv[1] if len(sys.argv)>1 else 's10-r5';packet=r/'grant-packet';p=next((r/'output').glob('*'+rev+'.pptx'));d=json.loads((r/'lesson.json').read_text('utf-8'));m=json.loads((packet/'grant.json').read_text('utf-8'));guide=json.loads((packet/'guide.json').read_text('utf-8'));e=json.loads((r/'execution-evidence.json').read_text('utf-8'));run=json.loads((packet/'output/run.json').read_text('utf-8'));assert e['positive']==run
 for file,key in [(packet/'grant.json','input_sha256'),(packet/'guide.json','guide_sha256'),(packet/'教学材料模板.docx','template_sha256'),(packet/'output/grant-draft.docx','artifact_sha256')]:assert hashlib.sha256(file.read_bytes()).hexdigest()==run[key]
 assert run['status']=='draft_review_required' and run['human_approved']==False and run['external_model_called']==False and run['scientific_validation']=='not_performed'
 assert hashlib.sha256((r/'runtime-snapshot/local_workflow.py').read_bytes()).hexdigest()==e['executor_sha256']

@@ -1,5 +1,5 @@
 {
-  "revision": "course-r2",
+  "revision": "course-r3",
   "pages_compared": 240,
   "identical_pixels": 4,
   "changed_pages": [
@@ -249,7 +249,7 @@
       "changed_pixel_fraction": 0.0,
       "changed_bbox": null,
       "source_preview": "training/section-00/renders/s0-r4/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-001.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-001.png"
     },
     {
       "section": 0,
@@ -259,7 +259,7 @@
       "changed_pixel_fraction": 0.0,
       "changed_bbox": null,
       "source_preview": "training/section-00/renders/s0-r4/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-002.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-002.png"
     },
     {
       "section": 0,
@@ -269,7 +269,7 @@
       "changed_pixel_fraction": 0.0,
       "changed_bbox": null,
       "source_preview": "training/section-00/renders/s0-r4/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-003.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-003.png"
     },
     {
       "section": 0,
@@ -279,7 +279,7 @@
       "changed_pixel_fraction": 0.0,
       "changed_bbox": null,
       "source_preview": "training/section-00/renders/s0-r4/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-004.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-004.png"
     },
     {
       "section": 1,
@@ -294,7 +294,7 @@
         889
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-005.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-005.png"
     },
     {
       "section": 1,
@@ -309,7 +309,7 @@
         889
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-006.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-006.png"
     },
     {
       "section": 1,
@@ -324,7 +324,7 @@
         887
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-007.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-007.png"
     },
     {
       "section": 1,
@@ -339,7 +339,7 @@
         891
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-008.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-008.png"
     },
     {
       "section": 1,
@@ -354,7 +354,7 @@
         887
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-009.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-009.png"
     },
     {
       "section": 1,
@@ -369,7 +369,7 @@
         887
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-010.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-010.png"
     },
     {
       "section": 1,
@@ -384,7 +384,7 @@
         891
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-011.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-011.png"
     },
     {
       "section": 1,
@@ -399,7 +399,7 @@
         887
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-012.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-012.png"
     },
     {
       "section": 1,
@@ -414,7 +414,7 @@
         887
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-013.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-013.png"
     },
     {
       "section": 1,
@@ -429,7 +429,7 @@
         889
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-014.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-014.png"
     },
     {
       "section": 1,
@@ -444,7 +444,7 @@
         887
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-015.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-015.png"
     },
     {
       "section": 1,
@@ -459,7 +459,7 @@
         890
       ],
       "source_preview": "training/section-01-academic/renders/a5/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-016.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-016.png"
     },
     {
       "section": 2,
@@ -474,7 +474,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-017.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-017.png"
     },
     {
       "section": 2,
@@ -489,7 +489,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-018.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-018.png"
     },
     {
       "section": 2,
@@ -504,7 +504,7 @@
         893
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-019.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-019.png"
     },
     {
       "section": 2,
@@ -519,7 +519,7 @@
         893
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-020.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-020.png"
     },
     {
       "section": 2,
@@ -534,7 +534,7 @@
         893
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-021.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-021.png"
     },
     {
       "section": 2,
@@ -549,7 +549,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-022.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-022.png"
     },
     {
       "section": 2,
@@ -564,7 +564,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-023.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-023.png"
     },
     {
       "section": 2,
@@ -579,7 +579,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-024.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-024.png"
     },
     {
       "section": 2,
@@ -594,7 +594,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-025.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-025.png"
     },
     {
       "section": 2,
@@ -609,7 +609,7 @@
         893
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-026.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-026.png"
     },
     {
       "section": 2,
@@ -624,7 +624,7 @@
         893
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-027.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-027.png"
     },
     {
       "section": 2,
@@ -639,7 +639,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-028.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-028.png"
     },
     {
       "section": 2,
@@ -654,7 +654,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-029.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-029.png"
     },
     {
       "section": 2,
@@ -669,7 +669,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-030.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-030.png"
     },
     {
       "section": 2,
@@ -684,7 +684,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-15.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-031.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-031.png"
     },
     {
       "section": 2,
@@ -699,7 +699,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-16.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-032.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-032.png"
     },
     {
       "section": 2,
@@ -714,7 +714,7 @@
         889
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-17.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-033.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-033.png"
     },
     {
       "section": 2,
@@ -729,7 +729,7 @@
         893
       ],
       "source_preview": "training/section-02/renders/s2-r7/slide-18.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-034.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-034.png"
     },
     {
       "section": 3,
@@ -743,8 +743,8 @@
         1236,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-035.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-035.png"
     },
     {
       "section": 3,
@@ -758,8 +758,8 @@
         1511,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-036.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-036.png"
     },
     {
       "section": 3,
@@ -773,8 +773,8 @@
         1128,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-037.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-037.png"
     },
     {
       "section": 3,
@@ -788,8 +788,8 @@
         1074,
         888
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-038.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-038.png"
     },
     {
       "section": 3,
@@ -803,8 +803,8 @@
         1084,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-039.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-039.png"
     },
     {
       "section": 3,
@@ -818,8 +818,8 @@
         1444,
         892
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-040.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-040.png"
     },
     {
       "section": 3,
@@ -833,8 +833,8 @@
         1356,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-041.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-041.png"
     },
     {
       "section": 3,
@@ -848,8 +848,8 @@
         1365,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-042.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-042.png"
     },
     {
       "section": 3,
@@ -863,8 +863,8 @@
         1443,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-043.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-043.png"
     },
     {
       "section": 3,
@@ -878,23 +878,23 @@
         1285,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-044.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-044.png"
     },
     {
       "section": 3,
       "section_page": 11,
       "global_page": 45,
       "identical_pixels": false,
-      "changed_pixel_fraction": 0.006761931187569368,
+      "changed_pixel_fraction": 0.006222946725860155,
       "changed_bbox": [
         111,
         30,
-        1490,
+        1373,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-045.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-045.png"
     },
     {
       "section": 3,
@@ -908,8 +908,8 @@
         1321,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-046.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-046.png"
     },
     {
       "section": 3,
@@ -923,8 +923,8 @@
         1322,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-047.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-047.png"
     },
     {
       "section": 3,
@@ -938,8 +938,8 @@
         1116,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-048.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-048.png"
     },
     {
       "section": 3,
@@ -953,8 +953,8 @@
         1205,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-15.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-049.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-049.png"
     },
     {
       "section": 3,
@@ -968,23 +968,23 @@
         804,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-16.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-050.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-050.png"
     },
     {
       "section": 3,
       "section_page": 17,
       "global_page": 51,
       "identical_pixels": false,
-      "changed_pixel_fraction": 0.0051130688124306324,
+      "changed_pixel_fraction": 0.004976415094339623,
       "changed_bbox": [
         145,
         30,
         1418,
         890
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-17.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-051.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-17.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-051.png"
     },
     {
       "section": 3,
@@ -998,8 +998,8 @@
         824,
         891
       ],
-      "source_preview": "training/section-03/renders/s3-r3/slide-18.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-052.png"
+      "source_preview": "training/section-03/renders/s3-r4/slide-18.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-052.png"
     },
     {
       "section": 4,
@@ -1014,7 +1014,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-053.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-053.png"
     },
     {
       "section": 4,
@@ -1029,7 +1029,7 @@
         893
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-054.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-054.png"
     },
     {
       "section": 4,
@@ -1044,7 +1044,7 @@
         889
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-055.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-055.png"
     },
     {
       "section": 4,
@@ -1059,7 +1059,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-056.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-056.png"
     },
     {
       "section": 4,
@@ -1074,7 +1074,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-057.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-057.png"
     },
     {
       "section": 4,
@@ -1089,7 +1089,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-058.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-058.png"
     },
     {
       "section": 4,
@@ -1104,7 +1104,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-059.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-059.png"
     },
     {
       "section": 4,
@@ -1119,7 +1119,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-060.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-060.png"
     },
     {
       "section": 4,
@@ -1134,7 +1134,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-061.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-061.png"
     },
     {
       "section": 4,
@@ -1149,7 +1149,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-062.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-062.png"
     },
     {
       "section": 4,
@@ -1164,7 +1164,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-063.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-063.png"
     },
     {
       "section": 4,
@@ -1179,7 +1179,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-064.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-064.png"
     },
     {
       "section": 4,
@@ -1194,7 +1194,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-065.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-065.png"
     },
     {
       "section": 4,
@@ -1209,7 +1209,7 @@
         891
       ],
       "source_preview": "training/section-04/renders/s4-r7/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-066.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-066.png"
     },
     {
       "section": 5,
@@ -1224,7 +1224,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-067.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-067.png"
     },
     {
       "section": 5,
@@ -1239,7 +1239,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-068.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-068.png"
     },
     {
       "section": 5,
@@ -1254,7 +1254,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-069.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-069.png"
     },
     {
       "section": 5,
@@ -1269,7 +1269,7 @@
         892
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-070.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-070.png"
     },
     {
       "section": 5,
@@ -1284,7 +1284,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-071.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-071.png"
     },
     {
       "section": 5,
@@ -1299,7 +1299,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-072.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-072.png"
     },
     {
       "section": 5,
@@ -1314,7 +1314,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-073.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-073.png"
     },
     {
       "section": 5,
@@ -1329,7 +1329,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-074.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-074.png"
     },
     {
       "section": 5,
@@ -1344,7 +1344,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-075.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-075.png"
     },
     {
       "section": 5,
@@ -1359,7 +1359,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-076.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-076.png"
     },
     {
       "section": 5,
@@ -1374,7 +1374,7 @@
         892
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-077.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-077.png"
     },
     {
       "section": 5,
@@ -1389,7 +1389,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-078.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-078.png"
     },
     {
       "section": 5,
@@ -1404,7 +1404,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-079.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-079.png"
     },
     {
       "section": 5,
@@ -1419,7 +1419,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-080.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-080.png"
     },
     {
       "section": 5,
@@ -1434,7 +1434,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-15.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-081.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-081.png"
     },
     {
       "section": 5,
@@ -1449,7 +1449,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-16.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-082.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-082.png"
     },
     {
       "section": 5,
@@ -1464,7 +1464,7 @@
         889
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-17.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-083.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-083.png"
     },
     {
       "section": 5,
@@ -1479,7 +1479,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-18.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-084.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-084.png"
     },
     {
       "section": 5,
@@ -1494,7 +1494,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-19.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-085.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-085.png"
     },
     {
       "section": 5,
@@ -1509,7 +1509,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-20.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-086.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-086.png"
     },
     {
       "section": 5,
@@ -1524,7 +1524,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-21.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-087.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-087.png"
     },
     {
       "section": 5,
@@ -1539,7 +1539,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-22.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-088.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-088.png"
     },
     {
       "section": 5,
@@ -1554,7 +1554,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-23.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-089.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-089.png"
     },
     {
       "section": 5,
@@ -1569,7 +1569,7 @@
         891
       ],
       "source_preview": "training/section-05/renders/s5-r4/slide-24.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-090.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-090.png"
     },
     {
       "section": 6,
@@ -1584,7 +1584,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-091.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-091.png"
     },
     {
       "section": 6,
@@ -1599,7 +1599,7 @@
         889
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-092.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-092.png"
     },
     {
       "section": 6,
@@ -1614,7 +1614,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-093.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-093.png"
     },
     {
       "section": 6,
@@ -1629,7 +1629,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-094.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-094.png"
     },
     {
       "section": 6,
@@ -1644,7 +1644,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-095.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-095.png"
     },
     {
       "section": 6,
@@ -1659,7 +1659,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-096.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-096.png"
     },
     {
       "section": 6,
@@ -1674,7 +1674,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-097.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-097.png"
     },
     {
       "section": 6,
@@ -1689,7 +1689,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-098.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-098.png"
     },
     {
       "section": 6,
@@ -1704,7 +1704,7 @@
         889
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-099.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-099.png"
     },
     {
       "section": 6,
@@ -1719,7 +1719,7 @@
         889
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-100.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-100.png"
     },
     {
       "section": 6,
@@ -1734,7 +1734,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-101.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-101.png"
     },
     {
       "section": 6,
@@ -1749,7 +1749,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-102.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-102.png"
     },
     {
       "section": 6,
@@ -1764,7 +1764,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-103.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-103.png"
     },
     {
       "section": 6,
@@ -1779,7 +1779,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-104.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-104.png"
     },
     {
       "section": 6,
@@ -1794,7 +1794,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-15.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-105.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-105.png"
     },
     {
       "section": 6,
@@ -1809,7 +1809,7 @@
         891
       ],
       "source_preview": "training/section-06/renders/s6-r5/slide-16.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-106.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-106.png"
     },
     {
       "section": 7,
@@ -1824,7 +1824,7 @@
         890
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-107.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-107.png"
     },
     {
       "section": 7,
@@ -1839,7 +1839,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-108.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-108.png"
     },
     {
       "section": 7,
@@ -1854,7 +1854,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-109.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-109.png"
     },
     {
       "section": 7,
@@ -1869,7 +1869,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-110.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-110.png"
     },
     {
       "section": 7,
@@ -1884,7 +1884,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-111.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-111.png"
     },
     {
       "section": 7,
@@ -1899,7 +1899,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-112.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-112.png"
     },
     {
       "section": 7,
@@ -1914,7 +1914,7 @@
         891
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-113.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-113.png"
     },
     {
       "section": 7,
@@ -1929,7 +1929,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-114.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-114.png"
     },
     {
       "section": 7,
@@ -1944,7 +1944,7 @@
         891
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-115.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-115.png"
     },
     {
       "section": 7,
@@ -1959,7 +1959,7 @@
         848
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-116.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-116.png"
     },
     {
       "section": 7,
@@ -1974,7 +1974,7 @@
         848
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-117.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-117.png"
     },
     {
       "section": 7,
@@ -1989,7 +1989,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-118.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-118.png"
     },
     {
       "section": 7,
@@ -2004,7 +2004,7 @@
         892
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-119.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-119.png"
     },
     {
       "section": 7,
@@ -2019,7 +2019,7 @@
         890
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-120.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-120.png"
     },
     {
       "section": 7,
@@ -2034,7 +2034,7 @@
         889
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-15.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-121.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-121.png"
     },
     {
       "section": 7,
@@ -2049,7 +2049,7 @@
         890
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-16.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-122.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-122.png"
     },
     {
       "section": 7,
@@ -2064,7 +2064,7 @@
         892
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-17.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-123.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-123.png"
     },
     {
       "section": 7,
@@ -2079,7 +2079,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-18.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-124.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-124.png"
     },
     {
       "section": 7,
@@ -2094,7 +2094,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-19.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-125.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-125.png"
     },
     {
       "section": 7,
@@ -2109,7 +2109,7 @@
         893
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-20.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-126.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-126.png"
     },
     {
       "section": 7,
@@ -2124,7 +2124,7 @@
         892
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-21.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-127.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-127.png"
     },
     {
       "section": 7,
@@ -2139,7 +2139,7 @@
         892
       ],
       "source_preview": "training/section-07/renders/s7-r9/slide-22.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-128.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-128.png"
     },
     {
       "section": 8,
@@ -2154,7 +2154,7 @@
         891
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-129.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-129.png"
     },
     {
       "section": 8,
@@ -2169,7 +2169,7 @@
         889
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-130.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-130.png"
     },
     {
       "section": 8,
@@ -2184,7 +2184,7 @@
         893
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-131.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-131.png"
     },
     {
       "section": 8,
@@ -2199,7 +2199,7 @@
         893
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-132.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-132.png"
     },
     {
       "section": 8,
@@ -2214,7 +2214,7 @@
         893
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-133.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-133.png"
     },
     {
       "section": 8,
@@ -2229,7 +2229,7 @@
         893
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-134.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-134.png"
     },
     {
       "section": 8,
@@ -2244,7 +2244,7 @@
         890
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-135.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-135.png"
     },
     {
       "section": 8,
@@ -2259,7 +2259,7 @@
         893
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-136.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-136.png"
     },
     {
       "section": 8,
@@ -2274,7 +2274,7 @@
         891
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-137.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-137.png"
     },
     {
       "section": 8,
@@ -2289,7 +2289,7 @@
         892
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-138.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-138.png"
     },
     {
       "section": 8,
@@ -2304,7 +2304,7 @@
         892
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-139.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-139.png"
     },
     {
       "section": 8,
@@ -2319,7 +2319,7 @@
         892
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-140.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-140.png"
     },
     {
       "section": 8,
@@ -2334,7 +2334,7 @@
         892
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-141.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-141.png"
     },
     {
       "section": 8,
@@ -2349,7 +2349,7 @@
         892
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-142.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-142.png"
     },
     {
       "section": 8,
@@ -2364,7 +2364,7 @@
         891
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-15.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-143.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-143.png"
     },
     {
       "section": 8,
@@ -2379,7 +2379,7 @@
         849
       ],
       "source_preview": "training/section-08/renders/s8-r6/slide-16.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-144.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-144.png"
     },
     {
       "section": 9,
@@ -2394,7 +2394,7 @@
         891
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-145.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-145.png"
     },
     {
       "section": 9,
@@ -2409,7 +2409,7 @@
         893
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-146.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-146.png"
     },
     {
       "section": 9,
@@ -2424,7 +2424,7 @@
         891
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-147.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-147.png"
     },
     {
       "section": 9,
@@ -2439,7 +2439,7 @@
         893
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-148.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-148.png"
     },
     {
       "section": 9,
@@ -2454,7 +2454,7 @@
         892
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-149.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-149.png"
     },
     {
       "section": 9,
@@ -2469,7 +2469,7 @@
         891
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-150.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-150.png"
     },
     {
       "section": 9,
@@ -2484,7 +2484,7 @@
         892
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-151.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-151.png"
     },
     {
       "section": 9,
@@ -2499,7 +2499,7 @@
         893
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-152.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-152.png"
     },
     {
       "section": 9,
@@ -2514,7 +2514,7 @@
         890
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-153.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-153.png"
     },
     {
       "section": 9,
@@ -2529,7 +2529,7 @@
         891
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-154.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-154.png"
     },
     {
       "section": 9,
@@ -2544,7 +2544,7 @@
         891
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-155.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-155.png"
     },
     {
       "section": 9,
@@ -2559,7 +2559,7 @@
         892
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-156.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-156.png"
     },
     {
       "section": 9,
@@ -2574,7 +2574,7 @@
         891
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-157.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-157.png"
     },
     {
       "section": 9,
@@ -2589,7 +2589,7 @@
         849
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-158.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-158.png"
     },
     {
       "section": 9,
@@ -2604,7 +2604,7 @@
         742
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-15.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-159.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-159.png"
     },
     {
       "section": 9,
@@ -2619,7 +2619,7 @@
         848
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-16.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-160.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-160.png"
     },
     {
       "section": 9,
@@ -2634,7 +2634,7 @@
         891
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-17.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-161.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-161.png"
     },
     {
       "section": 9,
@@ -2649,7 +2649,7 @@
         655
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-18.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-162.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-162.png"
     },
     {
       "section": 9,
@@ -2664,7 +2664,7 @@
         848
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-19.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-163.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-163.png"
     },
     {
       "section": 9,
@@ -2679,7 +2679,7 @@
         891
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-20.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-164.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-164.png"
     },
     {
       "section": 9,
@@ -2694,7 +2694,7 @@
         891
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-21.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-165.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-165.png"
     },
     {
       "section": 9,
@@ -2709,7 +2709,7 @@
         848
       ],
       "source_preview": "training/section-09/renders/s9-r7/slide-22.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-166.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-166.png"
     },
     {
       "section": 10,
@@ -2723,8 +2723,8 @@
         1298,
         892
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-167.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-167.png"
     },
     {
       "section": 10,
@@ -2738,8 +2738,8 @@
         1504,
         892
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-168.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-168.png"
     },
     {
       "section": 10,
@@ -2753,8 +2753,8 @@
         1219,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-169.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-169.png"
     },
     {
       "section": 10,
@@ -2768,8 +2768,8 @@
         1489,
         849
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-170.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-170.png"
     },
     {
       "section": 10,
@@ -2783,8 +2783,8 @@
         1354,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-171.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-171.png"
     },
     {
       "section": 10,
@@ -2798,8 +2798,8 @@
         939,
         892
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-172.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-172.png"
     },
     {
       "section": 10,
@@ -2813,8 +2813,8 @@
         1355,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-173.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-173.png"
     },
     {
       "section": 10,
@@ -2828,8 +2828,8 @@
         1366,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-174.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-174.png"
     },
     {
       "section": 10,
@@ -2843,8 +2843,8 @@
         1343,
         892
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-175.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-175.png"
     },
     {
       "section": 10,
@@ -2858,8 +2858,8 @@
         1346,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-176.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-176.png"
     },
     {
       "section": 10,
@@ -2873,8 +2873,8 @@
         1052,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-177.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-177.png"
     },
     {
       "section": 10,
@@ -2888,8 +2888,8 @@
         1419,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-178.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-178.png"
     },
     {
       "section": 10,
@@ -2903,8 +2903,8 @@
         1409,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-179.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-13.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-179.png"
     },
     {
       "section": 10,
@@ -2918,8 +2918,8 @@
         1452,
         892
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-180.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-14.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-180.png"
     },
     {
       "section": 10,
@@ -2933,8 +2933,8 @@
         1327,
         892
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-15.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-181.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-15.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-181.png"
     },
     {
       "section": 10,
@@ -2948,8 +2948,8 @@
         1452,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-16.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-182.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-16.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-182.png"
     },
     {
       "section": 10,
@@ -2963,8 +2963,8 @@
         1014,
         892
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-17.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-183.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-17.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-183.png"
     },
     {
       "section": 10,
@@ -2978,8 +2978,8 @@
         897,
         892
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-18.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-184.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-18.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-184.png"
     },
     {
       "section": 10,
@@ -2993,8 +2993,8 @@
         1477,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-19.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-185.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-19.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-185.png"
     },
     {
       "section": 10,
@@ -3008,23 +3008,23 @@
         1447,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-20.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-186.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-20.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-186.png"
     },
     {
       "section": 10,
       "section_page": 21,
       "global_page": 187,
       "identical_pixels": false,
-      "changed_pixel_fraction": 0.005632630410654828,
+      "changed_pixel_fraction": 0.005752635960044395,
       "changed_bbox": [
         80,
         90,
         1294,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-21.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-187.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-21.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-187.png"
     },
     {
       "section": 10,
@@ -3038,8 +3038,8 @@
         1084,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-22.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-188.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-22.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-188.png"
     },
     {
       "section": 10,
@@ -3053,8 +3053,8 @@
         1027,
         848
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-23.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-189.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-23.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-189.png"
     },
     {
       "section": 10,
@@ -3068,8 +3068,8 @@
         1135,
         706
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-24.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-190.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-24.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-190.png"
     },
     {
       "section": 10,
@@ -3083,8 +3083,8 @@
         1455,
         891
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-25.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-191.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-25.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-191.png"
     },
     {
       "section": 10,
@@ -3098,8 +3098,8 @@
         1055,
         892
       ],
-      "source_preview": "training/section-10/renders/s10-r4/slide-26.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-192.png"
+      "source_preview": "training/section-10/renders/s10-r5/slide-26.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-192.png"
     },
     {
       "section": 11,
@@ -3113,8 +3113,8 @@
         1449,
         889
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-193.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-193.png"
     },
     {
       "section": 11,
@@ -3128,8 +3128,8 @@
         1513,
         849
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-194.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-194.png"
     },
     {
       "section": 11,
@@ -3143,8 +3143,8 @@
         1498,
         848
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-195.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-195.png"
     },
     {
       "section": 11,
@@ -3158,8 +3158,8 @@
         1329,
         891
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-196.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-196.png"
     },
     {
       "section": 11,
@@ -3173,8 +3173,8 @@
         1482,
         891
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-197.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-197.png"
     },
     {
       "section": 11,
@@ -3188,8 +3188,8 @@
         933,
         892
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-198.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-198.png"
     },
     {
       "section": 11,
@@ -3203,8 +3203,8 @@
         1452,
         891
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-199.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-199.png"
     },
     {
       "section": 11,
@@ -3218,8 +3218,8 @@
         1520,
         892
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-200.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-200.png"
     },
     {
       "section": 11,
@@ -3233,8 +3233,8 @@
         1392,
         891
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-201.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-201.png"
     },
     {
       "section": 11,
@@ -3248,8 +3248,8 @@
         1425,
         849
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-202.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-202.png"
     },
     {
       "section": 11,
@@ -3263,8 +3263,8 @@
         1481,
         891
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-203.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-11.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-203.png"
     },
     {
       "section": 11,
@@ -3278,8 +3278,8 @@
         1272,
         892
       ],
-      "source_preview": "training/section-11/renders/s11-r6/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-204.png"
+      "source_preview": "training/section-11/renders/s11-r7/slide-12.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-204.png"
     },
     {
       "section": 12,
@@ -3293,8 +3293,8 @@
         1449,
         892
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-205.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-01.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-205.png"
     },
     {
       "section": 12,
@@ -3308,8 +3308,8 @@
         1432,
         891
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-206.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-02.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-206.png"
     },
     {
       "section": 12,
@@ -3323,8 +3323,8 @@
         1021,
         892
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-207.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-03.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-207.png"
     },
     {
       "section": 12,
@@ -3338,8 +3338,8 @@
         1169,
         893
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-208.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-04.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-208.png"
     },
     {
       "section": 12,
@@ -3353,8 +3353,8 @@
         918,
         892
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-209.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-05.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-209.png"
     },
     {
       "section": 12,
@@ -3368,8 +3368,8 @@
         1422,
         893
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-210.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-06.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-210.png"
     },
     {
       "section": 12,
@@ -3383,8 +3383,8 @@
         1422,
         892
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-211.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-07.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-211.png"
     },
     {
       "section": 12,
@@ -3398,8 +3398,8 @@
         1214,
         892
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-212.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-08.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-212.png"
     },
     {
       "section": 12,
@@ -3413,8 +3413,8 @@
         1126,
         892
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-213.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-09.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-213.png"
     },
     {
       "section": 12,
@@ -3428,8 +3428,8 @@
         1407,
         892
       ],
-      "source_preview": "training/section-12/renders/s12-r7/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-214.png"
+      "source_preview": "training/section-12/renders/s12-r8/slide-10.png",
+      "combined_preview": "training/full-course/renders/course-r3/slide-214.png"
     },
     {
       "section": 13,
@@ -3444,7 +3444,7 @@
         893
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-215.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-215.png"
     },
     {
       "section": 13,
@@ -3459,7 +3459,7 @@
         892
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-216.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-216.png"
     },
     {
       "section": 13,
@@ -3474,7 +3474,7 @@
         891
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-217.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-217.png"
     },
     {
       "section": 13,
@@ -3489,7 +3489,7 @@
         893
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-218.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-218.png"
     },
     {
       "section": 13,
@@ -3504,7 +3504,7 @@
         892
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-219.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-219.png"
     },
     {
       "section": 13,
@@ -3519,7 +3519,7 @@
         892
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-220.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-220.png"
     },
     {
       "section": 13,
@@ -3534,7 +3534,7 @@
         891
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-221.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-221.png"
     },
     {
       "section": 13,
@@ -3549,7 +3549,7 @@
         892
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-222.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-222.png"
     },
     {
       "section": 13,
@@ -3564,7 +3564,7 @@
         892
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-223.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-223.png"
     },
     {
       "section": 13,
@@ -3579,7 +3579,7 @@
         892
       ],
       "source_preview": "training/section-13/renders/s13-r10/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-224.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-224.png"
     },
     {
       "section": 14,
@@ -3594,7 +3594,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-01.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-225.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-225.png"
     },
     {
       "section": 14,
@@ -3609,7 +3609,7 @@
         889
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-02.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-226.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-226.png"
     },
     {
       "section": 14,
@@ -3624,7 +3624,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-03.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-227.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-227.png"
     },
     {
       "section": 14,
@@ -3639,7 +3639,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-04.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-228.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-228.png"
     },
     {
       "section": 14,
@@ -3654,7 +3654,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-05.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-229.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-229.png"
     },
     {
       "section": 14,
@@ -3669,7 +3669,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-06.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-230.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-230.png"
     },
     {
       "section": 14,
@@ -3684,7 +3684,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-07.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-231.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-231.png"
     },
     {
       "section": 14,
@@ -3699,7 +3699,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-08.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-232.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-232.png"
     },
     {
       "section": 14,
@@ -3714,7 +3714,7 @@
         889
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-09.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-233.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-233.png"
     },
     {
       "section": 14,
@@ -3729,7 +3729,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-10.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-234.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-234.png"
     },
     {
       "section": 14,
@@ -3744,7 +3744,7 @@
         889
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-11.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-235.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-235.png"
     },
     {
       "section": 14,
@@ -3759,7 +3759,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-12.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-236.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-236.png"
     },
     {
       "section": 14,
@@ -3774,7 +3774,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-13.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-237.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-237.png"
     },
     {
       "section": 14,
@@ -3789,7 +3789,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-14.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-238.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-238.png"
     },
     {
       "section": 14,
@@ -3804,7 +3804,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-15.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-239.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-239.png"
     },
     {
       "section": 14,
@@ -3819,7 +3819,7 @@
         890
       ],
       "source_preview": "training/section-14/renders/s14-r3/slide-16.png",
-      "combined_preview": "training/full-course/renders/course-r2/slide-240.png"
+      "combined_preview": "training/full-course/renders/course-r3/slide-240.png"
     }
   ],
   "scope": "Exact RGB pixel comparison of actual assembled PPTX rendering against section previews. Differences require visual review; unchanged content/relationships are checked separately."

@@ -47,10 +47,11 @@
       "page_budget": 18,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s3-r3",
-      "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r3.pptx",
-      "sha256": "489467f6d8e3b41948c7b76d8fb015c1e226fe5b5a7b4f42c19a5d4aed3bd765",
-      "checks": "training/section-03/checks.json"
+      "revision": "s3-r4",
+      "pptx": "training/section-03/output/高校科研AI课程_Section3_Humanizer_s3-r4.pptx",
+      "sha256": "0d32939fc112cbba7b0c5888f6c7f3ba95f8828dcddd81e39700322a8e92b8f1",
+      "checks": "training/section-03/checks.json",
+      "consistency_review": "2026-10-20：修正流程说明断词，逐页查看修改页；其他页面与前版像素相同。讲者备注及页面数字核对一致。本轮仅核对已有运行文件，未重新执行模型任务。"
     },
     {
       "id": 4,
@@ -130,11 +131,11 @@
       "page_budget": 26,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s10-r4",
-      "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r4.pptx",
-      "sha256": "75c0a7bd753096d44e542cca4f52305d22e67965b3cca2341a973fdf4f78e12b",
+      "revision": "s10-r5",
+      "pptx": "training/section-10/output/高校科研AI课程_Section10_基金申报与GrantAgent_s10-r5.pptx",
+      "sha256": "05ec4c81fa155d28881d7171372334a2dd0fe4ebd50ff3d06bc88643ab58afd6",
       "checks": "training/section-10/checks.json",
-      "consistency_review": "2026-10-19：两组条件及一周后测量与前节对齐；真实重跑Word并附路线与返工图、核对原生端点和Word媒体；无模型调用、科学核验或正式申报。"
+      "consistency_review": "2026-10-20：修正流程说明断词，逐页查看修改页；其他页面与前版像素相同。讲者备注及页面数字核对一致。本轮仅核对已有运行文件，未重新执行模型任务。"
     },
     {
       "id": 11,
@@ -142,11 +143,11 @@
       "page_budget": 12,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s11-r6",
-      "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r6.pptx",
-      "sha256": "9c03fcba0911142719817daed2fa6706835998f3d69a921cecd2afd629a8eac7",
+      "revision": "s11-r7",
+      "pptx": "training/section-11/output/高校科研AI课程_Section11_专利挖掘与技术交底_s11-r7.pptx",
+      "sha256": "b076357b0c005b7c40cc1c59a6377d4c793650ddca53828998cf9a5a38b6f90c",
       "checks": "training/section-11/checks.json",
-      "consistency_review": "2026-10-19：补公开权利要求结构限定与引用关系，教学流程和实际Word附图同源；不作查全、专利性、法律范围或设备效果结论。"
+      "consistency_review": "2026-10-20：修正流程说明断词，逐页查看修改页；其他页面与前版像素相同。讲者备注及页面数字核对一致。本轮仅核对已有运行文件，未重新执行模型任务。"
     },
     {
       "id": 12,
@@ -154,11 +155,11 @@
       "page_budget": 10,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "s12-r7",
-      "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r7.pptx",
-      "sha256": "bf9f9ceacde171d1590cf205771f0071b5ca445ee78f276ee02359709ea83160",
+      "revision": "s12-r8",
+      "pptx": "training/section-12/output/高校科研AI课程_Section12_项目执行与结题_s12-r8.pptx",
+      "sha256": "4e87fb8fe2635ee521aa9e704fc5335b64dae902fc074204f18c9fa22b50b6aa",
       "checks": "training/section-12/checks.json",
-      "consistency_review": "2026-10-20：补9项实际附件目录与146条纳入记录回查；重跑本地Word和4项异常，第7页核对连接端点。采样依据、科学解释和正式验收仍待核。"
+      "consistency_review": "2026-10-20：修正流程说明断词，逐页查看修改页；其他页面与前版像素相同。讲者备注及页面数字核对一致。本轮仅核对已有运行文件，未重新执行模型任务。"
     },
     {
       "id": 13,
@@ -186,14 +187,14 @@
     }
   ],
   "assembled_course": {
-    "revision": "course-r2",
+    "revision": "course-r3",
     "status": "assembled_for_review",
     "user_accepted": false,
     "pages": 240,
-    "pptx": "training/full-course/output/高校科研AI培训课程_全课240页_course-r2.pptx",
-    "pptx_sha256": "db060a160c6f082cf03b525ee683d359cada925805b030e6b9aa3104bbc6d322",
-    "pdf": "training/full-course/output/高校科研AI培训课程_全课240页_course-r2_含章节书签.pdf",
-    "pdf_sha256": "a96ab4ed14b683e7c46a41a5dcea524363c48f47aaf8ef392c7bea5521d31977",
+    "pptx": "training/full-course/output/高校科研AI培训课程_全课240页_course-r3.pptx",
+    "pptx_sha256": "9a06aba9dac0a97b966b2933b16696aa17130ef24f9a049afacfe240d07f2486",
+    "pdf": "training/full-course/output/高校科研AI培训课程_全课240页_course-r3_含章节书签.pdf",
+    "pdf_sha256": "23b064c98580069d282e3dc22a9dc274486db40269a9ed5168ed89ed40eabf90",
     "checks": "training/full-course/checks.json",
     "visual_review": "training/full-course/visual-review.json",
     "navigation": "training/full-course/NAVIGATION.md"

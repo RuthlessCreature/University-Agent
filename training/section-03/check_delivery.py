@@ -3,7 +3,7 @@ from xml.etree import ElementTree as ET
 import hashlib,json,re,sys,zipfile
 from pypdf import PdfReader
 root=Path(__file__).resolve().parent
-rev=sys.argv[1] if len(sys.argv)>1 else 's3-r3'
+rev=sys.argv[1] if len(sys.argv)>1 else 's3-r4'
 data=json.loads((root/'lesson.json').read_text('utf-8'));refs=json.loads((root/'sources.json').read_text('utf-8'));facts=json.loads((root/'source-data.json').read_text('utf-8'))
 assert len(data)==18 and [d['n'] for d in data]==list(range(1,19))
 assert all(k in refs for d in data for k in d['refs'])

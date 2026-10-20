@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s11-r6';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'s11-r7';
 const S='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation,applyPresentationChartFont}=await import(pathToFileURL(path.join(S,'container_tools/artifact_tool_utils.mjs')).href);
@@ -27,7 +27,7 @@ function steps(s,labels,details,y=385){let q=chain(s,labels,y);details.forEach((
 async function pic(s,file,x,y,w,h){const b=await fs.readFile(path.join(R,'assets',file));s.images.add({blob:b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),contentType:'image/png',fit:'contain',alt:'EPO公开专利原文第17页图2，未经改绘',position:{left:x,top:y,width:w,height:h}});}
 for(const d of data){const s=p.slides.add();s.background.fill='#FFFFFF';T(s,'11  专利挖掘与技术交底',80,28,1440,35,20,false,C.muted);T(s,d.title,80,84,1440,82,47,true,C.navy);rule(s,80,184,1440,C.navy,2);T(s,d.thesis,80,213,1440,95,31,false,C.blue);
 switch(d.kind){
-case 'opening':steps(s,['真实技术材料','具体方案与细节','公开技术对照','交底与待补事项'],['研究记录、结构和过程','部件、步骤、参数与异常','按技术特征读原文','来源、缺口与进一步追问']);T(s,'贯穿案例：实验室离心机的不平衡检测与传感数据检查。',80,735,1440,65,31);break;
+case 'opening':steps(s,['真实技术材料','具体方案与细节','公开技术对照','交底与待补事项'],['研究记录、结构和过程','部件、步骤\n参数与异常','按技术特征读原文','来源与缺口\n进一步追问']);T(s,'贯穿案例：实验室离心机的不平衡检测与传感数据检查。',80,735,1440,65,31);break;
 case 'concept':rows(s,[['科学发现','报告观察或认识。能否形成专利对象，需要看具体技术方案。'],['技术交底','说明解决什么技术问题，用哪些部件或步骤，怎样实施，有什么依据。'],['专利申请','发明和实用新型须具备新颖性、创造性、实用性，说明书与权利要求有法定要求。']]);break;
 case 'public':await pic(s,'EP4636367A1-fig2.png',80,310,610,460);T(s,'EP4636367A1  图2（原页局部）',80,780,610,40,25,false,C.muted);T(s,'中文阅读定位',750,330,770,55,33,true,C.blue);T(s,'图2：样品处理、驱动、传感器和处理器。\n\n权1：至少两个自由度的数据，例如不同方向的加速度或角速度。\n\n权3、4：用训练模型识别模式，可先计算均值、能量等特征。\n\n权11：按识别的运行状态停止设备。',750,420,770,330,31);break;
 case 'search':steps(s,['设备与任务','技术特征组合','原文与分类扩展'],['离心机 / 不平衡检测','centrifuge + imbalance\nsensor + controller + stop','核对公开日与定位\n扩展B04B9/14等线索'],345);T(s,'本次已读：US7255669B2、EP4636367A1。',80,675,1440,60,31,true,C.blue);T(s,'未完成全部数据库、同族、引证和法律状态核查，检索记录保留这些范围。',80,755,1440,65,29);break;
@@ -37,7 +37,7 @@ case 'diagram':{const nodes=Object.fromEntries(flow.nodes.map(n=>[n.id,N(s,n.lab
 case 'embodiment':T(s,'课程实施说明节选',80,330,1440,55,30,true,C.blue);T(s,'S1读取振动数据及时间标记。S2检查数据是否满足预定有效性条件。数据有效时，S3进入运行状态识别；数据异常时，S4记录传感故障。两条路径均形成控制处理请求。控制单元如何响应和恢复，仍需设备设计与试验支持。',80,420,1440,200,33);rule(s,80,665,1440);T(s,'尚缺：安装位置、采样率、时间窗口、故障门槛、接口及制动与恢复细节。',80,720,1440,90,29,false,C.red);break;
 case 'effects':rows(s,[['方案特征','数据有效性检查、异常记录与控制请求，分别对应哪些具体部件或步骤？'],['比较与测量','对照什么方案，记录哪些误报、漏报与处理延迟，保留哪些原始数据？'],['当前状态','没有样机或台架试验，不填写准确率、响应时间或提升比例。']]);break;
 case 'correspondence':{const a=N(s,'权利要求1\n多自由度数据\n识别振动模式',80,340,420,135),b=N(s,'权利要求3\n引用前项，再加训练模型',590,340,420,135),c=N(s,'权利要求4\n引用3，再加特征表示',1100,340,420,135);A(s,a,b);A(s,b,c);T(s,'图只画权3引用权1的路径。权3也可引用权2，本图未画全部组合。',80,525,1440,70,29);rule(s,80,620,1440);T(s,'权利要求11',80,660,350,65,32,true,C.blue);T(s,'引用前述任一项，再增加按运行状态停止。\n各引用组合的条件应分别阅读。',490,660,1030,100,31);T(s,'拟写特征应在说明书和附图找到支持；本例未起草正式权利要求。',80,775,1440,45,25);break;}
-case 'execution':steps(s,['公开资料检索','技术对照与追问','文件结构检查','Word与问题清单'],['本轮Codex实际读原文','课程编写对照及设想','本地读取已编写输入','附流程图，保留来源与版本'],345);T(s,'实际结果：Word教学草稿已写出，仍待技术事实补充与研究者核对。',80,685,1440,65,30,true,C.blue);T(s,'本地填充脚本没有调用外部模型，没有完成查全、专利性或侵权判断。',80,765,1440,55,28);break;
+case 'execution':steps(s,['公开资料检索','技术对照与追问','文件结构检查','Word与问题清单'],['本轮Codex\n实际读原文','课程编写对照及设想','本地读取已编写输入','附流程图\n保留来源与版本'],345);T(s,'实际结果：Word教学草稿已写出，仍待技术事实补充与研究者核对。',80,685,1440,65,30,true,C.blue);T(s,'本地填充脚本没有调用外部模型，没有完成查全、专利性或侵权判断。',80,765,1440,55,28);break;
 case 'closing':{let a=N(s,'技术事实与完整细节',80,350,570,95),b=N(s,'贡献、合同与公开记录',950,350,570,95),c=N(s,'单位成果转化部门与专业人员核对',400,600,850,95,'#E7F2EF');A(s,a,c,'bottom','top','elbow');A(s,b,c,'bottom','top','elbow');T(s,'公开前核对申请安排。法定例外有适用条件，不能当作普遍宽限期。',80,755,1440,65,29);break;}
 }
 T(s,d.bottom,80,824,1440,43,22,false,C.green);T(s,'来源：'+d.refs.map(k=>refs[k].short).join('；'),80,875,1340,22,15,false,C.muted);T(s,String(d.n).padStart(2,'0'),1450,864,70,34,23,false,C.muted);s.speakerNotes.text=d.notes+'\n\n'+d.refs.map(k=>refs[k].title+'\n'+refs[k].url+'\n定位：'+refs[k].location).join('\n\n');}
