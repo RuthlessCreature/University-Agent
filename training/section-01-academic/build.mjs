@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'a5';
+const R=path.dirname(fileURLToPath(import.meta.url)),rev=process.env.SECTION_REVISION||'a7';
 const SKILL='C:/Users/Georgij Xe/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
 const PY='C:/Users/Georgij Xe/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const {finalizePresentation,applyPresentationChartFont}=await import(pathToFileURL(path.join(SKILL,'container_tools/artifact_tool_utils.mjs')).href);
@@ -11,6 +11,7 @@ const stage=path.join(R,'.build',rev);await fs.mkdir(stage,{recursive:true});awa
 const p=Presentation.create({slideSize:{width:1600,height:900}}),F='Microsoft YaHei';p.theme.defaultFont=F;
 const C={navy:'#132F43',ink:'#263D4A',blue:'#245B77',muted:'#627681',red:'#963F3C',green:'#2C6D68',rule:'#CAD6DC',light:'#F1F5F7'};
 const shortRefs={claude_files:'Claude：文件工具',chatgpt_files:'OpenAI：Work with files',deepseek_api:'DeepSeek：API Docs',ijs:'IJS / SLAIF（2026）',gwu:'GWU MAE-6291（2026）',nist:'NIST AI 600-1（2024）',concepts:'OpenAI：Key concepts',context:'OpenAI：Conversation state',prompt:'OpenAI：Prompt engineering',optimization:'OpenAI：Model optimization',tools:'OpenAI：Using tools',walters:'Walters & Wilder（2023），表3、4',nature:'Nature Portfolio AI policy',plos:'PLOS AI policy',elicit:'Elicit',consensus:'Consensus',connected:'Connected Papers'};
+shortRefs.science='Science journals 官方政策及AI细则';
 function text(s,v,x,y,w,h,size=31,bold=false,color=C.ink){const t=s.shapes.add({geometry:'textbox',position:{left:x,top:y,width:w,height:h},fill:'none',line:{fill:'none',width:0}});t.text=v;t.text.style={typeface:F,fontSize:size,bold,color,autoFit:'none',wrap:'word',insets:0,verticalAlignment:'top'};return t;}
 function rule(s,x,y,w,color=C.rule,width=1){return s.shapes.add({geometry:'line',position:{left:x,top:y,width:w,height:0},line:{fill:color,width}});}
 function node(s,v,x,y,w,h,size=30){const t=s.shapes.add({geometry:'rect',position:{left:x,top:y,width:w,height:h},fill:'#FFFFFF',line:{fill:C.blue,width:1.5}});t.text=v;t.text.style={typeface:F,fontSize:size,bold:true,color:C.navy,autoFit:'none',wrap:'word',insets:12,verticalAlignment:'middle'};return t;}
@@ -61,14 +62,19 @@ for(const d of data){
  case 'inference':{
   for(let i=0;i<3;i++){let y=325+i*128;text(s,d.levels[i][0],80,y,240,55,39,true,C.blue);text(s,d.levels[i][1],370,y,1150,45,32,true);text(s,d.levels[i][2],370,y+51,1150,70,28);if(i<2)rule(s,80,y+120,1440);}
   text(s,d.example,80,733,1440,76,28,false,C.green);break;}
- case 'policy':text(s,d.lead,80,215,1440,75,32,false,C.blue);table(s,d.rows,[290,555,595],325,337,28);text(s,d.record,80,709,1440,98,29);break;
+ case 'policy':{
+  text(s,d.lead,80,215,1440,75,31,false,C.blue);
+  const t=table(s,d.rows,[250,540,650],315,408,26);
+  [56,110,132,110].forEach((h,i)=>{t.rows[i].height=h;});
+  t.cells.block({row:0,column:0,rowCount:4,columnCount:3}).assign({margins:{top:12,left:16,right:16,bottom:10}});
+  text(s,d.record,80,747,1440,65,27);break;}
  case 'credibility':{
   for(let i=0;i<4;i++){let y=327+i*111;text(s,d.conditions[i][0],80,y,280,52,34,true,C.blue);text(s,d.conditions[i][1],430,y,1090,49,32,true);text(s,d.conditions[i][2],430,y+55,1090,50,28,false,C.muted);if(i<3)rule(s,80,y+93,1440);}break;}
  }
  const footerY=['scope','learning','inference','tool-map','policy'].includes(d.kind)?818:802;
  text(s,d.bottom,80,footerY,1440,47,24,false,C.green);
  const credit=d.refs.map(k=>shortRefs[k]).join('；');text(s,'来源：'+credit,80,871,1310,25,16,false,C.muted);text(s,String(d.n).padStart(2,'0'),1440,862,80,34,23,false,C.muted);
- s.speakerNotes.text=d.notes+'\n\n'+d.refs.map(k=>`${refs[k].title}\n${refs[k].url}\n定位：${refs[k].location}`).join('\n\n');
+ s.speakerNotes.text=d.notes+'\n\n'+d.refs.map(k=>`${refs[k].title}\n${refs[k].url}\n定位：${refs[k].location}${refs[k].guidelines_url?'\n细则PDF：'+refs[k].guidelines_url:''}`).join('\n\n');
 }
 const candidate=path.join(stage,'candidate.pptx');await (await PresentationFile.exportPptx(p)).save(candidate);
 const tableOwners=[6,11];

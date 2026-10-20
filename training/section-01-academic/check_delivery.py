@@ -4,7 +4,7 @@ from xml.etree import ElementTree as ET
 from pypdf import PdfReader
 
 root=Path(__file__).resolve().parent
-rev=sys.argv[1] if len(sys.argv)>1 else 'a5'
+rev=sys.argv[1] if len(sys.argv)>1 else 'a7'
 lesson=json.loads((root/'lesson.json').read_text('utf-8'))
 sources=json.loads((root/'sources.json').read_text('utf-8'))
 assert len(lesson)==12
@@ -26,8 +26,10 @@ with zipfile.ZipFile(pptx) as z:
     assert len(slides)==len(notes)==12 and len(charts)==1
     all_text=' '.join(' '.join(ET.fromstring(z.read(n)).itertext()) for n in slides)
     assert not any(t in all_text for t in ['课堂练习','组会','阅读笔记','注册账户'])
-    for t in ['预训练','后训练','上下文','检索增强生成','预测','作者责任']:
+    for t in ['预训练','后训练','上下文','检索增强生成','预测','作者仍需核对事实']:
         assert t in all_text,t
+    policy_text=' '.join(ET.fromstring(z.read('ppt/slides/slide11.xml')).itertext())
+    assert all(t in policy_text for t in ['Nature Portfolio','Science journals','PLOS','作者仍需核对事实','示意插图原则上禁用'])
     native_tables=[i for i in range(1,13) if ET.fromstring(z.read(f'ppt/slides/slide{i}.xml')).findall('.//a:tbl',ns)]
     assert native_tables==[6,11]
     chart=ET.fromstring(z.read(charts[0]))

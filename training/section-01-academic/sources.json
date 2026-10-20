@@ -57,13 +57,13 @@
     "title": "Nature Portfolio, Artificial Intelligence policy",
     "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
     "location": "Risk assessment framework; Role-specific responsibilities",
-    "checked": "2026-10-17"
+    "checked": "2026-10-20"
   },
   "plos": {
     "title": "PLOS, Ethical Publishing Practice",
     "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
     "location": "AI use by authors；AI use disclosures；FAQ语言改进与翻译例外、代码与制图要求",
-    "checked": "2026-10-17"
+    "checked": "2026-10-20"
   },
   "elicit": {
     "title": "Elicit",
@@ -103,5 +103,13 @@
     "location": "API兼容格式、Integrate with Agent Tools；顶部Search/Fetch说明",
     "checked": "2026-10-19",
     "use": "区分模型API与应用提供的搜索、计算、导出；指南子路径返回同一API首页，未冒充读到专项指南"
+  },
+  "science": {
+    "title": "Science Journals: Editorial Policies / Science journals’ guidelines for AI usage",
+    "url": "https://www.science.org/content/page/science-journals-editorial-policies",
+    "location": "Authorship；Image and Text Integrity / Artificial intelligence；官方AI细则PDF第1—2页",
+    "checked": "2026-10-20",
+    "guidelines_url": "https://www.science.org/cms/asset/cea1081d-3aa4-42a2-96b7-72290067116a/sept26_science_journals_guidelines_ai_use.pdf",
+    "guidelines_sha256": "ea01091ab506ac7cb9c17ba30c8604cce0bf54253be5566bd9bdbb60af041c60"
   }
 }

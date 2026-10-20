@@ -10,7 +10,7 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,s):p.write_text(s.rstrip()+'\n','utf-8')
 def dump(p,d):write(p,json.dumps(d,ensure_ascii=False,indent=2))
 d=json.loads((R/'section-progress.json').read_text('utf-8'))
-d['checked_date']=CHECKED_DATE;d['scope']='15节、240页当前文件已登记，逐节修订与实际执行范围见sections。52项原稿主题仍有Science政策来源缺口；云端本轮登录401、未创建模型任务。370＋110分钟为备课分配，未作真人计时彩排；文件、覆盖及版面检查不代表用户教学验收。';dump(R/'section-progress.json',d)
+d['checked_date']=CHECKED_DATE;d['scope']='15节、240页当前文件已登记，逐节修订与实际执行范围见sections。52项原稿主题的位置评估见覆盖矩阵；Science官方政策PDF第1—2页已读并用于Section 1，不能替代期刊规则复核。云端本轮登录401、未创建模型任务。370＋110分钟为备课分配，未作真人计时彩排；文件、覆盖及版面检查不代表用户教学验收。';dump(R/'section-progress.json',d)
 ns={'a':'http://schemas.openxmlformats.org/drawingml/2006/main','p':'http://schemas.openxmlformats.org/presentationml/2006/main'};pages={};inventory=[];offset=0
 for s in d['sections']:
  p=A/s['pptx'];assert sha(p)==s['sha256']
@@ -22,7 +22,7 @@ for s in d['sections']:
 assert offset==240
 # Rows were located using current titles, slide text and prior section materials; no keyword score is used.
 rows=[
-('1/11','部分覆盖','Nature与PLOS政策已有对照；Science当前政策尚未核验，需补原始来源。'),
+('1/11','已有对应内容','Nature Portfolio、Science journals与PLOS按语言修改、正文起草、数据分析和图像用途对照；Science依据官方细则第1—2页。审稿和返修限制见配套说明。正式投稿仍需核对目标期刊最新规则。'),
 ('1/6 2/17','调整讲法','改讲任务能力、证据与作者责任，未把“必然取代”当作事实。'),
 ('1/7 1/8 2/10','已有对应内容','任务、材料、约束、产物与迭代均有位置；不承诺提示词保证正确。'),
 ('1/9 5/8 5/9 5/10','已有对应内容','工具用途、检索及引文回查；不是账户操作教学。'),

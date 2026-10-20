@@ -4,7 +4,7 @@
   "target_pages": 240,
   "produced_pages": 240,
   "next_section": null,
-  "scope": "15节、240页当前文件已登记，逐节修订与实际执行范围见sections。52项原稿主题仍有Science政策来源缺口；云端本轮登录401、未创建模型任务。370＋110分钟为备课分配，未作真人计时彩排；文件、覆盖及版面检查不代表用户教学验收。",
+  "scope": "15节、240页当前文件已登记，逐节修订与实际执行范围见sections。52项原稿主题的位置评估见覆盖矩阵；Science官方政策PDF第1—2页已读并用于Section 1，不能替代期刊规则复核。云端本轮登录401、未创建模型任务。370＋110分钟为备课分配，未作真人计时彩排；文件、覆盖及版面检查不代表用户教学验收。",
   "sections": [
     {
       "id": 0,
@@ -24,11 +24,11 @@
       "page_budget": 12,
       "status": "produced_for_review",
       "user_accepted": false,
-      "revision": "a5",
-      "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a5.pptx",
-      "sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
+      "revision": "a7",
+      "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+      "sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
       "checks": "training/section-01-academic/checks.json",
-      "consistency_review": "2026-10-19：第9页补三种助手的具体选用路线及完整任务，未作三方实测。"
+      "consistency_review": "2026-10-20：第11页对照Nature Portfolio、Science journals与PLOS的官方规则；Science细则定位到官方PDF第1—2页。12页已渲染并通过结构检查，整节缩略图及第11页人工查看。"
     },
     {
       "id": 2,
@@ -187,14 +187,14 @@
     }
   ],
   "assembled_course": {
-    "revision": "course-r3",
+    "revision": "course-r4",
     "status": "assembled_for_review",
     "user_accepted": false,
     "pages": 240,
-    "pptx": "training/full-course/output/高校科研AI培训课程_全课240页_course-r3.pptx",
-    "pptx_sha256": "9a06aba9dac0a97b966b2933b16696aa17130ef24f9a049afacfe240d07f2486",
-    "pdf": "training/full-course/output/高校科研AI培训课程_全课240页_course-r3_含章节书签.pdf",
-    "pdf_sha256": "23b064c98580069d282e3dc22a9dc274486db40269a9ed5168ed89ed40eabf90",
+    "pptx": "training/full-course/output/高校科研AI培训课程_全课240页_course-r4.pptx",
+    "pptx_sha256": "6ffa913b9aad457b86963b25449066a87e05664c8f1e85dc9c9f70113a4f6471",
+    "pdf": "training/full-course/output/高校科研AI培训课程_全课240页_course-r4_含章节书签.pdf",
+    "pdf_sha256": "dd443b8dbd6e5901f47cf7f57aff5bc5a45db25351528826101c28f36dce291f",
     "checks": "training/full-course/checks.json",
     "visual_review": "training/full-course/visual-review.json",
     "navigation": "training/full-course/NAVIGATION.md"

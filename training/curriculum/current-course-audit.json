@@ -4,28 +4,28 @@
   "sections": 15,
   "coverage_scope": "Editorial location review of current slide text and selected sections; preliminary topic mapping, not execution completeness or scientific acceptance. Excerpts identify location, not proof of semantic coverage by themselves.",
   "counts": {
-    "已有对应内容": 46,
+    "已有对应内容": 47,
     "调整讲法": 5,
-    "部分覆盖": 1
+    "部分覆盖": 0
   },
   "rows": [
     {
       "id": 1,
       "original_topic": "顶刊AI政策与趋势速览（Nature/Science系列对AI使用的规定",
-      "status": "部分覆盖",
+      "status": "已有对应内容",
       "locations": [
         "1/11"
       ],
-      "assessment": "Nature与PLOS政策已有对照；Science当前政策尚未核验，需补原始来源。",
+      "assessment": "Nature Portfolio、Science journals与PLOS按语言修改、正文起草、数据分析和图像用途对照；Science依据官方细则第1—2页。审稿和返修限制见配套说明。正式投稿仍需核对目标期刊最新规则。",
       "evidence": [
         {
           "section": 1,
           "page": 11,
           "global_page": 15,
-          "title": "学术规范与作者责任",
-          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a5.pptx",
-          "pptx_sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
-          "excerpt": "01  科研 AI：能力、原理与学术边界\n学术规范与作者责任\nAI 参与写作与研究时，作者对准确性、原创性与证据负责。\n核对事项\nNature Portfolio\nPLOS\nAI 与作者资格\n不能把学术责任交给 AI。\nAI 工具不能列为作者。\n写作与研究支持\n按风险程度进行人工监督与核验，\n并按要求披露。\n生成正文等按要求披露；\n单纯语言改进见FAQ例外。\n内容与研究记录\n作者对原创性、准确性和完整性负责。\n作者负责研究记录与投稿内容"
+          "title": "AI 使用声明要看具体用途",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\nAI 使用声明要看具体用途\n改语法、起草正文、分析数据和生成插图，适用的要求各不相同。\n出版方\n写作与披露\n科研内容与图像\nNature\nPortfolio\n按风险分级。广泛写作支持\n需人工监督、核验与披露。\n作者对准确性与原创性负责；\n不能伪造数据或让AI代替判断。\nScience\njournals\n语言清晰度修改：免声明。\n起草正文、翻译：\n致谢注明模型与版本。\n改代码功能、数据分析：方法披"
         }
       ]
     },
@@ -44,8 +44,8 @@
           "page": 6,
           "global_page": 10,
           "title": "科研任务中的能力与限制",
-          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a5.pptx",
-          "pptx_sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
           "excerpt": "01  科研 AI：能力、原理与学术边界\n科研任务中的能力与限制\n能力\n可以提供的帮助\n科研中仍需判断的部分\n语言组织\n翻译、归纳、调整段落与术语表达。\n是否改变原意、限定条件或证据强度。\n材料比较\n整理多篇文献的方法、结果与分歧。\n材料是否完整，比较对象是否可比。\n代码生成\n根据分析需求编写和修改代码。\n代码是否实际运行，方法假设是否适用。\n图表与解释\n依据数据生成图表，说明统计结果。\n数据来源、单位、样本与结论范围。\n同一段文字可能"
         },
         {
@@ -75,8 +75,8 @@
           "page": 7,
           "global_page": 11,
           "title": "复杂科研任务的组织",
-          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a5.pptx",
-          "pptx_sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
           "excerpt": "01  科研 AI：能力、原理与学术边界\n复杂科研任务的组织\n把“帮我写一篇综述”拆成有输入、产物和核对依据的研究环节。\n01\n界定问题\n研究对象、时间范围、纳入标准\n形成边界清楚的研究问题\n02\n收集材料\n检索式、数据库与全文\n保存可回查的文献集合\n03\n比较证据\n对象、设计、指标和主要结果\n区分共识、分歧与证据缺口\n04\n组织论述\n经过核对的证据与主张\n形成段落，标明引文与限制\n05\n检查与修订\n原文、引用清单与全文\n核对遗漏、误引"
         },
         {
@@ -84,8 +84,8 @@
           "page": 8,
           "global_page": 12,
           "title": "科研提示词的主要变量",
-          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a5.pptx",
-          "pptx_sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
           "excerpt": "01  科研 AI：能力、原理与学术边界\n科研提示词的主要变量\n提示词是研究者向模型交代任务、材料和判断标准的指令。\n请从研究方法角度，比较我提供的两篇论文。\n比较研究对象、样本来源、对照设置、测量指标和结论范围。只依据这两篇全文，给出每项判断对应的原文位置。\n请区分作者报告的结果与你的解释。两篇论文没有报告的信息写明“未报告”，不要补入样本量、统计结果或其他文献。\n按比较维度逐项列出共同点、差异及其对结论的影响。\n分析角度\n研究方法，"
         },
         {
@@ -116,8 +116,8 @@
           "page": 9,
           "global_page": 13,
           "title": "Claude、ChatGPT、DeepSeek 怎样选",
-          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a5.pptx",
-          "pptx_sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
           "excerpt": "01  科研 AI：能力、原理与学术边界\nClaude、ChatGPT、DeepSeek 怎样选\n同一任务：依据公开论文，解释“AI 编造文献”的证据，交付一页说明。\n使用入口\n这一任务怎样处理\n选择依据与检查\nClaude\n已启用文件工具\n读论文 PDF，核对表3、4；\n整理结果与限制，导出 Word。\n适合：已有论文，要说明稿。\n检查：原文定位、可编辑正文。\nChatGPT Work\n文件处理模式\n附论文和报告值表；\n制作可编辑图表"
         },
         {
@@ -164,8 +164,8 @@
           "page": 9,
           "global_page": 13,
           "title": "Claude、ChatGPT、DeepSeek 怎样选",
-          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a5.pptx",
-          "pptx_sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
           "excerpt": "01  科研 AI：能力、原理与学术边界\nClaude、ChatGPT、DeepSeek 怎样选\n同一任务：依据公开论文，解释“AI 编造文献”的证据，交付一页说明。\n使用入口\n这一任务怎样处理\n选择依据与检查\nClaude\n已启用文件工具\n读论文 PDF，核对表3、4；\n整理结果与限制，导出 Word。\n适合：已有论文，要说明稿。\n检查：原文定位、可编辑正文。\nChatGPT Work\n文件处理模式\n附论文和报告值表；\n制作可编辑图表"
         },
         {
@@ -225,8 +225,8 @@
           "page": 9,
           "global_page": 13,
           "title": "Claude、ChatGPT、DeepSeek 怎样选",
-          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a5.pptx",
-          "pptx_sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
           "excerpt": "01  科研 AI：能力、原理与学术边界\nClaude、ChatGPT、DeepSeek 怎样选\n同一任务：依据公开论文，解释“AI 编造文献”的证据，交付一页说明。\n使用入口\n这一任务怎样处理\n选择依据与检查\nClaude\n已启用文件工具\n读论文 PDF，核对表3、4；\n整理结果与限制，导出 Word。\n适合：已有论文，要说明稿。\n检查：原文定位、可编辑正文。\nChatGPT Work\n文件处理模式\n附论文和报告值表；\n制作可编辑图表"
         },
         {
@@ -1326,10 +1326,10 @@
           "section": 1,
           "page": 11,
           "global_page": 15,
-          "title": "学术规范与作者责任",
-          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a5.pptx",
-          "pptx_sha256": "5a4deef8751a4711def3346a26d85cb476d6fcb4364fb59d4cc75d1f9fadacdf",
-          "excerpt": "01  科研 AI：能力、原理与学术边界\n学术规范与作者责任\nAI 参与写作与研究时，作者对准确性、原创性与证据负责。\n核对事项\nNature Portfolio\nPLOS\nAI 与作者资格\n不能把学术责任交给 AI。\nAI 工具不能列为作者。\n写作与研究支持\n按风险程度进行人工监督与核验，\n并按要求披露。\n生成正文等按要求披露；\n单纯语言改进见FAQ例外。\n内容与研究记录\n作者对原创性、准确性和完整性负责。\n作者负责研究记录与投稿内容"
+          "title": "AI 使用声明要看具体用途",
+          "pptx": "training/section-01-academic/output/高校科研AI课程_Section1_学术讲授版_a7.pptx",
+          "pptx_sha256": "d57693defdefa7d76a3efc086a1c8739b1d7b0d7854afa4f3f2bfe0926850843",
+          "excerpt": "01  科研 AI：能力、原理与学术边界\nAI 使用声明要看具体用途\n改语法、起草正文、分析数据和生成插图，适用的要求各不相同。\n出版方\n写作与披露\n科研内容与图像\nNature\nPortfolio\n按风险分级。广泛写作支持\n需人工监督、核验与披露。\n作者对准确性与原创性负责；\n不能伪造数据或让AI代替判断。\nScience\njournals\n语言清晰度修改：免声明。\n起草正文、翻译：\n致谢注明模型与版本。\n改代码功能、数据分析：方法披"
         },
         {
           "section": 3,
@@ -2265,7 +2265,7 @@
       "section": 1,
       "page": 11,
       "global_page": 15,
-      "title": "学术规范与作者责任",
+      "title": "AI 使用声明要看具体用途",
       "images": 0,
       "charts": 0,
       "connectors": 0,

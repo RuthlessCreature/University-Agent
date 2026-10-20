@@ -17,4 +17,6 @@
 
 制作使用 Artifact Tool。最终文件尚未在 Microsoft PowerPoint 中实测；预览来自 LibreOffice。后续 Section 2 展开 Agentic AI、Agent 与 Harness，Section 3 展开 Humanizer，Section 9 单独核对 Science 等目标期刊的具体要求。
 
-当前修订为a5：第9页用同一篇公开论文说明Claude、ChatGPT Work与DeepSeek课程网页方案的选用条件，配套三份完整任务文本、一份人工核对说明和检查脚本。三条路线未作产品执行或性能比较；原有专业检索工具分工保留在讲师稿及Section5。a4的PLOS披露限定继续保留。
+当前修订为a7。第9页用同一篇公开论文说明Claude、ChatGPT Work与DeepSeek课程网页方案的选用条件；第11页新增Nature Portfolio、Science journals与PLOS的AI使用规则对照，Science定位到官方PDF第1—2页。政策差异和审稿、返修限制另见《期刊AI政策核对说明.md》。课件中的期刊要求是核对入口，正式投稿仍须查目标期刊最新规则。
+
+第9页配套三份完整任务文本、一份人工核对说明和检查脚本。三条路线未作产品执行或性能比较；原有专业检索工具分工保留在讲师稿及Section5。a7 已重新渲染12页；结构检查通过，人工查看缩略图及政策对照页。Microsoft PowerPoint 未实测，课程尚未取得用户教学验收。
