@@ -1,0 +1,1209 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  141,
+  160
+ ],
+ "items": [
+  {
+   "page": 141,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "fw7jwp",
+     "Parallel research tasks and convergence basis"
+    ],
+    [
+     "1t1mu4z",
+     "Parallel branches should have their own inputs and outputs, and explain what evidence should be compared when converging."
+    ],
+    [
+     "1xs0jr2",
+     "Research Questions and Hypotheses"
+    ],
+    [
+     "1r65hzs",
+     "Answer process record"
+    ],
+    [
+     "p6mlwl",
+     "Unified new question test"
+    ],
+    [
+     "7i796t",
+     "Contact evidence and explain"
+    ],
+    [
+     "1kdlsln",
+     "Produce verifiable coding records"
+    ],
+    [
+     "myvle6",
+     "Form reviewable scoring results"
+    ],
+    [
+     "ua99l9",
+     "Teaching instructions. The two evidence paths may be consistent or contradictory and need to be interpreted truthfully."
+    ],
+    [
+     "enbza8",
+     "Source: UBC course node relationship, p.2; course self-edited teaching example"
+    ],
+    [
+     "8ku67x",
+     "13"
+    ]
+   ],
+   "note": "After the research hypothesis is proposed, the process evidence and independent tests can be organized in parallel, forming coding records and scoring results respectively, and then checking for consistency and inconsistency. Both branches cannot be drawn as \"AI analysis\" or the default results must support the hypothesis. Retain issues when records are missing and indicators do not correspond, rather than forcibly converging into positive conclusions.\nNetwork Data (Ch9 revised) listed in UBC 2026 course, version 2501\nhttps://www.cs.ubc.ca/~tmm/talks/vad/2501-networks.pdf\nPositioning: Nodes and connections on page 2, rendered for viewing\nCourse self-compiled drawings and research plans\nlocal:training/section-08/lesson.json\nPositioning: The plan has not been implemented, the hypothesis has not been verified; it is not disguised as scientific research evidence or Agent screenshots"
+  },
+  {
+   "page": 142,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "1pyh0do",
+     "The complete task and hypothesis scope of the mechanism diagram"
+    ],
+    [
+     "14qsl3f",
+     "The object, layout and arrow meaning are written into the task, and the status of \"pending verification\" is retained in the figure."
+    ],
+    [
+     "1u3a5d",
+     "Relationship Check Chart (editable)"
+    ],
+    [
+     "7injho",
+     "GPT Image task example (not executed)"
+    ],
+    [
+     "n2fc0e",
+     "Please draw a conceptual diagram for university teachers to explain on the topic \"How step-by-step prompts may affect independent problem solving.\" With a white background and blue and green colors, the three areas represent step-by-step prompts, attempts and corrections in answering, and new test questions without AI. Only two dotted arrows are used between areas, and the legend states \"relationship to be verified.\" Do not add grades, improvement percentages, photos of experiments, or literature. The caption reads \"Teaching hypothesis is suggested, but mechanism evidence has not yet been obtained.\" Chinese labels must be clear and readable, leaving enough space for later editing."
+    ],
+    [
+     "uex1qa",
+     "Step-by-step tips"
+    ],
+    [
+     "3uckpg",
+     "Try and fix"
+    ],
+    [
+     "1hu2f7y",
+     "No AI new question test"
+    ],
+    [
+     "n7pfpm",
+     "Dotted line: relationship to be verified"
+    ],
+    [
+     "1ktotnq",
+     "Other explanations still need to be checked: existing level, practice time, question difficulty, and implementation differences."
+    ],
+    [
+     "1wtkcck",
+     "Task example, not executed. The original DALL·E 2/3 API has been offline on 2026-05-12."
+    ],
+    [
+     "1csz8af",
+     "Source: UBC course node relationship, p.2; OpenAI image guide, tasks and editing; OpenAI offline record, 2026-05-12; course self-edited teaching examples"
+    ],
+    [
+     "6mwyd4",
+     "14"
+    ]
+   ],
+   "note": "The left side of this page is an example of the GPT Image task written in the course, and the right side is the PPT native relationship diagram for manual verification; the right picture is not used as a model output. See prompt-packet for the complete prompt. The three nodes correspond to prompts, answering processes and independent tests respectively, and the two dotted lines are just interpretation relationships to be verified. There is no real process data to prove mediation or causation, and existing level, practice time, item difficulty, and implementation differences still need to be considered. The name DALL·E in the original manuscript is reserved for expiration date: the official API offline record lists dall-e-2 and dall-e-3 as being removed on 2026-05-12, and all third-party portals were not promoted and stopped at the same time. The current official image guide is used for writing GPT Image tasks; this image model is not called in this round. Examples are provided for teaching purposes. Please check the regulations of the target journal on generated images when submitting your manuscript.\nNetwork Data (Ch9 revised) listed in UBC 2026 course, version 2501\nhttps://www.cs.ubc.ca/~tmm/talks/vad/2501-networks.pdf\nPositioning: Nodes and connections on page 2, rendered for viewing\nOpenAI Image generation official guide\nhttps://developers.openai.com/api/docs/guides/image-generation\nPositioning: 2026-10-19 View: generation and editing, text rendering and structural layout restrictions; no image model is called, and no claim is made that the requested text is accurate\nOpenAI Deprecations: DALL·E model snapshots\nhttps://developers.openai.com/api/docs/deprecations\nPositioning: 2025-11-14 Entry: dall-e-2 and dall-e-3 APIs were removed on 2026-05-12; third-party entries are not inferred\nCourse self-compiled drawings and research plans\nlocal:training/section-08/lesson.json\nPositioning: The plan has not been implemented, the hypothesis has not been verified; it is not disguised as scientific research evidence or Agent screenshots"
+  },
+  {
+   "page": 143,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "zp9cpa",
+     "Editing source for data maps and roadmaps"
+    ],
+    [
+     "1thtcm6",
+     "Retain data, scripts and native charts, and save the nodes and connections of the route so that subsequent revisions can be retroactively modified."
+    ],
+    [
+     "drsew1",
+     "Original data and calculations"
+    ],
+    [
+     "812xsg",
+     "CSV, script, calculation results"
+    ],
+    [
+     "88ifzb",
+     "Native charts and legends"
+    ],
+    [
+     "1wx43j4",
+     "PPT objects and embedded workbooks"
+    ],
+    [
+     "1t0hkml",
+     "Route nodes and connections"
+    ],
+    [
+     "103tfpg",
+     "draw.io and route.json"
+    ],
+    [
+     "eyasok",
+     "PDF/SVG/PNG"
+    ],
+    [
+     "11vnwp5",
+     "Preview, typesetting and vector export"
+    ],
+    [
+     "tdnotb",
+     "The supporting documents are editable teaching results; they do not claim to have passed the submission acceptance of a specific journal."
+    ],
+    [
+     "1wry26m",
+     "Source: PLOS One, legend and image requirements; course self-edited teaching examples"
+    ],
+    [
+     "6wwk23",
+     "15"
+    ]
+   ],
+   "note": "The charts in this section’s PPT are natively editable, and the supporting images remain in PDF, PNG, and SVG; the technical roadmap is attached with draw.io and SVG/PNG. Charts embedded in workbooks are numerical snapshots and do not retain source table formulas. After revision, it is still necessary to recalculate based on the data. PNG is suitable for preview, while vector or native objects are suitable for subsequent adjustments. For formal submission, please check the target journal specifications.\nPLOS One Figures Official Requirements\nhttps://journals.plos.org/plosone/s/figures\nPositioning: 2026-10-18 Verification of Captions, Multi-panel Figures, Preparing Figures from Image Files; requirements for each journal are different\nCourse self-compiled drawings and research plans\nlocal:training/section-08/lesson.json\nPositioning: The plan has not been implemented, the hypothesis has not been verified; it is not disguised as scientific research evidence or Agent screenshots"
+  },
+  {
+   "page": 144,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "wgry1h",
+     "Midjourney tips and diagram review"
+    ],
+    [
+     "ova65k",
+     "The image tool first receives a clear picture description, and the teacher then checks the objects, labels and relationships one by one."
+    ],
+    [
+     "xys9qj",
+     "Copiable screen description (not implemented)"
+    ],
+    [
+     "529eza",
+     "Flat academic concept illustration, three simple panels left to right: a worksheet with stepped hints, a student's solution revisions, a fresh problem sheet. Thin dashed arrows between adjacent panels, white background, muted blue and green, ample empty space for labels, landscape composition"
+    ],
+    [
+     "ybware",
+     "--ar 16:9"
+    ],
+    [
+     "9ileod",
+     "Chinese meaning: Step-by-step prompts, answer revisions, and new question papers, arranged in sequence and connected by dotted lines."
+    ],
+    [
+     "19pnii8",
+     "--ar 16:9 only specifies the aspect ratio; Chinese labels, legends and editing sources must be checked separately."
+    ],
+    [
+     "13pcpb",
+     "Inspect objects and arrows"
+    ],
+    [
+     "1mu7hcp",
+     "Check text and symbols"
+    ],
+    [
+     "z0e3qu",
+     "Keep editable final version"
+    ],
+    [
+     "jqnkk0",
+     "Delete the fictitious question and indicate the scope of the hypothesis."
+    ],
+    [
+     "vfoyqf",
+     "Midjourney prompt example, not executed; Nano Banana is not connected. The right side shows the manual review process."
+    ],
+    [
+     "1g9f4pg",
+     "Source: Midjourney tips and aspect ratio documentation; OpenAI image guide, tasks and editing; course self-edited teaching examples"
+    ],
+    [
+     "76w5r2",
+     "16"
+    ]
+   ],
+   "note": "On the left is a copyable Midjourney prompt. Use the specific screen description according to the official Prompt Basics; --ar 16:9 is the screen aspect ratio, not a guarantee of pixels, clarity or editable format. English means three areas from left to right: step-by-step reminder question sheets, answer revisions, and new question papers. Adjacent areas use thin dotted lines, blue and green colors on a white background and leave space for labels. The Chinese label and the legend \"Teaching hypothesis indicates, mechanism evidence has not yet been obtained\" still need to be checked after being completed in the editorial source. The model may have wrong connections, added objects, or misspelled words; after discovery, it will be adjusted according to the complete modification task, and you cannot just write \"more advanced\". The supporting revision_prompt gives clear instructions for retaining objects, changing dotted lines, deleting fictitious problems and modifying text. The verification process is a teaching method and does not implement Midjourney, GPT Image or Nano Banana. Image files usually do not automatically provide independent editable nodes; the final version needs to retain the original output, prompt version, and PPT/draw.io text and links. The data graph is recalculated using CSV scripts and native charts, without allowing the image model to generate observations. The next section organizes the charts into the main text of the paper, submission and revision.\nMidjourney Prompt Basics and Aspect Ratio\nhttps://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics\nPositioning: 2026-10-19 Check the short and specific screen description; --ar parameter, also see prompt-packet/reference.md; Midjourney has not been operated\nOpenAI Image generation official guide\nhttps://developers.openai.com/api/docs/guides/image-generation\nPositioning: 2026-10-19 View: generation and editing, text rendering and structural layout restrictions; no image model is called, and no claim is made that the requested text is accurate\nCourse self-compiled drawings and research plans\nlocal:training/section-08/lesson.json\nPositioning: The plan has not been implemented, the hypothesis has not been verified; it is not disguised as scientific research evidence or Agent screenshots"
+  },
+  {
+   "page": 145,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "1475zwi",
+     "Thesis writing, submission and revision"
+    ],
+    [
+     "1mmaee",
+     "This section organizes the research materials into paragraphs, and then tracks the submission judgment, revision actions and reply basis."
+    ],
+    [
+     "17t5o8x",
+     "Materials and Demonstration"
+    ],
+    [
+     "8qzpit",
+     "Paragraphs and Figures"
+    ],
+    [
+     "1prk1e",
+     "Journals and Submissions"
+    ],
+    [
+     "1q2dm10",
+     "Revision and reply"
+    ],
+    [
+     "1qfbo3t",
+     "Corresponding basis for each judgment"
+    ],
+    [
+     "1rcppy9",
+     "Methods, results and limitations"
+    ],
+    [
+     "1tlfesu",
+     "Check scope and requirements"
+    ],
+    [
+     "16v7lkp",
+     "Record actions and locations"
+    ],
+    [
+     "18n7cc7",
+     "The numbers in the materials, the judgments in the paragraphs, and the modifications in the document should correspond one by one."
+    ],
+    [
+     "1gknpx2",
+     "Writing examples, mock review and actual document revision are explained separately."
+    ],
+    [
+     "12o3sko",
+     "Source: University of Göttingen 2026 original writing courseware; course teaching example/simulated review"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "Writing begins with a research question and verifiable material. First formulate a correspondence between claims and evidence, then organize paragraphs, select appropriate journals, and review submission materials. After reviewing the manuscript, respond item by item, retaining the revised positions and unfinished work. There are no real submissions or reviews here, the example is a public data teaching draft.\nUniversity of Göttingen, Lorenz Glißmann, Scientific Writing and Structure Your Work, 2026-01-08\nhttps://hps.vi4io.org/_media/teaching/autumn_term_2025/bam/06-scientific-writing-and-structure-your-work.pdf\nPositioning: PDF pages 4, 8, 9, 16, 19, and 21 have been rendered and viewed page by page; the printed page numbers may be different.\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 146,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "11driyk",
+     "Correspondence between claims and evidence"
+    ],
+    [
+     "192f6x",
+     "The same data can support the mean difference in the complete record, but it is not enough to prove the causal mechanism."
+    ],
+    [
+     "o29449",
+     "Sample range"
+    ],
+    [
+     "z91a61",
+     "344 original records → 152 records for Adelie → 146 complete records, 73 records for males and females."
+    ],
+    [
+     "a8v3js",
+     "Reportable Results"
+    ],
+    [
+     "59o6qr",
+     "In these complete records, the average fin length of males was 4.62 mm longer than that of females."
+    ],
+    [
+     "16xiu2f",
+     "Need more evidence"
+    ],
+    [
+     "gjl38i",
+     "“Sex determines fin length” “applies to all penguins” involves causal or global extrapolation, which cannot be supported by the current analysis."
+    ],
+    [
+     "1h0dzf1",
+     "Secondary teaching analysis of public data is not regarded as new scientific research results."
+    ],
+    [
+     "l5y76d",
+     "Source: palmerpenguins public data and course secondary calculations; course teaching examples/simulated review"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "Use the data in the previous section to correspond one by one: 146 and 73/73 come from filtering, and 4.62mm comes from mean calculation; there is no corresponding design evidence for causality and general extrapolation. Leave evidence gaps in the argument and don't rely on rhetoric to escalate them into findings. The conditions in this figure reflect only the material in this example.\nHorst, Hill & Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: Publicize CSV, CC0 and original data; see writing-packet for data hashing and actual calculation results\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 147,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "1rgg512",
+     "Common essay structure and reader issues"
+    ],
+    [
+     "yvrobd",
+     "The introduction explains the problem, explains the methods, reports the findings, and discusses the explanations and limitations."
+    ],
+    [
+     "19q3a2k",
+     "Introduction Introduction"
+    ],
+    [
+     "1i43uvt",
+     "Why study this issue? What specific questions do existing studies leave?"
+    ],
+    [
+     "7hnx25",
+     "Methods"
+    ],
+    [
+     "1uy56d0",
+     "Where does the data come from? How to screen, measure and analyze?"
+    ],
+    [
+     "ue09gc",
+     "Results"
+    ],
+    [
+     "a637dr",
+     "What do you get from comparison? How do graphs, numbers, and uncertainty correspond?"
+    ],
+    [
+     "1w757lt",
+     "Discussion Discussion"
+    ],
+    [
+     "15zo0de",
+     "How to interpret the results? What conditions limit interpretation and generalization?"
+    ],
+    [
+     "1vuxjxv",
+     "The structure serves the research question, and the target journal and disciplinary conventions determine the specific arrangement."
+    ],
+    [
+     "iy1io5",
+     "Source: University of Göttingen 2026 original writing courseware"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "IMRaD is a common organizational method for empirical research, corresponding to Introduction, Methods, Results, and Discussion. The organization of theoretical papers, method papers and different disciplines will change and need to be adjusted according to the argument and target journal. The Göttingen courseware shows the differences in different computer research directions and cannot forcefully unify the number of chapters.\nUniversity of Göttingen, Lorenz Glißmann, Scientific Writing and Structure Your Work, 2026-01-08\nhttps://hps.vi4io.org/_media/teaching/autumn_term_2025/bam/06-scientific-writing-and-structure-your-work.pdf\nPositioning: PDF pages 4, 8, 9, 16, 19, and 21 have been rendered and viewed page by page; the printed page numbers may be different."
+  },
+  {
+   "page": 148,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "19oiuez",
+     "The internal structure of a result text"
+    ],
+    [
+     "1vl10ft",
+     "First explain the comparison object, then give the numbers and units, and finally complete the conditions required by the reader."
+    ],
+    [
+     "3yetcd",
+     "Course Result Paragraph: Object → Number → Range"
+    ],
+    [
+     "1ukwyog",
+     "Includes 146 complete records of Adelie, 73 records for both sexes. The average fin length of males is 192.41 mm and that of females is 187.79 mm, with a mean difference of 4.62 mm. This difference describes a comparison between groups in this included record, and no causal inference is made."
+    ],
+    [
+     "gpj6bl",
+     "146 items / 73 items per group: corresponding to the inclusion conditions in the method"
+    ],
+    [
+     "1mpusbq",
+     "192.41 / 187.79 / 4.62: Corresponds to calculation records and diagrams"
+    ],
+    [
+     "i2qngm",
+     "\"This inclusion record\": Limit the applicable scope of the description"
+    ],
+    [
+     "1b3kjjw",
+     "The following is the self-edited result paragraph of the course, and the numbers come from actual calculations."
+    ],
+    [
+     "hp3opy",
+     "Source: MIT CommLab, result writing; palmerpenguins public data and course secondary calculations"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ]
+   ],
+   "note": "There are three examples: 146 items included, 73 for males and females respectively; mean and difference; indicating that no causal inference was made in this example. There is an evidence relationship between sentences, rather than a grand concept for each sentence. Use numerical anchors to connect methods to figures. Instructors can compare results and processes with subsequent methods paragraphs.\nMIT Broad Communication Lab, Journal Article: Results\nhttps://mitcommlab.mit.edu/broad/commkit/journal-article-results/\nPositioning: Decide on figures, organized results, claims and evidence\nHorst, Hill & Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: Publicize CSV, CC0 and original data; see writing-packet for data hashing and actual calculation results"
+  },
+  {
+   "page": 149,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "lpaw68",
+     "Results and scope of interpretation in abstract"
+    ],
+    [
+     "11jicqx",
+     "The abstract explains the purpose, methods and main results, and the limitations in the materials are retained with revision."
+    ],
+    [
+     "h6355b",
+     "Chinese explanation script"
+    ],
+    [
+     "1b4dj6o",
+     "This example uses public penguin data to demonstrate the report of comparison between groups. Adelie was screened and 146 records with complete sex and fin length were retained, 73 records for both sexes. The average fin length of males is 192.41 mm and that of females is 187.79 mm, a difference of 4.62 mm. The group was resampled 10,000 times with replacement, and the difference percentile range was 2.68 to 6.58 mm. This interval depends on conditions such as record independence. Missing mechanisms, nest dependencies, and target populations are not verified, and results are limited to inclusion records without causal interpretation."
+    ],
+    [
+     "1ool4df",
+     "The right graph only shows the mean; the significance cannot be judged based on the column height."
+    ],
+    [
+     "12iq2rm",
+     "Chinese explanation draft; English revision and verification are provided with the package. This example has not been submitted for publication and does not advocate new discoveries."
+    ],
+    [
+     "14q80ug",
+     "Source: University of Göttingen 2026 original writing courseware; PLOS One, Language and Abstract entries; course teaching examples/mock review"
+    ],
+    [
+     "80y4by",
+     "05"
+    ],
+    [
+     "c2oubi",
+     "Chart: Average fin length (mm) (barChart):"
+    ],
+    [
+     "15pp7gj",
+     "Categories: Female (73 items), Male (73 items)"
+    ],
+    [
+     "1pwkhkv",
+     "Average fin length: female (73 fins)=187.79452054800001, male (73 fins)=192.41095890400001"
+    ]
+   ],
+   "note": "The Chinese abstract on this page corresponds to the English teaching revision of style-packet/abstract-en.txt. The left side retains the inclusion range, group means, differences, resampling, and conditional intervals; the native mean plot on the right only helps with readings and does not show distribution, error bars, or significance. The English revision is based on some requirements of PLOS One Language and Abstract entries: English, no more than 300 words, no citations, avoid abbreviations as much as possible, explain the purpose, summarize the method, main results and significance. There is no fictitious use of teaching as a contribution to scientific research. Full assignment and sentence-by-sentence sources in style-packet; no journal review or submission required. Other reporting specifications in the full text have not yet been checked item by item. This round refers to the abstract, over-inference and concise language organization on pages 8, 19 and 21 of the original Göttingen courseware.\nUniversity of Göttingen, Lorenz Glißmann, Scientific Writing and Structure Your Work, 2026-01-08\nhttps://hps.vi4io.org/_media/teaching/autumn_term_2025/bam/06-scientific-writing-and-structure-your-work.pdf\nPositioning: PDF pages 4, 8, 9, 16, 19, and 21 have been rendered and viewed page by page; the printed page numbers may be different.\nPLOS One Submission Guidelines: Language and Abstract\nhttps://journals.plos.org/plosone/s/submission-guidelines#loc-abstract\nPositioning: Read the official Language and Abstract on 2026-10-19: English, the abstract should not exceed 300 words, do not include citations, try to avoid abbreviations, and explain the purpose, methods, main results and significance. Check only the entries involved in the example.\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 150,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "1upuit8",
+     "Existing research and specific issues in the introduction"
+    ],
+    [
+     "1mid79i",
+     "The introduction needs to explain the research background and current issues, and use the literature you have read to limit what you really want to answer."
+    ],
+    [
+     "14oa9n3",
+     "Field background"
+    ],
+    [
+     "1esptgx",
+     "Sex and morphological differences are an issue in penguin ecological research."
+    ],
+    [
+     "134dl4y",
+     "Already studied"
+    ],
+    [
+     "7gql6u",
+     "Gorman et al. (2014) studied sexual morphological differences in Antarctic penguin colonies."
+    ],
+    [
+     "1c4laub",
+     "Current Issues"
+    ],
+    [
+     "1fxsbb1",
+     "The complete record of Adelie in this public data. What is the difference in the length of male and female fins?"
+    ],
+    [
+     "yj4eqf",
+     "The goal of this example"
+    ],
+    [
+     "1br6l1s",
+     "Demonstrate descriptive comparison and thesis expression, but do not claim research gaps based on this."
+    ],
+    [
+     "1r2qtqi",
+     "This example demonstrates the organization of the introduction without packaging double counting into research gaps."
+    ],
+    [
+     "1ioklbl",
+     "Source: MIT CommLab, introduction writing; Gorman et al., 2014, original research; course teaching example/simulated review"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ]
+   ],
+   "note": "Figures are organized by field background, existing research, current issues, and research goals. Gorman2014 is an original study of public data; this example does not have novelty retrieval or new sampling, so it only raises teaching analysis questions and does not claim to fill gaps. Formal research needs to clearly differentiate from existing work and provide evidence.\nMIT Broad Communication Lab, Journal Article: Introduction\nhttps://mitcommlab.mit.edu/broad/commkit/journal-article-introduction/\nPositioning: Structure/Background/Question and other guidance\nGorman KB, Williams TD, Fraser WR. Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis). PLOS ONE. 2014;9(3):e90081.\nhttps://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081\nPositioning: title, author, abstract, method; the secondary calculation in this example does not pretend to be the original text result\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 151,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "wypkns",
+     "Reviewable information in methods paragraphs"
+    ],
+    [
+     "ucqgtl",
+     "Data sources, inclusion conditions, processing rules and analysis parameters need to be consistent with actual implementation."
+    ],
+    [
+     "b7rn6r",
+     "Original public list 344 items"
+    ],
+    [
+     "1oni1dq",
+     "Adelie 152 items"
+    ],
+    [
+     "1uex9pi",
+     "Complete records 146 items"
+    ],
+    [
+     "38tc8v",
+     "Limited research objects"
+    ],
+    [
+     "70fwrt",
+     "Exclude 6 missing items without interpolation"
+    ],
+    [
+     "b03c0q",
+     "Method paragraph excerpt [M1]"
+    ],
+    [
+     "1gwyyx3",
+     "Data comes from palmerpenguins public simplified table. After filtering Adelie records, a total of 146 observations with complete sex and fin length were retained; 73 males and 73 males respectively. Six records were excluded, and missing values ​​were not imputed."
+    ],
+    [
+     "10t88jh",
+     "See also [M2] for complete analysis parameters: male subtraction, group resampling 10,000 times, seed and quantile methods."
+    ],
+    [
+     "elknf9",
+     "The actual filtering records and calculation output support the method description on this page, and no new experiments are added."
+    ],
+    [
+     "5phedd",
+     "Source: Course teaching examples/simulated review; palmerpenguins public data and course secondary calculations"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ]
+   ],
+   "note": "M1 records original 344, Adelie152, required columns complete 146, excluded 6 and not interpolated. M2 writing direction male minus female, grouping with replacement 10000 times, seed 20261018 and linear quantile. Unperformed methods, instruments and experiments will not be included in the completed description. The page only retains the core of the method section, and the complete parameters are in the teaching manuscript.\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet\nHorst, Hill & Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: Publicize CSV, CC0 and original data; see writing-packet for data hashing and actual calculation results"
+  },
+  {
+   "page": 152,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "5wezvd",
+     "Correspondence between figures and result paragraphs"
+    ],
+    [
+     "qp71u6",
+     "The text summarizes the findings that can be supported by the diagram and gives the objects, directions, units and necessary numbers."
+    ],
+    [
+     "tvsrlb",
+     "Result Paragraph [R1]"
+    ],
+    [
+     "1pisyk6",
+     "The average fin length of males is 4.62 mm longer than that of females. The distributions of the two groups overlap."
+    ],
+    [
+     "1t451qw",
+     "Mean difference and individual differences are two levels: the fin length of an individual cannot be inferred based on gender alone."
+    ],
+    [
+     "o9ryb",
+     "The figures and text come from the same 146 records, and the overlap between groups does not affect the truthful reporting of mean differences."
+    ],
+    [
+     "hp3opy",
+     "Source: MIT CommLab, result writing; palmerpenguins public data and course secondary calculations"
+    ],
+    [
+     "76zb91",
+     "08"
+    ],
+    [
+     "kcttf0",
+     "Chart: Adelie fin length distribution: millimeters on the horizontal axis, number of records on the vertical axis (barChart):"
+    ],
+    [
+     "1y6a6ss",
+     "Categories: 170–175, 175–180, 180–185, 185–190, 190–195, 195–200, 200–205, 205–210, 210–215"
+    ],
+    [
+     "u1yibh",
+     "Female (73): 170–175=2, 175–180=3, 180–185=11, 185–190=27, 190–195=21, 195–200=8, 200–205=1, 205–210=0, 210–215=0"
+    ],
+    [
+     "4vmzdr",
+     "Male (73 items): 170–175=0, 175–180=1, 180–185=10, 185–190=8, 190–195=24, 195–200=22, 200–205=5, 205–210=2, 210–215=1"
+    ]
+   ],
+   "note": "The frequency of 5mm binning of the same 146 complete records. The main text describes the mean difference of 4.62mm and points out that the distribution overlaps, and the two sets of records are not regarded as the same individual before and after testing. P values ​​were not reported, and significance was not judged graphically. Complete statistics are obtained from the actual calculations in Section 7 and a copy of the evidence is retained with this section.\nMIT Broad Communication Lab, Journal Article: Results\nhttps://mitcommlab.mit.edu/broad/commkit/journal-article-results/\nPositioning: Decide on figures, organized results, claims and evidence\nHorst, Hill & Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: Publicize CSV, CC0 and original data; see writing-packet for data hashing and actual calculation results"
+  },
+  {
+   "page": 153,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "kije0g",
+     "Explanations and alternative explanations under discussion"
+    ],
+    [
+     "1w0ia5l",
+     "Discuss the results and put them back into the research question, while explaining explanations that cannot be ruled out by the data and design."
+    ],
+    [
+     "navuhi",
+     "Mean difference in complete record"
+    ],
+    [
+     "x2e1jw",
+     "Male − Female = 4.62 mm"
+    ],
+    [
+     "km50qn",
+     "Data composition"
+    ],
+    [
+     "1emw1ej",
+     "Do the year, island, and absence affect the differences seen?"
+    ],
+    [
+     "hdl2ft",
+     "Observation dependence"
+    ],
+    [
+     "1v8d0ir",
+     "Do within-nest or year correlations affect uncertainty?"
+    ],
+    [
+     "w7m133",
+     "Explanation scope"
+    ],
+    [
+     "781cli",
+     "Without an experimental design, the causal mechanism cannot currently be confirmed."
+    ],
+    [
+     "1tumzv4",
+     "Distinguish between current observations, conditional explanations, and work yet to be verified."
+    ],
+    [
+     "798qhz",
+     "Source: MIT CommLab, discussion writing; course teaching example/simulated review"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "Starting from the complete record of mean differences, year and island composition, missing mechanisms, within-nest dependence and overall definitions are examined. The current data do not support mechanistic conclusions. Proposing future sampling and model checking are suggestions for next steps and cannot be written as completed verification. The branches in the diagram are only explanatory paths, not an empirical causal diagram.\nMIT Broad Communication Lab, Journal Article: Discussion\nhttps://mitcommlab.mit.edu/broad/commkit/journal-article-discussion/\nPositioning: interpretation, context, limitations\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 154,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "1as0kl0",
+     "Evidence boundaries in Humanizer modification"
+    ],
+    [
+     "u24eub",
+     "When deleting general judgments, add the existing specific information; conclusions that lack basis are returned to the scope of the material."
+    ],
+    [
+     "wjjpv4",
+     "Original manuscript: Teaching simulation with deliberately set problems"
+    ],
+    [
+     "1j7o9tf",
+     "The fin length of males is significantly longer than that of females, proving that sex determines fin length. The results have wide promotion value."
+    ],
+    [
+     "47fdag",
+     "Revision: Keep figures, retract unsupported judgments"
+    ],
+    [
+     "64elts",
+     "Among the 146 complete records of Adelie, the average fin length of males is 4.62 mm longer than that of females. This comparison describes differences between groups in the included records and cannot be used to determine cause and effect."
+    ],
+    [
+     "2o3hvi",
+     "The original text in red is a teaching simulation with deliberately set problems and cannot be quoted as a research conclusion."
+    ],
+    [
+     "12o3sko",
+     "Source: University of Göttingen 2026 original writing courseware; course teaching example/simulated review"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "The original paragraph deliberately set up issues such as significant superiority, proof of decision and promotion value, and clearly did not serve as facts. After the revision, the difference between the object and the mean is retained, and untested significance, value ranking, and causal statements are deleted. Humanizer does not alter the real numbers and does not aim to avoid detection.\nUniversity of Göttingen, Lorenz Glißmann, Scientific Writing and Structure Your Work, 2026-01-08\nhttps://hps.vi4io.org/_media/teaching/autumn_term_2025/bam/06-scientific-writing-and-structure-your-work.pdf\nPositioning: PDF pages 4, 8, 9, 16, 19, and 21 have been rendered and viewed page by page; the printed page numbers may be different.\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 155,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "2p10wl",
+     "The citation exists and the claim is supported"
+    ],
+    [
+     "bcme1v",
+     "When checking references, you must not only confirm that the document actually exists, but also read the original text to determine which sentence it supports."
+    ],
+    [
+     "zr5juq",
+     "Confirm document identity"
+    ],
+    [
+     "1r2tpc6",
+     "Read the original text"
+    ],
+    [
+     "1k7crd9",
+     "Determine the support range"
+    ],
+    [
+     "sdb3n6",
+     "Check the author, title, year, and DOI with each other"
+    ],
+    [
+     "cuiypo",
+     "Go back to the methods, results and discussion to find the specific basis"
+    ],
+    [
+     "12e2hxq",
+     "Quote the corresponding sentence; do not attribute your own calculations to the original text"
+    ],
+    [
+     "1cdi7kx",
+     "Authentic original text: Gorman, Williams, and Fraser, 2014, PLOS ONE 9(3): e90081."
+    ],
+    [
+     "t8othg",
+     "4.62 mm in this lesson is a secondary calculation. It should not read \"The original study reported 4.62 mm\"."
+    ],
+    [
+     "hzcun9",
+     "Example DOI: 10.1371/journal.pone.0090081; Course calculations are from another source."
+    ],
+    [
+     "1cs3xfh",
+     "Source: Gorman et al., 2014, original research; course teaching example / mock review"
+    ],
+    [
+     "80uytz",
+     "11"
+    ]
+   ],
+   "note": "Taking the Gorman2014 real paper as an example, the title, author and DOI can confirm the identity; to support specific sentences about sampling, objects and conclusions, it is necessary to return to the corresponding positions of the abstract, methods and results. The 4.62mm in the secondary analysis of the current course comes from my own calculations and is not attributed to the original text. The DOI returned by the model cannot be directly used as verification.\nGorman KB, Williams TD, Fraser WR. Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis). PLOS ONE. 2014;9(3):e90081.\nhttps://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081\nPositioning: title, author, abstract, method; the secondary calculation in this example does not pretend to be the original text result\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 156,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "6upocq",
+     "Input and output of AI segmented collaboration"
+    ],
+    [
+     "9ep88n",
+     "Provide factual materials and writing tasks to AI, and require the return of missing information, basis for use, and reasons for modification."
+    ],
+    [
+     "5do65j",
+     "Research facts and information"
+    ],
+    [
+     "13y2enx",
+     "Segmented writing tasks"
+    ],
+    [
+     "tfs6kx",
+     "Draft and basis location"
+    ],
+    [
+     "1oyflbe",
+     "Review and revision"
+    ],
+    [
+     "963b07",
+     "Methods, results and limitations"
+    ],
+    [
+     "1ox8vb4",
+     "Clear what the paragraph is going to answer"
+    ],
+    [
+     "1i344rm",
+     "Unknown content is listed separately"
+    ],
+    [
+     "115ut9o",
+     "Compare original materials sentence by sentence"
+    ],
+    [
+     "14qo5yx",
+     "Example of writing task: record methods and results based only on incidental calculations. Preserve numbers, units and conditions;"
+    ],
+    [
+     "14i5lo4",
+     "Unknown matters are listed; indicate the location of the material in each paragraph, and return the reason for modification."
+    ],
+    [
+     "1hvbe4l",
+     "Keep records of tool usage and verification; disclosure requirements for AI use are checked against the target journal."
+    ],
+    [
+     "1vxo77l",
+     "Source: Course teaching example/simulated review; ICMJE, author’s instructions for using AI"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ]
+   ],
+   "note": "Tip example: Write methods and results only based on the attached CSV calculation record and research description; retain numbers, units, and conditions, and list unknown information; mark the location of the materials used in each paragraph, and do not re-create experiments, literature, or significance. Harness takes over the material version, execution records and checking rules, and the researcher still makes the judgment in the writing task. This page is a method framework and does not pretend to be a cloud execution screenshot.\nICMJE medical journals recommend that AI cannot be named as an author, and that authors bear responsibility for accuracy and disclose the use of AI as required. This recommendation should not be taken as uniform across all disciplines. Record the real tool name and version, date, tasks, input and output, and manual verification; do not fill in the version number that was not originally saved. Language revision does not eliminate the disclosure requirement.\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet\nICMJE, Use of AI by Authors\nhttps://icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html\nPositioning: Verification on 2026-10-18; medical journal recommendations, specific adoption shall be subject to the regulations of the target journal"
+  },
+  {
+   "page": 157,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "os2she",
+     "An example of a task to rewrite an abstract according to journal requirements"
+    ],
+    [
+     "1lbed2v",
+     "Write the official terms into specific tasks, and check the format, numbers, and conclusions after revision."
+    ],
+    [
+     "1jjx6yf",
+     "Complete rewrite mission"
+    ],
+    [
+     "1b3qdwk",
+     "Please follow the attached PLOS One author’s requirements and rewrite [A1] into an abstract of no more than 300 English words, without citations, and try to avoid abbreviations. Describe the purpose of this teaching example, the disclosed data and screening methods, the main results, and their scope of interpretation. 146 items, 73 items in each group, the mean of the two groups, the difference of 4.62 mm, 10,000 resamplings and the range of 2.68 to 6.58 mm were retained. Clarify the independence assumptions and unverified conditions of the interval, and do not add new findings, P values, sampling or causal conclusions. Also submit the Chinese explanation, sentence-by-sentence factual basis, word count and unmet requirements; the wording should be concise and do not describe language modification as meeting publication standards."
+    ],
+    [
+     "tedqcr",
+     "Journal Terms"
+    ],
+    [
+     "1f3t4eq",
+     "Original abstract and calculation record"
+    ],
+    [
+     "mkrkct",
+     "Revision and item-by-item verification"
+    ],
+    [
+     "1gkd1fj",
+     "Language and Format"
+    ],
+    [
+     "nzov3s",
+     "Facts, units and scope"
+    ],
+    [
+     "jimfwe",
+     "≤300 English words, not equal to 300 Chinese characters."
+    ],
+    [
+     "1xihx41",
+     "Only the presentation abstract is rewritten; research contribution, full-text reporting specifications and eligibility for submission still need to be reviewed separately."
+    ],
+    [
+     "c1pkld",
+     "Source: PLOS One, Language and Abstract entries; PLOS One, publication standards; course teaching examples/mock review"
+    ],
+    [
+     "8ku67x",
+     "13"
+    ]
+   ],
+   "note": "On the left are Chinese tasks that can be used directly. The actual revision, original summary, sentence-by-sentence factual basis and difference files are all located in the style-packet. The instructor first opens the official Language and Abstract entries, and then reads which parts of the task come from the journal and which parts come from this example material. 300 English words is the upper limit, you don’t have to make up the limit; it cannot be changed to 300 Chinese characters. Process description on the right: The official format requirements and the original abstract facts govern the revision. After output, check the number of English words, citations, retained numbers and limitations. The case includes the actual revision of this round of Codex, but there are no screenshots of external journals or model service operations. The journal selection must also determine the scope, research contribution, article type and data reporting requirements; this teaching review manuscript has not been judged on its eligibility for submission.\nPLOS One Submission Guidelines: Language and Abstract\nhttps://journals.plos.org/plosone/s/submission-guidelines#loc-abstract\nPositioning: Read the official Language and Abstract on 2026-10-19: English, the abstract should not exceed 300 words, do not include citations, try to avoid abbreviations, and explain the purpose, methods, main results and significance. Check only the entries involved in the example.\nPLOS One, Criteria for Publication\nhttps://journals.plos.org/plosone/s/criteria-for-publication\nPositioning: 2026-10-18 Verification: original research, supported conclusions, reporting\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 158,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "s1p2lm",
+     "Consistency of information in submitted documents"
+    ],
+    [
+     "1v901ez",
+     "Check the same numbers and research scope item by item before submission, and author information and statements should be confirmed by the author."
+    ],
+    [
+     "1lsr5ct",
+     "Main manuscript and figures"
+    ],
+    [
+     "x5i149",
+     "146; male minus female 4.62 mm"
+    ],
+    [
+     "ak6rmo",
+     "Limited to Adelie 152 pieces"
+    ],
+    [
+     "pqttf4",
+     "Exclude 6 missing items and do not impute"
+    ],
+    [
+     "w0lbf4",
+     "Cover letter and system fields"
+    ],
+    [
+     "d46465",
+     "Authors, contributions and statements to be confirmed"
+    ],
+    [
+     "fvviwc",
+     "The same numbers are compared item by item, and the unknown statement is left to be confirmed by the author."
+    ],
+    [
+     "vsf2nm",
+     "Official request as a case; the specific document list is checked against the target journal."
+    ],
+    [
+     "8sphb3",
+     "Source: PLOS One, submission guidelines; course teaching examples/simulated review"
+    ],
+    [
+     "6mwyd4",
+     "14"
+    ]
+   ],
+   "note": "Check with the PLOS One official guide documentation. The main manuscript, charts and calculation records in this example all correspond to 146 complete records, male minus female 4.62 mm; the data source contains 344 records, Adelie 152, and 6 missing records are excluded. The numbers on this page are actual materials for this example. Author contributions, ethics and consent are not filled in, and there are no real contributions. Formal materials should also check the target journal’s specific requirements for figures, data, statements, and cover letters.\nPLOS One, Submission Guidelines\nhttps://journals.plos.org/plosone/s/submission-guidelines\nPositioning: 2026-10-18 Check Manuscript Organization, Cover letter, Abstract; specific journal examples\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 159,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "vswhe7",
+     "Editorial screening and external review"
+    ],
+    [
+     "u72y3d",
+     "The journal first checks the materials and suitability before deciding whether to invite external reviewers. The final decision is made by the editor."
+    ],
+    [
+     "exyidz",
+     "Initial inspection of materials"
+    ],
+    [
+     "xtoiqk",
+     "Editorial Evaluation"
+    ],
+    [
+     "j0wv7g",
+     "External review"
+    ],
+    [
+     "finh4x",
+     "Editorial decision"
+    ],
+    [
+     "50rn6t",
+     "Documentation and Statement Integrity"
+    ],
+    [
+     "d41lnf",
+     "Scope, Standards and Adaptation"
+    ],
+    [
+     "1yuf4g",
+     "Methods, evidence and explanations"
+    ],
+    [
+     "18jfcqi",
+     "Author’s revision and item-by-item reply"
+    ],
+    [
+     "n892ju",
+     "The editor may decide to accept, revise or reject the manuscript."
+    ],
+    [
+     "1gglz5q",
+     "Resubmit after revision, the editor will continue to evaluate;"
+    ],
+    [
+     "1qnsu09",
+     "The specific links are stipulated by the target journal."
+    ],
+    [
+     "igf8p7",
+     "This page is a paraphrase of the official process and does not have actual manuscript status or execution screenshots."
+    ],
+    [
+     "lgytba",
+     "Source: PLOS One, Editorial and Peer Review Process"
+    ],
+    [
+     "6wwk23",
+     "15"
+    ]
+   ],
+   "note": "According to the PLOS One official website, the initial review, editorial evaluation, external review, editorial decision and revision are reported. Submission for review does not mean acceptance; review comments are an important input to the editor's judgment, and the decision is made by the editor. The stages of different journals are named differently, and the same state machine is not copied for all journals.\nPLOS One, Editorial and Peer Review Process\nhttps://journals.plos.org/plosone/s/editorial-and-peer-review-process\nPositioning: Initial Checks, Editorial Review, Decisions, Revisions, Appeals, verified on 2026-10-18"
+  },
+  {
+   "page": 160,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "1vq8nr7",
+     "Classification and modification actions of review comments"
+    ],
+    [
+     "wuaf9d",
+     "First determine whether the opinion requires additional explanation, re-analysis, new research or scope of discussion, and then arrange a response."
+    ],
+    [
+     "1bd1tj2",
+     "R1.1: Missing method details"
+    ],
+    [
+     "1on80xo",
+     "Complement data sources, filtering and missing processing → Modified [M1]."
+    ],
+    [
+     "1leeuf2",
+     "R1.2: Causal conclusion is too strong"
+    ],
+    [
+     "15asic9",
+     "Withdraw the causal and mechanism expressions and explain the scope → Modified [R1][D1]."
+    ],
+    [
+     "oftqou",
+     "R2.1: Requires independent sampling"
+    ],
+    [
+     "pevkxh",
+     "New research is required → This round is not completed, please explain the restrictions in [L1]."
+    ],
+    [
+     "13gmetn",
+     "Teaching simulation review comments, actual document changes can be checked, and no new research has occurred."
+    ],
+    [
+     "1ptuxbg",
+     "Source: Course Teaching Example/Mock Review"
+    ],
+    [
+     "76w5r2",
+     "16"
+    ]
+   ],
+   "note": "The materials corresponding to the three simulated opinions have been completed, the expressions have been modified, and the new samples have not been completed. Break down opinions into actionable actions and set up evidence locations. Not everything can be completed by rewriting; when new research is needed, keep it as it is, and don't talk about future plans as complete.\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  }
+ ]
+}
