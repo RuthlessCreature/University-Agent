@@ -1,0 +1,23 @@
+name: Build XZ Translation Transfer
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_xz_transfer.py'
+permissions:
+  contents: write
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/build_xz_transfer.py
+      - run: |
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add training/localization/en/bundle_xz
+          if ! git diff --cached --quiet; then
+            git commit -m 'build: package xz compressed English localization'
+            git push
+          fi
