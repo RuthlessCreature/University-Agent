@@ -1,0 +1,1309 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  201,
+  220
+ ],
+ "items": [
+  {
+   "page": 201,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "1h436dw",
+     "Technical effects correspond to evidence"
+    ],
+    [
+     "1nx9c1p",
+     "The effect statement should be supported by corresponding structure, comparison conditions and original records."
+    ],
+    [
+     "1p8fkoy",
+     "Program features"
+    ],
+    [
+     "1wdxw6h",
+     "What specific components or steps do data validity checks, exception records and control requests correspond to?"
+    ],
+    [
+     "mqzglw",
+     "Compare and measure"
+    ],
+    [
+     "5m0l7w",
+     "What plan should be compared, what false positives, omissions, and processing delays should be recorded, and what original data should be retained?"
+    ],
+    [
+     "c6rjk",
+     "Current status"
+    ],
+    [
+     "35h38n",
+     "There is no prototype or bench test, and the accuracy, response time or improvement ratio is not filled in."
+    ],
+    [
+     "11y0rrf",
+     "This example has no performance results, and does not fill in accuracy, response time or improvement percentage."
+    ],
+    [
+     "f6cjy6",
+     "Source: Teaching hypothesis plan, not implemented"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "List the evidence dimensions that should be discussed such as sensing fault identification, false positives and false negatives, and processing delays, all to be provided. No actual bench experiments were designed or performed. Do not write expected improvements as proven performance, nor attribute test results from other patents to this example. Humanizer can change \"significant improvement\" to the specific problem to be checked, and cannot make up numbers.\nSelf-compiled centrifuge monitoring and communication teaching materials for the course\nlocal:training/section-11/patent-packet/patent.json\nPositioning: plan, questioning, implementation details and gaps; not the applicant’s invention"
+  },
+  {
+   "page": 202,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "hk0udm",
+     "Citation relationship and graphic and text support of claims"
+    ],
+    [
+     "75escu",
+     "Dependent claims retain the conditions of the cited items and add restrictions; they must be checked together when reading."
+    ],
+    [
+     "tc6bat",
+     "Claim 1"
+    ],
+    [
+     "1cesnek",
+     "Multiple degrees of freedom data"
+    ],
+    [
+     "1mvhj5h",
+     "Recognize vibration patterns"
+    ],
+    [
+     "ss73wv",
+     "Claim 3"
+    ],
+    [
+     "151436r",
+     "Refer to the previous item and add the training model"
+    ],
+    [
+     "ry8aty",
+     "Claim 4"
+    ],
+    [
+     "3h9zmm",
+     "Quote 3, plus feature representation"
+    ],
+    [
+     "1eyjdjj",
+     "The picture only draws the path from right 3 to right 1. Quan 3 can also refer to Quan 2, but not all combinations are shown in this picture."
+    ],
+    [
+     "1wshdcc",
+     "Claim 11"
+    ],
+    [
+     "1a4fhpa",
+     "Cite any of the above items and add stop by running status."
+    ],
+    [
+     "1tihbbi",
+     "The conditions for each reference combination should be read separately."
+    ],
+    [
+     "1bi06x2",
+     "The proposed features should find support in the description and drawings; no formal claims were drafted in this example."
+    ],
+    [
+     "19x6t9p",
+     "Excerpts of citation relationships from real EP documents; not all combinations are drawn, and no conclusion on the scope of protection or patentability is made."
+    ],
+    [
+     "18qedd3",
+     "Source: EP4636367A1, EPO published original text; Patent Law Articles 2, 6, 22, 24, 26, 64; WIPO 2025 original PPT"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "This page demonstrates the selected reference chain using real claims 1, 3, and 4 of EP4636367A1. The original text of Quan 3 quotes any preceding claim, that is, 1 or 2; this picture only shows the path that refers to 1, not 2. Right 4 explicitly quotes 3 and adds characteristics. Right 11 refers to any of the above, that is, 1 to 10; the text under the picture only explains that it adds a stop action, and does not draw it as having to rely on 4. The picture is a Chinese reading excerpt of the public text, not the draft claims of this teaching plan. All proposed features still need to be realized in the description and drawings; no formal claims were drafted in this example.\nEP4636367A1, Vibration detection in a laboratory instrument, public date 2025-10-22\nhttps://data.epo.org/publication-server/rest/v1.2/publication-dates/2025-10-22/patents/EP4636367NWA1/document.pdf\nPositioning: metadata on page 1 of PDF, claims 1, 3, 4, 11 on pages 14 to 15, Figure 2 on page 17, description [0035]; the drawings are for public technical reading only\nPatent Law of the People's Republic of China (revised in 2020), original text from the State Intellectual Property Office\nhttps://www.cnipa.gov.cn/art/2020/11/23/art_97_155167.html\nPositioning: 2026-10-18 Verification of relevant provisions, no legal judgment on specific plans\nWIPO, PCT Seminar Presentation, Updated Compilation March 2025\nhttps://www.wipo.int/pct/en/docs/pct-seminar.pdf\nPositioning: PDF physical pages 16, 24, 94, 96 have been viewed; 24 manual organization, 94 search scope records, 96 opinions are not final authorized distinctions, and foreign procedures are not copied."
+  },
+  {
+   "page": 203,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "19c4pcs",
+     "Patent Agent’s actual material flow"
+    ],
+    [
+     "1myfzh1",
+     "Open the original text reading, teaching material compilation and local document execution and keep separate certificates, and the disclosure document keeps outstanding issues."
+    ],
+    [
+     "bxxjho",
+     "Public information search"
+    ],
+    [
+     "12nq705",
+     "Technical comparison and questioning"
+    ],
+    [
+     "1uu18qo",
+     "File structure check"
+    ],
+    [
+     "prdiy1",
+     "Word and Question List"
+    ],
+    [
+     "10nn1pe",
+     "Codex for this round"
+    ],
+    [
+     "ijjh2z",
+     "Actually read the original text"
+    ],
+    [
+     "1ym9jy4",
+     "Course Writing Comparison and Ideas"
+    ],
+    [
+     "1qw0sj3",
+     "Read written input locally"
+    ],
+    [
+     "1rxq32z",
+     "Attached flow chart"
+    ],
+    [
+     "1hwuh4k",
+     "Keep source and version"
+    ],
+    [
+     "1umyia7",
+     "Actual results: The draft of Word teaching has been written, but the technical facts are still to be added and checked by the researcher."
+    ],
+    [
+     "rign42",
+     "The local filling script did not call the external model, and did not complete the search, patentability or infringement judgment."
+    ],
+    [
+     "s1x4iu",
+     "The public search and document execution are separately certified; Word is still a teaching draft, which does not mean that the novelty search or legal review has been completed."
+    ],
+    [
+     "1saddny",
+     "Source: actual file execution record, no model call; teaching hypothesis plan, not implemented"
+    ],
+    [
+     "80uytz",
+     "11"
+    ]
+   ],
+   "note": "This round of Codex re-read the specified terms of two existing public patents and the specific pages of WIPO courseware, and did not pretend to have conducted a new comprehensive search. Rerun the script locally, read the written JSON and self-written Word template, check the structure, fill in the ready-made text and attach the source flow chart, and save the source, questions, diagrams and Word hash. There is no external model call or patentability review, and the Skill description with the same name is not an independent process.\nSection11 Actual local file execution record\nlocal:training/section-11/execution-evidence.json\nPositioning: run_demo.py, source ledger, question list, Word and hash; the script only does structure checking and filling\nSelf-compiled centrifuge monitoring and communication teaching materials for the course\nlocal:training/section-11/patent-packet/patent.json\nPositioning: plan, questioning, implementation details and gaps; not the applicant’s invention"
+  },
+  {
+   "page": 204,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "1m6ptkx",
+     "Verification of materials and ownership before disclosure"
+    ],
+    [
+     "ytoi1p",
+     "The arrangement of papers, reports, presentations and applications needs to be checked in conjunction with unit processes, contributions and previous public records."
+    ],
+    [
+     "5adm6d",
+     "Technical facts and complete details"
+    ],
+    [
+     "1eywvay",
+     "Contributions, Contracts and Public Records"
+    ],
+    [
+     "f3px45",
+     "The unit achievement transformation department checks with professionals"
+    ],
+    [
+     "15iydc0",
+     "Check application arrangements before making them public. Statutory exceptions have applicable conditions and cannot be treated as a general grace period."
+    ],
+    [
+     "3scz22",
+     "No application has been submitted or the true undisclosed invention has been disclosed in this section; the next section is project execution and conclusion."
+    ],
+    [
+     "1r0ic44",
+     "Source: Patent Law Articles 2, 6, 22, 24, 26, 64; teaching hypothesis plan, not implemented"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ]
+   ],
+   "note": "Article 6 of the Patent Law relates to service inventions, Article 22 relates to prior art, and Article 24 is applicable with conditions. Not all disclosures have a general grace period of six months. Classroom does not make case ownership or deadline recommendations. The actual invention materials are first sorted out within the scope of authorization, and real contributions, contracts and disclosure timelines are provided to the unit's achievement transformation department and professionals. The next section is project execution and conclusion.\nPatent Law of the People's Republic of China (revised in 2020), original text from the State Intellectual Property Office\nhttps://www.cnipa.gov.cn/art/2020/11/23/art_97_155167.html\nPositioning: 2026-10-18 Verification of relevant provisions, no legal judgment on specific plans\nSelf-compiled centrifuge monitoring and communication teaching materials for the course\nlocal:training/section-11/patent-packet/patent.json\nPositioning: plan, questioning, implementation details and gaps; not the applicant’s invention"
+  },
+  {
+   "page": 205,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "bexjp6",
+     "Project execution and conclusion"
+    ],
+    [
+     "na7fgo",
+     "Every requirement set forth in the mission statement should be accompanied by process records, actual results, and locatable supporting materials."
+    ],
+    [
+     "7k8d4r",
+     "Task and Completion Criteria"
+    ],
+    [
+     "tj4p1e",
+     "Process records and changes"
+    ],
+    [
+     "njnpgh",
+     "Achievements and supporting materials"
+    ],
+    [
+     "gidy2a",
+     "Closing materials and archiving"
+    ],
+    [
+     "qvlecy",
+     "With mission statement"
+    ],
+    [
+     "19d30nr",
+     "and the approved version shall prevail"
+    ],
+    [
+     "d8fr5p",
+     "Data and Methods"
+    ],
+    [
+     "ia8oma",
+     "Deviation and processing"
+    ],
+    [
+     "c5lfbo",
+     "Position item by item, leaving gaps"
+    ],
+    [
+     "k8woub",
+     "Responsible person and unit"
+    ],
+    [
+     "1rk3owx",
+     "Check according to regulations"
+    ],
+    [
+     "1fpngjb",
+     "Case in this section: Wherever the public data can be recalculated, the closing materials will be written accordingly."
+    ],
+    [
+     "1kt5bsr",
+     "Throughout the case: Penguin public data review. The task book is self-written for teaching, and the data and calculations are documented separately."
+    ],
+    [
+     "egfpc2",
+     "Source: HaDEA 2025 original courseware pp.97–98/102/104; self-edited teaching assignment, non-funded assignment; palmerpenguins public data, course secondary calculation"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "Think of the conclusion as a step-by-step explanation of the original work. First locate the actual mission statement adopted by the project, approved changes and current filing requirements, and then check the process and results. Throughout the case, the three material verification requirements are demonstrated using Penguin public data, which cannot be said to be a National Natural Science Foundation project, a priori registration research, or field collection for this course. Material verification, scientific explanation and formal acceptance are recorded separately.\nHaDEA, REPA Reporting and Payment Webinar, 26 March 2025\nhttps://hadea.ec.europa.eu/document/download/1e773e0c-f2ab-44db-9f80-c7a02cc75bb4_en?filename=REPA+-+Webinar+-+March+2025.pdf\nPositioning: PDF physical pages 75, 97, 98, 102, and 104 have been viewed page by page; continuous recording, material division, and report summary are used, and do not copy the CEF system or screenshots as the Chinese system\nSelf-compiled material verification task sheet for this section\nlocal:training/section-12/closeout-packet/input/taskbook.json\nPositioning: M1 source and screening, M2 group mean, M3 individual and sampling data; demonstration with ready-made data, not a pre-registered research target\nHorst, Hill and Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; simplify CSV344 items. input/source.json retains original download URL, CC0 license and hash"
+  },
+  {
+   "page": 206,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "1v4rcwm",
+     "Borders of use of natural problem solving materials in China"
+    ],
+    [
+     "tfq7f3",
+     "The 2026 Notice requires factual reporting, and project progress and completion reports directly generated by generative AI are not allowed."
+    ],
+    [
+     "1hevk3w",
+     "Factual basis for the report"
+    ],
+    [
+     "1fzjok9",
+     "The person in charge will check the relationship between the data, results and the project, and organize the text and attachments as required."
+    ],
+    [
+     "19b3g6w",
+     "Conditions for achievement inclusion"
+    ],
+    [
+     "hm9leq",
+     "Check publication status, project participants, time, funding annotation and project relevance."
+    ],
+    [
+     "dly1os",
+     "AI-assisted range"
+    ],
+    [
+     "hjriy2",
+     "Locate data, recalculate numbers, and check for missing items. The formal report is written by the person in charge based on authentic materials."
+    ],
+    [
+     "1h9m78",
+     "The Word in this section is a teaching example for material verification and will not be submitted as the official final report of the National Natural Science Foundation of China."
+    ],
+    [
+     "o11jpn",
+     "Source: NSFC 2026 Notice, Parts 2 and 5"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "Adopt Notices 2(1) and 5(2) of January 14, 2026. The person in charge must ensure that the content is authentic, the data is accurate, and attention is paid to intellectual property rights; formal reports cannot directly copy the paper. The results need to be checked in relation to the project, participants, time, publication and funding annotations, and avoid listing unofficial or online papers as results. Application, progress, and final reports directly generated by generative AI shall not be used, nor shall unverified content be used. Therefore, the retrieval and positioning, recalculation, evidence inspection and catalog arrangement are demonstrated here, and the AI ​​text is not packaged into the official submission text. The notice's requirements for results and generated content need to be implemented.\nNational Natural Science Foundation of China, Notice on 2026 Project Application and Finalization and Other Related Matters, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: Two (1) 1 to 6 and Two (2): reports, attachments, scope of results, final accounts and supporting units; Five (2): Generative AI directly generates report restrictions. The announced 2026 concentration period date will not be used as the time requirement for the next year"
+  },
+  {
+   "page": 207,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "gk9969",
+     "Project progress and stage inspection"
+    ],
+    [
+     "tt84l2",
+     "Daily records, progress reports and stage inspections should be compared to the same task baseline to detect deviations in a timely manner."
+    ],
+    [
+     "6l0zu5",
+     "When the project is established"
+    ],
+    [
+     "6svkbt",
+     "Executing"
+    ],
+    [
+     "10ejyuz",
+     "Stage inspection"
+    ],
+    [
+     "1a2irp5",
+     "Before closing the question"
+    ],
+    [
+     "1q7a98q",
+     "Task requirements and completion criteria"
+    ],
+    [
+     "1p76i6r",
+     "Record division of labor and version"
+    ],
+    [
+     "yi39x2",
+     "Report progress as required"
+    ],
+    [
+     "28wm5s",
+     "Retain data and method records"
+    ],
+    [
+     "1x2ubaw",
+     "Check deviations against plan"
+    ],
+    [
+     "f2jnq1",
+     "Process necessary changes"
+    ],
+    [
+     "h1g9ch",
+     "Check the supporting materials item by item"
+    ],
+    [
+     "8kpe2r",
+     "Organize the text and attachments"
+    ],
+    [
+     "13uxp1c",
+     "Current case: data sources and statistics have been verified, and the sampling basis needs to be supplemented."
+    ],
+    [
+     "xn7mzv",
+     "Record the issues, impacts, processing status and follow-up arrangements during the stage. You cannot just report \"smooth progress\"."
+    ],
+    [
+     "6x14eg",
+     "The applicable scope, cycle and approval method of progress reports and mid-term inspections shall be subject to project regulations."
+    ],
+    [
+     "1wcorkv",
+     "Source: HaDEA 2025 original courseware pp.97–98/102/104; NSFC 2026 notice, parts 2 and 5; self-edited teaching mission statement, non-funded mission statement"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "The actual project will be based on the approved mission statement and modified versions. Data, methods and progress records will be kept during execution, and annual or stage progress will be reported in accordance with project regulations. If applicable, the mid-term inspection should compare the plan, actual results and remaining deviations, and clarify the next steps and responsibilities. Changes involved should be handled in accordance with applicable regulations. Organize the evidence item by item before closing the question. Page 97 of the HaDEA courseware uses time relationships to explain continuous recording and stage reports, and page 98 emphasizes milestones and deliverable updates; this is just a lesson and does not copy the CEF cycle. Notice 3(1) of NSFC2026 involves project progress reporting. The teaching case has currently been verified for M1 source screening and M2 grouping statistics, and the M3 sampling basis needs to be supplemented. The person in charge, deadline, mid-term approval or actual fund project have not been fictitious. The completion criterion refers to what materials and methods are used to check a work. The subsequent evidence table gives specific examples of M1 to M3.\nHaDEA, REPA Reporting and Payment Webinar, 26 March 2025\nhttps://hadea.ec.europa.eu/document/download/1e773e0c-f2ab-44db-9f80-c7a02cc75bb4_en?filename=REPA+-+Webinar+-+March+2025.pdf\nPositioning: PDF physical pages 75, 97, 98, 102, and 104 have been viewed page by page; continuous recording, material division, and report summary are used, and do not copy the CEF system or screenshots as the Chinese system\nNational Natural Science Foundation of China, Notice on 2026 Project Application and Finalization and Other Related Matters, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: Two (1) 1 to 6 and Two (2): reports, attachments, scope of results, final accounts and supporting units; Five (2): Generative AI directly generates report restrictions. The announced 2026 concentration period date will not be used as the time requirement for the next year\nSelf-compiled material verification task sheet for this section\nlocal:training/section-12/closeout-packet/input/taskbook.json\nPositioning: M1 source and screening, M2 group mean, M3 individual and sampling data; demonstration with ready-made data, not a pre-registered research target"
+  },
+  {
+   "page": 208,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "170i75b",
+     "How to retain process records"
+    ],
+    [
+     "8wj7eb",
+     "Save the conditions, record location and version for each screening, so that you can explain why the sample changes when you finish the question."
+    ],
+    [
+     "1mtnc5i",
+     "344 public records"
+    ],
+    [
+     "12n0u03",
+     "152 Adelie records"
+    ],
+    [
+     "8g6a48",
+     "146 analysis records"
+    ],
+    [
+     "sy2qd6",
+     "Save original files and sources"
+    ],
+    [
+     "1wrr24e",
+     "Condition: species is Adelie"
+    ],
+    [
+     "5f0xfl",
+     "Gender and fin length"
+    ],
+    [
+     "pu0vk6",
+     "All records"
+    ],
+    [
+     "5nll97",
+     "Exclude 6 missing records from the 152 records, and retain the original CSV row numbers: 5, 10, 11, 12, 13, 49."
+    ],
+    [
+     "zs6o0l",
+     "The original file, filter conditions, exclusion reasons and calculation program are saved together. The line number is used for positioning, not the individual number."
+    ],
+    [
+     "19k2xt1",
+     "The original observations of the public project and the secondary calculations of this course are registered separately, and the original collector information is retained."
+    ],
+    [
+     "c4dg09",
+     "Source: palmerpenguins public data, course secondary calculation; actual local recalculation and file records, no model call"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ]
+   ],
+   "note": "Input is a simplified CSV of palmerpenguins. Select Adelie by species, and then keep the records whose sex is female or male and flipper_length_mm is not missing. 6 items are excluded from 152. The original CSV physical row numbers are 5, 10, 11, 12, 13, and 49. Row 1 is the header, and the row number is not equal to the individual number. The original file and source hash must be retained and cannot be overwritten. Only missing fields are filtered here, data is not deleted according to the quality of the results, and there is no filtering based on outliers.\nHorst, Hill and Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; simplify CSV344 items. input/source.json retains original download URL, CC0 license and hash\nActual data recalculation and material execution records in this section\nlocal:training/section-12/execution-evidence.json\nPositioning: run_closeout.py; output/calculation.json, evidence-matrix.json, issues.json, run.json; non-scientific research acceptance or Cloudflare function verification"
+  },
+  {
+   "page": 209,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "u7um22",
+     "Correspondence between tasks, results and evidence"
+    ],
+    [
+     "iskbok",
+     "Each task corresponds to the actual attachment and specific fields, and the evidence table retains the difference between the materials that have been verified and those that need to be supplemented."
+    ],
+    [
+     "9c2ose",
+     "\"Material has been verified\" only means that the listed inspection has been passed, and does not mean that the researcher recognizes the scientific explanation or that the project has passed acceptance."
+    ],
+    [
+     "1fw2qz",
+     "Source: self-edited teaching assignment, non-fund assignment; actual local recalculation and file records, no model call"
+    ],
+    [
+     "80y4by",
+     "05"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "vg401z",
+     "Task entry Current results and material location Material status"
+    ],
+    [
+     "1elsojg",
+     "M1 Source and Screening A02 Source, A03 Original CSV, A05 Inclusion Table"
+    ],
+    [
+     "fmtod8",
+     "146 analysis records were screened out of 344. The materials have been verified"
+    ],
+    [
+     "kwzugy",
+     "M2 Group statistics A04 program, A06 calculation results"
+    ],
+    [
+     "1tty466",
+     "73 males and 73 males respectively, male minus 4.62 mm female. Materials have been verified."
+    ],
+    [
+     "ivgu73",
+     "M3 Sampling basis A03 column is missing individual and sampling fields"
+    ],
+    [
+     "jvsu3e",
+     "A08 record needs to be supplemented, and it is currently not judged as completed. Information to be supplemented"
+    ]
+   ],
+   "note": "The local program actually reads the CSV and recalculates it, not just checks whether the file exists. M1 and M2 are VERIFIED, and the Chinese materials have been verified; M3 is PENDING, and the Chinese materials are to be supplemented. UNSUPPORTED means that a certain statement is not supported by evidence, such as claiming that public data was collected by oneself. The existence of materials, the recalculability of content and the validity of conclusions are different levels. The evidence table is retained with CSV and JSON, and the positioning can be returned to the source file and calculated fields. The path, size and SHA-256 of 9 actual files are registered in the attachment directory of this round; A01 is self-edited requirement, A02 source, A03 original CSV, A04 executor, A05 included row, A06 calculation, A07 evidence table, A08 question, A09 exclusion claim. The number is for location purposes and does not indicate sufficient evidence.\nSelf-compiled material verification task sheet for this section\nlocal:training/section-12/closeout-packet/input/taskbook.json\nPositioning: M1 source and screening, M2 group mean, M3 individual and sampling data; demonstration with ready-made data, not a pre-registered research target\nActual data recalculation and material execution records in this section\nlocal:training/section-12/execution-evidence.json\nPositioning: run_closeout.py; output/calculation.json, evidence-matrix.json, issues.json, run.json; non-scientific research acceptance or Cloudflare function verification"
+  },
+  {
+   "page": 210,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "1rk0cog",
+     "Numbers and qualifications in the results paragraph"
+    ],
+    [
+     "157uz2z",
+     "The results need to explain the analysis objects, units and comparison directions, while retaining questions that cannot be answered by the current data."
+    ],
+    [
+     "1j4cpfy",
+     "Results that can be explained factually"
+    ],
+    [
+     "1x5dmas",
+     "The average female fin length is 187.79 mm,"
+    ],
+    [
+     "7k0mf2",
+     "Male is 192.41 mm, with an average height of 4.62 mm."
+    ],
+    [
+     "1lufm57",
+     "This difference describes the record selected this time. Individual duplication and sampling dependence have yet to be verified, and the causal mechanism cannot be explained based on this."
+    ],
+    [
+     "14t7rbl",
+     "Descriptive statistics of selected Adelie records, no causal identification; individual duplication and sampling dependence still need to be checked."
+    ],
+    [
+     "c4dg09",
+     "Source: palmerpenguins public data, course secondary calculation; actual local recalculation and file record, no model call"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ],
+    [
+     "anyzo2",
+     "Chart: Average fin length (mm) of Adelie’s selected records (barChart):"
+    ],
+    [
+     "1mnprub",
+     "Categories: Female n=73, Male n=73"
+    ],
+    [
+     "qyhcgm",
+     "Average fin length (mm): female n=73=187.79452054800001, male n=73=192.41095890400001"
+    ]
+   ],
+   "note": "Actual independent recalculation: 146 Adelie records, 73 for both sexes. The average fin length is 187.7945205 mm for females and 192.4109589 mm for males. Males are less than 4.6164384 mm for females, showing two decimal places. The graph uses a starting point of 0 to avoid exaggerating the mean proportion. This description is limited to the current screening record, causal mechanisms for sex cannot be inferred, and the independence of the simplified record cannot be regarded as confirmed. The example sentences here are used for teaching and illustrating data expression, and do not serve as the text of the official National Nature Report on AI.\nHorst, Hill and Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; simplify CSV344 items. input/source.json retains original download URL, CC0 license and hash\nActual data recalculation and material execution records in this section\nlocal:training/section-12/execution-evidence.json\nPositioning: run_closeout.py; output/calculation.json, evidence-matrix.json, issues.json, run.json; non-scientific research acceptance or Cloudflare function verification"
+  },
+  {
+   "page": 211,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "a9g6oc",
+     "After the documents are complete and the numbers are correct, what else needs to be checked?"
+    ],
+    [
+     "kyo4bs",
+     "The source and mean value have been checked, but individual identification and sampling records still need to be reviewed to determine whether the analysis assumptions are applicable."
+    ],
+    [
+     "nh1y82",
+     "Check source and file version"
+    ],
+    [
+     "1a2zojg",
+     "Recalculation screening and group mean"
+    ],
+    [
+     "13gi82a",
+     "Continue to check individuals and sampling basis"
+    ],
+    [
+     "1ls7azo",
+     "M1, M2: Material has been verified"
+    ],
+    [
+     "n8t2yp",
+     "M3: Still need to add information"
+    ],
+    [
+     "cow4vr",
+     "Appendix A02, A03"
+    ],
+    [
+     "ymziic",
+     "Source, license and original file hash"
+    ],
+    [
+     "9k3h0g",
+     "Appendix A04 to A06"
+    ],
+    [
+     "1ljaeu7",
+     "146 records, number of groups and difference"
+    ],
+    [
+     "3dt30m",
+     "Annex A08 registration gap"
+    ],
+    [
+     "ofavg4",
+     "Cannot confirm independence based on correct mean"
+    ],
+    [
+     "1yw2m4v",
+     "Current conclusions are limited to descriptions of selected records, and individual replication, sampling dependence, and analytical assumptions remain to be verified."
+    ],
+    [
+     "1474lvg",
+     "Source: self-edited teaching assignment, non-funded assignment; actual local recalculation and file recording, no model call; HaDEA 2025 original courseware pp.97–98/102/104"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ]
+   ],
+   "note": "The M3 gap comes from the simplified CSV without individual identification and sampling design, which does not mean that the original project does not have these data. Subsequently, you need to go back to the original data and sampling instructions to check repeated measurements and independence, and adjust the analysis if necessary. Currently reserved PENDING. If someone proposes self-collected data from the course or a proven causal mechanism, it will be marked UNSUPPORTED and excluded from the results description. If there are changes in the actual project's objectives, personnel, cooperation, or technical routes, the approval reply and version shall be checked according to applicable regulations. Deviations cannot be eliminated by changing the text of the closing title. The first three steps in the figure represent the material checking sequence. Fixed version of file hash, numerical recalculation and verification calculation; individual duplication, sampling dependence and scientific extrapolation need to be reviewed separately and are currently not passed.\nSelf-compiled material verification task sheet for this section\nlocal:training/section-12/closeout-packet/input/taskbook.json\nPositioning: M1 source and screening, M2 group mean, M3 individual and sampling data; demonstration with ready-made data, not a pre-registered research target\nActual data recalculation and material execution records in this section\nlocal:training/section-12/execution-evidence.json\nPositioning: run_closeout.py; output/calculation.json, evidence-matrix.json, issues.json, run.json; non-scientific research acceptance or Cloudflare function verification\nHaDEA, REPA Reporting and Payment Webinar, 26 March 2025\nhttps://hadea.ec.europa.eu/document/download/1e773e0c-f2ab-44db-9f80-c7a02cc75bb4_en?filename=REPA+-+Webinar+-+March+2025.pdf\nPositioning: PDF physical pages 75, 97, 98, 102, and 104 have been viewed page by page; continuous recording, material division, and report summary are used, and do not copy the CEF system or screenshots as the Chinese system"
+  },
+  {
+   "page": 212,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "1tawmsy",
+     "Version, contribution and registration materials of software achievements"
+    ],
+    [
+     "1atxdwm",
+     "The ledger first records the actual software and operation evidence, and then checks the personal contribution, ownership and registration materials."
+    ],
+    [
+     "46kzzg",
+     "Fixed tutorial code snapshot"
+    ],
+    [
+     "14ovu38",
+     "Run the same public CSV"
+    ],
+    [
+     "x9wlnr",
+     "Organize materials and keep gaps"
+    ],
+    [
+     "1u2vbzo",
+     "Funds and assets are separately checked according to project requirements, and the software ledger does not replace financial review."
+    ],
+    [
+     "siy5su",
+     "Self-compiled teaching ledger: The software has been run, the contribution and ownership have not been confirmed, and registration has not been applied for."
+    ],
+    [
+     "ki54xc",
+     "Source: HaDEA 2025 original courseware pp.97–98/102/104; National Copyright Administration, Software Registration Measures Articles 9 to 11; Software teaching snapshot, actual output and materials to be supplemented; NSFC 2026 Notice, Parts 2 and 5"
+    ],
+    [
+     "76zb91",
+     "08"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "f8gylk",
+     "Check item SW01 current evidence and status"
+    ],
+    [
+     "rxjyct",
+     "Version positioning 2026-10-19 teaching snapshot; hash included in the package"
+    ],
+    [
+     "vvm7j2",
+     "Actual operation: 344 entries, 146 included, 73 for males and 73 for males"
+    ],
+    [
+     "18fyyli",
+     "My contribution and ownership The actual personnel, responsibilities and ownership have not yet been confirmed"
+    ],
+    [
+     "14r1zoc",
+     "Required materials Application form, procedures and documents, relevant certificates"
+    ],
+    [
+     "hnuf3t",
+     "Registration status Not applied; no registration number or certificate"
+    ]
+   ],
+   "note": "SW01 on this page is taken from the descriptive statistics script in Section 7 of the course. It is actually executed according to this round of snapshots. 344 entries are input, 146 entries are included, and 73 are male and female; the code, input, output and hash are in software-packet. Teaching snapshots are not used to identify software development completion dates, copyright owners, or registered software versions. Contribution and ownership materials are still missing, no person or unit will be filled in, and Codex will not be listed as the legal author. This page refers to Articles 9 to 11 of the National Copyright Administration's Measures to explain the application form, procedures and documents, and related certification materials. In fact, it only provides short scripts and teaching function descriptions, and does not fill out the official application form or create a formal deposit page. There is no application, registration number or certificate. The achievements ledger also distinguishes between external Gorman papers and Section 11 teaching drafts, which are not counted as my own papers or patent achievements. The results of internal organization and software registration are different, and the requirements for project correlation, personal contribution, and results to be included must be confirmed based on authentic materials. Funds and assets must still be checked by the person in charge together with the scientific research, finance, and asset departments. Accounts, final accounts, cooperative units, and asset materials will not be replaced by software ledgers. This case has no actual funds, and does not fill in the amount or declare that the financial review has been approved.\nHaDEA, REPA Reporting and Payment Webinar, 26 March 2025\nhttps://hadea.ec.europa.eu/document/download/1e773e0c-f2ab-44db-9f80-c7a02cc75bb4_en?filename=REPA+-+Webinar+-+March+2025.pdf\nPositioning: PDF physical pages 75, 97, 98, 102, and 104 have been viewed page by page; continuous recording, material division, and report summary are used, and do not copy the CEF system or screenshots as the Chinese system\nNational Copyright Administration's \"Computer Software Copyright Registration Measures\"\nhttps://www.ncac.gov.cn/xxfb/flfg/bmgz/202410/t20241015_869486.html\nPositioning: Read Articles 4, 7 to 11 and 20 on 2026-10-19; distinguish material categories and statuses, and do not judge the eligibility, contribution or ownership of this example\nSnapshots and actual implementation of this round of software teaching\nlocal:training/section-12/software-packet/snapshot.json\nPositioning: code and data hash, source/python-output, results ledger, registration material verification; no registration application or certificate\nNational Natural Science Foundation of China, Notice on 2026 Project Application and Finalization and Other Related Matters, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: Two (1) 1 to 6 and Two (2): reports, attachments, scope of results, final accounts and supporting units; Five (2): Generative AI directly generates report restrictions. The announced 2026 concentration period date will not be used as the time requirement for the next year"
+  },
+  {
+   "page": 213,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "adauxb",
+     "The actual output of the Closeout process"
+    ],
+    [
+     "1ur0k2u",
+     "The local program reads task requirements and CSV, saves 146 inclusion records, calculation results, 9 attachment directories and verification Word."
+    ],
+    [
+     "1j1n5nu",
+     "The first page of Word actually generated this time"
+    ],
+    [
+     "1tiagd6",
+     "Task requirements and original CSV"
+    ],
+    [
+     "1w34cw8",
+     "Recalculate the numbers and correspond item by item"
+    ],
+    [
+     "wmt424",
+     "Word, evidence table and 9 attachments list"
+    ],
+    [
+     "1vc9qzl",
+     "The attachment records the path and hash item by item. 2 items have been approved and 1 item is pending."
+    ],
+    [
+     "1683tfv",
+     "The actual execution is the file program in this section, without external model calls; it does not indicate that the cloud Closeout function has been run."
+    ],
+    [
+     "8wuud",
+     "Source: actual local recalculation and file records, no model call; self-written teaching assignment, non-fund assignment"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "The picture on the left is the first page of the actual DOCX rendered by LibreOffice. It is not a screenshot of the simulation interface or Agent execution. The program parses JSON and CSV, verifies source hashes, complex calculation statistics and corresponding entries, and saves calculations, evidence matrices, questions and running records. There is no PDF/OCR access, cloud model calling, automatic formal submission or scientific research sign-off. The Closeout skill definition and scripting capabilities in this section are explained separately. Word is an example of checking teaching materials written by AI. The current status is materials_review_required. The third page of this round of Word is the actual attachment directory, and the complete hash is saved in JSON and CSV. The csv_physical_line included in the table can return to the original CSV location and cannot be regarded as an individual number.\nActual data recalculation and material execution records in this section\nlocal:training/section-12/execution-evidence.json\nPositioning: run_closeout.py; output/calculation.json, evidence-matrix.json, issues.json, run.json; non-scientific research acceptance or Cloudflare function verification\nSelf-compiled material verification task sheet for this section\nlocal:training/section-12/closeout-packet/input/taskbook.json\nPositioning: M1 source and screening, M2 group mean, M3 individual and sampling data; demonstration with ready-made data, not a pre-registered research target"
+  },
+  {
+   "page": 214,
+   "pairs": [
+    [
+     "11xnvan",
+     "12 Project execution and conclusion"
+    ],
+    [
+     "1ydd8yx",
+     "Submit and review are consistent with the version"
+    ],
+    [
+     "1itcnv1",
+     "The researcher checks the scientific content, and the unit checks the submitted materials. The same confirmed version should be retained for submission and archiving."
+    ],
+    [
+     "1pbshkc",
+     "Check by the person in charge"
+    ],
+    [
+     "1eajdbb",
+     "Unit online review"
+    ],
+    [
+     "1jph9yp",
+     "Reviewed by the Foundation Committee"
+    ],
+    [
+     "1tawrxx",
+     "Download final PDF"
+    ],
+    [
+     "17293qr",
+     "Signature and filing"
+    ],
+    [
+     "9x8iux",
+     "When formally submitting, the electronic version, final PDF and signature materials should be kept consistent."
+    ],
+    [
+     "1sddvgo",
+     "The specific steps and time are subject to applicable notices and unit requirements. AI sorting documents does not mean confirmation or formal approval by the person in charge."
+    ],
+    [
+     "1c0gexa",
+     "This example only completed the material verification demonstration, but did not formally submit or sign for it; the next section is about scientific research reporting and dissemination of results."
+    ],
+    [
+     "82hpoj",
+     "Source: NSFC 2026 Notice, Parts 2 and 5; actual local recalculation and file recording, no model call; HaDEA 2025 original courseware pp.97–98/102/104"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "The process of the 2026 Notice is to submit the report and attachments online. After review by the Fund Committee, download the final PDF. The person in charge will sign and submit the original paper copy to the unit and ensure that the version is consistent. The host unit must also review and submit as required. This is condensed into a diagram of the relationship between responsibilities and versions. The specific system steps, paper requirements and dates are subject to the applicable notice. The 2026 concentration period date is not regarded as the next year's requirements. AI can check the file version and missing attachments, and cannot replace the person in charge and the supporting unit to make formal confirmation. The file in this example was not submitted.\nNational Natural Science Foundation of China, Notice on 2026 Project Application and Finalization and Other Related Matters, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: Two (1) 1 to 6 and Two (2): reports, attachments, scope of results, final accounts and supporting units; Five (2): Generative AI directly generates report restrictions. The announced 2026 concentration period date will not be used as the time requirement for the next year\nActual data recalculation and material execution records in this section\nlocal:training/section-12/execution-evidence.json\nPositioning: run_closeout.py; output/calculation.json, evidence-matrix.json, issues.json, run.json; non-scientific research acceptance or Cloudflare function verification\nHaDEA, REPA Reporting and Payment Webinar, 26 March 2025\nhttps://hadea.ec.europa.eu/document/download/1e773e0c-f2ab-44db-9f80-c7a02cc75bb4_en?filename=REPA+-+Webinar+-+March+2025.pdf\nPositioning: PDF physical pages 75, 97, 98, 102, and 104 have been viewed page by page; continuous recording, material division, and report summary are used, and do not copy the CEF system or screenshots as the Chinese system"
+  },
+  {
+   "page": 215,
+   "pairs": [
+    [
+     "1psdq2b",
+     "13 Scientific research reporting and results dissemination"
+    ],
+    [
+     "9czth",
+     "Scientific research reporting and results dissemination"
+    ],
+    [
+     "1rxnue0",
+     "If the same study faces different readers, it is necessary to adjust the background and order of explanation, while keeping the facts and limitations consistent."
+    ],
+    [
+     "m2gpe3",
+     "Same set of verified research facts"
+    ],
+    [
+     "h8e0ih",
+     "Peer Report"
+    ],
+    [
+     "1p73l3o",
+     "Data, methods and scope of interpretation"
+    ],
+    [
+     "1qopcq5",
+     "Project Review"
+    ],
+    [
+     "38z88a",
+     "Completion status, evidence and gaps"
+    ],
+    [
+     "141smu9",
+     "General readers"
+    ],
+    [
+     "md8kkv",
+     "What is compared and what can be explained?"
+    ],
+    [
+     "vt82z8",
+     "The case throughout is the secondary calculation of public penguin data, and the three versions are all self-written teaching expressions."
+    ],
+    [
+     "i5sp8l",
+     "Source: University of Florida 2025 original courseware; AI writing teaching example, unreleased; palmerpenguins public data, course secondary calculation"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "Peers want to understand the evidence and methods, reviewers need to check the work and gaps, and general readers need to know what was compared and what it says. These are suggestions for the presentation organization of this course and are not intended to be fixed categories for all readers. The cases throughout are from secondary calculations of public data, and there are no new papers, on-site collections or approved project claims. AI can help adjust language and graphics, but authors still need to check facts and arrange publication.\nDesika Narayanan, Giving Scientific Presentations, SURF/UF REUs 2025, University of Florida\nhttps://www.eng.ufl.edu/surf/wp-content/uploads/sites/243/2025/07/Narayanan_Scientific_PresentationsCopressed.pdf\nPositioning: Viewed PDF pages 3, 14, 20, 23, 27, 29, and 31 page by page; using question and evidence organization, terminology explanation, illustration and readability. The original picture on page 23 is for illustration purposes only, not the research result of this course; the statistical values in the combined publicity picture on page 20 or the counterexample on page 31 are not used.\nSelf-compiled scientific research reports and dissemination of teaching expressions in this section\nlocal:training/section-13/communication-packet/input/brief.json\nPositioning: three reader versions, misstatements and revisions, factual limitations; does not represent the original author’s external expression or official project report\nHorst, Hill and Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; the original CSV and source hash are in communication-packet/input, and the results are recalculated for this section."
+  },
+  {
+   "page": 216,
+   "pairs": [
+    [
+     "1psdq2b",
+     "13 Scientific research reporting and results dissemination"
+    ],
+    [
+     "ac0p6d",
+     "Issues and evidence in scientific research reports"
+    ],
+    [
+     "up9l7o",
+     "Proceed from clarifying the question to data and methods, and then explain the main results, scope of application and questions that remain to be answered."
+    ],
+    [
+     "1el0snl",
+     "Research Questions"
+    ],
+    [
+     "i4uk08",
+     "Analysis Materials"
+    ],
+    [
+     "1ppoowf",
+     "Read the result"
+    ],
+    [
+     "lvqa4q",
+     "Limited explanation"
+    ],
+    [
+     "vs2817",
+     "Adelie has long male and female fins"
+    ],
+    [
+     "hbz9j2",
+     "What is the difference between mean and distribution?"
+    ],
+    [
+     "1h2t1la",
+     "Public 344 records"
+    ],
+    [
+     "14ug4xj",
+     "Screen out 146 items"
+    ],
+    [
+     "1kwtl30",
+     "73 males and 73 males each"
+    ],
+    [
+     "1dlwxic",
+     "Male minus female 4.62mm"
+    ],
+    [
+     "19xbns2",
+     "190 to 195 mm range"
+    ],
+    [
+     "u6shxi",
+     "21 females and 24 males"
+    ],
+    [
+     "1d8tzkf",
+     "Descriptive statistics only"
+    ],
+    [
+     "1k5jkle",
+     "Sampling dependency needs to be checked"
+    ],
+    [
+     "1ayyqg0",
+     "No causal identification"
+    ],
+    [
+     "m0xn24",
+     "Background serves to understand the problem; details, complete statistics and supplementary figures are left in the accessible materials."
+    ],
+    [
+     "bpiexl",
+     "This example only compares the grouping differences of the selected records. The sampling dependencies have not been checked, and no causal explanation is provided."
+    ],
+    [
+     "16n98i3",
+     "Source: University of Florida 2025 original courseware; palmerpenguins public data, course secondary calculation; AI writing teaching example, unreleased"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "Refer to the report organization on page 3 of UF2025 instead of reading the paper page by page. The question is how the male and female fin lengths of the records selected by Adelie are distributed in the public data; the method is to limit the species, retain the complete records of sex and fin length fields, and then make descriptive statistics; the results are distribution and mean; the explanation must retain gaps in data attribution, individual repetition, and sampling dependence. The background content is subject to the audience’s understanding of the issue. Backup materials can be retained for detailed cleaning and statistics.\nDesika Narayanan, Giving Scientific Presentations, SURF/UF REUs 2025, University of Florida\nhttps://www.eng.ufl.edu/surf/wp-content/uploads/sites/243/2025/07/Narayanan_Scientific_PresentationsCopressed.pdf\nPositioning: Viewed PDF pages 3, 14, 20, 23, 27, 29, and 31 page by page; using question and evidence organization, terminology explanation, illustration and readability. The original picture on page 23 is for illustration purposes only, not the research result of this course; the statistical values in the combined publicity picture on page 20 or the counterexample on page 31 are not used.\nHorst, Hill and Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; the original CSV and source hash are in communication-packet/input, and the results are recalculated for this section.\nSelf-compiled scientific research reports and dissemination of teaching expressions in this section\nlocal:training/section-13/communication-packet/input/brief.json\nPositioning: three reader versions, misstatements and revisions, factual limitations; does not represent the original author’s external expression or official project report"
+  },
+  {
+   "page": 217,
+   "pairs": [
+    [
+     "1psdq2b",
+     "13 Scientific research reporting and results dissemination"
+    ],
+    [
+     "15hawcq",
+     "Conditions, processes and sources in scientific diagrams"
+    ],
+    [
+     "10brlco",
+     "The branches and connections in the diagram should help readers understand the process, and key conditions and diagram sources need to be retained with the diagram."
+    ],
+    [
+     "1haswfi",
+     "Conditions\nThe"
+    ],
+    [
+     "qr02sh",
+     "branch states the conditions and explains when they apply."
+    ],
+    [
+     "1kjhmmv",
+     "Process"
+    ],
+    [
+     "crqhui",
+     "Connections and colors help readers track changes."
+    ],
+    [
+     "2tds9c",
+     "Source"
+    ],
+    [
+     "102dk2k",
+     "The author and year are retained with the picture for easy review."
+    ],
+    [
+     "gf09l6",
+     "The picture on the left is the original picture on page 23 of the UF2025 courseware. It is used for teaching and demonstration. It is not the observation or simulation result of this course."
+    ],
+    [
+     "12g8h7q",
+     "Source: University of Florida 2025 original courseware"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "Page 23 of the original courseware uses left and right branch, condition and connection diagrams to explain the schematic process of dust particle size evolution. This course only analyzes the visible way of teaching diagrams: conditions are placed on branches, colors and connections help track the process, and the author and year are retained at the bottom. He did not review all the models or physical conclusions of his 2019 and 2024 papers, and did not use the figures as the scientific research results of this course. The surfing propaganda picture on page 20 is not used as scientific evidence, and the over-density counterexample on page 31 is not incorporated into our statistical conclusions.\nDesika Narayanan, Giving Scientific Presentations, SURF/UF REUs 2025, University of Florida\nhttps://www.eng.ufl.edu/surf/wp-content/uploads/sites/243/2025/07/Narayanan_Scientific_PresentationsCopressed.pdf\nPositioning: Viewed PDF pages 3, 14, 20, 23, 27, 29, and 31 page by page; using question and evidence organization, terminology explanation, illustration and readability. The original picture on page 23 is for illustration purposes only, not the research result of this course; the statistical values ​​in the combined publicity picture on page 20 or the counterexample on page 31 are not used."
+  },
+  {
+   "page": 218,
+   "pairs": [
+    [
+     "1psdq2b",
+     "13 Scientific research reporting and results dissemination"
+    ],
+    [
+     "1jy6td4",
+     "How does the result graph support on-site interpretation?"
+    ],
+    [
+     "8vfwri",
+     "Display distributions simultaneously when comparing means, allowing the audience to see within-group variation overlapping the two groups."
+    ],
+    [
+     "1bjyb5g",
+     "How to interpret this picture"
+    ],
+    [
+     "13ux9jw",
+     "Transverse axis: 5 mm per step."
+    ],
+    [
+     "pwnt0r",
+     "Vertical axis: number of records."
+    ],
+    [
+     "q3b3dx",
+     "190 to 195 mm range:"
+    ],
+    [
+     "11otvas",
+     "There are 21 females and 24 males."
+    ],
+    [
+     "2l1bf4",
+     "The average difference is 4.62 mm,\nThe distribution of"
+    ],
+    [
+     "1mea9c5",
+     "still overlaps."
+    ],
+    [
+     "1f5a3fj",
+     "The width of the bin is 5 mm, and there are 73 records in each group. The figure is calculated from the public CSV, and there is no swimming performance or causal conclusion."
+    ],
+    [
+     "1e98ga2",
+     "Source: palmerpenguins public data, course secondary calculation; actual local recalculation and file records"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ],
+    [
+     "1sxyryf",
+     "Chart: Fin length distribution (mm) recorded by the selected Adelie (barChart):"
+    ],
+    [
+     "1y6a6ss",
+     "Categories: 170–175, 175–180, 180–185, 185–190, 190–195, 195–200, 200–205, 205–210, 210–215"
+    ],
+    [
+     "wnx37b",
+     "Female n=73: 170–175=2, 175–180=3, 180–185=11, 185–190=27, 190–195=21, 195–200=8, 200–205=1, 205–210=0, 210–215=0"
+    ],
+    [
+     "1h53mk5",
+     "Male n=73: 170–175=0, 175–180=1, 180–185=10, 185–190=8, 190–195=24, 195–200=22, 200–205=5, 205–210=2, 210–215=1"
+    ]
+   ],
+   "note": "The picture shows the grouping frequencies recalculated in this section. The horizontal axis is the fin length interval, and the vertical axis is the number of records. There are 73 fins in each group. The width of the box is 5 mm, left closed and right open, and the right end of the last box is included. The mean difference of 4.6164 mm shows 4.62; the distribution of males and females overlaps, and the mean difference does not mean that each male is longer. n is the number of retained records and the number of unconfirmed independent individuals. There are no error bars or significance markers because this page is descriptive only and does not hide unconfirmed independence in inferred symbols. When explaining the picture, first read the range from 190 to 195 mm: 21 for females, 24 for males, closed on the left and open on the right. The mean difference of 4.62 mm is about 0.46 cm; this is not a difference between each individual. The complete lecture notes and 3 preset questions and answers can be found in figure-narration.json and chart narration.md. There is no timed rehearsal.\nHorst, Hill and Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; the original CSV and source hash are in communication-packet/input, and the results are recalculated for this section.\nActual recalculation and documentation records in this section\nlocal:training/section-13/execution-evidence.json\nPositioning: make_packet.py, facts.json, expression-check.json and Word; no external model calls, no platform account operations"
+  },
+  {
+   "page": 219,
+   "pairs": [
+    [
+     "1psdq2b",
+     "13 Scientific research reporting and results dissemination"
+    ],
+    [
+     "1fjnhlk",
+     "Three reader versions of the same result"
+    ],
+    [
+     "17rcu33",
+     "What changes is the focus of interpretation, and the analysis objects, numbers, units and scope of evidence should remain consistent."
+    ],
+    [
+     "ljijhw",
+     "The complete paragraphs are saved with Word and Markdown. They are all teaching manuscripts and are not released to the outside world on behalf of the original author or project leader."
+    ],
+    [
+     "1uqyn14",
+     "Source: AI writing teaching example, unreleased; palmerpenguins public data, course secondary calculation; actual local recalculation and file records"
+    ],
+    [
+     "80y4by",
+     "05"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "1qemakt",
+     "Reader Different expressions of the same fact"
+    ],
+    [
+     "1pbvau5",
+     "Peer Report: Descriptive statistics of 146 Adelie records in palmerpenguins public data, 73 records for males and 73 records respectively. The average fin length of males is 4.62 mm longer than that of females. Filtering conditions, grouping results and procedures are saved with the materials, and individual duplication and sampling dependencies have yet to be checked. The difference describes the selected records without causal interpretation."
+    ],
+    [
+     "1776pw7",
+     "Project review has completed public data screening and mean recalculation, retaining 146 Adelie records, 73 males and 73 males respectively. The average fin length of males is 4.62 mm longer than that of females. Original CSV, source records, procedures and results can be checked one by one. The individual identification and sampling basis still need to be re-examined, and the overall extrapolation range has not yet been confirmed."
+    ],
+    [
+     "rrledm",
+     "General readers This comparison uses 146 Adelie penguin records in public information, 73 records for males and females. Male flippers are on average 4.62 mm longer than females, which is less than half a centimeter. There is a difference in average, but it does not mean that every male is longer than a female; this comparison does not measure swimming speed. The data was collected by the original research project, and only secondary calculations were performed in this course."
+    ]
+   ],
+   "note": "The three paragraphs are intended for peers, project reviewers, and general readers respectively. The peer version retains the screening and methods, the review version emphasizes the completed materials and gaps, and the general reader version interprets 4.62 mm as less than half a centimeter, and explains that swimming speed is not measured. The three versions all contain 146 items, 73 items for male and female respectively, 4.62 mm and public data sources. The description of differences was not changed to cause and effect, nor was the secondary calculation written as personal collection.\nSelf-compiled scientific research reports and dissemination of teaching expressions in this section\nlocal:training/section-13/communication-packet/input/brief.json\nPositioning: three reader versions, misstatements and revisions, factual limitations; does not represent the original author’s external expression or official project report\nHorst, Hill and Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; the original CSV and source hash are in communication-packet/input, and the results are recalculated for this section.\nActual recalculation and documentation records in this section\nlocal:training/section-13/execution-evidence.json\nPositioning: make_packet.py, facts.json, expression-check.json and Word; no external model calls, no platform account operations"
+  },
+  {
+   "page": 220,
+   "pairs": [
+    [
+     "1psdq2b",
+     "13 Scientific research reporting and results dissemination"
+    ],
+    [
+     "1ue7iml",
+     "Fact checking in Humanizer revision"
+    ],
+    [
+     "g6fw0p",
+     "After deleting the empty evaluation, the sentence still needs to accurately describe the object, actual findings and its scope of interpretation."
+    ],
+    [
+     "zr9drv",
+     "Expression to be modified (teaching counterexample)"
+    ],
+    [
+     "1q4k5vz",
+     "Revised based on actual recalculation"
+    ],
+    [
+     "1yahruh",
+     "This research has made a significant breakthrough, revealing the intrinsic mechanism of sex determination of fin length."
+    ],
+    [
+     "1qh0j15",
+     "Among the 146 Adelie records selected from public data, there are 73 males and 73 males respectively. The average fin length of males is 4.62 mm longer than that of females."
+    ],
+    [
+     "15r98it",
+     "The difference describes the selected records and does not explain the causal mechanism."
+    ],
+    [
+     "wexcqx",
+     "Delete unfounded evaluations and fill in the data source, sample number, unit, comparison direction and limitations."
+    ],
+    [
+     "1skss6j",
+     "The left side is a self-made erroneous expression, and the right side is revised based on actual calculations; natural expressions cannot fill in missing research evidence."
+    ],
+    [
+     "1uqyn14",
+     "Source: AI writing teaching example, unreleased; palmerpenguins public data, secondary calculation of the course; actual local recalculation and file records"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ]
+   ],
+   "note": "There is no evidence for either the remarkable breakthrough in the teaching counterexample or the mechanism by which sex determines fin length. The revision deleted the evaluation, changed the cause and effect back to descriptive statistics, added public sources, 146 records, 73 records for males and 73 for males, 4.62 mm for males and 4.62 mm for females, and no explanation of the causal mechanism. Lock these contents when expressing revisions, and read the sentences again to see if they are smooth. The script only checks fixed numeric fields and does not refer to numeric matching as a semantic review or a guarantee that the detection is free of traces of AI.\nSelf-compiled scientific research reports and dissemination of teaching expressions in this section\nlocal:training/section-13/communication-packet/input/brief.json\nPositioning: three reader versions, misstatements and revisions, factual limitations; does not represent the original author’s external expression or official project report\nHorst, Hill and Gorman, palmerpenguins public data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; the original CSV and source hash are in communication-packet/input, and the results are recalculated for this section.\nActual recalculation and documentation records in this section\nlocal:training/section-13/execution-evidence.json\nPositioning: make_packet.py, facts.json, expression-check.json and Word; no external model calls, no platform account operations"
+  }
+ ]
+}
