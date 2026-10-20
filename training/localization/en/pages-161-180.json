@@ -1,0 +1,1193 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  161,
+  180
+ ],
+ "items": [
+  {
+   "page": 161,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "1r87l3t",
+     "Reply example: Supplementary method instructions"
+    ],
+    [
+     "1i0u031",
+     "By writing the missing information in the opinion into the method, readers can check how the sample size was determined."
+    ],
+    [
+     "x87wpb",
+     "Simulation Opinion R1.1: How to explain the source, missingness and sample size?"
+    ],
+    [
+     "fn9yn5",
+     "Public original table"
+    ],
+    [
+     "1b5v856",
+     "344 records"
+    ],
+    [
+     "qnw30h",
+     "Limited to Adelie"
+    ],
+    [
+     "19muo59",
+     "152 records"
+    ],
+    [
+     "1bn8xnj",
+     "Gender and complete fin length"
+    ],
+    [
+     "wc71g6",
+     "146, 73 males and 73 males respectively"
+    ],
+    [
+     "1edwayl",
+     "Select research objects"
+    ],
+    [
+     "pqttf4",
+     "Exclude 6 missing items and do not impute"
+    ],
+    [
+     "15xr85n",
+     "Text [M1]"
+    ],
+    [
+     "1jwg74z",
+     "Indicate the source, inclusion conditions, exclusion records and physical bank number."
+    ],
+    [
+     "1pblytw",
+     "Reply R1.1"
+    ],
+    [
+     "1qmvbrq",
+     "points to [M1] and calculates the record, allowing the reader to check where the 146 entries came from."
+    ],
+    [
+     "pctbfs",
+     "Simulated opinion R1.1; the text [M1] has actual correspondence with the response matrix."
+    ],
+    [
+     "nwomax",
+     "Source: PLOS One, rework submission instructions; course teaching examples/simulated review"
+    ],
+    [
+     "7gvrg1",
+     "17"
+    ]
+   ],
+   "note": "This page has changed R1.1 to an editable screening process: 344 original items, 152 Adelie items were limited, 6 items with missing gender or fin length were excluded, 146 items were included, and 73 males and females were included. The text [M1] also records the excluded row numbers 5, 10, 11, 12, 13, and 49, which contain headers and are not individual IDs. Point-by-point responses use the same paragraph numbers as Word clear drafts. The materials are filtered from the actual public list; the simulated review comments do not come from the journal.\nPLOS One, Revising Your Manuscript\nhttps://journals.plos.org/plosone/s/revising-your-manuscript\nPositioning: Submission Instructions: reply item by item, mark draft and clear draft, verified on 2026-10-18\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 162,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "17qlrcy",
+     "Example of reply: Withdrawing the causal conclusion"
+    ],
+    [
+     "18ikpoo",
+     "When the existing design does not support causal explanation, modify the scope of the results and discussion, and truthfully state that there is no new verification."
+    ],
+    [
+     "1tj9e6e",
+     "Simulation Opinion R1.2"
+    ],
+    [
+     "11o0vj4",
+     "Observational comparison cannot support \"sex determines fin length\", please modify the causal conclusion."
+    ],
+    [
+     "8ub955",
+     "Actual changes [R1][D1]"
+    ],
+    [
+     "1hhvbph",
+     "Delete expressions such as “prove decision”; retain the 4.62 mm description to explain composition, deletions and independence limitations."
+    ],
+    [
+     "1u30y9t",
+     "Reply excerpt"
+    ],
+    [
+     "l5kc6t",
+     "The causal and mechanism conclusions have been withdrawn and limited to descriptive comparisons included in the records; no mechanism verification has been added."
+    ],
+    [
+     "1kr9zts",
+     "Simulation opinion R1.2; actual revisions are in [R1] and [D1], no claim to have verified the mechanism."
+    ],
+    [
+     "1ptuxbg",
+     "Source: Course Teaching Example/Mock Review"
+    ],
+    [
+     "5iyjl8",
+     "18"
+    ]
+   ],
+   "note": "Simulation R1.2 determines fin length for sex. The proof decisions, universal laws and growth mechanisms in the original manuscript are actually deleted, R1 retains the 4.62mm description, and D1 adds range restrictions. The reply also points out the modifications and unconducted research, and avoids describing the deletion of strong conclusions as the addition of empirical evidence.\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 163,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "15tse81",
+     "Response example: Supplementary research not yet completed"
+    ],
+    [
+     "1w2wphe",
+     "When the recommended independent sampling cannot be completed, explain the gap and its impact on the conclusion, and do not use future plans as the result."
+    ],
+    [
+     "16txhu2",
+     "Simulation Opinion R2.1"
+    ],
+    [
+     "13akvgn",
+     "Please add independent samples and test the correlation within the nest before discussing promotion."
+    ],
+    [
+     "scgwcy",
+     "Actual status [L1]"
+    ],
+    [
+     "v3zetz",
+     "No new sampling was added in this round, and the intra-nest correlation test has not been completed. The notch remains in the restricted section."
+    ],
+    [
+     "1u30y9t",
+     "Reply excerpt"
+    ],
+    [
+     "158e3mh",
+     "This supplemental study has not yet been completed. The current results are limited to this inclusion record and cannot be used to support broader conclusions."
+    ],
+    [
+     "ut0q48",
+     "Simulation opinion R2.1; [L1] Leave it in an unfinished state and do not make up experiments or analyses."
+    ],
+    [
+     "1ptuxbg",
+     "Source: Course Teaching Example/Mock Review"
+    ],
+    [
+     "5sy5a7",
+     "19"
+    ]
+   ],
+   "note": "Simulation R2.1 requires new samples and related verification within the nest. These studies have not been completed in this round, L1 has made it clear. A reply does not guarantee that the editor accepts the existing scope. If the research objectives require this evidence, additional materials or adjustments to the research will be required. Not all disagreements can be resolved with words.\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 164,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "11rp43i",
+     "Reply, mark draft and clear draft versions corresponding to each other"
+    ],
+    [
+     "c40aqx",
+     "The same comment uses the same number in the reply, marked draft and cleared draft to facilitate item-by-item search."
+    ],
+    [
+     "1couou9",
+     "Article-by-item review reply.docx"
+    ],
+    [
+     "yqegmh",
+     "R1.2: Causal conclusion withdrawn"
+    ],
+    [
+     "1cs0dzr",
+     "Revised Manuscript_Change Mark.docx"
+    ],
+    [
+     "3jpsjp",
+     "Red deleted; green added"
+    ],
+    [
+     "1f5kvtg",
+     "Original manuscript [R1] Proof that sex determines fin length."
+    ],
+    [
+     "b8fwaw",
+     "Revision [R1] In the complete record, the average fin length of males is 4.62 mm longer than that of females."
+    ],
+    [
+     "1136rhv",
+     "Revised Manuscript_Clear Manuscript.docx The revised text is retained. [D1] Explain limitations, [L1] Keep unfinished research."
+    ],
+    [
+     "wqpfd8",
+     "Three copies of Word can be edited; the marked draft uses colored addition and deletion marks, and Word revision mode is not enabled."
+    ],
+    [
+     "nwomax",
+     "Source: PLOS One, rework submission instructions; course teaching examples/simulated review"
+    ],
+    [
+     "13dvipr",
+     "20"
+    ]
+   ],
+   "note": "This page talks about three materials based on the Submission Instructions of PLOS One Revising Your Manuscript. writing-packet/word-r1 currently has three actual editable Word copies: item-by-item review response, revised draft_change mark, revised draft_clear draft. The marked draft is compared paragraph by paragraph with actual r0 and r1. Red strikethroughs and green underlines indicate additions and deletions. Word Track Changes are not used. An independent program restores r0/r1 text from the actual color, strikethrough, and underline of DOCX, and checks for clarity and reply anchors. The page uses abbreviated sentences to explain the correspondence between R1.2 and the complete text in Word and Markdown. Simulation opinion R2.1 is still a new research that has not been completed; having complete format documents does not mean that the research has been approved or can be officially submitted.\nPLOS One, Revising Your Manuscript\nhttps://journals.plos.org/plosone/s/revising-your-manuscript\nPositioning: Submission Instructions: reply item by item, mark draft and clear draft, verified on 2026-10-18\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 165,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "1gslx23",
+     "Revision and resubmission after rejection"
+    ],
+    [
+     "kyc0cd",
+     "Determine whether it is content adaptation, insufficient evidence, or major factual differences based on the reasons for the decision, and then decide on the direction of revision."
+    ],
+    [
+     "1iqwxr6",
+     "Read editorial decisions and reasons"
+    ],
+    [
+     "1eki1jl",
+     "Scope does not match"
+    ],
+    [
+     "cgwq0g",
+     "Re-judge the target journal and article type."
+    ],
+    [
+     "g708mq",
+     "Insufficient evidence or methods"
+    ],
+    [
+     "19xqc9x",
+     "Additional research or narrowed conclusions, and then re-evaluate the manuscript."
+    ],
+    [
+     "6lzc6z",
+     "Significant factual disputes"
+    ],
+    [
+     "1rdfjj9",
+     "According to journal procedures, use materials to explain the basis for appeal."
+    ],
+    [
+     "1r55mv7",
+     "Check that the previous process has ended before resubmitting, and recheck the requirements of the target journal."
+    ],
+    [
+     "o03xjf",
+     "Source: PLOS One, editing and peer review process; course teaching example/simulated review"
+    ],
+    [
+     "133vx0s",
+     "21"
+    ]
+   ],
+   "note": "Inconsistent scope of process distinctions, insufficient methodological evidence, and factual disputes; changing journals cannot repair research flaws. Appeals will only be considered if they comply with the target journal's procedures and if the materials are available. During the PLOS One appeal period, the manuscript is still under formal consideration and will not be submitted for another submission. There are no contributions, complaints or letters sent on behalf of users.\nPLOS One, Editorial and Peer Review Process\nhttps://journals.plos.org/plosone/s/editorial-and-peer-review-process\nPositioning: Initial Checks, Editorial Review, Decisions, Revisions, Appeals, verified on 2026-10-18\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 166,
+   "pairs": [
+    [
+     "1gbnwzp",
+     "09 Paper writing, submission and revision"
+    ],
+    [
+     "eezfsv",
+     "Revisable writing and revision materials"
+    ],
+    [
+     "10pafld",
+     "Research materials, current draft, revision records, and point-by-point responses should all point to the same set of facts."
+    ],
+    [
+     "iyhljp",
+     "Source and calculation evidence"
+    ],
+    [
+     "n1i8sv",
+     "Current Draft and Paragraph Anchors"
+    ],
+    [
+     "olpeto",
+     "Modification and reply records"
+    ],
+    [
+     "s6km05",
+     "Version review before submission"
+    ],
+    [
+     "1km7yzt",
+     "Check numbers and units"
+    ],
+    [
+     "u924ri",
+     "Materials corresponding to text and charts"
+    ],
+    [
+     "b1jnk",
+     "Word draft cleaning and addition and deletion marking"
+    ],
+    [
+     "1r5tcsk",
+     "Restore positioning and keep gaps"
+    ],
+    [
+     "18n7cc7",
+     "The numbers in the materials, the judgments in the paragraphs, and the modifications in the document should correspond one by one."
+    ],
+    [
+     "macmqy",
+     "Next section: Fund declaration and Grant Agent. The current writing sample has not been submitted."
+    ],
+    [
+     "1ptuxbg",
+     "Source: Course Teaching Example/Mock Review"
+    ],
+    [
+     "13xuq3p",
+     "22"
+    ]
+   ],
+   "note": "Deliver public CSV and source hashes, actual calculation evidence, r0 intentional error manuscript, r1 revised manuscript, real differences, three simulated opinions and response matrix. This round also provides Word clean drafts, colored drafts marked with additions and deletions, and item-by-item replies. The correspondence between file hashes and paragraphs is in word-r1/export-manifest.json. The text of R1.1 and R1.2 has been changed, and the new research on R2.1 has not been completed. Having complete materials does not mean that the full text submission is compliant. The next section goes to fund declaration and Grant Agent.\nCourse self-edited teaching manuscript and mock review responses\nlocal:training/section-09/writing-packet/manuscript-r1.md\nPositioning: actual editable teaching draft, revision.diff and response-matrix.csv; not submitted yet"
+  },
+  {
+   "page": 167,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "vregdl",
+     "Fund declaration and Grant Agent"
+    ],
+    [
+     "1j9vvo0",
+     "The application needs to connect problems worth researching, credible solutions and the applicant’s work accumulation."
+    ],
+    [
+     "t741be",
+     "Why it’s worth studying"
+    ],
+    [
+     "1tdy423",
+     "How to prepare for research"
+    ],
+    [
+     "1wudy2b",
+     "Why can it be completed?"
+    ],
+    [
+     "1azgx29",
+     "Existing evidence and still unknown issues"
+    ],
+    [
+     "1fy98as",
+     "Testable plans and expected understandings"
+    ],
+    [
+     "e9rppp",
+     "Real preliminary work and implementation conditions"
+    ],
+    [
+     "1d6xbc1",
+     "Examples throughout this section: step-by-step prompts for independent problem solving with college students. The second half of the section looks at the actual local file process."
+    ],
+    [
+     "eex9x",
+     "Research design, document generation and formal declaration, and check the basis and status respectively."
+    ],
+    [
+     "1nkd31j",
+     "Source: NIH StrokeNet 2026 original courseware; National Natural Science Foundation of China 2026 application form revision instructions; course teaching simulation, not implemented yet"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "This section will first talk about the application demonstration, and then look at the local material process. The disclosure regulations are explained based on the 2026 National Natural Science Example; throughout the research design and 12-month arrangement, it is a course simulation, which has not been implemented and has not been submitted. The scope of the agent's responsibility for data compilation and document inspection will be specified separately.\nMitchell S. V. Elkind, Grant Writing, NIH StrokeNet, 2026-09-10\nhttps://nihstrokenet.org/docs/default-source/default-document-library/elkind-grant-writing-9-10-26.pdf?sfvrsn=0\nPositioning: PDF physics pages 21, 27, 29, 36, 40, and 51 have been viewed page by page; only refer to research demonstration, testability, risk and teaching organization, and do not copy the NIH system\nNational Natural Science Foundation of China, pay attention! ! ! Revision of application form in 2026, 2025-12-30\nhttps://www.nsfc.gov.cn/p1/3381/2821/99242.html\nPositioning: three parts of the text, research content organization and principles, 30 pages; only general and youth category C\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 168,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "7hih4q",
+     "Sources of requirements for different funding projects"
+    ],
+    [
+     "bqdp96",
+     "The same research idea must be re-examined according to the current guidelines of the submitted project."
+    ],
+    [
+     "18wxuap",
+     "Proposed Research"
+    ],
+    [
+     "1ut0er0",
+     "National Natural Science Foundation of China"
+    ],
+    [
+     "1vazjwl",
+     "Check the project type, research attributes and application requirements for the current year"
+    ],
+    [
+     "1fu4y69",
+     "Provincial, ministerial and local projects"
+    ],
+    [
+     "1hyprgu",
+     "Go back to the current guide of the corresponding department and check it item by item."
+    ],
+    [
+     "15vq9qo",
+     "On-campus and other funding"
+    ],
+    [
+     "2gl9yk",
+     "Subject to the publisher’s documents and official template"
+    ],
+    [
+     "1kev7jh",
+     "The research topic is similar and the qualifications, budget, or deadline of another project cannot be used accordingly."
+    ],
+    [
+     "y3klox",
+     "Source: National Natural Science 2026 Application Announcement; Course Teaching Simulation, not implemented yet"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "Central departments, provincial and ministerial levels, local and school projects do not form a unified reporting system. Check the funding scope, qualifications, limits, deadlines, budget methods and formal templates respectively. This page only talks about verification methods and does not provide unverified provincial age or funding regulations. Naturally, this is only an example with official basis.\nAnnouncement on the application and conclusion of the 2026 National Natural Science Foundation of China project, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: One (two) 1, 2, 4, 5, 6, 8, 10, 11 and supporting unit matters, verified on 2026-10-18\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 169,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "1a9l0ul",
+     "2026 National Natural Science Text Structure"
+    ],
+    [
+     "13yky1c",
+     "The main text of the General Project and Youth Science Fund Project (Category C) is adjusted into three parts."
+    ],
+    [
+     "52hv4m",
+     "Project basis"
+    ],
+    [
+     "19cgtok",
+     "Why was this study conducted? What is the value of research?"
+    ],
+    [
+     "1uxtnp",
+     "Research content"
+    ],
+    [
+     "15uh2rt",
+     "Arrange work according to research logic and explain how to answer questions."
+    ],
+    [
+     "14ely1p",
+     "Research Basics"
+    ],
+    [
+     "18t5d9d",
+     "Shows previous accumulation and its relationship with this project."
+    ],
+    [
+     "11mufjp",
+     "The main text should not exceed 30 pages in principle, and is suitable for general projects and Youth Science Fund projects (Category C)."
+    ],
+    [
+     "7xtkny",
+     "Formal filling in requires downloading the latest version of the current year from the Science Foundation Network Information System."
+    ],
+    [
+     "1naa4x6",
+     "Source: National Natural Science 2026 application form revision instructions; National Natural Science 2026 application notice"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "Official revision instructions on December 30, 2025: Project establishment basis, research content, and research basis. The research content does not preset a fixed outline and is organized according to its own research logic. In principle, the text should not exceed 30 pages. The scope of application is limited to the above two categories and cannot be extended to all funds; the number of pages needs to be checked against the final layout.\nNational Natural Science Foundation of China, pay attention! ! ! Revision of application form in 2026, 2025-12-30\nhttps://www.nsfc.gov.cn/p1/3381/2821/99242.html\nPositioning: three parts of the text, research content organization and principles, 30 pages; only for general and youth category C\nAnnouncement on the application and conclusion of the 2026 National Natural Science Foundation of China project, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: One (two) 1, 2, 4, 5, 6, 8, 10, 11 and supporting unit matters, verified on 2026-10-18"
+  },
+  {
+   "page": 170,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "1gwbpix",
+     "Requirements for the use of AI in national natural applications"
+    ],
+    [
+     "1i251cy",
+     "When AI participates in data compilation, the applicant must still verify the information, declare the usage, and mark it as required."
+    ],
+    [
+     "19ecaj9",
+     "Information and Citations"
+    ],
+    [
+     "go2phr",
+     "When AI assists in tracking trends and collating documents, the applicant shall verify the authenticity and accuracy of the information and documents item by item."
+    ],
+    [
+     "4pjm80",
+     "Usage"
+    ],
+    [
+     "blymsu",
+     "Make a comprehensive and truthful statement on the use of AI, and mark relevant content as required."
+    ],
+    [
+     "1qy3zil",
+     "Text of application form"
+    ],
+    [
+     "q44bv2",
+     "Application forms directly generated by generative AI shall not be used, nor shall unverified generated content be used."
+    ],
+    [
+     "xoyphe",
+     "The research design and Word prepared with the help of AI in this section are only for teaching demonstration and will not be used for national natural resources applications."
+    ],
+    [
+     "nr9sfx",
+     "Source: National Natural Science Foundation of China 2026 Application Notice"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ]
+   ],
+   "note": "According to Notice 1 (2) 8 of January 14, 2026: Manually verify the generated information and references, fully and truthfully declare the usage and label it; application forms directly generated by generative AI shall not be used, and unverified generated content shall not be used. Humanizer language modification is not a substitute for verification, declaration, or the researcher's own writing. This requirement directly changes the scope of use of the demonstration results.\nAnnouncement on the application and conclusion of the 2026 National Natural Science Foundation of China project, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: One (two) 1, 2, 4, 5, 6, 8, 10, 11 and supporting unit matters, verified on 2026-10-18"
+  },
+  {
+   "page": 171,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "1ufzb5d",
+     "Guidelines Requirements and Application Form Locations"
+    ],
+    [
+     "akuudi",
+     "Each requirement must correspond to the materials, text location, and matters that still need to be completed."
+    ],
+    [
+     "fwnklx",
+     "Official original text and terms"
+    ],
+    [
+     "1jn6epm",
+     "Extract specific requirements"
+    ],
+    [
+     "52k0y",
+     "Corresponding materials and locations"
+    ],
+    [
+     "h1zdsf",
+     "List the gaps"
+    ],
+    [
+     "1kplx9e",
+     "Save file date and source"
+    ],
+    [
+     "1h472dy",
+     "Distinguish between text structure, qualifications and attachments"
+    ],
+    [
+     "19tnmm0",
+     "Which facts are provided by whom?"
+    ],
+    [
+     "d76tmc",
+     "Matters that have not been obtained or verified"
+    ],
+    [
+     "1pzj8we",
+     "Example: The latest version of the template → Download from the system → Keep the original → Check the chapters and final layout."
+    ],
+    [
+     "1jgk727",
+     "This section also has a self-compiled guide.json, which only controls the classroom file demonstration and cannot replace the official guide."
+    ],
+    [
+     "xxmj1",
+     "The extraction records required by the public are kept separately from the local simulation guide."
+    ],
+    [
+     "gqbsz0",
+     "Source: National Natural Science 2026 application form revision instructions; National Natural Science 2026 application notice; course teaching simulation, not yet implemented"
+    ],
+    [
+     "80y4by",
+     "05"
+    ]
+   ],
+   "note": "Establish manual extraction records based on real notice templates, research foundations, and AI requirements. Withdrawal is not equivalent to obtaining declaration qualifications. Record the source terms and verification date, leaving gaps if a formal template is not obtained. Course guide.json is another simulation rule and should not be mixed with official documents.\nNational Natural Science Foundation of China, pay attention! ! ! Revision of application form in 2026, 2025-12-30\nhttps://www.nsfc.gov.cn/p1/3381/2821/99242.html\nPositioning: three parts of the text, research content organization and principles, 30 pages; only general and youth category C\nAnnouncement on the application and conclusion of the 2026 National Natural Science Foundation of China project, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: One (two) 1, 2, 4, 5, 6, 8, 10, 11 and supporting unit matters, verified on 2026-10-18\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 172,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "19laix0",
+     "Inventory of materials before declaration"
+    ],
+    [
+     "1n8naej",
+     "Existing literature, researchers’ work and proposed research need to be registered separately."
+    ],
+    [
+     "f26auu",
+     "Material registration and purpose verification"
+    ],
+    [
+     "1g2li5g",
+     "Public documents"
+    ],
+    [
+     "1m2hhvw",
+     "Support the research status and method selection, and indicate the reading scope."
+    ],
+    [
+     "vlktyr",
+     "The applicant already has a job"
+    ],
+    [
+     "1xj7i92",
+     "Check the paper contribution, data records and related work accumulation."
+    ],
+    [
+     "1mxvhx3",
+     "Proposed research"
+    ],
+    [
+     "1job25d",
+     "State the research hypothesis, conditions to be done, and unverified relationships."
+    ],
+    [
+     "9o86qm",
+     "When materials are missing, keep the problem and its impact and make up the team results without using common wording."
+    ],
+    [
+     "y3klox",
+     "Source: National Natural Science 2026 Application Announcement; Course Teaching Simulation, not implemented yet"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ]
+   ],
+   "note": "Researchers' papers must verify actual signatures and contributions; existing data descriptions of acquisition methods and processing; experimental conditions and cooperation commitments must be proven. The published paper supports the research background and cannot directly prove that the applicant has done experiments. The current example does not contain the applicant’s real materials, leaving gaps in the basic part.\nAnnouncement on the application and conclusion of the 2026 National Natural Science Foundation of China project, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: One (two) 1, 2, 4, 5, 6, 8, 10, 11 and supporting unit matters, verified on 2026-10-18\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 173,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "95gmx3",
+     "Through examples and questions to be answered"
+    ],
+    [
+     "jef4np",
+     "Do step-by-step prompts affect college students’ independent problem-solving performance after leaving AI?"
+    ],
+    [
+     "iqxohk",
+     "The same university introductory statistics course, the same model, questions and practice time"
+    ],
+    [
+     "ruid5m",
+     "Full answer"
+    ],
+    [
+     "1hk8dle",
+     "Allows direct access to answers"
+    ],
+    [
+     "uex1qa",
+     "Step-by-step tips"
+    ],
+    [
+     "nalpg9",
+     "Show your ideas first and then give clues for the next step"
+    ],
+    [
+     "vw8ipx",
+     "Main observation: Independent answering performance without new AI questions after one week"
+    ],
+    [
+     "e3f5g1",
+     "The course’s self-written research ideas have not yet been implemented and have not been proven to be suitable for a certain fund category."
+    ],
+    [
+     "cxe7bx",
+     "Source: Course teaching simulation, not implemented yet"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ]
+   ],
+   "note": "The research context is set as an introductory statistics course at a university. Compare the complete answers under the same model and write down the ideas first and then get the next step prompts; mainly focus on the test without AI new questions after one week. The questions, subjects, and research arrangements are a teaching simulation, and no claims are made about student recruitment, ethical approval, or creative judgment.\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 174,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "xwg5hz",
+     "Documents in the project basis and questions in this example"
+    ],
+    [
+     "zi54x",
+     "The subjects, interventions, and measurements of existing research can help define what this example is going to ask."
+    ],
+    [
+     "1tf83ym",
+     "Open Research: High School Mathematics"
+    ],
+    [
+     "161oqwy",
+     "Bastani et al. (PNAS, 2025) compared different AI tutoring conditions and set up an unassisted test. The research design observes the tool use stage and the independent answering stage separately."
+    ],
+    [
+     "7l1wfu",
+     "This example is intended to ask: University statistics course"
+    ],
+    [
+     "1jkmatq",
+     "Under the same model and task, does writing ideas first and then getting step-by-step prompts change independent problem-solving performance? It is necessary to continue searching similar studies to determine the specific differences."
+    ],
+    [
+     "n67rhi",
+     "The design inspiration of high school research can be used for reference; the effectiveness and innovation in the university setting still need evidence."
+    ],
+    [
+     "8m36v",
+     "Authentic literature provides context. The university situation and prompt comparison in this example are still assumptions to be verified."
+    ],
+    [
+     "1nu0vwy",
+     "Source: Bastani et al. 2025 research design; this example is planned separately; course teaching simulation, not implemented"
+    ],
+    [
+     "76zb91",
+     "08"
+    ]
+   ],
+   "note": "The 2025 PNAS study by Bastani et al. came from a high school mathematics situation, comparing different AI tutoring conditions and setting unassisted tests. Read the author's public version of Experimental Design. The study design is merely reproduced here; no effect numbers are cited, nor are high school results directly generalized to college. Formal project approval requires continued verification of the final version, errata, and related literature; a comprehensive search has not yet been completed.\nBastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025, 10.1073/pnas.2422633122\nhttps://hamsabastani.github.io/education_llm.pdf\nPositioning: The author's public version of Experimental Design (PDF pages 4-6 and adjacent instructions) only describes the comparison conditions and unaided measurements, and does not use effect figures. The metadata of errata 10.1073/pnas.2518204122 was also found, and the full text of the errata has not been read; it is not claimed that a complete verification of the final version and errata has been completed.\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 175,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "jv8zcm",
+     "Scientific issues, goals and research content"
+    ],
+    [
+     "1x83wpf",
+     "The problem states the unknown relationship, the goal states what is to be found out, and the research content arranges the work to obtain evidence."
+    ],
+    [
+     "1878jm0",
+     "Science Question"
+    ],
+    [
+     "11l7anw",
+     "Research Objectives"
+    ],
+    [
+     "1uxtnp",
+     "Research content"
+    ],
+    [
+     "dcypbl",
+     "What is the relationship between the prompt method and independent problem solving after leaving AI?"
+    ],
+    [
+     "xbidqw",
+     "Compare the independent test performance under the two conditions and check the answering process."
+    ],
+    [
+     "1pkc9xe",
+     "Pre-test questions and scoring, implementation comparison, recording process, and joint explanation."
+    ],
+    [
+     "1hv1qy4",
+     "Concepts are used to organize ideas, and the text is developed according to the logic of the research itself."
+    ],
+    [
+     "1899xls",
+     "Source: National Natural Science 2026 application form revision instructions; course teaching simulation, not implemented yet"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "Scientific questions are related to prompt methods and independent problem solving. Goals are specific enough to compare performance and examine process. Content includes previews of material, tutorial comparisons, independent quizzes, and process explanations. These terms are mentioned to make the argument clear and not to redefine the content of natural science research in 2026 into old-style subtitles.\nNational Natural Science Foundation of China, pay attention! ! ! Revision of application form in 2026, 2025-12-30\nhttps://www.nsfc.gov.cn/p1/3381/2821/99242.html\nPositioning: three parts of the text, research content organization and principles, 30 pages; only general and youth category C\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 176,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "ftwc09",
+     "Research content and testable results"
+    ],
+    [
+     "b6aueh",
+     "Each research content needs to explain what is observed, how to judge, and what can be answered even if the expected results are not obtained."
+    ],
+    [
+     "1hij34i",
+     "Questions and Scoring Preliminary Test"
+    ],
+    [
+     "3j84qq",
+     "Check the difficulty of the questions and scoring rules, and form reviewable materials and revision records."
+    ],
+    [
+     "95g2u2",
+     "Comparison of Tutoring Conditions"
+    ],
+    [
+     "qpiqyt",
+     "Unify measurements, record the two sets of processes and the results of new questions without AI, and report differences and uncertainties."
+    ],
+    [
+     "8je82d",
+     "Explanation of process and results"
+    ],
+    [
+     "1ycldpu",
+     "Compare attempts, help and correction records. When no expected differences occur, the design and applicable scope will be analyzed truthfully."
+    ],
+    [
+     "1tda5g8",
+     "The products in the research plan are expected arrangements and cannot be written as results that have been achieved."
+    ],
+    [
+     "qgpmyo",
+     "Source: NIH StrokeNet 2026 original courseware; course teaching simulation, not implemented"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "Pre-tests check the consistency of questions and scores; comparative studies record independent tests; process analysis checks attempts, help, and corrections. Each item should have its own interpretable product, so that if one expected effect does not appear, all other research cannot be carried out. The specific sample size and improvement ratio have not been set.\nMitchell S. V. Elkind, Grant Writing, NIH StrokeNet, 2026-09-10\nhttps://nihstrokenet.org/docs/default-source/default-document-library/elkind-grant-writing-9-10-26.pdf?sfvrsn=0\nPositioning: PDF physics pages 21, 27, 29, 36, 40, and 51 have been viewed page by page; only refer to research demonstration, testability, risk and teaching organization, and do not copy the NIH system\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 177,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "1vwnmlr",
+     "Research hypothesis and other possible explanations"
+    ],
+    [
+     "1owjxyn",
+     "The relationship between prompting methods, independent attempts and subsequent tests needs to be tested by design and data."
+    ],
+    [
+     "1nj94x6",
+     "Step-by-step prompt method"
+    ],
+    [
+     "vjpsw3",
+     "Independent attempts and corrections"
+    ],
+    [
+     "10d6gjt",
+     "No AI new question performance"
+    ],
+    [
+     "gdfvzo",
+     "Record the actual prompt provided"
+    ],
+    [
+     "ieg1wp",
+     "Retain steps and modification process"
+    ],
+    [
+     "otfk2i",
+     "Adopt unified testing and scoring"
+    ],
+    [
+     "1lmv5rc",
+     "Other possible explanations: existing level, learning investment, difficulty of questions, teacher implementation and communication between groups."
+    ],
+    [
+     "bgorsy",
+     "The dotted line is the relationship to be tested; factors such as existing level and implementation differences need to be considered separately."
+    ],
+    [
+     "cxe7bx",
+     "Source: Course teaching simulation, not implemented yet"
+    ],
+    [
+     "80uytz",
+     "11"
+    ]
+   ],
+   "note": "The dashed line represents a course hypothesis and cannot be used as a confirmed mechanism diagram. The correlation between process indicators and tests may also be affected by factors such as existing level, investment time, teacher implementation, etc.; even if prompt conditions are randomly assigned, process mediating variables cannot be automatically interpreted as causal mechanisms.\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 178,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "ys2d5k",
+     "Compare design and measurement arrangements"
+    ],
+    [
+     "1ougyvj",
+     "The two groups used the same model, questions and practice duration. One week later, the answers to new questions without AI were evaluated according to unified rules."
+    ],
+    [
+     "lal26r",
+     "Check access and allocation plan"
+    ],
+    [
+     "n9xu5x",
+     "Complete answer conditions"
+    ],
+    [
+     "5i3zzx",
+     "Step-by-step prompt conditions"
+    ],
+    [
+     "fsjf8t",
+     "No new AI questions after one week"
+    ],
+    [
+     "j7mz2q",
+     "Grading according to unified rules"
+    ],
+    [
+     "15tmybw",
+     "Keep records of actual requests for help and responses"
+    ],
+    [
+     "dueldp",
+     "Scoring rules and analysis plans are predetermined"
+    ],
+    [
+     "1sg6uhm",
+     "Research and design teaching instructions. Sample size, allocation method, ethics and authorization are still to be determined."
+    ],
+    [
+     "qgpmyo",
+     "Source: NIH StrokeNet 2026 original courseware; course teaching simulation, not implemented"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ]
+   ],
+   "note": "Keep the same comparison with Section 6 s6-r5 plan: step-by-step prompts and complete answers. Five new questions without AI one week after practice are the main measurement, each with 0 to 20 points, and the total score is 0 to 100 points. The validity of the questions, scoring rules, allocation units and independence need to be checked. The previous capacity example of 50 people per group was only based on the assumption of a difference of 6 points, a standard deviation of 10 points, and a retention rate of 90%. It cannot be directly filled in with the actual number of applicants; this section does not have the basis or approval to create a sample based on this.\nMitchell S. V. Elkind, Grant Writing, NIH StrokeNet, 2026-09-10\nhttps://nihstrokenet.org/docs/default-source/default-document-library/elkind-grant-writing-9-10-26.pdf?sfvrsn=0\nPositioning: PDF physics pages 21, 27, 29, 36, 40, and 51 have been viewed page by page; only refer to research demonstration, testability, risk and teaching organization, and do not copy the NIH system\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 179,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "pygr42",
+     "Compare the technical route implemented and measured one week later"
+    ],
+    [
+     "rjharj",
+     "Keep the process records of the two conditions separately, and then compare them using the same measurement time point and scoring rules."
+    ],
+    [
+     "pbl2la",
+     "Questions and scoring rules"
+    ],
+    [
+     "zfbl4j",
+     "Material pre-testing and distribution arrangements"
+    ],
+    [
+     "5i3zzx",
+     "Step-by-step prompt conditions"
+    ],
+    [
+     "n9xu5x",
+     "Complete answer conditions"
+    ],
+    [
+     "1euwfwc",
+     "Prompt group process record"
+    ],
+    [
+     "fl6l7n",
+     "Answer Group Process Record"
+    ],
+    [
+     "fsjf8t",
+     "No new AI questions after one week"
+    ],
+    [
+     "j7mz2q",
+     "Grading according to unified rules"
+    ],
+    [
+     "1mfr7ge",
+     "Compare according to scheduled plan"
+    ],
+    [
+     "1wh6ajj",
+     "Use the same number to correspond to the group, process and test;"
+    ],
+    [
+     "an5u61",
+     "Measurement missing and execution deviations are registered separately."
+    ],
+    [
+     "llrq4j",
+     "Teaching proposal, not implemented. Pre-testing, distribution, measurement quality and start-up conditions are still to be determined."
+    ],
+    [
+     "cxe7bx",
+     "Source: Course teaching simulation, not implemented yet"
+    ],
+    [
+     "8ku67x",
+     "13"
+    ]
+   ],
+   "note": "The figure corresponds to the proposed scheme of Section 8 s8-r6 and Section 6 s6-r5. PPT's 8 nodes and 8 connections read grant-packet/diagrams/route.json; keep draw.io, SVG and actual PNG in the same directory, and Word embeds the same PNG. Please also refer to decision.json and Word Figure 2 for rework when the materials are not complete; do not fill in the criteria or pass the conclusion out of thin air. Technology roadmap arrows represent work sequences and subsequent measurements, not causal mechanisms.\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 180,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "19lnmi1",
+     "Basis for comparison of innovation points"
+    ],
+    [
+     "wlx90g",
+     "The innovation demonstration needs to be clear: which existing work is compared with and which testable knowledge is added."
+    ],
+    [
+     "ca6e8l",
+     "What does existing work cover?"
+    ],
+    [
+     "1a613vm",
+     "Different AI tutoring designs, practice phases and unassisted tests have been publicly studied."
+    ],
+    [
+     "6l595a",
+     "What are we going to compare in this example?"
+    ],
+    [
+     "1x81i7u",
+     "Specific prompting methods in college statistics courses, and the correspondence between process records and independent performance."
+    ],
+    [
+     "1v2pzeq",
+     "What is still needed for innovation demonstration?"
+    ],
+    [
+     "1jz8gpm",
+     "Retrieve relevant university research, describe specific unsolved problems and their value, and then determine whether new understanding has been formed."
+    ],
+    [
+     "n5jdyc",
+     "Currently, only the comparative method of innovation demonstration is given, and the innovativeness still needs to be checked with literature and experts."
+    ],
+    [
+     "1cxwrkz",
+     "Source: NIH StrokeNet 2026 original courseware; Bastani et al. 2025 research design; this example is planned separately; course teaching simulation, not implemented"
+    ],
+    [
+     "6mwyd4",
+     "14"
+    ]
+   ],
+   "note": "Existing studies in high school mathematics have compared different tutoring designs, so AI tutoring, step-by-step prompts, or independent tests themselves cannot be generally called firsts. Different statistical situations in universities can raise comparative questions, but changing objects does not itself prove scientific innovation. It is necessary to systematically check relevant research and formulate specific differences and value judgments.\nMitchell S. V. Elkind, Grant Writing, NIH StrokeNet, 2026-09-10\nhttps://nihstrokenet.org/docs/default-source/default-document-library/elkind-grant-writing-9-10-26.pdf?sfvrsn=0\nPositioning: PDF physics pages 21, 27, 29, 36, 40, and 51 have been viewed page by page; only refer to research demonstration, testability, risk and teaching organization, and do not copy the NIH system\nBastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025, 10.1073/pnas.2422633122\nhttps://hamsabastani.github.io/education_llm.pdf\nPositioning: The author's public version of Experimental Design (PDF pages 4-6 and adjacent instructions) only describes the comparison conditions and unaided measurements, and does not use effect figures. The metadata of errata 10.1073/pnas.2518204122 was also found, and the full text of the errata has not been read; it is not claimed that a complete verification of the final version and errata has been completed.\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  }
+ ]
+}
