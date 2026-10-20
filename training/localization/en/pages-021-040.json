@@ -1,0 +1,1253 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  21,
+  40
+ ],
+ "items": [
+  {
+   "page": 21,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "1c3aw71",
+     "Fixed workflow and dynamic decision-making"
+    ],
+    [
+     "11xqozj",
+     "Tasks with stable steps are suitable for preset processes; tasks with incomplete materials and difficult paths to list in advance require more dynamic judgment."
+    ],
+    [
+     "2i8ft9",
+     "Preset workflow"
+    ],
+    [
+     "1c3v0uo",
+     "Extraction Terms"
+    ],
+    [
+     "1bbtm3e",
+     "Field check"
+    ],
+    [
+     "1nx101",
+     "Fill in the template"
+    ],
+    [
+     "ptn91a",
+     "Export file"
+    ],
+    [
+     "wpf040",
+     "Steps and branches are predefined, suitable for tasks that require stable, repetitive processing."
+    ],
+    [
+     "1llt36o",
+     "Dynamic supplementary check"
+    ],
+    [
+     "kj3euz",
+     "The requirements are vague"
+    ],
+    [
+     "onq1dv",
+     "Read attachment/instructions"
+    ],
+    [
+     "ag69ol",
+     "Confirm or register missing items"
+    ],
+    [
+     "1mkcgag",
+     "Choose the next step according to the material; the main process can be fixed, and dynamic judgment can be retained in some links."
+    ],
+    [
+     "22ktri",
+     "Combination method: The main process is fixed, and uncertain links such as evidence re-examination are handed over to the Agent."
+    ],
+    [
+     "askzxd",
+     "Source: Anthropic: Building effective agents"
+    ],
+    [
+     "80y4by",
+     "05"
+    ]
+   ],
+   "note": "Anthropic's architectural distinction between preset paths and model dynamic control paths is used here. This article was published in 2024 and is suitable for talking about basic models. The tool introduction cannot be used to infer the complete functions of today's products. The scientific research proposal is for course migration: the main application process can be fixed, but finding missing evidence requires judgment; identity qualifications, funding direction, and scientific conclusions are still confirmed by the researcher.\nDetailed teaching content:\nComparison dimensions: Workflow: Preset workflow: Agent: Dynamically determine some steps\nHow to determine the next step: Execute according to the predetermined rules and order: Combine the current materials and tools to return the result selection\nScientific research situation: Guide extraction → field check → template filling → export: a certain requirement is ambiguous, please check the attachment or previous explanations\nProblems that are likely to occur: When the input does not meet expectations, the process may get stuck: detours may occur, searches may be repeated, or completion may be misjudged.\nControl method: check input, set branches and missing items Prompt: limit scope, keep records, clarify stop conditions\nAnthropic, Building effective agents, 2024-12-19\nhttps://www.anthropic.com/engineering/building-effective-agents\nPositioning: What are agents; Workflows; Agents. Used to explain architectural patterns and not used to compare current products."
+  },
+  {
+   "page": 22,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "10umgdq",
+     "Focus on the use of ChatGPT and Codex"
+    ],
+    [
+     "10kwiag",
+     "The abilities of the two overlap. The selection should be based on whether the materials, tools and delivery method are appropriate for the task at hand."
+    ],
+    [
+     "vo4bwt",
+     "Product functions are subject to the current environment; the \"chat interface\" may also host Agent tasks."
+    ],
+    [
+     "smwtax",
+     "Source: OpenAI Docs: Use ChatGPT"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "1or3v58",
+     "Comparison Dimensions Collaboration in ChatGPT Collaboration in Codex"
+    ],
+    [
+     "1o4nusf",
+     "Typical work entrance Questions, materials, files and natural language tasks Working directory, files and natural language tasks"
+    ],
+    [
+     "1mm8u5i",
+     "Suitable content for attention: explanation, comparison, discussion, and products supported by available tools: file processing, script running, version recording and result checking"
+    ],
+    [
+     "1if0f8k",
+     "Possible to complete. Conduct research, analysis and documentation when appropriate tools are available. Conduct research, analysis and documentation when appropriate tools are available."
+    ],
+    [
+     "jzxq0",
+     "Check before use Current account, mode, connection tool and file permissions Current environment, dependencies, network and file permissions"
+    ]
+   ],
+   "note": "The official document read on 2026-10-17 explains that the capabilities overlap. The table represents common work concerns and is not an exclusive list of features. Don’t pretend that ChatGPT is only for chatting or Codex is only for programming; in an environment with the right tools, both can handle research and documentation tasks. There is no need to introduce specific account packages or interface parameters to avoid deviating from the course.\nDetailed teaching content:\nComparison dimensions: Collaboration in ChatGPT: Collaboration in Codex\nTypical work entrance: questions, materials, files and natural language tasks: working directory, files and natural language tasks\nWhat to focus on: explanations, comparisons, discussions, and artifacts supported by available tools: file processing, script running, version logging, and result checking\nPossible: Research, analysis, and documentation when tools are available: Research, analysis, and documentation when tools are available\nCheck before use: current account, mode, connection tool and file permissions: current environment, dependencies, network and file permissions\nOpenAI Docs, Use ChatGPT\nhttps://learn.chatgpt.com/docs/use-chatgpt\nPositioning: Go from idea to useful result; Compare ChatGPT Work and Codex on desktop; Check 2026-10-17"
+  },
+  {
+   "page": 23,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "8aw9ls",
+     "Tool call and execution evidence"
+    ],
+    [
+     "1mtkrha",
+     "The model can propose operations; only after the tool is actually executed will there be return results that can be checked."
+    ],
+    [
+     "1pul0pb",
+     "Model proposed"
+    ],
+    [
+     "1nluwyh",
+     "Operation request"
+    ],
+    [
+     "1axs7tj",
+     "Tool actual execution"
+    ],
+    [
+     "k77x8",
+     "Checkable results"
+    ],
+    [
+     "11oliyv",
+     "Search"
+    ],
+    [
+     "13bma9k",
+     "Query conditions, source and reading date"
+    ],
+    [
+     "1t7etcx",
+     "Calculation"
+    ],
+    [
+     "158ozbp",
+     "Data version, code and operation output"
+    ],
+    [
+     "1cubzil",
+     "Write file"
+    ],
+    [
+     "9x1qf9",
+     "Editable files, preview and inspection records"
+    ],
+    [
+     "1f3ii41",
+     "\"Completed\" should be able to correspond to real files or operation records; generating a description does not mean execution."
+    ],
+    [
+     "10sywke",
+     "Source: Stanford CS224N (2026), Lecture 10; OpenAI Docs: Architecture"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ]
+   ],
+   "note": "To give an example: AI gives an average value in a chat, and running a script with a clear data file to get the average value has different evidence. Even if there is a run output, the input data and calculation method still need to be checked. The name of the tool does not guarantee the quality; the fact that the file can be downloaded does not guarantee that the content is scientifically correct. When scientific research materials involve external systems, they should be operated within the scope of authorization.\nDetailed teaching content:\nSearch tool: query database or web page, read material: query conditions, source link, reading date\nCalculation tools: scripted data processing and statistics generation: data version, code, run output\nDocument tools: Write to Word, Sheets or Slides: Output files, preview and structure checking\nConnection tools: Read or modify external systems that are allowed to connect: operation objects, return status, and change records\nStanford CS224N, Winter 2026, Lecture 10: RAG and Agents\nhttps://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf\nPositioning: PDF pages 29-30: Definition and composition; Page 61: Execution environment; Page 68: Evaluation; Page 70: Tool cycle\nOpenAI Docs, Agents API Architecture\nhttps://developers.openai.com/api/docs/guides/agents-api/architecture\nPositioning: The pieces; Add an environment; Receive progress and results. Platform implementation examples are not intended to serve as a unified definition for all Agents."
+  },
+  {
+   "page": 24,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "1a6dkup",
+     "Skill: Reusable task practices"
+    ],
+    [
+     "14t4zjo",
+     "Skill puts together the processing requirements, reference materials and necessary scripts for a type of task for Agent to use on demand."
+    ],
+    [
+     "1yhq0jl",
+     "Skill: Literature verification"
+    ],
+    [
+     "24otaa",
+     "Task Instructions"
+    ],
+    [
+     "368e24",
+     "Verification steps and handling of missing items"
+    ],
+    [
+     "8se5ub",
+     "Reference specification"
+    ],
+    [
+     "1uroyx0",
+     "Field, template and source requirements"
+    ],
+    [
+     "1hx2pdv",
+     "Optional script"
+    ],
+    [
+     "xuzkc9",
+     "Retrieval, comparison or file output"
+    ],
+    [
+     "1u40e38",
+     "Only SKILL.md, it can also be a command-based skill; whether it can be executed depends on the tools, resources and environment."
+    ],
+    [
+     "10nz49t",
+     "Source: OpenAI Docs: Build skills"
+    ],
+    [
+     "76zb91",
+     "08"
+    ]
+   ],
+   "note": "Avoid referring to skills as abilities that have been trained into the model. Skills are usually task packages that can contain instructions and optional scripts. A skill with only a description file is not necessarily useless, but it cannot be used to claim that automatic retrieval, Word output, or the entire process has been run. The examples on this page are instructions written for the course. There are no execution logs, and it does not claim that the current warehouse implements all actions.\nDetailed teaching content:\nWhen to use: Describe the applicable task, such as \"check references.\"\nHow to deal with it: It is required to check the original text first, then check the fields, and register unverified items.\nWhat to base it on: Attach a specification, field description, template, or checklist.\nHow to deliver: Specify the results table fields, file format, and description of missing items.\nOpenAI Docs, Build skills\nhttps://learn.chatgpt.com/docs/build-skills\nPositioning: Skills include instructions, resources and optional scripts; How ChatGPT and Codex use skills; Check 2026-10-17"
+  },
+  {
+   "page": 25,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "i8zzwc",
+     "Prompt, Skill, Tools and MCP"
+    ],
+    [
+     "1ogx70k",
+     "They deal with task requirements, reusable methods, specific operations and connection methods respectively."
+    ],
+    [
+     "1mzjfp6",
+     "This mission"
+    ],
+    [
+     "1lmzxp7",
+     "Prompt"
+    ],
+    [
+     "vxbxqz",
+     "Agent execution system"
+    ],
+    [
+     "1o41xdy",
+     "Tools/Data Services"
+    ],
+    [
+     "16hx149",
+     "MCP is available as a connection method"
+    ],
+    [
+     "snbyze",
+     "Skill: Reusable task methods"
+    ],
+    [
+     "u7dja",
+     "What should I check this time?"
+    ],
+    [
+     "h6j8vl",
+     "Check records, read materials, and export forms"
+    ],
+    [
+     "y9lws9",
+     "Tools that do not use MCP can also be called by the system."
+    ],
+    [
+     "1mct3vl",
+     "MCP does not grant database access; Skills are not a substitute for tool access or real materials."
+    ],
+    [
+     "6dmere",
+     "Source: OpenAI Docs: Build skills; MCP Official: What is MCP?"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "MCP is an open standard that connects AI applications and external systems. It is not a certain model, database or fixed set of tools. Metaphors are only used to assist understanding and are not meant to be a universal interface. The school's database authorization and the service's own license still apply. Prompts, skills, and tools can be combined without MCP; don’t let students mistakenly think that MCP must be installed to do scientific research tasks.\nDetailed teaching content:\nName: Main role: Examples in literature verification\nPrompt: Prompt: Explain what to do this time and what are the restrictions: Verify this list and keep unverified items\nSkill: Task method: Save reusable steps and resources: Title, author, year, DOI comparison one by one\nTool: Tool: perform a specific operation: query records, read PDF, export table\nMCP: Connectivity standards: Let applications connect to external tools or data by common agreement: Access approved data sources through MCP-enabled services\nOpenAI Docs, Build skills\nhttps://learn.chatgpt.com/docs/build-skills\nPositioning: Skills include instructions, resources and optional scripts; How ChatGPT and Codex use skills; Check 2026-10-17\nModel Context Protocol: What is MCP?\nhttps://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro\nPositioning: open standard for connecting AI applications and external systems; check 2026-10-17"
+  },
+  {
+   "page": 26,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "c193bw",
+     "Workflow framework for application material processing"
+    ],
+    [
+     "17ey0uh",
+     "Only by clearly writing the input, output and check conditions of each step can you judge whether the file is advancing or just generating more text."
+    ],
+    [
+     "5prs6k",
+     "Analysis Guide"
+    ],
+    [
+     "1o3b18k",
+     "Corresponding template"
+    ],
+    [
+     "cn0uxy",
+     "Organizing content"
+    ],
+    [
+     "1yh8b12",
+     "Check and export"
+    ],
+    [
+     "1pegskr",
+     "Reserved terms and original text location"
+    ],
+    [
+     "ah2lru",
+     "Chapter, fields, word count and attachments"
+    ],
+    [
+     "19an1my",
+     "Only use the research evidence provided"
+    ],
+    [
+     "1exfa2i",
+     "Check for missing items, references and files"
+    ],
+    [
+     "tilcek",
+     "Guideline Requirements"
+    ],
+    [
+     "19h7bpc",
+     "It is necessary to be able to trace specific chapters, attachments or original terms."
+    ],
+    [
+     "1uxtnp",
+     "Research content"
+    ],
+    [
+     "1afk2c4",
+     "It is necessary to distinguish between existing results, planned work and missing materials."
+    ],
+    [
+     "11c3lds",
+     "Final Document"
+    ],
+    [
+     "18rmhme",
+     "Editable text, question list, and version information should be retained."
+    ],
+    [
+     "dlrpe9",
+     "Teaching Framework: The actual materials, operations and running results of the complete Grant Agent are displayed in Section 10."
+    ],
+    [
+     "askzxd",
+     "Source: Anthropic: Building effective agents"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "This page is not a functional acceptance form and does not claim that a system has completed the entire chain. Processes can include fixed steps and dynamic catch-up checks. The research plan cannot automatically fill in the previous results just because the template requires it; when the information is not provided, the missing items should be registered. Checking content organization and final formatting separately can reduce the work of unscheduled repeated formatting of the text.\nDetailed teaching content:\nGuide requirements: You must be able to trace specific chapters, attachments or original articles.\nResearch content: It is necessary to distinguish between existing results, proposed work and missing materials.\nFinal document: Editable text, issue list, and version information should be retained.\nAnthropic, Building effective agents, 2024-12-19\nhttps://www.anthropic.com/engineering/building-effective-agents\nPositioning: What are agents; Workflows; Agents. Used to explain architectural patterns and not used to compare current products."
+  },
+  {
+   "page": 27,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "zgkv44",
+     "Applicable scope of multi-Agent collaboration"
+    ],
+    [
+     "1q5dibu",
+     "Multiple roles facilitate division of labor and also increase the burden of information transfer and result merging."
+    ],
+    [
+     "ao2hxy",
+     "Same task and materials"
+    ],
+    [
+     "pq42ok",
+     "Merge results"
+    ],
+    [
+     "1yuux8m",
+     "Reservation conflict"
+    ],
+    [
+     "veks3w",
+     "Retrieve original source"
+    ],
+    [
+     "7b3n51",
+     "Processing statistical data"
+    ],
+    [
+     "1ak5ae6",
+     "Check citations and arguments"
+    ],
+    [
+     "wac9kh",
+     "Share input versions, field standards and source records"
+    ],
+    [
+     "24tl1",
+     "Division of labor is an organizational choice; multiple models give the same answer, and original evidence needs to be checked."
+    ],
+    [
+     "6gzy9b",
+     "Source: Anthropic: Building effective agents; Stanford CS224N (2026), Lecture 10"
+    ],
+    [
+     "80uytz",
+     "11"
+    ]
+   ],
+   "note": "We talk about multiple agents in a conceptual framework, but do not actually start multiple agents. Parallelizing some tasks can help save time, but if multiple actors share the same error source, it cannot independently verify the facts. When discussing scientific conclusions, evidence should be incorporated rather than simply voted on. Tasks that are difficult to divide and have small material scale can be completed by a single execution system first.\nDetailed teaching content:\nDivision of work by material: read different papers separately, and then summarize them by the same field: missing common standards, duplication or contradiction\nDivision of labor by method: retrieval, statistics and mapping are processed separately: input versions are different and the results cannot be connected.\nDivide the work according to the inspection angle: check the source, argument and format: repeatedly evaluate the text and lack of original evidence\nUnified summary: handle conflicts, retain the basis and items to be judged: treat the majority opinion as a scientific conclusion\nAnthropic, Building effective agents, 2024-12-19\nhttps://www.anthropic.com/engineering/building-effective-agents\nPositioning: What are agents; Workflows; Agents. Used to explain architectural patterns and not used to compare current products.\nStanford CS224N, Winter 2026, Lecture 10: RAG and Agents\nhttps://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf\nPositioning: PDF pages 29-30: Definition and composition; Page 61: Execution environment; Page 68: Evaluation; Page 70: Tool cycle"
+  },
+  {
+   "page": 28,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "1t1a5y3",
+     "Context, memory and task status"
+    ],
+    [
+     "12tj6pf",
+     "Long tasks need to save key progress and cannot just rely on the text in the current conversation."
+    ],
+    [
+     "17ink5f",
+     "Current task context"
+    ],
+    [
+     "1uldaaf",
+     "Status record"
+    ],
+    [
+     "plcogv",
+     "Continue the mission"
+    ],
+    [
+     "uofnqk",
+     "Original material"
+    ],
+    [
+     "1qcy2z2",
+     "Complete results"
+    ],
+    [
+     "vstbhg",
+     "To be verified/failed item"
+    ],
+    [
+     "1kamzn7",
+     "The abstract is used for continuation; the original document, source location and version must still be retained."
+    ],
+    [
+     "mz6vob",
+     "Conversation summaries are useful for continuing tasks; important results should still retain the original documents and locateable sources."
+    ],
+    [
+     "1l2vydt",
+     "Source: Stanford CS224N (2026), Lecture 10; Anthropic: Effective harnesses (2025)"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ]
+   ],
+   "note": "Memory here is a system's arrangement for retaining and retrieving information, not the equivalent of human memory. Let me give you an example of failure: It is not clear which guide version to use when continuing a task, and it is easy to overwrite the modified requirements. External records may also be stale or incorrect, so check with current files; simply saving all chats does not equal effective task status management.\nDetailed teaching content:\nCurrent context: Instructions, materials and tools available this time Result: A paper being checked and the target field\nRetrieval memory: Records or information that can be accessed again later: Document notes and sources that have been organized\nTask status: which ones have been completed, failed or awaiting confirmation: items that have been checked, items that have not obtained the original text\nDocument version: Which version is used for input and output: guideline revision date, data version, manuscript version\nStanford CS224N, Winter 2026, Lecture 10: RAG and Agents\nhttps://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf\nPositioning: PDF pages 29-30: Definition and composition; Page 61: Execution environment; Page 68: Evaluation; Page 70: Tool cycle\nAnthropic, Effective harnesses for long-running agents, 2025-11-26\nhttps://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\nPositioning: Feature list; Incremental progress; Testing and environment; Suggestions for migration to scientific research situations are written by this course."
+  },
+  {
+   "page": 29,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "1q4i8ph",
+     "Harness: Operation arrangement that allows Agent to continue working\nThe"
+    ],
+    [
+     "5j11jg",
+     "model is responsible for generating judgment and operation requests; Harness organizes how these requests are executed, left traces, continued and stopped."
+    ],
+    [
+     "cis8ln",
+     "Harness: organize execution, save progress, handle exceptions"
+    ],
+    [
+     "1o9cplr",
+     "Objectives and Materials"
+    ],
+    [
+     "zfdh23",
+     "Model selection next step"
+    ],
+    [
+     "sk4f26",
+     "Use methods in Skill"
+    ],
+    [
+     "vl919q",
+     "Tool execution"
+    ],
+    [
+     "12ix5el",
+     "Return actual result or error"
+    ],
+    [
+     "1x62p5f",
+     "Status recording and result checking"
+    ],
+    [
+     "1fvgmdi",
+     "Task requirements"
+    ],
+    [
+     "1sgu59n",
+     "Permissions and Completion Conditions"
+    ],
+    [
+     "phtmii",
+     "Course Framework: Used to understand operational responsibilities and does not require mastery of interfaces, code or deployment parameters."
+    ],
+    [
+     "9rtlai",
+     "Source: OpenAI Docs: Architecture; Anthropic: Effective harnesses (2025)"
+    ],
+    [
+     "8ku67x",
+     "13"
+    ]
+   ],
+   "note": "Harness does not have a unified Chinese translation that must be adopted verbatim. It is explained here as an operating arrangement. Harness in the OpenAI documentation is a specific implementation of its managed Codex instance, and the Anthropic article discusses the initialization, progress, and testing of long tasks. The course abstracts them into common responsibilities and does not directly describe a certain vendor structure as the definition of all systems. This page is a concept map.\nDetailed teaching content:\nFor teachers: it can be understood as a complete set of operational arrangements required to perform tasks.\nDifferent from Skill: Skill provides the practice of specific tasks; Harness is responsible for hosting and managing execution.\nIt should be noted that the implementation and naming of different systems are different, and there is no one list that applies to all products.\nOpenAI Docs, Agents API Architecture\nhttps://developers.openai.com/api/docs/guides/agents-api/architecture\nPositioning: The pieces; Add an environment; Receive progress and results. Platform implementation examples are not intended to serve as a unified definition for all Agents.\nAnthropic, Effective harnesses for long-running agents, 2025-11-26\nhttps://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\nPositioning: Feature list; Incremental progress; Testing and environment; Suggestions for migration to scientific research situations are written by this course."
+  },
+  {
+   "page": 30,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "1seipgo",
+     "Material and version management in Harness"
+    ],
+    [
+     "4nzklx",
+     "When doing the same task again, you must first confirm which material and version of the requirements are being processed next."
+    ],
+    [
+     "143dxsy",
+     "Input material"
+    ],
+    [
+     "9h8u11",
+     "Source + Version"
+    ],
+    [
+     "z5hdw8",
+     "Running tasks"
+    ],
+    [
+     "1o90gxd",
+     "Output file"
+    ],
+    [
+     "vudxi0",
+     "corresponds to the input version"
+    ],
+    [
+     "p62kbs",
+     "Progress record: Completed/To be verified/Failed"
+    ],
+    [
+     "e7o5cv",
+     "Guide Update"
+    ],
+    [
+     "4pzxqz",
+     "Mark affected chapters → Recheck → Update completion status"
+    ],
+    [
+     "ilqe5z",
+     "Teaching Situation: After the guide is updated, the affected chapters should be marked and rechecked, and the old completion status cannot be used."
+    ],
+    [
+     "14dlmjq",
+     "Source: Anthropic: Effective harnesses (2025); OpenAI Docs: Architecture"
+    ],
+    [
+     "6mwyd4",
+     "14"
+    ]
+   ],
+   "note": "Migrate progress documents, task lists, and incremental processing from vendor engineering materials to scientific work. Specific record fields are suggestions for this course and are not mandatory industry standards. Version management does not necessarily require teachers to learn Git; file names, dates, and source lists can also assume some responsibilities. A subsequent cloud demonstration will show how to actually save it.\nDetailed teaching content:\nTask requirements: Goals, scope and completion conditions: The content is constantly increasing and it can never be completed.\nInput material: source, file name, date and version: old guidelines or incorrect data mixed into the results\nIntermediate results: original text location, processing steps and items to be checked: repeated search, unable to trace the conclusion\nFinal product: Corresponding input version, output path and inspection record: unable to determine which file is available for use\nAnthropic, Effective harnesses for long-running agents, 2025-11-26\nhttps://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\nPositioning: Feature list; Incremental progress; Testing and environment; Suggestions for migration to scientific research situations are written by this course.\nOpenAI Docs, Agents API Architecture\nhttps://developers.openai.com/api/docs/guides/agents-api/architecture\nPositioning: The pieces; Add an environment; Receive progress and results. Platform implementation examples are not intended to serve as a unified definition for all Agents."
+  },
+  {
+   "page": 31,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "3nzudw",
+     "Tool permissions and manual confirmation in Harness"
+    ],
+    [
+     "1lbtz1p",
+     "The task can be continuously advanced, but the allowable ranges for reading, modification and external submission need to be determined separately."
+    ],
+    [
+     "ed79en",
+     "Read material"
+    ],
+    [
+     "gb6map",
+     "Modify file"
+    ],
+    [
+     "18i1xpu",
+     "Submit externally"
+    ],
+    [
+     "khzd27",
+     "Limit files and external sources"
+    ],
+    [
+     "g8aded",
+     "Limit the writing location and keep the original"
+    ],
+    [
+     "1phj2mv",
+     "According to the authorization scope, manual confirmation is reserved"
+    ],
+    [
+     "1eywa3g",
+     "Confirmed by researcher"
+    ],
+    [
+     "wigrof",
+     "Use of sensitive materials; coverage of key documents; submission, declaration and external sending."
+    ],
+    [
+     "1vl5vwh",
+     "This page is a recommendation for scientific research operations; permission details must be consistent with school requirements, tool capabilities, and task authorization."
+    ],
+    [
+     "1v00ft3",
+     "Source: OpenAI Docs: Architecture; MCP Official: What is MCP?"
+    ],
+    [
+     "6wwk23",
+     "15"
+    ]
+   ],
+   "note": "When introducing permissions, focus on actual materials, not keys or background settings. Obtaining the right to read does not mean obtaining the right to publish; it can help form the submission document, but it does not mean that you can submit it yourself. Manual confirmation points should be commensurate with the consequences, and work doesn't have to be disrupted by every small, reversible action. What is listed here is a course recommendation and is not legal advice or uniform institutional policy.\nDetailed teaching content:\nReading materials: which files can be read and external sources: whether sensitive materials are allowed to enter the corresponding environment\nModify files: where writing is allowed, whether to keep originals: before overwriting critical files or deleting material\nExternal operations: whether to allow submission, sending or publishing: before submission, declaration and external sending\nResult judgment: What matters the system can check: research conclusions, achievement attribution and author confirmation\nOpenAI Docs, Agents API Architecture\nhttps://developers.openai.com/api/docs/guides/agents-api/architecture\nPositioning: The pieces; Add an environment; Receive progress and results. Platform implementation examples are not intended to serve as a unified definition for all Agents.\nModel Context Protocol: What is MCP?\nhttps://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro\nPositioning: open standard for connecting AI applications and external systems; check 2026-10-17"
+  },
+  {
+   "page": 32,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "1233j66",
+     "Failure Recovery and Stop Conditions in Harness"
+    ],
+    [
+     "12dtje5",
+     "Reliable connection requires knowing where the failure occurred, what has been saved, and whether retrying will result in duplicate operations."
+    ],
+    [
+     "1njutpv",
+     "Record failure location"
+    ],
+    [
+     "1c071qj",
+     "Determine whether to retry"
+    ],
+    [
+     "11ypdfh",
+     "Restore or Handover"
+    ],
+    [
+     "1lxqe2o",
+     "Tools, input versions and error messages"
+    ],
+    [
+     "8e15al",
+     "Permissions, sources, times and risk of repeated writing"
+    ],
+    [
+     "w83kmh",
+     "Continue the unfinished part or hand it over to the researcher"
+    ],
+    [
+     "48wnbd",
+     "Retrieval miss"
+    ],
+    [
+     "1xt8u7h",
+     "You can change the keyword or source; if there is still no basis, the mark has not been verified."
+    ],
+    [
+     "16cks7w",
+     "File export failed"
+    ],
+    [
+     "15nqgxx",
+     "Keep the text and error information; re-export and check after repair."
+    ],
+    [
+     "nxpux0",
+     "Executed but not confirmed"
+    ],
+    [
+     "qha1qz",
+     "Check the operation status first; do not blindly resubmit or overwrite."
+    ],
+    [
+     "1dmbjoh",
+     "Stop when the completion condition, resource limit or manual judgment point is reached, and leave a clear handover record."
+    ],
+    [
+     "1gqa1h3",
+     "Source: Anthropic: Effective harnesses (2025)"
+    ],
+    [
+     "76w5r2",
+     "16"
+    ]
+   ],
+   "note": "Failure recovery does not mean infinite retries. When a task is interrupted, the progress file should tell subsequent executors what actions have taken place; in particular, the status of external submissions and other actions must be checked first. The long task article shows progressive work and progress records. This page migrates the principles to retrieval and file export. The case is a teaching situation and there is no disguised running record.\nDetailed teaching content:\nSearch miss: You can change the keyword or source; if there is still no basis, the mark has not been verified.\nFile export failed: keep the text and error information; re-export and check after repair.\nExecuted but not confirmed: check the operation status first; do not blindly resubmit or overwrite.\nAnthropic, Effective harnesses for long-running agents, 2025-11-26\nhttps://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\nPositioning: Feature list; Incremental progress; Testing and environment; Suggestions for migration to scientific research situations are written by this course."
+  },
+  {
+   "page": 33,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "haxc3b",
+     "How to verify the completion of Agent"
+    ],
+    [
+     "1ws7vf1",
+     "From successful operation to availability for scientific research, results need to be checked at different levels."
+    ],
+    [
+     "qoqzay",
+     "If the demonstration is successful once, the specific input, scope and check items should be reported; the test results should be interpreted according to the actual coverage."
+    ],
+    [
+     "j9itr3",
+     "Source: Stanford CS224N (2026), Lecture 10"
+    ],
+    [
+     "7gvrg1",
+     "17"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "18yy0q0",
+     "Inspection level What can be checked What cannot be deduced after passing"
+    ],
+    [
+     "18lm5z1",
+     "Run and file tool return, file existence, and whether the file can be opened cannot indicate that the content is correct or the task is complete."
+    ],
+    [
+     "vuws18",
+     "Structure and requirements Chapters, fields, formats and required attachments Cannot prove that the scientific argument is established"
+    ],
+    [
+     "wcxbzw",
+     "Data and sources The calculation can be reviewed, and the citations correspond to the original texts. Research value and causality cannot be automatically confirmed."
+    ],
+    [
+     "76k129",
+     "Task and professional judgment Whether the actual requirements are fulfilled and whether the limitations are appropriate. All tasks cannot be proven reliable by a small number of examples."
+    ]
+   ],
+   "note": "Separate software-level execution from scientific research-level judgment. Tests that simulate a return value can check the program's handling of that input, but cannot prove that the real service is connected. Even if a real tool has been run, it must be stated which material and scenario were tested. Passing all program inspections does not mean that the research results are automatically valid, nor does it replace the user's acceptance of the teaching products.\nDetailed teaching content:\nInspection level: what can be checked: what cannot be deduced after passing\nRun and file: Tool return, file existence, whether the file can be opened: it cannot indicate that the content is correct or the task is complete.\nStructure and requirements: Chapters, fields, formats and required attachments: Cannot prove the scientific argument is established\nData and sources: calculations can be reviewed, citations correspond to original texts: research value and causality cannot be automatically confirmed\nTasks and professional judgment: Whether the actual requirements are fulfilled and whether the qualifications are appropriate: all tasks cannot be proven reliable by a small number of examples\nStanford CS224N, Winter 2026, Lecture 10: RAG and Agents\nhttps://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf\nPositioning: PDF pages 29-30: Definition and composition; Page 61: Execution environment; Page 68: Evaluation; Page 70: Tool cycle"
+  },
+  {
+   "page": 34,
+   "pairs": [
+    [
+     "xm841x",
+     "02 Agentic AI, AI Agent and scientific research workflow"
+    ],
+    [
+     "evrkq",
+     "How to choose a collaboration method for scientific research tasks"
+    ],
+    [
+     "mmweb3",
+     "First determine whether the task requires tool execution and continuous recording, and then decide how much automation scope to adopt."
+    ],
+    [
+     "1um2x74",
+     "Current scientific research tasks"
+    ],
+    [
+     "b0luo6",
+     "Discussion and Explanation"
+    ],
+    [
+     "gov1m8",
+     "Dialogue collaboration"
+    ],
+    [
+     "15f6xtw",
+     "The steps are stable and repeatable."
+    ],
+    [
+     "2i8ft9",
+     "Preset workflow"
+    ],
+    [
+     "xwpdv0",
+     "Need to check and judge at the same time"
+    ],
+    [
+     "3pez2u",
+     "Agent＋Tool Feedback"
+    ],
+    [
+     "1oardxp",
+     "Requires continuous completion across sessions"
+    ],
+    [
+     "h1n3jy",
+     "Supplementary status and recovery arrangements"
+    ],
+    [
+     "1d7nocc",
+     "Follow-up courses: based on scientific research tasks; Section 10 looks at the application process, and Section 14 looks at the actual operation and continuation."
+    ],
+    [
+     "1pcxxvk",
+     "Source: Anthropic: Building effective agents; OpenAI Docs: Architecture"
+    ],
+    [
+     "5iyjl8",
+     "18"
+    ]
+   ],
+   "note": "At the end return to the first page to declare the example. Discuss goals and evidence first, then decide on tools and processes. It doesn’t matter what name the system adopts. The key is that the scope of application and delivery evidence are clear. Teachers who are exposed to AI for the first time are not required to build an agent independently; the goal of this section is to understand how the system works, and to be able to read subsequent demonstrations and judge results.\nDetailed teaching content:\nRequires discussion and explanation: provide materials and engage in dialogue around issues: concepts, sources and applicable conditions\nStable and repetitive processing of steps: define fields and order, establish workflow: input range, missing items and output consistency\nNeed to check and judge at the same time: Use tool feedback to advance the Agent: retrieval path, evidence and stop reason\nRequires continuous completion across sessions: Supplementing Harness’ status and recovery arrangements: versions, progress, permissions and available products\nAnthropic, Building effective agents, 2024-12-19\nhttps://www.anthropic.com/engineering/building-effective-agents\nPositioning: What are agents; Workflows; Agents. Used to explain architectural patterns and not used to compare current products.\nOpenAI Docs, Agents API Architecture\nhttps://developers.openai.com/api/docs/guides/agents-api/architecture\nPositioning: The pieces; Add an environment; Receive progress and results. Platform implementation examples are not intended to serve as a unified definition for all Agents."
+  },
+  {
+   "page": 35,
+   "pairs": [
+    [
+     "1jk6s0z",
+     "03 Humanizer and the expression of various scientific research products"
+    ],
+    [
+     "1xotyib",
+     "Humanizer and scientific research expression"
+    ],
+    [
+     "j2t5bd",
+     "Let readers understand who did what, what the basis is, and where the conclusion applies."
+    ],
+    [
+     "14rpkjy",
+     "Understand the original meaning"
+    ],
+    [
+     "2thd61",
+     "Rewrite expression"
+    ],
+    [
+     "ouf5r2",
+     "Check meaning"
+    ],
+    [
+     "1037fqh",
+     "Specific questions the author wants to answer"
+    ],
+    [
+     "11v4fl1",
+     "Get rid of empty words and straighten out the sentences"
+    ],
+    [
+     "150hmq7",
+     "Facts, qualifications and citations remain consistent"
+    ],
+    [
+     "1jt4df9",
+     "Author’s judgment"
+    ],
+    [
+     "tbrr1w",
+     "The author can explain the objects, methods, results and limitations in the sentences."
+    ],
+    [
+     "xqytg5",
+     "Humanizer is a text revision method; professional content remains at the discretion of the author."
+    ],
+    [
+     "1oyyfiv",
+     "Source: Humanizer 3.1.0: Native Skill Rules; McKinley, UCL (2026), pp. 4, 8, 10, 13-14"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "The opening section explains the purpose of this program with the common needs of subsequent application and thesis writing. Natural expression does not mean that it is so colloquial that it loses professional information; readers should be able to accurately understand the research objects, methods, results, and limitations. Humanizer's rules are used to detect language problems and cannot be used as a detector to determine authorship, nor can they complete evidence for researchers.\nHumanizer 3.1.0, the skill has been installed on this machine\nhttps://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing\nPositioning: actual use of local Codex skills directory/humanizer/SKILL.md; §1-5 cliches, §6-21 language habits, How to work facts are retained. The Wikipedia link is the public background of the skill annotation and does not replace the local rules.\nJim McKinley, Beyond Polishing: AI in academic writing, UCL, 2026-04-09\nhttps://mediacentral.ucl.ac.uk/assoc_files/gD20GGDG.pdf\nPositioning: author’s voice on page 4; polishing and deletion of may on page 8; drafting and polishing superimposed on page 10; author’s judgment on pages 13-14"
+  },
+  {
+   "page": 36,
+   "pairs": [
+    [
+     "1jk6s0z",
+     "03 Humanizer and the expression of various scientific research products"
+    ],
+    [
+     "8sq28s",
+     "Why is it difficult to read a piece of empty talk?"
+    ],
+    [
+     "1rkr2o1",
+     "The problem often lies in the lack of specific objects, actions and basis, not just a few words."
+    ],
+    [
+     "7g3t35",
+     "This research is based on the frontier, focuses on key bottlenecks, builds a multi-dimensional collaborative framework, comprehensively empowers scientific research and innovation, and provides important support for high-quality development in related fields."
+    ],
+    [
+     "efszpj",
+     "Based on the cutting edge"
+    ],
+    [
+     "5l63fg",
+     "Which research direction? What existing work is it related to?"
+    ],
+    [
+     "uignoc",
+     "Multi-dimensional collaboration framework\nWhat objects does"
+    ],
+    [
+     "1wgrtqk",
+     "contain and how does it work?"
+    ],
+    [
+     "ul6nbw",
+     "Enabling/Important Support"
+    ],
+    [
+     "9d4cqf",
+     "What is the specific improvement and how should we judge it?"
+    ],
+    [
+     "wvnt5h",
+     "Example written for the course. When there is no research material, the general evaluation will be deleted and the specific content will be left to the author to add."
+    ],
+    [
+     "12nxumd",
+     "Source: Humanizer 3.1.0: native skill rules; course writing: teaching simulation, non-real research results"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "Point out one by one along the original sentence: there is no research object, no method, and no verifiable effect. You cannot add the name of the disease, algorithm, number of samples, or performance results in order to make the sentence look more like a human-written sentence. If there is no content after deleting the empty words, it means that you need to supplement the research materials instead of continuing to polish it.\nHumanizer 3.1.0, the skill has been installed on this machine\nhttps://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing\nPositioning: actual use of local Codex skills directory/humanizer/SKILL.md; §1-5 cliches, §6-21 language habits, How to work facts are retained. The Wikipedia link is the public background of the skill annotation and does not replace the local rules.\nExamples of Chinese revisions written in this course\nPositioning: The teaching simulation in lesson.json is not a published paper, application result or external model running result; if the numbers appear, they are only used to illustrate how to retain information."
+  },
+  {
+   "page": 37,
+   "pairs": [
+    [
+     "1jk6s0z",
+     "03 Humanizer and the expression of various scientific research products"
+    ],
+    [
+     "13hmnya",
+     "How to modify when materials are insufficient"
+    ],
+    [
+     "3b9zw7",
+     "If there is a specific basis, write it clearly; if there is no basis, return the missing items to the author."
+    ],
+    [
+     "16i4bv1",
+     "Is there any corresponding material for this sentence?"
+    ],
+    [
+     "nf5x5x",
+     "Yes: Rewritten based on materials"
+    ],
+    [
+     "1ma59vt",
+     "None: Registration is missing"
+    ],
+    [
+     "z518a9",
+     "“Significantly improve performance” requires comparison objects, evaluation indicators, test conditions and result basis."
+    ],
+    [
+     "o08r7m",
+     "Expression modification cannot write information that has not yet been provided as known facts."
+    ],
+    [
+     "12nxumd",
+     "Source: Humanizer 3.1.0: native skill rules; course writing: teaching simulation, non-real research results"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "Split the changes into two paths. When there is evidence, the abstract evaluation can be changed into concrete facts; when there is no evidence, the issue remains to be dealt with. Missing item hints should be saved in the question list or comments and should not be mixed into the final draft as placeholders. This page is not a class assignment and does not require students to submit materials.\nHumanizer 3.1.0, the skill has been installed on this machine\nhttps://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing\nPositioning: actual use of local Codex skills directory/humanizer/SKILL.md; §1-5 cliches, §6-21 language habits, How to work facts are retained. The Wikipedia link is the public background of the skill annotation and does not replace the local rules.\nExamples of Chinese revisions written in this course\nPositioning: The teaching simulation in lesson.json is not a published paper, application result or external model running result; if the numbers appear, they are only used to illustrate how to retain information."
+  },
+  {
+   "page": 38,
+   "pairs": [
+    [
+     "1jk6s0z",
+     "03 Humanizer and the expression of various scientific research products"
+    ],
+    [
+     "1jcj7n3",
+     "Delete “possible” and the conclusion changes"
+    ],
+    [
+     "70eji6",
+     "The qualifier expresses the strength of the evidence and cannot be deleted altogether according to the requirement of “more strength”."
+    ],
+    [
+     "kcvgvq",
+     "Original meaning: Keep the possibility"
+    ],
+    [
+     "rck3ev",
+     "More explicit feedback may help students improve their writing."
+    ],
+    [
+     "14uahys",
+     "Risk after polishing: more certain judgment"
+    ],
+    [
+     "18sc27b",
+     "More explicit feedback helps students improve their writing."
+    ],
+    [
+     "1nj9ylf",
+     "After \"possibly\" is deleted, the degree of certainty of the statement increases; the change in fluency masks the change in the meaning of the argument."
+    ],
+    [
+     "9rtxcw",
+     "According to the English example on page 8 of UCL 2026 courseware, it is reproduced in Chinese and is not used as the experimental result of this course."
+    ],
+    [
+     "tf8z79",
+     "Source: McKinley, UCL (2026), pp. 4, 8, 10, 13-14"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ]
+   ],
+   "note": "Page 8 of the UCL courseware shows an example of may disappearing after polishing. This page paraphrases its meaning in Chinese. It does not use the pictures on the original page, nor does it treat the courseware examples as quantifiable system evaluations. Exposing a word to the audience can also change the author's stance. To judge whether the qualification is appropriate, you need to go back to the research design and evidence, and you cannot change all sentences to \"maybe\".\nJim McKinley, Beyond Polishing: AI in academic writing, UCL, 2026-04-09\nhttps://mediacentral.ucl.ac.uk/assoc_files/gD20GGDG.pdf\nPositioning: author’s voice on page 4; polishing and deletion of may on page 8; drafting and polishing superimposed on page 10; author’s judgment on pages 13-14"
+  },
+  {
+   "page": 39,
+   "pairs": [
+    [
+     "1jk6s0z",
+     "03 Humanizer and the expression of various scientific research products"
+    ],
+    [
+     "kqkxfv",
+     "Lock research information before rewriting"
+    ],
+    [
+     "yx3fy8",
+     "The text can be rearranged, and numbers, objects, conditions and logical relationships need to be retained item by item."
+    ],
+    [
+     "xwphd6",
+     "Teaching simulation: In the sample of this study, variable A and variable B are positively correlated; the causal relationship cannot be confirmed based on this."
+    ],
+    [
+     "izgr3y",
+     "Keep the meaning unchanged"
+    ],
+    [
+     "zfmvik",
+     "Object and scope"
+    ],
+    [
+     "18nptze",
+     "Sample of this study"
+    ],
+    [
+     "jvxikp",
+     "Relationships and Directions"
+    ],
+    [
+     "z9coab",
+     "A and B; positive correlation"
+    ],
+    [
+     "dm1ub7",
+     "Evidence Boundary"
+    ],
+    [
+     "329cn",
+     "Causal relationship cannot be confirmed yet"
+    ],
+    [
+     "fipdt6",
+     "\"Related\" cannot be changed to \"causing\", and \"this sample\" cannot be changed to \"all groups of people\"."
+    ],
+    [
+     "12nxumd",
+     "Source: Humanizer 3.1.0: native skill rules; course writing: teaching simulation, non-real research results"
+    ],
+    [
+     "80y4by",
+     "05"
+    ]
+   ],
+   "note": "This page does not use fictitious research results to train students to believe a conclusion, but is clearly marked as examples of logical expressions. Locked items include objects, numbers, units, comparison groups, negative words, conditions, time, references and research status. Whether you have the authority to change these fields should be discussed separately, without general language polish mixed in.\nHumanizer 3.1.0, the skill has been installed on this machine\nhttps://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing\nPositioning: actual use of local Codex skills directory/humanizer/SKILL.md; §1-5 cliches, §6-21 language habits, How to work facts are retained. The Wikipedia link is the public background of the skill annotation and does not replace the local rules.\nExamples of Chinese revisions written in this course\nPositioning: The teaching simulation in lesson.json is not a published paper, application result or external model running result; if the numbers appear, they are only used to illustrate how to retain information."
+  },
+  {
+   "page": 40,
+   "pairs": [
+    [
+     "1jk6s0z",
+     "03 Humanizer and the expression of various scientific research products"
+    ],
+    [
+     "1ss5liq",
+     "Test scores cannot replace text review"
+    ],
+    [
+     "ht9bpe",
+     "Historical research has found that human writing may also be judged as AI text by the detector."
+    ],
+    [
+     "1wvpmys",
+     "2023 Study: Average false positive rate of 7 detectors."
+    ],
+    [
+     "w80si6",
+     "The samples, detectors and languages ​​are different, and the results cannot be directly extrapolated."
+    ],
+    [
+     "1d2jdbj",
+     "This course checks expressions and facts, and does not promise to \"pass the test.\""
+    ],
+    [
+     "zayxi",
+     "A study of historical English samples, not current detector rankings, nor error rates for Chinese academic texts."
+    ],
+    [
+     "82yibm",
+     "Source: Liang et al. (2023), arXiv v3, Results/Fig.1a"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ],
+    [
+     "crjdww",
+     "Chart: Average proportion of human-written texts judged as AI texts (barChart):"
+    ],
+    [
+     "1cz98mm",
+     "Categories: TOEFL Essay (n=91), American 8th Grade Essay (n=88)"
+    ],
+    [
+     "17ceowd",
+     "Proportion: TOEFL essay (n=91)=0.61219999999999997, American eighth grade essay (n=88)=0.051900000000000002"
+    ]
+   ],
+   "note": "Figures are redrawn according to values ​​reported in Results from arXiv v3 and Figure 1a. 61.22% and 5.19% both refer to the average proportion of human essays judged as AI; the former has 91 TOEFL essays and the latter has 88 American eighth-grade essays. The original research sample cannot control all language and grade differences; this page only states that the test results have applicable conditions and cannot be used to identify a single Chinese manuscript. Don’t teach detection avoidance cue words.\nLiang et al., GPT detectors are biased against non-native English writers, arXiv:2304.02819v3, 2023\nhttps://arxiv.org/html/2304.02819v3\nPositioning: Results first section and Figure 1a: 7 detectors, 91 TOEFL essays, 88 American eighth grade essays; reported average false positive rates of 61.22% and 5.19%; historical English samples, current Chinese detection cannot be extrapolated. Journal version DOI:10.1016/j.patter.2023.100779."
+  }
+ ]
+}
