@@ -1,0 +1,27 @@
+name: Bundle English Localization
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'training/localization/en/pages-*.json'
+      - 'tools/build_translation_bundle.py'
+      - '.github/workflows/bundle-translation.yml'
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile translation manifest
+        run: python tools/build_translation_bundle.py
+      - name: Commit compressed localization bundle
+        run: |
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add training/localization/en/bundle
+          if ! git diff --cached --quiet; then
+            git commit -m 'build: package 240-slide english translation manifest'
+            git push
+          fi
