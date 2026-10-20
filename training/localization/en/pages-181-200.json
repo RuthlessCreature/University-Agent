@@ -1,0 +1,1217 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  181,
+  200
+ ],
+ "items": [
+  {
+   "page": 181,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "1wivafr",
+     "Research basis and implementation conditions"
+    ],
+    [
+     "ialh3i",
+     "The applicant’s existing work needs to correspond to the key tasks of this project one by one."
+    ],
+    [
+     "uva3lq",
+     "Key research tasks"
+    ],
+    [
+     "11r0mq",
+     "Existing work and contributions"
+    ],
+    [
+     "1oawosq",
+     "Conditional Proof and Gap"
+    ],
+    [
+     "o2nvmj",
+     "For example, question design, implementation and analysis"
+    ],
+    [
+     "2y9d1m",
+     "Provide relevant papers, data, and tools"
+    ],
+    [
+     "1gpy3j4",
+     "and my contribution"
+    ],
+    [
+     "1y3i1rs",
+     "Check access, equipment and cooperation"
+    ],
+    [
+     "17cxsl2",
+     "and schedule"
+    ],
+    [
+     "uue2vp",
+     "Actual status of this case: There is no applicant’s previous results, course admission certificate or cooperation commitment."
+    ],
+    [
+     "iw8rpi",
+     "Public literature supports the research background, and the applicant’s research foundation still requires authentic materials."
+    ],
+    [
+     "s5j8qk",
+     "This example does not provide the applicant’s real research basis, and it cannot be used to judge whether the applicant meets the application conditions."
+    ],
+    [
+     "y3klox",
+     "Source: National Natural Science 2026 Application Announcement; Course Teaching Simulation, not implemented yet"
+    ],
+    [
+     "6wwk23",
+     "15"
+    ]
+   ],
+   "note": "Publicly available research and downloadable data are not preliminary work for applicants. Preliminary papers need to explain personal contributions and their relationship with key tasks; equipment, course access, and cooperative division of labor need to be supported by actual materials. This teaching example lacks these materials and cannot write about mature systems, significant effects or sufficient conditions.\nAnnouncement on the application and conclusion of the 2026 National Natural Science Foundation of China project, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: One (two) 1, 2, 4, 5, 6, 8, 10, 11 and supporting unit matters, verified on 2026-10-18\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 182,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "suct91",
+     "Risks and Alternatives"
+    ],
+    [
+     "1cu3b9q",
+     "The alternative path should describe the triggering conditions, adjustment actions, and what conclusions can be supported after adjustment."
+    ],
+    [
+     "1scx72i",
+     "Prompt rule is unstable"
+    ],
+    [
+     "2hd0vk",
+     "Trigger: The pre-test did not meet the predetermined requirements. Action: Revise the prompts and materials, and then do a pre-test check."
+    ],
+    [
+     "16qwdll",
+     "Exit or missing record"
+    ],
+    [
+     "ukedu5",
+     "Record the reasons for the occurrence, handle them according to the pre-planned plan, and report any deficiencies and their impact on the interpretation."
+    ],
+    [
+     "1q1ij40",
+     "Unable to group by plan"
+    ],
+    [
+     "132yhpn",
+     "Evaluate the feasibility of adjusting the goals and design first. Redefine causal explanations when changing to observational studies."
+    ],
+    [
+     "14zzh0z",
+     "When the design of the alternative plan changes, the scope of application of the conclusion will also be adjusted."
+    ],
+    [
+     "qgpmyo",
+     "Source: NIH StrokeNet 2026 original courseware; course teaching simulation, not implemented"
+    ],
+    [
+     "76w5r2",
+     "16"
+    ]
+   ],
+   "note": "If the prompt rule is unstable, revise and try again first; reasons for exit or loss must be recorded and processed according to the predetermined analysis plan; when grouping cannot be performed, consider adjusting the target, but observational records cannot use the causal explanation of random comparison. The specific threshold should be based on the pre-test and plan, and 80% or 90% should not be given arbitrarily.\nMitchell S. V. Elkind, Grant Writing, NIH StrokeNet, 2026-09-10\nhttps://nihstrokenet.org/docs/default-source/default-document-library/elkind-grant-writing-9-10-26.pdf?sfvrsn=0\nPositioning: PDF physics pages 21, 27, 29, 36, 40, and 51 have been viewed page by page; only refer to research demonstration, testability, risk and teaching organization, and do not copy the NIH system\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 183,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "1b7brfn",
+     "Research progress and task dependencies"
+    ],
+    [
+     "i22ssi",
+     "The schedule should allow physical space for material checking, pre-testing, implementation and explanation."
+    ],
+    [
+     "84pozf",
+     "January-March"
+    ],
+    [
+     "1lwyc54",
+     "April-May"
+    ],
+    [
+     "tbmkl2",
+     "June-September"
+    ],
+    [
+     "2arcv5",
+     "October-December"
+    ],
+    [
+     "1ham73x",
+     "Documents and materials"
+    ],
+    [
+     "scsiw0",
+     "Ethics and Authorization"
+    ],
+    [
+     "bacodt",
+     "Questions, scoring and rules"
+    ],
+    [
+     "1lyuzqr",
+     "Practical tutoring and independent testing"
+    ],
+    [
+     "1vuv797",
+     "Reporting Differences, Limitations and Versions"
+    ],
+    [
+     "1en5px5",
+     "Materials and Access"
+    ],
+    [
+     "1lybgtg",
+     "Preview and revision"
+    ],
+    [
+     "1x76euo",
+     "Implementation and Measurement"
+    ],
+    [
+     "11ygrlo",
+     "Analysis and Archiving"
+    ],
+    [
+     "1scuxyf",
+     "Progress depends on preconditions. If the ethics or preliminary test is not passed, subsequent implementation will be postponed and the reasons will be recorded."
+    ],
+    [
+     "bjptye",
+     "12 months is only used as a course example, not the 2026 National Natural Project deadline."
+    ],
+    [
+     "y3klox",
+     "Source: National Natural Science 2026 Application Announcement; Course Teaching Simulation, not implemented yet"
+    ],
+    [
+     "7gvrg1",
+     "17"
+    ]
+   ],
+   "note": "The course is simulated for 12 months, with materials and admissions arranged from January to March, pre-test from April to May, implementation and measurement from June to September, and analysis and archiving from October to December. Tasks are advanced according to prerequisites, and ethics or pre-examinations cannot be announced mechanically by month. National natural research deadlines are generated by the system by category, and this simulation deadline is not used as a basis for filling in.\nAnnouncement on the application and conclusion of the 2026 National Natural Science Foundation of China project, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: One (two) 1, 2, 4, 5, 6, 8, 10, 11 and supporting unit matters, verified on 2026-10-18\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 184,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "15kx32g",
+     "Research tasks and funding basis"
+    ],
+    [
+     "g5vfm3",
+     "First identify the resources needed for the research, and then explain the costs according to the corresponding categories and unit requirements."
+    ],
+    [
+     "1lawq7b",
+     "Research Task"
+    ],
+    [
+     "4lbz6s",
+     "Resource usage"
+    ],
+    [
+     "1w5ivfj",
+     "Fee basis"
+    ],
+    [
+     "1a9tmzm",
+     "What personnel, materials and calculation conditions are needed?"
+    ],
+    [
+     "1rr0f0q",
+     "Estimated based on number of implementations, workload and usage time"
+    ],
+    [
+     "v3qlo8",
+     "Check the quotation, fee attribution and current regulations"
+    ],
+    [
+     "6466lu",
+     "2026 National Natural Case: Youth Categories A, B, and C are subject to a lump sum system, and there is no need to prepare a budget when applying;"
+    ],
+    [
+     "1w4pq3",
+     "The remaining projects shall implement the budget system in accordance with regulations and prepare reports based on actual research needs."
+    ],
+    [
+     "u0ueqd",
+     "The budget method is checked according to the declared category, and the sample calculation is not regarded as the official amount."
+    ],
+    [
+     "y3klox",
+     "Source: National Natural Science 2026 Application Announcement; Course Teaching Simulation, not implemented yet"
+    ],
+    [
+     "5iyjl8",
+     "18"
+    ]
+   ],
+   "note": "The 2026 notice clarifies that youth categories A, B, and C are subject to a lump sum system and do not need to prepare a budget when applying; other categories are prepared according to the prescribed budget system. This page explains the resource calculation logic of teaching research: tasks, usage, price basis and cost attribution; no quotation or project total is made up. Resource arrangements cannot be understood as lump sums as requiring no management.\nAnnouncement on the application and conclusion of the 2026 National Natural Science Foundation of China project, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: One (two) 1, 2, 4, 5, 6, 8, 10, 11 and supporting unit matters, verified on 2026-10-18\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 185,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "rktuwl",
+     "Correspondence between abstract and text"
+    ],
+    [
+     "o2hiom",
+     "The abstract focuses on specific issues, main practices, and the understanding to be gained. The information is consistent with the main text."
+    ],
+    [
+     "1wcica9",
+     "Examples of complete paragraphs: questions, practices and prepared answers"
+    ],
+    [
+     "zxwzz5",
+     "This study intends to compare the relationship between two AI tutoring methods and independent problem-solving performance in college introductory statistics courses. Under the condition that the model, questions, and practice time are consistent, set the complete answer and step-by-step prompt conditions, record the learner's attempts, help, and correction process, and use the AI-free new question test to evaluate independent answers one week later. Combine the process records and test results to determine the difference between the two conditions and their scope of application."
+    ],
+    [
+     "ku25n4",
+     "\"To be compared\", \"Setup\" and \"Evaluation\" describe the research arrangement; there is no commitment to increase the range or write in the previous results."
+    ],
+    [
+     "1e6x50m",
+     "Example of self-compiled abstract for a course, not a fund application abstract that can be submitted directly."
+    ],
+    [
+     "cxe7bx",
+     "Source: Course teaching simulation, not implemented yet"
+    ],
+    [
+     "5sy5a7",
+     "19"
+    ]
+   ],
+   "note": "The following complete paragraphs are course simulations: comparison of prompt methods and independent problem solving; two tutoring conditions; process records and new questions without AI; the results are used to judge the difference in conditions rather than to promise improvement. Completed and planned work should be written separately. The word count and fields of the formal abstract are based on the current year's system and are not preset based on the old template.\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 186,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "l1t6pk",
+     "Humanizer revision in application materials"
+    ],
+    [
+     "151bqdl",
+     "The general research meaning can be changed into specific questions, comparison methods and answerable range."
+    ],
+    [
+     "hzaeq2",
+     "Original sentence: Teaching simulation with deliberately set problems"
+    ],
+    [
+     "o14p9j",
+     "This project will build an internationally leading intelligent teaching system, comprehensively reveal learning patterns, and significantly improve the quality of talent training."
+    ],
+    [
+     "1qqu6fa",
+     "Revision: Specific to comparison objects and measurements"
+    ],
+    [
+     "jw9gba",
+     "This example intends to compare the two tutoring methods of complete answers and step-by-step prompts, observe the independent problem-solving performance using a test without AI new questions after one week, and analyze the correspondence between the answering process and the results."
+    ],
+    [
+     "1f2lbrl",
+     "Both paragraphs are teaching simulations; the revision does not add any previous results or effect figures."
+    ],
+    [
+     "cxe7bx",
+     "Source: Course teaching simulation, not implemented yet"
+    ],
+    [
+     "13dvipr",
+     "20"
+    ]
+   ],
+   "note": "The original sentence deliberately set up an international lead, comprehensive disclosure and substantial improvement, but there is no evidence. The modified sentence only explains the prompt method of preparing for comparison and the test without AI. Clear language does not imply authenticity or novelty of the material, and polish does not obscure missing information.\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 187,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "1fjkkmi",
+     "Grant Agent’s Workflow and Harness"
+    ],
+    [
+     "1yqr55s",
+     "Run records connect input versions, verification actions, output files and unresolved issues."
+    ],
+    [
+     "1otdnuv",
+     "Guidelines and Templates"
+    ],
+    [
+     "xlv0dl",
+     "Researcher Materials"
+    ],
+    [
+     "16azka5",
+     "Contents and Routes"
+    ],
+    [
+     "1syth9w",
+     "Check with Word"
+    ],
+    [
+     "1bs9urq",
+     "Keep the original"
+    ],
+    [
+     "1jn6epm",
+     "Extract specific requirements"
+    ],
+    [
+     "ed8m1g",
+     "Registration facts, sources and gaps"
+    ],
+    [
+     "peokxa",
+     "According to research logic"
+    ],
+    [
+     "1fe57az",
+     "Organize paragraphs and steps"
+    ],
+    [
+     "11uze1r",
+     "Check item by item and keep the version"
+    ],
+    [
+     "12lxxrs",
+     "Harness: Save the running rules of input version, step status, source location and failure reason."
+    ],
+    [
+     "fu0l39",
+     "Frame diagram illustrates the overall work. The scope of this local execution is listed separately on the following page."
+    ],
+    [
+     "1x6y2bb",
+     "Source: Section10 actual local file record; course teaching simulation, not implemented"
+    ],
+    [
+     "133vx0s",
+     "21"
+    ]
+   ],
+   "note": "Harness here refers to the rules for retaining records of inputs, steps, sources, and errors while a task is running. When teaching, read along the actual files: guide.json and teaching templates, existing paragraphs in grant.json, research routes in diagrams, mapping and evidence-ledger, and finally Word and issues. The runner can check the structure, mapping and source identification and write out the file; it cannot judge the document support based on the source ID, and it does not automatically judge the scientific innovation or feasibility. The program is executed once until the draft and list of issues are written, and there is no node-by-node review and approval; formal reporting responsibilities are subject to official requirements.\nThe actual file flow and execution records in this section\nlocal:training/section-10/execution-evidence.json\nPositioning: run_demo.py, runtime-snapshot/local_workflow.py, grant-packet/output/run.json; no external model calls, no scientific verification\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 188,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "1ujmex4",
+     "Actual mapping of requirements, chapters and products"
+    ],
+    [
+     "ydcg3v",
+     "For each requirement in the teaching guide, the goals, products and inspection methods can be found in the mapping file."
+    ],
+    [
+     "1kmvi1y",
+     "TEACH-SECTION10-01 is a course simulation guide; mapping inspection does not equal scientific review."
+    ],
+    [
+     "1x6y2bb",
+     "Source: Section10 actual local file record; course teaching simulation, not implemented"
+    ],
+    [
+     "13xuq3p",
+     "22"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "qpgqcw",
+     "Simulation requirements Corresponding research objectives Actual products and inspections"
+    ],
+    [
+     "1rx4uap",
+     "T1 Problem and hypothesis G1 Clarify the relationship to be tested Problem description and process record; check variable correspondence"
+    ],
+    [
+     "1gbyjiv",
+     "T2 Compare and measure G2 Form a measurement plan, arrange grouping, testing and analysis; retain matters to be approved"
+    ],
+    [
+     "1vg53gs",
+     "T3 Source and Gap G3 Preserve Fact State Source Ledger and Word; Check Positioning and Question List"
+    ]
+   ],
+   "note": "T1 corresponds to problem hypothesis, T2 corresponds to comparison and measurement, and T3 corresponds to sources and gaps. The truth comes from this grant.json and mapping.json. The course rules are not the national natural scoring table. The script only checks that the mapped fields and reference identifiers are valid, but does not prove that the hypothesis is correct or that the design is adequately evaluated.\nThe actual file flow and execution records in this section\nlocal:training/section-10/execution-evidence.json\nPositioning: run_demo.py, runtime-snapshot/local_workflow.py, grant-packet/output/run.json; no external model calls, no scientific verification\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 189,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "ikybg1",
+     "Local execution record and file output"
+    ],
+    [
+     "zyonui",
+     "This time, JSON and Word templates are actually read, the structure is checked, filled in and a draft is written."
+    ],
+    [
+     "ed79en",
+     "Read material"
+    ],
+    [
+     "1wsy9k5",
+     "Structure check"
+    ],
+    [
+     "jsatqj",
+     "Fill in and attach pictures"
+    ],
+    [
+     "14qg35i",
+     "Draft written"
+    ],
+    [
+     "1ee4r4o",
+     "guide.json /"
+    ],
+    [
+     "mwbdc7",
+     "grant.json"
+    ],
+    [
+     "c4xnxj",
+     "Check chapter and source identification"
+    ],
+    [
+     "n8n4kl",
+     "and mapping"
+    ],
+    [
+     "1e0bz94",
+     "Ready-made paragraphs and two roadmaps"
+    ],
+    [
+     "1u7bxfn",
+     "Word, source ledger"
+    ],
+    [
+     "j47pjl",
+     "and question list"
+    ],
+    [
+     "153yzlu",
+     "Actual status: The draft has been written and still needs to be checked by the researcher"
+    ],
+    [
+     "6xbhkm",
+     "External model call: None. Scientific validity verification: not implemented. Input, template, guide and Word can all check the file version."
+    ],
+    [
+     "1lii8jf",
+     "True local operation, no external model calls; input paragraphs have been written by the course."
+    ],
+    [
+     "iwvh8r",
+     "Source: Section10 actual local file record"
+    ],
+    [
+     "13nv4eq",
+     "23"
+    ]
+   ],
+   "note": "Run_demo.py is re-executed in this round, and guide.json, grant.json, self-written template and two route PNGs are actually read, and the structure check, ready-made paragraph filling, route embedding and record writing are completed. run.json saves input, guide, template, graph and Word hash and time events, status draft_review_required; external_model_called=false, scientific_validation=not_performed. The four exceptions are also re-executed and the actual failure log is saved. Research ideas are written by the course, without model independent research, retrieval or real cloud call.\nThe actual file flow and execution records in this section\nlocal:training/section-10/execution-evidence.json\nPositioning: run_demo.py, runtime-snapshot/local_workflow.py, grant-packet/output/run.json; no external model calls, no scientific verification"
+  },
+  {
+   "page": 190,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "s2zyht",
+     "Actual interception of abnormal materials"
+    ],
+    [
+     "wbiuyn",
+     "Inconsistent guide chapters, unknown sources, missing templates, and unapproved final exports all have real failure records."
+    ],
+    [
+     "yo355w",
+     "The guide is inconsistent with the chapter"
+    ],
+    [
+     "13yspg4",
+     "Detected that the chapter name is inconsistent with the guide, stop writing in Word"
+    ],
+    [
+     "wxahvk",
+     "Citing from unregistered sources"
+    ],
+    [
+     "36hib3",
+     "The source identifier is not registered, stop writing Word"
+    ],
+    [
+     "1kboojb",
+     "Template is missing required sections"
+    ],
+    [
+     "sutey6",
+     "No filling position for research content found"
+    ],
+    [
+     "1yxue4z",
+     "Request final export without approval"
+    ],
+    [
+     "1cbldcn",
+     "The final export was rejected and no official draft was generated."
+    ],
+    [
+     "1w1x1l3",
+     "4 exceptions have actually triggered interception; the coverage is limited to specific inspection rules."
+    ],
+    [
+     "iwvh8r",
+     "Source: Section10 actual local file record"
+    ],
+    [
+     "129x3xv",
+     "24"
+    ]
+   ],
+   "note": "run_demo.py executes 4 additional negative examples, each calling the actual file process; it is not a manual splicing failure log. Check that actual errors match expectations. The final sign-off control of the old file process only belongs to this export interface and is not generalized to node-by-node approval for all web page processes. Negative examples do not prove that the system is immune to all errors.\nThe actual file flow and execution records in this section\nlocal:training/section-10/execution-evidence.json\nPositioning: run_demo.py, runtime-snapshot/local_workflow.py, grant-packet/output/run.json; no external model calls, no scientific verification"
+  },
+  {
+   "page": 191,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "1szdscw",
+     "The generated Word and its usage scope"
+    ],
+    [
+     "1n0polw",
+     "Word contains research paragraphs, sources and open issues, along with a technical roadmap and rework chart for the same version."
+    ],
+    [
+     "zovx5z",
+     "Actual Word first page"
+    ],
+    [
+     "expbg3",
+     "Editable text and independent records"
+    ],
+    [
+     "78hjk4",
+     "Text: Project establishment basis, research content, and research basis."
+    ],
+    [
+     "a8twn3",
+     "Attached: Comparison and follow-up measurements, material verification and rework."
+    ],
+    [
+     "1lkihei",
+     "Sources and issues: Register the location of materials and retain the missing foundation, design conditions and innovation basis.\nThe"
+    ],
+    [
+     "xztp1l",
+     "template is self-compiled by the course and is an unofficial application form template."
+    ],
+    [
+     "ynvvyd",
+     "The page preview comes from the actual rendering of local DOCX; the complete Word and source ledger are retained with the package."
+    ],
+    [
+     "1x6y2bb",
+     "Source: Section10 actual local file record; course teaching simulation, not implemented"
+    ],
+    [
+     "11zxi8w",
+     "25"
+    ]
+   ],
+   "note": "The picture comes from the actual generated Word home page in this round. The main text includes the basis for project establishment, research content, and research basis. Sources and unresolved issues are listed separately. Finally, a route and material verification chart is attached. The PNGs of the two images are actually embedded in DOCX and compared with the source file hash. The editing source draw.io and SVG are included in the package. Pictures in Word are embedded pictures, and PPT pictures and draw.io/SVG can be edited separately. The self-compiled template is an unofficial template, the research has not yet been implemented, and the manuscript is for teaching only.\nThe actual file flow and execution records in this section\nlocal:training/section-10/execution-evidence.json\nPositioning: run_demo.py, runtime-snapshot/local_workflow.py, grant-packet/output/run.json; no external model calls, no scientific verification\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 192,
+   "pairs": [
+    [
+     "8aep5g",
+     "10 Fund declaration and Grant Agent"
+    ],
+    [
+     "sdiz9h",
+     "Integrity and researcher judgment before submission"
+    ],
+    [
+     "16f20lq",
+     "The formal application must check the current year’s requirements, real research materials and final layout, and then the applicant and the unit will perform their responsibilities."
+    ],
+    [
+     "t6qmvc",
+     "Official requirements and templates for the year"
+    ],
+    [
+     "1czcrhp",
+     "Authentic materials and researchers’ arguments"
+    ],
+    [
+     "1gv307v",
+     "Check facts, citations, contributions, ethics and usage statements"
+    ],
+    [
+     "1usxyix",
+     "The applicant and the unit shall check the final version according to their responsibilities and submit it according to the formal system process."
+    ],
+    [
+     "8a6p8v",
+     "Next section: Patent mining and technical disclosure. The products in this section are still teaching materials."
+    ],
+    [
+     "y3klox",
+     "Source: National Natural Science 2026 Application Announcement; Course Teaching Simulation, not yet implemented"
+    ],
+    [
+     "12twbbt",
+     "26"
+    ]
+   ],
+   "note": "Check the current category and template, research logic, facts and citations, basis and contribution, ethical authorization, other project and budget requirements, and AI use statement. Programs can only override explicit rules. Save the final version and submit it according to the system. The agent will not sign on your behalf or forge the approval of the unit. The next section is patent mining and disclosure.\nAnnouncement on the application and conclusion of the 2026 National Natural Science Foundation of China project, 2026-01-14\nhttps://www.nsfc.gov.cn/p1/3381/2824/99667.html\nPositioning: One (two) 1, 2, 4, 5, 6, 8, 10, 11 and supporting unit matters, verified on 2026-10-18\nCourse self-edited research design and material arrangement rules\nlocal:training/section-10/grant-packet/grant.json\nPositioning: TEACH-SECTION10-01, teaching paragraphs, technical routes and gaps, unofficial guides and templates"
+  },
+  {
+   "page": 193,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "3s5rkt",
+     "Patent mining and technical disclosure"
+    ],
+    [
+     "1caxs0d",
+     "First explain the technical solution clearly, and then compare it item by item with the public technology to form an explanation material that can continue the discussion."
+    ],
+    [
+     "wz7usa",
+     "Real technical materials"
+    ],
+    [
+     "ncd6kw",
+     "Specific plans and details"
+    ],
+    [
+     "1juw80w",
+     "Open technology comparison"
+    ],
+    [
+     "174j8na",
+     "Disclosure and matters to be supplemented"
+    ],
+    [
+     "mnhcxe",
+     "Research Records, Structure and Process"
+    ],
+    [
+     "1fdqlkn",
+     "Parts, steps"
+    ],
+    [
+     "1sowwg1",
+     "Parameters and exceptions"
+    ],
+    [
+     "1e3qyva",
+     "Read the original text by technical characteristics"
+    ],
+    [
+     "15x068p",
+     "Sources and gaps"
+    ],
+    [
+     "2redmm",
+     "Further questions"
+    ],
+    [
+     "no0vfo",
+     "Throughout the case: Imbalance detection and sensing data inspection of laboratory centrifuges."
+    ],
+    [
+     "rx0fp6",
+     "The patent was disclosed for analysis, but the curriculum concept was not implemented and no patentability conclusion was reached."
+    ],
+    [
+     "19jkmh1",
+     "Source: WIPO 2025 original PPT; Patent Law Articles 2, 6, 22, 24, 26, 64; teaching hypothesis plan, not implemented"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "This section focuses on the case of centrifuge testing to show the difference between public patents and course assumptions. Invention mining starts from actual technical problems, solutions and evidence. The disclosure materials are for the inventor to communicate with the unit and agency professionals, and do not automatically become application documents or authorization conclusions.\nWIPO, PCT Seminar Presentation, Updated Compilation March 2025\nhttps://www.wipo.int/pct/en/docs/pct-seminar.pdf\nPositioning: PDF physical pages 16, 24, 94, 96 have been viewed; 24 manual organization, 94 search scope records, 96 opinions are not final authorized distinctions, and foreign procedures are not copied.\nPatent Law of the People's Republic of China (revised in 2020), original text from the State Intellectual Property Office\nhttps://www.cnipa.gov.cn/art/2020/11/23/art_97_155167.html\nPositioning: 2026-10-18 Verification of relevant provisions, no legal judgment on specific plans\nSelf-compiled centrifuge monitoring and communication teaching materials for the course\nlocal:training/section-11/patent-packet/patent.json\nPositioning: plan, questioning, implementation details and gaps; not the applicant’s invention"
+  },
+  {
+   "page": 194,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "1jv3u1p",
+     "Technical solutions and disclosure materials"
+    ],
+    [
+     "ld6bv0",
+     "Scientific discoveries, specific technical solutions and patent claims undertake different expression tasks."
+    ],
+    [
+     "cwo4dj",
+     "Scientific Discovery"
+    ],
+    [
+     "meln48",
+     "Report an observation or recognition. Whether it can form a patent object depends on the specific technical solution."
+    ],
+    [
+     "hslnxn",
+     "Technical briefing"
+    ],
+    [
+     "1hsnihi",
+     "Explain what technical problem is solved, which components or steps are used, how to implement it, and what is the basis."
+    ],
+    [
+     "tqw40z",
+     "Patent application"
+    ],
+    [
+     "3fmy4a",
+     "Inventions and utility models must have novelty, creativity, and practicality, and the description and claims must have statutory requirements."
+    ],
+    [
+     "5gbv5z",
+     "The disclosure materials record the facts, details and evidence; the application documents and the scope of protection are professionally checked."
+    ],
+    [
+     "1syd6um",
+     "Source: Patent Law Articles 2, 6, 22, 24, 26, 64; WIPO 2025 original PPT"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "Article 2 of the Patent Law states that an invention is a product, method or improved technical solution; Article 22 stipulates novelty, creativity and practicality; Article 26 states that full disclosure and claims are based on the description; Article 64 the scope of protection shall be based on the claims. The disclosure letter is not a substitute for statutory application documents. Inventions, utility models, and designs have different objects and must be selected based on specific results. AI cannot directly determine the type or authorization.\nPatent Law of the People's Republic of China (revised in 2020), original text from the State Intellectual Property Office\nhttps://www.cnipa.gov.cn/art/2020/11/23/art_97_155167.html\nPositioning: 2026-10-18 Verification of relevant provisions, no legal judgment on specific plans\nWIPO, PCT Seminar Presentation, Updated Compilation March 2025\nhttps://www.wipo.int/pct/en/docs/pct-seminar.pdf\nPositioning: PDF physical pages 16, 24, 94, 96 have been viewed; 24 manual organization, 94 search scope records, 96 opinions are not final authorized distinctions, and foreign procedures are not copied."
+  },
+  {
+   "page": 195,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "oa2b4c",
+     "Disclose the technical structure in the original patent text"
+    ],
+    [
+     "1mt2qya",
+     "The disclosure plan can be understood only by cross-checking the abstract, description, claims and drawings."
+    ],
+    [
+     "turflk",
+     "EP4636367A1 Figure 2 (part of the original page)"
+    ],
+    [
+     "1xmoi4c",
+     "Chinese reading positioning"
+    ],
+    [
+     "1qifl47",
+     "Figure 2: Sample handling, drives, sensors and processors."
+    ],
+    [
+     "1e8izy",
+     "Right 1: Data with at least two degrees of freedom, such as acceleration or angular velocity in different directions."
+    ],
+    [
+     "y4i8qt",
+     "Rights 3 and 4: Use the training model to identify patterns, and you can first calculate features such as mean and energy."
+    ],
+    [
+     "i41c30",
+     "Right 11: Stop the device according to the identified operating status."
+    ],
+    [
+     "fdmf2p",
+     "The picture on the left is Figure 2 on page 17 of the original EPO text, and the picture on the right is the Chinese reading position."
+    ],
+    [
+     "axurco",
+     "Source: EP4636367A1, original text published by EPO"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ]
+   ],
+   "note": "The original EPO text EP4636367A1 was released on October 22, 2025. Figure 2 on page 17 contains the sample processing components, drive, vibration sensor, and processor. Claims 1, 3, and 4 on page 14 relate to at least two degrees of freedom data, training models and feature representations in sequence; claim 11 on page 15 relates to stopping the equipment according to the operating status. This page only explains the public content and does not confirm the current legal status or analyze infringement based on it.\nEP4636367A1, Vibration detection in a laboratory instrument, public date 2025-10-22\nhttps://data.epo.org/publication-server/rest/v1.2/publication-dates/2025-10-22/patents/EP4636367NWA1/document.pdf\nPositioning: metadata on page 1 of PDF, claims 1, 3, 4, 11 on pages 14 to 15, Figure 2 on page 17, description [0035]; the drawings are for public technical reading only"
+  },
+  {
+   "page": 196,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "1d7u2hf",
+     "Technical feature-driven retrieval"
+    ],
+    [
+     "10p3kep",
+     "The search terms revolve around equipment, detection objects and control actions, and then expand the classification number and similar clues."
+    ],
+    [
+     "fed1hw",
+     "Equipment and Tasks"
+    ],
+    [
+     "tgex4i",
+     "Technical Feature Combination"
+    ],
+    [
+     "f1ip7e",
+     "Original text and category expansion"
+    ],
+    [
+     "1nrosz0",
+     "Centrifuge / Imbalance Detection"
+    ],
+    [
+     "ae8kcg",
+     "centrifuge + imbalance"
+    ],
+    [
+     "1kfki7p",
+     "sensor + controller + stop"
+    ],
+    [
+     "gyymi8",
+     "Check the public date and positioning"
+    ],
+    [
+     "jjxaug",
+     "Expand clues such as B04B9/14"
+    ],
+    [
+     "10rjvxs",
+     "Read this time: US7255669B2, EP4636367A1."
+    ],
+    [
+     "1snz0jh",
+     "All database, cognate, citation and legal status checks have not been completed, and search records retain these scopes."
+    ],
+    [
+     "1rqcasw",
+     "Save the actual search terms, dates, hit documents and reading range, and do not call two hits as novelty search completion."
+    ],
+    [
+     "992fln",
+     "Source: EP4636367A1, EPO published original text; US7255669B2, specification and claim 15; WIPO 2025 original PPT"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ]
+   ],
+   "note": "In this actual network search for centrifuge imbalance sensor controller stop, US7255669B2 and EP4636367A1 were found. The latter has the original EPO text; the former reads the authorized document description, claims and publication date of Google Patents. The search is not exhaustive and does not systematically cover all databases, kin, citations and legal status. Classification B04B9/14 comes from the EP home page and can be used as an extension clue.\nEP4636367A1, Vibration detection in a laboratory instrument, public date 2025-10-22\nhttps://data.epo.org/publication-server/rest/v1.2/publication-dates/2025-10-22/patents/EP4636367NWA1/document.pdf\nPositioning: metadata on page 1 of PDF, claims 1, 3, 4, 11 on pages 14 to 15, Figure 2 on page 17, description [0035]; the drawings are for public technical reading only\nUS7255669B2, Centrifuge with imbalance detector, document publication date 2007-08-14\nhttps://patents.google.com/patent/US7255669B2/en\nPositioning: Google Patents carries the original text of the public patent; read the FIG7 steps and claim 15 of the instruction manual; the current legal status has not been verified, and no free conclusion on implementation can be made\nWIPO, PCT Seminar Presentation, Updated Compilation March 2025\nhttps://www.wipo.int/pct/en/docs/pct-seminar.pdf\nPositioning: PDF physical pages 16, 24, 94, 96 have been viewed; 24 manual organization, 94 search scope records, 96 opinions are not final authorized distinctions, and foreign procedures are not copied."
+  },
+  {
+   "page": 197,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "1jd3box",
+     "Disclosed item-by-item comparison of technical features"
+    ],
+    [
+     "vdkrwv",
+     "Record the read technical limitations item by item, and distinguish the conditions for adding independent claims and dependent claims."
+    ],
+    [
+     "1io7d2i",
+     "Comparison is used to identify existing content. Judgments such as actual novelty still require complete plans, dates and a wider search."
+    ],
+    [
+     "krtlfc",
+     "Source: EP4636367A1, EPO published original text; US7255669B2, specification and claim 15"
+    ],
+    [
+     "80y4by",
+     "05"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "1702la7",
+     "Compare location US7255669B2 EP4636367A1"
+    ],
+    [
+     "oqh1vl",
+     "Basic structure and input Rights 15: Frame, damping supports, drives and rotating parts; contact impact caused by excessive vibrations Rights 1: Data of at least two degrees of freedom; identification of vibration modes"
+    ],
+    [
+     "12ykywy",
+     "Model or rule Weight 15: The threshold changes with the rotation speed. Weight 3 refers to the previous item and adds the training model; Weight 4 refers to 3 and adds feature representation."
+    ],
+    [
+     "1e36q95",
+     "Control action Right 15: Stop driving when the detection output exceeds the threshold. Right 11: Refer to any of the above items and press the running status to stop"
+    ]
+   ],
+   "note": "This round re-read the complete claim 15 of US7255669B2, and added the structural limitations of the frame, damping support, driving and rotating parts, as well as the contact of components caused by excessive vibration and the detection of impact. This item is an independent claim; the table is only a read part and does not explain the complete scope of protection. EP claim 1 does not require the use of machine learning. Rights 3 refers to the previous item and adds a training model. Rights 4 refers to 3 and adds feature representation. Rights 11 refers to any of the above items and adds a stop operation. It cannot be said that all combinations of ownership 11 require training models. No judgment has been made on legal status, infringement or patentability.\nEP4636367A1, Vibration detection in a laboratory instrument, public date 2025-10-22\nhttps://data.epo.org/publication-server/rest/v1.2/publication-dates/2025-10-22/patents/EP4636367NWA1/document.pdf\nPositioning: metadata on page 1 of PDF, claims 1, 3, 4, 11 on pages 14 to 15, Figure 2 on page 17, description [0035]; the drawings are for public technical reading only\nUS7255669B2, Centrifuge with imbalance detector, document publication date 2007-08-14\nhttps://patents.google.com/patent/US7255669B2/en\nPositioning: Google Patents carries the original text of the public patent; read the FIG7 steps and claim 15 of the instruction manual; the current legal status has not been verified, and no free conclusion on implementation can be made"
+  },
+  {
+   "page": 198,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "1a101jw",
+     "Specific questions in invention mining"
+    ],
+    [
+     "17mkt72",
+     "\"Add sensors and AI\" still needs to be broken down into components, data paths, judgment conditions and effect basis."
+    ],
+    [
+     "15yfhi9",
+     "Thinking to be discussed"
+    ],
+    [
+     "np8rxf",
+     "Sensor data validity check"
+    ],
+    [
+     "fa19wh",
+     "Installation and Data\nWhere is"
+    ],
+    [
+     "1fm428f",
+     "installed? How are timestamps generated?"
+    ],
+    [
+     "2r6a92",
+     "Judgment and exception"
+    ],
+    [
+     "yy8sw6",
+     "How to judge frame loss and saturation, and what is the basis?"
+    ],
+    [
+     "47xafx",
+     "Control and Evidence"
+    ],
+    [
+     "bkrsho",
+     "How to request processing and recovery, and how to verify the effect?"
+    ],
+    [
+     "vtf6y0",
+     "No verified distinguishing features were found in this case and the list of questions is used to continue gathering technical facts."
+    ],
+    [
+     "1006ww6",
+     "Source: Teaching hypothesis plan, not implemented; Patent Law Articles 2, 6, 22, 24, 26, 64"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ]
+   ],
+   "note": "The course intends to discuss the validity check when the sensor loses frames or is saturated; this is just asking for directions, without verifying whether it has been disclosed, and it is not called a new invention. Ask about installation locations and connections, time stamps, failure thresholds, control requests, recovery strategies, distinctions and evidence. Unknown information is reserved to be filled in, and parameters are not generated by AI.\nSelf-compiled centrifuge monitoring and communication teaching materials for the course\nlocal:training/section-11/patent-packet/patent.json\nPositioning: plan, questioning, implementation details and gaps; not the applicant’s invention\nPatent Law of the People's Republic of China (revised in 2020), original text from the State Intellectual Property Office\nhttps://www.cnipa.gov.cn/art/2020/11/23/art_97_155167.html\nPositioning: 2026-10-18 Verification of relevant provisions, no legal judgment on specific plans"
+  },
+  {
+   "page": 199,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "1ra18c9",
+     "The structure and abnormal branches of the teaching plan"
+    ],
+    [
+     "1cbtc2v",
+     "Identify the status when the data is valid, record the fault when the data is abnormal, and then process the control request according to the verified rules."
+    ],
+    [
+     "dg0hu7",
+     "S1 Sensing data and time stamp"
+    ],
+    [
+     "1jctas",
+     "S2 data valid?"
+    ],
+    [
+     "jwxla3",
+     "S3 Identify running status"
+    ],
+    [
+     "lit19l",
+     "S4 recording sensor failure"
+    ],
+    [
+     "15znpzl",
+     "Form control processing request"
+    ],
+    [
+     "119p1mj",
+     "Processing and recovery rules need to be verified"
+    ],
+    [
+     "kgwvlw",
+     "valid"
+    ],
+    [
+     "1uz4mvb",
+     "Exception"
+    ],
+    [
+     "1xep3ih",
+     "Keep fault records when data is abnormal."
+    ],
+    [
+     "i8ag4e",
+     "Requested content, receiving interface and"
+    ],
+    [
+     "1te2h65",
+     "Equipment action still needs to be designed and tested."
+    ],
+    [
+     "1jjq96h",
+     "The hypothetical course plan has no prototype, no controlled verification, and has not been proven to be different from existing technologies."
+    ],
+    [
+     "f6cjy6",
+     "Source: Teaching hypothesis plan, not implemented"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ]
+   ],
+   "note": "The diagram reads 6 nodes and 6 connections from patent-packet/diagrams/flow.json. S1 reads the sensing data and time stamp, S2 determines the validity, the effective path S3 identifies the operating status, and the abnormal path S4 records the sensing fault; the two paths merge to process the request. How to respond, brake and recover has yet to be equipment designed and tested. PPT is a native object, Word embeds the same source PNG, draw.io, SVG and JSON are attached separately. Markers correspond to implementation descriptions, with no hardware or control verification.\nSelf-compiled centrifuge monitoring and communication teaching materials for the course\nlocal:training/section-11/patent-packet/patent.json\nPositioning: plan, questioning, implementation details and gaps; not the applicant’s invention"
+  },
+  {
+   "page": 200,
+   "pairs": [
+    [
+     "1rn25n1",
+     "11 Patent mining and technical disclosure"
+    ],
+    [
+     "12t6egl",
+     "Reproducible details in implementation notes"
+    ],
+    [
+     "dhv13n",
+     "The embodiment needs to explain how to implement it, and each parameter and exception handling have technical basis."
+    ],
+    [
+     "1p7zwdg",
+     "Excerpt from course implementation instructions"
+    ],
+    [
+     "14g63td",
+     "S1 reads vibration data and time stamps. S2 checks whether the data meets predetermined validity conditions. When the data is valid, S3 enters the running state identification; when the data is abnormal, S4 records the sensing fault. Both paths form control processing requests. How the control unit responds and recovers still requires equipment design and test support."
+    ],
+    [
+     "1s1q9k2",
+     "Still missing: installation location, sampling rate, time window, fault threshold, interface and braking and recovery details."
+    ],
+    [
+     "ldy4dx",
+     "The complete paragraph and the parameters to be supplemented are saved with the disclosure materials, which are currently insufficient to manufacture or control real equipment."
+    ],
+    [
+     "1r0ic44",
+     "Source: Articles 2, 6, 22, 24, 26, 64 of the Patent Law; teaching hypothesis plan, not implemented"
+    ],
+    [
+     "76zb91",
+     "08"
+    ]
+   ],
+   "note": "S1 reading, S2 validity, S3 normal identification, and S4 fault record correspond to the nodes on page 7 one by one; both paths form control processing requests. There are no actual materials for the installation position, sampling, time window, judgment threshold, interface and brake recovery, so the parameters will not be made. The consistency of the pictures and text is only for collation and inspection. The teaching draft cannot yet be used to implement real equipment, nor does it claim to meet the full disclosure requirements.\nPatent Law of the People's Republic of China (revised in 2020), original text from the State Intellectual Property Office\nhttps://www.cnipa.gov.cn/art/2020/11/23/art_97_155167.html\nPositioning: 2026-10-18 Verification of relevant provisions, no legal judgment on specific plans\nSelf-compiled centrifuge monitoring and communication teaching materials for the course\nlocal:training/section-11/patent-packet/patent.json\nPositioning: plan, questioning, implementation details and gaps; not the applicant’s invention"
+  }
+ ]
+}
