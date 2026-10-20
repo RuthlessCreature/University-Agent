@@ -1,0 +1,1337 @@
+{
+ "source": "高校科研AI培训课程_全课240页_course-r4.pptx",
+ "range": [
+  121,
+  140
+ ],
+ "items": [
+  {
+   "page": 121,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "16799q5",
+     "Effect size, statistical evidence and scientific interpretation"
+    ],
+    [
+     "tkw5jx",
+     "Result reports need to simultaneously account for the size of the difference, the uncertainty of the estimate, and the range of explanations allowed by the study design."
+    ],
+    [
+     "1t774jr",
+     "Differences and Units"
+    ],
+    [
+     "9vfmci",
+     "Estimated uncertainty"
+    ],
+    [
+     "szwu1c",
+     "Research Scope"
+    ],
+    [
+     "1m35lsa",
+     "Objects and comparison directions"
+    ],
+    [
+     "158snbu",
+     "Sampling and model conditions"
+    ],
+    [
+     "1gttso3",
+     "Select, mix and apply objects"
+    ],
+    [
+     "1x403o",
+     "The millimeter difference of penguins and the tail probability of coins correspond to different problems and models respectively."
+    ],
+    [
+     "kdqdij",
+     "The significance threshold cannot alone answer whether the difference is important or whether the study is reliable."
+    ],
+    [
+     "737jk8",
+     "Source: ASA, 2016, P-value statement; UC Berkeley 2026, Hypothesis Testing, pp.6/17/29"
+    ],
+    [
+     "6wwk23",
+     "15"
+    ]
+   ],
+   "note": "This page maps estimators, model conditions, and extrapolation ranges. The penguin example reports mm differences with conditional bootstrap intervals, without calculating the causal effect of sex. The coin example only has the tail probability under a specific null hypothesis, and the two cannot be mixed in a result. Thresholds do not represent uniform standards of scientific or applied value.\nASA 2016 Statement on Statistical Significance and P-Values\nhttps://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf\nPositioning: Principles Pages 2-3; Model Conditions, Effect Sizes, and Selective Reporting\nUC Berkeley Stat131a Fall2026 Lecture14: Hypothesis testing I\nhttps://docs.google.com/presentation/d/1kVlWvs05VWO8afAteE92p85yHMnPlo1WEuktsL6AeHE/edit\nPositioning: PDF pages 6, 17, and 29 have been rendered for viewing; pages 30 and 34 have read text"
+  },
+  {
+   "page": 122,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "kqov55",
+     "Bootstrap resampling with replacement"
+    ],
+    [
+     "1ut9ilt",
+     "Resample the original records within each group and observe how the mean difference changes with resampling."
+    ],
+    [
+     "pj41e6",
+     "Two groups of female and male"
+    ],
+    [
+     "j0htz8",
+     "73 each"
+    ],
+    [
+     "blmmls",
+     "Each group has replacement sampling"
+    ],
+    [
+     "1rcmjuh",
+     "Calculate the mean difference once"
+    ],
+    [
+     "13a9r7l",
+     "Repeat 10,000 times"
+    ],
+    [
+     "arlpua",
+     "Keep original measurement records"
+    ],
+    [
+     "owapk2",
+     "Each group still takes 73 items"
+    ],
+    [
+     "3dhaaa",
+     "The direction is fixed as male minus female"
+    ],
+    [
+     "hhvy3m",
+     "Estimated quantiles and fluctuations"
+    ],
+    [
+     "im6yn0",
+     "If the study is based on nests, classes or subjects, resampling also needs to retain the corresponding structure."
+    ],
+    [
+     "1mu9n4f",
+     "This time the script samples by row. Increasing the number of resampling cannot repair the selection bias of the original sample."
+    ],
+    [
+     "d4bmrm",
+     "Source: UC Berkeley 2026, confidence interval, pp.4/7/8; NumPy has replacement sampling documentation; local script actual calculation"
+    ],
+    [
+     "76w5r2",
+     "16"
+    ]
+   ],
+   "note": "The number of samples in each group is retained at 73, and there is replacement sampling within the group, so the same row can appear multiple times in one sampling; the mean difference of male minus female is calculated each time. 10,000 times does not mean adding 10,000 batches of real animal data. If there is a pairwise or within-nest correlation, resampling should be done by the corresponding units; the current simplified table does not support this check.\nUC Berkeley Stat131a Fall2026 Lecture11: Confidence intervals I\nhttps://docs.google.com/presentation/d/1as5Nr_mx7eZk1Wz4mZJdOcHGjycFxf5FqhZyfXqjLbk/edit\nPositioning: PDF pages 4, 7, and 8, rendered for viewing\nNumPy Generator.choice documentation\nhttps://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.choice.html\nPositioning: replace parameter; see results.json for version"
+  },
+  {
+   "page": 123,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "1n2qoxm",
+     "Distribution of resampling results\nThe 2.5% and 97.5% quantiles of the"
+    ],
+    [
+     "1jbex0t",
+     "10,000 mean differences are 2.68 and 6.58 mm."
+    ],
+    [
+     "3b455i",
+     "Percentile interval"
+    ],
+    [
+     "ptidcz",
+     "Each column is 0.5mm wide"
+    ],
+    [
+     "fkw8b5",
+     "Horizontal axis marks the left end of the interval"
+    ],
+    [
+     "15qzw9m",
+     "2.68—6.58 mm"
+    ],
+    [
+     "1dks4fj",
+     "This is not the individual fin length\nDistribution of"
+    ],
+    [
+     "dgvmqa",
+     "."
+    ],
+    [
+     "m45k6k",
+     "Local actual calculation; random seeds, quantile algorithm and complete resampled values ​​can all be checked."
+    ],
+    [
+     "qx17yb",
+     "Source: UC Berkeley 2026, confidence interval, pp.4/7/8; NumPy has replacement sampling documentation; local script actual calculation; palmerpenguins public data, secondary calculation in this course"
+    ],
+    [
+     "7gvrg1",
+     "17"
+    ],
+    [
+     "vbl19d",
+     "Chart: Resampled distribution of mean differences (mm) (barChart):"
+    ],
+    [
+     "m6aw0d",
+     "Categories: 0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5"
+    ],
+    [
+     "osgbyk",
+     "Resampling times: 0.0=0, 0.5=1, 1.0=8, 1.5=32, 2.0=121, 2.5=366, 3.0=829, 3.5=1308, 4.0=1849, 4.5=1987, 5.0=1617, 5.5=1037, 6.0=555, 6.5=214, 7.0=57, 7.5=16, 8.0=3, 8.5=0, 9.0=0, 9.5=0"
+    ]
+   ],
+   "note": "The resampling distribution is used to show the uncertainty of the current sample under a specified sampling plan. The picture shows the frequency summary of equal width intervals of 0.5 mm, and the complete 10,000 values ​​are saved in CSV. The distribution of mean differences is different from the distribution of individual fin lengths and cannot be substituted for each other. Random seed 20261018.\nUC Berkeley Stat131a Fall2026 Lecture11: Confidence intervals I\nhttps://docs.google.com/presentation/d/1as5Nr_mx7eZk1Wz4mZJdOcHGjycFxf5FqhZyfXqjLbk/edit\nPositioning: PDF pages 4, 7, and 8, rendered for viewing\nNumPy Generator.choice documentation\nhttps://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.choice.html\nPositioning: replace parameter; see results.json for version\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 124,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "noyw0w",
+     "Mixed species and intragroup correlation"
+    ],
+    [
+     "1vcd8he",
+     "Mixing species together, the overall correlation between beak length and fin length may contain interspecies differences."
+    ],
+    [
+     "1fpcejq",
+     "Pearson related"
+    ],
+    [
+     "bzeglp",
+     "Overall r = 0.656"
+    ],
+    [
+     "1en15tc",
+     "Adelie within r = 0.326"
+    ],
+    [
+     "16da5b1",
+     "The overall relationship includes"
+    ],
+    [
+     "r100n3",
+     "Differences between species."
+    ],
+    [
+     "1vva9ov",
+     "The horizontal axis of the beak is mm, and the longitudinal axis of the fin is mm. Points are from public observations, no uncomputed fitted lines are drawn."
+    ],
+    [
+     "bmy8q",
+     "Source: palmerpenguins public data, secondary calculation in this course"
+    ],
+    [
+     "5iyjl8",
+     "18"
+    ],
+    [
+     "q15cjw",
+     "Chart: Beak length and fin length: coloring by species (mm) (scatterChart):"
+    ],
+    [
+     "1ynh9nf",
+     "Categories: 39.1, 39.5, 40.3, 36.7, 39.3, 38.9, 39.2, 34.1, 42, 37.8, 41.1, 38.6, 34.6, 36.6, 38.7, 42.5, 34.4, 46, 37.7, 35.9, 38.2, 38.8, 35.3, 40.6, 40.5, 37.9, 37.2, 40.9, 36.4, 42.2, 37.6, 39.8, 36.5, 40.8, 36, 44.1, 37, 39.6, 37.5, 42.3, 40.1, 35, 34.5, 41.4, 39, 35.7, 41.3, 41.6, 35.5, 41.8, 33.5, 39.7, 45.8, 42.8, 36.2, 42.1, 42.9, 35.1, 37.3, 36.3, 36.9, 38.3, 34, 38.1, 33.1, 43.2, 41, 45.6, 42.7, 40.2, 35.2, 41.5, 38.5, 43.1, 36.8, 35.6, 32.1, 40.7, 46.5, 50, 51.3, 45.4, 52.7, 45.2, 46.1, 46.6, 51.7, 47, 52, 45.9, 50.5, 50.3, 58, 46.4, 49.2, 42.4, 48.5, 50.6, 46.7, 49.5, 52.8, 54.2, 51, 49.7, 47.5, 47.6, 46.9, 53.5, 49, 46.2, 50.9, 45.5, 50.8, 50.1, 51.5, 49.8, 48.1, 51.4, 45.7, 50.7, 52.2, 49.3, 50.2, 51.9, 46.8, 55.8, 43.5, 49.6, 48.7, 43.3, 48.4, 45.1, 46.3, 44.5, 47.8, 48.2, 47.3, 59.6, 49.1, 42.6, 44.4, 44, 45.3, 43.6, 44.9, 45, 43.8, 50.4, 54.3, 47.7, 48.6, 51.1, 52.5, 47.4, 43.4, 52.1, 49.4, 55.9, 47.2, 41.7, 53.4, 55.1, 48.8, 49.9"
+    ],
+    [
+     "1okshb6",
+     "Adelie: 39.1=181, 39.5=186, 40.3=195, 36.7=193, 39.3=190, 38.9=181, 39.2=195, 34.1=193, 42=190, 37.8=186, 37.8=180, 41.1=182, 38.6=191, 34.6=198, 36.6=185, 38.7=195, 42.5=197, 34.4=184, 46=194, 37.8=174, 37.7=180, 35.9=189, 38.2=185, 38.8=180, 35.3=187, 40.6=183, 40.5=187, 37.9=172, 40.5=180, 39.5=178, 37.2=178, 39.5=188, 40.9=184, 36.4=195, 39.2=196, 38.8=190, 42.2=180, 37.6=181, 39.8=184, 36.5=182, 40.8=195, 36=186, 44.1=196, 37=185, 39.6=190, 41.1=182, 37.5=179, 36=190, 42.3=191, 39.6=186, 40.1=188, 35=190, 42=200, 34.5=187, 41.4=191, 39=186, 40.6=193, 36.5=181, 37.6=194, 35.7=185, 41.3=195, 37.6=185, 41.1=192, 36.4=184, 41.6=192, 35.5=195, 41.1=188, 35.9=190, 41.8=198, 33.5=190, 39.7=190, 39.6=196, 45.8=197, 35.5=190, 42.8=195, 40.9=191, 37.2=184, 36.2=187, 42.1=195, 34.6=189, 42.9=196, 36.7=187, 35.1=193, 37.3=191, 41.3=194, 36.3=190, 36.9=189, 38.3=189, 38.9=190, 35.7=202, 41.1=205, 34=185, 39.6=186, 36.2=187, 40.8=208, 38.1=190, 40.3=196, 33.1=178, 43.2=192, 35=192, 41=203, 37.7=183, 37.8=190, 37.9=193, 39.7=184, 38.6=199, 38.2=190, 38.1=181, 43.2=197, 38.1=198, 45.6=191, 39.7=193, 42.2=197, 39.6=191, 42.7=196, 38.6=188, 37.3=199, 35.7=189, 41.1=189, 36.2=187, 37.7=198, 40.2=176, 41.4=202, 35.2=186, 40.6=199, 38.8=191, 41.5=195, 39=191, 44.1=210, 38.5=190, 43.1=197, 36.8=193, 37.5=199, 38.1=187, 41.1=190, 35.6=191, 40.2=200, 37=185, 39.7=193, 40.2=193, 40.6=187, 32.1=188, 40.7=190, 37.3=192, 39=185, 39.2=190, 36.6=184, 36=195, 37.8=193, 36=187, 41.5=201"
+    ],
+    [
+     "v36l6f",
+     "Chinstrap: 46.5=192, 50=196, 51.3=193, 45.4=188, 52.7=197, 45.2=198, 46.1=178, 51.3=197, 46=195, 51.3=198, 46.6=193, 51.7=194, 47=185, 52=201, 45.9=190, 50.5=201, 50.3=197, 58=181, 46.4=190, 49.2=195, 42.4=181, 48.5=191, 43.2=187, 50.6=193, 46.7=195, 52=197, 50.5=200, 49.5=200, 46.4=191, 52.8=205, 40.9=187, 54.2=201, 42.5=187, 51=203, 49.7=195, 47.5=199, 47.6=195, 52=210, 46.9=192, 53.5=205, 49=210, 46.2=187, 50.9=196, 45.5=196, 50.9=196, 50.8=201, 50.1=190, 49=212, 51.5=187, 49.8=198, 48.1=199, 51.4=201, 45.7=193, 50.7=203, 42.5=187, 52.2=197, 45.2=191, 49.3=203, 50.2=202, 45.6=194, 51.9=206, 46.8=189, 45.7=195, 55.8=207, 43.5=202, 49.6=193, 50.8=210, 50.2=198"
+    ],
+    [
+     "ha20md",
+     "Gentoo: 46.1=211, 50=230, 48.7=210, 50=218, 47.6=215, 46.5=210, 45.4=211, 46.7=219, 43.3=209, 46.8=215, 40.9=214, 49=216, 45.5=214, 48.4=213, 45.8=210, 49.3=217, 42=210, 49.2=221, 46.2=209, 48.7=222, 50.2=218, 45.1=215, 46.5=213, 46.3=215, 42.9=215, 46.1=215, 44.5=216, 47.8=215, 48.2=210, 50=220, 47.3=222, 42.8=209, 45.1=207, 59.6=230, 49.1=220, 48.4=220, 42.6=213, 44.4=219, 44=208, 48.7=208, 42.7=208, 49.6=225, 45.3=210, 49.6=216, 50.5=222, 43.6=217, 45.5=210, 50.5=225, 44.9=213, 45.2=215, 46.6=210, 48.5=220, 45.1=210, 50.1=225, 46.5=217, 45=220, 43.8=208, 45.5=220, 43.2=208, 50.4=224, 45.3=208, 46.2=221, 45.7=214, 54.3=231, 45.8=219, 49.8=230, 46.2=214, 49.5=229, 43.5=220, 50.7=223, 47.7=216, 46.4=221, 48.2=221, 46.5=217, 46.4=216, 48.6=230, 47.5=209, 51.1=220, 45.2=215, 45.2=223, 49.1=212, 52.5=221, 47.4=212, 50=224, 44.9=212, 50.8=228, 43.4=218, 51.3=218, 47.5=212, 52.1=230, 47.5=218, 52.2=228, 45.5=212, 49.5=224, 44.5=214, 50.8=226, 49.4=216, 46.9=222, 48.4=203, 51.1=225, 48.5=219, 55.9=228, 47.2=215, 49.1=228, 47.3=216, 46.8=215, 41.7=210, 53.4=219, 43.3=208, 48.1=209, 50.5=216, 49.8=229, 43.5=213, 51.5=230, 46.2=217, 55.1=230, 44.5=217, 48.8=222, 47.2=214, 46.8=215, 50.4=222, 45.2=212, 49.9=213"
+    ]
+   ],
+   "note": "Complete beak and fin length records for all species are 342, and the figures are colored by species. The overall Pearson correlation is about 0.656, and the Adelie correlation is about 0.326. The numerical difference shows that the overall relationship is different from the relationship within the same species, and the overall straight line cannot be regarded as the relationship of each species; the correlation does not mean that changing the beak length will cause the fin length to change.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 125,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "1v2z2lc",
+     "Collection year and sample composition"
+    ],
+    [
+     "1lu3ofr",
+     "Same as Adelie, the average value from 2007 to 2009 still changes, and the composition of the consolidated report needs to be checked."
+    ],
+    [
+     "1thgoqf",
+     "The number of records in each group in each year"
+    ],
+    [
+     "1gix1p7",
+     "2007: 22 items"
+    ],
+    [
+     "7cm479",
+     "2008: 25 items"
+    ],
+    [
+     "u09xqh",
+     "2009: 26 items"
+    ],
+    [
+     "e6mgav",
+     "The group mean of observations in each year,"
+    ],
+    [
+     "3632aj",
+     "does not indicate individual growth."
+    ],
+    [
+     "186o4io",
+     "The group mean value of each year is the observation record, not the longitudinal change of the same batch of individuals."
+    ],
+    [
+     "bmy8q",
+     "Source: palmerpenguins public data, secondary calculation in this course"
+    ],
+    [
+     "5sy5a7",
+     "19"
+    ],
+    [
+     "1i8ten7",
+     "Chart: Adelie’s group average fin length in each year (mm) (lineChart):"
+    ],
+    [
+     "7nqrzv",
+     "Categories: 2007, 2008, 2009"
+    ],
+    [
+     "g4zfln",
+     "female: 2007=185.22727272700001, 2008=188.44, 2009=189.34615384599999"
+    ],
+    [
+     "fdawfa",
+     "male (male): 2007=188.181818182, 2008=193.63999999999999, 2009=194.80769230799999"
+    ]
+   ],
+   "note": "Recalculate the mean by year and gender. The n values ​​of male and female in each year are 22, 25, and 26 respectively. The polyline connects the mean values ​​of each year group and does not track the same individual, so it cannot be described as an individual growth curve over time. This stratified examination did not adjust for factors such as islands, nests, etc., and did not eliminate confounding.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash."
+  },
+  {
+   "page": 126,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "1cj3cjh",
+     "Objects, Numbers and Limitations in Results Paragraph"
+    ],
+    [
+     "8lda0m",
+     "A checkable result text, which needs to include the scope of inclusion, direction of difference, method and limiting conditions."
+    ],
+    [
+     "13twi3o",
+     "Example of secondary analysis results"
+    ],
+    [
+     "13etchw",
+     "Among the 146 Adelie records with complete sex and fin length, there are 73 males and 73 males respectively. The average fin length of males is 192.41 mm and that of females is 187.79 mm, with a mean difference of 4.62 mm. Re-sampling with replacement was performed 10,000 times for each of the two groups, and the percentile interval was 2.68-6.58 mm."
+    ],
+    [
+     "1nrfv4r",
+     "This interval relies on the sampling assumption of row independence. The simplified data did not provide verifiable nest-individual correspondences, and year, island, and missing mechanisms were not adjusted for in this model, so this example is retained as a conditional analysis without causal interpretation."
+    ],
+    [
+     "1nfmpht",
+     "The secondary teaching results of public data are not released as the conclusion of the original research or new scientific research results."
+    ],
+    [
+     "1fgefk3",
+     "Source: palmerpenguins public data, secondary calculation in this course; ASA, 2016, P value statement"
+    ],
+    [
+     "13dvipr",
+     "20"
+    ]
+   ],
+   "note": "See page for examples of readable results. The lecturer can explain it sentence by sentence according to the object, calculation, and hypothesis, and does not paste the entire code output into the paper. The interval here is a secondary calculation of this course and cannot be quoted as a conclusion in the original paper. Gender and other variables were not randomly assigned, and no causal claims were made; a review of the original research design was not completed.\nHorst, Hill & Gorman: palmerpenguins, public simplified data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data, License, References; see analysis-packet/source.json for the original CSV and hash.\nASA 2016 Statement on Statistical Significance and P-Values\nhttps://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf\nPositioning: Principles Pages 2-3; Model Conditions, Effect Sizes, and Selective Reporting"
+  },
+  {
+   "page": 127,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "2rqvod",
+     "How to confirm the result after changing the Cursor code?"
+    ],
+    [
+     "x28wst",
+     "The same penguin data: Change the mean difference in fin length from \"male minus female\" to \"female minus male\", and check the output twice."
+    ],
+    [
+     "1263x0y",
+     "Cursor: Edit code"
+    ],
+    [
+     "c5uehp",
+     "Python: Run Script"
+    ],
+    [
+     "19g9cj4",
+     "File: output twice"
+    ],
+    [
+     "1hen9l7",
+     "Review: Return to original data"
+    ],
+    [
+     "1fw1vn1",
+     "Change the difference formula and field name;"
+    ],
+    [
+     "q7borp",
+     "View the differences before and after modification."
+    ],
+    [
+     "kif9yp",
+     "Use the same interpreter,"
+    ],
+    [
+     "se3xcl",
+     "Execute two scripts respectively."
+    ],
+    [
+     "1g70yuy",
+     "Save CSV and records separately;"
+    ],
+    [
+     "18qk28k",
+     "The difference should be the opposite number."
+    ],
+    [
+     "gd34r3",
+     "Include rows, number of people in two groups,"
+    ],
+    [
+     "10ysp94",
+     "The mean and SD should remain unchanged."
+    ],
+    [
+     "a6lr93",
+     "Actual Python output: the same data, the same 146 records"
+    ],
+    [
+     "1g3vclp",
+     "Original script: male minus female"
+    ],
+    [
+     "sqvxbb",
+     "After modification: female and male"
+    ],
+    [
+     "1bgdhbi",
+     "Each group is still 73 items"
+    ],
+    [
+     "1vj5iay",
+     "+4.616438 mm"
+    ],
+    [
+     "1ilyanr",
+     "−4.616438 mm"
+    ],
+    [
+     "zv4xdl",
+     "The mean and sample SD remain unchanged"
+    ],
+    [
+     "yf58og",
+     "The two Python scripts in this example have been run locally; Cursor has not been operated and SPSS has not been executed. R continues to use local WebR actual calculation records."
+    ],
+    [
+     "4hmm7g",
+     "Source: CMU 2025 Lecture23, page 26; Cursor Agent and terminal documentation; local Python changes and actual calculations"
+    ],
+    [
+     "133vx0s",
+     "21"
+    ]
+   ],
+   "note": "This page follows the explanation of results and explains how teachers can determine whether code modifications have taken effect. Let’s talk about the specific task first: in the same public penguin data, change the mean difference in fin length from male minus female to female minus male. The original value was 4.616438 mm, which was revised to minus 4.616438 mm. There were 73 items in each group, and 146 items were included. The mean and sample SD remained unchanged. The signs change with the order of comparisons and cannot be used to claim that another study effect has been found.\nCursor is the entrance to code editing and agent tools. It can read files, modify code and initiate terminal commands under the current permissions and running settings. The Python interpreter is the software that actually runs the Python code, and the terminal is where commands are entered and the output of the run is viewed. Displaying a piece of code in the editor does not prove that it has been executed; the number in the chat does not prove that it comes from the current file. When demonstrating, first check the current directory, actual interpreter path and version, and then look at the running command, exit code, new file and script version. The specific buttons and installation steps do not take up the main class time. Instructors who already have a Cursor environment can display them according to supporting tasks; this course does not require students to install or operate accounts.\nIn this round, the local Codex calls Python to execute two complete scripts, and there is no Cursor operation or call to the Cursor model. The baseline.py in cursor-packet comes from the original cross-tool/analysis.py, and the baseline only changes the output directory. modified.py changes the difference formula, field names and print fields, while using a separate directory. code-change.diff shows the actual difference. The included_rows.csv and summary.csv in the two directories are used to check the included rows, number of people, mean and sample SD; comparison.csv corresponds to the difference in different directions, and run.json and run-evidence.json save the time, path, version, exit code and hash. check_results.py independently recalculates from the original CSV, not only checking whether the program exits successfully.\nThe complete Python, R, and SPSS codes of three same calibers continue to be retained in cross-tool. Python and local WebR have been actually implemented, and the next page still compares male to female; the new female to male is only used as a code modification teaching example, and the R output is not secretly changed to a new direction. SPSS syntax has not been implemented, and desktop R and RStudio have not been tested. All teaching tasks and explanations are written by AI and are yet to be approved by the teaching instructor. Scientific boundaries remain: only descriptive statistics of public data are used here, without verification of independence, overall representativeness or causality.\nThe foreign reference is page 26 of CMU Generative AI 2025 Lecture23 Physics (printed page 30), which presents the code, executor, inspection and feedback separately. Following this procedure, the four-step diagram on the Chinese page can be edited without using the original diagram, model results or self-correction conclusions. Cursor function also check the official Agent mode and Terminal integration original text of this round.\nNayebi & Gormley, CMU Generative AI, Lecture23, Nov19 2025\nhttps://www.cs.cmu.edu/~mgormley/courses/10423-f25/slides/lecture23-code.pdf\nOrientation: Physics Page 26 (Printed Page 30), Iterative Self-Refinement; uses pedagogical relationships with actuators and test feedback, does not use original diagrams and conclusion commitments\nCursor Agent mode and Terminal integration official description\nhttps://prod.cursor.com/help/ai-features/agent\nPositioning: 2026-10-19 Actual reading of What can Agent mode do, How do I review Agent changes; please see cursor-packet/reference.md for terminal instructions; not operated in Cursor\nCode difference direction modified local Python actual run\nlocal:training/section-07/cursor-packet/run-evidence.json\nPositioning: baseline.py, modified.py, code-change.diff, two output directories and check_results.py; secondary descriptive statistics of public data"
+  },
+  {
+   "page": 128,
+   "pairs": [
+    [
+     "spv1go",
+     "07 Data processing and statistical analysis"
+    ],
+    [
+     "1b8tsow",
+     "Check actual results between Python and R"
+    ],
+    [
+     "18hf0u6",
+     "Software output needs to include rows, groups, units and calculation definitions. Different interfaces should not change the analysis objects."
+    ],
+    [
+     "151o08d",
+     "Check the 146 records line by line and compare the numbers. SD uses n−1 denominator, and the mean difference is fixed as male minus female."
+    ],
+    [
+     "1d1u47s",
+     "SPSS has not been run yet; after getting the output, check the same line numbers and statistics."
+    ],
+    [
+     "d9l2n7",
+     "Source: Local Python/R actual calculation and code; R official data input and SD instructions; IBM official syntax index, not executed"
+    ],
+    [
+     "13xuq3p",
+     "22"
+    ],
+    [
+     "1l91o67",
+     "Table:"
+    ],
+    [
+     "1oysphj",
+     "Check project Python actual output R actual output"
+    ],
+    [
+     "ic62i8",
+     "Number included / male and female n 146 / 73 each 146 / 73 each"
+    ],
+    [
+     "yn822f",
+     "Mean mm: Female / Male 187.79 / 192.41 187.79 / 192.41"
+    ],
+    [
+     "eqj4ia",
+     "Sample SD mm: Female / Male 5.60 / 6.60 5.60 / 6.60"
+    ],
+    [
+     "1xwfg53",
+     "Mean difference between male and female mm 4.62 4.62"
+    ]
+   ],
+   "note": "Python and R compare the CSV row numbers, gender codes and fin length values ​​of the 146 included records line by line, and then compare each group's n, mean, sample SD and mean difference between males and females, with an absolute tolerance of 1e-9. There are 73 in each group. The mean value of females is 187.7945205479452, SD5.595034763345455; the mean value of males is 192.41095890410958, SD6.599317339354874; the difference is 4.616438356164366 mm. The denominator of the sample SD is n-1. The page only lists the actual execution results of Python and R, and does not replace the SPSS actual measurement with empty columns; the SPSS code is provided with the package, and there is no output yet. This page is only used to check the consistency of the numerical values ​​described; it cannot be used to prove sampling independence, scientific conclusions, or that SPSS syntax has been run. The complete material still retains the original CSV, code, filter records, output, run information and open issues. The next section goes into scientific research charts and technical routes.\nComparison of descriptive statistics, inclusion lines and output between Python and local WebR in this round\nlocal:training/section-07/cross-tool/checks.json\nPositioning: analysis.py, analysis.R, analysis.sps; R is actually executed in local WebR, SPSS is not running; run.json and runtime-provenance are recorded separately\nR official read.csv and sample sd instructions\nhttps://stat.ethz.ch/R-manual/R-devel/library/stats/html/sd.html\nPositioning: sd uses n-1 denominator; see also cross-tool/reference.md for na.strings and stringsAsFactors parameters of read.csv\nIBM SPSS Statistics GET DATA/MEANS/AGGREGATE/SAVE TRANSLATE index\nhttps://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=reference-means\nPositioning: Official search index readable syntax; full page and version 31 PDF accessed 403 this round. The grammar file has not been verified by SPSS execution and is not used as evidence of execution."
+  },
+  {
+   "page": 129,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "1ts43mz",
+     "Scientific research charts and technical routes"
+    ],
+    [
+     "1abblgy",
+     "The figure needs to correspond to a question that the reader can answer, and retain the basis for making a judgment."
+    ],
+    [
+     "aubhfm",
+     "What does the picture want to answer?"
+    ],
+    [
+     "1nvuvpz",
+     "Data chart"
+    ],
+    [
+     "braox2",
+     "Value, distribution, difference"
+    ],
+    [
+     "1y5e6ja",
+     "Technical Route"
+    ],
+    [
+     "ghynrz",
+     "Steps, dependencies, judgment conditions"
+    ],
+    [
+     "b50ove",
+     "Mechanism diagram"
+    ],
+    [
+     "qk6i5k",
+     "Explain hypotheses and relationships to be verified"
+    ],
+    [
+     "14pb81u",
+     "The expression tasks of data, process and hypothesis are different, and the source and evidence status need to be retained with the diagram."
+    ],
+    [
+     "194pknl",
+     "Source: UBC 2026, Graphic Coding, pp.4/6/17; course self-edited teaching examples"
+    ],
+    [
+     "94wj3u",
+     "01"
+    ]
+   ],
+   "note": "This section distinguishes between data diagrams, technical routes and mechanism illustrations. Data graphs correspond to values ​​and comparisons; routes illustrate how work is accomplished; mechanism graphs present hypotheses and relationships to be verified. Source and material status are identified separately. The beauty of figures is no substitute for data or research design.\nUBC CPSC447 2026 course: Marks & Channels I, revised on 2026-01-19\nhttps://www.cs.ubc.ca/~tmm/talks/vad/2601-marks.pdf\nPositioning: Actual rendering view pages 4, 6, and 17\nCourse self-compiled drawings and research plans\nlocal:training/section-08/lesson.json\nPositioning: The plan has not been implemented, the hypothesis has not been verified; it is not disguised as scientific research evidence or Agent screenshots"
+  },
+  {
+   "page": 130,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "1m4ezp8",
+     "Research Questions and Graphic Selection"
+    ],
+    [
+     "o7v0e6",
+     "Comparing distributions, observing variable relationships, displaying timing, and explaining work steps all have suitable expressions."
+    ],
+    [
+     "oey76b",
+     "What readers need to compare"
+    ],
+    [
+     "1eunvir",
+     "Distribution or variable relationship"
+    ],
+    [
+     "cpgx1h",
+     "Frequency plot, scatter plot"
+    ],
+    [
+     "1nlr9al",
+     "Change in year or conditions"
+    ],
+    [
+     "2cqvzc",
+     "Trend chart with clear scale"
+    ],
+    [
+     "balosj",
+     "Research steps and dependencies"
+    ],
+    [
+     "13ji40r",
+     "Nodes, connections and branches"
+    ],
+    [
+     "1odowwo",
+     "Choose based on what is being compared, how the data is organized, and what relationships the reader needs to see clearly."
+    ],
+    [
+     "dxoeo5",
+     "Source: UBC 2026, Graphic Coding, pp.4/6/17"
+    ],
+    [
+     "8uwxev",
+     "02"
+    ]
+   ],
+   "note": "Take the same penguin data as an example: the difference between males and females depends on distribution, the relationship between beak length and fin length depends on scatter points, and the average value of each year depends on the year chart. Nodes and arrows are used to illustrate the study execution process. The graph shape is determined by the problem, the data structure, and the reader's task. Avoid defaulting to bar graphs when you see numbers.\nUBC CPSC447 2026 course: Marks & Channels I, revised on 2026-01-19\nhttps://www.cs.ubc.ca/~tmm/talks/vad/2601-marks.pdf\nPositioning: Actual rendering view pages 4, 6, and 17"
+  },
+  {
+   "page": 131,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "1chwx3l",
+     "Mean value chart and distribution chart"
+    ],
+    [
+     "jt0wjd",
+     "For the same two sets of records, the mean plot gives the center position, and the distribution plot adds overlap, span and frequency."
+    ],
+    [
+     "1jt8mfg",
+     "Average: 187.79 / 192.41 mm"
+    ],
+    [
+     "rehf0n",
+     "The same batch of data, supplementing the overlap and span between groups"
+    ],
+    [
+     "1tj7oa7",
+     "Public observation secondary analysis. The two graphs use the same 146 records, and changing the graph does not change the data."
+    ],
+    [
+     "1t76fnk",
+     "Source: palmerpenguins public data, redrawn by this course; UBC 2026, Graphic Coding, pp.4/6/17"
+    ],
+    [
+     "8kxbpw",
+     "03"
+    ],
+    [
+     "1jicf7z",
+     "Chart: A Average fin length (mm) (barChart):"
+    ],
+    [
+     "td1umz",
+     "Categories: Female, Male"
+    ],
+    [
+     "35btrz",
+     "Average fin length: female=187.79452054800001, male=192.41095890400001"
+    ],
+    [
+     "14w90v0",
+     "Chart: B 5mm bin frequency (barChart):"
+    ],
+    [
+     "1y6a6ss",
+     "Categories: 170–175, 175–180, 180–185, 185–190, 190–195, 195–200, 200–205, 205–210, 210–215"
+    ],
+    [
+     "z3bowf",
+     "Female: 170–175=2, 175–180=3, 180–185=11, 185–190=27, 190–195=21, 195–200=8, 200–205=1, 205–210=0, 210–215=0"
+    ],
+    [
+     "k3wl0t",
+     "Male: 170–175=0, 175–180=1, 180–185=10, 185–190=8, 190–195=24, 195–200=22, 200–205=5, 205–210=2, 210–215=1"
+    ]
+   ],
+   "note": "The left side has female187.79 and male192.41 mm, 73 items each; the right side uses the same 146 Adelie complete records, divided into 5 mm bins. The mean plot does not show the original distribution and cannot be used to judge each individual or whether there is a bimodal. The difference in column height is not considered a causal effect here.\nHorst, Hill & Gorman, palmerpenguins public observation data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data and CC0; see figure-packet/source.json for the source CSV hash.\nUBC CPSC447 2026 course: Marks & Channels I, revised on 2026-01-19\nhttps://www.cs.ubc.ca/~tmm/talks/vad/2601-marks.pdf\nPositioning: Actual rendering view pages 4, 6, and 17"
+  },
+  {
+   "page": 132,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "agho3q",
+     "Comparison of vertical axis range and column length"
+    ],
+    [
+     "1saxs0h",
+     "With the same mean value, when the column chart starts from 180, the height ratio of the two columns will appear more disparate."
+    ],
+    [
+     "9daqnc",
+     "The visible height ratio of the two pillars in the picture on the right cannot be used as the ratio of the original fin length."
+    ],
+    [
+     "vrkdxh",
+     "The data in the two pictures are exactly the same, and the difference is still 4.62 mm. The figure on the right is used to illustrate the effect of truncating the vertical axis."
+    ],
+    [
+     "1h1v7nf",
+     "Source: palmerpenguins public data, redrawn by this course; UBC course visualization principles, p.4"
+    ],
+    [
+     "8axq0x",
+     "04"
+    ],
+    [
+     "1i1ohtf",
+     "Chart: A The vertical axis starts from 0 (mm) (barChart):"
+    ],
+    [
+     "td1umz",
+     "Categories: Female, Male"
+    ],
+    [
+     "35btrz",
+     "Average fin length: female=187.79452054800001, male=192.41095890400001"
+    ],
+    [
+     "19u8gbn",
+     "Chart: B Vertical axis starts at 180 (mm) (barChart):"
+    ],
+    [
+     "td1umz",
+     "Categories: Female, Male"
+    ],
+    [
+     "35btrz",
+     "Average fin length: female=187.79452054800001, male=192.41095890400001"
+    ]
+   ],
+   "note": "Both pictures use 187.7945 and 192.411 millimeters. The left image goes from 0 to 210, the right image goes from 180 to 200. The right side is used to explain the visual consequences of truncating the column length and is not presented as a recommendation. The data difference is still 4.6164 mm. We cannot say that the male is several times longer than the female based on the truncated column length ratio. Scatter or interval plots can reasonably focus on the local area, but the scale must be clearly marked.\nHorst, Hill & Gorman, palmerpenguins public observation data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data and CC0; see figure-packet/source.json for the source CSV hash.\nRules of Thumb (Ch6) listed in UBC 2026 curriculum\nhttps://www.cs.ubc.ca/~tmm/talks/vad/VAD-rules.pdf\nPositioning: common scale position and plane expression on page 4, rendered for viewing"
+  },
+  {
+   "page": 133,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "if30lx",
+     "Three meanings of error bars"
+    ],
+    [
+     "1bfmd1s",
+     "The line segments next to the mean of the same group may represent individual dispersion, standard error of the mean, or mean interval."
+    ],
+    [
+     "1slg3wh",
+     "Example: 73 females, mean 187.79 mm"
+    ],
+    [
+     "1wkg42c",
+     "180"
+    ],
+    [
+     "1vqhazf",
+     "185"
+    ],
+    [
+     "1y8gvq5",
+     "190"
+    ],
+    [
+     "1wuiv9a",
+     "195"
+    ],
+    [
+     "1icts2l",
+     "200"
+    ],
+    [
+     "wmjbfm",
+     "Mean ± SD: individual dispersion"
+    ],
+    [
+     "1og6xm9",
+     "182.20—193.39 mm"
+    ],
+    [
+     "lhp1o6",
+     "Mean ± SE: Mean fluctuation"
+    ],
+    [
+     "trrh8e",
+     "187.14—188.45 mm"
+    ],
+    [
+     "uqh9en",
+     "Resampling interval of mean"
+    ],
+    [
+     "7iwkza",
+     "186.52—189.05 mm"
+    ],
+    [
+     "1bxczgj",
+     "The definition of each line segment must be written in the legend; the interval depends on the sampling assumption, and you cannot just write \"error bars\"."
+    ],
+    [
+     "1wftqsm",
+     "Source: palmerpenguins public data, redrawn in this course; NIST Statistical Manual §1.3.5.2"
+    ],
+    [
+     "80y4by",
+     "05"
+    ]
+   ],
+   "note": "Female group n73, mean 187.7945, SD5.5950, row independence hypothesis SE0.65485. The third line uses the 2.5%-97.5% quantiles 186.52-189.05 of the group's 10,000 times resampling mean with replacement. The first two rows are mean±SD, mean±SE, and the third row is not ±SD. The three ranges are represented by the same millimeter scale. This calculation does not verify within-nest dependence and cannot be interpreted as a confirmed overall confidence.\nHorst, Hill & Gorman, palmerpenguins public observation data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data and CC0; see figure-packet/source.json for the source CSV hash.\nNIST: Confidence Limits for the Mean\nhttps://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm\nPositioning: Interpretation of standard errors and mean intervals"
+  },
+  {
+   "page": 134,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "1xd4wpf",
+     "Data chart that can be read independently"
+    ],
+    [
+     "1caakct",
+     "Figure title, coordinates and units, grouping legend, sample range and source, together limit how readers can interpret the figure."
+    ],
+    [
+     "lrezr0",
+     "Beak length (mm)"
+    ],
+    [
+     "86f774",
+     "Fin length (mm)"
+    ],
+    [
+     "1weg7hy",
+     "Adelie has 146 complete records. One observation per point; no causal explanation or fitting line drawn."
+    ],
+    [
+     "1t76fnk",
+     "Source: palmerpenguins public data, redrawn by this course; UBC 2026, Graphic Coding, pp.4/6/17"
+    ],
+    [
+     "7qyimz",
+     "06"
+    ],
+    [
+     "1mb4pmb",
+     "Chart: Adelie’s beak length and fin length (73 per set) (scatterChart):"
+    ],
+    [
+     "1d6x9vn",
+     "Categories: 39.5, 40.3, 36.7, 38.9, 41.1, 36.6, 38.7, 34.4, 37.8, 35.9, 35.3, 40.5, 37.9, 36.4, 42.2, 37.6, 36.5, 36, 37, 39.6, 35, 34.5, 39, 35.7, 35.5, 33.5, 40.9, 36.2, 34.6, 37.3, 36.9, 34, 38.1, 33.1, 37.7, 38.6, 39.7, 40.2, 35.2, 38.8, 38.5, 36.8, 35.6, 32.1, 39.1, 39.3, 39.2, 42.5, 46, 38.2, 40.6, 37.2, 39.8, 40.8, 44.1, 42.3, 40.1, 42, 41.4, 41.3, 41.6, 41.8, 45.8, 42.8, 42.1, 42.9, 35.1, 36.3, 38.3, 43.2, 41, 45.6, 42.7, 41.5, 43.1, 37.5, 40.7"
+    ],
+    [
+     "102bt4q",
+     "Female (round): 39.5=186, 40.3=195, 36.7=193, 38.9=181, 41.1=182, 36.6=185, 38.7=195, 34.4=184, 37.8=174, 35.9=189, 35.3=187, 40.5=187, 37.9=172, 39.5=178, 39.5=188, 36.4=195, 42.2=180, 37.6=181, 36.5=182, 36=186, 37=185, 36=190, 39.6=186, 35=190, 34.5=187, 39=186, 36.5=181, 35.7=185, 37.6=185, 36.4=184, 35.5=195, 35.9=190, 33.5=190, 39.6=196, 35.5=190, 40.9=191, 36.2=187, 34.6=189, 36.7=187, 37.3=191, 36.9=189, 38.9=190, 35.7=202, 34=185, 36.2=187, 38.1=190, 33.1=178, 35=192, 37.7=183, 37.9=193, 38.6=199, 38.1=181, 38.1=198, 39.7=193, 39.6=191, 38.6=188, 35.7=189, 36.2=187, 40.2=176, 35.2=186, 38.8=191, 39=191, 38.5=190, 36.8=193, 38.1=187, 35.6=191, 37=185, 40.2=193, 32.1=188, 37.3=192, 36.6=184, 36=195, 36=187"
+    ],
+    [
+     "1hpmu3a",
+     "Male (square): 39.1=181, 39.3=190, 39.2=195, 38.6=191, 34.6=198, 42.5=197, 46=194, 37.7=180, 38.2=185, 38.8=180, 40.6=183, 40.5=180, 37.2=178, 40.9=184, 39.2=196, 38.8=190, 39.8=184, 40.8=195, 44.1=196, 39.6=190, 41.1=182, 42.3=191, 40.1=188, 42=200, 41.4=191, 40.6=193, 37.6=194, 41.3=195, 41.1=192, 41.6=192, 41.1=188, 41.8=198, 39.7=190, 45.8=197, 42.8=195, 37.2=184, 42.1=195, 42.9=196, 35.1=193, 41.3=194, 36.3=190, 38.3=189, 41.1=205, 39.6=186, 40.8=208, 40.3=196, 43.2=192, 41=203, 37.8=190, 39.7=184, 38.2=190, 43.2=197, 45.6=191, 42.2=197, 42.7=196, 37.3=199, 41.1=189, 37.7=198, 41.4=202, 40.6=199, 41.5=195, 44.1=210, 43.1=197, 37.5=199, 41.1=190, 40.2=200, 39.7=193, 40.6=187, 40.7=190, 39=185, 39.2=190, 37.8=193, 41.5=201"
+    ]
+   ],
+   "note": "The picture shows the complete records of beak length and fin length of male and female Adelie, with 73 fins each, totaling 146 points. The beak length on the horizontal axis and the fin length on the vertical axis are both mm. Only the observation points are displayed, no lines are connected, and no uncalculated fittings are added. Preserve public data sources. Colors are complemented by circles and squares, reducing reliance on color identification alone. The data only support observational associations and do not establish causation by intervention of sex or beak length.\nHorst, Hill & Gorman, palmerpenguins public observation data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data and CC0; see figure-packet/source.json for the source CSV hash.\nUBC CPSC447 2026 course: Marks & Channels I, revised on 2026-01-19\nhttps://www.cs.ubc.ca/~tmm/talks/vad/2601-marks.pdf\nPositioning: Actual rendering view pages 4, 6, and 17"
+  },
+  {
+   "page": 135,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "jevj64",
+     "Objects, symbols and methods in legends"
+    ],
+    [
+     "kthjhh",
+     "Figure captions should allow readers to separate from the main text and still recognize the research objects, sample range, symbol meanings and calculation methods."
+    ],
+    [
+     "16d68gv",
+     "Figure 1 Observed relationship between beak length and fin length of Adelie penguin"
+    ],
+    [
+     "4pvp53",
+     "In the public records from 2007 to 2009, there are 146 Adelie observations with complete sex, beak length and fin length, 73 males and 73 males respectively. Each point represents an observation, with blue dots representing females and green square dots representing males. The units of both axes are millimeters, and no fitting line is drawn in the figure. Data comes from palmerpenguins public simplified table."
+    ],
+    [
+     "g9e4vr",
+     "Objects and sample scope"
+    ],
+    [
+     "ucpuun",
+     "Points, Colors and Units"
+    ],
+    [
+     "1a9hrac",
+     "Calculation method and source"
+    ],
+    [
+     "ptfica",
+     "The numbers, symbols and sources in the legend examples are consistent with those in the accompanying figures."
+    ],
+    [
+     "511p6b",
+     "Source: PLOS One, legend and image requirements; palmerpenguins public data, redrawn in this course"
+    ],
+    [
+     "7gywy0",
+     "07"
+    ]
+   ],
+   "note": "Example legends are based on page 6 of this section. Content includes species and year, complete record range, meaning of each point, shape and color, two-axis units, unfitted lines and data sources. If error bars are used, definitions must also be written. Here is a course example written according to the journal illustration principles, and does not claim that the format of all journals is exactly the same.\nPLOS One Figures Official Requirements\nhttps://journals.plos.org/plosone/s/figures\nPositioning: 2026-10-18 Verification of Captions, Multi-panel Figures, Preparing Figures from Image Files; requirements for each journal are different\nHorst, Hill & Gorman, palmerpenguins public observation data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data and CC0; see figure-packet/source.json for the source CSV hash."
+  },
+  {
+   "page": 136,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "1akx0q3",
+     "Reading order of multi-panel figures"
+    ],
+    [
+     "1ezynao",
+     "A combined chart can use A to present the distribution and B to examine the year composition. The two panels answer a question each."
+    ],
+    [
+     "hy9hn",
+     "Vertical axis: number of records"
+    ],
+    [
+     "141n3j8",
+     "Vertical axis: mm; n for each group per year is 22, 25, 26"
+    ],
+    [
+     "1dv5m73",
+     "A: Fin length distribution; B: Mean value of each year group. The panel units are different, but the group colors are the same."
+    ],
+    [
+     "c6ri07",
+     "Source: palmerpenguins public data, redrawn in this course; PLOS One, legend and image requirements"
+    ],
+    [
+     "76zb91",
+     "08"
+    ],
+    [
+     "108lfky",
+     "Chart: A Fin length distribution (mm) (barChart):"
+    ],
+    [
+     "1y6a6ss",
+     "Categories: 170–175, 175–180, 180–185, 185–190, 190–195, 195–200, 200–205, 205–210, 210–215"
+    ],
+    [
+     "z3bowf",
+     "Female: 170–175=2, 175–180=3, 180–185=11, 185–190=27, 190–195=21, 195–200=8, 200–205=1, 205–210=0, 210–215=0"
+    ],
+    [
+     "k3wl0t",
+     "Male: 170–175=0, 175–180=1, 180–185=10, 185–190=8, 190–195=24, 195–200=22, 200–205=5, 205–210=2, 210–215=1"
+    ],
+    [
+     "1puit18",
+     "Chart: B Average fin length of each year group (mm) (lineChart):"
+    ],
+    [
+     "7nqrzv",
+     "Categories: 2007, 2008, 2009"
+    ],
+    [
+     "8uhn5e",
+     "Female: 2007=185.22727272700001, 2008=188.44, 2009=189.34615384599999"
+    ],
+    [
+     "2qc5le",
+     "male: 2007=188.181818182, 2008=193.63999999999999, 2009=194.80769230799999"
+    ]
+   ],
+   "note": "A is the distribution of males and females, and B is the yearly average, both from the same 146 Adelie complete records; n is 22, 25, and 26 in each year for males and females. The color meanings are shared between the two panels and the legend remains unchanged. The vertical axis of A is the number of records, and B is mm. The vertical axis scale cannot be mistaken for being shared. B connects the annual group mean and does not represent the growth of the same individual.\nHorst, Hill & Gorman, palmerpenguins public observation data\nhttps://allisonhorst.github.io/palmerpenguins/\nPositioning: About the data and CC0; see figure-packet/source.json for the source CSV hash.\nPLOS One Figures Official Requirements\nhttps://journals.plos.org/plosone/s/figures\nPositioning: 2026-10-18 Verification of Captions, Multi-panel Figures, Preparing Figures from Image Files; requirements for each journal are different"
+  },
+  {
+   "page": 137,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "1g00v6i",
+     "Categories and quantity meanings of colors"
+    ],
+    [
+     "1x2cs6p",
+     "Categories can be distinguished by different hues. The numerical values need to be in sequential color scales, and the positive and negative differences need to be clearly centered."
+    ],
+    [
+     "1r2a0wf",
+     "Category: A, B, C"
+    ],
+    [
+     "fehb6d",
+     "A"
+    ],
+    [
+     "1p5b3bo",
+     "B"
+    ],
+    [
+     "7vhlqs",
+     "C"
+    ],
+    [
+     "19hefoh",
+     "Order: low, medium, high"
+    ],
+    [
+     "1kffmxd",
+     "Low"
+    ],
+    [
+     "b7cu2g",
+     "中"
+    ],
+    [
+     "pk6gtj",
+     "High"
+    ],
+    [
+     "1s6lm6z",
+     "Direction: negative, zero, positive"
+    ],
+    [
+     "1qeehvw",
+     "−1"
+    ],
+    [
+     "epw9f3",
+     "0"
+    ],
+    [
+     "6wbfgh",
+     "+1"
+    ],
+    [
+     "twyt5b",
+     "The color blocks, A, B, C, and self-set positive and negative numbers are all teaching instructions, not research results."
+    ],
+    [
+     "voabfg",
+     "Source: UBC course color courseware, pp.7/21; course self-edited teaching examples"
+    ],
+    [
+     "6wzpk2",
+     "09"
+    ]
+   ],
+   "note": "Three data meanings are schematically displayed without introducing scientific research observations. Categorical color matching does not imply the level of A, B, and C; sequential color levels use brightness changes to express levels; divergent color levels display directions around 0. Keep text or shapes in addition to color. Rainbow colors cannot be used to express continuous values ​​just because they are bright. This page is a tutorial guide with illustrations.\nColor (Ch10) shared courseware listed in UBC 2026 courses\nhttps://www.cs.ubc.ca/~tmm/talks/vad/VAD-color.pdf\nPositioning: Actual viewing of pages 7 and 21; the shared file does not mark the entire set as newly produced in 2026\nCourse self-compiled drawings and research plans\nlocal:training/section-08/lesson.json\nPositioning: The plan has not been implemented, the hypothesis has not been verified; it is not disguised as scientific research evidence or Agent screenshots"
+  },
+  {
+   "page": 138,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "t942wd",
+     "AI-assisted drawing specific input"
+    ],
+    [
+     "cq4irk",
+     "After providing data, field meanings, questions and limitations, ask AI to provide runnable scripts, diagrams and legends."
+    ],
+    [
+     "1k3wkex",
+     "CSV and field description"
+    ],
+    [
+     "1vx9x3m",
+     "Drawing requirements and codes"
+    ],
+    [
+     "c2apby",
+     "Actual pictures and legends"
+    ],
+    [
+     "gie3zg",
+     "Source data review"
+    ],
+    [
+     "e0ijw3",
+     "Objects, Units and Missing"
+    ],
+    [
+     "3i77g1",
+     "Patterns, Scales and Limitations"
+    ],
+    [
+     "1bh0qdd",
+     "Keep editable version"
+    ],
+    [
+     "1yepo8",
+     "Points, Values and Labels"
+    ],
+    [
+     "itfezg",
+     "Prompt example: Keep all observations, no connections, no fitting, output legends and data sources."
+    ],
+    [
+     "1pvkpf4",
+     "The local native drawing has been generated; AI writes drawing suggestions and the actual running results are checked separately."
+    ],
+    [
+     "1imaibx",
+     "Source: Course self-edited teaching examples"
+    ],
+    [
+     "7qvd50",
+     "10"
+    ]
+   ],
+   "note": "Example: Only use the attached CSV, limit Adelie and have complete sex, beak length and fin length; beak length mm on the horizontal axis, fin length mm on the vertical axis, color according to gender and use different point shapes, retain all observations, no lines, no fitting; output code, legend and data source. Check the number of records and axes after the code is actually run. This workflow is a description of the classroom method and the actual drawing of the supporting script, not a screenshot of a cloud agent.\nCourse self-compiled drawings and research plans\nlocal:training/section-08/lesson.json\nPositioning: The plan has not been implemented, the hypothesis has not been verified; it is not disguised as scientific research evidence or Agent screenshots"
+  },
+  {
+   "page": 139,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "1p6x5ct",
+     "Technical route of the proposed research"
+    ],
+    [
+     "1uksc5i",
+     "The questions, assignments and process records are kept separately; one week later, the performance of the new questions without AI will be measured according to the original group, and then compared according to the predetermined plan."
+    ],
+    [
+     "pbl2la",
+     "Questions and scoring rules"
+    ],
+    [
+     "zfbl4j",
+     "Material pre-testing and distribution arrangements"
+    ],
+    [
+     "5i3zzx",
+     "Step-by-step prompt conditions"
+    ],
+    [
+     "n9xu5x",
+     "Complete answer conditions"
+    ],
+    [
+     "1euwfwc",
+     "Prompt group process record"
+    ],
+    [
+     "fl6l7n",
+     "Answer Group Process Record"
+    ],
+    [
+     "fsjf8t",
+     "No new AI questions after one week"
+    ],
+    [
+     "j7mz2q",
+     "Grading according to unified rules"
+    ],
+    [
+     "1mfr7ge",
+     "Compare according to scheduled plan"
+    ],
+    [
+     "1wh6ajj",
+     "Use the same number to correspond to the group, process and test;"
+    ],
+    [
+     "an5u61",
+     "Measurement missing and execution deviations are registered separately."
+    ],
+    [
+     "o6b54s",
+     "Teaching plan has not yet been implemented. The allocation unit, sample basis, authorization and scoring rules all need to be confirmed separately."
+    ],
+    [
+     "enbza8",
+     "Source: UBC course node relationship, p.2; course self-edited teaching example"
+    ],
+    [
+     "80uytz",
+     "11"
+    ]
+   ],
+   "note": "The plan is a teaching simulation, which is connected with the questions in Section 6. The process starts with the material questions and scoring rules. After pre-test verification, it is divided into two prompt conditions and implemented in parallel. The answering process is recorded separately. Finally, the unified AI-free new question evaluation is used to solve the problem independently, and then the predetermined plan is compared. The allocation unit, sample size and authorization are subject to confirmation by the researcher, and the figure does not represent that the trial has been carried out. This round is connected with the Section 6 teaching plan, and the main result is clearly that there will be no new AI question scores after one week; the process records are separated into prompt groups and answer groups. Arrows indicate the sequence of implementation and subsequent measurements and do not indicate that process records have demonstrated mechanism or cause and effect. Material pretests, distribution lists, process records, and result scores are different products, and any missing content cannot be automatically filled in as fact. The number of formal recruits is not shown in the figure, and the sample conditions in Section 6 are still teaching assumptions.\nNetwork Data (Ch9 revised) listed in UBC 2026 course, version 2501\nhttps://www.cs.ubc.ca/~tmm/talks/vad/2501-networks.pdf\nPositioning: Nodes and connections on page 2, rendered for viewing\nCourse self-compiled drawings and research plans\nlocal:training/section-08/lesson.json\nPositioning: The plan has not been implemented, the hypothesis has not been verified; it is not disguised as scientific research evidence or Agent screenshots"
+  },
+  {
+   "page": 140,
+   "pairs": [
+    [
+     "a9n1rp",
+     "08 Scientific research charts and technical routes"
+    ],
+    [
+     "1fmw8z8",
+     "Start material verification and rework loop"
+    ],
+    [
+     "1aywkkt",
+     "Write down what materials should be checked when judging the branch; if it is not confirmed, return it for revision, and then check again after completing it."
+    ],
+    [
+     "171hdf5",
+     "Pre-test materials and inspection records"
+    ],
+    [
+     "k5mmmv",
+     "Have the startup conditions been checked?"
+    ],
+    [
+     "19j1tnk",
+     "Implement according to the determined plan"
+    ],
+    [
+     "v2omow",
+     "Supplementary materials/revised version"
+    ],
+    [
+     "nmir1b",
+     "Confirmed"
+    ],
+    [
+     "1puptin",
+     "Not confirmed yet"
+    ],
+    [
+     "1m1fnvr",
+     "Check again after revision"
+    ],
+    [
+     "pfpep9",
+     "Check materials:"
+    ],
+    [
+     "yqj3gv",
+     "Scoring rules and trial evaluation records,"
+    ],
+    [
+     "e1wc2f",
+     "Allocation units and sample basis,"
+    ],
+    [
+     "1gl6k98",
+     "Recruitment and data permissions."
+    ],
+    [
+     "e0buv8",
+     "Return arrow: Recheck after completing the materials; unconfirmed conditions will continue to be retained."
+    ],
+    [
+     "1c6vcqq",
+     "The proposed teaching circuit has not yet been implemented; the \"Confirmed\" branch in the picture does not mean that this project has met the conditions."
+    ],
+    [
+     "enbza8",
+     "Source: UBC course node relationship, p.2; course self-edited teaching example"
+    ],
+    [
+     "8aukiy",
+     "12"
+    ]
+   ],
+   "note": "Use the scoring consistency check of pre-test questions as an example, but do not set a universal threshold. Researchers need to predetermine consistency standards. Only when the standard is met will it enter the formal stage. If it is not met, the version will be revised and retained. After review, judgment will be entered. The roadmap can show dependencies, which does not mean that the specified quality standards have been met. The old picture only had the text \"Recheck after revision\" and no return arrow; this round, the revised node was added to return to the actual connection of the pre-test material node. The verification materials include scoring rules and trial evaluation records, allocation units and sample basis, recruitment and data permissions, and do not fabricate a scoring threshold that is common to all studies. Unconfirmed items are kept in the issue list, and additional materials or revisions will be added and returned for verification. This is a teaching diagram of the startup conditions of the scientific research plan, not a manual confirmation by the web agent node by node or an operation record that has been approved. Independent draw.io and SVG use the same node and edge definitions, and the edit source retains return connections.\nNetwork Data (Ch9 revised) listed in UBC 2026 course, version 2501\nhttps://www.cs.ubc.ca/~tmm/talks/vad/2501-networks.pdf\nPositioning: Nodes and connections on page 2, rendered for viewing\nCourse self-compiled drawings and research plans\nlocal:training/section-08/lesson.json\nPositioning: The plan has not been implemented, the hypothesis has not been verified; it is not disguised as scientific research evidence or Agent screenshots"
+  }
+ ]
+}
