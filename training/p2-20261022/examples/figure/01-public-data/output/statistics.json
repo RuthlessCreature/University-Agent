@@ -1,0 +1,24 @@
+{
+  "all_rows": 344,
+  "Adelie_rows": 152,
+  "complete_rows": 146,
+  "excluded_Adelie_rows": 6,
+  "unit": "mm",
+  "groups": {
+    "female": {
+      "n": 73,
+      "mean": 187.7945205479452,
+      "min": 172.0,
+      "max": 202.0
+    },
+    "male": {
+      "n": 73,
+      "mean": 192.41095890410958,
+      "min": 178.0,
+      "max": 210.0
+    }
+  },
+  "male_minus_female": 4.616438356164366,
+  "source_sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "interpretation": "Descriptive secondary analysis. No causal effect or new field experiment is claimed."
+}

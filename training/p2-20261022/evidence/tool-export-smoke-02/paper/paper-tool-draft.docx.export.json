@@ -1,0 +1,14 @@
+{
+  "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\paper\\paper-tool-draft.docx",
+  "sha256": "cc6414af3f74c0ce45f9ab85093b68df58d5796826c8941da0654650fbf9af44",
+  "profile_sha256": "308363109f8a7033b4837d9d38da0f1ca766c5bb418a45d68274bbd7df8d9923",
+  "content_sha256": "717aedde568df80bc2a715d329c80808d6d193d389be82181c9674e7eb1ebece",
+  "detail": {
+    "template_status": "COURSE_WORKING_DOCUMENT_NOT_OFFICIAL_JOURNAL_WORD_TEMPLATE",
+    "section_count": 3,
+    "native_table_count": 1
+  },
+  "status": "WORD_DRAFT_WRITTEN_RENDER_REQUIRED",
+  "scientific_review": "NOT_PERFORMED",
+  "external_submission": false
+}

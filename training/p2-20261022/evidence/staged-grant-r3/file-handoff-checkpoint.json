@@ -1,0 +1,131 @@
+{
+  "completed_nodes": [
+    {
+      "node": "background",
+      "checkpoint": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\01-background.json",
+      "sha256": "53339a9a47bfcb719450083b0828bd57902bce9073f4107d39934eb946da3a47",
+      "summary": {
+        "status": "DRAFT_READY",
+        "artifacts": [
+          {
+            "name": "background-section.json",
+            "sha256": "e7a34de6e66aa54e57a82500bbe0da4d26055385cc09779646411be76a69ee6c"
+          }
+        ],
+        "source_locators": [
+          {
+            "alias": "input/material",
+            "locator": "question field",
+            "excerpt": "证据位置提示是否能减少公开文献筛选中的错误纳入"
+          }
+        ],
+        "unresolved_questions": [
+          "研究期限、样本量依据、真实团队与已有项目材料待提供。"
+        ]
+      }
+    },
+    {
+      "node": "research-content",
+      "checkpoint": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\02-research-content.json",
+      "sha256": "cad460fb4cba855ba62ee80c57eba794b8946578c0452f2fd85953da493a3ac3",
+      "summary": {
+        "status": "DRAFT_READY",
+        "artifacts": [
+          {
+            "name": "research-content-section.json",
+            "sha256": "e267563c700453187346137db7b7c510f2a93037aa3a6b2a668d7f49a407d828"
+          }
+        ],
+        "source_locators": [
+          {
+            "alias": "input/material",
+            "locator": "question field",
+            "excerpt": "证据位置提示是否能减少公开文献筛选中的错误纳入"
+          }
+        ],
+        "unresolved_questions": [
+          "研究期限、样本量依据、真实团队与已有项目材料待提供。"
+        ]
+      }
+    },
+    {
+      "node": "foundation",
+      "checkpoint": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\03-foundation.json",
+      "sha256": "5d0c3a53faaa8482886ee55adf4a365f5d2d86fd905a083be6afe72a8c323cdb",
+      "summary": {
+        "status": "DRAFT_READY",
+        "artifacts": [
+          {
+            "name": "foundation-section.json",
+            "sha256": "1fff116b069d603761c73ddd5747849d2768c95d36f33a4a9a8304cd695fc7f3"
+          }
+        ],
+        "source_locators": [
+          {
+            "alias": "input/material",
+            "locator": "question field",
+            "excerpt": "证据位置提示是否能减少公开文献筛选中的错误纳入"
+          }
+        ],
+        "unresolved_questions": [
+          "研究期限、样本量依据、真实团队与已有项目材料待提供。"
+        ]
+      }
+    },
+    {
+      "node": "declarations-route",
+      "checkpoint": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\04-declarations-route.json",
+      "sha256": "d7530fa3678ba24c028e3dcdeaed39a478da1af6c8bc7f85980e709b385df479",
+      "summary": {
+        "status": "DRAFT_READY",
+        "artifacts": [
+          {
+            "name": "declarations-route-section.json",
+            "sha256": "e867acb136848b8c5dad92dcee0584536131ef6d7ef85fc02ce1dfba60cc4477"
+          }
+        ],
+        "source_locators": [
+          {
+            "alias": "input/material",
+            "locator": "question field",
+            "excerpt": "证据位置提示是否能减少公开文献筛选中的错误纳入"
+          }
+        ],
+        "unresolved_questions": [
+          "研究期限、样本量依据、真实团队与已有项目材料待提供。"
+        ]
+      }
+    }
+  ],
+  "input_hashes": {
+    "task": {
+      "sha256": "d39773aa85bf11e282be95602cdce71bd00019551244593309e5051b6b00b5db",
+      "bytes": 5595
+    },
+    "prompt": {
+      "sha256": "be800a89ff6e05e67379f140b1e59af8a9bef29e5a9409c249750b5cdd6c4ace",
+      "bytes": 1706
+    },
+    "input/material": {
+      "sha256": "87d598601ec5f142fa0bca7da57c12f04f79d4c7edffcb44ea69ac0f5774ea74",
+      "bytes": 496
+    },
+    "skill/grant-template": {
+      "sha256": "c1a9baa72e7fb7dd1d10556b4518d68902d2fbd2ebbd7c1be156838d90412657",
+      "bytes": 1875
+    },
+    "profile": {
+      "sha256": "7b6d9842e72736cd9407d522c3b7f6f66942788d9ec1c36c545eb9a3bbd79809",
+      "bytes": 4982
+    },
+    "template": {
+      "sha256": "33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10",
+      "bytes": 9555
+    },
+    "prepared-content": {
+      "sha256": "0f80737a9807ddb9dcab860445540c0e63e7c920724a6939f3e899e4e6cd062f",
+      "bytes": 5969
+    }
+  },
+  "config_sha256": "4e2e261d0d79cb202f18b10806b428b80bb7432ffd564289385fa4152407d8f5"
+}

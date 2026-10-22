@@ -1,0 +1,117 @@
+{
+  "task": "grant/01-complete-teaching",
+  "status": "READY_FOR_PROVIDER_PROBE",
+  "errors": [],
+  "materials": {
+    "task": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\grant\\01-complete-teaching\\task.json",
+      "sha256": "1e4040e80fc5a5096476cbb1a53e895d43155ed1e99d0fc72ace1ad2fd92f230",
+      "bytes": 6393
+    },
+    "prompt": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\grant\\01-complete-teaching\\PROMPT.md",
+      "sha256": "be800a89ff6e05e67379f140b1e59af8a9bef29e5a9409c249750b5cdd6c4ace",
+      "bytes": 1706
+    },
+    "input/material.json": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\grant\\01-complete-teaching\\input\\material.json",
+      "sha256": "87d598601ec5f142fa0bca7da57c12f04f79d4c7edffcb44ea69ac0f5774ea74",
+      "bytes": 496
+    },
+    "template": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\word-work\\grant\\reference\\面上项目-报告正文.docx",
+      "sha256": "33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10",
+      "bytes": 9555
+    },
+    "sample-draft": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\grant\\01-complete-teaching\\SAMPLE_APPLICATION.md",
+      "sha256": "65df8bb4d3446ba3404993a25956e504b19cfe2bfb76f02631b19358102dffb3",
+      "bytes": 5162
+    },
+    "template-map": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\templates\\grant-general-template-map.json",
+      "sha256": "df64550052b11110c52ef6f5a885ccdc63b38e65b1f50b9cf510a40e74ce50ae",
+      "bytes": 3972
+    },
+    "export-profile": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\grant\\01-complete-teaching\\export-profile.json",
+      "sha256": "7b6d9842e72736cd9407d522c3b7f6f66942788d9ec1c36c545eb9a3bbd79809",
+      "bytes": 4982
+    },
+    "guide-policy-notes": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\sources\\nsfc-r4\\OFFICIAL_POLICY_NOTES.md",
+      "sha256": "f45369262499dfd98d451621821beedd74016202b45a39ecd33f094ea0ea6647",
+      "bytes": 2189
+    },
+    "skill/research-intake": {
+      "path": "E:\\20261024\\University-Skills\\skills\\core\\research-intake\\SKILL.md",
+      "sha256": "b71c665872ef97ca1444963f27bcd36037c0cab360cbcee340c2ce813e20a1c9",
+      "bytes": 1234
+    },
+    "skill/document-parsing": {
+      "path": "E:\\20261024\\University-Skills\\skills\\core\\document-parsing\\SKILL.md",
+      "sha256": "31434ab88b153cabaa9b132109898607263ef983754b348897a178f6c89fc3c9",
+      "bytes": 1248
+    },
+    "skill/grant-template": {
+      "path": "E:\\20261024\\University-Skills\\skills\\grant\\grant-template\\SKILL.md",
+      "sha256": "c1a9baa72e7fb7dd1d10556b4518d68902d2fbd2ebbd7c1be156838d90412657",
+      "bytes": 1875
+    },
+    "skillref/grant-template/local-research-sop.md": {
+      "path": "E:\\20261024\\University-Skills\\skills\\grant\\grant-template\\references\\local-research-sop.md",
+      "sha256": "79887ce8d4bbcd2991ac99a037f92cfcd7d1d831969430fdef88c7ae2ea255ff",
+      "bytes": 9303
+    },
+    "skillref/grant-template/node-execution.md": {
+      "path": "E:\\20261024\\University-Skills\\skills\\grant\\grant-template\\references\\node-execution.md",
+      "sha256": "1554ca81cc62006288001807aff5f211dde19517468f45b29403b4e616a136c3",
+      "bytes": 6724
+    },
+    "skill/grant-research-content": {
+      "path": "E:\\20261024\\University-Skills\\skills\\grant\\grant-research-content\\SKILL.md",
+      "sha256": "49d238af0a8c9edb9de3f30476d0448a62ceae1a9fd17719e483e28cce264025",
+      "bytes": 1274
+    },
+    "skill/grant-technical-route": {
+      "path": "E:\\20261024\\University-Skills\\skills\\grant\\grant-technical-route\\SKILL.md",
+      "sha256": "793804ce2de963b044817d2c05776a886a562ce895ffd1ce2f442a91fcf88f75",
+      "bytes": 1297
+    },
+    "skill/grant-background": {
+      "path": "E:\\20261024\\University-Skills\\skills\\grant\\grant-background\\SKILL.md",
+      "sha256": "de77f97264cffea3e19704e0287b17d231c5ccf80a4142ef9f31dd551ca75d13",
+      "bytes": 1257
+    },
+    "skill/citation-verification": {
+      "path": "E:\\20261024\\University-Skills\\skills\\core\\citation-verification\\SKILL.md",
+      "sha256": "6d7b11e56bd00c4969333841d4abc194f628836aa2432be02131cd1675dc3e00",
+      "bytes": 1248
+    },
+    "skill/claim-audit": {
+      "path": "E:\\20261024\\University-Skills\\skills\\core\\claim-audit\\SKILL.md",
+      "sha256": "99cc7231d96a6bb005ce742445a3bb86b2e1b73d140d0731f33868c0b34c8f15",
+      "bytes": 1269
+    },
+    "skill/academic-humanizer": {
+      "path": "E:\\20261024\\University-Skills\\skills\\quality\\academic-humanizer\\SKILL.md",
+      "sha256": "9fc8f6e6529f2cd40254a20dfff09d0e536ea52d480fe3b5741404c18d1b70a0",
+      "bytes": 1902
+    },
+    "skill/grant-review": {
+      "path": "E:\\20261024\\University-Skills\\skills\\grant\\grant-review\\SKILL.md",
+      "sha256": "c1cbb25fea4e1a1a568ae288e54927576834d51483b2afe18e0ed13737cce6e8",
+      "bytes": 1184
+    }
+  },
+  "runner_hashes": {
+    "local_skill_runner.py": "482d2209ecc41db964db4e183a3d4ad20f612954e3d2cf56686553294db27145",
+    "provider_adapter.py": "81ad1156054f601dd3b3f0ab7b5d1dbb8402fa899a261f0757a5adbba47aa875",
+    "local_document_export.py": "a311308eb049af3e716a0c0df117b52f6029ad726963676bb19c259ab3ea3087",
+    "local_data_figure.py": "4e26c64996822f9105b46d2ef5c65f290bf96f6286b1ac452f8870afc71d412e",
+    "task_preflight.py": "a4db76b734aaa741addd82b6d9ef5ae4c00a3709f2c64fb355ba8353d2df1bb5"
+  },
+  "network_called": false,
+  "semantic_or_scientific_acceptance": false,
+  "scope": "File existence, format, size, node Skill mapping and template hash only; scientific sufficiency must be assessed in intake."
+}

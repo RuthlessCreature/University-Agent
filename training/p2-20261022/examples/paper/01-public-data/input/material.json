@@ -1,0 +1,10 @@
+{
+  "species": "Adelie",
+  "measurement": "flipper_length_mm",
+  "groups": "sex",
+  "complete_case_fields": [
+    "sex",
+    "flipper_length_mm"
+  ],
+  "causal_claim_allowed": false
+}

@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "mode": "course-document",
+  "content_schema": {
+    "title": "Specific research title",
+    "material_type": "public-data-secondary-analysis",
+    "sections": [
+      {
+        "heading": "Section heading",
+        "paragraphs": [
+          "Supported text"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "title": "Table title",
+        "columns": [
+          "Column names"
+        ],
+        "rows": [
+          [
+            "Actual values"
+          ]
+        ]
+      }
+    ],
+    "source_notes": [
+      "Actual sources"
+    ],
+    "unresolved_questions": [
+      "Missing author or research information"
+    ]
+  },
+  "scope": "Course Word working format; official PLOS source is LaTeX. Do not claim this Word format is the journal template."
+}

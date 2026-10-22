@@ -1,0 +1,102 @@
+{
+  "task": "patent/01-simulated-device",
+  "status": "READY_FOR_PROVIDER_PROBE",
+  "errors": [],
+  "materials": {
+    "task": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\patent\\01-simulated-device\\task.json",
+      "sha256": "58d510cb1796be68979993f0f8326557812fa583484b06ccc991cfa468a8f3bc",
+      "bytes": 4280
+    },
+    "prompt": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\patent\\01-simulated-device\\PROMPT.md",
+      "sha256": "3d3a750e30a5642cf7108f207477d9b7b63c2b87230a5ff1cc7cc06cc50e627e",
+      "bytes": 1665
+    },
+    "input/material.json": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\patent\\01-simulated-device\\input\\material.json",
+      "sha256": "606b3d29ab3fc717cd9b031f3af8a9e67bd45e9c43ac94d79cd908c76a3702df",
+      "bytes": 622
+    },
+    "template": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\word-work\\patent\\reference\\patent-1.docx",
+      "sha256": "dfb55ccaa427c6d7cbdd0254a172a36fa0a3efdbaa92205501dce5eecb4d6dcd",
+      "bytes": 7908
+    },
+    "implemented-sample": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\patent\\01-simulated-device\\SAMPLE_IMPLEMENTED_DISCLOSURE.md",
+      "sha256": "2e8558136624029a0e56e14c36b3207d0a8241a425fc1c5720587214d3f26026",
+      "bytes": 5389
+    },
+    "source-code": {
+      "path": "E:\\20261024\\University-Skills\\tools\\local_skill_runner.py",
+      "sha256": "482d2209ecc41db964db4e183a3d4ad20f612954e3d2cf56686553294db27145",
+      "bytes": 28805
+    },
+    "test-source": {
+      "path": "E:\\20261024\\University-Skills\\tests\\test_local_skill_runner.py",
+      "sha256": "0a26cc8e093a1bcbfb37834a0f7ce598a207a60f8fc7f54ae3bfd3503f9caf1b",
+      "bytes": 5911
+    },
+    "actual-tool-test-results": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\local-tools-tests-r2.stderr.txt",
+      "sha256": "df0b1d0a934a38770c6e669fe2e6ce30b3f4f888a602f59d5e4aae3ea77df873",
+      "bytes": 1588
+    },
+    "export-profile": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\patent\\01-simulated-device\\export-profile.json",
+      "sha256": "85181f7fca57d24be6911ad5997d3faa6080e5f75ab33fe75f053f3699ae0b76",
+      "bytes": 3666
+    },
+    "skill/research-intake": {
+      "path": "E:\\20261024\\University-Skills\\skills\\core\\research-intake\\SKILL.md",
+      "sha256": "b71c665872ef97ca1444963f27bcd36037c0cab360cbcee340c2ce813e20a1c9",
+      "bytes": 1234
+    },
+    "skill/patent-search": {
+      "path": "E:\\20261024\\University-Skills\\skills\\patent\\patent-search\\SKILL.md",
+      "sha256": "af6d087cdfc721923d1d3bb21dfb644954825a6d964e768ee9470a66cf45973c",
+      "bytes": 1233
+    },
+    "skill/patent-disclosure": {
+      "path": "E:\\20261024\\University-Skills\\skills\\patent\\patent-disclosure\\SKILL.md",
+      "sha256": "46b803396e3ce007078373e0ae0a1839b93d67ce046dbf49a7bb27d26c91f4c2",
+      "bytes": 1898
+    },
+    "skillref/patent-disclosure/local-research-sop.md": {
+      "path": "E:\\20261024\\University-Skills\\skills\\patent\\patent-disclosure\\references\\local-research-sop.md",
+      "sha256": "79887ce8d4bbcd2991ac99a037f92cfcd7d1d831969430fdef88c7ae2ea255ff",
+      "bytes": 9303
+    },
+    "skillref/patent-disclosure/node-execution.md": {
+      "path": "E:\\20261024\\University-Skills\\skills\\patent\\patent-disclosure\\references\\node-execution.md",
+      "sha256": "5b9822624300bcab9c4f7653b86d6e475566d7c9d8c9bd3c15ff77c215604358",
+      "bytes": 5318
+    },
+    "skill/diagram": {
+      "path": "E:\\20261024\\University-Skills\\skills\\figures\\diagram\\SKILL.md",
+      "sha256": "66ffee7180f76bea070049e8aa9cc6dad01cced8f27ae1a71e483441cebb8039",
+      "bytes": 1169
+    },
+    "skill/claim-audit": {
+      "path": "E:\\20261024\\University-Skills\\skills\\core\\claim-audit\\SKILL.md",
+      "sha256": "99cc7231d96a6bb005ce742445a3bb86b2e1b73d140d0731f33868c0b34c8f15",
+      "bytes": 1269
+    },
+    "skill/academic-humanizer": {
+      "path": "E:\\20261024\\University-Skills\\skills\\quality\\academic-humanizer\\SKILL.md",
+      "sha256": "9fc8f6e6529f2cd40254a20dfff09d0e536ea52d480fe3b5741404c18d1b70a0",
+      "bytes": 1902
+    }
+  },
+  "runner_hashes": {
+    "local_skill_runner.py": "482d2209ecc41db964db4e183a3d4ad20f612954e3d2cf56686553294db27145",
+    "provider_adapter.py": "81ad1156054f601dd3b3f0ab7b5d1dbb8402fa899a261f0757a5adbba47aa875",
+    "local_document_export.py": "a311308eb049af3e716a0c0df117b52f6029ad726963676bb19c259ab3ea3087",
+    "local_data_figure.py": "4e26c64996822f9105b46d2ef5c65f290bf96f6286b1ac452f8870afc71d412e",
+    "task_preflight.py": "a4db76b734aaa741addd82b6d9ef5ae4c00a3709f2c64fb355ba8353d2df1bb5"
+  },
+  "network_called": false,
+  "semantic_or_scientific_acceptance": false,
+  "scope": "File existence, format, size, node Skill mapping and template hash only; scientific sufficiency must be assessed in intake."
+}

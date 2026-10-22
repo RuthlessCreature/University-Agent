@@ -1,0 +1,33 @@
+{
+  "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\grant-staged-draft.docx",
+  "sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+  "profile_sha256": "7b6d9842e72736cd9407d522c3b7f6f66942788d9ec1c36c545eb9a3bbd79809",
+  "content_sha256": "c8a8eb21838f562361a60181b67d6b4624a76dde9933052c5b1c3e9966767d93",
+  "detail": {
+    "reference_sha256": "33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10",
+    "preserved_package_parts": 11,
+    "filled_slots": [
+      "notice",
+      "background",
+      "research_content",
+      "research_foundation",
+      "conditions",
+      "ongoing_projects",
+      "completed_projects",
+      "same_year_applications",
+      "unit_consistency",
+      "ongoing_unit_consistency",
+      "professional_titles",
+      "ai_use",
+      "other_declarations"
+    ],
+    "removed_guidance_indices": [],
+    "pagination_changes": [
+      "keepLines",
+      "keepNext"
+    ]
+  },
+  "status": "WORD_DRAFT_WRITTEN_RENDER_REQUIRED",
+  "scientific_review": "NOT_PERFORMED",
+  "external_submission": false
+}

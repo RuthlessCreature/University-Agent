@@ -1,0 +1,159 @@
+{
+  "id": "grant/03-unsupported-results",
+  "route": "grant",
+  "title": "未经证明的前期成果",
+  "material_type": "teaching-simulation",
+  "skills": [
+    "research-intake",
+    "document-parsing",
+    "grant-template",
+    "grant-research-content",
+    "grant-technical-route",
+    "grant-background",
+    "citation-verification",
+    "claim-audit",
+    "academic-humanizer",
+    "grant-review"
+  ],
+  "steps": [
+    "intake",
+    "template",
+    "requirements",
+    "background",
+    "research-content",
+    "foundation",
+    "declarations-route",
+    "source-audit",
+    "humanize-export"
+  ],
+  "source_template_registry": "../../../templates/acquisition.json",
+  "sop": "../../../../../../University-Skills/docs/LOCAL_RESEARCH_SOP.md",
+  "execution_status": "NOT_RUN",
+  "expected_output_state": "NEEDS_INPUT",
+  "node_contracts": {
+    "intake": {
+      "goal": "逐份读取输入，登记公开事实、教学模拟、假说和缺失项。禁止根据题目补写团队基础。",
+      "output": "intake.json，含source_files、facts、missing、material_type；每条事实含原文定位。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "research-intake"
+      ]
+    },
+    "template": {
+      "goal": "读取实际template和export-profile，核对模板hash和全部标题；DOCX使用inspect_template。",
+      "output": "template-map.json，逐项列出槽位、标题、材料来源和未填原因。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "grant-template"
+      ]
+    },
+    "requirements": {
+      "goal": "从指南、模板和输入抽取要求；明确适用项目和年份。正文三部分与其他声明分别列明。",
+      "output": "requirements.json，含mandatory_headings、page_limit、material_gaps、AI_disclosure。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "grant-template"
+      ]
+    },
+    "background": {
+      "goal": "只写notice、background两个槽位。说明问题、已有证据、尚未解决的问题和研究价值，不编文献或结果。",
+      "output": "background-section.json，格式为{\"slots\":{\"notice\":[\"...\"],\"background\":[\"...\"]},\"source_notes\":[],\"unresolved_questions\":[]}。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "required_slots": [
+        "notice",
+        "background"
+      ],
+      "skill_ids": [
+        "grant-background"
+      ]
+    },
+    "research-content": {
+      "goal": "只写research_content槽位。分清目标、研究问题、任务、数据、比较、判定标准与失败解释。内容均为拟开展研究。",
+      "output": "content-section.json，含slots.research_content段落数组及source_notes、unresolved_questions。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "required_slots": [
+        "research_content"
+      ],
+      "skill_ids": [
+        "grant-research-content"
+      ]
+    },
+    "foundation": {
+      "goal": "只写research_foundation、conditions、ongoing_projects、completed_projects。团队资料未提供时明确待补，不能套用示例数字充当基础。",
+      "output": "foundation-section.json，slots四项段落数组及source_notes、unresolved_questions。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "required_slots": [
+        "research_foundation",
+        "conditions",
+        "ongoing_projects",
+        "completed_projects"
+      ],
+      "skill_ids": [
+        "grant-review"
+      ]
+    },
+    "declarations-route": {
+      "goal": "只写same_year_applications、unit_consistency、ongoing_unit_consistency、professional_titles、ai_use、other_declarations六槽。没有声明资料写待研究者确认。另存可编辑Mermaid路线。",
+      "output": "declarations-section.json，以及route.mmd；槽位不可与前序重复。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "required_slots": [
+        "same_year_applications",
+        "unit_consistency",
+        "ongoing_unit_consistency",
+        "professional_titles",
+        "ai_use",
+        "other_declarations"
+      ],
+      "skill_ids": [
+        "grant-technical-route"
+      ]
+    },
+    "source-audit": {
+      "goal": "逐条核对已有主张与实际材料。引用摘录匹配不等于支持性验证；没有全文就标待核实。",
+      "output": "audit.json，含claim、source_alias、locator、support、limitation。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "citation-verification",
+        "claim-audit"
+      ]
+    },
+    "humanize-export": {
+      "goal": "读取前序实际section JSON，通过assemble_word_content合并，不重写整份长稿。逐句修订时保留数字、条件、来源与缺口。用export_word生成可编辑DOCX，再render_word。",
+      "output": "检查点列出合并JSON、实际DOCX及DOCX.render-manifest.json。渲染不代表视觉和科学审核通过。",
+      "required_tools": [
+        "assemble_word_content",
+        "export_word",
+        "render_word"
+      ],
+      "skill_ids": [
+        "academic-humanizer"
+      ]
+    }
+  },
+  "continue_with_documented_gaps": false,
+  "missing_input_rule": "标明缺失内容和blocking。没有核心输入、适用模板或无法核对关键数字时blocking=true并停止；不影响教学草稿的身份声明待确认可blocking=false，继续留缺口。"
+}

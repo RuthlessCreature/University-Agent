@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "grant",
+    "source_page": "https://kyc.ylvtc.cn/info/1009/2729.htm",
+    "url": "https://kyc.ylvtc.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1541647867&wbfileid=D768ED81F5DE472A4D400C04C1B22286",
+    "title": "2026青年、面上基金申请书模板.rar",
+    "file": "E:\\20261024\\University-Agent\\training\\p2-20261022\\templates\\originals\\grant-0.rar",
+    "bytes": 34781,
+    "sha256": "99eb73a6859bc190107b0010d5e864089e82af6f0c9d7e69e8fb55a21ac28f7e",
+    "content_type": "application/octet-stream",
+    "status": "downloaded_original",
+    "relative_file": "originals/grant-0.rar"
+  },
+  {
+    "kind": "patent",
+    "source_page": "https://iat.ustc.edu.cn/iat/wdxz/20220329/5625.html",
+    "url": "https://iat.ustc.edu.cn/u/cms/xjjs/202203/29084743c0bu.docx",
+    "title": "发明或实用新型技术交底书 生化领域.docx",
+    "file": "E:\\20261024\\University-Agent\\training\\p2-20261022\\templates\\originals\\patent-0.docx",
+    "bytes": 67698,
+    "sha256": "da47d25e484fb2c146c427f054041b9578d0782e2e13b71405e973ae2e549ae8",
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "status": "downloaded_original",
+    "relative_file": "originals/patent-0.docx"
+  },
+  {
+    "kind": "patent",
+    "source_page": "https://iat.ustc.edu.cn/iat/wdxz/20220329/5625.html",
+    "url": "https://iat.ustc.edu.cn/u/cms/xjjs/202203/29084743bh3k.doc",
+    "title": "发明或实用新型技术交底书 通用模板.doc",
+    "file": "E:\\20261024\\University-Agent\\training\\p2-20261022\\templates\\originals\\patent-1.doc",
+    "bytes": 30208,
+    "sha256": "5bb84bcc538ac233ff77f1c49eb3925203a47e3ccdc5dafdce4ceca195290322",
+    "content_type": "application/msword",
+    "status": "downloaded_original",
+    "relative_file": "originals/patent-1.doc"
+  },
+  {
+    "kind": "paper",
+    "source_page": "https://journals.plos.org/plosone/s/latex",
+    "url": "https://journals.plos.org/plosone/s/file?id=1457/PLOS_latex_template.zip",
+    "title": "PLOS_latex_template.zip",
+    "file": "E:\\20261024\\University-Agent\\training\\p2-20261022\\templates\\originals\\paper-0.zip",
+    "bytes": 199526,
+    "sha256": "ea3a8a0fdbac77f95de47639541b09ef1583e059ace6783367490af9fa0b9a60",
+    "content_type": "application/zip",
+    "status": "downloaded_original",
+    "relative_file": "originals/paper-0.zip"
+  }
+]

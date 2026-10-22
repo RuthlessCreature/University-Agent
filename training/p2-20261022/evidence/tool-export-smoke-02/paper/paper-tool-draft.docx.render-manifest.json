@@ -1,0 +1,19 @@
+{
+  "kind": "RENDERED_WORD",
+  "files": [
+    {
+      "path": "render-paper-tool-draft\\paper-tool-draft.pdf",
+      "sha256": "870c7daf3db2246140f600de5dad86b1f7af6223a1403418049a6e2db8eaa783"
+    },
+    {
+      "path": "render-paper-tool-draft\\page-1.png",
+      "sha256": "72ec43cca644e34d0c54ba54644adc8ea16adf57522284a3c2f8dd2363741dca"
+    },
+    {
+      "path": "render-paper-tool-draft\\page-2.png",
+      "sha256": "5f7482cd640eff62403df4bf4beca5fbad6c8919078f0ba9d18cc478b45f8dc1"
+    }
+  ],
+  "word_sha256": "cc6414af3f74c0ce45f9ab85093b68df58d5796826c8941da0654650fbf9af44",
+  "review_status": "VISUAL_AND_SCIENTIFIC_REVIEW_PENDING"
+}

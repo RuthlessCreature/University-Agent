@@ -1,0 +1,21 @@
+{
+  "kind": "mechanism-hypothesis",
+  "nodes": [
+    "证据位置提示",
+    "定位原文所需时间",
+    "核验判断"
+  ],
+  "edges": [
+    {
+      "from": "证据位置提示",
+      "to": "定位原文所需时间",
+      "status": "hypothesis"
+    },
+    {
+      "from": "定位原文所需时间",
+      "to": "核验判断",
+      "status": "hypothesis"
+    }
+  ],
+  "image_service_available": false
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "Actual editable hypothesis diagram generation and PNG rendering; no model API or experimental verification",
+  "provider_api_called": false,
+  "source_sha256": "fd2b1b7971d6d7e44e8c0f8d706360f4e41a70a968b05da5aad9752c5d2c2770",
+  "files": [
+    {
+      "name": "caption.md",
+      "sha256": "6d1eea7ddf5c395486ea4ed5c014947971b9719b5b59fb24fc1fca4adaac14d6"
+    },
+    {
+      "name": "hypothesis.drawio",
+      "sha256": "1b9b881ba20ab8531b1bb6fc6b3be741374ce73f319b30cc70a9dbd554ba1ca6"
+    },
+    {
+      "name": "hypothesis.mmd",
+      "sha256": "c32054c0bec875884579a68861d6654e01c42e3e59b2bd7686d469b997019bbc"
+    },
+    {
+      "name": "hypothesis.png",
+      "sha256": "34195aaa7d78b9c19a70e760b27a98f92809dddd9c18a158e4414fa37fac72bc"
+    },
+    {
+      "name": "hypothesis.svg",
+      "sha256": "73b1ab131b5cf1a64647043517452a560b522dd5730fa440dbc194b7aaf5c9b8"
+    },
+    {
+      "name": "relation-ledger.json",
+      "sha256": "1e6cd94c7402adc92066365c0be46407486ef986ad3f1a0503f8888e18c26c31"
+    },
+    {
+      "name": "render-log.json",
+      "sha256": "cd1bb8613ce2e364cbc015271c588c033d09fed6eb43dc6bae49ce462d0436f0"
+    }
+  ],
+  "visual_review": "VIEWED_BY_CODEX_DESKTOP: readable labels, dashed hypothesis edges, no clipping. No scientific validation."
+}

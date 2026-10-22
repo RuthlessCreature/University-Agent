@@ -1,0 +1,1 @@
+Adelie penguin flipper length by sex。按 species=Adelie 筛选；分组字段为 sex，测量字段为 flipper_length_mm，单位 mm。点表示保留的原始观察，黑线表示组均值，无误差线。分组或测量缺失的记录排除，原 CSV 行号随文件保存。仅作描述性二次分析，不据此推断因果。来源别名 observations，SHA256 f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93。

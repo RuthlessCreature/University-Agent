@@ -1,0 +1,45 @@
+{
+  "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\patent\\patent-tool-draft.docx",
+  "sha256": "a985fc36f2ae897a9d00a54cf509e5dbb3871a5c5bc0be30c328254a8c5c679e",
+  "profile_sha256": "85181f7fca57d24be6911ad5997d3faa6080e5f75ab33fe75f053f3699ae0b76",
+  "content_sha256": "f6a12914ae27d057b251121ce732e6e13fb682718fd13814c58b4ad9eac2f3cc",
+  "detail": {
+    "reference_sha256": "dfb55ccaa427c6d7cbdd0254a172a36fa0a3efdbaa92205501dce5eecb4d6dcd",
+    "preserved_package_parts": 9,
+    "filled_slots": [
+      "notice",
+      "name",
+      "technical_field",
+      "background",
+      "purpose",
+      "technical_solution",
+      "effects",
+      "drawings",
+      "embodiments"
+    ],
+    "removed_guidance_indices": [
+      2,
+      3,
+      5,
+      7,
+      9,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19,
+      21,
+      22,
+      23
+    ],
+    "pagination_changes": [
+      "keepLines",
+      "keepNext"
+    ]
+  },
+  "status": "WORD_DRAFT_WRITTEN_RENDER_REQUIRED",
+  "scientific_review": "NOT_PERFORMED",
+  "external_submission": false
+}

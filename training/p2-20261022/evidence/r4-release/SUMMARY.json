@@ -1,0 +1,71 @@
+{
+  "file_preparation_checks": [
+    {
+      "task": "figure/01-public-data",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 14
+    },
+    {
+      "task": "figure/02-mechanism-hypothesis",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 10
+    },
+    {
+      "task": "figure/03-missing-uncertainty",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 10
+    },
+    {
+      "task": "grant/01-complete-teaching",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 20
+    },
+    {
+      "task": "grant/02-missing-template",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 15
+    },
+    {
+      "task": "grant/03-unsupported-results",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 15
+    },
+    {
+      "task": "paper/01-public-data",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 18
+    },
+    {
+      "task": "paper/02-missing-data",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 12
+    },
+    {
+      "task": "paper/03-invented-reference",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 12
+    },
+    {
+      "task": "patent/01-simulated-device",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 17
+    },
+    {
+      "task": "patent/02-missing-implementation",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 11
+    },
+    {
+      "task": "patent/03-copied-prior-art",
+      "status": "READY_FOR_PROVIDER_PROBE",
+      "materials": 12
+    }
+  ],
+  "tasks_passed": 12,
+  "unit_tests_exit": 0,
+  "provider_probe_exit": 2,
+  "provider_probe_status": "NOT_CONFIGURED",
+  "provider_network_called": false,
+  "runner_hashes_recorded": 5,
+  "scientific_acceptance": false
+}

@@ -1,0 +1,158 @@
+{
+  "version": "1.0",
+  "mode": "ooxml-slots",
+  "reference_alias": "template",
+  "reference_sha256": "33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10",
+  "slots": [
+    {
+      "id": "notice",
+      "paragraph_index": 2,
+      "anchor_xml_sha256": "15a497b516f449f9af3daabe6e30f73c2c735abe7a2f6257c5560e7132a63ec2",
+      "required": true
+    },
+    {
+      "id": "background",
+      "paragraph_index": 5,
+      "anchor_xml_sha256": "ad38cb435df97576cabb72f99852d46801408f9f32fd0476f6c9fa55e70a4fff",
+      "required": true
+    },
+    {
+      "id": "research_content",
+      "paragraph_index": 8,
+      "anchor_xml_sha256": "e12a35ccb9ce0f0095fe6dc9594e6055f565b2d16daf58eab311e5037a7e5053",
+      "required": true
+    },
+    {
+      "id": "research_foundation",
+      "paragraph_index": 11,
+      "anchor_xml_sha256": "966989db6e60fb5032cdb028a69f64827c4763c25b8c3bd914c1080b4bd2dfe7",
+      "required": true
+    },
+    {
+      "id": "conditions",
+      "paragraph_index": 13,
+      "anchor_xml_sha256": "3a87e5785be88ba71f0aca8ae3c46841a3b20c35332b819fcae1bcd31faf4f67",
+      "required": true
+    },
+    {
+      "id": "ongoing_projects",
+      "paragraph_index": 15,
+      "anchor_xml_sha256": "3a87e5785be88ba71f0aca8ae3c46841a3b20c35332b819fcae1bcd31faf4f67",
+      "required": true
+    },
+    {
+      "id": "completed_projects",
+      "paragraph_index": 17,
+      "anchor_xml_sha256": "5d0c0551048dd3a3857383794330e6996421654e80f6fcaf2603fefe95472d26",
+      "required": true
+    },
+    {
+      "id": "same_year_applications",
+      "paragraph_index": 20,
+      "anchor_xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+      "required": true
+    },
+    {
+      "id": "unit_consistency",
+      "paragraph_index": 22,
+      "anchor_xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+      "required": true
+    },
+    {
+      "id": "ongoing_unit_consistency",
+      "paragraph_index": 24,
+      "anchor_xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+      "required": true
+    },
+    {
+      "id": "professional_titles",
+      "paragraph_index": 26,
+      "anchor_xml_sha256": "8614e8f8e2ec6eba8517629ceefd90f79b44dc5bbd4aadb5ada4c6937a281b84",
+      "required": true
+    },
+    {
+      "id": "ai_use",
+      "paragraph_index": 28,
+      "anchor_xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+      "required": true
+    },
+    {
+      "id": "other_declarations",
+      "paragraph_index": 30,
+      "anchor_xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+      "required": true
+    }
+  ],
+  "protected_paragraph_indices": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    12,
+    14,
+    16,
+    18,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29
+  ],
+  "remove_guidance_indices": [],
+  "content_schema": {
+    "material_type": "teaching-simulation or public-data-secondary-analysis or implementation-teaching-example",
+    "slots": {
+      "notice": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "background": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "research_content": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "research_foundation": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "conditions": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "ongoing_projects": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "completed_projects": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "same_year_applications": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "unit_consistency": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "ongoing_unit_consistency": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "professional_titles": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "ai_use": [
+        "Actual draft text, or an explicit question if information is missing"
+      ],
+      "other_declarations": [
+        "Actual draft text, or an explicit question if information is missing"
+      ]
+    },
+    "source_notes": [
+      "Actual source identifiers and file locations"
+    ],
+    "unresolved_questions": [
+      "Specific missing information"
+    ]
+  },
+  "scope": "Draft only. Protected paragraphs and non-document XML parts are preserved. No signature or scientific approval."
+}

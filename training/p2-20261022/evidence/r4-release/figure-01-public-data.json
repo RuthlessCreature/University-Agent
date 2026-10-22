@@ -1,0 +1,87 @@
+{
+  "task": "figure/01-public-data",
+  "status": "READY_FOR_PROVIDER_PROBE",
+  "errors": [],
+  "materials": {
+    "task": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\figure\\01-public-data\\task.json",
+      "sha256": "6a4c05ca66ab946011ff1056bb8c1b0c91b194f03d1e3a2a1e94ca66d14db5a0",
+      "bytes": 3934
+    },
+    "prompt": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\figure\\01-public-data\\PROMPT.md",
+      "sha256": "e5534e2fd22d70f6e18a9688af68e764bc86fec977fbfab38615c09aeb147bed",
+      "bytes": 1517
+    },
+    "input/data-source.json": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\figure\\01-public-data\\input\\data-source.json",
+      "sha256": "620b784e6b6d2a93623266c0d61ab393a5d3224e4967142153f0f8d701881d67",
+      "bytes": 377
+    },
+    "input/material.json": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\figure\\01-public-data\\input\\material.json",
+      "sha256": "5e7b98343c8cb7f006a2dc10083a43abb0188ee2a0cdae425ae09090fe352a4b",
+      "bytes": 198
+    },
+    "input/penguins.csv": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\figure\\01-public-data\\input\\penguins.csv",
+      "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+      "bytes": 15241
+    },
+    "computed-statistics": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\figure\\01-public-data\\output\\statistics.json",
+      "sha256": "430004305e5829b9f78492a348115e38aea4a2d0d3dcddaa797e4c98d1334880",
+      "bytes": 611
+    },
+    "plot-source": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\run_figure_case.py",
+      "sha256": "ba28d44ff3b88ed62ddb2155a3dbb436f736cd077d24b5920d65fd19655e3787",
+      "bytes": 4141
+    },
+    "skill/research-intake": {
+      "path": "E:\\20261024\\University-Skills\\skills\\core\\research-intake\\SKILL.md",
+      "sha256": "b71c665872ef97ca1444963f27bcd36037c0cab360cbcee340c2ce813e20a1c9",
+      "bytes": 1234
+    },
+    "skill/data-analysis": {
+      "path": "E:\\20261024\\University-Skills\\skills\\research\\data-analysis\\SKILL.md",
+      "sha256": "ecc5d92e2ce642cb5d06360957897abfb23627368ec8bf2598bf19daaf13139d",
+      "bytes": 1185
+    },
+    "skill/data-figure": {
+      "path": "E:\\20261024\\University-Skills\\skills\\figures\\data-figure\\SKILL.md",
+      "sha256": "c771162b04914ebbc61399732c1ef9f4282c995b745d549d8cb28ee21525a74f",
+      "bytes": 1797
+    },
+    "skillref/data-figure/local-research-sop.md": {
+      "path": "E:\\20261024\\University-Skills\\skills\\figures\\data-figure\\references\\local-research-sop.md",
+      "sha256": "79887ce8d4bbcd2991ac99a037f92cfcd7d1d831969430fdef88c7ae2ea255ff",
+      "bytes": 9303
+    },
+    "skillref/data-figure/node-execution.md": {
+      "path": "E:\\20261024\\University-Skills\\skills\\figures\\data-figure\\references\\node-execution.md",
+      "sha256": "5446647f850c3dbeda496202d3ad322bb152bb27bb4328a5c28f258473c7dd27",
+      "bytes": 5125
+    },
+    "skill/diagram": {
+      "path": "E:\\20261024\\University-Skills\\skills\\figures\\diagram\\SKILL.md",
+      "sha256": "66ffee7180f76bea070049e8aa9cc6dad01cced8f27ae1a71e483441cebb8039",
+      "bytes": 1169
+    },
+    "skill/claim-audit": {
+      "path": "E:\\20261024\\University-Skills\\skills\\core\\claim-audit\\SKILL.md",
+      "sha256": "99cc7231d96a6bb005ce742445a3bb86b2e1b73d140d0731f33868c0b34c8f15",
+      "bytes": 1269
+    }
+  },
+  "runner_hashes": {
+    "local_skill_runner.py": "482d2209ecc41db964db4e183a3d4ad20f612954e3d2cf56686553294db27145",
+    "provider_adapter.py": "81ad1156054f601dd3b3f0ab7b5d1dbb8402fa899a261f0757a5adbba47aa875",
+    "local_document_export.py": "a311308eb049af3e716a0c0df117b52f6029ad726963676bb19c259ab3ea3087",
+    "local_data_figure.py": "4e26c64996822f9105b46d2ef5c65f290bf96f6286b1ac452f8870afc71d412e",
+    "task_preflight.py": "a4db76b734aaa741addd82b6d9ef5ae4c00a3709f2c64fb355ba8353d2df1bb5"
+  },
+  "network_called": false,
+  "semantic_or_scientific_acceptance": false,
+  "scope": "File existence, format, size, node Skill mapping and template hash only; scientific sufficiency must be assessed in intake."
+}

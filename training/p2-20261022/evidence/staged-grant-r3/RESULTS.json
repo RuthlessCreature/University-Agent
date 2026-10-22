@@ -1,0 +1,614 @@
+{
+  "initiator": "Codex desktop explicit staged-file driver",
+  "content_origin": "Previously prepared teaching draft split by actual task contract; not newly generated provider prose",
+  "provider_api_called": false,
+  "provider_fault_recovery_verified": false,
+  "source_content_sha256": "0f80737a9807ddb9dcab860445540c0e63e7c920724a6939f3e899e4e6cd062f",
+  "validated_section_nodes": 4,
+  "validated_slots": 13,
+  "new_tool_instance_reloaded_previous_files": true,
+  "invalid_assembly_cases": [
+    {
+      "case": "duplicate-slot",
+      "actual_error": "Two selected artifacts define the same slot; select the intended version explicitly: notice",
+      "output_created": false
+    },
+    {
+      "case": "missing-slots",
+      "actual_error": "Sections are missing required slots: research_content, research_foundation, conditions, ongoing_projects, completed_projects, same_year_applications, unit_consistency, ongoing_unit_consistency, professional_titles, ai_use, other_declarations",
+      "output_created": false
+    }
+  ],
+  "merged_slots_equal_prepared_source": true,
+  "word": {
+    "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\grant-staged-draft.docx",
+    "sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+    "profile_sha256": "7b6d9842e72736cd9407d522c3b7f6f66942788d9ec1c36c545eb9a3bbd79809",
+    "content_sha256": "c8a8eb21838f562361a60181b67d6b4624a76dde9933052c5b1c3e9966767d93",
+    "detail": {
+      "reference_sha256": "33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10",
+      "preserved_package_parts": 11,
+      "filled_slots": [
+        "notice",
+        "background",
+        "research_content",
+        "research_foundation",
+        "conditions",
+        "ongoing_projects",
+        "completed_projects",
+        "same_year_applications",
+        "unit_consistency",
+        "ongoing_unit_consistency",
+        "professional_titles",
+        "ai_use",
+        "other_declarations"
+      ],
+      "removed_guidance_indices": [],
+      "pagination_changes": [
+        "keepLines",
+        "keepNext"
+      ]
+    },
+    "status": "WORD_DRAFT_WRITTEN_RENDER_REQUIRED",
+    "scientific_review": "NOT_PERFORMED",
+    "external_submission": false
+  },
+  "rendered": {
+    "word_sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+    "pdf": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\grant-staged-draft.pdf",
+    "pdf_sha256": "cdb8ab4de24621bc72c2241dcc3efbf6ada6a90fb6a30e522c5d1a0df307a5b9",
+    "pages": 5,
+    "page_images": [
+      "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-1.png",
+      "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-2.png",
+      "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-3.png",
+      "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-4.png",
+      "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-5.png"
+    ],
+    "log": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\grant-staged-draft.docx.render.json",
+    "status": "RENDERED_PENDING_VISUAL_AND_SCIENTIFIC_REVIEW"
+  },
+  "events": [
+    {
+      "time_utc": "2026-10-21T18:05:16.060036+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "prepared-content"
+      },
+      "result": {
+        "alias": "prepared-content",
+        "sha256": "0f80737a9807ddb9dcab860445540c0e63e7c920724a6939f3e899e4e6cd062f",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"notice\": [\n      \"教学模拟草稿。研究问题与方案为拟开展工作；真实申请人、团队基础、经费和项目记录尚未提供。\"\n    ],\n    \"background\": [\n      \"拟研究的问题是：在文献筛选时，为模型给出的纳入建议同时提供可回到原文的证据位置，是否会改变人工核验的错误率与耗时？这里的“证据位置”指论文内可以打开和核对的页码、段落或表格位置。模型建议纳入一篇论文时，核验者需要确认该论文是否符合事先制定的研究对象、方法和结果要求，不能只看模型摘要。\",\n      \"本教学方案把三个过程分开测量：模型是否找到了符合条件的文献，给出的证据是否支持筛选判断，核验者是否能及时发现错误。这样可以避免仅用最终纳入数量评价整个流程，也便于定位错误发生在哪一步。\",\n      \"上述问题的学术价值目前是研究设想，尚未完成系统文献检索，不能声称“国内外尚无研究”或“首次提出”。正式申请前须检索并阅读与模型辅助系统综述、证据定位、人工核验行为相关的原始研究，形成研究现状及不足的证据矩阵。缺口 G-Q01：目标学科与已有综述范围；G-Q02：已读原始论文及具体页段；G-Q03：本方案相对于已有方法的实质差异。\"\n    ],\n    \"research_content\": [\n      \"研究目标是识别证据位置提示对筛选判断的影响及适用条件。拟设置三种流程：人工独立筛选、模型提出建议后人工核验、模型提出建议并附证据位置后人工核验。不同流程应使用相同的纳入标准和可比的文献材料，记录实际模型版本、提示词及检索日期。模型升级后作为新版本处理，不把不同版本混合成一个实验条件。\",\n      \"第一项内容是建立可复核的材料集。根据拟定研究问题制定纳入与排除标准，登记文献标识、全文取得方式及合法使用范围。拟由独立人工判读建立参照，并保存分歧及处理记录。参照判读者数量、资格、是否盲法及分歧解决方法尚待研究者确认，不能在方法中写成已经执行。\",\n      \"第二项内容是比较三个流程的表现。拟记录符合条件文献的发现情况、错误纳入与错误排除、单篇实际核验用时、证据无法打开或不能支持判断的情况。计时起止点、分母、退出条件必须预先规定。不能把“模型给了链接”记作“证据正确”；需另行阅读相应原文位置。\",\n      \"第三项内容是分析影响条件。可考虑按全文长度、表格依赖程度、研究设计复杂性等预先定义的维度进行分层。分层数量须与可获得的样本量相适应。样本量和统计方案尚未确定，需根据主要评价指标、可接受误差和材料可得性论证，不能临时指定一个漂亮的整数。缺口 G-Q04：主要终点及样本量依据；G-Q05：重复判读及顺序效应控制；G-Q06：模型调用预算和失败处理规则。\",\n      \"拟定技术路线为：明确研究问题及筛选标准；取得并登记文献；建立独立人工参照；固定三种流程与版本；收集判断、定位证据与用时；核对分母和异常记录；比较结果并解释限制。对应可编辑文件为 route.mmd。路线中的每个“比较”都是拟开展工作，尚无结果。\",\n      \"年度安排及项目期限以正式指南和申请人条件为准。本案例暂不填写月份、经费或预期论文数量。可能的交付包括数据字典、可复现筛选记录、错误分类表及方法报告；具体考核指标需在申报类别明确后与指南逐项对应。\"\n    ],\n    \"research_foundation\": [\n      \"未提供申请人的相关论文、项目、工具、试验或预实验记录，保留待补充。公开模板和本课程样例不能作为团队研究基础。拟核对的可行性条件包括合法全文取得、稳定的材料读取工具、版本可记录的模型服务，以及具备学科判断能力的核验人员。\"\n    ],\n    \"conditions\": [\n      \"已有设备、数据权限、学校伦理或数据管理要求均待申请人确认。应说明能够在本地处理的材料与需要发送给外部服务的材料；未公开资料未经授权不外传。\"\n    ],\n    \"ongoing_projects\": [\n      \"待申请人提供。不能用“无”替代尚未询问的事实。\"\n    ],\n    \"completed_projects\": [\n      \"待申请人提供并核对项目编号、期限及成果。课程不生成证明或结题信息。\"\n    ],\n    \"same_year_applications\": [\n      \"待申请人提供同年申请信息，不能将未询问的事实填为“无”。\"\n    ],\n    \"unit_consistency\": [\n      \"待申请人与参与人员确认同年申请的单位信息。\"\n    ],\n    \"ongoing_unit_consistency\": [\n      \"待申请人与参与人员确认在研项目与单位信息。\"\n    ],\n    \"professional_titles\": [\n      \"待申请人及参与人员确认职称。\"\n    ],\n    \"ai_use\": [\n      \"本文件的教学方案与说明由 AI 协作起草；实际申请须按使用记录说明位置和内容，并由申请人核对。\"\n    ],\n    \"other_declarations\": [\n      \"按原模板逐项填写同年申请、单位一致性、职称及其他要求。涉及生成式人工智能辅助的位置与内容，应依据实际使用记录说明。本文件为 AI 协作形成的教学草稿，该说明不能替代真实申请人的当年申报声明。所有个人、单位、项目与签名信息保持待确认。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.061036+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "task"
+      },
+      "result": {
+        "alias": "task",
+        "sha256": "d39773aa85bf11e282be95602cdce71bd00019551244593309e5051b6b00b5db",
+        "text": "{\n  \"id\": \"grant/01-complete-teaching\",\n  \"route\": \"grant\",\n  \"title\": \"公开文献筛选与核验流程研究\",\n  \"material_type\": \"teaching-simulation\",\n  \"skills\": [\n    \"research-intake\",\n    \"document-parsing\",\n    \"grant-template\",\n    \"grant-research-content\",\n    \"grant-technical-route\",\n    \"grant-background\",\n    \"citation-verification\",\n    \"claim-audit\",\n    \"academic-humanizer\",\n    \"grant-review\"\n  ],\n  \"steps\": [\n    \"intake\",\n    \"template\",\n    \"requirements\",\n    \"background\",\n    \"research-content\",\n    \"foundation\",\n    \"declarations-route\",\n    \"source-audit\",\n    \"humanize-export\"\n  ],\n  \"source_template_registry\": \"../../../templates/acquisition.json\",\n  \"sop\": \"../../../../../../University-Skills/docs/LOCAL_RESEARCH_SOP.md\",\n  \"execution_status\": \"NOT_RUN\",\n  \"expected_output_state\": \"DRAFT_READY\",\n  \"runner_materials\": {\n    \"template\": \"../../../word-work/grant/reference/面上项目-报告正文.docx\",\n    \"sample-draft\": \"SAMPLE_APPLICATION.md\",\n    \"template-map\": \"../../../templates/grant-general-template-map.json\",\n    \"export-profile\": \"export-profile.json\"\n  },\n  \"word_export_required\": true,\n  \"node_contracts\": {\n    \"intake\": {\n      \"goal\": \"逐份读取输入，登记公开事实、教学模拟、假说和缺失项。禁止根据题目补写团队基础。\",\n      \"output\": \"intake.json，含source_files、facts、missing、material_type；每条事实含原文定位。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"template\": {\n      \"goal\": \"读取实际template和export-profile，核对模板hash和全部标题；DOCX使用inspect_template。\",\n      \"output\": \"template-map.json，逐项列出槽位、标题、材料来源和未填原因。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"requirements\": {\n      \"goal\": \"从指南、模板和输入抽取要求；明确适用项目和年份。正文三部分与其他声明分别列明。\",\n      \"output\": \"requirements.json，含mandatory_headings、page_limit、material_gaps、AI_disclosure。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"background\": {\n      \"goal\": \"只写notice、background两个槽位。说明问题、已有证据、尚未解决的问题和研究价值，不编文献或结果。\",\n      \"output\": \"background-section.json，格式为{\\\"slots\\\":{\\\"notice\\\":[\\\"...\\\"],\\\"background\\\":[\\\"...\\\"]},\\\"source_notes\\\":[],\\\"unresolved_questions\\\":[]}。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"notice\",\n        \"background\"\n      ]\n    },\n    \"research-content\": {\n      \"goal\": \"只写research_content槽位。分清目标、研究问题、任务、数据、比较、判定标准与失败解释。内容均为拟开展研究。\",\n      \"output\": \"content-section.json，含slots.research_content段落数组及source_notes、unresolved_questions。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"research_content\"\n      ]\n    },\n    \"foundation\": {\n      \"goal\": \"只写research_foundation、conditions、ongoing_projects、completed_projects。团队资料未提供时明确待补，不能套用示例数字充当基础。\",\n      \"output\": \"foundation-section.json，slots四项段落数组及source_notes、unresolved_questions。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"research_foundation\",\n        \"conditions\",\n        \"ongoing_projects\",\n        \"completed_projects\"\n      ]\n    },\n    \"declarations-route\": {\n      \"goal\": \"只写same_year_applications、unit_consistency、ongoing_unit_consistency、professional_titles、ai_use、other_declarations六槽。没有声明资料写待研究者确认。另存可编辑Mermaid路线。\",\n      \"output\": \"declarations-section.json，以及route.mmd；槽位不可与前序重复。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"same_year_applications\",\n        \"unit_consistency\",\n        \"ongoing_unit_consistency\",\n        \"professional_titles\",\n        \"ai_use\",\n        \"other_declarations\"\n      ]\n    },\n    \"source-audit\": {\n      \"goal\": \"逐条核对已有主张与实际材料。引用摘录匹配不等于支持性验证；没有全文就标待核实。\",\n      \"output\": \"audit.json，含claim、source_alias、locator、support、limitation。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"humanize-export\": {\n      \"goal\": \"读取前序实际section JSON，通过assemble_word_content合并，不重写整份长稿。逐句修订时保留数字、条件、来源与缺口。用export_word生成可编辑DOCX，再render_word。\",\n      \"output\": \"检查点列出合并JSON、实际DOCX及DOCX.render-manifest.json。渲染不代表视觉和科学审核通过。\",\n      \"required_tools\": [\n        \"assemble_word_content\",\n        \"export_word\",\n        \"render_word\"\n      ]\n    }\n  },\n  \"continue_with_documented_gaps\": true,\n  \"missing_input_rule\": \"标明缺失内容和blocking。没有核心输入、适用模板或无法核对关键数字时blocking=true并停止；不影响教学草稿的身份声明待确认可blocking=false，继续留缺口。\"\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.061874+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "prompt"
+      },
+      "result": {
+        "alias": "prompt",
+        "sha256": "be800a89ff6e05e67379f140b1e59af8a9bef29e5a9409c249750b5cdd6c4ace",
+        "text": "# 公开文献筛选与核验流程研究\n\n用2026年面上项目模板，把“公开文献筛选与核验流程研究”的设想整理成教学申报草稿。先核对模板和材料，再分段写作。\n\n## 可用材料与限制\n\n输入中的三种拟比较流程、拟测指标可以写入研究方案。没有真实申请人、团队成果、预算和项目记录，不得自行填写。样稿只是写法示例，不能作为已核验的研究现状。\n\n先读取task.json、input/中的实际文件和本任务Skill。根据task.json中的node_contracts逐步执行，前序文件要重新读取。模板原件、样稿和数据的路径以runner_materials登记为准，不从标题猜文件。\n\n## 交付内容\n\n模板映射、要求表、四份正文片段、可编辑技术路线、主张核验表及模板Word草稿。\n\n## 材料缺失时\n\n允许完成带缺口的教学草稿；没有适用模板或关键研究要求无法确定则停止。\n\n## 执行与保存方式\n\n在本地运行器中，只调用已提供的工具并使用登记别名。当前节点的文件名必须是单个文件名；输出根目录和日志由Runner管理，不自行创建output/或evidence/子路径。先保存实质产物，再按Runner给出的名字保存检查点；SHA256使用工具返回值。\n\n在桌面Codex中独立运行时，建立新的运行目录，保留原件，保存输入定位、工具日志、文件与问题。导出后重新打开；有渲染工具时逐页检查，缺工具则明确待审查。\n\n不投稿、提交申请、联网上传未公开材料或代签。文字修订要保留事实、数字、条件与来源；不把流畅表达当成科学核验。\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.062886+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "input/material"
+      },
+      "result": {
+        "alias": "input/material",
+        "sha256": "87d598601ec5f142fa0bca7da57c12f04f79d4c7edffcb44ea69ac0f5774ea74",
+        "text": "{\n  \"project_type\": \"教学模拟 面上项目结构练习\",\n  \"duration\": \"待按指南确认\",\n  \"question\": \"证据位置提示是否能减少公开文献筛选中的错误纳入\",\n  \"design\": \"拟比较人工筛选、模型筛选、模型筛选加证据定位；最终由独立人工判读作为参照。\",\n  \"outcomes\": [\n    \"拟测纳入判定准确性\",\n    \"拟测单篇核验用时\",\n    \"拟记录无法定位证据的比例\"\n  ],\n  \"team_results\": [],\n  \"budget\": null\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.063885+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "skill/grant-template"
+      },
+      "result": {
+        "alias": "skill/grant-template",
+        "sha256": "c1a9baa72e7fb7dd1d10556b4518d68902d2fbd2ebbd7c1be156838d90412657",
+        "text": "---\nname: grant-template\ndescription: 申报指南解析。用于高校科研工作流中符合该领域要求的任务。\n---\n\n# 申报指南解析\n\n## 任务边界\n本 Skill 是教学集成定义，模型输出不能代替原始证据、实验测量、审稿判断或专利代理专业意见。第三方项目仅列为参考来源，当前没有宣称外部脚本已运行。\n\n## 输入\n资助指南、官方Word模板\n\n## 输出\n章节要求映射、缺口清单\n\n## 阶段执行\n先读 [本地科研工作流操作规程](references/local-research-sop.md) 中的共同约定与 Grant 部分，按 G1–G6 执行；本 Skill 负责 G2。将原始标题、填写说明、字数限制、材料落点和缺口逐项写入 template-map.json。不存在官方模板时进入 NEEDS_INPUT，不自行把课程结构稿标成官方模板。原件只读，导出填充副本。\n\n1. 提取资助边界。\n2. 章节/字数。\n3. 指标。\n4. 资料映射。\n5. 保留原始模板。\n\n## 强制质量门\n- 标记信息状态：VERIFIED / PENDING / UNSUPPORTED，禁止把未经核验内容带入正式稿。\n- 把关键数字、引文及研究事实与原始资料位置对应；不编造实验结果、DOI、前期成果或可专利性结论。\n- 对外提交、上传、覆盖、删除及无法回滚的动作必须人工批准。\n- 保存阶段输入、输出、来源和问题清单，失败时停止或回退，不得伪报成功。\n\n## 来源\n参考 sh2001sh/write-grant-proposal（仅参考，不复制许可不明内容）\n\n**当前状态**：Skill规范已落库；具体第三方工具接入和实机测试待对应运行端完成。\n\n按分节点方式执行或交给其他本地模型时，读取 [节点输入、产物格式与失败处理](references/node-execution.md)。每步按实际文件交接，长稿分段保存后合并。\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.064884+00:00",
+      "event": "tool_completed",
+      "name": "save_draft",
+      "arguments": {
+        "name": "background-section.json",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"notice\": [\n      \"教学模拟草稿。研究问题与方案为拟开展工作；真实申请人、团队基础、经费和项目记录尚未提供。\"\n    ],\n    \"background\": [\n      \"拟研究的问题是：在文献筛选时，为模型给出的纳入建议同时提供可回到原文的证据位置，是否会改变人工核验的错误率与耗时？这里的“证据位置”指论文内可以打开和核对的页码、段落或表格位置。模型建议纳入一篇论文时，核验者需要确认该论文是否符合事先制定的研究对象、方法和结果要求，不能只看模型摘要。\",\n      \"本教学方案把三个过程分开测量：模型是否找到了符合条件的文献，给出的证据是否支持筛选判断，核验者是否能及时发现错误。这样可以避免仅用最终纳入数量评价整个流程，也便于定位错误发生在哪一步。\",\n      \"上述问题的学术价值目前是研究设想，尚未完成系统文献检索，不能声称“国内外尚无研究”或“首次提出”。正式申请前须检索并阅读与模型辅助系统综述、证据定位、人工核验行为相关的原始研究，形成研究现状及不足的证据矩阵。缺口 G-Q01：目标学科与已有综述范围；G-Q02：已读原始论文及具体页段；G-Q03：本方案相对于已有方法的实质差异。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}"
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\background-section.json",
+        "sha256": "e7a34de6e66aa54e57a82500bbe0da4d26055385cc09779646411be76a69ee6c",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.077883+00:00",
+      "event": "tool_completed",
+      "name": "save_draft",
+      "arguments": {
+        "name": "01-background.json",
+        "text": "{\n  \"status\": \"DRAFT_READY\",\n  \"artifacts\": [\n    {\n      \"name\": \"background-section.json\",\n      \"sha256\": \"e7a34de6e66aa54e57a82500bbe0da4d26055385cc09779646411be76a69ee6c\"\n    }\n  ],\n  \"source_locators\": [\n    {\n      \"alias\": \"input/material\",\n      \"locator\": \"question field\",\n      \"excerpt\": \"证据位置提示是否能减少公开文献筛选中的错误纳入\"\n    }\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}"
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\01-background.json",
+        "sha256": "53339a9a47bfcb719450083b0828bd57902bce9073f4107d39934eb946da3a47",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.093890+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "task"
+      },
+      "result": {
+        "alias": "task",
+        "sha256": "d39773aa85bf11e282be95602cdce71bd00019551244593309e5051b6b00b5db",
+        "text": "{\n  \"id\": \"grant/01-complete-teaching\",\n  \"route\": \"grant\",\n  \"title\": \"公开文献筛选与核验流程研究\",\n  \"material_type\": \"teaching-simulation\",\n  \"skills\": [\n    \"research-intake\",\n    \"document-parsing\",\n    \"grant-template\",\n    \"grant-research-content\",\n    \"grant-technical-route\",\n    \"grant-background\",\n    \"citation-verification\",\n    \"claim-audit\",\n    \"academic-humanizer\",\n    \"grant-review\"\n  ],\n  \"steps\": [\n    \"intake\",\n    \"template\",\n    \"requirements\",\n    \"background\",\n    \"research-content\",\n    \"foundation\",\n    \"declarations-route\",\n    \"source-audit\",\n    \"humanize-export\"\n  ],\n  \"source_template_registry\": \"../../../templates/acquisition.json\",\n  \"sop\": \"../../../../../../University-Skills/docs/LOCAL_RESEARCH_SOP.md\",\n  \"execution_status\": \"NOT_RUN\",\n  \"expected_output_state\": \"DRAFT_READY\",\n  \"runner_materials\": {\n    \"template\": \"../../../word-work/grant/reference/面上项目-报告正文.docx\",\n    \"sample-draft\": \"SAMPLE_APPLICATION.md\",\n    \"template-map\": \"../../../templates/grant-general-template-map.json\",\n    \"export-profile\": \"export-profile.json\"\n  },\n  \"word_export_required\": true,\n  \"node_contracts\": {\n    \"intake\": {\n      \"goal\": \"逐份读取输入，登记公开事实、教学模拟、假说和缺失项。禁止根据题目补写团队基础。\",\n      \"output\": \"intake.json，含source_files、facts、missing、material_type；每条事实含原文定位。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"template\": {\n      \"goal\": \"读取实际template和export-profile，核对模板hash和全部标题；DOCX使用inspect_template。\",\n      \"output\": \"template-map.json，逐项列出槽位、标题、材料来源和未填原因。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"requirements\": {\n      \"goal\": \"从指南、模板和输入抽取要求；明确适用项目和年份。正文三部分与其他声明分别列明。\",\n      \"output\": \"requirements.json，含mandatory_headings、page_limit、material_gaps、AI_disclosure。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"background\": {\n      \"goal\": \"只写notice、background两个槽位。说明问题、已有证据、尚未解决的问题和研究价值，不编文献或结果。\",\n      \"output\": \"background-section.json，格式为{\\\"slots\\\":{\\\"notice\\\":[\\\"...\\\"],\\\"background\\\":[\\\"...\\\"]},\\\"source_notes\\\":[],\\\"unresolved_questions\\\":[]}。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"notice\",\n        \"background\"\n      ]\n    },\n    \"research-content\": {\n      \"goal\": \"只写research_content槽位。分清目标、研究问题、任务、数据、比较、判定标准与失败解释。内容均为拟开展研究。\",\n      \"output\": \"content-section.json，含slots.research_content段落数组及source_notes、unresolved_questions。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"research_content\"\n      ]\n    },\n    \"foundation\": {\n      \"goal\": \"只写research_foundation、conditions、ongoing_projects、completed_projects。团队资料未提供时明确待补，不能套用示例数字充当基础。\",\n      \"output\": \"foundation-section.json，slots四项段落数组及source_notes、unresolved_questions。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"research_foundation\",\n        \"conditions\",\n        \"ongoing_projects\",\n        \"completed_projects\"\n      ]\n    },\n    \"declarations-route\": {\n      \"goal\": \"只写same_year_applications、unit_consistency、ongoing_unit_consistency、professional_titles、ai_use、other_declarations六槽。没有声明资料写待研究者确认。另存可编辑Mermaid路线。\",\n      \"output\": \"declarations-section.json，以及route.mmd；槽位不可与前序重复。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"same_year_applications\",\n        \"unit_consistency\",\n        \"ongoing_unit_consistency\",\n        \"professional_titles\",\n        \"ai_use\",\n        \"other_declarations\"\n      ]\n    },\n    \"source-audit\": {\n      \"goal\": \"逐条核对已有主张与实际材料。引用摘录匹配不等于支持性验证；没有全文就标待核实。\",\n      \"output\": \"audit.json，含claim、source_alias、locator、support、limitation。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"humanize-export\": {\n      \"goal\": \"读取前序实际section JSON，通过assemble_word_content合并，不重写整份长稿。逐句修订时保留数字、条件、来源与缺口。用export_word生成可编辑DOCX，再render_word。\",\n      \"output\": \"检查点列出合并JSON、实际DOCX及DOCX.render-manifest.json。渲染不代表视觉和科学审核通过。\",\n      \"required_tools\": [\n        \"assemble_word_content\",\n        \"export_word\",\n        \"render_word\"\n      ]\n    }\n  },\n  \"continue_with_documented_gaps\": true,\n  \"missing_input_rule\": \"标明缺失内容和blocking。没有核心输入、适用模板或无法核对关键数字时blocking=true并停止；不影响教学草稿的身份声明待确认可blocking=false，继续留缺口。\"\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.093890+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "prompt"
+      },
+      "result": {
+        "alias": "prompt",
+        "sha256": "be800a89ff6e05e67379f140b1e59af8a9bef29e5a9409c249750b5cdd6c4ace",
+        "text": "# 公开文献筛选与核验流程研究\n\n用2026年面上项目模板，把“公开文献筛选与核验流程研究”的设想整理成教学申报草稿。先核对模板和材料，再分段写作。\n\n## 可用材料与限制\n\n输入中的三种拟比较流程、拟测指标可以写入研究方案。没有真实申请人、团队成果、预算和项目记录，不得自行填写。样稿只是写法示例，不能作为已核验的研究现状。\n\n先读取task.json、input/中的实际文件和本任务Skill。根据task.json中的node_contracts逐步执行，前序文件要重新读取。模板原件、样稿和数据的路径以runner_materials登记为准，不从标题猜文件。\n\n## 交付内容\n\n模板映射、要求表、四份正文片段、可编辑技术路线、主张核验表及模板Word草稿。\n\n## 材料缺失时\n\n允许完成带缺口的教学草稿；没有适用模板或关键研究要求无法确定则停止。\n\n## 执行与保存方式\n\n在本地运行器中，只调用已提供的工具并使用登记别名。当前节点的文件名必须是单个文件名；输出根目录和日志由Runner管理，不自行创建output/或evidence/子路径。先保存实质产物，再按Runner给出的名字保存检查点；SHA256使用工具返回值。\n\n在桌面Codex中独立运行时，建立新的运行目录，保留原件，保存输入定位、工具日志、文件与问题。导出后重新打开；有渲染工具时逐页检查，缺工具则明确待审查。\n\n不投稿、提交申请、联网上传未公开材料或代签。文字修订要保留事实、数字、条件与来源；不把流畅表达当成科学核验。\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.094886+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "input/material"
+      },
+      "result": {
+        "alias": "input/material",
+        "sha256": "87d598601ec5f142fa0bca7da57c12f04f79d4c7edffcb44ea69ac0f5774ea74",
+        "text": "{\n  \"project_type\": \"教学模拟 面上项目结构练习\",\n  \"duration\": \"待按指南确认\",\n  \"question\": \"证据位置提示是否能减少公开文献筛选中的错误纳入\",\n  \"design\": \"拟比较人工筛选、模型筛选、模型筛选加证据定位；最终由独立人工判读作为参照。\",\n  \"outcomes\": [\n    \"拟测纳入判定准确性\",\n    \"拟测单篇核验用时\",\n    \"拟记录无法定位证据的比例\"\n  ],\n  \"team_results\": [],\n  \"budget\": null\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.094886+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "skill/grant-template"
+      },
+      "result": {
+        "alias": "skill/grant-template",
+        "sha256": "c1a9baa72e7fb7dd1d10556b4518d68902d2fbd2ebbd7c1be156838d90412657",
+        "text": "---\nname: grant-template\ndescription: 申报指南解析。用于高校科研工作流中符合该领域要求的任务。\n---\n\n# 申报指南解析\n\n## 任务边界\n本 Skill 是教学集成定义，模型输出不能代替原始证据、实验测量、审稿判断或专利代理专业意见。第三方项目仅列为参考来源，当前没有宣称外部脚本已运行。\n\n## 输入\n资助指南、官方Word模板\n\n## 输出\n章节要求映射、缺口清单\n\n## 阶段执行\n先读 [本地科研工作流操作规程](references/local-research-sop.md) 中的共同约定与 Grant 部分，按 G1–G6 执行；本 Skill 负责 G2。将原始标题、填写说明、字数限制、材料落点和缺口逐项写入 template-map.json。不存在官方模板时进入 NEEDS_INPUT，不自行把课程结构稿标成官方模板。原件只读，导出填充副本。\n\n1. 提取资助边界。\n2. 章节/字数。\n3. 指标。\n4. 资料映射。\n5. 保留原始模板。\n\n## 强制质量门\n- 标记信息状态：VERIFIED / PENDING / UNSUPPORTED，禁止把未经核验内容带入正式稿。\n- 把关键数字、引文及研究事实与原始资料位置对应；不编造实验结果、DOI、前期成果或可专利性结论。\n- 对外提交、上传、覆盖、删除及无法回滚的动作必须人工批准。\n- 保存阶段输入、输出、来源和问题清单，失败时停止或回退，不得伪报成功。\n\n## 来源\n参考 sh2001sh/write-grant-proposal（仅参考，不复制许可不明内容）\n\n**当前状态**：Skill规范已落库；具体第三方工具接入和实机测试待对应运行端完成。\n\n按分节点方式执行或交给其他本地模型时，读取 [节点输入、产物格式与失败处理](references/node-execution.md)。每步按实际文件交接，长稿分段保存后合并。\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.096384+00:00",
+      "event": "tool_completed",
+      "name": "save_draft",
+      "arguments": {
+        "name": "research-content-section.json",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"research_content\": [\n      \"研究目标是识别证据位置提示对筛选判断的影响及适用条件。拟设置三种流程：人工独立筛选、模型提出建议后人工核验、模型提出建议并附证据位置后人工核验。不同流程应使用相同的纳入标准和可比的文献材料，记录实际模型版本、提示词及检索日期。模型升级后作为新版本处理，不把不同版本混合成一个实验条件。\",\n      \"第一项内容是建立可复核的材料集。根据拟定研究问题制定纳入与排除标准，登记文献标识、全文取得方式及合法使用范围。拟由独立人工判读建立参照，并保存分歧及处理记录。参照判读者数量、资格、是否盲法及分歧解决方法尚待研究者确认，不能在方法中写成已经执行。\",\n      \"第二项内容是比较三个流程的表现。拟记录符合条件文献的发现情况、错误纳入与错误排除、单篇实际核验用时、证据无法打开或不能支持判断的情况。计时起止点、分母、退出条件必须预先规定。不能把“模型给了链接”记作“证据正确”；需另行阅读相应原文位置。\",\n      \"第三项内容是分析影响条件。可考虑按全文长度、表格依赖程度、研究设计复杂性等预先定义的维度进行分层。分层数量须与可获得的样本量相适应。样本量和统计方案尚未确定，需根据主要评价指标、可接受误差和材料可得性论证，不能临时指定一个漂亮的整数。缺口 G-Q04：主要终点及样本量依据；G-Q05：重复判读及顺序效应控制；G-Q06：模型调用预算和失败处理规则。\",\n      \"拟定技术路线为：明确研究问题及筛选标准；取得并登记文献；建立独立人工参照；固定三种流程与版本；收集判断、定位证据与用时；核对分母和异常记录；比较结果并解释限制。对应可编辑文件为 route.mmd。路线中的每个“比较”都是拟开展工作，尚无结果。\",\n      \"年度安排及项目期限以正式指南和申请人条件为准。本案例暂不填写月份、经费或预期论文数量。可能的交付包括数据字典、可复现筛选记录、错误分类表及方法报告；具体考核指标需在申报类别明确后与指南逐项对应。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}"
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\research-content-section.json",
+        "sha256": "e267563c700453187346137db7b7c510f2a93037aa3a6b2a668d7f49a407d828",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.109364+00:00",
+      "event": "tool_completed",
+      "name": "save_draft",
+      "arguments": {
+        "name": "02-research-content.json",
+        "text": "{\n  \"status\": \"DRAFT_READY\",\n  \"artifacts\": [\n    {\n      \"name\": \"research-content-section.json\",\n      \"sha256\": \"e267563c700453187346137db7b7c510f2a93037aa3a6b2a668d7f49a407d828\"\n    }\n  ],\n  \"source_locators\": [\n    {\n      \"alias\": \"input/material\",\n      \"locator\": \"question field\",\n      \"excerpt\": \"证据位置提示是否能减少公开文献筛选中的错误纳入\"\n    }\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}"
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\02-research-content.json",
+        "sha256": "cad460fb4cba855ba62ee80c57eba794b8946578c0452f2fd85953da493a3ac3",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.121362+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "task"
+      },
+      "result": {
+        "alias": "task",
+        "sha256": "d39773aa85bf11e282be95602cdce71bd00019551244593309e5051b6b00b5db",
+        "text": "{\n  \"id\": \"grant/01-complete-teaching\",\n  \"route\": \"grant\",\n  \"title\": \"公开文献筛选与核验流程研究\",\n  \"material_type\": \"teaching-simulation\",\n  \"skills\": [\n    \"research-intake\",\n    \"document-parsing\",\n    \"grant-template\",\n    \"grant-research-content\",\n    \"grant-technical-route\",\n    \"grant-background\",\n    \"citation-verification\",\n    \"claim-audit\",\n    \"academic-humanizer\",\n    \"grant-review\"\n  ],\n  \"steps\": [\n    \"intake\",\n    \"template\",\n    \"requirements\",\n    \"background\",\n    \"research-content\",\n    \"foundation\",\n    \"declarations-route\",\n    \"source-audit\",\n    \"humanize-export\"\n  ],\n  \"source_template_registry\": \"../../../templates/acquisition.json\",\n  \"sop\": \"../../../../../../University-Skills/docs/LOCAL_RESEARCH_SOP.md\",\n  \"execution_status\": \"NOT_RUN\",\n  \"expected_output_state\": \"DRAFT_READY\",\n  \"runner_materials\": {\n    \"template\": \"../../../word-work/grant/reference/面上项目-报告正文.docx\",\n    \"sample-draft\": \"SAMPLE_APPLICATION.md\",\n    \"template-map\": \"../../../templates/grant-general-template-map.json\",\n    \"export-profile\": \"export-profile.json\"\n  },\n  \"word_export_required\": true,\n  \"node_contracts\": {\n    \"intake\": {\n      \"goal\": \"逐份读取输入，登记公开事实、教学模拟、假说和缺失项。禁止根据题目补写团队基础。\",\n      \"output\": \"intake.json，含source_files、facts、missing、material_type；每条事实含原文定位。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"template\": {\n      \"goal\": \"读取实际template和export-profile，核对模板hash和全部标题；DOCX使用inspect_template。\",\n      \"output\": \"template-map.json，逐项列出槽位、标题、材料来源和未填原因。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"requirements\": {\n      \"goal\": \"从指南、模板和输入抽取要求；明确适用项目和年份。正文三部分与其他声明分别列明。\",\n      \"output\": \"requirements.json，含mandatory_headings、page_limit、material_gaps、AI_disclosure。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"background\": {\n      \"goal\": \"只写notice、background两个槽位。说明问题、已有证据、尚未解决的问题和研究价值，不编文献或结果。\",\n      \"output\": \"background-section.json，格式为{\\\"slots\\\":{\\\"notice\\\":[\\\"...\\\"],\\\"background\\\":[\\\"...\\\"]},\\\"source_notes\\\":[],\\\"unresolved_questions\\\":[]}。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"notice\",\n        \"background\"\n      ]\n    },\n    \"research-content\": {\n      \"goal\": \"只写research_content槽位。分清目标、研究问题、任务、数据、比较、判定标准与失败解释。内容均为拟开展研究。\",\n      \"output\": \"content-section.json，含slots.research_content段落数组及source_notes、unresolved_questions。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"research_content\"\n      ]\n    },\n    \"foundation\": {\n      \"goal\": \"只写research_foundation、conditions、ongoing_projects、completed_projects。团队资料未提供时明确待补，不能套用示例数字充当基础。\",\n      \"output\": \"foundation-section.json，slots四项段落数组及source_notes、unresolved_questions。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"research_foundation\",\n        \"conditions\",\n        \"ongoing_projects\",\n        \"completed_projects\"\n      ]\n    },\n    \"declarations-route\": {\n      \"goal\": \"只写same_year_applications、unit_consistency、ongoing_unit_consistency、professional_titles、ai_use、other_declarations六槽。没有声明资料写待研究者确认。另存可编辑Mermaid路线。\",\n      \"output\": \"declarations-section.json，以及route.mmd；槽位不可与前序重复。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"same_year_applications\",\n        \"unit_consistency\",\n        \"ongoing_unit_consistency\",\n        \"professional_titles\",\n        \"ai_use\",\n        \"other_declarations\"\n      ]\n    },\n    \"source-audit\": {\n      \"goal\": \"逐条核对已有主张与实际材料。引用摘录匹配不等于支持性验证；没有全文就标待核实。\",\n      \"output\": \"audit.json，含claim、source_alias、locator、support、limitation。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"humanize-export\": {\n      \"goal\": \"读取前序实际section JSON，通过assemble_word_content合并，不重写整份长稿。逐句修订时保留数字、条件、来源与缺口。用export_word生成可编辑DOCX，再render_word。\",\n      \"output\": \"检查点列出合并JSON、实际DOCX及DOCX.render-manifest.json。渲染不代表视觉和科学审核通过。\",\n      \"required_tools\": [\n        \"assemble_word_content\",\n        \"export_word\",\n        \"render_word\"\n      ]\n    }\n  },\n  \"continue_with_documented_gaps\": true,\n  \"missing_input_rule\": \"标明缺失内容和blocking。没有核心输入、适用模板或无法核对关键数字时blocking=true并停止；不影响教学草稿的身份声明待确认可blocking=false，继续留缺口。\"\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.122362+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "prompt"
+      },
+      "result": {
+        "alias": "prompt",
+        "sha256": "be800a89ff6e05e67379f140b1e59af8a9bef29e5a9409c249750b5cdd6c4ace",
+        "text": "# 公开文献筛选与核验流程研究\n\n用2026年面上项目模板，把“公开文献筛选与核验流程研究”的设想整理成教学申报草稿。先核对模板和材料，再分段写作。\n\n## 可用材料与限制\n\n输入中的三种拟比较流程、拟测指标可以写入研究方案。没有真实申请人、团队成果、预算和项目记录，不得自行填写。样稿只是写法示例，不能作为已核验的研究现状。\n\n先读取task.json、input/中的实际文件和本任务Skill。根据task.json中的node_contracts逐步执行，前序文件要重新读取。模板原件、样稿和数据的路径以runner_materials登记为准，不从标题猜文件。\n\n## 交付内容\n\n模板映射、要求表、四份正文片段、可编辑技术路线、主张核验表及模板Word草稿。\n\n## 材料缺失时\n\n允许完成带缺口的教学草稿；没有适用模板或关键研究要求无法确定则停止。\n\n## 执行与保存方式\n\n在本地运行器中，只调用已提供的工具并使用登记别名。当前节点的文件名必须是单个文件名；输出根目录和日志由Runner管理，不自行创建output/或evidence/子路径。先保存实质产物，再按Runner给出的名字保存检查点；SHA256使用工具返回值。\n\n在桌面Codex中独立运行时，建立新的运行目录，保留原件，保存输入定位、工具日志、文件与问题。导出后重新打开；有渲染工具时逐页检查，缺工具则明确待审查。\n\n不投稿、提交申请、联网上传未公开材料或代签。文字修订要保留事实、数字、条件与来源；不把流畅表达当成科学核验。\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.122362+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "input/material"
+      },
+      "result": {
+        "alias": "input/material",
+        "sha256": "87d598601ec5f142fa0bca7da57c12f04f79d4c7edffcb44ea69ac0f5774ea74",
+        "text": "{\n  \"project_type\": \"教学模拟 面上项目结构练习\",\n  \"duration\": \"待按指南确认\",\n  \"question\": \"证据位置提示是否能减少公开文献筛选中的错误纳入\",\n  \"design\": \"拟比较人工筛选、模型筛选、模型筛选加证据定位；最终由独立人工判读作为参照。\",\n  \"outcomes\": [\n    \"拟测纳入判定准确性\",\n    \"拟测单篇核验用时\",\n    \"拟记录无法定位证据的比例\"\n  ],\n  \"team_results\": [],\n  \"budget\": null\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.123361+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "skill/grant-template"
+      },
+      "result": {
+        "alias": "skill/grant-template",
+        "sha256": "c1a9baa72e7fb7dd1d10556b4518d68902d2fbd2ebbd7c1be156838d90412657",
+        "text": "---\nname: grant-template\ndescription: 申报指南解析。用于高校科研工作流中符合该领域要求的任务。\n---\n\n# 申报指南解析\n\n## 任务边界\n本 Skill 是教学集成定义，模型输出不能代替原始证据、实验测量、审稿判断或专利代理专业意见。第三方项目仅列为参考来源，当前没有宣称外部脚本已运行。\n\n## 输入\n资助指南、官方Word模板\n\n## 输出\n章节要求映射、缺口清单\n\n## 阶段执行\n先读 [本地科研工作流操作规程](references/local-research-sop.md) 中的共同约定与 Grant 部分，按 G1–G6 执行；本 Skill 负责 G2。将原始标题、填写说明、字数限制、材料落点和缺口逐项写入 template-map.json。不存在官方模板时进入 NEEDS_INPUT，不自行把课程结构稿标成官方模板。原件只读，导出填充副本。\n\n1. 提取资助边界。\n2. 章节/字数。\n3. 指标。\n4. 资料映射。\n5. 保留原始模板。\n\n## 强制质量门\n- 标记信息状态：VERIFIED / PENDING / UNSUPPORTED，禁止把未经核验内容带入正式稿。\n- 把关键数字、引文及研究事实与原始资料位置对应；不编造实验结果、DOI、前期成果或可专利性结论。\n- 对外提交、上传、覆盖、删除及无法回滚的动作必须人工批准。\n- 保存阶段输入、输出、来源和问题清单，失败时停止或回退，不得伪报成功。\n\n## 来源\n参考 sh2001sh/write-grant-proposal（仅参考，不复制许可不明内容）\n\n**当前状态**：Skill规范已落库；具体第三方工具接入和实机测试待对应运行端完成。\n\n按分节点方式执行或交给其他本地模型时，读取 [节点输入、产物格式与失败处理](references/node-execution.md)。每步按实际文件交接，长稿分段保存后合并。\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.124361+00:00",
+      "event": "tool_completed",
+      "name": "save_draft",
+      "arguments": {
+        "name": "foundation-section.json",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"research_foundation\": [\n      \"未提供申请人的相关论文、项目、工具、试验或预实验记录，保留待补充。公开模板和本课程样例不能作为团队研究基础。拟核对的可行性条件包括合法全文取得、稳定的材料读取工具、版本可记录的模型服务，以及具备学科判断能力的核验人员。\"\n    ],\n    \"conditions\": [\n      \"已有设备、数据权限、学校伦理或数据管理要求均待申请人确认。应说明能够在本地处理的材料与需要发送给外部服务的材料；未公开资料未经授权不外传。\"\n    ],\n    \"ongoing_projects\": [\n      \"待申请人提供。不能用“无”替代尚未询问的事实。\"\n    ],\n    \"completed_projects\": [\n      \"待申请人提供并核对项目编号、期限及成果。课程不生成证明或结题信息。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}"
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\foundation-section.json",
+        "sha256": "1fff116b069d603761c73ddd5747849d2768c95d36f33a4a9a8304cd695fc7f3",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.139363+00:00",
+      "event": "tool_completed",
+      "name": "save_draft",
+      "arguments": {
+        "name": "03-foundation.json",
+        "text": "{\n  \"status\": \"DRAFT_READY\",\n  \"artifacts\": [\n    {\n      \"name\": \"foundation-section.json\",\n      \"sha256\": \"1fff116b069d603761c73ddd5747849d2768c95d36f33a4a9a8304cd695fc7f3\"\n    }\n  ],\n  \"source_locators\": [\n    {\n      \"alias\": \"input/material\",\n      \"locator\": \"question field\",\n      \"excerpt\": \"证据位置提示是否能减少公开文献筛选中的错误纳入\"\n    }\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}"
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\03-foundation.json",
+        "sha256": "5d0c3a53faaa8482886ee55adf4a365f5d2d86fd905a083be6afe72a8c323cdb",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.157364+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "task"
+      },
+      "result": {
+        "alias": "task",
+        "sha256": "d39773aa85bf11e282be95602cdce71bd00019551244593309e5051b6b00b5db",
+        "text": "{\n  \"id\": \"grant/01-complete-teaching\",\n  \"route\": \"grant\",\n  \"title\": \"公开文献筛选与核验流程研究\",\n  \"material_type\": \"teaching-simulation\",\n  \"skills\": [\n    \"research-intake\",\n    \"document-parsing\",\n    \"grant-template\",\n    \"grant-research-content\",\n    \"grant-technical-route\",\n    \"grant-background\",\n    \"citation-verification\",\n    \"claim-audit\",\n    \"academic-humanizer\",\n    \"grant-review\"\n  ],\n  \"steps\": [\n    \"intake\",\n    \"template\",\n    \"requirements\",\n    \"background\",\n    \"research-content\",\n    \"foundation\",\n    \"declarations-route\",\n    \"source-audit\",\n    \"humanize-export\"\n  ],\n  \"source_template_registry\": \"../../../templates/acquisition.json\",\n  \"sop\": \"../../../../../../University-Skills/docs/LOCAL_RESEARCH_SOP.md\",\n  \"execution_status\": \"NOT_RUN\",\n  \"expected_output_state\": \"DRAFT_READY\",\n  \"runner_materials\": {\n    \"template\": \"../../../word-work/grant/reference/面上项目-报告正文.docx\",\n    \"sample-draft\": \"SAMPLE_APPLICATION.md\",\n    \"template-map\": \"../../../templates/grant-general-template-map.json\",\n    \"export-profile\": \"export-profile.json\"\n  },\n  \"word_export_required\": true,\n  \"node_contracts\": {\n    \"intake\": {\n      \"goal\": \"逐份读取输入，登记公开事实、教学模拟、假说和缺失项。禁止根据题目补写团队基础。\",\n      \"output\": \"intake.json，含source_files、facts、missing、material_type；每条事实含原文定位。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"template\": {\n      \"goal\": \"读取实际template和export-profile，核对模板hash和全部标题；DOCX使用inspect_template。\",\n      \"output\": \"template-map.json，逐项列出槽位、标题、材料来源和未填原因。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"requirements\": {\n      \"goal\": \"从指南、模板和输入抽取要求；明确适用项目和年份。正文三部分与其他声明分别列明。\",\n      \"output\": \"requirements.json，含mandatory_headings、page_limit、material_gaps、AI_disclosure。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"background\": {\n      \"goal\": \"只写notice、background两个槽位。说明问题、已有证据、尚未解决的问题和研究价值，不编文献或结果。\",\n      \"output\": \"background-section.json，格式为{\\\"slots\\\":{\\\"notice\\\":[\\\"...\\\"],\\\"background\\\":[\\\"...\\\"]},\\\"source_notes\\\":[],\\\"unresolved_questions\\\":[]}。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"notice\",\n        \"background\"\n      ]\n    },\n    \"research-content\": {\n      \"goal\": \"只写research_content槽位。分清目标、研究问题、任务、数据、比较、判定标准与失败解释。内容均为拟开展研究。\",\n      \"output\": \"content-section.json，含slots.research_content段落数组及source_notes、unresolved_questions。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"research_content\"\n      ]\n    },\n    \"foundation\": {\n      \"goal\": \"只写research_foundation、conditions、ongoing_projects、completed_projects。团队资料未提供时明确待补，不能套用示例数字充当基础。\",\n      \"output\": \"foundation-section.json，slots四项段落数组及source_notes、unresolved_questions。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"research_foundation\",\n        \"conditions\",\n        \"ongoing_projects\",\n        \"completed_projects\"\n      ]\n    },\n    \"declarations-route\": {\n      \"goal\": \"只写same_year_applications、unit_consistency、ongoing_unit_consistency、professional_titles、ai_use、other_declarations六槽。没有声明资料写待研究者确认。另存可编辑Mermaid路线。\",\n      \"output\": \"declarations-section.json，以及route.mmd；槽位不可与前序重复。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ],\n      \"required_slots\": [\n        \"same_year_applications\",\n        \"unit_consistency\",\n        \"ongoing_unit_consistency\",\n        \"professional_titles\",\n        \"ai_use\",\n        \"other_declarations\"\n      ]\n    },\n    \"source-audit\": {\n      \"goal\": \"逐条核对已有主张与实际材料。引用摘录匹配不等于支持性验证；没有全文就标待核实。\",\n      \"output\": \"audit.json，含claim、source_alias、locator、support、limitation。\",\n      \"required_tools\": [\n        \"read_material\",\n        \"save_draft\"\n      ]\n    },\n    \"humanize-export\": {\n      \"goal\": \"读取前序实际section JSON，通过assemble_word_content合并，不重写整份长稿。逐句修订时保留数字、条件、来源与缺口。用export_word生成可编辑DOCX，再render_word。\",\n      \"output\": \"检查点列出合并JSON、实际DOCX及DOCX.render-manifest.json。渲染不代表视觉和科学审核通过。\",\n      \"required_tools\": [\n        \"assemble_word_content\",\n        \"export_word\",\n        \"render_word\"\n      ]\n    }\n  },\n  \"continue_with_documented_gaps\": true,\n  \"missing_input_rule\": \"标明缺失内容和blocking。没有核心输入、适用模板或无法核对关键数字时blocking=true并停止；不影响教学草稿的身份声明待确认可blocking=false，继续留缺口。\"\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.158363+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "prompt"
+      },
+      "result": {
+        "alias": "prompt",
+        "sha256": "be800a89ff6e05e67379f140b1e59af8a9bef29e5a9409c249750b5cdd6c4ace",
+        "text": "# 公开文献筛选与核验流程研究\n\n用2026年面上项目模板，把“公开文献筛选与核验流程研究”的设想整理成教学申报草稿。先核对模板和材料，再分段写作。\n\n## 可用材料与限制\n\n输入中的三种拟比较流程、拟测指标可以写入研究方案。没有真实申请人、团队成果、预算和项目记录，不得自行填写。样稿只是写法示例，不能作为已核验的研究现状。\n\n先读取task.json、input/中的实际文件和本任务Skill。根据task.json中的node_contracts逐步执行，前序文件要重新读取。模板原件、样稿和数据的路径以runner_materials登记为准，不从标题猜文件。\n\n## 交付内容\n\n模板映射、要求表、四份正文片段、可编辑技术路线、主张核验表及模板Word草稿。\n\n## 材料缺失时\n\n允许完成带缺口的教学草稿；没有适用模板或关键研究要求无法确定则停止。\n\n## 执行与保存方式\n\n在本地运行器中，只调用已提供的工具并使用登记别名。当前节点的文件名必须是单个文件名；输出根目录和日志由Runner管理，不自行创建output/或evidence/子路径。先保存实质产物，再按Runner给出的名字保存检查点；SHA256使用工具返回值。\n\n在桌面Codex中独立运行时，建立新的运行目录，保留原件，保存输入定位、工具日志、文件与问题。导出后重新打开；有渲染工具时逐页检查，缺工具则明确待审查。\n\n不投稿、提交申请、联网上传未公开材料或代签。文字修订要保留事实、数字、条件与来源；不把流畅表达当成科学核验。\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.159361+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "input/material"
+      },
+      "result": {
+        "alias": "input/material",
+        "sha256": "87d598601ec5f142fa0bca7da57c12f04f79d4c7edffcb44ea69ac0f5774ea74",
+        "text": "{\n  \"project_type\": \"教学模拟 面上项目结构练习\",\n  \"duration\": \"待按指南确认\",\n  \"question\": \"证据位置提示是否能减少公开文献筛选中的错误纳入\",\n  \"design\": \"拟比较人工筛选、模型筛选、模型筛选加证据定位；最终由独立人工判读作为参照。\",\n  \"outcomes\": [\n    \"拟测纳入判定准确性\",\n    \"拟测单篇核验用时\",\n    \"拟记录无法定位证据的比例\"\n  ],\n  \"team_results\": [],\n  \"budget\": null\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.159361+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "skill/grant-template"
+      },
+      "result": {
+        "alias": "skill/grant-template",
+        "sha256": "c1a9baa72e7fb7dd1d10556b4518d68902d2fbd2ebbd7c1be156838d90412657",
+        "text": "---\nname: grant-template\ndescription: 申报指南解析。用于高校科研工作流中符合该领域要求的任务。\n---\n\n# 申报指南解析\n\n## 任务边界\n本 Skill 是教学集成定义，模型输出不能代替原始证据、实验测量、审稿判断或专利代理专业意见。第三方项目仅列为参考来源，当前没有宣称外部脚本已运行。\n\n## 输入\n资助指南、官方Word模板\n\n## 输出\n章节要求映射、缺口清单\n\n## 阶段执行\n先读 [本地科研工作流操作规程](references/local-research-sop.md) 中的共同约定与 Grant 部分，按 G1–G6 执行；本 Skill 负责 G2。将原始标题、填写说明、字数限制、材料落点和缺口逐项写入 template-map.json。不存在官方模板时进入 NEEDS_INPUT，不自行把课程结构稿标成官方模板。原件只读，导出填充副本。\n\n1. 提取资助边界。\n2. 章节/字数。\n3. 指标。\n4. 资料映射。\n5. 保留原始模板。\n\n## 强制质量门\n- 标记信息状态：VERIFIED / PENDING / UNSUPPORTED，禁止把未经核验内容带入正式稿。\n- 把关键数字、引文及研究事实与原始资料位置对应；不编造实验结果、DOI、前期成果或可专利性结论。\n- 对外提交、上传、覆盖、删除及无法回滚的动作必须人工批准。\n- 保存阶段输入、输出、来源和问题清单，失败时停止或回退，不得伪报成功。\n\n## 来源\n参考 sh2001sh/write-grant-proposal（仅参考，不复制许可不明内容）\n\n**当前状态**：Skill规范已落库；具体第三方工具接入和实机测试待对应运行端完成。\n\n按分节点方式执行或交给其他本地模型时，读取 [节点输入、产物格式与失败处理](references/node-execution.md)。每步按实际文件交接，长稿分段保存后合并。\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.160360+00:00",
+      "event": "tool_completed",
+      "name": "save_draft",
+      "arguments": {
+        "name": "declarations-route-section.json",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"same_year_applications\": [\n      \"待申请人提供同年申请信息，不能将未询问的事实填为“无”。\"\n    ],\n    \"unit_consistency\": [\n      \"待申请人与参与人员确认同年申请的单位信息。\"\n    ],\n    \"ongoing_unit_consistency\": [\n      \"待申请人与参与人员确认在研项目与单位信息。\"\n    ],\n    \"professional_titles\": [\n      \"待申请人及参与人员确认职称。\"\n    ],\n    \"ai_use\": [\n      \"本文件的教学方案与说明由 AI 协作起草；实际申请须按使用记录说明位置和内容，并由申请人核对。\"\n    ],\n    \"other_declarations\": [\n      \"按原模板逐项填写同年申请、单位一致性、职称及其他要求。涉及生成式人工智能辅助的位置与内容，应依据实际使用记录说明。本文件为 AI 协作形成的教学草稿，该说明不能替代真实申请人的当年申报声明。所有个人、单位、项目与签名信息保持待确认。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}"
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\declarations-route-section.json",
+        "sha256": "e867acb136848b8c5dad92dcee0584536131ef6d7ef85fc02ce1dfba60cc4477",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.174362+00:00",
+      "event": "tool_completed",
+      "name": "save_draft",
+      "arguments": {
+        "name": "04-declarations-route.json",
+        "text": "{\n  \"status\": \"DRAFT_READY\",\n  \"artifacts\": [\n    {\n      \"name\": \"declarations-route-section.json\",\n      \"sha256\": \"e867acb136848b8c5dad92dcee0584536131ef6d7ef85fc02ce1dfba60cc4477\"\n    }\n  ],\n  \"source_locators\": [\n    {\n      \"alias\": \"input/material\",\n      \"locator\": \"question field\",\n      \"excerpt\": \"证据位置提示是否能减少公开文献筛选中的错误纳入\"\n    }\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}"
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-001\\04-declarations-route.json",
+        "sha256": "d7530fa3678ba24c028e3dcdeaed39a478da1af6c8bc7f85980e709b385df479",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.235358+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "previous/background/background-section.json"
+      },
+      "result": {
+        "alias": "previous/background/background-section.json",
+        "sha256": "e7a34de6e66aa54e57a82500bbe0da4d26055385cc09779646411be76a69ee6c",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"notice\": [\n      \"教学模拟草稿。研究问题与方案为拟开展工作；真实申请人、团队基础、经费和项目记录尚未提供。\"\n    ],\n    \"background\": [\n      \"拟研究的问题是：在文献筛选时，为模型给出的纳入建议同时提供可回到原文的证据位置，是否会改变人工核验的错误率与耗时？这里的“证据位置”指论文内可以打开和核对的页码、段落或表格位置。模型建议纳入一篇论文时，核验者需要确认该论文是否符合事先制定的研究对象、方法和结果要求，不能只看模型摘要。\",\n      \"本教学方案把三个过程分开测量：模型是否找到了符合条件的文献，给出的证据是否支持筛选判断，核验者是否能及时发现错误。这样可以避免仅用最终纳入数量评价整个流程，也便于定位错误发生在哪一步。\",\n      \"上述问题的学术价值目前是研究设想，尚未完成系统文献检索，不能声称“国内外尚无研究”或“首次提出”。正式申请前须检索并阅读与模型辅助系统综述、证据定位、人工核验行为相关的原始研究，形成研究现状及不足的证据矩阵。缺口 G-Q01：目标学科与已有综述范围；G-Q02：已读原始论文及具体页段；G-Q03：本方案相对于已有方法的实质差异。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.235358+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "previous/research-content/research-content-section.json"
+      },
+      "result": {
+        "alias": "previous/research-content/research-content-section.json",
+        "sha256": "e267563c700453187346137db7b7c510f2a93037aa3a6b2a668d7f49a407d828",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"research_content\": [\n      \"研究目标是识别证据位置提示对筛选判断的影响及适用条件。拟设置三种流程：人工独立筛选、模型提出建议后人工核验、模型提出建议并附证据位置后人工核验。不同流程应使用相同的纳入标准和可比的文献材料，记录实际模型版本、提示词及检索日期。模型升级后作为新版本处理，不把不同版本混合成一个实验条件。\",\n      \"第一项内容是建立可复核的材料集。根据拟定研究问题制定纳入与排除标准，登记文献标识、全文取得方式及合法使用范围。拟由独立人工判读建立参照，并保存分歧及处理记录。参照判读者数量、资格、是否盲法及分歧解决方法尚待研究者确认，不能在方法中写成已经执行。\",\n      \"第二项内容是比较三个流程的表现。拟记录符合条件文献的发现情况、错误纳入与错误排除、单篇实际核验用时、证据无法打开或不能支持判断的情况。计时起止点、分母、退出条件必须预先规定。不能把“模型给了链接”记作“证据正确”；需另行阅读相应原文位置。\",\n      \"第三项内容是分析影响条件。可考虑按全文长度、表格依赖程度、研究设计复杂性等预先定义的维度进行分层。分层数量须与可获得的样本量相适应。样本量和统计方案尚未确定，需根据主要评价指标、可接受误差和材料可得性论证，不能临时指定一个漂亮的整数。缺口 G-Q04：主要终点及样本量依据；G-Q05：重复判读及顺序效应控制；G-Q06：模型调用预算和失败处理规则。\",\n      \"拟定技术路线为：明确研究问题及筛选标准；取得并登记文献；建立独立人工参照；固定三种流程与版本；收集判断、定位证据与用时；核对分母和异常记录；比较结果并解释限制。对应可编辑文件为 route.mmd。路线中的每个“比较”都是拟开展工作，尚无结果。\",\n      \"年度安排及项目期限以正式指南和申请人条件为准。本案例暂不填写月份、经费或预期论文数量。可能的交付包括数据字典、可复现筛选记录、错误分类表及方法报告；具体考核指标需在申报类别明确后与指南逐项对应。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.236359+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "previous/foundation/foundation-section.json"
+      },
+      "result": {
+        "alias": "previous/foundation/foundation-section.json",
+        "sha256": "1fff116b069d603761c73ddd5747849d2768c95d36f33a4a9a8304cd695fc7f3",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"research_foundation\": [\n      \"未提供申请人的相关论文、项目、工具、试验或预实验记录，保留待补充。公开模板和本课程样例不能作为团队研究基础。拟核对的可行性条件包括合法全文取得、稳定的材料读取工具、版本可记录的模型服务，以及具备学科判断能力的核验人员。\"\n    ],\n    \"conditions\": [\n      \"已有设备、数据权限、学校伦理或数据管理要求均待申请人确认。应说明能够在本地处理的材料与需要发送给外部服务的材料；未公开资料未经授权不外传。\"\n    ],\n    \"ongoing_projects\": [\n      \"待申请人提供。不能用“无”替代尚未询问的事实。\"\n    ],\n    \"completed_projects\": [\n      \"待申请人提供并核对项目编号、期限及成果。课程不生成证明或结题信息。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.236359+00:00",
+      "event": "tool_completed",
+      "name": "read_material",
+      "arguments": {
+        "alias": "previous/declarations-route/declarations-route-section.json"
+      },
+      "result": {
+        "alias": "previous/declarations-route/declarations-route-section.json",
+        "sha256": "e867acb136848b8c5dad92dcee0584536131ef6d7ef85fc02ce1dfba60cc4477",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"same_year_applications\": [\n      \"待申请人提供同年申请信息，不能将未询问的事实填为“无”。\"\n    ],\n    \"unit_consistency\": [\n      \"待申请人与参与人员确认同年申请的单位信息。\"\n    ],\n    \"ongoing_unit_consistency\": [\n      \"待申请人与参与人员确认在研项目与单位信息。\"\n    ],\n    \"professional_titles\": [\n      \"待申请人及参与人员确认职称。\"\n    ],\n    \"ai_use\": [\n      \"本文件的教学方案与说明由 AI 协作起草；实际申请须按使用记录说明位置和内容，并由申请人核对。\"\n    ],\n    \"other_declarations\": [\n      \"按原模板逐项填写同年申请、单位一致性、职称及其他要求。涉及生成式人工智能辅助的位置与内容，应依据实际使用记录说明。本文件为 AI 协作形成的教学草稿，该说明不能替代真实申请人的当年申报声明。所有个人、单位、项目与签名信息保持待确认。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.237359+00:00",
+      "event": "tool_failed",
+      "name": "assemble_word_content",
+      "arguments": {
+        "name": "duplicate-slot.json",
+        "profile_alias": "profile",
+        "section_aliases": [
+          "previous/background/background-section.json",
+          "previous/background/background-section.json",
+          "previous/research-content/research-content-section.json",
+          "previous/foundation/foundation-section.json",
+          "previous/declarations-route/declarations-route-section.json"
+        ]
+      },
+      "error": "Two selected artifacts define the same slot; select the intended version explicitly: notice"
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.260360+00:00",
+      "event": "tool_failed",
+      "name": "assemble_word_content",
+      "arguments": {
+        "name": "missing-slots.json",
+        "profile_alias": "profile",
+        "section_aliases": [
+          "previous/background/background-section.json"
+        ]
+      },
+      "error": "Sections are missing required slots: research_content, research_foundation, conditions, ongoing_projects, completed_projects, same_year_applications, unit_consistency, ongoing_unit_consistency, professional_titles, ai_use, other_declarations"
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.262359+00:00",
+      "event": "tool_completed",
+      "name": "assemble_word_content",
+      "arguments": {
+        "name": "assembled-grant.json",
+        "profile_alias": "profile",
+        "section_aliases": [
+          "previous/background/background-section.json",
+          "previous/research-content/research-content-section.json",
+          "previous/foundation/foundation-section.json",
+          "previous/declarations-route/declarations-route-section.json"
+        ]
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\assembled-grant.json",
+        "sha256": "c8a8eb21838f562361a60181b67d6b4624a76dde9933052c5b1c3e9966767d93",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED",
+        "assembled_from": [
+          {
+            "alias": "previous/background/background-section.json",
+            "sha256": "e7a34de6e66aa54e57a82500bbe0da4d26055385cc09779646411be76a69ee6c"
+          },
+          {
+            "alias": "previous/research-content/research-content-section.json",
+            "sha256": "e267563c700453187346137db7b7c510f2a93037aa3a6b2a668d7f49a407d828"
+          },
+          {
+            "alias": "previous/foundation/foundation-section.json",
+            "sha256": "1fff116b069d603761c73ddd5747849d2768c95d36f33a4a9a8304cd695fc7f3"
+          },
+          {
+            "alias": "previous/declarations-route/declarations-route-section.json",
+            "sha256": "e867acb136848b8c5dad92dcee0584536131ef6d7ef85fc02ce1dfba60cc4477"
+          }
+        ]
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.281360+00:00",
+      "event": "tool_completed",
+      "name": "export_word",
+      "arguments": {
+        "name": "grant-staged-draft.docx",
+        "profile_alias": "profile",
+        "content_name": "assembled-grant.json"
+      },
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\grant-staged-draft.docx",
+        "sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+        "profile_sha256": "7b6d9842e72736cd9407d522c3b7f6f66942788d9ec1c36c545eb9a3bbd79809",
+        "content_sha256": "c8a8eb21838f562361a60181b67d6b4624a76dde9933052c5b1c3e9966767d93",
+        "detail": {
+          "reference_sha256": "33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10",
+          "preserved_package_parts": 11,
+          "filled_slots": [
+            "notice",
+            "background",
+            "research_content",
+            "research_foundation",
+            "conditions",
+            "ongoing_projects",
+            "completed_projects",
+            "same_year_applications",
+            "unit_consistency",
+            "ongoing_unit_consistency",
+            "professional_titles",
+            "ai_use",
+            "other_declarations"
+          ],
+          "removed_guidance_indices": [],
+          "pagination_changes": [
+            "keepLines",
+            "keepNext"
+          ]
+        },
+        "status": "WORD_DRAFT_WRITTEN_RENDER_REQUIRED",
+        "scientific_review": "NOT_PERFORMED",
+        "external_submission": false
+      }
+    },
+    {
+      "time_utc": "2026-10-21T18:05:16.501453+00:00",
+      "event": "tool_completed",
+      "name": "render_word",
+      "arguments": {
+        "name": "grant-staged-draft.docx"
+      },
+      "result": {
+        "word_sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+        "pdf": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\grant-staged-draft.pdf",
+        "pdf_sha256": "cdb8ab4de24621bc72c2241dcc3efbf6ada6a90fb6a30e522c5d1a0df307a5b9",
+        "pages": 5,
+        "page_images": [
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-1.png",
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-2.png",
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-3.png",
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-4.png",
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\render-grant-staged-draft\\page-5.png"
+        ],
+        "log": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\staged-grant-r3\\attempt-002\\grant-staged-draft.docx.render.json",
+        "status": "RENDERED_PENDING_VISUAL_AND_SCIENTIFIC_REVIEW"
+      }
+    }
+  ],
+  "scientific_review": "NOT_PERFORMED"
+}

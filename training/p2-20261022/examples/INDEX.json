@@ -1,0 +1,88 @@
+[
+  {
+    "id": "grant/01-complete-teaching",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\grant\\01-complete-teaching\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "公开文献筛选与核验流程研究",
+    "provider_execution_status": "NOT_RUN",
+    "desktop_file_replay": "Four prepared teaching-draft fragments actually saved, reloaded, assembled and exported; no new provider-generated prose"
+  },
+  {
+    "id": "grant/02-missing-template",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\grant\\02-missing-template\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "只有题目的申报需求",
+    "provider_execution_status": "NOT_RUN"
+  },
+  {
+    "id": "grant/03-unsupported-results",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\grant\\03-unsupported-results\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "未经证明的前期成果",
+    "provider_execution_status": "NOT_RUN"
+  },
+  {
+    "id": "paper/01-public-data",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\paper\\01-public-data\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "Adelie 企鹅鳍肢长度的公开数据二次分析",
+    "provider_execution_status": "NOT_RUN"
+  },
+  {
+    "id": "paper/02-missing-data",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\paper\\02-missing-data\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "有结论没有数据",
+    "provider_execution_status": "NOT_RUN"
+  },
+  {
+    "id": "paper/03-invented-reference",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\paper\\03-invented-reference\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "未核实参考文献",
+    "provider_execution_status": "NOT_RUN"
+  },
+  {
+    "id": "patent/01-simulated-device",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\patent\\01-simulated-device\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "本地科研材料指纹校验与草稿隔离写入方法教学交底",
+    "provider_execution_status": "NOT_RUN"
+  },
+  {
+    "id": "patent/02-missing-implementation",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\patent\\02-missing-implementation\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "只有想法的专利需求",
+    "provider_execution_status": "NOT_RUN"
+  },
+  {
+    "id": "patent/03-copied-prior-art",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\patent\\03-copied-prior-art\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "把公开方案当自己发明",
+    "provider_execution_status": "NOT_RUN"
+  },
+  {
+    "id": "figure/01-public-data",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\figure\\01-public-data\\PROMPT.md",
+    "status": "DRAFT_READY",
+    "title": "Adelie 企鹅鳍肢长度分布图",
+    "provider_execution_status": "NOT_RUN"
+  },
+  {
+    "id": "figure/02-mechanism-hypothesis",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\figure\\02-mechanism-hypothesis\\PROMPT.md",
+    "status": "DRAFT_STRUCTURE_READY",
+    "title": "尚未验证的机制框架",
+    "provider_execution_status": "NOT_RUN",
+    "scope": "Actual desktop diagram file generation; no provider API"
+  },
+  {
+    "id": "figure/03-missing-uncertainty",
+    "prompt": "E:\\20261024\\University-Agent\\training\\p2-20261022\\examples\\figure\\03-missing-uncertainty\\PROMPT.md",
+    "status": "NOT_RUN",
+    "title": "均值不能直接生成置信区间",
+    "provider_execution_status": "NOT_RUN"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "kind": "RENDERED_WORD",
+  "files": [
+    {
+      "path": "render-patent-tool-draft\\patent-tool-draft.pdf",
+      "sha256": "f99a3f5aefbd1aa484c50d836e58ef5d51c988617aca37f34de2c8a09cbc18ed"
+    },
+    {
+      "path": "render-patent-tool-draft\\page-1.png",
+      "sha256": "f335c7841f97b4958b10a39fd4ed0ddda03b6934b62e0d60557a0b87b8d513da"
+    },
+    {
+      "path": "render-patent-tool-draft\\page-2.png",
+      "sha256": "a91520a6127adf01ea4e6cbc6bc3dc36e0f9acc38428b48f1c0a2d29f0ce911a"
+    },
+    {
+      "path": "render-patent-tool-draft\\page-3.png",
+      "sha256": "6d11c1cacfc32c4c7d4e5359faef86a93eafa8a64f74f5519a73ef8a712c4f99"
+    },
+    {
+      "path": "render-patent-tool-draft\\page-4.png",
+      "sha256": "b6915486dc8880fd5d4a266d589acd6ecec52d56e06033c0b66a2e7c9caf310e"
+    }
+  ],
+  "word_sha256": "a985fc36f2ae897a9d00a54cf509e5dbb3871a5c5bc0be30c328254a8c5c679e",
+  "review_status": "VISUAL_AND_SCIENTIFIC_REVIEW_PENDING"
+}

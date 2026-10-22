@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.nsfc.gov.cn/p1/3381/2821/99242.html",
+    "status": "NOT_RETRIEVED",
+    "error_type": "HTTPError",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+    "status": "NOT_RETRIEVED",
+    "error_type": "HTTPError",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

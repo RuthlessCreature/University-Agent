@@ -1,0 +1,19 @@
+{
+  "status": "DRAFT_READY",
+  "artifacts": [
+    {
+      "name": "declarations-route-section.json",
+      "sha256": "e867acb136848b8c5dad92dcee0584536131ef6d7ef85fc02ce1dfba60cc4477"
+    }
+  ],
+  "source_locators": [
+    {
+      "alias": "input/material",
+      "locator": "question field",
+      "excerpt": "证据位置提示是否能减少公开文献筛选中的错误纳入"
+    }
+  ],
+  "unresolved_questions": [
+    "研究期限、样本量依据、真实团队与已有项目材料待提供。"
+  ]
+}

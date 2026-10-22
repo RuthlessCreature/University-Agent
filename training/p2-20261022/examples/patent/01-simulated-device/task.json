@@ -1,0 +1,106 @@
+{
+  "id": "patent/01-simulated-device",
+  "route": "patent",
+  "title": "本地科研材料指纹校验与草稿隔离写入方法教学交底",
+  "material_type": "course-example-based-on-actual-file-tool-tests",
+  "skills": [
+    "research-intake",
+    "patent-search",
+    "patent-disclosure",
+    "diagram",
+    "claim-audit",
+    "academic-humanizer"
+  ],
+  "steps": [
+    "intake",
+    "template",
+    "features",
+    "prior-art",
+    "embodiment",
+    "humanize-export"
+  ],
+  "source_template_registry": "../../../templates/acquisition.json",
+  "sop": "../../../../../../University-Skills/docs/LOCAL_RESEARCH_SOP.md",
+  "execution_status": "NOT_RUN",
+  "expected_output_state": "DRAFT_READY",
+  "runner_materials": {
+    "template": "../../../word-work/patent/reference/patent-1.docx",
+    "implemented-sample": "SAMPLE_IMPLEMENTED_DISCLOSURE.md",
+    "source-code": "../../../../../../University-Skills/tools/local_skill_runner.py",
+    "test-source": "../../../../../../University-Skills/tests/test_local_skill_runner.py",
+    "actual-tool-test-results": "../../../evidence/local-tools-tests-r2.stderr.txt",
+    "export-profile": "export-profile.json"
+  },
+  "word_export_required": true,
+  "node_contracts": {
+    "intake": {
+      "goal": "逐份读取输入，登记公开事实、教学模拟、假说和缺失项。禁止根据题目补写团队基础。",
+      "output": "intake.json，含source_files、facts、missing、material_type；每条事实含原文定位。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "research-intake"
+      ]
+    },
+    "template": {
+      "goal": "读取实际template和export-profile，核对模板hash和全部标题；DOCX使用inspect_template。",
+      "output": "template-map.json，逐项列出槽位、标题、材料来源和未填原因。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "patent-disclosure"
+      ]
+    },
+    "features": {
+      "goal": "读取实际source-code、test-source和测试日志，提取实现过的步骤与组合。公开模板中他人的技术实例不可当作本项目发明。",
+      "output": "features.json，每项含实现文件定位、作用、约束与是否已测试。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "patent-disclosure"
+      ]
+    },
+    "prior-art": {
+      "goal": "区分本地公开资料比对和完整专利检索。没有可核验的检索记录，不得声称具备新颖性或可授权。",
+      "output": "prior-art.json，含实际查阅来源、可支持的比较、未覆盖检索范围。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "patent-search"
+      ]
+    },
+    "embodiment": {
+      "goal": "依据真实代码填写全部profile槽位，包含输入、处理、输出、异常恢复和可重复步骤。测试示例数值标明教学模拟。",
+      "output": "embodiment-section.json，含slots全部项、source_notes、unresolved_questions。不代写权利要求或签核。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "patent-disclosure"
+      ]
+    },
+    "humanize-export": {
+      "goal": "读取前序实际section JSON，通过assemble_word_content合并，不重写整份长稿。逐句修订时保留数字、条件、来源与缺口。用export_word生成可编辑DOCX，再render_word。",
+      "output": "检查点列出合并JSON、实际DOCX及DOCX.render-manifest.json。渲染不代表视觉和科学审核通过。",
+      "required_tools": [
+        "assemble_word_content",
+        "export_word",
+        "render_word"
+      ],
+      "skill_ids": [
+        "academic-humanizer"
+      ]
+    }
+  },
+  "continue_with_documented_gaps": true,
+  "missing_input_rule": "标明缺失内容和blocking。没有核心输入、适用模板或无法核对关键数字时blocking=true并停止；不影响教学草稿的身份声明待确认可blocking=false，继续留缺口。"
+}

@@ -1,0 +1,21 @@
+test_changed_source_denied (__main__.LocalToolTests.test_changed_source_denied) ... ok
+test_credentials_in_url_denied (__main__.LocalToolTests.test_credentials_in_url_denied) ... ok
+test_disabled_provider_not_called (__main__.LocalToolTests.test_disabled_provider_not_called) ... ok
+test_invalid_json_not_written (__main__.LocalToolTests.test_invalid_json_not_written) ... ok
+test_missing_and_group_statistics (__main__.LocalToolTests.test_missing_and_group_statistics) ... ok
+test_no_overwrite (__main__.LocalToolTests.test_no_overwrite) ... ok
+test_path_escape_denied (__main__.LocalToolTests.test_path_escape_denied) ... ok
+test_reads_actual_file_and_hash (__main__.LocalToolTests.test_reads_actual_file_and_hash) ... ok
+test_saved_file_reopens (__main__.LocalToolTests.test_saved_file_reopens) ... ok
+test_unknown_column_denied (__main__.LocalToolTests.test_unknown_column_denied) ... ok
+test_unregistered_alias_denied (__main__.LocalToolTests.test_unregistered_alias_denied) ... ok
+test_changed_artifact_rejected (__main__.ResumeGuardTests.test_changed_artifact_rejected) ... ok
+test_changed_checkpoint_rejected (__main__.ResumeGuardTests.test_changed_checkpoint_rejected) ... ok
+test_changed_input_rejected (__main__.ResumeGuardTests.test_changed_input_rejected) ... ok
+test_changed_provider_rejected (__main__.ResumeGuardTests.test_changed_provider_rejected) ... ok
+test_valid_files_can_continue (__main__.ResumeGuardTests.test_valid_files_can_continue) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.139s
+
+OK

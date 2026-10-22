@@ -1,0 +1,9 @@
+{
+  "kind": "data",
+  "x": "sex",
+  "y": "flipper_length_mm",
+  "species": "Adelie",
+  "missing": "complete cases of sex and flipper_length_mm",
+  "error_bar": "none",
+  "seed": 20261022
+}

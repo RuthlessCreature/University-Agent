@@ -1,0 +1,17 @@
+{
+  "material_type": "course-example-based-on-actual-file-tool-tests",
+  "implemented_behaviors": [
+    "Registered file aliases and initial SHA256",
+    "Changed input detection before read",
+    "Exclusive creation of draft files",
+    "Invalid filename and JSON rejection",
+    "CSV descriptive statistics with source rows"
+  ],
+  "implementation_source": "E:\\20261024\\University-Skills\\tools\\local_skill_runner.py",
+  "test_count": 16,
+  "prior_art_search": "NOT_PERFORMED",
+  "provider_api_status": "NOT_CONFIGURED",
+  "inventors": null,
+  "ownership": null,
+  "patentability": "NOT_ESTABLISHED"
+}

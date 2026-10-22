@@ -1,0 +1,29 @@
+{
+  "material_type": "teaching-simulation",
+  "slots": {
+    "same_year_applications": [
+      "待申请人提供同年申请信息，不能将未询问的事实填为“无”。"
+    ],
+    "unit_consistency": [
+      "待申请人与参与人员确认同年申请的单位信息。"
+    ],
+    "ongoing_unit_consistency": [
+      "待申请人与参与人员确认在研项目与单位信息。"
+    ],
+    "professional_titles": [
+      "待申请人及参与人员确认职称。"
+    ],
+    "ai_use": [
+      "本文件的教学方案与说明由 AI 协作起草；实际申请须按使用记录说明位置和内容，并由申请人核对。"
+    ],
+    "other_declarations": [
+      "按原模板逐项填写同年申请、单位一致性、职称及其他要求。涉及生成式人工智能辅助的位置与内容，应依据实际使用记录说明。本文件为 AI 协作形成的教学草稿，该说明不能替代真实申请人的当年申报声明。所有个人、单位、项目与签名信息保持待确认。"
+    ]
+  },
+  "source_notes": [
+    "2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。"
+  ],
+  "unresolved_questions": [
+    "研究期限、样本量依据、真实团队与已有项目材料待提供。"
+  ]
+}

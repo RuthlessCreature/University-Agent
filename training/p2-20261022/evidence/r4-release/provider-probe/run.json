@@ -1,0 +1,26 @@
+{
+  "status": "NOT_CONFIGURED",
+  "provider": {
+    "provider": "deepseek",
+    "model": "deepseek-flash",
+    "protocol": "chat-completions",
+    "status": "NOT_CONFIGURED",
+    "key_environment_name": "DEEPSEEK_API_KEY",
+    "network_called": false,
+    "codex_compatibility": "NOT_ESTABLISHED",
+    "fallback_provider": null
+  },
+  "config_sha256": "347bdcb083f3d3225263187e93f60ab5bda2234934693527d62a5b641359bf0a",
+  "runner_hashes": {
+    "local_skill_runner.py": "482d2209ecc41db964db4e183a3d4ad20f612954e3d2cf56686553294db27145",
+    "provider_adapter.py": "81ad1156054f601dd3b3f0ab7b5d1dbb8402fa899a261f0757a5adbba47aa875",
+    "local_document_export.py": "a311308eb049af3e716a0c0df117b52f6029ad726963676bb19c259ab3ea3087",
+    "local_data_figure.py": "4e26c64996822f9105b46d2ef5c65f290bf96f6286b1ac452f8870afc71d412e",
+    "task_preflight.py": "a4db76b734aaa741addd82b6d9ef5ae4c00a3709f2c64fb355ba8353d2df1bb5"
+  },
+  "scientific_approval": false,
+  "cloud_deployed": false,
+  "runner": "local-skill-runner",
+  "version": "0.2",
+  "error": "No API key is configured for this adapter."
+}

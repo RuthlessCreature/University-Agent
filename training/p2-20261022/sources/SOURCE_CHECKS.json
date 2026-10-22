@@ -1,0 +1,116 @@
+[
+  {
+    "id": "penguins-readme",
+    "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/README.md",
+    "retrieved_utc": "2026-10-21T17:04:42.067356+00:00",
+    "http_status": 200,
+    "status": "RETRIEVED",
+    "file": "penguins-readme.md",
+    "bytes": 9675,
+    "sha256": "30248c3c8c97d7b2f3a4bc361f9209c64ad9c53f47169eb9fbb5c2d00fe5db92",
+    "license_matching_lines": [
+      "regarding the data license & use.",
+      "## License",
+      "[CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/)",
+      "license in accordance with the [Palmer Station LTER Data"
+    ]
+  },
+  {
+    "id": "penguins-paper",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081",
+    "retrieved_utc": "2026-10-21T17:04:42.999031+00:00",
+    "http_status": 200,
+    "status": "RETRIEVED",
+    "file": "penguins-paper.html",
+    "bytes": 274704,
+    "sha256": "7410388c29d53a8d14a8d821ffb6b8fb7ee4b969342d94a1b926767657ee4a6c"
+  },
+  {
+    "id": "python-open",
+    "url": "https://docs.python.org/3.12/library/functions.html#open",
+    "retrieved_utc": "2026-10-21T17:04:45.209873+00:00",
+    "http_status": 200,
+    "status": "RETRIEVED",
+    "file": "python-open.html",
+    "bytes": 298552,
+    "sha256": "7e2d7ab035f9a8d7eb204df95820e81a6ede9bdf78803723366e62d0d1e403e0",
+    "exclusive_creation_literal_present": true
+  },
+  {
+    "id": "python-hashlib",
+    "url": "https://docs.python.org/3.12/library/hashlib.html",
+    "retrieved_utc": "2026-10-21T17:04:46.994008+00:00",
+    "http_status": 200,
+    "status": "RETRIEVED",
+    "file": "python-hashlib.html",
+    "bytes": 118870,
+    "sha256": "d2304c33b0cc26e71b8b815d64a760d4cecb18ea609b15f080eaf96f98e16b95",
+    "sha256_literal_present": true
+  },
+  {
+    "id": "paper-crossref",
+    "url": "https://api.crossref.org/works/10.1371/journal.pone.0090081",
+    "retrieved_utc": "2026-10-21T17:04:48.790875+00:00",
+    "http_status": 200,
+    "status": "RETRIEVED",
+    "file": "paper-crossref.json",
+    "bytes": 23025,
+    "sha256": "331238607dac7a4d74b66ed7cfe80c1c640bad6861ecbf7e960f36ede2b2ab88",
+    "metadata": {
+      "DOI": "10.1371/journal.pone.0090081",
+      "title": [
+        "Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis)"
+      ],
+      "author": [
+        {
+          "given": "Kristen B.",
+          "family": "Gorman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tony D.",
+          "family": "Williams",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "William R.",
+          "family": "Fraser",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            5
+          ]
+        ]
+      },
+      "update-to": null,
+      "relation": {}
+    },
+    "limits": "Metadata retrieval does not by itself prove scientific claims or comprehensive retraction checks."
+  }
+]

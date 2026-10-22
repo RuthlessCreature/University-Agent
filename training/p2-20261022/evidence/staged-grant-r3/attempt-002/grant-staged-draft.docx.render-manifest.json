@@ -1,0 +1,31 @@
+{
+  "kind": "RENDERED_WORD",
+  "files": [
+    {
+      "path": "render-grant-staged-draft\\grant-staged-draft.pdf",
+      "sha256": "cdb8ab4de24621bc72c2241dcc3efbf6ada6a90fb6a30e522c5d1a0df307a5b9"
+    },
+    {
+      "path": "render-grant-staged-draft\\page-1.png",
+      "sha256": "0d67202ded35e9e1bf7bb8737fe9548db924823e01d7d4190cd448b854263fc5"
+    },
+    {
+      "path": "render-grant-staged-draft\\page-2.png",
+      "sha256": "aae9481774509166872f538408016558c171f57851324b22d16d2c311e2f0ad7"
+    },
+    {
+      "path": "render-grant-staged-draft\\page-3.png",
+      "sha256": "c7feb1b90509d0f8113e6e48203aee601e2eacfa368544dbde94a5682afbf33a"
+    },
+    {
+      "path": "render-grant-staged-draft\\page-4.png",
+      "sha256": "0d75d5cf2aca090ba5260d55ed437eee30e090a4f40d742563df8c2035b389df"
+    },
+    {
+      "path": "render-grant-staged-draft\\page-5.png",
+      "sha256": "ed319e9b49e9fc26c20ff67112135b7695f1e56f0b355981d3b14c67dc1f73c5"
+    }
+  ],
+  "word_sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+  "review_status": "VISUAL_AND_SCIENTIFIC_REVIEW_PENDING"
+}

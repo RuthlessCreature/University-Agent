@@ -1,0 +1,106 @@
+{
+  "id": "paper/01-public-data",
+  "route": "paper",
+  "title": "Adelie 企鹅鳍肢长度的公开数据二次分析",
+  "material_type": "public-data-secondary-analysis",
+  "skills": [
+    "research-intake",
+    "data-analysis",
+    "paper-drafting",
+    "citation-verification",
+    "claim-audit",
+    "academic-humanizer",
+    "paper-review"
+  ],
+  "steps": [
+    "intake",
+    "journal-requirements",
+    "analysis",
+    "methods-results",
+    "discussion-audit",
+    "humanize-export"
+  ],
+  "source_template_registry": "../../../templates/acquisition.json",
+  "sop": "../../../../../../University-Skills/docs/LOCAL_RESEARCH_SOP.md",
+  "execution_status": "NOT_RUN",
+  "expected_output_state": "DRAFT_READY",
+  "runner_materials": {
+    "template": "../../../templates/extracted/plos_latex_template.tex",
+    "sample-draft": "SAMPLE_METHODS_RESULTS.md",
+    "computed-statistics": "../../figure/01-public-data/output/statistics.json",
+    "export-profile": "export-profile.json"
+  },
+  "word_export_required": true,
+  "node_contracts": {
+    "intake": {
+      "goal": "逐份读取输入，登记公开事实、教学模拟、假说和缺失项。禁止根据题目补写团队基础。",
+      "output": "intake.json，含source_files、facts、missing、material_type；每条事实含原文定位。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "research-intake"
+      ]
+    },
+    "journal-requirements": {
+      "goal": "读取PLOS真实模板与课程Word profile。区分期刊LaTeX模板、课程Word工作稿和投稿要求；没有新政策正文就保留缺口。",
+      "output": "journal-map.json，列模板章节、声明项和当前未核验内容。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "paper-drafting"
+      ]
+    },
+    "analysis": {
+      "goal": "对输入CSV实际summarize_csv，写清344→152→146及每组73的筛选；不从示例稿反推数据。",
+      "output": "analysis.json，保存实际统计、分母、单位、来源行号和缺失口径。",
+      "required_tools": [
+        "summarize_csv",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "data-analysis"
+      ]
+    },
+    "methods-results": {
+      "goal": "读取上一步实际统计。仅写数据来源、筛选方法和描述结果，不补实验或因果推断。",
+      "output": "methods-results-section.json，含sections数组；原生表格用tables数组，列名、单位和行值明确。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "paper-drafting"
+      ]
+    },
+    "discussion-audit": {
+      "goal": "说明观测性、样本与独立性限制；未提供作者、伦理、资金与目标期刊声明均待核实。不得声称新发现。",
+      "output": "discussion-section.json，含sections、source_notes、unresolved_questions；不能重复已有表格。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "paper-review",
+        "claim-audit"
+      ]
+    },
+    "humanize-export": {
+      "goal": "读取前序实际section JSON，通过assemble_word_content合并，不重写整份长稿。逐句修订时保留数字、条件、来源与缺口。用export_word生成可编辑DOCX，再render_word。",
+      "output": "检查点列出合并JSON、实际DOCX及DOCX.render-manifest.json。渲染不代表视觉和科学审核通过。",
+      "required_tools": [
+        "assemble_word_content",
+        "export_word",
+        "render_word"
+      ],
+      "skill_ids": [
+        "academic-humanizer"
+      ]
+    }
+  },
+  "continue_with_documented_gaps": true,
+  "missing_input_rule": "标明缺失内容和blocking。没有核心输入、适用模板或无法核对关键数字时blocking=true并停止；不影响教学草稿的身份声明待确认可blocking=false，继续留缺口。"
+}

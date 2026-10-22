@@ -1,0 +1,150 @@
+[
+  {
+    "route": "grant",
+    "word": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\grant-tool-draft.docx",
+      "sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+      "profile_sha256": "7b6d9842e72736cd9407d522c3b7f6f66942788d9ec1c36c545eb9a3bbd79809",
+      "content_sha256": "0f80737a9807ddb9dcab860445540c0e63e7c920724a6939f3e899e4e6cd062f",
+      "detail": {
+        "reference_sha256": "33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10",
+        "preserved_package_parts": 11,
+        "filled_slots": [
+          "notice",
+          "background",
+          "research_content",
+          "research_foundation",
+          "conditions",
+          "ongoing_projects",
+          "completed_projects",
+          "same_year_applications",
+          "unit_consistency",
+          "ongoing_unit_consistency",
+          "professional_titles",
+          "ai_use",
+          "other_declarations"
+        ],
+        "removed_guidance_indices": [],
+        "pagination_changes": [
+          "keepLines",
+          "keepNext"
+        ]
+      },
+      "status": "WORD_DRAFT_WRITTEN_RENDER_REQUIRED",
+      "scientific_review": "NOT_PERFORMED",
+      "external_submission": false
+    },
+    "rendered": {
+      "word_sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+      "pdf": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\grant-tool-draft.pdf",
+      "pdf_sha256": "d60d0373d69d0f53330b51a82084a3a81758c05b62b38548d11c05737271a7e8",
+      "pages": 5,
+      "page_images": [
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-1.png",
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-2.png",
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-3.png",
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-4.png",
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-5.png"
+      ],
+      "log": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\grant-tool-draft.docx.render.json",
+      "status": "RENDERED_PENDING_VISUAL_AND_SCIENTIFIC_REVIEW"
+    },
+    "provider_api_called": false,
+    "scope": "Actual tool dispatch, original-template preservation and file rendering only"
+  },
+  {
+    "route": "patent",
+    "word": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\patent\\patent-tool-draft.docx",
+      "sha256": "a985fc36f2ae897a9d00a54cf509e5dbb3871a5c5bc0be30c328254a8c5c679e",
+      "profile_sha256": "85181f7fca57d24be6911ad5997d3faa6080e5f75ab33fe75f053f3699ae0b76",
+      "content_sha256": "f6a12914ae27d057b251121ce732e6e13fb682718fd13814c58b4ad9eac2f3cc",
+      "detail": {
+        "reference_sha256": "dfb55ccaa427c6d7cbdd0254a172a36fa0a3efdbaa92205501dce5eecb4d6dcd",
+        "preserved_package_parts": 9,
+        "filled_slots": [
+          "notice",
+          "name",
+          "technical_field",
+          "background",
+          "purpose",
+          "technical_solution",
+          "effects",
+          "drawings",
+          "embodiments"
+        ],
+        "removed_guidance_indices": [
+          2,
+          3,
+          5,
+          7,
+          9,
+          11,
+          12,
+          13,
+          14,
+          16,
+          18,
+          19,
+          21,
+          22,
+          23
+        ],
+        "pagination_changes": [
+          "keepLines",
+          "keepNext"
+        ]
+      },
+      "status": "WORD_DRAFT_WRITTEN_RENDER_REQUIRED",
+      "scientific_review": "NOT_PERFORMED",
+      "external_submission": false
+    },
+    "rendered": {
+      "word_sha256": "a985fc36f2ae897a9d00a54cf509e5dbb3871a5c5bc0be30c328254a8c5c679e",
+      "pdf": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\patent\\render-patent-tool-draft\\patent-tool-draft.pdf",
+      "pdf_sha256": "f99a3f5aefbd1aa484c50d836e58ef5d51c988617aca37f34de2c8a09cbc18ed",
+      "pages": 4,
+      "page_images": [
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\patent\\render-patent-tool-draft\\page-1.png",
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\patent\\render-patent-tool-draft\\page-2.png",
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\patent\\render-patent-tool-draft\\page-3.png",
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\patent\\render-patent-tool-draft\\page-4.png"
+      ],
+      "log": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\patent\\patent-tool-draft.docx.render.json",
+      "status": "RENDERED_PENDING_VISUAL_AND_SCIENTIFIC_REVIEW"
+    },
+    "provider_api_called": false,
+    "scope": "Actual tool dispatch, original-template preservation and file rendering only"
+  },
+  {
+    "route": "paper",
+    "word": {
+      "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\paper\\paper-tool-draft.docx",
+      "sha256": "cc6414af3f74c0ce45f9ab85093b68df58d5796826c8941da0654650fbf9af44",
+      "profile_sha256": "308363109f8a7033b4837d9d38da0f1ca766c5bb418a45d68274bbd7df8d9923",
+      "content_sha256": "717aedde568df80bc2a715d329c80808d6d193d389be82181c9674e7eb1ebece",
+      "detail": {
+        "template_status": "COURSE_WORKING_DOCUMENT_NOT_OFFICIAL_JOURNAL_WORD_TEMPLATE",
+        "section_count": 3,
+        "native_table_count": 1
+      },
+      "status": "WORD_DRAFT_WRITTEN_RENDER_REQUIRED",
+      "scientific_review": "NOT_PERFORMED",
+      "external_submission": false
+    },
+    "rendered": {
+      "word_sha256": "cc6414af3f74c0ce45f9ab85093b68df58d5796826c8941da0654650fbf9af44",
+      "pdf": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\paper\\render-paper-tool-draft\\paper-tool-draft.pdf",
+      "pdf_sha256": "870c7daf3db2246140f600de5dad86b1f7af6223a1403418049a6e2db8eaa783",
+      "pages": 2,
+      "page_images": [
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\paper\\render-paper-tool-draft\\page-1.png",
+        "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\paper\\render-paper-tool-draft\\page-2.png"
+      ],
+      "log": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\paper\\paper-tool-draft.docx.render.json",
+      "status": "RENDERED_PENDING_VISUAL_AND_SCIENTIFIC_REVIEW"
+    },
+    "provider_api_called": false,
+    "scope": "Actual tool dispatch, original-template preservation and file rendering only"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "kind": "data",
+  "means": [
+    10,
+    12
+  ],
+  "sample_sizes": null,
+  "raw_data": null,
+  "requested_error_bar": "95% CI"
+}

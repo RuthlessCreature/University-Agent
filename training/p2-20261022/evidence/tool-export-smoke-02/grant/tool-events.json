@@ -1,0 +1,283 @@
+{
+  "initiator": "Codex desktop explicit test driver; not provider-generated calls",
+  "provider_api_called": false,
+  "events": [
+    {
+      "time_utc": "2026-10-21T17:47:44.605303+00:00",
+      "tool": "read_material",
+      "arguments": {
+        "alias": "profile"
+      },
+      "status": "TOOL_EXECUTED",
+      "result": {
+        "alias": "profile",
+        "sha256": "7b6d9842e72736cd9407d522c3b7f6f66942788d9ec1c36c545eb9a3bbd79809",
+        "text": "{\n  \"version\": \"1.0\",\n  \"mode\": \"ooxml-slots\",\n  \"reference_alias\": \"template\",\n  \"reference_sha256\": \"33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10\",\n  \"slots\": [\n    {\n      \"id\": \"notice\",\n      \"paragraph_index\": 2,\n      \"anchor_xml_sha256\": \"15a497b516f449f9af3daabe6e30f73c2c735abe7a2f6257c5560e7132a63ec2\",\n      \"required\": true\n    },\n    {\n      \"id\": \"background\",\n      \"paragraph_index\": 5,\n      \"anchor_xml_sha256\": \"ad38cb435df97576cabb72f99852d46801408f9f32fd0476f6c9fa55e70a4fff\",\n      \"required\": true\n    },\n    {\n      \"id\": \"research_content\",\n      \"paragraph_index\": 8,\n      \"anchor_xml_sha256\": \"e12a35ccb9ce0f0095fe6dc9594e6055f565b2d16daf58eab311e5037a7e5053\",\n      \"required\": true\n    },\n    {\n      \"id\": \"research_foundation\",\n      \"paragraph_index\": 11,\n      \"anchor_xml_sha256\": \"966989db6e60fb5032cdb028a69f64827c4763c25b8c3bd914c1080b4bd2dfe7\",\n      \"required\": true\n    },\n    {\n      \"id\": \"conditions\",\n      \"paragraph_index\": 13,\n      \"anchor_xml_sha256\": \"3a87e5785be88ba71f0aca8ae3c46841a3b20c35332b819fcae1bcd31faf4f67\",\n      \"required\": true\n    },\n    {\n      \"id\": \"ongoing_projects\",\n      \"paragraph_index\": 15,\n      \"anchor_xml_sha256\": \"3a87e5785be88ba71f0aca8ae3c46841a3b20c35332b819fcae1bcd31faf4f67\",\n      \"required\": true\n    },\n    {\n      \"id\": \"completed_projects\",\n      \"paragraph_index\": 17,\n      \"anchor_xml_sha256\": \"5d0c0551048dd3a3857383794330e6996421654e80f6fcaf2603fefe95472d26\",\n      \"required\": true\n    },\n    {\n      \"id\": \"same_year_applications\",\n      \"paragraph_index\": 20,\n      \"anchor_xml_sha256\": \"7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee\",\n      \"required\": true\n    },\n    {\n      \"id\": \"unit_consistency\",\n      \"paragraph_index\": 22,\n      \"anchor_xml_sha256\": \"7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee\",\n      \"required\": true\n    },\n    {\n      \"id\": \"ongoing_unit_consistency\",\n      \"paragraph_index\": 24,\n      \"anchor_xml_sha256\": \"7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee\",\n      \"required\": true\n    },\n    {\n      \"id\": \"professional_titles\",\n      \"paragraph_index\": 26,\n      \"anchor_xml_sha256\": \"8614e8f8e2ec6eba8517629ceefd90f79b44dc5bbd4aadb5ada4c6937a281b84\",\n      \"required\": true\n    },\n    {\n      \"id\": \"ai_use\",\n      \"paragraph_index\": 28,\n      \"anchor_xml_sha256\": \"7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee\",\n      \"required\": true\n    },\n    {\n      \"id\": \"other_declarations\",\n      \"paragraph_index\": 30,\n      \"anchor_xml_sha256\": \"7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee\",\n      \"required\": true\n    }\n  ],\n  \"protected_paragraph_indices\": [\n    0,\n    1,\n    3,\n    4,\n    6,\n    7,\n    9,\n    10,\n    12,\n    14,\n    16,\n    18,\n    19,\n    21,\n    23,\n    25,\n    27,\n    29\n  ],\n  \"remove_guidance_indices\": [],\n  \"content_schema\": {\n    \"material_type\": \"teaching-simulation or public-data-secondary-analysis or implementation-teaching-example\",\n    \"slots\": {\n      \"notice\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"background\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"research_content\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"research_foundation\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"conditions\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"ongoing_projects\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"completed_projects\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"same_year_applications\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"unit_consistency\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"ongoing_unit_consistency\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"professional_titles\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"ai_use\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ],\n      \"other_declarations\": [\n        \"Actual draft text, or an explicit question if information is missing\"\n      ]\n    },\n    \"source_notes\": [\n      \"Actual source identifiers and file locations\"\n    ],\n    \"unresolved_questions\": [\n      \"Specific missing information\"\n    ]\n  },\n  \"scope\": \"Draft only. Protected paragraphs and non-document XML parts are preserved. No signature or scientific approval.\"\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T17:47:44.608303+00:00",
+      "tool": "read_material",
+      "arguments": {
+        "alias": "content"
+      },
+      "status": "TOOL_EXECUTED",
+      "result": {
+        "alias": "content",
+        "sha256": "0f80737a9807ddb9dcab860445540c0e63e7c920724a6939f3e899e4e6cd062f",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"notice\": [\n      \"教学模拟草稿。研究问题与方案为拟开展工作；真实申请人、团队基础、经费和项目记录尚未提供。\"\n    ],\n    \"background\": [\n      \"拟研究的问题是：在文献筛选时，为模型给出的纳入建议同时提供可回到原文的证据位置，是否会改变人工核验的错误率与耗时？这里的“证据位置”指论文内可以打开和核对的页码、段落或表格位置。模型建议纳入一篇论文时，核验者需要确认该论文是否符合事先制定的研究对象、方法和结果要求，不能只看模型摘要。\",\n      \"本教学方案把三个过程分开测量：模型是否找到了符合条件的文献，给出的证据是否支持筛选判断，核验者是否能及时发现错误。这样可以避免仅用最终纳入数量评价整个流程，也便于定位错误发生在哪一步。\",\n      \"上述问题的学术价值目前是研究设想，尚未完成系统文献检索，不能声称“国内外尚无研究”或“首次提出”。正式申请前须检索并阅读与模型辅助系统综述、证据定位、人工核验行为相关的原始研究，形成研究现状及不足的证据矩阵。缺口 G-Q01：目标学科与已有综述范围；G-Q02：已读原始论文及具体页段；G-Q03：本方案相对于已有方法的实质差异。\"\n    ],\n    \"research_content\": [\n      \"研究目标是识别证据位置提示对筛选判断的影响及适用条件。拟设置三种流程：人工独立筛选、模型提出建议后人工核验、模型提出建议并附证据位置后人工核验。不同流程应使用相同的纳入标准和可比的文献材料，记录实际模型版本、提示词及检索日期。模型升级后作为新版本处理，不把不同版本混合成一个实验条件。\",\n      \"第一项内容是建立可复核的材料集。根据拟定研究问题制定纳入与排除标准，登记文献标识、全文取得方式及合法使用范围。拟由独立人工判读建立参照，并保存分歧及处理记录。参照判读者数量、资格、是否盲法及分歧解决方法尚待研究者确认，不能在方法中写成已经执行。\",\n      \"第二项内容是比较三个流程的表现。拟记录符合条件文献的发现情况、错误纳入与错误排除、单篇实际核验用时、证据无法打开或不能支持判断的情况。计时起止点、分母、退出条件必须预先规定。不能把“模型给了链接”记作“证据正确”；需另行阅读相应原文位置。\",\n      \"第三项内容是分析影响条件。可考虑按全文长度、表格依赖程度、研究设计复杂性等预先定义的维度进行分层。分层数量须与可获得的样本量相适应。样本量和统计方案尚未确定，需根据主要评价指标、可接受误差和材料可得性论证，不能临时指定一个漂亮的整数。缺口 G-Q04：主要终点及样本量依据；G-Q05：重复判读及顺序效应控制；G-Q06：模型调用预算和失败处理规则。\",\n      \"拟定技术路线为：明确研究问题及筛选标准；取得并登记文献；建立独立人工参照；固定三种流程与版本；收集判断、定位证据与用时；核对分母和异常记录；比较结果并解释限制。对应可编辑文件为 route.mmd。路线中的每个“比较”都是拟开展工作，尚无结果。\",\n      \"年度安排及项目期限以正式指南和申请人条件为准。本案例暂不填写月份、经费或预期论文数量。可能的交付包括数据字典、可复现筛选记录、错误分类表及方法报告；具体考核指标需在申报类别明确后与指南逐项对应。\"\n    ],\n    \"research_foundation\": [\n      \"未提供申请人的相关论文、项目、工具、试验或预实验记录，保留待补充。公开模板和本课程样例不能作为团队研究基础。拟核对的可行性条件包括合法全文取得、稳定的材料读取工具、版本可记录的模型服务，以及具备学科判断能力的核验人员。\"\n    ],\n    \"conditions\": [\n      \"已有设备、数据权限、学校伦理或数据管理要求均待申请人确认。应说明能够在本地处理的材料与需要发送给外部服务的材料；未公开资料未经授权不外传。\"\n    ],\n    \"ongoing_projects\": [\n      \"待申请人提供。不能用“无”替代尚未询问的事实。\"\n    ],\n    \"completed_projects\": [\n      \"待申请人提供并核对项目编号、期限及成果。课程不生成证明或结题信息。\"\n    ],\n    \"same_year_applications\": [\n      \"待申请人提供同年申请信息，不能将未询问的事实填为“无”。\"\n    ],\n    \"unit_consistency\": [\n      \"待申请人与参与人员确认同年申请的单位信息。\"\n    ],\n    \"ongoing_unit_consistency\": [\n      \"待申请人与参与人员确认在研项目与单位信息。\"\n    ],\n    \"professional_titles\": [\n      \"待申请人及参与人员确认职称。\"\n    ],\n    \"ai_use\": [\n      \"本文件的教学方案与说明由 AI 协作起草；实际申请须按使用记录说明位置和内容，并由申请人核对。\"\n    ],\n    \"other_declarations\": [\n      \"按原模板逐项填写同年申请、单位一致性、职称及其他要求。涉及生成式人工智能辅助的位置与内容，应依据实际使用记录说明。本文件为 AI 协作形成的教学草稿，该说明不能替代真实申请人的当年申报声明。所有个人、单位、项目与签名信息保持待确认。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}\n",
+        "verification_scope": "Actual file text only; not scientific truth verification"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T17:47:44.723306+00:00",
+      "tool": "inspect_template",
+      "arguments": {
+        "alias": "template"
+      },
+      "status": "TOOL_EXECUTED",
+      "result": {
+        "sha256": "33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10",
+        "paragraphs": [
+          {
+            "index": 0,
+            "xml_sha256": "3d2d09a4f787f994cc9601622a1b01e8bd00d0cccaa278cd69500f29f4ca9e27",
+            "text": "报告正文（2026版）"
+          },
+          {
+            "index": 1,
+            "xml_sha256": "8465150dc902cb2a36714854cc3123028066bf96ab6990858ee75d04d9b77e47",
+            "text": "参照以下提纲撰写，要求内容翔实、清晰，层次分明，标题突出。申请书正文原则上不超过30页，鼓励简洁表达。请勿删除或改动下述提纲标题及括号中的文字。"
+          },
+          {
+            "index": 2,
+            "xml_sha256": "15a497b516f449f9af3daabe6e30f73c2c735abe7a2f6257c5560e7132a63ec2",
+            "text": ""
+          },
+          {
+            "index": 3,
+            "xml_sha256": "ceaf741e6b6b06aa1b40926d753e1a4d80a2dccc97248d609c62ece8881aa5f1",
+            "text": "（一）立项依据："
+          },
+          {
+            "index": 4,
+            "xml_sha256": "69b66b23b04c48030549318fe218d2afe8fd705dd66ff0d755dedd7b824ca5c4",
+            "text": "（为什么要开展此项研究，研究的科学技术价值如何）"
+          },
+          {
+            "index": 5,
+            "xml_sha256": "ad38cb435df97576cabb72f99852d46801408f9f32fd0476f6c9fa55e70a4fff",
+            "text": " "
+          },
+          {
+            "index": 6,
+            "xml_sha256": "065a952cdab521d87c56c9c5ef2396677eadae43fa0cf7650feff1ea5fdd43f0",
+            "text": "（二）研究内容："
+          },
+          {
+            "index": 7,
+            "xml_sha256": "762619a7ebdb89f937508f01ae8b8fa26e51eb5c4e419befd7e6e28c7144550d",
+            "text": "（提纲不做限制，请按照研究工作的自身逻辑撰写。应提炼出特色与创新点、年度研究计划）"
+          },
+          {
+            "index": 8,
+            "xml_sha256": "e12a35ccb9ce0f0095fe6dc9594e6055f565b2d16daf58eab311e5037a7e5053",
+            "text": "  "
+          },
+          {
+            "index": 9,
+            "xml_sha256": "e2f3830bbaebb7142283bbc70194d4e569970cb8980c9107072a8155e0b24ef9",
+            "text": "（三）研究基础："
+          },
+          {
+            "index": 10,
+            "xml_sha256": "d7e848ce6c82012a56e2b6cfca5cfa37680548ac0700d7d2695a1fa91ced0f38",
+            "text": "1．研究基础与可行性分析（与本项目相关的研究工作积累和已取得的研究工作成绩，研究风险的应对措施等）；"
+          },
+          {
+            "index": 11,
+            "xml_sha256": "966989db6e60fb5032cdb028a69f64827c4763c25b8c3bd914c1080b4bd2dfe7",
+            "text": "  "
+          },
+          {
+            "index": 12,
+            "xml_sha256": "f14fb2f3061247db43171cb0e1f366aeced4dd51d90c6f9f818077df9a8aa459",
+            "text": "2．工作条件（包括已具备的实验条件，尚缺少的实验条件和拟解决的途径，包括利用国家实验室、全国重点实验室和部门重点实验室等研究基地的计划与落实情况）；"
+          },
+          {
+            "index": 13,
+            "xml_sha256": "3a87e5785be88ba71f0aca8ae3c46841a3b20c35332b819fcae1bcd31faf4f67",
+            "text": "  "
+          },
+          {
+            "index": 14,
+            "xml_sha256": "3665f158c61c255e98bada208e2b910b2aab0d30f5f0a16f1faf714734285408",
+            "text": "3．正在承担的与本项目相关的科研项目情况（申请人和主要参与者正在承担的与本项目相关的科研项目情况，包括国家自然科学基金的项目和国家其他科技计划项目，要注明项目的资助机构、项目类别、批准号、项目名称、获资助金额、起止年月、与本项目的关系及负责的内容等）；"
+          },
+          {
+            "index": 15,
+            "xml_sha256": "3a87e5785be88ba71f0aca8ae3c46841a3b20c35332b819fcae1bcd31faf4f67",
+            "text": "  "
+          },
+          {
+            "index": 16,
+            "xml_sha256": "ca3c015590c48dc2d14dfabfa73ad40d57a998b58a8c28937e5d231c06fd01c4",
+            "text": "4．完成国家自然科学基金项目情况（对申请人负责的前一个已资助期满的科学基金项目（项目名称及批准号）完成情况、后续研究进展及与本申请项目的关系加以详细说明。另附该项目的研究工作总结摘要（限500字）和相关成果详细目录）。"
+          },
+          {
+            "index": 17,
+            "xml_sha256": "5d0c0551048dd3a3857383794330e6996421654e80f6fcaf2603fefe95472d26",
+            "text": "  "
+          },
+          {
+            "index": 18,
+            "xml_sha256": "4999e19a57cb79c1be1a94003b1e26df7a3e45453ade2fade7393f64c1aae7a8",
+            "text": "（四）其他需要说明的情况："
+          },
+          {
+            "index": 19,
+            "xml_sha256": "9f669a523be1f122280aa6854870ccd873117bdc6326bbff24b54803e83bca0e",
+            "text": "1. 申请人同年申请不同类型的国家自然科学基金项目情况（列明同年申请的其他项目的项目类型、项目名称信息，并说明与本项目之间的区别与联系；已收到自然科学基金委不予受理或不予资助决定的，无需列出）。"
+          },
+          {
+            "index": 20,
+            "xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+            "text": " "
+          },
+          {
+            "index": 21,
+            "xml_sha256": "beacc5fb558bfaeaae760bf20ec930dc3187108bcd7a81ec789929ee1d3aed8c",
+            "text": "2. 具有高级专业技术职务（职称）的申请人或者主要参与者是否存在同年申请或者参与申请国家自然科学基金项目的单位不一致的情况；如存在上述情况，列明所涉及人员的姓名，申请或参与申请的其他项目的项目类型、项目名称、单位名称、上述人员在该项目中是申请人还是参与者，并说明单位不一致原因。"
+          },
+          {
+            "index": 22,
+            "xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+            "text": " "
+          },
+          {
+            "index": 23,
+            "xml_sha256": "dc5bfefbaf4d64ec938f4c662cac970d377a9e9b1696248397f12adcf1817eb4",
+            "text": "具有高级专业技术职务（职称）的申请人或者主要参与者是否存在与正在承担的国家自然科学基金项目的单位不一致的情况；如存在上述情况，列明所涉及人员的姓名，正在承担项目的批准号、项目类型、项目名称、单位名称、起止年月，并说明单位不一致原因。"
+          },
+          {
+            "index": 24,
+            "xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+            "text": " "
+          },
+          {
+            "index": 25,
+            "xml_sha256": "f65900c134a2da8cbea9cdf9b85d6c61fd58f5e7c032f69f8f4889c8a675204d",
+            "text": "申请人和主要参与者同年以不同专业技术职务（职称）申请或参与申请科学基金项目的情况（应详细说明原因）。"
+          },
+          {
+            "index": 26,
+            "xml_sha256": "8614e8f8e2ec6eba8517629ceefd90f79b44dc5bbd4aadb5ada4c6937a281b84",
+            "text": " "
+          },
+          {
+            "index": 27,
+            "xml_sha256": "c3469c10cbe3d162f3e821f7b2671e168990d73b038b63df0c41ae003cdce06a",
+            "text": "5. 申请人在撰写本申请书时使用生成式人工智能的情况，请详细说明申请书中使用的位置和内容。"
+          },
+          {
+            "index": 28,
+            "xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+            "text": " "
+          },
+          {
+            "index": 29,
+            "xml_sha256": "01051724da7f617afa8ed8f0eaa686da55f9f0a78d20f080d4a0ea7615b1efcf",
+            "text": "6. 其他（包括但不限于使用以他人名义申报过的申请书；如有，请详细说明）。"
+          },
+          {
+            "index": 30,
+            "xml_sha256": "7b0dce693699480765a4d7bf12dbe96a0862696375035f576c86ae60b7c830ee",
+            "text": " "
+          }
+        ],
+        "scope": "Body paragraph inventory; template profile controls allowed insertions and instruction removal."
+      }
+    },
+    {
+      "time_utc": "2026-10-21T17:47:44.731307+00:00",
+      "tool": "save_draft",
+      "arguments": {
+        "name": "word-content.json",
+        "text": "{\n  \"material_type\": \"teaching-simulation\",\n  \"slots\": {\n    \"notice\": [\n      \"教学模拟草稿。研究问题与方案为拟开展工作；真实申请人、团队基础、经费和项目记录尚未提供。\"\n    ],\n    \"background\": [\n      \"拟研究的问题是：在文献筛选时，为模型给出的纳入建议同时提供可回到原文的证据位置，是否会改变人工核验的错误率与耗时？这里的“证据位置”指论文内可以打开和核对的页码、段落或表格位置。模型建议纳入一篇论文时，核验者需要确认该论文是否符合事先制定的研究对象、方法和结果要求，不能只看模型摘要。\",\n      \"本教学方案把三个过程分开测量：模型是否找到了符合条件的文献，给出的证据是否支持筛选判断，核验者是否能及时发现错误。这样可以避免仅用最终纳入数量评价整个流程，也便于定位错误发生在哪一步。\",\n      \"上述问题的学术价值目前是研究设想，尚未完成系统文献检索，不能声称“国内外尚无研究”或“首次提出”。正式申请前须检索并阅读与模型辅助系统综述、证据定位、人工核验行为相关的原始研究，形成研究现状及不足的证据矩阵。缺口 G-Q01：目标学科与已有综述范围；G-Q02：已读原始论文及具体页段；G-Q03：本方案相对于已有方法的实质差异。\"\n    ],\n    \"research_content\": [\n      \"研究目标是识别证据位置提示对筛选判断的影响及适用条件。拟设置三种流程：人工独立筛选、模型提出建议后人工核验、模型提出建议并附证据位置后人工核验。不同流程应使用相同的纳入标准和可比的文献材料，记录实际模型版本、提示词及检索日期。模型升级后作为新版本处理，不把不同版本混合成一个实验条件。\",\n      \"第一项内容是建立可复核的材料集。根据拟定研究问题制定纳入与排除标准，登记文献标识、全文取得方式及合法使用范围。拟由独立人工判读建立参照，并保存分歧及处理记录。参照判读者数量、资格、是否盲法及分歧解决方法尚待研究者确认，不能在方法中写成已经执行。\",\n      \"第二项内容是比较三个流程的表现。拟记录符合条件文献的发现情况、错误纳入与错误排除、单篇实际核验用时、证据无法打开或不能支持判断的情况。计时起止点、分母、退出条件必须预先规定。不能把“模型给了链接”记作“证据正确”；需另行阅读相应原文位置。\",\n      \"第三项内容是分析影响条件。可考虑按全文长度、表格依赖程度、研究设计复杂性等预先定义的维度进行分层。分层数量须与可获得的样本量相适应。样本量和统计方案尚未确定，需根据主要评价指标、可接受误差和材料可得性论证，不能临时指定一个漂亮的整数。缺口 G-Q04：主要终点及样本量依据；G-Q05：重复判读及顺序效应控制；G-Q06：模型调用预算和失败处理规则。\",\n      \"拟定技术路线为：明确研究问题及筛选标准；取得并登记文献；建立独立人工参照；固定三种流程与版本；收集判断、定位证据与用时；核对分母和异常记录；比较结果并解释限制。对应可编辑文件为 route.mmd。路线中的每个“比较”都是拟开展工作，尚无结果。\",\n      \"年度安排及项目期限以正式指南和申请人条件为准。本案例暂不填写月份、经费或预期论文数量。可能的交付包括数据字典、可复现筛选记录、错误分类表及方法报告；具体考核指标需在申报类别明确后与指南逐项对应。\"\n    ],\n    \"research_foundation\": [\n      \"未提供申请人的相关论文、项目、工具、试验或预实验记录，保留待补充。公开模板和本课程样例不能作为团队研究基础。拟核对的可行性条件包括合法全文取得、稳定的材料读取工具、版本可记录的模型服务，以及具备学科判断能力的核验人员。\"\n    ],\n    \"conditions\": [\n      \"已有设备、数据权限、学校伦理或数据管理要求均待申请人确认。应说明能够在本地处理的材料与需要发送给外部服务的材料；未公开资料未经授权不外传。\"\n    ],\n    \"ongoing_projects\": [\n      \"待申请人提供。不能用“无”替代尚未询问的事实。\"\n    ],\n    \"completed_projects\": [\n      \"待申请人提供并核对项目编号、期限及成果。课程不生成证明或结题信息。\"\n    ],\n    \"same_year_applications\": [\n      \"待申请人提供同年申请信息，不能将未询问的事实填为“无”。\"\n    ],\n    \"unit_consistency\": [\n      \"待申请人与参与人员确认同年申请的单位信息。\"\n    ],\n    \"ongoing_unit_consistency\": [\n      \"待申请人与参与人员确认在研项目与单位信息。\"\n    ],\n    \"professional_titles\": [\n      \"待申请人及参与人员确认职称。\"\n    ],\n    \"ai_use\": [\n      \"本文件的教学方案与说明由 AI 协作起草；实际申请须按使用记录说明位置和内容，并由申请人核对。\"\n    ],\n    \"other_declarations\": [\n      \"按原模板逐项填写同年申请、单位一致性、职称及其他要求。涉及生成式人工智能辅助的位置与内容，应依据实际使用记录说明。本文件为 AI 协作形成的教学草稿，该说明不能替代真实申请人的当年申报声明。所有个人、单位、项目与签名信息保持待确认。\"\n    ]\n  },\n  \"source_notes\": [\n    \"2026 面上项目原模板、填写说明和下载记录见 templates/acquisition.json。\"\n  ],\n  \"unresolved_questions\": [\n    \"研究期限、样本量依据、真实团队与已有项目材料待提供。\"\n  ]\n}\n"
+      },
+      "status": "TOOL_EXECUTED",
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\word-content.json",
+        "sha256": "0f80737a9807ddb9dcab860445540c0e63e7c920724a6939f3e899e4e6cd062f",
+        "status": "WRITTEN_DRAFT_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "time_utc": "2026-10-21T17:47:44.932846+00:00",
+      "tool": "export_word",
+      "arguments": {
+        "name": "grant-tool-draft.docx",
+        "profile_alias": "profile",
+        "content_name": "word-content.json"
+      },
+      "status": "TOOL_EXECUTED",
+      "result": {
+        "path": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\grant-tool-draft.docx",
+        "sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+        "profile_sha256": "7b6d9842e72736cd9407d522c3b7f6f66942788d9ec1c36c545eb9a3bbd79809",
+        "content_sha256": "0f80737a9807ddb9dcab860445540c0e63e7c920724a6939f3e899e4e6cd062f",
+        "detail": {
+          "reference_sha256": "33fcaac6283e58af701769e456312032880425be5d309e91f53ae0d86726ed10",
+          "preserved_package_parts": 11,
+          "filled_slots": [
+            "notice",
+            "background",
+            "research_content",
+            "research_foundation",
+            "conditions",
+            "ongoing_projects",
+            "completed_projects",
+            "same_year_applications",
+            "unit_consistency",
+            "ongoing_unit_consistency",
+            "professional_titles",
+            "ai_use",
+            "other_declarations"
+          ],
+          "removed_guidance_indices": [],
+          "pagination_changes": [
+            "keepLines",
+            "keepNext"
+          ]
+        },
+        "status": "WORD_DRAFT_WRITTEN_RENDER_REQUIRED",
+        "scientific_review": "NOT_PERFORMED",
+        "external_submission": false
+      }
+    },
+    {
+      "time_utc": "2026-10-21T17:48:12.443529+00:00",
+      "tool": "render_word",
+      "arguments": {
+        "name": "grant-tool-draft.docx"
+      },
+      "status": "TOOL_EXECUTED",
+      "result": {
+        "word_sha256": "3e79cb4e4f70463964bacfdc5b4105bbff656e9ded5c609efbae7fb564d005fe",
+        "pdf": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\grant-tool-draft.pdf",
+        "pdf_sha256": "d60d0373d69d0f53330b51a82084a3a81758c05b62b38548d11c05737271a7e8",
+        "pages": 5,
+        "page_images": [
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-1.png",
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-2.png",
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-3.png",
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-4.png",
+          "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\render-grant-tool-draft\\page-5.png"
+        ],
+        "log": "E:\\20261024\\University-Agent\\training\\p2-20261022\\evidence\\tool-export-smoke-02\\grant\\grant-tool-draft.docx.render.json",
+        "status": "RENDERED_PENDING_VISUAL_AND_SCIENTIFIC_REVIEW"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "figure/01-public-data",
+  "route": "figure",
+  "title": "Adelie 企鹅鳍肢长度分布图",
+  "material_type": "public-data-secondary-analysis",
+  "skills": [
+    "research-intake",
+    "data-analysis",
+    "data-figure",
+    "diagram",
+    "claim-audit"
+  ],
+  "steps": [
+    "intake",
+    "figure-spec",
+    "analysis-relations",
+    "draw",
+    "numeric-visual-audit",
+    "caption-export"
+  ],
+  "source_template_registry": "../../../templates/acquisition.json",
+  "sop": "../../../../../../University-Skills/docs/LOCAL_RESEARCH_SOP.md",
+  "execution_status": "DRAFT_READY",
+  "expected_output_state": "DRAFT_READY",
+  "runner": "Codex desktop tool execution; independent CLI probe failed",
+  "acceptance_scope": "Actual data analysis, SVG/PNG export, independent arithmetic and visual review; no separate provider API called",
+  "runner_materials": {
+    "computed-statistics": "output/statistics.json",
+    "plot-source": "../../../run_figure_case.py"
+  },
+  "node_contracts": {
+    "intake": {
+      "goal": "逐份读取输入，登记公开事实、教学模拟、假说和缺失项。禁止根据题目补写团队基础。",
+      "output": "intake.json，含source_files、facts、missing、material_type；每条事实含原文定位。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "research-intake"
+      ]
+    },
+    "figure-spec": {
+      "goal": "明确图回答的问题、数据字段、筛选、单位、分组、误差线含义。缺少不确定性定义时不能自选误差线。",
+      "output": "figure-spec.json，逐字段列明依据。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "data-figure",
+        "diagram"
+      ]
+    },
+    "analysis-relations": {
+      "goal": "实际计算CSV统计并核对缺失与分母。机制图案例则只组织带证据状态的关系，不能把假说画成实验结论。",
+      "output": "analysis.json或relations.json。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "data-analysis",
+        "diagram"
+      ]
+    },
+    "draw": {
+      "goal": "公开CSV案例调用plot_csv生成真实SVG、PNG、统计JSON、clean CSV、caption；不能只保存图的文字描述。机制草案另存可编辑Mermaid并标明假说。",
+      "output": "真实图文件与来源数据；公共数据图检查点必须列出上述五类文件。",
+      "required_tools": [
+        "plot_csv"
+      ],
+      "skill_ids": [
+        "data-figure",
+        "diagram"
+      ]
+    },
+    "numeric-visual-audit": {
+      "goal": "对实际图文件、统计和源CSV交叉核对样本、均值、单位、筛选及每点来源。没有看图工具时明确待视觉审查。",
+      "output": "figure-audit.json，逐项记实际检查及未完成项，不写自动科学通过。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "claim-audit",
+        "data-analysis"
+      ]
+    },
+    "caption-export": {
+      "goal": "整理实际图文件、图注、数据来源和未决项。原始数据二次分析与原创研究结果分别说明。",
+      "output": "delivery-index.json，引用前序实际文件与hash，不再画一张替代图。",
+      "required_tools": [
+        "read_material",
+        "save_draft"
+      ],
+      "skill_ids": [
+        "data-figure"
+      ]
+    }
+  },
+  "continue_with_documented_gaps": true,
+  "missing_input_rule": "标明缺失内容和blocking。没有核心输入、适用模板或无法核对关键数字时blocking=true并停止；不影响教学草稿的身份声明待确认可blocking=false，继续留缺口。",
+  "figure_export_required": true
+}

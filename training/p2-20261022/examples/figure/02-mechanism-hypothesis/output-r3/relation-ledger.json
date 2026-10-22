@@ -1,0 +1,29 @@
+{
+  "material_type": "teaching-hypothesis",
+  "source_file": "input/material.json",
+  "source_sha256": "fd2b1b7971d6d7e44e8c0f8d706360f4e41a70a968b05da5aad9752c5d2c2770",
+  "nodes": [
+    "证据位置提示",
+    "定位原文所需时间",
+    "核验判断"
+  ],
+  "edges": [
+    {
+      "from": "证据位置提示",
+      "to": "定位原文所需时间",
+      "status": "hypothesis"
+    },
+    {
+      "from": "定位原文所需时间",
+      "to": "核验判断",
+      "status": "hypothesis"
+    }
+  ],
+  "experimental_evidence": "NOT_PROVIDED",
+  "scientific_validation": "NOT_PERFORMED",
+  "image_model_called": false,
+  "questions": [
+    "需要明确每个节点的操作定义、测量方法和判定标准。",
+    "需要研究设计与数据，才能检验效应方向、因果关系和中介作用。"
+  ]
+}
